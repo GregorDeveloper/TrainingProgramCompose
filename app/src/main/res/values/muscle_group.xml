@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="neck">Neck</string>
+    <string name="traps">Traps</string>
+    <string name="shoulders">Shoulders</string>
+    <string name="chest">Chest</string>
+    <string name="lats">Lats</string>
+    <string name="biceps">Biceps</string>
+    <string name="triceps">Triceps</string>
+    <string name="forearms">Forearms</string>
+    <string name="abdominals">Abdominals</string>
+    <string name="middle_back">Middle back</string>
+    <string name="lower_back">Lower back</string>
+    <string name="glutes">Glutes</string>
+    <string name="abductors">Abductors</string>
+    <string name="quadriceps">Quadriceps</string>
+    <string name="adductors">Adductors</string>
+    <string name="hamstrings">Hamstrings</string>
+    <string name="calves">Calves</string>
+
+
+    <string name="isolation">Isolation</string>
+    <string name="strenght">Strenght</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="beginner">Beginner</string>
+    <string name="powerlifting">Powerlifting</string>
+    <string name="n_a">N/A</string>
+    <string name="compound">Compound</string>
+    <string name="olympic_weightlifting">Olympic weightlifting</string>
+    <string name="expert">expert</string>
+</resources>
