@@ -1,17 +1,16 @@
-package gregor.developer.trainingprogramcompose.screen.workout_screen
+package gregor.developer.trainingprogramcompose.screen.workout_screen.user_workout
 
 
-
-import android.util.Log
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
-import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
@@ -23,17 +22,18 @@ import gregor.developer.trainingprogramcompose.R
 import gregor.developer.trainingprogramcompose.utils.Routes
 
 
-
 @Composable
 fun UserWorkoutScreen(
-    viewModel: WorkScreenViewModel = hiltViewModel(),
+    viewModel: UserWorkoutScreenViewModel = hiltViewModel(),
     onNavigate: (String) -> Unit
 ) {
+    val trainingList = viewModel.itemsList!!.collectAsState(emptyList())
     ConstraintLayout(
         modifier = Modifier.fillMaxSize()
     ) {
 
         val (lazyColumn, iconButton) = createRefs()
+
 
         LazyColumn(modifier = Modifier
             .fillMaxSize()
@@ -44,21 +44,22 @@ fun UserWorkoutScreen(
                 bottom.linkTo(parent.bottom)
             }
         ) {
-            item {
-                Text(text = "First item")
-            }
-
-            items(5) { index ->
-                Text(text = "Item: $index")
-            }
-            item {
-                Text(text = "Last item")
+            itemsIndexed(trainingList.value, key = {
+                _, listItem ->
+                listItem.hashCode()
+            }) { index, item ->
+                UiUserWorkOutScreen(item) { event ->
+                    onNavigate(
+                        event
+                    )
+                }
             }
 
         }
         IconButton(
             onClick = {
-                onNavigate(Routes.WORKOUT_LIST + "/${viewModel.listId}" + "/${viewModel.itemId}"
+                onNavigate(
+                    Routes.WORKOUT_LIST + "/${viewModel.listId}" + "/${viewModel.itemId}"
                 )
             },
             modifier = Modifier.constrainAs(iconButton) {

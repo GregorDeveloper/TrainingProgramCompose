@@ -1,6 +1,5 @@
-package gregor.developer.trainingprogramcompose.screen.workout_screen
+package gregor.developer.trainingprogramcompose.screen.workout_screen.user_workout
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -15,31 +14,25 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import gregor.developer.training_program_compose.data.entity.WorkoutListItem
+import gregor.developer.trainingprogramcompose.screen.workout_screen.list_workout.WorkoutEvent
 import gregor.developer.trainingprogramcompose.utils.Routes
 
 
-@OptIn(ExperimentalMaterialApi::class)
 @Composable
 fun UiUserWorkOutScreen(
     item: WorkoutListItem,
-    onEvent: (WorkoutEvent) -> Unit
+    onEvent: (String) -> Unit
 ) {
     Card(
-        onClick = {
-
-        },
         modifier = Modifier.fillMaxWidth()
-            .padding(2.dp)
+            .padding(5.dp)
             .clickable {
-                       onEvent(
-                           WorkoutEvent.OnItemClick(
-                               Routes.WEIGHT_REPS + "/${item.id}"
-                           )
-                       )
+                onEvent(
+                    Routes.WEIGHT_REPS + "/${item.listId}"
+                )
             },
         backgroundColor = Color.DarkGray
     ) {

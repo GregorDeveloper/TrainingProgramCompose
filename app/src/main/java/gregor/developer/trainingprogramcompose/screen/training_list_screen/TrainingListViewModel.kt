@@ -85,7 +85,6 @@ class TrainingListViewModel @Inject constructor(
         }
     }
 
-
     override fun onDialogEvent(event: DialogEvent) {
         when (event) {
             is DialogEvent.OnCancel -> {

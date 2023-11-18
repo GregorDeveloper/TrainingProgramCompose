@@ -1,4 +1,4 @@
-package gregor.developer.trainingprogramcompose.screen.workout_screen
+package gregor.developer.trainingprogramcompose.screen.workout_screen.list_workout
 
 
 import androidx.compose.foundation.Image

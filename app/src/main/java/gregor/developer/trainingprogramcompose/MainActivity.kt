@@ -2,6 +2,7 @@ package gregor.developer.trainingprogramcompose
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
+import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -51,11 +52,13 @@ class MainActivity : ComponentActivity() {
                     //color = MaterialTheme.colorScheme.background
                 ) {
                     MainNavigationGraph()
+
                   // SwipeApp()
                 }
             }
         }
     }
+
 
 
     @OptIn(ExperimentalMaterialApi::class)
@@ -98,7 +101,8 @@ class MainActivity : ComponentActivity() {
                         }
 
                         Box(
-                            modifier = Modifier.fillMaxSize()
+                            modifier = Modifier
+                                .fillMaxSize()
                                 .background(color)
                                 .padding(horizontal = 20.dp, vertical = 6.dp)
                         ) {

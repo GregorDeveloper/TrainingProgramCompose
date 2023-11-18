@@ -70,7 +70,6 @@ fun UiTrainingListItem(
                         fontSize = 16.sp
                     )
                 )
-
                 Text(
                     text = item.numberOfList.toString(),
                     style = TextStyle(
@@ -80,7 +79,6 @@ fun UiTrainingListItem(
                 )
             }
         }
-
         IconButton(
             onClick = {
                 onEvent(TrainingListEvent.OnShowDeleteDialog(item))
@@ -100,7 +98,6 @@ fun UiTrainingListItem(
                 tint = Color.White
             )
         }
-
         IconButton(
             onClick = {
                 onEvent(TrainingListEvent.OnShowEditDialog(item))

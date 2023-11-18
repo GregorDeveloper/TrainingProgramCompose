@@ -9,8 +9,8 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import gregor.developer.training_program_compose.weight_reps_screen.WeightRepsScreen
 import gregor.developer.trainingprogramcompose.screen.main_screen.MainScreen
-import gregor.developer.trainingprogramcompose.screen.workout_screen.UserWorkoutScreen
-import gregor.developer.trainingprogramcompose.screen.workout_screen.WorkoutScreen
+import gregor.developer.trainingprogramcompose.screen.workout_screen.user_workout.UserWorkoutScreen
+import gregor.developer.trainingprogramcompose.screen.workout_screen.list_workout.WorkoutScreen
 import gregor.developer.trainingprogramcompose.utils.Routes
 
 @Composable
@@ -28,7 +28,6 @@ fun MainNavigationGraph(
                 }
             )
         ) {
-
             UserWorkoutScreen() { route ->
                 navController.navigate(route)
             }
@@ -46,7 +45,7 @@ fun MainNavigationGraph(
                 }
             )
         ) {
-            WorkoutScreen()
+            WorkoutScreen(navController)
         }
         composable(Routes.WEIGHT_REPS + "/{listId}",
             arguments = listOf(
@@ -55,7 +54,9 @@ fun MainNavigationGraph(
                     defaultValue = -1
                 }
             )) {
-            WeightRepsScreen()
+            WeightRepsScreen(){route ->
+                navController.navigate(route)
+            }
         }
         composable(Routes.MAIN_SCREEN) {
             MainScreen(navController)

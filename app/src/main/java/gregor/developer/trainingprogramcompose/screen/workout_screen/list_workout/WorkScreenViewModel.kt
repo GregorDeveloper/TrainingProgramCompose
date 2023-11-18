@@ -1,13 +1,15 @@
-package gregor.developer.trainingprogramcompose.screen.workout_screen
+package gregor.developer.trainingprogramcompose.screen.workout_screen.list_workout
 
 import android.util.Log
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import androidx.navigation.NavController
 import dagger.hilt.android.lifecycle.HiltViewModel
 import gregor.developer.training_program_compose.data.entity.WorkoutListItem
 import gregor.developer.training_program_compose.data.repository.WorkOutListRepository
+import gregor.developer.trainingprogramcompose.data.static_data.MuscleItem
 import gregor.developer.trainingprogramcompose.data.static_data.MuscleList
 import gregor.developer.trainingprogramcompose.data.static_data.WorkoutItem
 import gregor.developer.trainingprogramcompose.dialog.dialog_description.DialogDescriptionController
@@ -21,7 +23,7 @@ import javax.inject.Inject
 class WorkScreenViewModel @Inject constructor(
     private val repository: WorkOutListRepository,
     savedStateHandle: SavedStateHandle,
-    private val stringResProv: StringResourcesProvider
+    private val stringResProv: StringResourcesProvider,
 ) : ViewModel(), DialogDescriptionController {
 
     var itemsList: Flow<List<WorkoutListItem>>? = null
@@ -29,12 +31,13 @@ class WorkScreenViewModel @Inject constructor(
     var listId: Int? = null
     var itemId: Int? = null
     val searchWorkout = mutableStateOf("")
+    private var groupMuscleSave: String = "Neck"
+
+
     init {
         listId = savedStateHandle.get<Int>("listId")
         itemId = savedStateHandle.get<Int>("itemId") ?: -1
-        Log.d("MyLog", "list Id: $listId " + "item Id: $itemId")
         itemsList = listId?.let { repository.getAllItemsById(it) }
-
     }
 
     override var workoutImage = mutableStateOf(0)
@@ -52,10 +55,11 @@ class WorkScreenViewModel @Inject constructor(
 
     val muscleGroup = MuscleList()
     val itemGroup = mutableStateOf<List<WorkoutItem>>(muscleGroup.workoutNeck)
+    val listSelected = mutableStateOf<List<WorkoutItem>>(muscleGroup.workoutNeck)
+    val groupList = mutableStateOf<List<MuscleItem>>(muscleGroup.muscleGroupList)
 
 
     fun onEvent(event: WorkoutEvent) {
-
         when (event) {
             is WorkoutEvent.OnItemSave -> {
                 viewModelScope.launch {
@@ -63,12 +67,13 @@ class WorkScreenViewModel @Inject constructor(
                     repository.insertItem(
                         WorkoutListItem(
                             workoutListItem?.id,
-                            stringResProv.getString(event.item.name),
+                            event.item,
                             listId!!,
                             0
                         )
                     )
                     workoutListItem = null
+
                 }
 
             }
@@ -96,111 +101,170 @@ class WorkScreenViewModel @Inject constructor(
             }
 
             is WorkoutEvent.OnSearchWorkout -> {
-
+                Log.d("MyLog", "Event")
+                filterGroupList(searchWorkout.value)
             }
+
         }
     }
 
-    override fun onDialogDescriptionEvent(event: DialogDescriptionEvent) {
 
+    override fun onDialogDescriptionEvent(event: DialogDescriptionEvent) {
         when (event) {
             is DialogDescriptionEvent.OnCancel -> {
                 openDialogDescription.value = false
+
             }
 
             is DialogDescriptionEvent.OnConfirm -> {
+                onEvent(WorkoutEvent.OnItemSave(event.item))
                 openDialogDescription.value = false
+
             }
         }
     }
 
-    fun getListWorkOut(group: String) {
+//    fun filterWorkoutList(search: String): List<WorkoutItem> {
+//        if (search.isEmpty()) {
+//            getListWorkOut(groupMuscleSave)
+//            groupList.value = muscleGroup.muscleGroupList
+//        } else {
+//            filterGroupList(search)
+//        }
+//        Log.d("MyLog", "filterWorkoutList")
+//        return itemGroup.value
+//    }
+
+
+    private fun filterGroupList(search: String) {
+        val listWorkout = listOf<List<WorkoutItem>>(
+            muscleGroup.workoutNeck,
+            muscleGroup.workoutTraps,
+            muscleGroup.workoutShoulders,
+            muscleGroup.workoutChest,
+            muscleGroup.workoutLats,
+            muscleGroup.workoutBiceps,
+            muscleGroup.workoutTriceps,
+            muscleGroup.workoutForearms,
+            muscleGroup.workoutAbdominals,
+            muscleGroup.workoutMiddleBack,
+            muscleGroup.workoutLowerBack,
+            muscleGroup.workoutGlutes,
+            muscleGroup.workoutAbductors,
+            muscleGroup.workoutQuadriceps,
+            muscleGroup.workoutAdductors,
+            muscleGroup.workoutHamstrings,
+            muscleGroup.workoutCalves,
+        )
+        val editListWorkout: MutableList<WorkoutItem> = emptyList<WorkoutItem>().toMutableList()
+        val editListGroup: MutableSet<MuscleItem> = emptyList<MuscleItem>().toMutableSet()
+        val editListTest: MutableSet<String> = emptyList<String>().toMutableSet()
+        for (i in 0..listWorkout.size - 1) {
+            for (liNew in listWorkout.get(i)) {
+                if (stringResProv.getString(liNew.name).lowercase().contains(search.lowercase())) {
+                    if (listWorkout.get(i) == listSelected.value) {
+                        editListWorkout.add(liNew)
+                    }
+                    editListGroup.add(muscleGroup.muscleGroupList.get(i))
+                }
+            }
+            editListTest.add(listWorkout.get(i).toString())
+        }
+        itemGroup.value = editListWorkout
+        groupList.value = editListGroup.toList()
+        Log.d("MyLog", editListTest.toString())
+    }
+
+    fun getListWorkOut(group: String): List<WorkoutItem> {
         when (group) {
             "Neck" -> {
-                itemGroup.value.isEmpty()
+                groupMuscleSave = group
                 itemGroup.value = muscleGroup.workoutNeck
             }
 
             "Traps" -> {
-                itemGroup.value.isEmpty()
+                groupMuscleSave = group
                 itemGroup.value = muscleGroup.workoutTraps
             }
 
             "Shoulders" -> {
-                itemGroup.value.isEmpty()
+                groupMuscleSave = group
                 itemGroup.value = muscleGroup.workoutShoulders
             }
 
             "Chest" -> {
-                itemGroup.value.isEmpty()
+                groupMuscleSave = group
                 itemGroup.value = muscleGroup.workoutChest
             }
 
             "Lats" -> {
-                itemGroup.value.isEmpty()
+                groupMuscleSave = group
                 itemGroup.value = muscleGroup.workoutLats
             }
 
             "Biceps" -> {
-                itemGroup.value.isEmpty()
+                groupMuscleSave = group
                 itemGroup.value = muscleGroup.workoutBiceps
             }
 
             "Triceps" -> {
-                itemGroup.value.isEmpty()
+                groupMuscleSave = group
                 itemGroup.value = muscleGroup.workoutTriceps
             }
 
             "Forearms" -> {
-                itemGroup.value.isEmpty()
+                groupMuscleSave = group
                 itemGroup.value = muscleGroup.workoutForearms
             }
 
             "Abdominals" -> {
-                itemGroup.value.isEmpty()
+                groupMuscleSave = group
                 itemGroup.value = muscleGroup.workoutAbdominals
             }
 
             "Middle back" -> {
-                itemGroup.value.isEmpty()
+                groupMuscleSave = group
                 itemGroup.value = muscleGroup.workoutMiddleBack
             }
 
             "Lower back" -> {
-                itemGroup.value.isEmpty()
+                groupMuscleSave = group
                 itemGroup.value = muscleGroup.workoutLowerBack
             }
 
             "Glutes" -> {
-                itemGroup.value.isEmpty()
+                groupMuscleSave = group
                 itemGroup.value = muscleGroup.workoutGlutes
             }
 
             "Abductors" -> {
-                itemGroup.value.isEmpty()
+                groupMuscleSave = group
                 itemGroup.value = muscleGroup.workoutAbductors
             }
 
             "Quadriceps" -> {
-                itemGroup.value.isEmpty()
+                groupMuscleSave = group
                 itemGroup.value = muscleGroup.workoutQuadriceps
             }
 
             "Adductors" -> {
-                itemGroup.value.isEmpty()
+                groupMuscleSave = group
                 itemGroup.value = muscleGroup.workoutAdductors
             }
 
             "Hamstrings" -> {
-                itemGroup.value.isEmpty()
+                groupMuscleSave = group
                 itemGroup.value = muscleGroup.workoutHamstrings
             }
 
             "Calves" -> {
-                itemGroup.value.isEmpty()
+                groupMuscleSave = group
                 itemGroup.value = muscleGroup.workoutCalves
             }
         }
+        listSelected.value = itemGroup.value
+        filterGroupList(searchWorkout.value)
+        return itemGroup.value
     }
 
 

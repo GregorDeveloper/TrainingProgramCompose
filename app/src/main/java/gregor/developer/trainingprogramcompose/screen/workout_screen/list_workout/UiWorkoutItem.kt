@@ -1,6 +1,5 @@
-package gregor.developer.trainingprogramcompose.screen.workout_screen
+package gregor.developer.trainingprogramcompose.screen.workout_screen.list_workout
 
-import android.util.Log
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
@@ -8,7 +7,6 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Card
-import androidx.compose.material.ExperimentalMaterialApi
 
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
@@ -19,12 +17,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import gregor.developer.trainingprogramcompose.R
 import gregor.developer.trainingprogramcompose.data.static_data.WorkoutItem
-import gregor.developer.trainingprogramcompose.screen.training_list_screen.TrainingListEvent
 
 
 @Composable

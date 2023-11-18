@@ -1,6 +1,7 @@
 package gregor.developer.trainingprogramcompose.screen.main_screen
 
 import android.annotation.SuppressLint
+import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.FabPosition
 import androidx.compose.material.FloatingActionButton
@@ -55,4 +56,12 @@ fun MainScreen(
         }
         MainDialog(viewModel)
     }
+    BackHandler {
+        navController.popBackStack()
+    }
+}
+
+@Composable
+fun back(){
+
 }

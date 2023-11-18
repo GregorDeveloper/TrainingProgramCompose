@@ -7,7 +7,7 @@ import androidx.navigation.compose.composable
 import gregor.developer.trainingprogramcompose.screen.progress_screen.ProgressScreen
 import gregor.developer.trainingprogramcompose.screen.settings_screen.SettingsScreen
 import gregor.developer.trainingprogramcompose.screen.training_list_screen.TrainingListScreen
-import gregor.developer.trainingprogramcompose.screen.workout_screen.WorkoutScreen
+import gregor.developer.trainingprogramcompose.screen.workout_screen.list_workout.WorkoutScreen
 import gregor.developer.trainingprogramcompose.utils.Routes
 
 @Composable
@@ -26,7 +26,7 @@ fun NavigationGraph(navController: NavHostController,
             ProgressScreen()
         }
         composable(Routes.WORKOUT_LIST){
-            WorkoutScreen()
+            WorkoutScreen(navController)
         }
         composable(Routes.SETTINGS){
             SettingsScreen()

@@ -7,7 +7,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
-import androidx.compose.material.DismissDirection
 import androidx.compose.material.DismissValue
 import androidx.compose.material.Divider
 import androidx.compose.material.ExperimentalMaterialApi
@@ -21,10 +20,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import gregor.developer.trainingprogramcompose.data.swipe_to_dismiss.ParameterSwipeItem
-import gregor.developer.trainingprogramcompose.screen.swipe_fragment.SwipeItem
+import gregor.developer.trainingprogramcompose.screen.swipe_screen.SwipeItem
 import gregor.developer.trainingprogramcompose.dialog.MainDialog
 import gregor.developer.trainingprogramcompose.utils.UiEvent
-
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
@@ -32,23 +30,19 @@ fun TrainingListScreen(
     viewModel: TrainingListViewModel = hiltViewModel(),
     onNavigate: (String) -> Unit
 ) {
-
     val trainingList = viewModel.list.collectAsState(initial = emptyList())
-
     LaunchedEffect(key1 = true) {
         viewModel.uiEvent.collect { uiEvent ->
             when (uiEvent) {
                 is UiEvent.Navigate -> {
                     onNavigate(uiEvent.route)
                 }
-
                 else -> {
 
                 }
             }
         }
     }
-    val coroutineScope = rememberCoroutineScope()
     LazyColumn(
         modifier = Modifier
             .fillMaxSize(),
@@ -107,6 +101,7 @@ fun TrainingListScreen(
                 dismissContent = {
                     UiTrainingListItem(item) { event ->
                         viewModel.onEvent(event)
+                        Log.d("MyLog", event.toString())
                     }
                 },
             )

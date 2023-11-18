@@ -28,15 +28,18 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
+import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.navigation.NavHostController
 import gregor.developer.trainingprogramcompose.R
 import gregor.developer.trainingprogramcompose.data.static_data.WorkoutItem
 import gregor.developer.trainingprogramcompose.dialog.DialogEvent
+import gregor.developer.trainingprogramcompose.utils.Routes
 
 
 @Composable
 fun DialogDescription(
     dialogDescriptionController: DialogDescriptionController,
-
+    navController: NavHostController
 ) {
     if (dialogDescriptionController.openDialogDescription.value) {
         Dialog(
@@ -118,7 +121,10 @@ fun DialogDescription(
                         if (dialogDescriptionController.addWorkoutItem.value) {
                             Button(
                                 onClick = {
-                                          dialogDescriptionController.onDialogDescriptionEvent(DialogDescriptionEvent.OnConfirm)
+                                          dialogDescriptionController
+                                              .onDialogDescriptionEvent(DialogDescriptionEvent
+                                                  .OnConfirm(dialogDescriptionController.workoutName.value))
+                                    navController.popBackStack()
                                 },
                                 colors = ButtonDefaults.buttonColors(
                                     backgroundColor = Color.Gray,

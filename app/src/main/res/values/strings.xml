@@ -8,5 +8,8 @@
     <string name="training_name">Training name</string>
     <string name="cancel">cancel</string>
     <string name="ok">ok</string>
+    <string name="NewTraining">New training</string>
+    <string name="OldTraining">Old training</string>
+    <string name="Note">Note</string>
 
 </resources>
