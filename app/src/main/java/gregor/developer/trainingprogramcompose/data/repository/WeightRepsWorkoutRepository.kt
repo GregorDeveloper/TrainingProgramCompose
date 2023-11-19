@@ -9,5 +9,7 @@ interface WeightRepsWorkoutRepository {
 
     suspend fun deleteItem(item: WeightRepsWorkoutItem)
 
-    fun getAllItemsByName(workoutName: String): Flow<List<WeightRepsWorkoutItem>>
+    fun getAllItemsCurrentTime(workoutName: String): Flow<List<WeightRepsWorkoutItem>>
+
+    suspend fun getCurrentWeightReps(workoutName: String, currentTime: String): WeightRepsWorkoutItem
 }

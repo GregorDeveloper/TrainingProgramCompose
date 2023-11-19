@@ -47,11 +47,15 @@ fun MainNavigationGraph(
         ) {
             WorkoutScreen(navController)
         }
-        composable(Routes.WEIGHT_REPS + "/{listId}",
+        composable(Routes.WEIGHT_REPS + "/{listId}" + "/{workoutName}",
             arguments = listOf(
                 navArgument("listId") {
                     type = NavType.IntType
                     defaultValue = -1
+                },
+                navArgument("workoutName"){
+                    type = NavType.StringType
+                    defaultValue = ""
                 }
             )) {
             WeightRepsScreen(){route ->

@@ -1,5 +1,6 @@
 package gregor.developer.trainingprogramcompose.screen.weight_reps_screen
 
+import android.util.Log
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -9,11 +10,14 @@ import javax.inject.Inject
 class WeightRepsViewModel @Inject constructor(
     savedStateHandle: SavedStateHandle,
 ): ViewModel(){
-
     var listId: Int? = null
+    var workoutName: String? = null
 
     init {
         listId = savedStateHandle.get<Int>("listId")
-       // itemsList = listId?.let { repository.getAllItemsById(it) }
+        workoutName = savedStateHandle.get<String>("workoutName")
+        Log.d("MyLog", listId.toString() + ","
+                + workoutName + " Start screen weight reps")
+        // itemsList = listId?.let { repository.getAllItemsById(it) }
     }
 }

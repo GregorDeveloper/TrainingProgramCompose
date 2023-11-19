@@ -57,6 +57,8 @@ class UserWorkoutScreenViewModel @Inject constructor(
             is UserWorkoutEvent.OnEditItem -> {
 
             }
+
+            else -> {}
         }
     }
 
@@ -64,18 +66,18 @@ class UserWorkoutScreenViewModel @Inject constructor(
         when(event){
             is DialogEvent.OnCancel -> {
                 openDialog.value = false
-               // cancelSwipe.value = true
+                // cancelSwipe.value = true
             }
             is DialogEvent.OnConfirm -> {
                 if (showEditableText.value) {
-                   // onEvent(TrainingListEvent.OnItemSave)
+                    // onEvent(TrainingListEvent.OnItemSave)
 
                 } else {
                     viewModelScope.launch {
                         workoutListItem?.let { repository.deleteItem(it) }
                     }
                 }
-               // cancelSwipe.value = true
+                // cancelSwipe.value = true
                 openDialog.value = false
             }
             else -> {

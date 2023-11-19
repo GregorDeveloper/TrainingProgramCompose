@@ -71,8 +71,8 @@ fun WeightRepsScreen(
     ) {
 
 
-        WeightRepsNavigationGraph(navController)
-        //   mainNavController.navigate(route)
+        WeightRepsNavigationGraph(navController, viewModel.workoutName!!)
+
 
 //       // MainDialog(viewModel)
         BackHandler() {
