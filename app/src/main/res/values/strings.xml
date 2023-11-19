@@ -11,5 +11,7 @@
     <string name="NewTraining">New training</string>
     <string name="OldTraining">Old training</string>
     <string name="Note">Note</string>
+    <string name="weight">Weight</string>
+    <string name="reps">Reps</string>
 
 </resources>
