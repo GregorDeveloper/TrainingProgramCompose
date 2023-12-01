@@ -79,7 +79,6 @@ fun WeightRepsScreen(
             onNavigate(
                 Routes.USER_WORKOUT_LIST + "/${viewModel.listId}"
             )
-
         }
     }
 

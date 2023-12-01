@@ -8,7 +8,7 @@ data class WeightRepsWorkoutItem(
     @PrimaryKey
     val id: Int? = null,
     val workOutName: String,
-    val weight: String,
-    val reps: String,
+    var weight: String,
+    var reps: String,
     val date: String
 )

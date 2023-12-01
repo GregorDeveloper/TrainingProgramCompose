@@ -1,6 +1,7 @@
 package gregor.developer.trainingprogramcompose.screen.workout_screen.user_workout
 
 
+import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -75,5 +76,11 @@ fun UserWorkoutScreen(
                     .background(Color.DarkGray)
             )
         }
+    }
+
+    BackHandler() {
+        onNavigate(
+            Routes.MAIN_SCREEN
+        )
     }
 }

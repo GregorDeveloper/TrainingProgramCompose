@@ -17,18 +17,20 @@ fun WeightRepsNavigationGraph(
     workoutName: String
 ) {
 
-    NavHost(navController = navController, startDestination = Routes.NEW_WEIGHT_REPS + "/{workoutName}"){
+    NavHost(navController = navController, startDestination = Routes.NEW_WEIGHT_REPS
+        //   + "/{workoutName}"
+    ){
 
         composable(Routes.NEW_WEIGHT_REPS
-                + "/{workoutName}",
-            arguments = listOf(
-                navArgument("workoutName") {
-                    type = NavType.StringType
-                    defaultValue = ""
-                }
-            )
+//                + "/{workoutName}",
+//            arguments = listOf(
+//                navArgument("workoutName") {
+//                    type = NavType.StringType
+//                    defaultValue = ""
+//                }
+//            )
         ){
-            NewWeightRepsScreen(workoutName = workoutName)
+            NewWeightRepsScreen()
         }
 
         composable(Routes.OLD_WEIGHT_REPS){

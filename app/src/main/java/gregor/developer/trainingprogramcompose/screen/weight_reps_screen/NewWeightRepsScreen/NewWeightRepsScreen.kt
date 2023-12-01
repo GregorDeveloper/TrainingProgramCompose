@@ -17,6 +17,8 @@ import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -39,13 +41,12 @@ import gregor.developer.trainingprogramcompose.screen.training_list_screen.Train
 @Composable
 fun NewWeightRepsScreen(
     viewModel: NewWeightRepsViewModel = hiltViewModel(),
-    workoutName: String
 ) {
 //Update
-    viewModel.workoutName = workoutName
+    val gameUiState by viewModel.uiStateTest.collectAsState()
     val testList = listOf<WeightRepsWorkoutItem>(
         WeightRepsWorkoutItem(
-            workOutName = "viewModel.workoutName!!",
+            workOutName = viewModel.item.value?.weight ?: "asd",
             weight = "80",
             reps = "10",
             date = "20.03.23"
@@ -74,7 +75,7 @@ fun NewWeightRepsScreen(
         ) {
             Column(modifier = Modifier.fillMaxSize()) {
                 Text(
-                    text = "viewModel.workoutName" ?: "Error",
+                    text = viewModel.item.value?.weight ?: "asd",
                     modifier = Modifier.fillMaxWidth(),
                     style = TextStyle(
                         color = Color.Green,
@@ -127,16 +128,26 @@ fun NewWeightRepsScreen(
                         .fillMaxSize()
                 ) {
                     itemsIndexed(
-                        testList
+                        gameUiState
                     ) { index, item ->
                         UiNewWeightRepsScreen(item, index + 1)
                     }
                 }
 
+                Text(
+                    text = viewModel.item.value?.weight ?: "asd",
+                    modifier = Modifier.fillMaxWidth(),
+                    style = TextStyle(
+                        color = Color.Green,
+                        fontSize = 18.sp
+                    ),
+                    textAlign = TextAlign.Center
+                )
+
             }
         }
         IconButton(onClick = {
-              viewModel.onEvent(NewWeightRepsEvent.OnShowDialog)
+            viewModel.onEvent(NewWeightRepsEvent.OnShowDialog)
         },
             modifier = Modifier
                 .constrainAs(iconButton) {
@@ -159,6 +170,6 @@ fun NewWeightRepsScreen(
         }
     }
 
-      DialogWeightReps(viewModel)
+    DialogWeightReps(viewModel)
 
 }
