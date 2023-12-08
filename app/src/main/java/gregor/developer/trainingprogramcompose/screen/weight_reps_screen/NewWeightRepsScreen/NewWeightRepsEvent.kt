@@ -5,8 +5,11 @@ import gregor.developer.trainingprogramcompose.dialog.DialogEvent
 
 sealed class NewWeightRepsEvent{
 
-    data class OnItemSave(val weight: String, val reps: String): NewWeightRepsEvent()
+    object OnItemSave: NewWeightRepsEvent()
+    data class OnShowEditDialog(val index: Int): NewWeightRepsEvent()
+    data class OnDeleteDialog(val index: Int): NewWeightRepsEvent()
+    object OnDeleteItem: NewWeightRepsEvent()
     object OnShowDialog: NewWeightRepsEvent()
-    object OnCancel: NewWeightRepsEvent()
-    object OnConfirm: NewWeightRepsEvent()
+//    object OnCancel: NewWeightRepsEvent()
+//    object OnConfirm: NewWeightRepsEvent()
 }

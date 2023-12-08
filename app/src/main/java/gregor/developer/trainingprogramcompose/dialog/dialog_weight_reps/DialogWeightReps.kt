@@ -38,7 +38,7 @@ import gregor.developer.trainingprogramcompose.dialog.DialogEvent
 //@Preview(showBackground = true)
 @Composable
 fun DialogWeightReps(
-    dialogController: DialogWeightRepsController
+    dialogController: DialogWeightRepsController,
 ) {
     if (dialogController.openDialog.value) {
         Dialog(
@@ -62,7 +62,7 @@ fun DialogWeightReps(
                     Text(
                         text = "Dialog Title"
                     )
-
+                    if(dialogController.showEditText.value){
                     TextField(
                         value = dialogController.weight.value,
                         onValueChange = { weight ->
@@ -113,6 +113,7 @@ fun DialogWeightReps(
                         ),
                         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
                     )
+                    }
 
                     Spacer(modifier = Modifier.height(10.dp))
 

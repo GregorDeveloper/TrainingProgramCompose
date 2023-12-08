@@ -1,6 +1,9 @@
 package gregor.developer.trainingprogramcompose.screen.weight_reps_screen.NewWeightRepsScreen
 
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -15,23 +18,37 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import gregor.developer.training_program_compose.data.entity.WeightRepsWorkoutItem
+import gregor.developer.trainingprogramcompose.screen.training_list_screen.TrainingListEvent
 
+@OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun UiNewWeightRepsScreen(
     weightReps: WeightRepsWorkoutItem,
-    number: Int
+    number: Int,
+     onEvent: (NewWeightRepsEvent) -> Unit
 ) {
     Row(
-        modifier = Modifier.fillMaxWidth()
+        modifier = Modifier
+            .fillMaxWidth()
 //            .padding(
 //                start = 2.dp,
 //                end =  2.dp
 //            )
+            .combinedClickable(
+
+                onClick = {
+                    onEvent(NewWeightRepsEvent.OnShowEditDialog(number - 1))
+                },
+                onLongClick = {
+                    onEvent(NewWeightRepsEvent.OnDeleteDialog(number - 1))
+                }
+            ),
     ) {
 
         Text(
             text = number.toString(),
-            modifier = Modifier.weight(1f)
+            modifier = Modifier
+                .weight(1f)
                 .border(1.dp, Color.Green)
                 .padding(5.dp),
             style = TextStyle(
@@ -43,7 +60,8 @@ fun UiNewWeightRepsScreen(
         )
         Text(
             text = weightReps.weight,
-            modifier = Modifier.weight(2f)
+            modifier = Modifier
+                .weight(2f)
                 .border(1.dp, Color.Green)
                 .padding(5.dp),
             style = TextStyle(
@@ -54,7 +72,8 @@ fun UiNewWeightRepsScreen(
         )
         Text(
             text = weightReps.reps,
-            modifier = Modifier.weight(2f)
+            modifier = Modifier
+                .weight(2f)
                 .border(1.dp, Color.Green)
                 .padding(5.dp),
             style = TextStyle(

@@ -49,6 +49,7 @@ fun UiTrainingListItem(
                     end.linkTo(parent.end)
                 }
                 .clickable {
+
                     onEvent(
                         TrainingListEvent.OnItemClick(
                             Routes.USER_WORKOUT_LIST + "/${item.id}"

@@ -9,6 +9,7 @@ class WeightRepsWorkoutRepoImpl(
 ): WeightRepsWorkoutRepository {
     override suspend fun insertItem(item: WeightRepsWorkoutItem) {
         dao.insertItem(item)
+
     }
 
     override suspend fun deleteItem(item: WeightRepsWorkoutItem) {

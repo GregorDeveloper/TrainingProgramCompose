@@ -42,21 +42,6 @@ import gregor.developer.trainingprogramcompose.screen.training_list_screen.Train
 fun NewWeightRepsScreen(
     viewModel: NewWeightRepsViewModel = hiltViewModel(),
 ) {
-//Update
-    val gameUiState by viewModel.uiStateTest.collectAsState()
-    val testList = listOf<WeightRepsWorkoutItem>(
-        WeightRepsWorkoutItem(
-            workOutName = viewModel.item.value?.weight ?: "asd",
-            weight = "80",
-            reps = "10",
-            date = "20.03.23"
-        ),
-        WeightRepsWorkoutItem(workOutName = "Test", weight = "90", reps = "8", date = "20.03.23"),
-        WeightRepsWorkoutItem(workOutName = "Test", weight = "95", reps = "6", date = "20.03.23"),
-        WeightRepsWorkoutItem(workOutName = "Test", weight = "100", reps = "3", date = "20.03.23"),
-        WeightRepsWorkoutItem(workOutName = "Test", weight = "100", reps = "3", date = "20.03.23"),
-    )
-
     ConstraintLayout(modifier = Modifier.fillMaxSize()) {
         val (card, iconButton) = createRefs()
         Card(
@@ -75,7 +60,7 @@ fun NewWeightRepsScreen(
         ) {
             Column(modifier = Modifier.fillMaxSize()) {
                 Text(
-                    text = viewModel.item.value?.weight ?: "asd",
+                    text = viewModel.item.value?.workOutName ?: "Name",
                     modifier = Modifier.fillMaxWidth(),
                     style = TextStyle(
                         color = Color.Green,
@@ -128,22 +113,13 @@ fun NewWeightRepsScreen(
                         .fillMaxSize()
                 ) {
                     itemsIndexed(
-                        gameUiState
+                        viewModel.items
                     ) { index, item ->
-                        UiNewWeightRepsScreen(item, index + 1)
+                        UiNewWeightRepsScreen(item, index + 1){event ->
+                            viewModel.onEvent(event)
+                        }
                     }
                 }
-
-                Text(
-                    text = viewModel.item.value?.weight ?: "asd",
-                    modifier = Modifier.fillMaxWidth(),
-                    style = TextStyle(
-                        color = Color.Green,
-                        fontSize = 18.sp
-                    ),
-                    textAlign = TextAlign.Center
-                )
-
             }
         }
         IconButton(onClick = {

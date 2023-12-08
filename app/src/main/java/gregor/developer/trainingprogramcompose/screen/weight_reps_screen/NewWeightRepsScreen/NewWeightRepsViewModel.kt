@@ -1,26 +1,17 @@
 package gregor.developer.trainingprogramcompose.screen.weight_reps_screen.NewWeightRepsScreen
 
 import android.util.Log
-import androidx.compose.runtime.MutableState
-import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.ui.Modifier
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import gregor.developer.training_program_compose.data.entity.WeightRepsWorkoutItem
 import gregor.developer.training_program_compose.data.repository.WeightRepsWorkoutRepository
-import gregor.developer.trainingprogramcompose.dialog.DialogEvent
 import gregor.developer.trainingprogramcompose.dialog.dialog_weight_reps.DialogWeightRepsController
 import gregor.developer.trainingprogramcompose.dialog.dialog_weight_reps.DialogWeightRepsEvent
 import gregor.developer.trainingprogramcompose.utils.getCurrentDate
 import gregor.developer.trainingprogramcompose.utils.workoutObject
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -30,10 +21,13 @@ class NewWeightRepsViewModel @Inject constructor(
 ) : ViewModel(), DialogWeightRepsController {
     var item = mutableStateOf<WeightRepsWorkoutItem?>(null)
 
-    val items = mutableListOf<WeightRepsWorkoutItem>()
-
-    var _uiStateTest = MutableStateFlow<List<WeightRepsWorkoutItem>>(emptyList())
-    val uiStateTest: StateFlow<List<WeightRepsWorkoutItem>> = _uiStateTest.asStateFlow()
+    val items = mutableStateListOf<WeightRepsWorkoutItem>()
+    override var edit = mutableStateOf(false)
+        private set
+    override var editIndexItem = mutableStateOf(-1)
+        private set
+    override var showEditText = mutableStateOf(true)
+        private set
     override var openDialog = mutableStateOf(false)
         private set
     override var weight = mutableStateOf("")
@@ -46,26 +40,21 @@ class NewWeightRepsViewModel @Inject constructor(
 
 
     init {
-        // listId = savedStateHandle.get<Int>("listId")
-        // workoutName = savedStateHandle.get<String>("workoutName")
         workoutName = workoutObject.workoutName
-        Log.d(
-            "MyLog", workoutName + " workout name" +
-                    " date " + getCurrentDate()
-        )
         getItemCurrentDate()
-
     }
 
     fun onEvent(event: NewWeightRepsEvent) {
         when (event) {
             is NewWeightRepsEvent.OnItemSave -> {
-                item.value?.weight += "_" + weight.value
-                item.value?.reps += "_" + reps.value
 
                 viewModelScope.launch {
-                    Log.d("MyLog", weight.value + " " +
-                            reps.value)
+                    if (edit.value) {
+                        editWeightReps(editIndexItem.value)
+                    } else {
+                        item.value?.weight += "_" + weight.value
+                        item.value?.reps += "_" + reps.value
+                    }
                     repository.insertItem(
                         WeightRepsWorkoutItem(
                             item.value?.id,
@@ -75,34 +64,37 @@ class NewWeightRepsViewModel @Inject constructor(
                             getCurrentDate()
                         )
                     )
-
-                    items.add(
-                        WeightRepsWorkoutItem(
-                            item.value?.id,
-                            workoutName!!,
-                            weight.value,
-                            reps.value,
-                            getCurrentDate()
+                    if (item.value == null) {
+                        getItemCurrentDate()
+                    } else if (!edit.value) {
+                        items.add(
+                            WeightRepsWorkoutItem(
+                                item.value?.id,
+                                workoutName!!,
+                                weight.value,
+                                reps.value,
+                                getCurrentDate()
+                            )
                         )
-                    )
-                    _uiStateTest.update {
-                        _uiStateTest.value
-                            .toMutableList().apply {
+                    } else {
+                        val deleteItem = getWeightReps(editIndexItem.value)
+                        items.remove(deleteItem)
+                        if(!showEditText.value) {
+                            items.add(
+                                editIndexItem.value,
                                 WeightRepsWorkoutItem(
                                     item.value?.id,
                                     workoutName!!,
                                     weight.value,
                                     reps.value,
-                                    getCurrentDate()
+                                    item.value!!.date
                                 )
-                            }
+                            )
+                        }
                     }
-                    clearingData()
-                    Log.d("MyLog", items.toString() + "Add item")
-                    Log.d("MyLog", _uiStateTest.value.toString())
-                }
-                if (item == null) {
-                    getItemCurrentDate()
+                    clearingDialog()
+                    edit.value = false
+                    editIndexItem.value = -1
                 }
             }
 
@@ -110,11 +102,24 @@ class NewWeightRepsViewModel @Inject constructor(
                 openDialog.value = true
             }
 
-            is NewWeightRepsEvent.OnCancel -> {
+            is NewWeightRepsEvent.OnShowEditDialog -> {
+                weight.value = getWeightReps(event.index).weight
+                reps.value = getWeightReps(event.index).reps
+                editIndexItem.value = event.index
+                openDialog.value = true
+                edit.value = true
 
             }
 
-            is NewWeightRepsEvent.OnConfirm -> {
+            is NewWeightRepsEvent.OnDeleteDialog -> {
+                editIndexItem.value = event.index
+                edit.value = true
+                openDialog.value = true
+                showEditText.value = false
+
+            }
+
+            is NewWeightRepsEvent.OnDeleteItem -> {
 
             }
 
@@ -130,9 +135,13 @@ class NewWeightRepsViewModel @Inject constructor(
 
             is DialogWeightRepsEvent.OnConfirm -> {
                 if (weight.value.isNotEmpty() && reps.value.isNotEmpty()) {
-                    onEvent(NewWeightRepsEvent.OnItemSave(weight.value, reps.value))
+                    onEvent(NewWeightRepsEvent.OnItemSave)
                     openDialog.value = false
-
+                    showEditText.value = true
+                }else if (!showEditText.value) {
+                    onEvent(NewWeightRepsEvent.OnItemSave)
+                    openDialog.value = false
+                    showEditText.value = true
                 }
             }
 
@@ -143,57 +152,70 @@ class NewWeightRepsViewModel @Inject constructor(
             is DialogWeightRepsEvent.OnTextChangeReps -> {
                 reps.value = event.reps
             }
-
-            else -> {}
         }
     }
 
-    fun getWeightRepsItem(): WeightRepsWorkoutItem{
-        return WeightRepsWorkoutItem(
-            item.value?.id,
-            workoutName!!,
-            item.value?.weight ?: weight.value,
-            item.value?.reps ?: weight.value,
-            getCurrentDate()
-        )
+
+    fun getWeightReps(index: Int): WeightRepsWorkoutItem {
+        return items.get(index)
     }
 
-    fun parsItem(){
+    fun editWeightReps(indexE: Int) {
         val listWeight = item.value?.weight?.split("_")
         val listReps = item.value?.reps?.split("_")
-
-        if(listWeight != null){
-            for ((index, element) in listWeight!!.withIndex()){
-
-                items.add(WeightRepsWorkoutItem(
-                    item.value!!.id,
-                    item.value!!.workOutName,
-                    listWeight.get(index),
-                    listReps!!.get(index),
-                    item.value!!.date
-                ))
+        item.value?.weight = ""
+        item.value?.reps = ""
+        if (listWeight != null) {
+            for ((index, element) in listWeight.withIndex()) {
+                if (index == indexE) {
+                    if (showEditText.value) {
+                        item.value?.weight += if (item.value?.weight == "") weight.value else "_" + weight.value
+                        item.value?.reps += if (item.value?.reps == "") reps.value else "_" + reps.value
+                    }else if(listWeight.size == 1){
+                        viewModelScope.launch {
+                            repository.deleteItem(item.value!!)
+                            return@launch
+                        }
+                    }
+                } else {
+                    item.value?.weight += if (item.value?.weight == "") element else "_" + element
+                    item.value?.reps += if (item.value?.reps == "") listReps!!.get(index) else "_" + listReps!!.get(index)
+                    Log.d("MyLog", "index != indexE")
+                }
             }
+
         }
 
-//        _uiStateTest.update {
-//            _uiStateTest.value.toMutableList().add(
-//
-//            )
-//        }
-        _uiStateTest.value = items
-        Log.d("MyLog", items.toString() + "Add item")
-        Log.d("MyLog", _uiStateTest.value.toString())
+    }
+
+    fun parsItem() {
+        val listWeight = item.value?.weight?.split("_")
+        val listReps = item.value?.reps?.split("_")
+        if (listWeight != null) {
+            for ((index, element) in listWeight!!.withIndex()) {
+                items.add(
+                    WeightRepsWorkoutItem(
+                        item.value!!.id,
+                        item.value!!.workOutName,
+                        listWeight.get(index),
+                        listReps!!.get(index),
+                        item.value!!.date
+                    )
+                )
+            }
+        }
+        Log.d("MyLog", listWeight?.size.toString() + " list size")
     }
 
     fun getItemCurrentDate() {
         viewModelScope.launch {
-            item.value = workoutName?.let { repository.getCurrentWeightReps(it, getCurrentDate()) }
-            Log.d("MyLog", "Weight Reps Item ${item.value?.weight}")
+            item.value =
+                workoutName?.let { repository.getCurrentWeightReps(it, getCurrentDate()) }
             parsItem()
         }
     }
 
-    fun clearingData() {
+    fun clearingDialog() {
         weight.value = ""
         reps.value = ""
 
