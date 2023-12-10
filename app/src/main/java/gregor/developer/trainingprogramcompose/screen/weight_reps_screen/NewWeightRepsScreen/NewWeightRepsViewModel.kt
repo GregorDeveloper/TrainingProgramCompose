@@ -1,6 +1,5 @@
 package gregor.developer.trainingprogramcompose.screen.weight_reps_screen.NewWeightRepsScreen
 
-import android.util.Log
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
@@ -10,6 +9,7 @@ import gregor.developer.training_program_compose.data.entity.WeightRepsWorkoutIt
 import gregor.developer.training_program_compose.data.repository.WeightRepsWorkoutRepository
 import gregor.developer.trainingprogramcompose.dialog.dialog_weight_reps.DialogWeightRepsController
 import gregor.developer.trainingprogramcompose.dialog.dialog_weight_reps.DialogWeightRepsEvent
+import gregor.developer.trainingprogramcompose.screen.weight_reps_screen.UtilWeightReps
 import gregor.developer.trainingprogramcompose.utils.getCurrentDate
 import gregor.developer.trainingprogramcompose.utils.workoutObject
 import kotlinx.coroutines.launch
@@ -18,7 +18,7 @@ import javax.inject.Inject
 @HiltViewModel
 class NewWeightRepsViewModel @Inject constructor(
     private val repository: WeightRepsWorkoutRepository
-) : ViewModel(), DialogWeightRepsController {
+) : ViewModel(), DialogWeightRepsController{
     var item = mutableStateOf<WeightRepsWorkoutItem?>(null)
 
     val items = mutableStateListOf<WeightRepsWorkoutItem>()
@@ -97,11 +97,9 @@ class NewWeightRepsViewModel @Inject constructor(
                     editIndexItem.value = -1
                 }
             }
-
             is NewWeightRepsEvent.OnShowDialog -> {
                 openDialog.value = true
             }
-
             is NewWeightRepsEvent.OnShowEditDialog -> {
                 weight.value = getWeightReps(event.index).weight
                 reps.value = getWeightReps(event.index).reps
@@ -110,7 +108,6 @@ class NewWeightRepsViewModel @Inject constructor(
                 edit.value = true
 
             }
-
             is NewWeightRepsEvent.OnDeleteDialog -> {
                 editIndexItem.value = event.index
                 edit.value = true
@@ -118,11 +115,9 @@ class NewWeightRepsViewModel @Inject constructor(
                 showEditText.value = false
 
             }
-
             is NewWeightRepsEvent.OnDeleteItem -> {
 
             }
-
             else -> {}
         }
     }
@@ -156,13 +151,13 @@ class NewWeightRepsViewModel @Inject constructor(
     }
 
 
-    fun getWeightReps(index: Int): WeightRepsWorkoutItem {
+    private fun getWeightReps(index: Int): WeightRepsWorkoutItem {
         return items.get(index)
     }
 
-    fun editWeightReps(indexE: Int) {
-        val listWeight = item.value?.weight?.split("_")
-        val listReps = item.value?.reps?.split("_")
+    private fun editWeightReps(indexE: Int) {
+        val listWeight = splitWeight()
+        val listReps = splitReps()
         item.value?.weight = ""
         item.value?.reps = ""
         if (listWeight != null) {
@@ -180,7 +175,6 @@ class NewWeightRepsViewModel @Inject constructor(
                 } else {
                     item.value?.weight += if (item.value?.weight == "") element else "_" + element
                     item.value?.reps += if (item.value?.reps == "") listReps!!.get(index) else "_" + listReps!!.get(index)
-                    Log.d("MyLog", "index != indexE")
                 }
             }
 
@@ -189,10 +183,10 @@ class NewWeightRepsViewModel @Inject constructor(
     }
 
     fun parsItem() {
-        val listWeight = item.value?.weight?.split("_")
-        val listReps = item.value?.reps?.split("_")
+        val listWeight = splitWeight()
+        val listReps = splitWeight()
         if (listWeight != null) {
-            for ((index, element) in listWeight!!.withIndex()) {
+            for ((index, element) in listWeight.withIndex()) {
                 items.add(
                     WeightRepsWorkoutItem(
                         item.value!!.id,
@@ -204,7 +198,6 @@ class NewWeightRepsViewModel @Inject constructor(
                 )
             }
         }
-        Log.d("MyLog", listWeight?.size.toString() + " list size")
     }
 
     fun getItemCurrentDate() {
@@ -215,11 +208,16 @@ class NewWeightRepsViewModel @Inject constructor(
         }
     }
 
+    fun splitWeight(): List<String>?{
+        return  item.value?.weight?.split("_")
+    }
+    fun splitReps(): List<String>?{
+        return item.value?.reps?.split("_")
+    }
+
     fun clearingDialog() {
         weight.value = ""
         reps.value = ""
 
     }
-
-
 }
