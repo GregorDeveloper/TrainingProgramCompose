@@ -1,5 +1,6 @@
 package gregor.developer.trainingprogramcompose.screen.weight_reps_screen.NewWeightRepsScreen
 
+import android.util.Log
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
@@ -47,7 +48,6 @@ class NewWeightRepsViewModel @Inject constructor(
     fun onEvent(event: NewWeightRepsEvent) {
         when (event) {
             is NewWeightRepsEvent.OnItemSave -> {
-
                 viewModelScope.launch {
                     if (edit.value) {
                         editWeightReps(editIndexItem.value)
@@ -65,8 +65,10 @@ class NewWeightRepsViewModel @Inject constructor(
                         )
                     )
                     if (item.value == null) {
+                        Log.d("MyLog", "item.value == null")
                         getItemCurrentDate()
                     } else if (!edit.value) {
+                        Log.d("MyLog", "!edit.value")
                         items.add(
                             WeightRepsWorkoutItem(
                                 item.value?.id,
@@ -76,24 +78,17 @@ class NewWeightRepsViewModel @Inject constructor(
                                 getCurrentDate()
                             )
                         )
-                    } else {
-                        val deleteItem = getWeightReps(editIndexItem.value)
-                        items.remove(deleteItem)
-                        if(!showEditText.value) {
-                            items.add(
-                                editIndexItem.value,
-                                WeightRepsWorkoutItem(
-                                    item.value?.id,
-                                    workoutName!!,
-                                    weight.value,
-                                    reps.value,
-                                    item.value!!.date
-                                )
-                            )
+                    }
+                    else {
+                        val deleteItem = items.get(editIndexItem.value).copy(weight = weight.value, reps = reps.value)
+                        items.removeAt(editIndexItem.value)
+                        if(showEditText.value) {
+                            items.add(editIndexItem.value, deleteItem)
                         }
                     }
                     clearingDialog()
                     edit.value = false
+                    showEditText.value = true
                     editIndexItem.value = -1
                 }
             }
@@ -101,8 +96,8 @@ class NewWeightRepsViewModel @Inject constructor(
                 openDialog.value = true
             }
             is NewWeightRepsEvent.OnShowEditDialog -> {
-                weight.value = getWeightReps(event.index).weight
-                reps.value = getWeightReps(event.index).reps
+                weight.value = items.get(event.index).weight
+                reps.value = items.get(event.index).reps
                 editIndexItem.value = event.index
                 openDialog.value = true
                 edit.value = true
@@ -126,17 +121,18 @@ class NewWeightRepsViewModel @Inject constructor(
         when (event) {
             is DialogWeightRepsEvent.OnCancel -> {
                 openDialog.value = false
+                showEditText.value = true
+                weight.value = ""
+                reps.value = ""
             }
 
             is DialogWeightRepsEvent.OnConfirm -> {
                 if (weight.value.isNotEmpty() && reps.value.isNotEmpty()) {
                     onEvent(NewWeightRepsEvent.OnItemSave)
                     openDialog.value = false
-                    showEditText.value = true
                 }else if (!showEditText.value) {
                     onEvent(NewWeightRepsEvent.OnItemSave)
                     openDialog.value = false
-                    showEditText.value = true
                 }
             }
 
@@ -147,12 +143,9 @@ class NewWeightRepsViewModel @Inject constructor(
             is DialogWeightRepsEvent.OnTextChangeReps -> {
                 reps.value = event.reps
             }
+
+            else -> {}
         }
-    }
-
-
-    private fun getWeightReps(index: Int): WeightRepsWorkoutItem {
-        return items.get(index)
     }
 
     private fun editWeightReps(indexE: Int) {
@@ -184,7 +177,7 @@ class NewWeightRepsViewModel @Inject constructor(
 
     fun parsItem() {
         val listWeight = splitWeight()
-        val listReps = splitWeight()
+        val listReps = splitReps()
         if (listWeight != null) {
             for ((index, element) in listWeight.withIndex()) {
                 items.add(

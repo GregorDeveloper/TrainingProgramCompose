@@ -13,5 +13,16 @@
     <string name="Note">Note</string>
     <string name="weight">Weight</string>
     <string name="reps">Reps</string>
+    <string name="selected_date">Selected date</string>
+    <string name="note">Note</string>
+    <string name="add">Add</string>
+    <string name="weight_progress">Weight:</string>
+    <string name="age">Age:</string>
+    <string name="gender">Gender:</string>
+    <string name="name">Name:</string>
+    <string name="formula">Formula </string>
+    <string name="formula_brzycki">Formula Brzycki</string>
+    <string name="epley">Formula Epley</string>
+    <string name="lender">Formula Lender</string>
 
 </resources>

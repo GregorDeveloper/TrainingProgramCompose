@@ -16,7 +16,7 @@ class WeightRepsWorkoutRepoImpl(
         dao.deleteItem(item)
     }
 
-    override fun getAllItemsCurrentTime(workoutName: String): Flow<List<WeightRepsWorkoutItem>> {
+    override suspend fun getAllItemsCurrentTime(workoutName: String): List<WeightRepsWorkoutItem> {
         return dao.getAllItemsByName(workoutName)
     }
 

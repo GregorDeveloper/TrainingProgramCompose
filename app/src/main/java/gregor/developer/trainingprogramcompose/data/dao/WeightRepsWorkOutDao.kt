@@ -17,7 +17,7 @@ interface WeightRepsWorkOutDao {
     suspend fun deleteItem(item: WeightRepsWorkoutItem)
 
     @Query("SELECT * FROM weight_reps_table WHERE workoutName = :workoutName")
-    fun getAllItemsByName(workoutName: String): Flow<List<WeightRepsWorkoutItem>>
+    suspend fun getAllItemsByName(workoutName: String): List<WeightRepsWorkoutItem>
 
     @Query("SELECT * FROM weight_reps_table WHERE workOutName = :workoutName AND date = :currentTime")
     suspend fun getCurrentWeightReps(workoutName: String, currentTime: String): WeightRepsWorkoutItem
