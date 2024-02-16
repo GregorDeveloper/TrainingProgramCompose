@@ -1,80 +1,136 @@
 package gregor.developer.trainingprogramcompose.screen.progress_screen
 
 import android.util.Log
+import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import gregor.developer.training_program_compose.data.entity.WeightRepsWorkoutItem
+import gregor.developer.training_program_compose.data.repository.WeightRepsWorkoutRepository
+import gregor.developer.trainingprogramcompose.R
 import gregor.developer.trainingprogramcompose.data.static_data.calculatinItem
 import gregor.developer.trainingprogramcompose.data.static_data.resultItem
+import gregor.developer.trainingprogramcompose.utils.StringResourcesProvider
+import gregor.developer.trainingprogramcompose.utils.splitString
+import kotlinx.coroutines.launch
 import javax.inject.Inject
+import kotlin.time.ExperimentalTime
 
+@OptIn(ExperimentalTime::class)
 @HiltViewModel
 class ViewModelProgress @Inject constructor(
-
-): ViewModel() {
-
+    private val repository: WeightRepsWorkoutRepository,
+    private val stringResProv: StringResourcesProvider,
+) : ViewModel() {
+    private var listWeightReps = listOf<WeightRepsWorkoutItem?>(null)
+    val workoutNameList = listOf<String>(
+        // stringResProv.getString(R.string.barbell_guillotine_bench_press),
+        stringResProv.getString(R.string.barbell_incline_shoulder_raise),
+        stringResProv.getString(R.string.lying_face_up_plate_neck_resistance),
+        stringResProv.getString(R.string.cable_wrist_curl),
+        //stringResProv.getString(R.string.clean_deadlift),
+        //  stringResProv.getString(R.string.barbell_squat),
+    )
+    val openCalculationRM = mutableStateOf(false)
+    private var date = mutableStateOf("")
     private var weight = mutableStateOf(0.0)
     private var reps = mutableStateOf(0)
     private var result = mutableStateOf(0.0)
 
-    private val listTest = mutableListOf<WeightRepsWorkoutItem>()
-    val resultList = mutableListOf<resultItem>()
-    init{
-        getList()
-        list()
-        Log.d("MyLog", resultList.get(0).toString())
-        Log.d("MyLog", resultList.size.toString())
+
+    val resultList = mutableStateListOf<resultItem>()
+    // private var splitListWorkout = mutableStateListOf<WeightRepsWorkoutItem>()
+
+    init {
+        // getWorkoutDate()
     }
 
-    private fun getList(){
-        val listWeightReps = listOf<WeightRepsWorkoutItem>(
-            WeightRepsWorkoutItem(1, "Test workout", "120", "3", "22.03.2022"),
-            WeightRepsWorkoutItem(2, "Test workout", "100", "5", "22.03.2022"),
-            WeightRepsWorkoutItem(3, "Test workout", "80", "10", "22.03.2022")
-        )
-        listTest.add(listWeightReps.get(0))
-        listTest.add(listWeightReps.get(1))
-        listTest.add(listWeightReps.get(2))
-    }
+    fun onEvent(event: ProgressEvent) {
+        when (event) {
+            ProgressEvent.openRM -> {
+                if (openCalculationRM.value) {
+                    openCalculationRM.value = false
+                } else {
+                    openCalculationRM.value = true
+                    if (resultList.isEmpty()) {
+                        getWorkoutDate()
+                    }
 
-    private fun list(){
-        resultList.add(resultItem(calculationBrzycki(), calculationEpley(), calculationLender()))
-    }
-
-    private fun calculationBrzycki(): calculatinItem{
-
-        for ((index, element) in listTest.withIndex()){
-            val res = element.weight.toDouble()/ (1.0278 - 0.0278 * element.reps.toInt())
-            Log.d("MyLog", res.toString() + " = result")
-            return resultCalculation(res, element.weight.toDouble(), element.reps.toInt())
+                }
+            }
         }
-        return calculatinItem(0.0, 0.0, 0)
     }
 
-    private fun calculationEpley(): calculatinItem{
-        for ((index, element) in listTest.withIndex()){
-            val res = element.weight.toDouble() * (1 + element.reps.toInt()/30)
-            return resultCalculation(res, element.weight.toDouble(), element.reps.toInt())
+
+    private fun addResultItem(nameWorkout: String, splitList: List<WeightRepsWorkoutItem>) {
+        if (splitList.isNotEmpty()) {
+            resultList.add(
+                resultItem(
+                    nameWorkout,
+                    searchMaxWeight(splitList),
+                    searchMaxWeight(splitList).date,
+                )
+            )
+            clearDate()
         }
-        return calculatinItem(0.0, 0.0, 0)
-    }
-    private fun calculationLender(): calculatinItem{
-        for ((index, element) in listTest.withIndex()){
-            val res = (100 + element.weight.toDouble()) / (101.3 - 2.67123 * element.reps.toInt())
-            return resultCalculation(res, element.weight.toDouble(), element.reps.toInt())
-        }
-        return calculatinItem(0.0, 0.0, 0)
     }
 
-    private fun resultCalculation(res: Double, weig: Double, rep: Int): calculatinItem{
-        var calcul = calculatinItem(result.value, weight.value, reps.value)
-        if(res > result.value){
+    private fun getWorkoutDate() {
+        viewModelScope.launch {
+            for ((index, element) in workoutNameList.withIndex()) {
+                listWeightReps = repository.getAllItemsCurrentTime(element)
+                val splitList: MutableList<WeightRepsWorkoutItem> = mutableListOf()
+                if (listWeightReps.isNotEmpty()) {
+
+                    for ((ind, el) in listWeightReps.withIndex()) {
+                        splitList.addAll(splitString(listWeightReps, ind))
+                        // splitListWorkout.addAll(splitString(listWeightReps, ind))
+                    }
+                    addResultItem(element, splitList)
+                }
+            }
+        }
+    }
+
+    private fun searchMaxWeight(splitList: List<WeightRepsWorkoutItem>): calculatinItem {
+        var calculateItem = calculatinItem(0.0, 0.0, 0, "")
+        for ((index, element) in splitList.withIndex()) {
+            if (element.weight.isNotEmpty() && element.reps.isNotEmpty()) {
+                val res =
+                    calculationMaxWeight(element.weight.toDouble(), element.reps.toInt())
+                calculateItem =
+                    resultCalculation(
+                        res,
+                        element.date,
+                        element.weight.toDouble(),
+                        element.reps.toInt()
+                    )
+            }
+        }
+        return calculateItem
+    }
+
+    private fun calculationMaxWeight(weight: Double, reps: Int): Double {
+        val result: Double = weight * (36 / (37 - reps.toDouble()))
+        return result
+    }
+
+    private fun resultCalculation(res: Double, dt: String, weig: Double, rep: Int): calculatinItem {
+        val calculate = calculatinItem(result.value, weight.value, reps.value, date.value)
+        if (res > result.value) {
             result.value = res
+            date.value = dt
             weight.value = weig
             reps.value = rep
-            return calcul.copy(res, weig, rep)
+            return calculate.copy(res, weig, rep)
         }
-         return calcul
+        return calculate
+    }
+
+    private fun clearDate() {
+        result.value = 0.0
+        weight.value = 0.0
+        reps.value = 0
     }
 }

@@ -87,6 +87,10 @@ class OldWeightRepsViewModel @Inject constructor(
     private fun getList() {
         viewModelScope.launch {
             list = repository.getAllItemsCurrentTime(workoutName!!)
+            Log.d("MyLog", workoutName!!)
+            for((index, element) in list.withIndex()){
+                Log.d("MyLog", element.toString() + " list rep")
+            }
             if(list != null){
                 number = list.size - 1
                 splitList()
@@ -94,10 +98,6 @@ class OldWeightRepsViewModel @Inject constructor(
                     if(element!!.date != getCurrentDate()){
                         listDate.add(element.date)
                     }
-
-
-
-                    Log.d("MyLog", element.date + index.toString() + " index")
                 }
             }
         }

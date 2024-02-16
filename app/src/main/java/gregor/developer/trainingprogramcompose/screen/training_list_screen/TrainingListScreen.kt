@@ -22,6 +22,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import gregor.developer.trainingprogramcompose.data.swipe_to_dismiss.ParameterSwipeItem
 import gregor.developer.trainingprogramcompose.screen.swipe_screen.SwipeItem
 import gregor.developer.trainingprogramcompose.dialog.MainDialog
+import gregor.developer.trainingprogramcompose.screen.progress_indicator.ProgressIndicator
 import gregor.developer.trainingprogramcompose.utils.UiEvent
 
 @OptIn(ExperimentalMaterialApi::class)

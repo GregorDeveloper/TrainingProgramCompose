@@ -5,12 +5,12 @@ import gregor.developer.trainingprogramcompose.R
 class MuscleList {
 
     val muscleGroupList = listOf<MuscleItem>(
-        MuscleItem(R.drawable.scheme_test, R.string.neck),
+        MuscleItem(R.drawable.fitness_test, R.string.neck),
         MuscleItem(R.drawable.fitness_test, R.string.traps),
         MuscleItem(R.drawable.fitness_test, R.string.shoulders),
         MuscleItem(R.drawable.fitness_test, R.string.chest),
         MuscleItem(R.drawable.fitness_test, R.string.lats),
-        MuscleItem(R.drawable.scheme_test, R.string.biceps),
+        MuscleItem(R.drawable.fitness_test, R.string.biceps),
         MuscleItem(R.drawable.fitness_test, R.string.triceps),
         MuscleItem(R.drawable.fitness_test, R.string.forearms),
         MuscleItem(R.drawable.fitness_test, R.string.abdominals),

@@ -137,42 +137,45 @@ class WorkScreenViewModel @Inject constructor(
 
 
     private fun filterGroupList(search: String) {
-        val listWorkout = listOf<List<WorkoutItem>>(
-            muscleGroup.workoutNeck,
-            muscleGroup.workoutTraps,
-            muscleGroup.workoutShoulders,
-            muscleGroup.workoutChest,
-            muscleGroup.workoutLats,
-            muscleGroup.workoutBiceps,
-            muscleGroup.workoutTriceps,
-            muscleGroup.workoutForearms,
-            muscleGroup.workoutAbdominals,
-            muscleGroup.workoutMiddleBack,
-            muscleGroup.workoutLowerBack,
-            muscleGroup.workoutGlutes,
-            muscleGroup.workoutAbductors,
-            muscleGroup.workoutQuadriceps,
-            muscleGroup.workoutAdductors,
-            muscleGroup.workoutHamstrings,
-            muscleGroup.workoutCalves,
-        )
-        val editListWorkout: MutableList<WorkoutItem> = emptyList<WorkoutItem>().toMutableList()
-        val editListGroup: MutableSet<MuscleItem> = emptyList<MuscleItem>().toMutableSet()
-        val editListTest: MutableSet<String> = emptyList<String>().toMutableSet()
-        for (i in 0..listWorkout.size - 1) {
-            for (liNew in listWorkout.get(i)) {
-                if (stringResProv.getString(liNew.name).lowercase().contains(search.lowercase())) {
-                    if (listWorkout.get(i) == listSelected.value) {
-                        editListWorkout.add(liNew)
+        viewModelScope.launch {
+            val listWorkout = listOf<List<WorkoutItem>>(
+                muscleGroup.workoutNeck,
+                muscleGroup.workoutTraps,
+                muscleGroup.workoutShoulders,
+                muscleGroup.workoutChest,
+                muscleGroup.workoutLats,
+                muscleGroup.workoutBiceps,
+                muscleGroup.workoutTriceps,
+                muscleGroup.workoutForearms,
+                muscleGroup.workoutAbdominals,
+                muscleGroup.workoutMiddleBack,
+                muscleGroup.workoutLowerBack,
+                muscleGroup.workoutGlutes,
+                muscleGroup.workoutAbductors,
+                muscleGroup.workoutQuadriceps,
+                muscleGroup.workoutAdductors,
+                muscleGroup.workoutHamstrings,
+                muscleGroup.workoutCalves,
+            )
+            val editListWorkout: MutableList<WorkoutItem> = emptyList<WorkoutItem>().toMutableList()
+            val editListGroup: MutableSet<MuscleItem> = emptyList<MuscleItem>().toMutableSet()
+            val editListTest: MutableSet<String> = emptyList<String>().toMutableSet()
+            for (i in 0..listWorkout.size - 1) {
+                for (liNew in listWorkout.get(i)) {
+                    if (stringResProv.getString(liNew.name).lowercase()
+                            .contains(search.lowercase())
+                    ) {
+                        if (listWorkout.get(i) == listSelected.value) {
+                            editListWorkout.add(liNew)
+                        }
+                        editListGroup.add(muscleGroup.muscleGroupList.get(i))
                     }
-                    editListGroup.add(muscleGroup.muscleGroupList.get(i))
                 }
+                editListTest.add(listWorkout.get(i).toString())
             }
-            editListTest.add(listWorkout.get(i).toString())
+            itemGroup.value = editListWorkout
+            groupList.value = editListGroup.toList()
         }
-        itemGroup.value = editListWorkout
-        groupList.value = editListGroup.toList()
-        Log.d("MyLog", editListTest.toString())
     }
 
     fun getListWorkOut(group: String): List<WorkoutItem> {

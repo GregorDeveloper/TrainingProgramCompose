@@ -25,17 +25,12 @@ import gregor.developer.trainingprogramcompose.screen.training_list_screen.Train
 fun UiNewWeightRepsScreen(
     weightReps: WeightRepsWorkoutItem,
     number: Int,
-     onEvent: (NewWeightRepsEvent) -> Unit
+    onEvent: (NewWeightRepsEvent) -> Unit
 ) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
-//            .padding(
-//                start = 2.dp,
-//                end =  2.dp
-//            )
             .combinedClickable(
-
                 onClick = {
                     onEvent(NewWeightRepsEvent.OnShowEditDialog(number - 1))
                 },

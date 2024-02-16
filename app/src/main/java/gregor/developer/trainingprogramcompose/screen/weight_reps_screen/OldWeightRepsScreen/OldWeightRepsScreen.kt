@@ -82,7 +82,7 @@ fun OldWeightRepsScreen(
         }
 
         LazyColumn(modifier = Modifier.fillMaxSize(),
-            contentPadding = PaddingValues(100.dp)
+            contentPadding = PaddingValues(bottom = 100.dp)
         ){
             itemsIndexed(viewModel.itemsList){index, item ->
                 UiNewWeightRepsScreen(weightReps = item ?: WeightRepsWorkoutItem(

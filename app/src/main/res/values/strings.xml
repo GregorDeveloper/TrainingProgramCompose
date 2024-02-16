@@ -20,9 +20,13 @@
     <string name="age">Age:</string>
     <string name="gender">Gender:</string>
     <string name="name">Name:</string>
-    <string name="formula">Formula </string>
-    <string name="formula_brzycki">Formula Brzycki</string>
+    <string name="formula_brzycki">Formula Matt Brzycki</string>
     <string name="epley">Formula Epley</string>
     <string name="lender">Formula Lender</string>
+    <string name="calculation_max_weight">Calculation maximum weight per repetition</string>
+    <string name="formula">1RM = M * (36 * (37 - r))</string>
+    <string name="RM">1RM - repetition maximum</string>
+    <string name="M">M - weight lifted</string>
+    <string name="r">r - reps</string>
 
 </resources>
