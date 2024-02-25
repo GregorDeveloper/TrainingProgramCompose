@@ -36,6 +36,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import dagger.hilt.android.AndroidEntryPoint
 import gregor.developer.trainingprogramcompose.navigation.MainNavigationGraph
+import gregor.developer.trainingprogramcompose.screen.calendar_screen.CalendarScreen
+import gregor.developer.trainingprogramcompose.screen.calendar_screen.CalendarScreenViewModel
 
 
 import gregor.developer.trainingprogramcompose.ui.theme.TrainingProgramComposeTheme
@@ -52,7 +54,7 @@ class MainActivity : ComponentActivity() {
                     //color = MaterialTheme.colorScheme.background
                 ) {
                     MainNavigationGraph()
-
+//                    CalendarScreen(viewModelCalendar = CalendarScreenViewModel())
                   // SwipeApp()
                 }
             }

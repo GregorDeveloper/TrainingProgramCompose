@@ -31,7 +31,7 @@ fun UiUserWorkOutScreen(
             .padding(5.dp)
             .clickable {
                 onEvent(
-                    Routes.WEIGHT_REPS + "/${item.listId}" + "/${item.workoutName}"
+                    Routes.WEIGHT_REPS + "/${item.date}" + "/${item.workoutName}"
                 )
             },
         backgroundColor = Color.DarkGray

@@ -1,6 +1,7 @@
 package gregor.developer.trainingprogramcompose.utils
 
 object Routes {
+    const val CALENDAR_SCREEN = "calendar_screen"
     const val TRAINING_LIST = "training_list"
     const val PROGRESS = "progress"
     const val WORKOUT_LIST = "workout_list"

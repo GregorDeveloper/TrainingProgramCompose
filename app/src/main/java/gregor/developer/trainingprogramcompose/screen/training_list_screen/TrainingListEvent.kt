@@ -7,5 +7,4 @@ sealed class TrainingListEvent{
     data class OnShowEditDialog(val item: TrainingNameItem): TrainingListEvent()
     data class OnItemClick(val route: String): TrainingListEvent()
     object OnItemSave: TrainingListEvent()
-
 }

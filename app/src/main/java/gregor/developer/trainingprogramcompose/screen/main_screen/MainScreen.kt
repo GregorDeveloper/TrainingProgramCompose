@@ -61,7 +61,3 @@ fun MainScreen(
     }
 }
 
-@Composable
-fun back(){
-
-}

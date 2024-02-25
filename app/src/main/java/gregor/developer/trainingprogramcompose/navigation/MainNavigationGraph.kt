@@ -28,7 +28,8 @@ fun MainNavigationGraph(
                 }
             )
         ) {
-            UserWorkoutScreen() { route ->
+            UserWorkoutScreen()
+            { route ->
                 navController.navigate(route)
             }
         }

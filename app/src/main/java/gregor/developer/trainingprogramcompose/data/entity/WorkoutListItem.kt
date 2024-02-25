@@ -8,6 +8,6 @@ data class WorkoutListItem(
     @PrimaryKey
     val id: Int? = null,
     val workoutName: String,
-    val listId: Int,
+    val date: String,
     val numberList: Int
 )

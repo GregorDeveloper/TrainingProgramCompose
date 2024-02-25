@@ -62,19 +62,19 @@ class WorkScreenViewModel @Inject constructor(
     fun onEvent(event: WorkoutEvent) {
         when (event) {
             is WorkoutEvent.OnItemSave -> {
-                viewModelScope.launch {
-                    if (listId == null) return@launch
-                    repository.insertItem(
-                        WorkoutListItem(
-                            workoutListItem?.id,
-                            event.item,
-                            listId!!,
-                            0
-                        )
-                    )
-                    workoutListItem = null
-
-                }
+//                viewModelScope.launch {
+//                    if (listId.equals("")) return@launch
+//                    repository.insertItem(
+//                        WorkoutListItem(
+//                            workoutListItem?.id,
+//                            event.item,
+//                            "listId!!",
+//                            0
+//                        )
+//                    )
+//                    workoutListItem = null
+//
+//                }
 
             }
 
