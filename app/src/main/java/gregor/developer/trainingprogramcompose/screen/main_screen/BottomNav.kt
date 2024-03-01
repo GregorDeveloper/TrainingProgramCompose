@@ -43,7 +43,7 @@ fun BottomNav(
                     Text(text = stringResource(bottomNavItem.title))
                 },
                 selectedContentColor = Color.Green,
-                unselectedContentColor = Color.Gray
+                unselectedContentColor = Color.LightGray
             )
         }
     }

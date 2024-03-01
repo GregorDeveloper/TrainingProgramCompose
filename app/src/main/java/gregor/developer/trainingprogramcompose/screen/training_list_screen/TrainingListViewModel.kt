@@ -17,6 +17,7 @@ import gregor.developer.trainingprogramcompose.R
 import gregor.developer.trainingprogramcompose.data.swipe_to_dismiss.ParameterSwipeItem
 import gregor.developer.trainingprogramcompose.dialog.DialogEvent
 import gregor.developer.trainingprogramcompose.dialog.DialogController
+import gregor.developer.trainingprogramcompose.dialog.RoutesDialog
 import gregor.developer.trainingprogramcompose.utils.UiEvent
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.receiveAsFlow
@@ -47,6 +48,8 @@ class TrainingListViewModel @Inject constructor(
         private set
     override var showEditableText = mutableStateOf(false)
         private set
+    override var choiceDialog = mutableStateOf("")
+        private set
 
     fun onEvent(event: TrainingListEvent) {
         when (event) {
@@ -65,6 +68,7 @@ class TrainingListViewModel @Inject constructor(
             }
 
             is TrainingListEvent.OnShowEditDialog -> {
+                choiceDialog.value = RoutesDialog.ADD_TRAINING
                 listItem = event.item
                 openDialog.value = true
                 editableText.value = listItem?.name ?: ""
@@ -108,6 +112,8 @@ class TrainingListViewModel @Inject constructor(
             is DialogEvent.OnTextChange -> {
                 editableText.value = event.text
             }
+
+            else -> {}
         }
     }
 

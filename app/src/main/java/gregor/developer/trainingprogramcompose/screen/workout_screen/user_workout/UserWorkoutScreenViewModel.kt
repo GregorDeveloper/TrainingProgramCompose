@@ -42,6 +42,8 @@ class UserWorkoutScreenViewModel @Inject constructor(
         private set
     override var showEditableText = mutableStateOf(false)
         private set
+    override val choiceDialog: MutableState<String>
+        get() = TODO("Not yet implemented")
 
     fun onEvent(event: UserWorkoutEvent){
         when(event){

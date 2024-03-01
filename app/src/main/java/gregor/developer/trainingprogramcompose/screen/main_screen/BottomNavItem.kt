@@ -10,8 +10,8 @@ sealed class BottomNavItem(
     val route: String
 ){
 
-    object TrainingItem: BottomNavItem(R.string.training_list, R.drawable.training_list, Routes.CALENDAR_SCREEN)
+    object TrainingItem: BottomNavItem(R.string.calendar, R.drawable.calendar_icon, Routes.CALENDAR_SCREEN)
     object MyProgress: BottomNavItem(R.string.my_progress , R.drawable.progress_icon, Routes.PROGRESS)
-    object Workout: BottomNavItem(R.string.workout, R.drawable.workout_icon, Routes.WORKOUT_LIST)
+    object Workout: BottomNavItem(R.string.training_list, R.drawable.training_list, Routes.TRAINING_LIST)
     object Settings: BottomNavItem(R.string.settings, R.drawable.settings_icon, Routes.SETTINGS)
 }

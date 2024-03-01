@@ -1,6 +1,5 @@
 package gregor.developer.trainingprogramcompose.screen.main_screen
 
-import android.util.Log
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -9,6 +8,8 @@ import gregor.developer.training_program_compose.data.entity.TrainingNameItem
 import gregor.developer.training_program_compose.data.repository.TrainingNameRepository
 import gregor.developer.trainingprogramcompose.dialog.DialogController
 import gregor.developer.trainingprogramcompose.dialog.DialogEvent
+import gregor.developer.trainingprogramcompose.dialog.RoutesDialog
+import gregor.developer.trainingprogramcompose.utils.Routes
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -28,11 +29,12 @@ class MainScreenViewModel @Inject constructor(
         private set
     override var showEditableText = mutableStateOf(true)
         private set
+    override var choiceDialog = mutableStateOf("")
+        private set
 
     fun onEvent(event: MainScreenEvent) {
         when (event) {
             is MainScreenEvent.OnItemSave -> {
-
                 if(editableText.value.isEmpty()) return
                 viewModelScope.launch {
                     repository.insertItem(
@@ -50,8 +52,15 @@ class MainScreenViewModel @Inject constructor(
                 }
             }
 
-            is MainScreenEvent.OnShowEditDialog -> {
+            is MainScreenEvent.OnNewItemClick -> {
                 openDialog.value = true
+                if(event.route == Routes.CALENDAR_SCREEN){
+                    choiceDialog.value = RoutesDialog.ADD_WORKOUT_OR_LIST
+                }else{
+                    choiceDialog.value = RoutesDialog.ADD_TRAINING
+                }
+
+
             }
         }
     }
@@ -64,7 +73,6 @@ class MainScreenViewModel @Inject constructor(
             }
 
             is DialogEvent.OnConfirm -> {
-
                 onEvent(MainScreenEvent.OnItemSave)
                 openDialog.value = false
                 editableText.value = ""
@@ -72,6 +80,14 @@ class MainScreenViewModel @Inject constructor(
 
             is DialogEvent.OnTextChange -> {
                 editableText.value = event.text
+            }
+
+            is DialogEvent.AddList -> {
+
+            }
+
+            is DialogEvent.AddWorkout -> {
+
             }
         }
     }

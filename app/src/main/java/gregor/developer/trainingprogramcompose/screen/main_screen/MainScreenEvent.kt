@@ -5,6 +5,10 @@ import gregor.developer.trainingprogramcompose.screen.training_list_screen.Train
 
 sealed class MainScreenEvent{
 
-    object OnShowEditDialog: MainScreenEvent()
+    data class OnNewItemClick(val route: String): MainScreenEvent()
     object OnItemSave: MainScreenEvent()
+
+
+
+
 }

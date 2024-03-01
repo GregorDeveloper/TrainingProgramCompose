@@ -10,9 +10,9 @@ sealed class CalendarEvent {
 
     data class  ClickWorkout(val workout: WorkoutListItem): CalendarEvent()
 
-    data class AddWorkout(val workout: WorkoutListItem): CalendarEvent()
+    data class AddWorkout(val route: String): CalendarEvent()
 
-    data class AddListWorkout(val listWorkout: List<WorkoutListItem>): CalendarEvent()
+    data class AddListWorkout(val route: String): CalendarEvent()
 
     data class DeleteWorkOut(val workout: WorkoutListItem): CalendarEvent()
 

@@ -8,5 +8,7 @@ interface DialogController {
     val openDialog: MutableState<Boolean>
     val showEditableText: MutableState<Boolean>
 
+    val choiceDialog: MutableState<String>
+
     fun onDialogEvent(event: DialogEvent)
 }

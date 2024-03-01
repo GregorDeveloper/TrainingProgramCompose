@@ -10,6 +10,9 @@ import gregor.developer.training_program_compose.data.entity.WorkoutListItem
 import gregor.developer.training_program_compose.data.repository.WorkOutListRepository
 import gregor.developer.trainingprogramcompose.data.static_data.Date
 import gregor.developer.trainingprogramcompose.data.static_data.DayTraining
+import gregor.developer.trainingprogramcompose.dialog.DialogController
+import gregor.developer.trainingprogramcompose.dialog.DialogEvent
+import gregor.developer.trainingprogramcompose.screen.training_list_screen.TrainingListEvent
 //import gregor.developer.trainingprogramcompose.data.static_data.Month
 import kotlinx.coroutines.launch
 import java.time.DayOfWeek
@@ -20,21 +23,60 @@ import java.time.Month
 @HiltViewModel
 class CalendarScreenViewModel @Inject constructor(
     private val repository: WorkOutListRepository,
-) : ViewModel() {
+) : ViewModel(), DialogController {
     private var localDate = LocalDate.now()
 
+    override var dialogTitle = mutableStateOf("List name")
+        private set
+    override var editableText = mutableStateOf("")
+        private set
+    override var openDialog = mutableStateOf(false)
+        private set
+    override var showEditableText = mutableStateOf(false)
+        private set
+    override var choiceDialog = mutableStateOf("")
+        private set
+
+    override fun onDialogEvent(event: DialogEvent) {
+        when (event) {
+            is DialogEvent.OnCancel -> {
+                openDialog.value = false
+              //  cancelSwipe.value = true
+            }
+
+            is DialogEvent.OnConfirm -> {
+                if (showEditableText.value) {
+                //    onEvent(TrainingListEvent.OnItemSave)
+
+                } else {
+                    viewModelScope.launch {
+                    //    listItem?.let { repository.deleteItem(it) }
+                    }
+                }
+              //  cancelSwipe.value = true
+                openDialog.value = false
+            }
+
+            is DialogEvent.OnTextChange -> {
+                editableText.value = event.text
+            }
+
+            else -> {}
+        }
+    }
+
     var itemsList: List<WorkoutListItem>? = mutableStateListOf()
+    var itemsList2 = mutableStateOf<List<WorkoutListItem>>(emptyList())
     var workoutItem: WorkoutListItem? = null
     val listOfCurrentMonth = mutableStateOf<Date>(Date(
         "JANUARY",
         2000,
         listOf(
             DayTraining(
-            1, false
-        )
-        ),
+            1, false)),
         0
     ))
+    val selectedDate = mutableStateOf("")
     val todayDate = mutableStateOf<Date>(getCurrentDate())
     val rows = mutableStateOf(0)
     val aspectRatio = mutableStateOf(1.3f)
@@ -46,11 +88,17 @@ class CalendarScreenViewModel @Inject constructor(
     fun onEvent(event: CalendarEvent) {
         when (event) {
             is CalendarEvent.ClickDay -> {
-                viewModelScope.launch {
-                    itemsList = getAllItemsByDate(dateForDB(event.day.day))
-                    Log.d("MyLogViewModel", itemsList.toString())
+                if(listOfCurrentMonth.value.dayInMonth.get(event.day.day - 1).training == true) {
+                    if (itemsList2.value.isEmpty()) {
+                        selectedDate.value = selectedDateToString(event.day)
+                        viewModelScope.launch {
+                            itemsList2.value = getAllItemsByDate(dateForDB(event.day.day))
+                        }
+                    } else {
+                        selectedDate.value = ""
+                        itemsList2.value = emptyList()
+                    }
                 }
-
             }
             is CalendarEvent.ChangeMonth -> {
                 lastNextMonth(event.change)
@@ -65,7 +113,6 @@ class CalendarScreenViewModel @Inject constructor(
                     aspectRatio.value = 1.3f
                 }
             }
-
             is CalendarEvent.AddListWorkout -> {
 
             }
@@ -124,6 +171,7 @@ class CalendarScreenViewModel @Inject constructor(
         return listDays
     }
 
+
     private suspend fun checkTrainingByDate(date: String): Boolean {
         val list  = getAllItemsByDate(date)
         if (list.isNotEmpty() == true) return true else return false
@@ -143,6 +191,19 @@ class CalendarScreenViewModel @Inject constructor(
 
     }
 
+    private fun selectedDateToString(dayTraining: DayTraining): String{
+        return dayTraining.day.toString() + "." + selectedMonth() + "." + localDate.year.toString()
+    }
+
+    private fun dateForDB(day: Int): String{
+        var zero = ""
+        if (day in 1..9) {
+            zero = "0"
+        }
+       val date = zero + day.toString() + "." + selectedMonth() + "." + localDate.year.toString()
+        return date
+    }
+
     private fun selectedOfSetDayOfWeek(localDate: LocalDate): Int {
         val localDayOfWeek = LocalDate.of(localDate.year, localDate.month, 1)
         return when (localDayOfWeek.dayOfWeek) {
@@ -157,16 +218,6 @@ class CalendarScreenViewModel @Inject constructor(
 
         }
     }
-
-    private fun dateForDB(day: Int): String{
-        var zero = ""
-        if (day in 1..9) {
-            zero = "0"
-        }
-       val date = zero + day.toString() + "." + selectedMonth() + "." + localDate.year.toString()
-        return date
-    }
-
 
     private fun selectedMonth(): String {
         return when (localDate.month) {

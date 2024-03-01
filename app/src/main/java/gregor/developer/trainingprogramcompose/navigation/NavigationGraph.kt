@@ -12,27 +12,26 @@ import gregor.developer.trainingprogramcompose.screen.workout_screen.list_workou
 import gregor.developer.trainingprogramcompose.utils.Routes
 
 @Composable
-fun NavigationGraph(navController: NavHostController,
-                    onNavigate: (String) -> Unit
-                    ) {
-
-    NavHost(navController = navController, startDestination = Routes.CALENDAR_SCREEN){
-
-        composable(Routes.CALENDAR_SCREEN){
+fun NavigationGraph(
+    navController: NavHostController,
+    onNavigate: (String) -> Unit
+) {
+    NavHost(navController = navController, startDestination = Routes.CALENDAR_SCREEN) {
+        composable(Routes.CALENDAR_SCREEN) {
             CalendarScreen()
-            //{
-                    //route ->
-               // onNavigate(route)
-
-          //  }
+            { route ->
+                onNavigate(route)
+            }
         }
-        composable(Routes.PROGRESS){
+        composable(Routes.PROGRESS) {
             ProgressScreen()
         }
-        composable(Routes.WORKOUT_LIST){
-            WorkoutScreen(navController)
+        composable(Routes.TRAINING_LIST) {
+            TrainingListScreen(){route ->
+                onNavigate(route)
+            }
         }
-        composable(Routes.SETTINGS){
+        composable(Routes.SETTINGS) {
             SettingsScreen()
         }
     }

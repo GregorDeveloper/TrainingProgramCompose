@@ -96,9 +96,9 @@ fun Calendar(
                             row =
                                 (offset.y / canvasSize.height * (CALENDAR_ROWS + rowss.value)).toInt() + 1
                             day = column + (row - 1) * CALENDAR_COLUMNS - dayOfWeek.value
-                            if (day != clickDay.value) {
-                                if (day >= 1 && day <= daysOfMonth.value.size) {
-                                    onDayClick(daysOfMonth.value.get(day - 1))
+                            if (day >= 1 && day <= daysOfMonth.value.size) {
+                                onDayClick(daysOfMonth.value.get(day - 1))
+                                if (day != clickDay.value) {
                                     clickDay.value = day
                                     clickAnimationOffset = offset
                                     scope.launch {
@@ -106,12 +106,11 @@ fun Calendar(
                                             animationRadius = value
                                         }
                                     }
+                                }else if(day == clickDay.value) {
+                                    animationRadius = 0f
+                                    clickDay.value = -1
                                 }
-                            } else {
-                                animationRadius = 0f
-                                clickDay.value = -1
                             }
-
                         }
                     )
                 }
