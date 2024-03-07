@@ -12,41 +12,57 @@ import androidx.compose.material.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import gregor.developer.trainingprogramcompose.R
+import gregor.developer.trainingprogramcompose.dialog.DialogController
+import gregor.developer.trainingprogramcompose.dialog.DialogEvent
+import gregor.developer.trainingprogramcompose.utils.Routes
 
 
-@Preview(showBackground = true)
 @Composable
-fun AddWorkoutOrList() {
-
-        Column(horizontalAlignment = Alignment.CenterHorizontally) {
-            TextButton(
-                onClick = { /*TODO*/ },
-                modifier = Modifier
-                    .padding(5.dp)
-            ) {
-                Text(text = "Add workout",
-                    style = TextStyle(
-                        fontSize = 18.sp
-                    )
-                )
-            }
-            Spacer(modifier = Modifier.height(5.dp))
-            TextButton(
-                onClick = { /*TODO*/ },
-                modifier = Modifier
-                    .padding(5.dp)
-            ) {
-                Text(text = "Add training list",
-                    style = TextStyle(
-                        fontSize = 18.sp
-                    ))
-            }
+fun AddWorkoutOrList(dialogController: DialogController) {
+    Column(
+        horizontalAlignment = Alignment.Start
+    ) {
+        Text(
+            text = "Date Title",
+            style = TextStyle(
+                fontSize = 20.sp,
+                color = Color.Green
+            )
+        )
+        TextButton(
+            onClick = { dialogController.onDialogEvent(DialogEvent.AddList(Routes.WORKOUT_LIST)) },
+            modifier = Modifier
+        ) {
+            Text(
+                text = "Add workout",
+                style = TextStyle(
+                    fontSize = 16.sp,
+                    color = Color.LightGray
+                ),
+                textAlign = TextAlign.Start
+            )
         }
+        TextButton(
+            onClick = { dialogController.onDialogEvent(DialogEvent.AddList(Routes.TRAINING_LIST)) },
+            modifier = Modifier
+        ) {
+            Text(
+                text = "Add training list",
+                style = TextStyle(
+                    fontSize = 16.sp,
+                    color = Color.LightGray
+                ),
+                textAlign = TextAlign.End
+            )
+        }
+    }
 
 }

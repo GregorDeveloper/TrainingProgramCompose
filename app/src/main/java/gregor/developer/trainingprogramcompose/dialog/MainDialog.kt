@@ -2,6 +2,7 @@ package gregor.developer.trainingprogramcompose.dialog
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.material.AlertDialog
 import androidx.compose.material.Text
 import androidx.compose.material.TextButton
@@ -18,7 +19,6 @@ import gregor.developer.trainingprogramcompose.utils.Routes
 fun MainDialog(
     dialogController: DialogController
 ) {
-
     if (dialogController.openDialog.value) {
         AlertDialog(
             onDismissRequest = {
@@ -27,18 +27,15 @@ fun MainDialog(
             title = null,
             text = {
                 Column(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalAlignment = Alignment.CenterHorizontally
+                   modifier = Modifier.wrapContentWidth()
                 ) {
                     when (dialogController.choiceDialog.value) {
                         RoutesDialog.ADD_TRAINING -> {
                             AddTraining(dialogController)
                         }
-
                         RoutesDialog.ADD_WORKOUT_OR_LIST -> {
-                            AddWorkoutOrList()
+                            AddWorkoutOrList(dialogController)
                         }
-
                         else -> {
 
                         }
@@ -55,7 +52,6 @@ fun MainDialog(
                         Text(text = "Ok")
                     }
                 }
-
             },
 
             dismissButton = {

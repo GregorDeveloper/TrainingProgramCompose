@@ -45,7 +45,6 @@ fun MainScreen(
     val currentRoute = navBackStackEntry?.destination?.route
     Scaffold(
         modifier = Modifier
-            //.background(Color.Green)
             .fillMaxSize(),
         bottomBar = {
             BottomNav(navController)
@@ -56,7 +55,7 @@ fun MainScreen(
                     onClick = {
                         viewModel.onEvent(
                             MainScreenEvent.OnNewItemClick(
-                                currentRoute ?: Routes.TRAINING_LIST
+                                currentRoute
                             )
                         )
                     }
@@ -72,8 +71,6 @@ fun MainScreen(
         floatingActionButtonPosition = FabPosition.Center,
         isFloatingActionButtonDocked = true
     ) {
-
-
         NavigationGraph(navController) { route ->
             mainNavController.navigate(route)
         }

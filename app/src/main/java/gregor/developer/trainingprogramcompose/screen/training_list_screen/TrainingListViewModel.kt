@@ -99,7 +99,6 @@ class TrainingListViewModel @Inject constructor(
             is DialogEvent.OnConfirm -> {
                 if (showEditableText.value) {
                     onEvent(TrainingListEvent.OnItemSave)
-
                 } else {
                     viewModelScope.launch {
                         listItem?.let { repository.deleteItem(it) }
@@ -112,7 +111,6 @@ class TrainingListViewModel @Inject constructor(
             is DialogEvent.OnTextChange -> {
                 editableText.value = event.text
             }
-
             else -> {}
         }
     }
