@@ -16,6 +16,7 @@ fun NavigationGraph(
     navController: NavHostController,
     onNavigate: (String) -> Unit
 ) {
+
     NavHost(navController = navController, startDestination = Routes.CALENDAR_SCREEN) {
         composable(Routes.CALENDAR_SCREEN) {
             CalendarScreen()
@@ -26,8 +27,12 @@ fun NavigationGraph(
         composable(Routes.PROGRESS) {
             ProgressScreen()
         }
+        composable(Routes.WORKOUT_LIST) {
+            WorkoutScreen(navController = navController)
+        }
         composable(Routes.TRAINING_LIST) {
-            TrainingListScreen(){route ->
+            TrainingListScreen(){
+                route ->
                 onNavigate(route)
             }
         }

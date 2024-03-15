@@ -12,7 +12,10 @@ import gregor.developer.trainingprogramcompose.data.static_data.Date
 import gregor.developer.trainingprogramcompose.data.static_data.DayTraining
 import gregor.developer.trainingprogramcompose.dialog.DialogController
 import gregor.developer.trainingprogramcompose.dialog.DialogEvent
+import gregor.developer.trainingprogramcompose.utils.UiEvent
 import gregor.developer.trainingprogramcompose.utils.getCurrentDate
+import kotlinx.coroutines.channels.Channel
+import kotlinx.coroutines.flow.receiveAsFlow
 //import gregor.developer.trainingprogramcompose.data.static_data.Month
 import kotlinx.coroutines.launch
 import java.time.DayOfWeek
@@ -27,6 +30,8 @@ class CalendarScreenViewModel @Inject constructor(
 ) : ViewModel(), DialogController {
     private var localDate = LocalDate.now()
 
+    private val _uiEvent = Channel<UiEvent>()
+    val uiEvent = _uiEvent.receiveAsFlow()
     override var dialogTitle = mutableStateOf("List name")
         private set
     override var editableText = mutableStateOf("")
@@ -120,11 +125,13 @@ class CalendarScreenViewModel @Inject constructor(
             }
 
             is CalendarEvent.AddListWorkout -> {
-
+                Log.d("LogEvent", event.route)
+                sendUiEvent(UiEvent.Navigate(event.route))
             }
 
             is CalendarEvent.AddWorkout -> {
-
+                Log.d("LogEvent", event.route)
+                sendUiEvent(UiEvent.Navigate(event.route))
             }
 
             is CalendarEvent.ClickWorkout -> {
@@ -138,6 +145,8 @@ class CalendarScreenViewModel @Inject constructor(
             is CalendarEvent.DeleteWorkOut -> {
 
             }
+
+            else -> {}
         }
     }
 
@@ -146,19 +155,14 @@ class CalendarScreenViewModel @Inject constructor(
         val day2 = selectedDateToString(DayTraining(LocalDate.now().dayOfMonth), LocalDate.now())
         val currentDay = LocalDate.parse(day, formatter)
         val selectedDay = LocalDate.parse(day2, formatter)
-        Log.d("OpenTitle", day)
-        Log.d("OpenTitle", day2)
         when{
             selectedDay >  currentDay -> {
-               // Log.d("OpenTitle", " selectedDay >  currentDay")
                 openTitle.value = false
             }
             selectedDay == currentDay -> {
-               // Log.d("OpenTitle" ," selectedDay == currentDay")
                 openTitle.value = true
             }
             selectedDay < currentDay -> {
-              //  Log.d("OpenTitle", " selectedDay < currentDay")
                 openTitle.value = true
             }
         }
@@ -275,6 +279,12 @@ class CalendarScreenViewModel @Inject constructor(
             Month.DECEMBER -> "12"
             else -> "011"
 
+        }
+    }
+
+    private fun sendUiEvent(event: UiEvent){
+        viewModelScope.launch {
+            _uiEvent.send(event)
         }
     }
 }

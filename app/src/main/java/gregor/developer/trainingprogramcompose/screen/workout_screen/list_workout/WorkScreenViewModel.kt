@@ -29,14 +29,15 @@ class WorkScreenViewModel @Inject constructor(
     var itemsList: Flow<List<WorkoutListItem>>? = null
     var workoutListItem: WorkoutListItem? = null
     var listId: Int? = null
-    var itemId: Int? = null
+    var date: String? = null
     val searchWorkout = mutableStateOf("")
     private var groupMuscleSave: String = "Neck"
 
 
     init {
         listId = savedStateHandle.get<Int>("listId")
-        itemId = savedStateHandle.get<Int>("itemId") ?: -1
+        date = savedStateHandle.get<String>("date") ?: ""
+        Log.d("LogDate", date ?: "null")
         itemsList = listId?.let { repository.getAllItemsById(it) }
     }
 

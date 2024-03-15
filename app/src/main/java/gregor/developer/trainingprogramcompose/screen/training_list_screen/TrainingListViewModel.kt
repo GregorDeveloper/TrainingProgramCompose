@@ -78,6 +78,7 @@ class TrainingListViewModel @Inject constructor(
 
             is TrainingListEvent.OnItemClick -> {
                 sendUiEvent(UiEvent.Navigate(event.route))
+                Log.d("TraingEvent", "event")
             }
 
             is TrainingListEvent.OnShowDeleteDialog -> {
@@ -118,6 +119,7 @@ class TrainingListViewModel @Inject constructor(
     private fun sendUiEvent(event: UiEvent){
         viewModelScope.launch {
             _uiEvent.send(event)
+
         }
     }
 }

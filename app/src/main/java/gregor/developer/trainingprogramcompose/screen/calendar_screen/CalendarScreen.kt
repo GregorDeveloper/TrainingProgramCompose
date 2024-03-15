@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.lazy.LazyColumn
@@ -21,6 +22,7 @@ import androidx.compose.material.IconButton
 import androidx.compose.material.Text
 import androidx.compose.material.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -30,25 +32,37 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.DpOffset
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import gregor.developer.trainingprogramcompose.R
 import gregor.developer.trainingprogramcompose.data.static_data.DayTraining
 import gregor.developer.trainingprogramcompose.screen.workout_screen.user_workout.UiUserWorkOutScreen
+import gregor.developer.trainingprogramcompose.utils.Routes
+import gregor.developer.trainingprogramcompose.utils.UiEvent
 
 @Composable
 fun CalendarScreen(
     viewModel: CalendarScreenViewModel = hiltViewModel(),
     onNavigate: (String) -> Unit
 ) {
-//    val calendarInputList by remember {
-//        mutableStateOf(createCalendarList())
-//    }
-    var clickedCalendarElem by remember {
-        mutableStateOf<DayTraining?>(null)
+
+    LaunchedEffect(key1 = true) {
+        viewModel.uiEvent.collect { uiEvent ->
+            when (uiEvent) {
+                is UiEvent.Navigate -> {
+                    onNavigate(uiEvent.route)
+                }
+
+                else -> {
+
+                }
+            }
+        }
     }
     Column(
         modifier = Modifier
@@ -98,37 +112,18 @@ fun CalendarScreen(
                 .aspectRatio(viewModel.aspectRatio.value),
             rows = viewModel.rows.value
         )
-//        Column(
-//            modifier = Modifier
-//                .fillMaxWidth()
-//                .padding(10.dp)
-//        ) {
-//            var text = ""
-////            if(viewModel.itemsList2.value.isNotEmpty()) {
-////                text = viewModel.listOfCurrentMonth.value.dayInMonth.get()
-////            }
-//            Text(
-//                text = viewModel.selectedDate.value,
-//                color = Color.White,
-//                fontWeight = FontWeight.SemiBold,
-//                fontSize = 18.sp
-//            )
-//        }
 
-
-        if (viewModel.selectedDate.value.isNotEmpty()) {
+        if (viewModel.openTitle.value) {
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(start = 5.dp, end = 5.dp),
                 backgroundColor = Color.DarkGray
             ) {
-                TitleWorkoutCalendar(
-                  //  viewModel.selectedDate.value
-                )
+                TitleWorkoutCalendar(viewModel)
+
             }
         }
-
 
         LazyColumn(modifier = Modifier.fillMaxWidth()) {
             itemsIndexed(viewModel.itemsList2.value, key = { _, listItem ->
@@ -138,6 +133,7 @@ fun CalendarScreen(
                     onNavigate(
                         event
                     )
+                    //Перейти к концу списка
                 }
             }
         }
@@ -145,10 +141,9 @@ fun CalendarScreen(
 }
 
 
-@Preview(showBackground = true)
 @Composable
 fun TitleWorkoutCalendar(
-   // date: String
+    viewModel: CalendarScreenViewModel
 ) {
     Row(
         modifier = Modifier
@@ -156,39 +151,75 @@ fun TitleWorkoutCalendar(
             .wrapContentHeight(),
         verticalAlignment = Alignment.CenterVertically
     ) {
+        var expanded by remember {
+            mutableStateOf(false)
+        }
         Column(
             modifier = Modifier
                 .weight(1f)
                 .padding(start = 5.dp)
         ) {
-            Text(text = "date")
+            Text(text = viewModel.selectedDate.value)
         }
 
-        var expanded = false
-        DropdownMenu(expanded = true, onDismissRequest = { /*TODO*/ }) {
 
-            TextButton(onClick = { /*TODO*/ }) {
-                Text(text = "Add workout")
+
+        Row {
+            IconButton(onClick = { expanded = true }) {
+                Icon(
+                    painter = painterResource(id = R.drawable.add_icon),
+                    contentDescription = "Add workout or list"
+                )
             }
-            Divider()
-            TextButton(onClick = { /*TODO*/ }) {
-                Text(text = "Add list training")
+            DropdownMenu(
+                expanded = expanded,
+                onDismissRequest = { expanded = false },
+            ) {
+                TextButton(
+                    onClick = {
+                        viewModel.onEvent(
+                            CalendarEvent.AddWorkout(
+                                Routes.WORKOUT_LIST + "/${viewModel.selectedDate.value}"
+                            )
+                        )
+                    },
+                    modifier = Modifier.padding(3.dp)
+                ) {
+                    Text(
+                        text = "Add workout",
+                        style = TextStyle(
+                            fontSize = 16.sp
+                        )
+                    )
+                }
+                Divider()
+                TextButton(
+                    onClick = {
+                        viewModel.onEvent(
+                            CalendarEvent.AddListWorkout(
+                                Routes.TRAINING_LIST + "/${viewModel.selectedDate.value}"
+                            )
+                        )
+                    },
+                    modifier = Modifier.padding(3.dp)
+                ) {
+                    Text(
+                        text = "Add list training",
+                        style = TextStyle(
+                            fontSize = 16.sp
+                        )
+                    )
+                }
             }
-        }
-        IconButton(onClick = { /*TODO*/ }) {
-            Icon(
-                painter = painterResource(id = R.drawable.add_icon),
-                contentDescription = "Add workout or list"
-            )
-        }
-        IconButton(
-            onClick = { /*TODO*/ },
-            // modifier = Modifier.padding(3.dp)
-        ) {
-            Icon(
-                painter = painterResource(id = R.drawable.delete_icon),
-                contentDescription = "Delete training"
-            )
+            IconButton(
+                onClick = { /*TODO*/ },
+                // modifier = Modifier.padding(3.dp)
+            ) {
+                Icon(
+                    painter = painterResource(id = R.drawable.delete_icon),
+                    contentDescription = "Delete training"
+                )
+            }
         }
     }
 }

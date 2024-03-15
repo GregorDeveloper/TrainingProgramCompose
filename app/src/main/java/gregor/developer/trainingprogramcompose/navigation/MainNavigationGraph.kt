@@ -9,6 +9,7 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import gregor.developer.training_program_compose.weight_reps_screen.WeightRepsScreen
 import gregor.developer.trainingprogramcompose.screen.main_screen.MainScreen
+import gregor.developer.trainingprogramcompose.screen.training_list_screen.TrainingListScreen
 import gregor.developer.trainingprogramcompose.screen.workout_screen.user_workout.UserWorkoutScreen
 import gregor.developer.trainingprogramcompose.screen.workout_screen.list_workout.WorkoutScreen
 import gregor.developer.trainingprogramcompose.utils.Routes
@@ -34,15 +35,26 @@ fun MainNavigationGraph(
             }
         }
         composable(
-            Routes.WORKOUT_LIST + "/{listId}" + "/{itemId}",
+            Routes.TRAINING_LIST
+                    + "/{date}",
             arguments = listOf(
-                navArgument("listId") {
-                    type = NavType.IntType
-                    defaultValue = -1
-                },
-                navArgument("itemId") {
-                    type = NavType.IntType
-                    defaultValue = -1
+                navArgument("date") {
+                    type = NavType.StringType
+                    defaultValue = ""
+                }
+            )
+        ){
+            TrainingListScreen(){
+
+            }
+        }
+        composable(
+            Routes.WORKOUT_LIST
+                    + "/{date}",
+            arguments = listOf(
+                navArgument("date") {
+                    type = NavType.StringType
+                    defaultValue = ""
                 }
             )
         ) {
