@@ -17,8 +17,8 @@ interface WorkOutListDao {
     @Delete
     suspend fun deleteItem(item: WorkoutListItem)
 
-    @Query("SELECT * FROM workout_list_table WHERE date = :date")
-    fun getAllItemsById(date: Int): Flow<List<WorkoutListItem>>
+    @Query("SELECT * FROM workout_list_table WHERE listId = :liatId")
+    fun getAllItemsById(liatId: Int): Flow<List<WorkoutListItem>>
 
     @Query("SELECT * FROM workout_list_table WHERE date = :date")
     suspend fun getAllItemsByDate(date: String): List<WorkoutListItem>

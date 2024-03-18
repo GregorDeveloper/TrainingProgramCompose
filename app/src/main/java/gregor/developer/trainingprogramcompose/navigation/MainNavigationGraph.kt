@@ -1,6 +1,7 @@
 package gregor.developer.trainingprogramcompose.navigation
 
 
+import android.util.Log
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
@@ -26,11 +27,13 @@ fun MainNavigationGraph(
                 navArgument("listId") {
                     type = NavType.IntType
                     defaultValue = -1
+                    Log.d("LogNavigate", "Navigate")
                 }
             )
         ) {
             UserWorkoutScreen()
             { route ->
+                Log.d("LogNavigate", "USER_WORKOUT_LIST")
                 navController.navigate(route)
             }
         }
@@ -50,14 +53,19 @@ fun MainNavigationGraph(
         }
         composable(
             Routes.WORKOUT_LIST
-                    + "/{date}",
+                    + "/{date}" + "/{listId}",
             arguments = listOf(
                 navArgument("date") {
                     type = NavType.StringType
                     defaultValue = ""
+                },
+                navArgument("listId") {
+                    type = NavType.IntType
+                    defaultValue = -1
                 }
             )
         ) {
+            Log.d("LogNavigate", "WORKOUT_LIST")
             WorkoutScreen(navController)
         }
         composable(Routes.WEIGHT_REPS + "/{listId}" + "/{workoutName}",

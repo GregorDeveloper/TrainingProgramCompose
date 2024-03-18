@@ -118,7 +118,7 @@ fun DialogDescription(
                             )
                         }
 
-                        if (dialogDescriptionController.addWorkoutItem.value) {
+                      //  if (dialogDescriptionController.addWorkoutItem.value) {
                             Button(
                                 onClick = {
                                           dialogDescriptionController
@@ -139,7 +139,7 @@ fun DialogDescription(
                                     text = "Confirm",
                                 )
                             }
-                        }
+                       // }
                     }
                 }
             }

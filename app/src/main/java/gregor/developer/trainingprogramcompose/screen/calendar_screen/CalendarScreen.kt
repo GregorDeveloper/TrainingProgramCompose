@@ -179,7 +179,7 @@ fun TitleWorkoutCalendar(
                     onClick = {
                         viewModel.onEvent(
                             CalendarEvent.AddWorkout(
-                                Routes.WORKOUT_LIST + "/${viewModel.selectedDate.value}"
+                                Routes.WORKOUT_LIST + "/${viewModel.selectedDate.value}" +  "/${-1}"
                             )
                         )
                     },

@@ -184,13 +184,15 @@ fun Calendar(
                             textSize = textHeight
                             color = if(dateList.month == todayDate.month &&
                                dateList.year == todayDate.year &&
-                                dateList.dayInMonth.get(i - dateList.dayOfWeek) == todayDate.dayInMonth[0]) {
+                                dateList.dayInMonth.get(i - dateList.dayOfWeek).day == todayDate.dayInMonth[0].day) {
+                                
                                 Color.Green.toArgb()
                             }else {
+                                Log.d("LogCanvas",todayDate.dayInMonth[0].toString())
+                                Log.d("LogCanvas",dateList.dayInMonth.get(i - dateList.dayOfWeek).toString())
                                 Color.White.toArgb()
                             }
                             isFakeBoldText = true
-
                         }
                     )
                 }
@@ -201,12 +203,11 @@ fun Calendar(
                             draw(
                                 size = Size(30.dp.toPx(), 30.dp.toPx()),
                                 alpha = 1f,
-                                colorFilter = ColorFilter.tint(Color.White)
+                                colorFilter = ColorFilter.tint(Color.Green)
                             )
                         }
                     }
                 }
-
                 month.value = dateList.month
             }
         }

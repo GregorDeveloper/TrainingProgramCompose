@@ -1,5 +1,6 @@
 package gregor.developer.trainingprogramcompose.screen.workout_screen.user_workout
 
+import android.util.Log
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.SavedStateHandle
@@ -32,6 +33,8 @@ class UserWorkoutScreenViewModel @Inject constructor(
         listId = savedStateHandle.get<Int>("listId")
         itemId = savedStateHandle.get<Int>("itemId") ?: -1
         itemsList = listId?.let { repository.getAllItemsById(it) }
+        Log.d("LogDate", listId.toString())
+        Log.d("LogDate", itemId.toString())
     }
 
     override var dialogTitle = mutableStateOf("")

@@ -31,8 +31,8 @@ fun NavigationGraph(
             WorkoutScreen(navController = navController)
         }
         composable(Routes.TRAINING_LIST) {
-            TrainingListScreen(){
-                route ->
+            TrainingListScreen()
+            { route ->
                 onNavigate(route)
             }
         }

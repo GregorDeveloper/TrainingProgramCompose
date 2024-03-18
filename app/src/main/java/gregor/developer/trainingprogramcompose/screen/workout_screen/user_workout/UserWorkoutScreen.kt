@@ -60,7 +60,8 @@ fun UserWorkoutScreen(
         IconButton(
             onClick = {
                 onNavigate(
-                    Routes.WORKOUT_LIST + "/${viewModel.listId}" + "/${viewModel.itemId}"
+                    Routes.WORKOUT_LIST +  "/${" "}" + "/${viewModel.listId}"
+                            //+ "/${viewModel.itemId}"
                 )
             },
             modifier = Modifier.constrainAs(iconButton) {

@@ -5,15 +5,17 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import androidx.navigation.NavController
 import dagger.hilt.android.lifecycle.HiltViewModel
+import gregor.developer.training_program_compose.data.entity.WeightRepsWorkoutItem
 import gregor.developer.training_program_compose.data.entity.WorkoutListItem
+import gregor.developer.training_program_compose.data.repository.WeightRepsWorkoutRepository
 import gregor.developer.training_program_compose.data.repository.WorkOutListRepository
 import gregor.developer.trainingprogramcompose.data.static_data.MuscleItem
 import gregor.developer.trainingprogramcompose.data.static_data.MuscleList
 import gregor.developer.trainingprogramcompose.data.static_data.WorkoutItem
 import gregor.developer.trainingprogramcompose.dialog.dialog_description.DialogDescriptionController
 import gregor.developer.trainingprogramcompose.dialog.dialog_description.DialogDescriptionEvent
+import gregor.developer.trainingprogramcompose.screen.weight_reps_screen.UtilWeightReps
 import gregor.developer.trainingprogramcompose.utils.StringResourcesProvider
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch
@@ -22,11 +24,12 @@ import javax.inject.Inject
 @HiltViewModel
 class WorkScreenViewModel @Inject constructor(
     private val repository: WorkOutListRepository,
+    private val repositoryWeightReps: WeightRepsWorkoutRepository,
     savedStateHandle: SavedStateHandle,
     private val stringResProv: StringResourcesProvider,
 ) : ViewModel(), DialogDescriptionController {
 
-    var itemsList: Flow<List<WorkoutListItem>>? = null
+   // var itemsList: Flow<List<WorkoutListItem>>? = null
     var workoutListItem: WorkoutListItem? = null
     var listId: Int? = null
     var date: String? = null
@@ -36,9 +39,9 @@ class WorkScreenViewModel @Inject constructor(
 
     init {
         listId = savedStateHandle.get<Int>("listId")
-        date = savedStateHandle.get<String>("date") ?: ""
-        Log.d("LogDate", date ?: "null")
-        itemsList = listId?.let { repository.getAllItemsById(it) }
+        date = savedStateHandle.get<String>("date")
+        Log.d("LogDate", date.toString() + " Date")
+        Log.d("LogDate", listId.toString() + " ListId")
     }
 
     override var workoutImage = mutableStateOf(0)
@@ -62,22 +65,36 @@ class WorkScreenViewModel @Inject constructor(
 
     fun onEvent(event: WorkoutEvent) {
         when (event) {
-            is WorkoutEvent.OnItemSave -> {
-//                viewModelScope.launch {
-//                    if (listId.equals("")) return@launch
-//                    repository.insertItem(
-//                        WorkoutListItem(
-//                            workoutListItem?.id,
-//                            event.item,
-//                            "listId!!",
-//                            0
-//                        )
-//                    )
-//                    workoutListItem = null
-//
-//                }
+            is WorkoutEvent.OnSaveTraining -> {
+                viewModelScope.launch {
+                    if (listId != -1) {
+                        Log.d("LogSave", "Save list")
+                        repository.insertItem(
+                            WorkoutListItem(
+                                workoutListItem?.id,
+                                event.item,
+                                "",
+                                listId!!
+                            )
+                        )
+                    }else if(date != null){
+                        Log.d("LogSave", "Save workout")
+                        repository.insertItem(
+                            WorkoutListItem(
+                                workoutListItem?.id,
+                                event.item,
+                                date!!,
+                                0
+                            )
+                        )
+                    }
+
+
+                }
 
             }
+
+
 
             is WorkoutEvent.OnItemEdit -> {
                 workoutListItem = event.item
@@ -88,7 +105,7 @@ class WorkScreenViewModel @Inject constructor(
                 workoutImage.value = event.item.imageId[0]
                 workoutName.value = stringResProv.getString(event.item.name)
 
-                if (listId != null) {
+                if (listId != -1) {
                     addWorkoutItem.value = true
                 }
             }
@@ -118,7 +135,7 @@ class WorkScreenViewModel @Inject constructor(
             }
 
             is DialogDescriptionEvent.OnConfirm -> {
-                onEvent(WorkoutEvent.OnItemSave(event.item))
+                onEvent(WorkoutEvent.OnSaveTraining(event.item))
                 openDialogDescription.value = false
 
             }
