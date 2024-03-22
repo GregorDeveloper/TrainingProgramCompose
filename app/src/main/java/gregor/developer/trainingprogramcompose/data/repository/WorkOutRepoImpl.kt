@@ -22,4 +22,8 @@ class WorkOutRepoImpl(
     override suspend fun getAllItemsByDate(date: String): List<WorkoutListItem> {
         return  dao.getAllItemsByDate(date)
     }
+
+    override fun getAllItemsByDateFlow(date: String): Flow<List<WorkoutListItem>>{
+        return dao.getAllItemsByDateFlow(date)
+    }
 }

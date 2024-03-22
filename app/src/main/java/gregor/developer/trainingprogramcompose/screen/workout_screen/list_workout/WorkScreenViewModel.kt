@@ -15,6 +15,7 @@ import gregor.developer.trainingprogramcompose.data.static_data.MuscleList
 import gregor.developer.trainingprogramcompose.data.static_data.WorkoutItem
 import gregor.developer.trainingprogramcompose.dialog.dialog_description.DialogDescriptionController
 import gregor.developer.trainingprogramcompose.dialog.dialog_description.DialogDescriptionEvent
+import gregor.developer.trainingprogramcompose.screen.calendar_screen.data.CanvasPar
 import gregor.developer.trainingprogramcompose.screen.weight_reps_screen.UtilWeightReps
 import gregor.developer.trainingprogramcompose.utils.StringResourcesProvider
 import kotlinx.coroutines.flow.Flow
@@ -24,15 +25,16 @@ import javax.inject.Inject
 @HiltViewModel
 class WorkScreenViewModel @Inject constructor(
     private val repository: WorkOutListRepository,
-    private val repositoryWeightReps: WeightRepsWorkoutRepository,
     savedStateHandle: SavedStateHandle,
     private val stringResProv: StringResourcesProvider,
 ) : ViewModel(), DialogDescriptionController {
 
-   // var itemsList: Flow<List<WorkoutListItem>>? = null
     var workoutListItem: WorkoutListItem? = null
     var listId: Int? = null
     var date: String? = null
+    var offsetX: Float? = null
+    var offsetY: Float? = null
+    var radio: Float? = null
     val searchWorkout = mutableStateOf("")
     private var groupMuscleSave: String = "Neck"
 
@@ -40,8 +42,8 @@ class WorkScreenViewModel @Inject constructor(
     init {
         listId = savedStateHandle.get<Int>("listId")
         date = savedStateHandle.get<String>("date")
-        Log.d("LogDate", date.toString() + " Date")
-        Log.d("LogDate", listId.toString() + " ListId")
+//        offsetX = savedStateHandle.get<Float>("offsetX")
+//        offsetY = savedStateHandle.get<Float>("offsetY")
     }
 
     override var workoutImage = mutableStateOf(0)
@@ -88,10 +90,7 @@ class WorkScreenViewModel @Inject constructor(
                             )
                         )
                     }
-
-
                 }
-
             }
 
 

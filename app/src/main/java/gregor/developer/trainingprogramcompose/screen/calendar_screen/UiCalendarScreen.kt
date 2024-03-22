@@ -38,11 +38,13 @@ import androidx.compose.ui.unit.dp
 import gregor.developer.trainingprogramcompose.R
 import gregor.developer.trainingprogramcompose.data.static_data.Date
 import gregor.developer.trainingprogramcompose.data.static_data.DayTraining
+import gregor.developer.trainingprogramcompose.screen.calendar_screen.data.CanvasPar
 
 import kotlinx.coroutines.launch
 
 private const val CALENDAR_ROWS = 5
 private const val CALENDAR_COLUMNS = 7
+
 @Composable
 fun Calendar(
     modifier: Modifier = Modifier,
@@ -50,33 +52,36 @@ fun Calendar(
     onDayClick: (DayTraining) -> Unit,
     strokeWidth: Float = 7f,
     todayDate: Date,
-    rows: Int
+    rows: Int,
+    canvasPar: CanvasPar,
+    saveClickPar: (CanvasPar) -> Unit,
 ) {
 
     var canvasSize by remember {
         mutableStateOf(Size.Zero)
     }
     var clickAnimationOffset by remember {
-        mutableStateOf(Offset.Zero)
+        mutableStateOf(canvasPar.offset)
     }
-
     var animationRadius by remember {
-        mutableStateOf(0f)
+        mutableStateOf(canvasPar.radios)
     }
-    val daysOfMonth = remember{ mutableStateOf(dateList.dayInMonth) }
-    val dayOfWeek = remember{ mutableStateOf(0) }
-    val month = remember{ mutableStateOf(dateList.month) }
+    Log.d("MyLogAnim", clickAnimationOffset.toString())
+    Log.d("MyLogAnim", animationRadius.toString())
+    val daysOfMonth = remember { mutableStateOf(dateList.dayInMonth) }
+    val dayOfWeek = remember { mutableStateOf(0) }
+    val month = remember { mutableStateOf(dateList.month) }
     dayOfWeek.value = dateList.dayOfWeek
     daysOfMonth.value = dateList.dayInMonth
 
     val scope = rememberCoroutineScope()
-    val clickDay = remember{ mutableStateOf(-1) }
+    val clickDay = remember { mutableStateOf(-1) }
     val rowss = remember { mutableStateOf(0) }
     rowss.value = rows
-    if (month.value != dateList.month){
-        animationRadius = 0f
-        clickDay.value = -1
-    }
+//    if (month.value != dateList.month) {
+//        animationRadius = 0f
+//        clickDay.value = -1
+//    }
     val painter = painterResource(R.drawable.training_list)
     Column(
         modifier = modifier,
@@ -98,24 +103,34 @@ fun Calendar(
                             day = column + (row - 1) * CALENDAR_COLUMNS - dayOfWeek.value
                             if (day >= 1 && day <= daysOfMonth.value.size) {
                                 onDayClick(daysOfMonth.value.get(day - 1))
-                                if (day != clickDay.value) {
-                                    clickDay.value = day
-                                    clickAnimationOffset = offset
-                                    scope.launch {
-                                        animate(0f, 525f, animationSpec = tween(300)) { value, _ ->
+                                scope.launch {
+                                    if (day != clickDay.value) {
+                                        clickDay.value = day
+                                        clickAnimationOffset = offset
+                                        animate(
+                                            0f,
+                                            525f,
+                                            animationSpec = tween(100)
+                                        ) { value, _ ->
                                             animationRadius = value
                                         }
+                                        saveClickPar(
+                                            CanvasPar(
+                                                clickAnimationOffset,
+                                                animationRadius,
+                                                day.toString()
+                                            )
+                                        )
+                                    } else if (day == clickDay.value) {
+                                        animationRadius = 0.0f
+                                        clickDay.value = -1
                                     }
-                                }else if(day == clickDay.value) {
-                                    animationRadius = 0f
-                                    clickDay.value = -1
                                 }
                             }
                         }
                     )
                 }
         ) {
-
             val canvasHeight = size.height
             val canvasWidth = size.width
             canvasSize = Size(canvasWidth, canvasHeight)
@@ -123,7 +138,8 @@ fun Calendar(
             val xSteps = canvasWidth / CALENDAR_COLUMNS
 
             val column = (clickAnimationOffset.x / canvasSize.width * CALENDAR_COLUMNS).toInt() + 1
-            val row = (clickAnimationOffset.y / canvasSize.height * (CALENDAR_ROWS + rows)).toInt() + 1
+            val row =
+                (clickAnimationOffset.y / canvasSize.height * (CALENDAR_ROWS + rows)).toInt() + 1
 
             val path = Path().apply {
                 moveTo((column - 1) * xSteps, (row - 1) * ySteps)
@@ -182,23 +198,29 @@ fun Calendar(
                         textPositionY,
                         Paint().apply {
                             textSize = textHeight
-                            color = if(dateList.month == todayDate.month &&
-                               dateList.year == todayDate.year &&
-                                dateList.dayInMonth.get(i - dateList.dayOfWeek).day == todayDate.dayInMonth[0].day) {
-                                
+                            color = if (dateList.month == todayDate.month &&
+                                dateList.year == todayDate.year &&
+                                dateList.dayInMonth.get(i - dateList.dayOfWeek).day == todayDate.dayInMonth[0].day
+                            ) {
+
                                 Color.Green.toArgb()
-                            }else {
-                                Log.d("LogCanvas",todayDate.dayInMonth[0].toString())
-                                Log.d("LogCanvas",dateList.dayInMonth.get(i - dateList.dayOfWeek).toString())
+                            } else {
+                                Log.d("LogCanvas", todayDate.dayInMonth[0].toString())
+                                Log.d(
+                                    "LogCanvas",
+                                    dateList.dayInMonth.get(i - dateList.dayOfWeek).toString()
+                                )
                                 Color.White.toArgb()
                             }
                             isFakeBoldText = true
                         }
                     )
                 }
-                if(dateList.dayInMonth.get(i - dayOfWeek.value).training){
-                    translate(textPositionX + 35f,
-                        textPositionY + 15f,) {
+                if (dateList.dayInMonth.get(i - dayOfWeek.value).training) {
+                    translate(
+                        textPositionX + 35f,
+                        textPositionY + 15f,
+                    ) {
                         with(painter) {
                             draw(
                                 size = Size(30.dp.toPx(), 30.dp.toPx()),

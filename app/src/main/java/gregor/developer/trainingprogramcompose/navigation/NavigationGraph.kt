@@ -18,7 +18,7 @@ fun NavigationGraph(
 ) {
 
     NavHost(navController = navController, startDestination = Routes.CALENDAR_SCREEN) {
-        composable(Routes.CALENDAR_SCREEN) {
+        composable(Routes.CALENDAR_SCREEN) { entry ->
             CalendarScreen()
             { route ->
                 onNavigate(route)

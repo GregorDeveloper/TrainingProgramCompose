@@ -23,5 +23,6 @@ interface WorkOutListDao {
     @Query("SELECT * FROM workout_list_table WHERE date = :date")
     suspend fun getAllItemsByDate(date: String): List<WorkoutListItem>
 
-
+    @Query("SELECT * FROM workout_list_table WHERE date = :date")
+    fun getAllItemsByDateFlow(date: String): Flow<List<WorkoutListItem>>
 }

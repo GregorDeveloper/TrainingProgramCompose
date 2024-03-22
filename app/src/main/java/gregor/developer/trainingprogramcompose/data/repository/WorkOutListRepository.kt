@@ -12,4 +12,6 @@ interface WorkOutListRepository {
     fun getAllItemsById(listId: Int): Flow<List<WorkoutListItem>>
 
     suspend fun getAllItemsByDate(date: String): List<WorkoutListItem>
+
+    fun getAllItemsByDateFlow(date: String): Flow<List<WorkoutListItem>>
 }

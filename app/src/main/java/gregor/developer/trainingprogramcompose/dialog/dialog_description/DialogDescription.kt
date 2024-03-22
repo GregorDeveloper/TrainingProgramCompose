@@ -39,7 +39,8 @@ import gregor.developer.trainingprogramcompose.utils.Routes
 @Composable
 fun DialogDescription(
     dialogDescriptionController: DialogDescriptionController,
-    navController: NavHostController
+    navController: NavHostController,
+    onNavigate: (String) -> Unit
 ) {
     if (dialogDescriptionController.openDialogDescription.value) {
         Dialog(
@@ -66,15 +67,13 @@ fun DialogDescription(
                     horizontalAlignment = Alignment.CenterHorizontally
 
                 ) {
-                    Log.d("MyLog", dialogDescriptionController.workoutImage.value.toString())
-                Image(
-                    painter = painterResource(
-                        R.drawable.fitness_test
-                       // dialogDescriptionController.workoutImage.value
-                    ),
-                    contentDescription = "Image description",
-                )
-
+                    Image(
+                        painter = painterResource(
+                            R.drawable.fitness_test
+                            // dialogDescriptionController.workoutImage.value
+                        ),
+                        contentDescription = "Image description",
+                    )
                     Text(
                         text = dialogDescriptionController.workoutName.value,
                         textAlign = TextAlign.Center,
@@ -83,7 +82,6 @@ fun DialogDescription(
                         ),
                         fontSize = 20.sp
                     )
-
                     Text(
                         text = dialogDescriptionController.workoutDescription.value,
                         textAlign = TextAlign.Center,
@@ -92,8 +90,6 @@ fun DialogDescription(
                         ),
                         fontSize = 20.sp
                     )
-
-
                     Row(
                         modifier = Modifier
                             .fillMaxWidth(),
@@ -102,7 +98,9 @@ fun DialogDescription(
                     ) {
                         Button(
                             onClick = {
-                                      dialogDescriptionController.onDialogDescriptionEvent(DialogDescriptionEvent.OnCancel)
+                                dialogDescriptionController.onDialogDescriptionEvent(
+                                    DialogDescriptionEvent.OnCancel
+                                )
                             },
                             colors = ButtonDefaults.buttonColors(
                                 backgroundColor = Color.Gray,
@@ -118,28 +116,30 @@ fun DialogDescription(
                             )
                         }
 
-                      //  if (dialogDescriptionController.addWorkoutItem.value) {
-                            Button(
-                                onClick = {
-                                          dialogDescriptionController
-                                              .onDialogDescriptionEvent(DialogDescriptionEvent
-                                                  .OnConfirm(dialogDescriptionController.workoutName.value))
-                                    navController.popBackStack()
-                                },
-                                colors = ButtonDefaults.buttonColors(
-                                    backgroundColor = Color.Gray,
-                                    contentColor = Color.Green
-                                ),
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .weight(1f),
-                                shape = CircleShape
-                            ) {
-                                Text(
-                                    text = "Confirm",
-                                )
-                            }
-                       // }
+                        //  if (dialogDescriptionController.addWorkoutItem.value) {
+                        Button(
+                            onClick = {
+                                dialogDescriptionController
+                                    .onDialogDescriptionEvent(
+                                        DialogDescriptionEvent
+                                            .OnConfirm(dialogDescriptionController.workoutName.value)
+                                    )
+                                navController.popBackStack()
+                            },
+                            colors = ButtonDefaults.buttonColors(
+                                backgroundColor = Color.Gray,
+                                contentColor = Color.Green
+                            ),
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .weight(1f),
+                            shape = CircleShape
+                        ) {
+                            Text(
+                                text = "Confirm",
+                            )
+                        }
+                        // }
                     }
                 }
             }

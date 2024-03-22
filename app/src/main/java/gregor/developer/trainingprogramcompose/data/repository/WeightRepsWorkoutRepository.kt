@@ -12,4 +12,6 @@ interface WeightRepsWorkoutRepository {
     suspend fun getAllItemsCurrentTime(workoutName: String): List<WeightRepsWorkoutItem>
 
     suspend fun getCurrentWeightReps(workoutName: String, currentTime: String): WeightRepsWorkoutItem
+
+
 }

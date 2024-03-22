@@ -102,7 +102,6 @@ fun TrainingListScreen(
                 dismissContent = {
                     UiTrainingListItem(item) { event ->
                         viewModel.onEvent(event)
-                        Log.d("MyLog", event.toString())
                     }
                 },
             )

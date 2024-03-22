@@ -23,6 +23,7 @@ import androidx.compose.material.Text
 import androidx.compose.material.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -41,6 +42,7 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import gregor.developer.trainingprogramcompose.R
 import gregor.developer.trainingprogramcompose.data.static_data.DayTraining
+import gregor.developer.trainingprogramcompose.screen.calendar_screen.data.CanvasPar
 import gregor.developer.trainingprogramcompose.screen.workout_screen.user_workout.UiUserWorkOutScreen
 import gregor.developer.trainingprogramcompose.utils.Routes
 import gregor.developer.trainingprogramcompose.utils.UiEvent
@@ -50,7 +52,7 @@ fun CalendarScreen(
     viewModel: CalendarScreenViewModel = hiltViewModel(),
     onNavigate: (String) -> Unit
 ) {
-
+    val trainingList = viewModel.listFlow.collectAsState(initial = emptyList())
     LaunchedEffect(key1 = true) {
         viewModel.uiEvent.collect { uiEvent ->
             when (uiEvent) {
@@ -110,8 +112,12 @@ fun CalendarScreen(
                 .padding(10.dp)
                 .fillMaxWidth()
                 .aspectRatio(viewModel.aspectRatio.value),
-            rows = viewModel.rows.value
-        )
+            rows = viewModel.rows.value,
+            canvasPar = viewModel.selectedDate.value
+        ){
+            it.date = viewModel.selectedDate.value.date
+            viewModel.selectedDate.value = it
+        }
 
         if (viewModel.openTitle.value) {
             Card(
@@ -121,12 +127,11 @@ fun CalendarScreen(
                 backgroundColor = Color.DarkGray
             ) {
                 TitleWorkoutCalendar(viewModel)
-
             }
         }
 
         LazyColumn(modifier = Modifier.fillMaxWidth()) {
-            itemsIndexed(viewModel.itemsList2.value, key = { _, listItem ->
+            itemsIndexed(trainingList.value, key = { _, listItem ->
                 listItem.hashCode()
             }) { index, item ->
                 UiUserWorkOutScreen(item) { event ->
@@ -143,7 +148,7 @@ fun CalendarScreen(
 
 @Composable
 fun TitleWorkoutCalendar(
-    viewModel: CalendarScreenViewModel
+    viewModel: CalendarScreenViewModel,
 ) {
     Row(
         modifier = Modifier
@@ -159,7 +164,7 @@ fun TitleWorkoutCalendar(
                 .weight(1f)
                 .padding(start = 5.dp)
         ) {
-            Text(text = viewModel.selectedDate.value)
+            Text(text = viewModel.selectedDate.value.date)
         }
 
 
@@ -179,7 +184,7 @@ fun TitleWorkoutCalendar(
                     onClick = {
                         viewModel.onEvent(
                             CalendarEvent.AddWorkout(
-                                Routes.WORKOUT_LIST + "/${viewModel.selectedDate.value}" +  "/${-1}"
+                                Routes.WORKOUT_LIST + "/${viewModel.selectedDate.value.date}" +  "/${-1}"
                             )
                         )
                     },

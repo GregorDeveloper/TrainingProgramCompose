@@ -1,5 +1,6 @@
 package gregor.developer.trainingprogramcompose.screen.workout_screen.user_workout
 
+import android.util.Log
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -26,6 +27,7 @@ fun UiUserWorkOutScreen(
     item: WorkoutListItem,
     onEvent: (String) -> Unit
 ) {
+    Log.d("MyLogScreen", item.workoutName)
     Card(
         modifier = Modifier.fillMaxWidth()
             .padding(5.dp)

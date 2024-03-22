@@ -2,6 +2,7 @@ package gregor.developer.trainingprogramcompose.screen.workout_screen.list_worko
 
 
 import android.annotation.SuppressLint
+import android.util.Log
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
@@ -22,6 +23,7 @@ import androidx.navigation.NavHostController
 
 import gregor.developer.trainingprogramcompose.data.static_data.MuscleList
 import gregor.developer.trainingprogramcompose.dialog.dialog_description.DialogDescription
+import gregor.developer.trainingprogramcompose.utils.Routes
 
 
 val muscleGroup = MuscleList()
@@ -32,10 +34,8 @@ val muscleGroup = MuscleList()
 fun WorkoutScreen(
     navController: NavHostController,
     viewModel: WorkScreenViewModel = hiltViewModel(),
-
 ) {
     val itemGroup = viewModel.itemGroup.value
-    //28
 
     val scaffoldState = rememberScaffoldState()
     TopAppBar() {
@@ -76,13 +76,16 @@ fun WorkoutScreen(
                         UiWorkoutItem(item) { event ->
                             viewModel.onEvent(event)
                         }
-
                     }
                 }
             }
         }
 
-        DialogDescription(viewModel, navController)
+        DialogDescription(viewModel, navController){
+            route ->
+            navController.navigate(Routes.MAIN_SCREEN)
+            Log.d("LogNavigation", "WorkoutScreen")
+        }
     }
 }
 
