@@ -6,6 +6,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.ui.geometry.Offset
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import androidx.lifecycle.viewmodel.compose.viewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import gregor.developer.training_program_compose.data.entity.WorkoutListItem
 import gregor.developer.training_program_compose.data.repository.WorkOutListRepository
@@ -18,6 +19,7 @@ import gregor.developer.trainingprogramcompose.utils.UiEvent
 import gregor.developer.trainingprogramcompose.utils.getCurrentDate
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.emptyFlow
 import kotlinx.coroutines.flow.forEach
 import kotlinx.coroutines.flow.receiveAsFlow
@@ -35,7 +37,7 @@ class CalendarScreenViewModel @Inject constructor(
 ) : ViewModel() {
     private var localDate = LocalDate.now()
 
-    var listFlow: Flow<List<WorkoutListItem>> = emptyFlow() //Flow тест
+    var listFlow: Flow<List<WorkoutListItem>>? = null //Flow тест
     private val _uiEvent = Channel<UiEvent>()
     val uiEvent = _uiEvent.receiveAsFlow()
     var itemsList2 = mutableStateOf<List<WorkoutListItem>>(emptyList())
@@ -71,13 +73,18 @@ class CalendarScreenViewModel @Inject constructor(
                     selectedDate.value.date = selectedDateToString(event.day, localDate)
                     openTitle(selectedDateToString(event.day, localDate))
                     if (listOfCurrentMonth.value.dayInMonth.get(event.day.day - 1).training == true) {
-                        // viewModelScope.launch {
-                        listFlow = getAllItemsByDateFlow(event.day.day.toString())
-                        // itemsList2.value =
-                        //      getAllItemsByDate(dateForDB(event.day.day, localDate))
-                        //  }
+                        viewModelScope.launch {
+                            listFlow = getAllItemsByDateFlow(event.day.day.toString())
+                            listFlow?.collect { list -> Log.d("LogFlow", list.size.toString()) }
+                            itemsList2.value =
+                                getAllItemsByDate(dateForDB(event.day.day, localDate))
+                        }
                     } else {
-                        listFlow = emptyFlow()
+
+                        viewModelScope.launch {
+                            listFlow = emptyFlow()
+                            listFlow?.collect { list -> Log.d("LogElse", list.size.toString()) }
+                        }
                         itemsList2.value = emptyList()
                     }
                 }
@@ -184,14 +191,14 @@ class CalendarScreenViewModel @Inject constructor(
 
     private suspend fun checkTrainingByDate(date: String): Boolean {
         val list = getAllItemsByDate(date)
-        listFlow = getAllItemsByDateFlow(date)
 
-        Log.d("LogFlow", listFlow.toString())
+        // listFlow = getAllItemsByDateFlow(date)
+
         return if (list.isNotEmpty() == true) true else false
     }
 
     private fun getAllItemsByDateFlow(date: String): Flow<List<WorkoutListItem>> {
-        return date.let { repository.getAllItemsByDateFlow(date) }
+        return date.let { repository.getAllItemsByDateFlow(dateForDB(it.toInt(), localDate)) }
     }
 
     private suspend fun getAllItemsByDate(date: String): List<WorkoutListItem> {

@@ -52,7 +52,7 @@ fun CalendarScreen(
     viewModel: CalendarScreenViewModel = hiltViewModel(),
     onNavigate: (String) -> Unit
 ) {
-    val trainingList = viewModel.listFlow.collectAsState(initial = emptyList())
+    val trainingList = viewModel.listFlow?.collectAsState(initial = emptyList())
     LaunchedEffect(key1 = true) {
         viewModel.uiEvent.collect { uiEvent ->
             when (uiEvent) {
@@ -131,14 +131,16 @@ fun CalendarScreen(
         }
 
         LazyColumn(modifier = Modifier.fillMaxWidth()) {
-            itemsIndexed(trainingList.value, key = { _, listItem ->
-                listItem.hashCode()
-            }) { index, item ->
-                UiUserWorkOutScreen(item) { event ->
-                    onNavigate(
-                        event
-                    )
-                    //Перейти к концу списка
+            if (trainingList != null) {
+                itemsIndexed(trainingList.value, key = { _, listItem ->
+                    listItem.hashCode()
+                }) { index, item ->
+                    UiUserWorkOutScreen(item) { event ->
+                        onNavigate(
+                            event
+                        )
+                        //Перейти к концу списка
+                    }
                 }
             }
         }

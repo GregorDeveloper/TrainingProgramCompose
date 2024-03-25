@@ -5,6 +5,7 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
+import gregor.developer.training_program_compose.data.entity.TrainingNameItem
 import gregor.developer.training_program_compose.data.entity.WorkoutListItem
 import kotlinx.coroutines.flow.Flow
 
@@ -25,4 +26,7 @@ interface WorkOutListDao {
 
     @Query("SELECT * FROM workout_list_table WHERE date = :date")
     fun getAllItemsByDateFlow(date: String): Flow<List<WorkoutListItem>>
+
+    @Query("SELECT * FROM workout_list_table")
+    fun getAllItems(): Flow<List<WorkoutListItem>>
 }
