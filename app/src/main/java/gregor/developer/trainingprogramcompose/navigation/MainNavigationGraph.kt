@@ -49,24 +49,25 @@ fun MainNavigationGraph(
 
             }
         }
-        composable(
-            Routes.WORKOUT_LIST
-                    + "/{date}" + "/{listId}"
-            ,
-            arguments = listOf(
-                navArgument("date") {
-                    type = NavType.StringType
-                    defaultValue = ""
-                },
-                navArgument("listId") {
-                    type = NavType.IntType
-                    defaultValue = -1
-                },
-            )
-        ) {
-            Log.d("LogNavigate", "WORKOUT_LIST")
-            WorkoutScreen(navController)
-        }
+//        composable(
+//            Routes.WORKOUT_LIST
+//                    + "/{date}" + "/{listId}"
+//            ,
+//            arguments = listOf(
+//                navArgument("date") {
+//                    type = NavType.StringType
+//                    defaultValue = ""
+//                },
+//                navArgument("listId") {
+//                    type = NavType.IntType
+//                    defaultValue = -1
+//                },
+//            )
+//        ) {
+//            WorkoutScreen(navController){
+//                Log.d("MyLogCalendarScreen", " ERROR")
+//            }
+//        }
         composable(Routes.WEIGHT_REPS + "/{listId}" + "/{workoutName}",
             arguments = listOf(
                 navArgument("listId") {

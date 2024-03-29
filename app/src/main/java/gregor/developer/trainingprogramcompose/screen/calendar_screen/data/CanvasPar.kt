@@ -5,5 +5,6 @@ import androidx.compose.ui.geometry.Offset
 data class CanvasPar (
     val offset: Offset,
     var radios: Float,
-    var date: String
+    var date: String,
+    var training: Boolean = false
 )

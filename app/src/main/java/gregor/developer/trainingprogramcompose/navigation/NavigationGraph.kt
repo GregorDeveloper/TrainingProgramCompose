@@ -2,8 +2,10 @@ package gregor.developer.trainingprogramcompose.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.navArgument
 import gregor.developer.trainingprogramcompose.screen.calendar_screen.CalendarScreen
 import gregor.developer.trainingprogramcompose.screen.progress_screen.ProgressScreen
 import gregor.developer.trainingprogramcompose.screen.settings_screen.SettingsScreen
@@ -19,17 +21,43 @@ fun NavigationGraph(
 
     NavHost(navController = navController, startDestination = Routes.CALENDAR_SCREEN) {
         composable(Routes.CALENDAR_SCREEN) { entry ->
-            CalendarScreen()
+            val trainingUpdate = entry.savedStateHandle.get<Boolean>("add_training")
+            CalendarScreen(trainingUpdate ?: false)
             { route ->
-                onNavigate(route)
+                navController.navigate(route)
             }
         }
         composable(Routes.PROGRESS) {
             ProgressScreen()
         }
-        composable(Routes.WORKOUT_LIST) {
-            WorkoutScreen(navController = navController)
+        composable(
+            Routes.WORKOUT_LIST
+                    + "/{date}" + "/{listId}",
+            arguments = listOf(
+                navArgument("date") {
+                    type = NavType.StringType
+                    defaultValue = ""
+                },
+                navArgument("listId") {
+                    type = NavType.IntType
+                    defaultValue = -1
+                },
+            )
+        ) {
+            WorkoutScreen() {
+                navController.previousBackStackEntry
+                    ?.savedStateHandle
+                    ?.set("add_training", it)
+                navController.popBackStack()
+            }
         }
+//        composable(Routes.WORKOUT_LIST) {
+//            WorkoutScreen(){
+//                onNavigate(it)
+//                Log.d("MyLogCalendarScreen", it + " Navigate")
+//                navController.popBackStack()
+//            }
+//        }
         composable(Routes.TRAINING_LIST) {
             TrainingListScreen()
             { route ->

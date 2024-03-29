@@ -32,8 +32,9 @@ val muscleGroup = MuscleList()
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @Composable
 fun WorkoutScreen(
-    navController: NavHostController,
+   // navController: NavHostController,
     viewModel: WorkScreenViewModel = hiltViewModel(),
+    onNavigate: (Boolean) -> Unit
 ) {
     val itemGroup = viewModel.itemGroup.value
 
@@ -81,10 +82,20 @@ fun WorkoutScreen(
             }
         }
 
-        DialogDescription(viewModel, navController){
-            route ->
-            navController.navigate(Routes.MAIN_SCREEN)
-            Log.d("LogNavigation", "WorkoutScreen")
+        DialogDescription(viewModel
+           // , navController
+        )
+       {
+            Log.d("MyLogCalendarScreen", it.toString() +" WorkoutScreen")
+            onNavigate(it)
+
+//          // navController.previousBackStackEntry
+//               ?.savedStateHandle
+//               ?.set("add_training", "Test")
+//           navController.popBackStack()
+//            route ->
+//            navController.navigate(Routes.MAIN_SCREEN)
+//            Log.d("LogNavigation", "WorkoutScreen")
         }
     }
 }

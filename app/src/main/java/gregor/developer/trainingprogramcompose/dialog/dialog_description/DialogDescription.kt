@@ -39,8 +39,8 @@ import gregor.developer.trainingprogramcompose.utils.Routes
 @Composable
 fun DialogDescription(
     dialogDescriptionController: DialogDescriptionController,
-    navController: NavHostController,
-    onNavigate: (String) -> Unit
+  //  navController: NavHostController,
+    onNavigate: (Boolean) -> Unit
 ) {
     if (dialogDescriptionController.openDialogDescription.value) {
         Dialog(
@@ -98,9 +98,7 @@ fun DialogDescription(
                     ) {
                         Button(
                             onClick = {
-                                dialogDescriptionController.onDialogDescriptionEvent(
-                                    DialogDescriptionEvent.OnCancel
-                                )
+                                onNavigate(false)
                             },
                             colors = ButtonDefaults.buttonColors(
                                 backgroundColor = Color.Gray,
@@ -124,7 +122,7 @@ fun DialogDescription(
                                         DialogDescriptionEvent
                                             .OnConfirm(dialogDescriptionController.workoutName.value)
                                     )
-                                navController.popBackStack()
+                                onNavigate(true)
                             },
                             colors = ButtonDefaults.buttonColors(
                                 backgroundColor = Color.Gray,

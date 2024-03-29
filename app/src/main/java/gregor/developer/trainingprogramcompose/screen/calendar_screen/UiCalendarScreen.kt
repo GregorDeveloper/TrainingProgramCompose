@@ -9,9 +9,6 @@ import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material.Icon
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.rounded.Menu
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -31,7 +28,6 @@ import androidx.compose.ui.graphics.drawscope.clipPath
 import androidx.compose.ui.graphics.drawscope.translate
 import androidx.compose.ui.graphics.nativeCanvas
 import androidx.compose.ui.graphics.toArgb
-import androidx.compose.ui.graphics.vector.rememberVectorPainter
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
@@ -54,9 +50,10 @@ fun Calendar(
     todayDate: Date,
     rows: Int,
     canvasPar: CanvasPar,
+    trainingUpdate: Boolean,
     saveClickPar: (CanvasPar) -> Unit,
 ) {
-
+//передать boolean и поставить картинку если true
     var canvasSize by remember {
         mutableStateOf(Size.Zero)
     }
@@ -66,8 +63,6 @@ fun Calendar(
     var animationRadius by remember {
         mutableStateOf(canvasPar.radios)
     }
-    Log.d("MyLogAnim", clickAnimationOffset.toString())
-    Log.d("MyLogAnim", animationRadius.toString())
     val daysOfMonth = remember { mutableStateOf(dateList.dayInMonth) }
     val dayOfWeek = remember { mutableStateOf(0) }
     val month = remember { mutableStateOf(dateList.month) }
@@ -205,18 +200,19 @@ fun Calendar(
 
                                 Color.Green.toArgb()
                             } else {
-                                Log.d("LogCanvas", todayDate.dayInMonth[0].toString())
-                                Log.d(
-                                    "LogCanvas",
-                                    dateList.dayInMonth.get(i - dateList.dayOfWeek).toString()
-                                )
                                 Color.White.toArgb()
                             }
                             isFakeBoldText = true
                         }
                     )
                 }
-                if (dateList.dayInMonth.get(i - dayOfWeek.value).training) {
+                if (dateList.dayInMonth.get(i - dayOfWeek.value).training
+                    ||
+                    //Изменить canvasPar date нужно проверять день
+                    trainingUpdate
+                    //&& canvasPar.date == dateList.dayInMonth.get(i - dayOfWeek.value)
+                    ) {
+
                     translate(
                         textPositionX + 35f,
                         textPositionY + 15f,
@@ -234,5 +230,4 @@ fun Calendar(
             }
         }
     }
-
 }
