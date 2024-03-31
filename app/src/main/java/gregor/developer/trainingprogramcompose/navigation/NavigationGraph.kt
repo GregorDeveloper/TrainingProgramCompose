@@ -58,7 +58,14 @@ fun NavigationGraph(
 //                navController.popBackStack()
 //            }
 //        }
-        composable(Routes.TRAINING_LIST) {
+        composable(Routes.TRAINING_LIST + "/{date}",
+            arguments = listOf(
+                navArgument("date") {
+                    type = NavType.StringType
+                    defaultValue = ""
+                }
+            )
+        ) {
             TrainingListScreen()
             { route ->
                 onNavigate(route)

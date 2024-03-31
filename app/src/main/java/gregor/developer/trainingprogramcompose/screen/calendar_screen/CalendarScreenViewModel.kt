@@ -1,31 +1,20 @@
 package gregor.developer.trainingprogramcompose.screen.calendar_screen
 
 import android.util.Log
-import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.ui.geometry.Offset
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import androidx.lifecycle.viewmodel.compose.viewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import gregor.developer.training_program_compose.data.entity.WorkoutListItem
 import gregor.developer.training_program_compose.data.repository.WorkOutListRepository
 import gregor.developer.trainingprogramcompose.data.static_data.Date
 import gregor.developer.trainingprogramcompose.data.static_data.DayTraining
-import gregor.developer.trainingprogramcompose.dialog.DialogController
-import gregor.developer.trainingprogramcompose.dialog.DialogEvent
-import gregor.developer.trainingprogramcompose.screen.calendar_screen.data.CanvasPar
+import gregor.developer.trainingprogramcompose.screen.calendar_screen.data.CanvasParametr
 import gregor.developer.trainingprogramcompose.utils.UiEvent
-import gregor.developer.trainingprogramcompose.utils.getCurrentDate
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.MutableSharedFlow
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.SharedFlow
-import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.emptyFlow
-import kotlinx.coroutines.flow.forEach
 import kotlinx.coroutines.flow.receiveAsFlow
 //import gregor.developer.trainingprogramcompose.data.static_data.Month
 import kotlinx.coroutines.launch
@@ -45,7 +34,6 @@ class CalendarScreenViewModel @Inject constructor(
     private val _uiEvent = Channel<UiEvent>()
     val uiEvent = _uiEvent.receiveAsFlow()
     var itemsList2 = mutableStateOf<List<WorkoutListItem>>(emptyList())
-    //var listMonthFlow: MutableStateFlow<Date>? = getDayOfMonthFlow(localDate.lengthOfMonth())
 
     val listOfCurrentMonth = mutableStateOf<Date>(
         Date(
@@ -61,7 +49,7 @@ class CalendarScreenViewModel @Inject constructor(
     )
     val openTitle = mutableStateOf(false)
 
-    val selectedDate = mutableStateOf<CanvasPar>(CanvasPar(Offset.Zero, 0.0f, ""))
+    val selectedDate = mutableStateOf<CanvasParametr>(CanvasParametr(Offset.Zero, 0.0f, ""))
     val todayDate = mutableStateOf<Date>(getCurrentDateList())
     val rows = mutableStateOf(0)
     val aspectRatio = mutableStateOf(1.3f)
@@ -73,9 +61,6 @@ class CalendarScreenViewModel @Inject constructor(
     fun onEvent(event: CalendarEvent) {
         when (event) {
             is CalendarEvent.ClickDay -> {
-//                Log.d("LogListCurrentMonth", event.day.day.toString())
-//                listOfCurrentMonth.value.dayInMonth.get(event.day.day - 1).training = true
-//                Log.d("LogListCurrentMonth", listOfCurrentMonth.value.dayInMonth.toString())
                 if (selectedDateToString(event.day, localDate).equals(selectedDate.value.date)) {
                     resetSelectedDay()
                 } else {
@@ -99,7 +84,6 @@ class CalendarScreenViewModel @Inject constructor(
             is CalendarEvent.ChangeMonth -> {
 
                 lastNextMonth(event.change)
-
                 if (listOfCurrentMonth.value.dayOfWeek >= 6) {
                     rows.value = 1
                     aspectRatio.value = 1.1f
@@ -132,7 +116,13 @@ class CalendarScreenViewModel @Inject constructor(
 
             }
 
-            else -> {}
+            is CalendarEvent.GetTraining -> {
+                listFlow = getAllItemsByDateFlow(event.date)
+            }
+
+            is CalendarEvent.SaveCanvasParametr -> {
+                selectedDate.value = event.canvasPar
+            }
         }
     }
 
@@ -202,11 +192,20 @@ class CalendarScreenViewModel @Inject constructor(
         return if (list.isNotEmpty() == true) true else false
     }
 
-    private fun getAllItemsByDateFlow(date: String): Flow<List<WorkoutListItem>> {
-        return date.let { repository.getAllItemsByDateFlow(dateForDB(it.toInt(), localDate)) }
+    fun getAllItemsByDateFlow(date: String): Flow<List<WorkoutListItem>> {
+        val dt: String
+        if(date.length > 3){
+            Log.d("LogDateLenght", "lenght > 3")
+            dt = date
+        }else{
+            dt = dateForDB(date.toInt(), localDate)
+            Log.d("LogDateLenght", "lenght < 3")
+        }
+        return repository.getAllItemsByDateFlow(dt)
     }
 
-    private suspend fun getAllItemsByDate(date: String): List<WorkoutListItem> {
+
+     private suspend fun getAllItemsByDate(date: String): List<WorkoutListItem> {
         return date.let { repository.getAllItemsByDate(it) }
     }
 
@@ -273,6 +272,11 @@ class CalendarScreenViewModel @Inject constructor(
             else -> "011"
 
         }
+    }
+
+    fun getTwoSymbol(): Int{
+        val date = selectedDate.value.date.substring(0, selectedDate.value.date.indexOf("."))
+        return date.toInt()
     }
 
     private fun sendUiEvent(event: UiEvent) {

@@ -1,5 +1,6 @@
 package gregor.developer.trainingprogramcompose.screen.main_screen
 
+import android.util.Log
 import androidx.compose.material.BottomNavigation
 import androidx.compose.material.BottomNavigationItem
 import androidx.compose.material.Icon
@@ -11,6 +12,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
+import gregor.developer.trainingprogramcompose.utils.Routes
 
 
 @Composable
@@ -23,7 +25,7 @@ fun BottomNav(
         BottomNavItem.Workout,
         BottomNavItem.Settings
     )
-
+    val str = " "
     BottomNavigation(backgroundColor = Color.DarkGray) {
         listItems.forEach { bottomNavItem ->
             val navBackStackEntry by navController.currentBackStackEntryAsState()
@@ -31,7 +33,12 @@ fun BottomNav(
             BottomNavigationItem(
                 selected = currentRoute == bottomNavItem.route,
                 onClick = {
-                          navController.navigate(bottomNavItem.route)
+                    if (bottomNavItem.route == Routes.TRAINING_LIST){
+                        Log.d("LogBottomNav", "TRAINING_LIST")
+                        navController.navigate(bottomNavItem.route + "/${str}")
+                    }else{
+                        navController.navigate(bottomNavItem.route)
+                    }
                 },
                 icon = {
                     Icon(

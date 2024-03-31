@@ -6,19 +6,14 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
-import gregor.developer.training_program_compose.data.entity.WeightRepsWorkoutItem
 import gregor.developer.training_program_compose.data.entity.WorkoutListItem
-import gregor.developer.training_program_compose.data.repository.WeightRepsWorkoutRepository
 import gregor.developer.training_program_compose.data.repository.WorkOutListRepository
 import gregor.developer.trainingprogramcompose.data.static_data.MuscleItem
 import gregor.developer.trainingprogramcompose.data.static_data.MuscleList
 import gregor.developer.trainingprogramcompose.data.static_data.WorkoutItem
 import gregor.developer.trainingprogramcompose.dialog.dialog_description.DialogDescriptionController
 import gregor.developer.trainingprogramcompose.dialog.dialog_description.DialogDescriptionEvent
-import gregor.developer.trainingprogramcompose.screen.calendar_screen.data.CanvasPar
-import gregor.developer.trainingprogramcompose.screen.weight_reps_screen.UtilWeightReps
 import gregor.developer.trainingprogramcompose.utils.StringResourcesProvider
-import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 

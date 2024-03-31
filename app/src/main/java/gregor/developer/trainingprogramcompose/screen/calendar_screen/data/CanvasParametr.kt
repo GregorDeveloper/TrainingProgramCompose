@@ -2,9 +2,8 @@ package gregor.developer.trainingprogramcompose.screen.calendar_screen.data
 
 import androidx.compose.ui.geometry.Offset
 
-data class CanvasPar (
+data class CanvasParametr (
     val offset: Offset,
     var radios: Float,
     var date: String,
-    var training: Boolean = false
 )

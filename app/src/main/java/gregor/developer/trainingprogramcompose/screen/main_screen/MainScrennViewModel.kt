@@ -54,13 +54,7 @@ class MainScreenViewModel @Inject constructor(
 
             is MainScreenEvent.OnNewItemClick -> {
                 openDialog.value = true
-                if(event.route == Routes.CALENDAR_SCREEN){
-                    choiceDialog.value = RoutesDialog.ADD_WORKOUT_OR_LIST
-                }else{
                     choiceDialog.value = RoutesDialog.ADD_TRAINING
-                }
-
-
             }
         }
     }

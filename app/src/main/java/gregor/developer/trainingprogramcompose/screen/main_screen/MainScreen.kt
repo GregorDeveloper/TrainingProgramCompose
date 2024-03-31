@@ -1,6 +1,7 @@
 package gregor.developer.trainingprogramcompose.screen.main_screen
 
 import android.annotation.SuppressLint
+import android.util.Log
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -43,6 +44,7 @@ fun MainScreen(
     val navController = rememberNavController()
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = navBackStackEntry?.destination?.route
+    Log.d("LogMain", navBackStackEntry?.destination?.route.toString())
     Scaffold(
         modifier = Modifier
             .fillMaxSize(),
@@ -50,7 +52,7 @@ fun MainScreen(
             BottomNav(navController)
         },
         floatingActionButton = {
-            if (currentRoute == Routes.TRAINING_LIST || currentRoute == Routes.CALENDAR_SCREEN) {
+            if (currentRoute == Routes.TRAINING_LIST + "/{date}" ) {
                 FloatingActionButton(
                     onClick = {
                         viewModel.onEvent(
@@ -66,7 +68,7 @@ fun MainScreen(
                             tint = Color.Gray
                         )
                 }
-            }
+          }
         },
         floatingActionButtonPosition = FabPosition.Center,
         isFloatingActionButtonDocked = true

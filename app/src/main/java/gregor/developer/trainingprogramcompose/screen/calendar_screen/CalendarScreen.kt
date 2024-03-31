@@ -20,21 +20,27 @@ import androidx.compose.material.IconButton
 import androidx.compose.material.Text
 import androidx.compose.material.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
+import androidx.lifecycle.LifecycleOwner
 import gregor.developer.trainingprogramcompose.R
 import gregor.developer.trainingprogramcompose.screen.workout_screen.user_workout.UiUserWorkOutScreen
 import gregor.developer.trainingprogramcompose.utils.Routes
@@ -44,9 +50,42 @@ import gregor.developer.trainingprogramcompose.utils.UiEvent
 fun CalendarScreen(
     trainingUpdate: Boolean,
     viewModel: CalendarScreenViewModel = hiltViewModel(),
+    lifecycleOwner: LifecycleOwner = LocalLifecycleOwner.current,
     onNavigate: (String) -> Unit
 ) {
     val workoutListFlow = viewModel.listFlow?.collectAsState(initial = emptyList())
+    DisposableEffect(lifecycleOwner) {
+        val observer = LifecycleEventObserver { _, event ->
+            when(event){
+                Lifecycle.Event.ON_START -> {
+                    Log.d("LogLifecycle", "ON_START")
+                }
+                Lifecycle.Event.ON_STOP -> {
+                    Log.d("LogLifecycle", "ON_STOP")
+                }
+                Lifecycle.Event.ON_PAUSE -> {
+                    Log.d("LogLifecycle", "ON_PAUSE")
+                }
+                Lifecycle.Event.ON_RESUME -> {
+                    Log.d("LogLifecycle", viewModel.selectedDate.value.date)
+                    if(viewModel.selectedDate.value.date != "" && trainingUpdate){
+                        val date = viewModel.getTwoSymbol()
+                        viewModel.listOfCurrentMonth.value.dayInMonth.get(date - 1).training = trainingUpdate
+                    }
+                    if(trainingUpdate){
+                        viewModel.onEvent(CalendarEvent.GetTraining(viewModel.selectedDate.value.date))
+                    }
+                }
+                else ->{
+
+                }
+            }
+        }
+        lifecycleOwner.lifecycle.addObserver(observer)
+        onDispose {
+            lifecycleOwner.lifecycle.removeObserver(observer)
+        }
+    }
     LaunchedEffect(key1 = true) {
         viewModel.uiEvent.collect { uiEvent ->
             when (uiEvent) {
@@ -112,11 +151,11 @@ fun CalendarScreen(
                 .fillMaxWidth()
                 .aspectRatio(viewModel.aspectRatio.value),
             rows = viewModel.rows.value,
-            trainingUpdate = trainingUpdate,
             canvasPar = viewModel.selectedDate.value
-        ) {
-            it.date = viewModel.selectedDate.value.date
-            viewModel.selectedDate.value = it
+        ) {canvasPar ->
+            viewModel.onEvent(CalendarEvent.SaveCanvasParametr(canvasPar))
+//            it.date = viewModel.selectedDate.value.date
+//            viewModel.selectedDate.value = it
         }
 
         if (viewModel.openTitle.value) {
@@ -136,7 +175,6 @@ fun CalendarScreen(
                     listItem.hashCode()
                 }) { index, item ->
                     UiUserWorkOutScreen(item) { event ->
-                        Log.d("LogFlow", workoutListFlow.value.toString())
                         onNavigate(
                             event
                         )

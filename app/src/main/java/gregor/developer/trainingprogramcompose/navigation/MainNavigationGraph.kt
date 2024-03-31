@@ -35,20 +35,20 @@ fun MainNavigationGraph(
                 navController.navigate(route)
             }
         }
-        composable(
-            Routes.TRAINING_LIST
-                    + "/{date}",
-            arguments = listOf(
-                navArgument("date") {
-                    type = NavType.StringType
-                    defaultValue = ""
-                }
-            )
-        ){
-            TrainingListScreen(){
-
-            }
-        }
+//        composable(
+//            Routes.TRAINING_LIST
+//                    + "/{date}",
+//            arguments = listOf(
+//                navArgument("date") {
+//                    type = NavType.StringType
+//                    defaultValue = ""
+//                }
+//            )
+//        ){
+//            TrainingListScreen(){
+//
+//            }
+//        }
 //        composable(
 //            Routes.WORKOUT_LIST
 //                    + "/{date}" + "/{listId}"

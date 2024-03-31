@@ -34,7 +34,7 @@ import androidx.compose.ui.unit.dp
 import gregor.developer.trainingprogramcompose.R
 import gregor.developer.trainingprogramcompose.data.static_data.Date
 import gregor.developer.trainingprogramcompose.data.static_data.DayTraining
-import gregor.developer.trainingprogramcompose.screen.calendar_screen.data.CanvasPar
+import gregor.developer.trainingprogramcompose.screen.calendar_screen.data.CanvasParametr
 
 import kotlinx.coroutines.launch
 
@@ -49,9 +49,8 @@ fun Calendar(
     strokeWidth: Float = 7f,
     todayDate: Date,
     rows: Int,
-    canvasPar: CanvasPar,
-    trainingUpdate: Boolean,
-    saveClickPar: (CanvasPar) -> Unit,
+    canvasPar: CanvasParametr,
+    saveCanvasParametr: (CanvasParametr) -> Unit,
 ) {
 //передать boolean и поставить картинку если true
     var canvasSize by remember {
@@ -62,6 +61,9 @@ fun Calendar(
     }
     var animationRadius by remember {
         mutableStateOf(canvasPar.radios)
+    }
+    var date by remember {
+        mutableStateOf(canvasPar.date)
     }
     val daysOfMonth = remember { mutableStateOf(dateList.dayInMonth) }
     val dayOfWeek = remember { mutableStateOf(0) }
@@ -109,8 +111,9 @@ fun Calendar(
                                         ) { value, _ ->
                                             animationRadius = value
                                         }
-                                        saveClickPar(
-                                            CanvasPar(
+                                        Log.d("LogDateCheck", day.toString())
+                                        saveCanvasParametr(
+                                            CanvasParametr(
                                                 clickAnimationOffset,
                                                 animationRadius,
                                                 day.toString()
@@ -206,12 +209,9 @@ fun Calendar(
                         }
                     )
                 }
-                if (dateList.dayInMonth.get(i - dayOfWeek.value).training
-                    ||
-                    //Изменить canvasPar date нужно проверять день
-                    trainingUpdate
-                    //&& canvasPar.date == dateList.dayInMonth.get(i - dayOfWeek.value)
-                    ) {
+                if (dateList.dayInMonth.get(i - dayOfWeek.value).training) {
+                    Log.d("LogDateCheck",canvasPar.date + " canvas")
+                        Log.d("LogDateCheck", dateList.dayInMonth.get(i - dayOfWeek.value).day.toString())
 
                     translate(
                         textPositionX + 35f,

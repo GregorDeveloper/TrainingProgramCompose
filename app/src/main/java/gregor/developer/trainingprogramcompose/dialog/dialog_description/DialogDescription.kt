@@ -98,7 +98,7 @@ fun DialogDescription(
                     ) {
                         Button(
                             onClick = {
-                                onNavigate(false)
+                                      dialogDescriptionController.onDialogDescriptionEvent(DialogDescriptionEvent.OnCancel)
                             },
                             colors = ButtonDefaults.buttonColors(
                                 backgroundColor = Color.Gray,
