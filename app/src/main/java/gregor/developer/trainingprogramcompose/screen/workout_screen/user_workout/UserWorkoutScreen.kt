@@ -1,6 +1,7 @@
 package gregor.developer.trainingprogramcompose.screen.workout_screen.user_workout
 
 
+import android.util.Log
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxSize
@@ -59,10 +60,15 @@ fun UserWorkoutScreen(
         }
         IconButton(
             onClick = {
-                onNavigate(
-                    Routes.WORKOUT_LIST +  "/${" "}" + "/${viewModel.listId}"
-                            //+ "/${viewModel.itemId}"
-                )
+                if(viewModel.date != " "){
+                    viewModel.onEvent(UserWorkoutEvent.OnSaveList)
+                    onNavigate("Back")
+                }else{
+                    onNavigate(
+                        Routes.WORKOUT_LIST +  "/${" "}" + "/${viewModel.listId}"
+                    )
+                }
+
             },
             modifier = Modifier.constrainAs(iconButton) {
                 end.linkTo(parent.end)
@@ -79,9 +85,9 @@ fun UserWorkoutScreen(
         }
     }
 
-    BackHandler() {
-        onNavigate(
-            Routes.MAIN_SCREEN
-        )
-    }
+//    BackHandler() {
+//        onNavigate(
+//
+//        )
+//    }
 }

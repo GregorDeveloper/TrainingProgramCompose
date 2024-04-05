@@ -4,6 +4,7 @@ import android.util.Log
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
@@ -67,10 +68,11 @@ fun CalendarScreen(
                     Log.d("LogLifecycle", "ON_PAUSE")
                 }
                 Lifecycle.Event.ON_RESUME -> {
-                    Log.d("LogLifecycle", viewModel.selectedDate.value.date)
+                    Log.d("LogLifecycle", trainingUpdate.toString())
                     if(viewModel.selectedDate.value.date != "" && trainingUpdate){
                         val date = viewModel.getTwoSymbol()
                         viewModel.listOfCurrentMonth.value.dayInMonth.get(date - 1).training = trainingUpdate
+
                     }
                     if(trainingUpdate){
                         viewModel.onEvent(CalendarEvent.GetTraining(viewModel.selectedDate.value.date))
@@ -154,8 +156,6 @@ fun CalendarScreen(
             canvasPar = viewModel.selectedDate.value
         ) {canvasPar ->
             viewModel.onEvent(CalendarEvent.SaveCanvasParametr(canvasPar))
-//            it.date = viewModel.selectedDate.value.date
-//            viewModel.selectedDate.value = it
         }
 
         if (viewModel.openTitle.value) {
@@ -169,12 +169,16 @@ fun CalendarScreen(
             }
         }
 
-        LazyColumn(modifier = Modifier.fillMaxWidth()) {
+        LazyColumn(
+            modifier = Modifier.fillMaxWidth(),
+            contentPadding = PaddingValues(bottom = 100.dp)
+        ) {
             if (workoutListFlow != null) {
                 itemsIndexed(workoutListFlow.value, key = { _, listItem ->
                     listItem.hashCode()
                 }) { index, item ->
-                    UiUserWorkOutScreen(item) { event ->
+                    UiWorkOutScreen(item) { event ->
+                        Log.d("LogCalendarNavigate", "OnNavigate")
                         onNavigate(
                             event
                         )
@@ -191,6 +195,7 @@ fun CalendarScreen(
 fun TitleWorkoutCalendar(
     viewModel: CalendarScreenViewModel,
 ) {
+    Log.d("LogOnResume", viewModel.selectedDate.value.date + " title")
     Row(
         modifier = Modifier
             .fillMaxWidth()
@@ -228,6 +233,7 @@ fun TitleWorkoutCalendar(
                                 Routes.WORKOUT_LIST + "/${viewModel.selectedDate.value.date}" + "/${-1}"
                             )
                         )
+                        expanded = false
                     },
                     modifier = Modifier.padding(3.dp)
                 ) {
@@ -243,9 +249,10 @@ fun TitleWorkoutCalendar(
                     onClick = {
                         viewModel.onEvent(
                             CalendarEvent.AddListWorkout(
-                                Routes.TRAINING_LIST + "/${viewModel.selectedDate.value}"
+                                Routes.TRAINING_LIST + "/${viewModel.selectedDate.value.date}"
                             )
                         )
+                        expanded = false
                     },
                     modifier = Modifier.padding(3.dp)
                 ) {

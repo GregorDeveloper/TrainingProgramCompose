@@ -13,6 +13,9 @@ import gregor.developer.training_program_compose.data.repository.WeightRepsWorko
 import gregor.developer.training_program_compose.data.repository.WeightRepsWorkoutRepository
 import gregor.developer.training_program_compose.data.repository.WorkOutListRepository
 import gregor.developer.training_program_compose.data.repository.WorkOutRepoImpl
+import gregor.developer.trainingprogramcompose.data.entity.WorkoutListTraining
+import gregor.developer.trainingprogramcompose.data.repository.WorkoutListTrainingRepoImpl
+import gregor.developer.trainingprogramcompose.data.repository.WorkoutListTrainingRepository
 import javax.inject.Singleton
 
 
@@ -45,5 +48,11 @@ object AppModule {
     @Singleton
     fun provideWeightRepsWorkoutRepo(db: MainDb): WeightRepsWorkoutRepository{
         return WeightRepsWorkoutRepoImpl(db.weightRepsWorkOutDao)
+    }
+
+    @Provides
+    @Singleton
+    fun provideWorkoutListTraining(db: MainDb): WorkoutListTrainingRepository{
+        return WorkoutListTrainingRepoImpl(db.workoutListTrainingDao)
     }
 }

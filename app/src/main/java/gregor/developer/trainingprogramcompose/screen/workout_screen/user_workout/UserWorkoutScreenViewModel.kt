@@ -2,6 +2,7 @@ package gregor.developer.trainingprogramcompose.screen.workout_screen.user_worko
 
 import android.util.Log
 import androidx.compose.runtime.MutableState
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
@@ -9,32 +10,32 @@ import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import gregor.developer.training_program_compose.data.entity.WorkoutListItem
 import gregor.developer.training_program_compose.data.repository.WorkOutListRepository
+import gregor.developer.trainingprogramcompose.data.entity.WorkoutListTraining
+import gregor.developer.trainingprogramcompose.data.repository.WorkoutListTrainingRepository
 import gregor.developer.trainingprogramcompose.dialog.DialogController
 import gregor.developer.trainingprogramcompose.dialog.DialogEvent
-import gregor.developer.trainingprogramcompose.screen.training_list_screen.TrainingListEvent
-import gregor.developer.trainingprogramcompose.utils.Routes
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
 class UserWorkoutScreenViewModel @Inject constructor(
-    private val repository: WorkOutListRepository,
+    private val repositoryWorkoutListTraining: WorkoutListTrainingRepository,
+    private val repositoryWorkoutList: WorkOutListRepository,
     savedStateHandle: SavedStateHandle,
 
-): ViewModel(), DialogController {
+    ): ViewModel(), DialogController {
 
-    var itemsList: Flow<List<WorkoutListItem>>? = null
-    var workoutListItem: WorkoutListItem? = null
+    var itemsList: Flow<List<WorkoutListTraining>>? = null
+    var workoutListItem: WorkoutListTraining? = null
     var listId: Int? = null
-    var itemId: Int? = null
+    var date: String? = null
 
     init {
         listId = savedStateHandle.get<Int>("listId")
-        itemId = savedStateHandle.get<Int>("itemId") ?: -1
-        itemsList = listId?.let { repository.getAllItemsById(it) }
-        Log.d("LogDate", listId.toString())
-        Log.d("LogDate", itemId.toString())
+        date = savedStateHandle.get<String>("date")
+        itemsList = listId?.let { repositoryWorkoutListTraining.getAllItemsById(it) }
     }
 
     override var dialogTitle = mutableStateOf("")
@@ -50,6 +51,26 @@ class UserWorkoutScreenViewModel @Inject constructor(
 
     fun onEvent(event: UserWorkoutEvent){
         when(event){
+
+            is UserWorkoutEvent.OnSaveList -> {
+                viewModelScope.launch {
+                    itemsList?.collect{list ->
+                        for (i in 0..list.lastIndex){
+                            repositoryWorkoutList.insertItem(
+                                WorkoutListItem(
+                                    null,
+                                    list.get(i).name,
+                                    date!!,
+                                    0
+                                )
+                            )
+                        }
+                    }
+                }
+
+
+            }
+
             is UserWorkoutEvent.OnItemClick -> {
 
             }
@@ -81,7 +102,7 @@ class UserWorkoutScreenViewModel @Inject constructor(
 
                 } else {
                     viewModelScope.launch {
-                        workoutListItem?.let { repository.deleteItem(it) }
+                        workoutListItem?.let { repositoryWorkoutListTraining.deleteItem(it) }
                     }
                 }
                 // cancelSwipe.value = true

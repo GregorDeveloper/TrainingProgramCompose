@@ -54,8 +54,6 @@ class MainActivity : ComponentActivity() {
                     //color = MaterialTheme.colorScheme.background
                 ) {
                     MainNavigationGraph()
-//                    CalendarScreen(viewModelCalendar = CalendarScreenViewModel())
-                  // SwipeApp()
                 }
             }
         }

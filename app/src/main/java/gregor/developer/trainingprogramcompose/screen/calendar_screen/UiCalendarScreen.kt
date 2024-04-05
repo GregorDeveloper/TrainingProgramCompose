@@ -75,10 +75,10 @@ fun Calendar(
     val clickDay = remember { mutableStateOf(-1) }
     val rowss = remember { mutableStateOf(0) }
     rowss.value = rows
-//    if (month.value != dateList.month) {
-//        animationRadius = 0f
-//        clickDay.value = -1
-//    }
+    if (month.value != dateList.month) {
+        animationRadius = 0f
+        clickDay.value = -1
+    }
     val painter = painterResource(R.drawable.training_list)
     Column(
         modifier = modifier,
@@ -111,7 +111,6 @@ fun Calendar(
                                         ) { value, _ ->
                                             animationRadius = value
                                         }
-                                        Log.d("LogDateCheck", day.toString())
                                         saveCanvasParametr(
                                             CanvasParametr(
                                                 clickAnimationOffset,
@@ -210,9 +209,6 @@ fun Calendar(
                     )
                 }
                 if (dateList.dayInMonth.get(i - dayOfWeek.value).training) {
-                    Log.d("LogDateCheck",canvasPar.date + " canvas")
-                        Log.d("LogDateCheck", dateList.dayInMonth.get(i - dayOfWeek.value).day.toString())
-
                     translate(
                         textPositionX + 35f,
                         textPositionY + 15f,

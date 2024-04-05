@@ -8,6 +8,7 @@ import androidx.compose.material.rememberDismissState
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.ui.res.stringResource
+import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -29,10 +30,13 @@ import javax.inject.Inject
 
 @HiltViewModel
 class TrainingListViewModel @Inject constructor(
-    private val repository: TrainingNameRepository
+    private val repository: TrainingNameRepository,
+    savedStateHandle: SavedStateHandle
 ) : ViewModel(), DialogController {
 
     val list = repository.getAllItems()
+    var date: String? = null
+
 
     private val _uiEvent = Channel<UiEvent>()
     val uiEvent = _uiEvent.receiveAsFlow()
@@ -51,6 +55,10 @@ class TrainingListViewModel @Inject constructor(
     override var choiceDialog = mutableStateOf("")
         private set
 
+    init {
+        date = savedStateHandle.get<String>("date") ?: " "
+        Log.d("LogDate", date ?: " date error")
+    }
     fun onEvent(event: TrainingListEvent) {
         when (event) {
             is TrainingListEvent.OnItemSave -> {
@@ -78,7 +86,7 @@ class TrainingListViewModel @Inject constructor(
 
             is TrainingListEvent.OnItemClick -> {
                 sendUiEvent(UiEvent.Navigate(event.route))
-                Log.d("TraingEvent", "event")
+
             }
 
             is TrainingListEvent.OnShowDeleteDialog -> {

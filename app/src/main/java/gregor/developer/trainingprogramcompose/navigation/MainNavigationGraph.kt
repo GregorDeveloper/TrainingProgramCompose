@@ -17,63 +17,68 @@ import gregor.developer.trainingprogramcompose.utils.Routes
 
 @Composable
 fun MainNavigationGraph(
+  //  onNavigate: (String) -> Unit
 ) {
     val navController = rememberNavController()
 
     NavHost(navController = navController, startDestination = Routes.MAIN_SCREEN) {
-        composable(Routes.USER_WORKOUT_LIST
-                + "/{listId}",
-            arguments = listOf(
-                navArgument("listId") {
-                    type = NavType.IntType
-                    defaultValue = -1
-                }
-            )
-        ) {
-            UserWorkoutScreen()
-            { route ->
-                navController.navigate(route)
-            }
-        }
-//        composable(
-//            Routes.TRAINING_LIST
-//                    + "/{date}",
-//            arguments = listOf(
-//                navArgument("date") {
-//                    type = NavType.StringType
-//                    defaultValue = ""
-//                }
-//            )
-//        ){
-//            TrainingListScreen(){
-//
-//            }
-//        }
-//        composable(
-//            Routes.WORKOUT_LIST
-//                    + "/{date}" + "/{listId}"
+//        composable(Routes.USER_WORKOUT_LIST
+//                + "/{listId}"
+//                + "/{date}"
 //            ,
 //            arguments = listOf(
-//                navArgument("date") {
-//                    type = NavType.StringType
-//                    defaultValue = ""
-//                },
 //                navArgument("listId") {
 //                    type = NavType.IntType
 //                    defaultValue = -1
 //                },
+//                navArgument("date"){
+//                    type = NavType.StringType
+//                    defaultValue = ""
+//                }
 //            )
 //        ) {
-//            WorkoutScreen(navController){
-//                Log.d("MyLogCalendarScreen", " ERROR")
+//            UserWorkoutScreen()
+//            { route ->
+//                navController.navigate(route)
 //            }
 //        }
-        composable(Routes.WEIGHT_REPS + "/{listId}" + "/{workoutName}",
+        composable(
+            Routes.WORKOUT_LIST
+                    + "/{date}" + "/{listId}",
             arguments = listOf(
+                navArgument("date") {
+                    type = NavType.StringType
+                    defaultValue = ""
+                },
                 navArgument("listId") {
                     type = NavType.IntType
                     defaultValue = -1
                 },
+            )
+        ) {
+            WorkoutScreen() {
+                navController.previousBackStackEntry
+                    ?.savedStateHandle
+                    ?.set("add_training", it)
+                navController.popBackStack()
+            }
+        }
+        composable(Routes.TRAINING_LIST + "/{date}",
+            arguments = listOf(
+                navArgument("date") {
+                    type = NavType.StringType
+                    defaultValue = ""
+                }
+            )
+        ) {
+            TrainingListScreen(false)
+            { route ->
+               // onNavigate(route)
+            }
+        }
+
+        composable(Routes.WEIGHT_REPS +  "/{workoutName}",
+            arguments = listOf(
                 navArgument("workoutName"){
                     type = NavType.StringType
                     defaultValue = ""

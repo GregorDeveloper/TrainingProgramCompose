@@ -33,12 +33,12 @@ fun BottomNav(
             BottomNavigationItem(
                 selected = currentRoute == bottomNavItem.route,
                 onClick = {
-                    if (bottomNavItem.route == Routes.TRAINING_LIST){
-                        Log.d("LogBottomNav", "TRAINING_LIST")
-                        navController.navigate(bottomNavItem.route + "/${str}")
-                    }else{
+//                    if (bottomNavItem.route == Routes.TRAINING_LIST){
+//                        Log.d("LogBottomNav", "TRAINING_LIST")
+//                        navController.navigate(bottomNavItem.route + "/${str}")
+//                    }else{
                         navController.navigate(bottomNavItem.route)
-                    }
+               //     }
                 },
                 icon = {
                     Icon(

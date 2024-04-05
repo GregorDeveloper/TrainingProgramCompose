@@ -8,6 +8,8 @@ import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import gregor.developer.training_program_compose.data.entity.WorkoutListItem
 import gregor.developer.training_program_compose.data.repository.WorkOutListRepository
+import gregor.developer.trainingprogramcompose.data.entity.WorkoutListTraining
+import gregor.developer.trainingprogramcompose.data.repository.WorkoutListTrainingRepository
 import gregor.developer.trainingprogramcompose.data.static_data.MuscleItem
 import gregor.developer.trainingprogramcompose.data.static_data.MuscleList
 import gregor.developer.trainingprogramcompose.data.static_data.WorkoutItem
@@ -20,6 +22,7 @@ import javax.inject.Inject
 @HiltViewModel
 class WorkScreenViewModel @Inject constructor(
     private val repository: WorkOutListRepository,
+    private val repositoryWorkoutList: WorkoutListTrainingRepository,
     savedStateHandle: SavedStateHandle,
     private val stringResProv: StringResourcesProvider,
 ) : ViewModel(), DialogDescriptionController {
@@ -27,9 +30,6 @@ class WorkScreenViewModel @Inject constructor(
     var workoutListItem: WorkoutListItem? = null
     var listId: Int? = null
     var date: String? = null
-    var offsetX: Float? = null
-    var offsetY: Float? = null
-    var radio: Float? = null
     val searchWorkout = mutableStateOf("")
     private var groupMuscleSave: String = "Neck"
 
@@ -37,8 +37,8 @@ class WorkScreenViewModel @Inject constructor(
     init {
         listId = savedStateHandle.get<Int>("listId")
         date = savedStateHandle.get<String>("date")
-//        offsetX = savedStateHandle.get<Float>("offsetX")
-//        offsetY = savedStateHandle.get<Float>("offsetY")
+        Log.d("LogWorkoutScreen", date + " date")
+        Log.d("LogWorkoutScreen", listId.toString() + " listId")
     }
 
     override var workoutImage = mutableStateOf(0)
@@ -66,14 +66,14 @@ class WorkScreenViewModel @Inject constructor(
                 viewModelScope.launch {
                     if (listId != -1) {
                         Log.d("LogSave", "Save list")
-                        repository.insertItem(
-                            WorkoutListItem(
+                        repositoryWorkoutList.insertItem(
+                            WorkoutListTraining(
                                 workoutListItem?.id,
                                 event.item,
-                                "",
                                 listId!!
                             )
                         )
+
                     }else if(date != null){
                         Log.d("LogSave", "Save workout")
                         repository.insertItem(
@@ -81,7 +81,7 @@ class WorkScreenViewModel @Inject constructor(
                                 workoutListItem?.id,
                                 event.item,
                                 date!!,
-                                0
+                                0 // убрать из таблицы
                             )
                         )
                     }

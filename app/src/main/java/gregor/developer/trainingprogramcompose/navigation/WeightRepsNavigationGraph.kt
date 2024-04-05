@@ -18,11 +18,10 @@ fun WeightRepsNavigationGraph(
 ) {
 
     NavHost(navController = navController, startDestination = Routes.NEW_WEIGHT_REPS
-        //   + "/{workoutName}"
     ){
 
         composable(Routes.NEW_WEIGHT_REPS
-//                + "/{workoutName}",
+              //  + "/{workoutName}",
 //            arguments = listOf(
 //                navArgument("workoutName") {
 //                    type = NavType.StringType

@@ -15,24 +15,69 @@ import androidx.compose.material.SwipeToDismiss
 import androidx.compose.material.Text
 import androidx.compose.material.rememberDismissState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
+import androidx.lifecycle.LifecycleOwner
 import gregor.developer.trainingprogramcompose.data.swipe_to_dismiss.ParameterSwipeItem
 import gregor.developer.trainingprogramcompose.screen.swipe_screen.SwipeItem
 import gregor.developer.trainingprogramcompose.dialog.MainDialog
+import gregor.developer.trainingprogramcompose.screen.calendar_screen.CalendarEvent
 import gregor.developer.trainingprogramcompose.screen.progress_indicator.ProgressIndicator
 import gregor.developer.trainingprogramcompose.utils.UiEvent
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
 fun TrainingListScreen(
+    trainingUpdate: Boolean,
     viewModel: TrainingListViewModel = hiltViewModel(),
+    lifecycleOwner: LifecycleOwner = LocalLifecycleOwner.current,
     onNavigate: (String) -> Unit
 ) {
+    DisposableEffect(lifecycleOwner) {
+        val observer = LifecycleEventObserver { _, event ->
+            when(event){
+                Lifecycle.Event.ON_START -> {
+                    Log.d("LogLifecycle", "ON_START")
+                    Log.d("LogLifecycle", trainingUpdate.toString())
+                    if(trainingUpdate){
+                        onNavigate("Back")
+                    }
+                }
+                Lifecycle.Event.ON_STOP -> {
+                    Log.d("LogLifecycle", "ON_STOP")
+                }
+                Lifecycle.Event.ON_PAUSE -> {
+                    Log.d("LogLifecycle", "ON_PAUSE")
+                }
+                Lifecycle.Event.ON_RESUME -> {
+                    Log.d("LogLifecycle", trainingUpdate.toString())
+//                    if(viewModel.selectedDate.value.date != "" && trainingUpdate){
+//                        val date = viewModel.getTwoSymbol()
+//                        viewModel.listOfCurrentMonth.value.dayInMonth.get(date - 1).training = trainingUpdate
+//
+//                    }
+//                    if(trainingUpdate){
+//                        viewModel.onEvent(CalendarEvent.GetTraining(viewModel.selectedDate.value.date))
+//                    }
+                }
+                else ->{
+
+                }
+            }
+        }
+        lifecycleOwner.lifecycle.addObserver(observer)
+        onDispose {
+            lifecycleOwner.lifecycle.removeObserver(observer)
+        }
+    }
     val trainingList = viewModel.list.collectAsState(initial = emptyList())
     LaunchedEffect(key1 = true) {
         viewModel.uiEvent.collect { uiEvent ->
@@ -102,7 +147,7 @@ fun TrainingListScreen(
                     }
                 },
                 dismissContent = {
-                    UiTrainingListItem(item) { event ->
+                    UiTrainingListItem(item, viewModel.date ?: " ") { event ->
                         viewModel.onEvent(event)
                     }
                 },

@@ -18,24 +18,20 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import gregor.developer.training_program_compose.data.entity.WorkoutListItem
+import gregor.developer.trainingprogramcompose.data.entity.WorkoutListTraining
 import gregor.developer.trainingprogramcompose.screen.workout_screen.list_workout.WorkoutEvent
 import gregor.developer.trainingprogramcompose.utils.Routes
 
 
 @Composable
 fun UiUserWorkOutScreen(
-    item: WorkoutListItem,
+    item: WorkoutListTraining,
     onEvent: (String) -> Unit
 ) {
-    Log.d("MyLogScreen", item.workoutName)
+    Log.d("MyLogScreen", item.name)
     Card(
         modifier = Modifier.fillMaxWidth()
-            .padding(5.dp)
-            .clickable {
-                onEvent(
-                    Routes.WEIGHT_REPS + "/${item.date}" + "/${item.workoutName}"
-                )
-            },
+            .padding(5.dp),
         backgroundColor = Color.DarkGray
     ) {
         Column(
@@ -43,7 +39,7 @@ fun UiUserWorkOutScreen(
                 .padding(5.dp)
         ) {
             Text(
-                text = item.workoutName,
+                text = item.name,
                 style = TextStyle(
                     color = Color.Green,
                     fontSize = 20.sp,

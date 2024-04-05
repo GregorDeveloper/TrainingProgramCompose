@@ -65,24 +65,21 @@ class CalendarScreenViewModel @Inject constructor(
                     resetSelectedDay()
                 } else {
                     selectedDate.value.date = selectedDateToString(event.day, localDate)
-                    openTitle(selectedDateToString(event.day, localDate))
+                    openTitle(selectedDate.value.date)
                     if (listOfCurrentMonth.value.dayInMonth.get(event.day.day - 1).training == true) {
                         viewModelScope.launch {
                             listFlow = getAllItemsByDateFlow(event.day.day.toString())
-//                            itemsList2.value =
-//                                getAllItemsByDate(dateForDB(event.day.day, localDate))
                         }
                     } else {
                         viewModelScope.launch {
-                            listFlow = emptyFlow()
+                            listFlow = null
                         }
-                        itemsList2.value = emptyList()
                     }
                 }
             }
 
             is CalendarEvent.ChangeMonth -> {
-
+                selectedDate.value = CanvasParametr(Offset.Zero, 0.0f, "")
                 lastNextMonth(event.change)
                 if (listOfCurrentMonth.value.dayOfWeek >= 6) {
                     rows.value = 1
@@ -121,7 +118,12 @@ class CalendarScreenViewModel @Inject constructor(
             }
 
             is CalendarEvent.SaveCanvasParametr -> {
-                selectedDate.value = event.canvasPar
+                selectedDate.value = CanvasParametr(
+                    offset = event.canvasPar.offset,
+                    radios = event.canvasPar.radios,
+                    date = selectedDateToString(DayTraining(event.canvasPar.date.toInt()), localDate)
+                )
+
             }
         }
     }
@@ -194,10 +196,10 @@ class CalendarScreenViewModel @Inject constructor(
 
     fun getAllItemsByDateFlow(date: String): Flow<List<WorkoutListItem>> {
         val dt: String
-        if(date.length > 3){
+        if (date.length > 3) {
             Log.d("LogDateLenght", "lenght > 3")
             dt = date
-        }else{
+        } else {
             dt = dateForDB(date.toInt(), localDate)
             Log.d("LogDateLenght", "lenght < 3")
         }
@@ -205,7 +207,7 @@ class CalendarScreenViewModel @Inject constructor(
     }
 
 
-     private suspend fun getAllItemsByDate(date: String): List<WorkoutListItem> {
+    private suspend fun getAllItemsByDate(date: String): List<WorkoutListItem> {
         return date.let { repository.getAllItemsByDate(it) }
     }
 
@@ -274,7 +276,7 @@ class CalendarScreenViewModel @Inject constructor(
         }
     }
 
-    fun getTwoSymbol(): Int{
+    fun getTwoSymbol(): Int {
         val date = selectedDate.value.date.substring(0, selectedDate.value.date.indexOf("."))
         return date.toInt()
     }

@@ -1,5 +1,6 @@
 package gregor.developer.trainingprogramcompose.navigation
 
+import android.util.Log
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
@@ -11,6 +12,7 @@ import gregor.developer.trainingprogramcompose.screen.progress_screen.ProgressSc
 import gregor.developer.trainingprogramcompose.screen.settings_screen.SettingsScreen
 import gregor.developer.trainingprogramcompose.screen.training_list_screen.TrainingListScreen
 import gregor.developer.trainingprogramcompose.screen.workout_screen.list_workout.WorkoutScreen
+import gregor.developer.trainingprogramcompose.screen.workout_screen.user_workout.UserWorkoutScreen
 import gregor.developer.trainingprogramcompose.utils.Routes
 
 @Composable
@@ -24,7 +26,12 @@ fun NavigationGraph(
             val trainingUpdate = entry.savedStateHandle.get<Boolean>("add_training")
             CalendarScreen(trainingUpdate ?: false)
             { route ->
-                navController.navigate(route)
+                Log.d("NavigationGraph", route)
+                if(route.substring(0, route.indexOf("/")) == Routes.WEIGHT_REPS){
+                    onNavigate(route)
+                }else{
+                    navController.navigate(route)
+                }
             }
         }
         composable(Routes.PROGRESS) {
@@ -51,13 +58,12 @@ fun NavigationGraph(
                 navController.popBackStack()
             }
         }
-//        composable(Routes.WORKOUT_LIST) {
-//            WorkoutScreen(){
-//                onNavigate(it)
-//                Log.d("MyLogCalendarScreen", it + " Navigate")
-//                navController.popBackStack()
-//            }
-//        }
+        composable(Routes.TRAINING_LIST) {
+            TrainingListScreen(false)
+            { route ->
+                  navController.navigate(route)
+            }
+        }
         composable(Routes.TRAINING_LIST + "/{date}",
             arguments = listOf(
                 navArgument("date") {
@@ -65,14 +71,54 @@ fun NavigationGraph(
                     defaultValue = ""
                 }
             )
-        ) {
-            TrainingListScreen()
+        ) {entry ->
+            val trainingUpdate = entry.savedStateHandle.get<Boolean>("add_training")
+            TrainingListScreen(trainingUpdate ?: false)
             { route ->
-                onNavigate(route)
+                if(trainingUpdate != null){
+                    navController.previousBackStackEntry
+                        ?.savedStateHandle
+                        ?.set("add_training", true)
+                    navController.popBackStack()
+                }else{
+                    navController.navigate(route)
+                }
+
+                //onNavigate(route)
             }
         }
         composable(Routes.SETTINGS) {
             SettingsScreen()
+        }
+
+        composable(Routes.USER_WORKOUT_LIST
+                + "/{listId}"
+                + "/{date}"
+            ,
+            arguments = listOf(
+                navArgument("listId") {
+                    type = NavType.IntType
+                    defaultValue = -1
+                },
+                navArgument("date"){
+                    type = NavType.StringType
+                    defaultValue = ""
+                }
+            )
+        ) {
+            UserWorkoutScreen()
+            { route ->
+               // navController.popBackStack()
+                if(route == "Back"){
+                    navController.previousBackStackEntry
+                        ?.savedStateHandle
+                        ?.set("add_training", true)
+                    navController.popBackStack()
+                }else{
+                    navController.navigate(route)
+                }
+
+            }
         }
     }
 }

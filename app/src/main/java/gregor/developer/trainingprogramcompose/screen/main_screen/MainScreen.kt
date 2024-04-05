@@ -39,7 +39,6 @@ import gregor.developer.trainingprogramcompose.utils.Routes
 fun MainScreen(
     mainNavController: NavHostController,
     viewModel: MainScreenViewModel = hiltViewModel(),
-
     ) {
     val navController = rememberNavController()
     val navBackStackEntry by navController.currentBackStackEntryAsState()
@@ -49,10 +48,17 @@ fun MainScreen(
         modifier = Modifier
             .fillMaxSize(),
         bottomBar = {
-            BottomNav(navController)
+            if (currentRoute == Routes.CALENDAR_SCREEN ||
+                currentRoute == Routes.TRAINING_LIST ||
+                currentRoute == Routes.PROGRESS ||
+                currentRoute == Routes.SETTINGS
+            ) {
+                BottomNav(navController)
+            }
+
         },
         floatingActionButton = {
-            if (currentRoute == Routes.TRAINING_LIST + "/{date}" ) {
+            if (currentRoute == Routes.TRAINING_LIST) {
                 FloatingActionButton(
                     onClick = {
                         viewModel.onEvent(
@@ -62,13 +68,13 @@ fun MainScreen(
                         )
                     }
                 ) {
-                        Icon(
-                            painter = painterResource(R.drawable.add_icon),
-                            contentDescription = "Add",
-                            tint = Color.Gray
-                        )
+                    Icon(
+                        painter = painterResource(R.drawable.add_icon),
+                        contentDescription = "Add",
+                        tint = Color.Gray
+                    )
                 }
-          }
+            }
         },
         floatingActionButtonPosition = FabPosition.Center,
         isFloatingActionButtonDocked = true
