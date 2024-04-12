@@ -10,6 +10,8 @@ import gregor.developer.training_program_compose.data.entity.WorkoutListItem
 import gregor.developer.training_program_compose.data.repository.WorkOutListRepository
 import gregor.developer.trainingprogramcompose.data.static_data.Date
 import gregor.developer.trainingprogramcompose.data.static_data.DayTraining
+import gregor.developer.trainingprogramcompose.dialog.DialogController
+import gregor.developer.trainingprogramcompose.dialog.DialogEvent
 import gregor.developer.trainingprogramcompose.screen.calendar_screen.data.CanvasParametr
 import gregor.developer.trainingprogramcompose.utils.UiEvent
 import kotlinx.coroutines.channels.Channel
@@ -27,14 +29,26 @@ import java.time.format.DateTimeFormatter
 @HiltViewModel
 class CalendarScreenViewModel @Inject constructor(
     private val repository: WorkOutListRepository,
-) : ViewModel() {
+) : ViewModel(), DialogController {
+    override var dialogTitle = mutableStateOf("List name")
+        private set
+    override var editableText = mutableStateOf("")
+        private set
+    override var openDialog = mutableStateOf(false)
+        private set
+    override var showEditableText = mutableStateOf(false)
+        private set
+    override var choiceDialog = mutableStateOf("")
+        private set
+
+
+
     private var localDate = LocalDate.now()
 
     var listFlow: Flow<List<WorkoutListItem>>? = null //Flow тест
     private val _uiEvent = Channel<UiEvent>()
     val uiEvent = _uiEvent.receiveAsFlow()
-    var itemsList2 = mutableStateOf<List<WorkoutListItem>>(emptyList())
-
+    var cancelSwipe = mutableStateOf(false)
     val listOfCurrentMonth = mutableStateOf<Date>(
         Date(
             "JANUARY",
@@ -102,11 +116,12 @@ class CalendarScreenViewModel @Inject constructor(
             }
 
             is CalendarEvent.ClickWorkout -> {
-
+              //  sendUiEvent(UiEvent.Navigate())
             }
 
             is CalendarEvent.DeleteTrainingInDay -> {
-
+                openDialog.value = true
+                dialogTitle.value = "Delete all workout for ${event.date}"
             }
 
             is CalendarEvent.DeleteWorkOut -> {
@@ -123,6 +138,20 @@ class CalendarScreenViewModel @Inject constructor(
                     radios = event.canvasPar.radios,
                     date = selectedDateToString(DayTraining(event.canvasPar.date.toInt()), localDate)
                 )
+
+            }
+        }
+    }
+
+    override fun onDialogEvent(event: DialogEvent) {
+        when(event){
+            is DialogEvent.OnConfirm -> {
+                openDialog.value = false
+            }
+            is DialogEvent.OnCancel -> {
+                openDialog.value = false
+            }
+            else -> {
 
             }
         }

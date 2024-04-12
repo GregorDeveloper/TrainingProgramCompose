@@ -14,12 +14,16 @@ import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material.Card
+import androidx.compose.material.DismissValue
 import androidx.compose.material.Divider
 import androidx.compose.material.DropdownMenu
+import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
+import androidx.compose.material.SwipeToDismiss
 import androidx.compose.material.Text
 import androidx.compose.material.TextButton
+import androidx.compose.material.rememberDismissState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
@@ -43,10 +47,14 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.LifecycleOwner
 import gregor.developer.trainingprogramcompose.R
+import gregor.developer.trainingprogramcompose.data.swipe_to_dismiss.ParameterSwipeItem
+import gregor.developer.trainingprogramcompose.dialog.MainDialog
+import gregor.developer.trainingprogramcompose.screen.swipe_screen.SwipeItem
 import gregor.developer.trainingprogramcompose.screen.workout_screen.user_workout.UiUserWorkOutScreen
 import gregor.developer.trainingprogramcompose.utils.Routes
 import gregor.developer.trainingprogramcompose.utils.UiEvent
 
+@OptIn(ExperimentalMaterialApi::class)
 @Composable
 fun CalendarScreen(
     trainingUpdate: Boolean,
@@ -57,28 +65,33 @@ fun CalendarScreen(
     val workoutListFlow = viewModel.listFlow?.collectAsState(initial = emptyList())
     DisposableEffect(lifecycleOwner) {
         val observer = LifecycleEventObserver { _, event ->
-            when(event){
+            when (event) {
                 Lifecycle.Event.ON_START -> {
                     Log.d("LogLifecycle", "ON_START")
                 }
+
                 Lifecycle.Event.ON_STOP -> {
                     Log.d("LogLifecycle", "ON_STOP")
                 }
+
                 Lifecycle.Event.ON_PAUSE -> {
                     Log.d("LogLifecycle", "ON_PAUSE")
                 }
+
                 Lifecycle.Event.ON_RESUME -> {
                     Log.d("LogLifecycle", trainingUpdate.toString())
-                    if(viewModel.selectedDate.value.date != "" && trainingUpdate){
+                    if (viewModel.selectedDate.value.date != "" && trainingUpdate) {
                         val date = viewModel.getTwoSymbol()
-                        viewModel.listOfCurrentMonth.value.dayInMonth.get(date - 1).training = trainingUpdate
+                        viewModel.listOfCurrentMonth.value.dayInMonth.get(date - 1).training =
+                            trainingUpdate
 
                     }
-                    if(trainingUpdate){
+                    if (trainingUpdate) {
                         viewModel.onEvent(CalendarEvent.GetTraining(viewModel.selectedDate.value.date))
                     }
                 }
-                else ->{
+
+                else -> {
 
                 }
             }
@@ -154,7 +167,7 @@ fun CalendarScreen(
                 .aspectRatio(viewModel.aspectRatio.value),
             rows = viewModel.rows.value,
             canvasPar = viewModel.selectedDate.value
-        ) {canvasPar ->
+        ) { canvasPar ->
             viewModel.onEvent(CalendarEvent.SaveCanvasParametr(canvasPar))
         }
 
@@ -174,20 +187,66 @@ fun CalendarScreen(
             contentPadding = PaddingValues(bottom = 100.dp)
         ) {
             if (workoutListFlow != null) {
-                itemsIndexed(workoutListFlow.value, key = { _, listItem ->
-                    listItem.hashCode()
-                }) { index, item ->
-                    UiWorkOutScreen(item) { event ->
-                        Log.d("LogCalendarNavigate", "OnNavigate")
-                        onNavigate(
-                            event
-                        )
-                        //Перейти к концу списка!!!!
-                    }
+                itemsIndexed(workoutListFlow.value,
+                    key = { _,
+                            listItem ->
+                        listItem.hashCode()
+                    }) { index, item ->
+                    val state = rememberDismissState(
+                        confirmStateChange = { dismissValue ->
+                            when (dismissValue) {
+                                DismissValue.DismissedToStart -> {
+                                    true
+                                }
+
+                                DismissValue.DismissedToEnd -> {
+                                    true
+                                }
+
+                                DismissValue.Default -> {
+                                    true
+                                }
+                            }
+                        }
+                    )
+                    SwipeToDismiss(
+                        state = state,
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .padding(
+                                top = 18.dp,
+                                start = 3.dp,
+                                end = 3.dp
+                            ),
+                        background = {
+                            val parametersSwipeItem =
+                                state.dismissDirection?.let { ParameterSwipeItem(it) }
+                            if (parametersSwipeItem != null) {
+                                if (viewModel.cancelSwipe.value) {
+                                    LaunchedEffect(key1 = viewModel.cancelSwipe.value) {
+                                        state.reset()
+                                        viewModel.cancelSwipe.value = false
+                                    }
+                                }
+                                SwipeItem(parametersSwipeItem)
+                            }
+                        },
+                        dismissContent = {
+                            UiWorkOutScreen(item) { event ->
+                                Log.d("LogCalendarNavigate", "OnNavigate")
+                                onNavigate(
+                                    event
+                                )
+                                //Перейти к концу списка!!!!
+                            }
+                        },
+                    )
+                    Divider()
                 }
             }
         }
     }
+    MainDialog(viewModel)
 }
 
 
@@ -265,8 +324,11 @@ fun TitleWorkoutCalendar(
                 }
             }
             IconButton(
-                onClick = { /*TODO*/ },
-                // modifier = Modifier.padding(3.dp)
+                onClick = {
+                    if (viewModel.listFlow != null) {
+                        viewModel.onEvent(CalendarEvent.DeleteTrainingInDay(viewModel.selectedDate.value.date))
+                    }
+                },
             ) {
                 Icon(
                     painter = painterResource(id = R.drawable.delete_icon),

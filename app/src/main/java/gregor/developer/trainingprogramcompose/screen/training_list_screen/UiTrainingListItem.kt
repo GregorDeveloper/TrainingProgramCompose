@@ -35,11 +35,7 @@ fun UiTrainingListItem(
 ) {
 
     ConstraintLayout(
-        modifier = Modifier.padding(
-//            top = 18.dp,
-//            start = 3.dp,
-//            end = 3.dp
-        )
+        modifier = Modifier.padding(5.dp)
     ) {
         val (card, editButton, deleteButton) = createRefs()
         Card(

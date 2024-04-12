@@ -15,6 +15,7 @@ object Routes {
     const val OLD_WEIGHT_REPS = "old_weight_reps"
     const val NOTE = "note"
 
+    const val SAVE_LIST_AND_BACK = "save_list_and_back"
     const val ADD_TRAINING = "add_training"
     const val ADD_WORKOUT_OR_LIST = "add_workout_or_list"
     const val WEIGHT_REPS_DIALOG = "add_workout_or_list"

@@ -40,6 +40,7 @@ import gregor.developer.trainingprogramcompose.screen.training_list_screen.Train
 //@Preview(showBackground = true)
 @Composable
 fun NewWeightRepsScreen(
+    workoutName: String,
     viewModel: NewWeightRepsViewModel = hiltViewModel(),
 ) {
     ConstraintLayout(modifier = Modifier.fillMaxSize()) {

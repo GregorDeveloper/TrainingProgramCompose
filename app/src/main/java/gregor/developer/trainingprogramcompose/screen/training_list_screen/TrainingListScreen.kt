@@ -45,31 +45,11 @@ fun TrainingListScreen(
         val observer = LifecycleEventObserver { _, event ->
             when(event){
                 Lifecycle.Event.ON_START -> {
-                    Log.d("LogLifecycle", "ON_START")
-                    Log.d("LogLifecycle", trainingUpdate.toString())
                     if(trainingUpdate){
                         onNavigate("Back")
                     }
                 }
-                Lifecycle.Event.ON_STOP -> {
-                    Log.d("LogLifecycle", "ON_STOP")
-                }
-                Lifecycle.Event.ON_PAUSE -> {
-                    Log.d("LogLifecycle", "ON_PAUSE")
-                }
-                Lifecycle.Event.ON_RESUME -> {
-                    Log.d("LogLifecycle", trainingUpdate.toString())
-//                    if(viewModel.selectedDate.value.date != "" && trainingUpdate){
-//                        val date = viewModel.getTwoSymbol()
-//                        viewModel.listOfCurrentMonth.value.dayInMonth.get(date - 1).training = trainingUpdate
-//
-//                    }
-//                    if(trainingUpdate){
-//                        viewModel.onEvent(CalendarEvent.GetTraining(viewModel.selectedDate.value.date))
-//                    }
-                }
                 else ->{
-
                 }
             }
         }

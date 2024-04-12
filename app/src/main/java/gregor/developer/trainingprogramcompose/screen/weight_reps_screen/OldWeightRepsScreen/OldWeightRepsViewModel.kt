@@ -36,7 +36,7 @@ class OldWeightRepsViewModel @Inject constructor(
     var number: Int = -1
     init {
         workoutName = workoutObject.workoutName
-        getList()
+        if(number != -1) getList()
     }
 
     fun onEvent(event: OldWeightRepsEvent){

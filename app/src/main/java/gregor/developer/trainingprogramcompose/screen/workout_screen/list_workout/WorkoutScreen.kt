@@ -82,9 +82,7 @@ fun WorkoutScreen(
             }
         }
 
-        DialogDescription(viewModel
-           // , navController
-        )
+        DialogDescription(viewModel)
        {
             Log.d("MyLogCalendarScreen", it.toString() +" WorkoutScreen")
             onNavigate(it)

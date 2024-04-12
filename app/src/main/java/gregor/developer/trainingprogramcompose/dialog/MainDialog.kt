@@ -29,21 +29,21 @@ fun MainDialog(
                 Column(
                    modifier = Modifier.wrapContentWidth()
                 ) {
-                    when (dialogController.choiceDialog.value) {
-                        RoutesDialog.ADD_TRAINING -> {
+//                    when (dialogController.choiceDialog.value) {
+//                        RoutesDialog.ADD_TRAINING -> {
                             AddTraining(dialogController)
-                        }
-                        RoutesDialog.ADD_WORKOUT_OR_LIST -> {
-                            AddWorkoutOrList(dialogController)
-                        }
-                        else -> {
-
-                        }
-                    }
+//                        }
+//                        RoutesDialog.ADD_WORKOUT_OR_LIST -> {
+//                            AddWorkoutOrList(dialogController)
+//                        }
+//                        else -> {
+//
+//                        }
+                  //  }
                 }
             },
             confirmButton = {
-                if(dialogController.choiceDialog.value == RoutesDialog.ADD_TRAINING){
+             //   if(dialogController.choiceDialog.value == RoutesDialog.ADD_TRAINING){
                     TextButton(
                         onClick = {
                             dialogController.onDialogEvent(DialogEvent.OnConfirm)
@@ -51,7 +51,7 @@ fun MainDialog(
                     ) {
                         Text(text = "Ok")
                     }
-                }
+              //  }
             },
 
             dismissButton = {

@@ -62,7 +62,7 @@ fun UserWorkoutScreen(
             onClick = {
                 if(viewModel.date != " "){
                     viewModel.onEvent(UserWorkoutEvent.OnSaveList)
-                    onNavigate("Back")
+                    onNavigate(Routes.SAVE_LIST_AND_BACK)
                 }else{
                     onNavigate(
                         Routes.WORKOUT_LIST +  "/${" "}" + "/${viewModel.listId}"

@@ -19,11 +19,13 @@ import gregor.developer.trainingprogramcompose.data.static_data.ParametersSwipeI
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
 fun SwipeItem(parametersSwipeItem: ParametersSwipeItem,
+
              // state: DismissState
 ) {
         Card(
             modifier = Modifier
-                .fillMaxSize(),
+                .fillMaxSize()
+                .padding(5.dp),
             backgroundColor = parametersSwipeItem.color,
 //            elevation = animateDpAsState(
 //                targetValue =

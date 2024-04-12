@@ -19,7 +19,6 @@ fun WeightRepsNavigationGraph(
 
     NavHost(navController = navController, startDestination = Routes.NEW_WEIGHT_REPS
     ){
-
         composable(Routes.NEW_WEIGHT_REPS
               //  + "/{workoutName}",
 //            arguments = listOf(
@@ -29,7 +28,7 @@ fun WeightRepsNavigationGraph(
 //                }
 //            )
         ){
-            NewWeightRepsScreen()
+            NewWeightRepsScreen(workoutName)
         }
 
         composable(Routes.OLD_WEIGHT_REPS){

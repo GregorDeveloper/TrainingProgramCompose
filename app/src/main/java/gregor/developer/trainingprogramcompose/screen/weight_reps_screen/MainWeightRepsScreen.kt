@@ -45,6 +45,7 @@ fun WeightRepsScreen(
     viewModel: WeightRepsViewModel = hiltViewModel(),
     onNavigate: (String) -> Unit
 ) {
+
     val navController = rememberNavController()
     Scaffold(
         modifier = Modifier
@@ -75,11 +76,11 @@ fun WeightRepsScreen(
 
 
 //       // MainDialog(viewModel)
-        BackHandler() {
-            onNavigate(
-                Routes.USER_WORKOUT_LIST + "/${viewModel.listId}"
-            )
-        }
+//        BackHandler() {
+//            onNavigate(
+//                Routes.USER_WORKOUT_LIST + "/${viewModel.listId}"
+//            )
+//        }
     }
 
 }
