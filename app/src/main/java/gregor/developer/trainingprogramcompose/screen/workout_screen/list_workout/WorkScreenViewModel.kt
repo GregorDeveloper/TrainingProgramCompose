@@ -37,7 +37,7 @@ class WorkScreenViewModel @Inject constructor(
     init {
         listId = savedStateHandle.get<Int>("listId")
         date = savedStateHandle.get<String>("date")
-        Log.d("LogWorkoutScreen", date + " date")
+        Log.d("LogWorkoutScreen", date?.length.toString())
         Log.d("LogWorkoutScreen", listId.toString() + " listId")
     }
 
@@ -64,17 +64,19 @@ class WorkScreenViewModel @Inject constructor(
         when (event) {
             is WorkoutEvent.OnSaveTraining -> {
                 viewModelScope.launch {
-                    if (listId != -1) {
+                    if (listId != -1 && date!!.length > 2) {
                         Log.d("LogSave", "Save list")
-                        repositoryWorkoutList.insertItem(
-                            WorkoutListTraining(
-                                workoutListItem?.id,
+                        repository.insertItem(
+                            WorkoutListItem(
+                                listId,
                                 event.item,
-                                listId!!
+                                date!!,
+                                0
                             )
                         )
 
-                    }else if(date != null){
+
+                    }else if(date!!.length > 2){
                         Log.d("LogSave", "Save workout")
                         repository.insertItem(
                             WorkoutListItem(
@@ -82,6 +84,15 @@ class WorkScreenViewModel @Inject constructor(
                                 event.item,
                                 date!!,
                                 0 // убрать из таблицы
+                            )
+                        )
+                    }else if(listId != -1){
+                        Log.d("LogSave", " If Ok  ${event.item}")
+                        repositoryWorkoutList.insertItem(
+                            WorkoutListTraining(
+                                workoutListItem?.id,
+                                event.item,
+                                listId!!
                             )
                         )
                     }

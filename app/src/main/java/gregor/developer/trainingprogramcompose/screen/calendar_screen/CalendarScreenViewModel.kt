@@ -13,6 +13,7 @@ import gregor.developer.trainingprogramcompose.data.static_data.DayTraining
 import gregor.developer.trainingprogramcompose.dialog.DialogController
 import gregor.developer.trainingprogramcompose.dialog.DialogEvent
 import gregor.developer.trainingprogramcompose.screen.calendar_screen.data.CanvasParametr
+import gregor.developer.trainingprogramcompose.utils.Routes
 import gregor.developer.trainingprogramcompose.utils.UiEvent
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.Flow
@@ -38,14 +39,12 @@ class CalendarScreenViewModel @Inject constructor(
         private set
     override var showEditableText = mutableStateOf(false)
         private set
-    override var choiceDialog = mutableStateOf("")
-        private set
-
-
 
     private var localDate = LocalDate.now()
 
     var listFlow: Flow<List<WorkoutListItem>>? = null //Flow тест
+    private var listItem: WorkoutListItem? = null
+    private var choiceDialog: String? = null
     private val _uiEvent = Channel<UiEvent>()
     val uiEvent = _uiEvent.receiveAsFlow()
     var cancelSwipe = mutableStateOf(false)
@@ -116,7 +115,7 @@ class CalendarScreenViewModel @Inject constructor(
             }
 
             is CalendarEvent.ClickWorkout -> {
-              //  sendUiEvent(UiEvent.Navigate())
+                //  sendUiEvent(UiEvent.Navigate())
             }
 
             is CalendarEvent.DeleteTrainingInDay -> {
@@ -128,6 +127,31 @@ class CalendarScreenViewModel @Inject constructor(
 
             }
 
+            is CalendarEvent.OpenDialog -> {
+                openDialog.value = true
+                listItem = event.workout
+                var title = ""
+                when (event.dialog) {
+                    Routes.DIALOG_DELETE_TRAINING -> {
+                        title = "Delete all workout for ${event.workout.date}"
+                        choiceDialog = event.dialog
+                    }
+
+                    Routes.DIALOG_DELETE_WORKOUT -> {
+                        title = "Delete ${event.workout.workoutName}"
+                        choiceDialog = event.dialog
+                    }
+
+                    Routes.DIALOG_EDIT -> {
+                        title = "Replace ${event.workout.workoutName}"
+
+                        choiceDialog = event.dialog
+                    }
+                }
+
+                dialogTitle.value = title
+            }
+
             is CalendarEvent.GetTraining -> {
                 listFlow = getAllItemsByDateFlow(event.date)
             }
@@ -136,7 +160,10 @@ class CalendarScreenViewModel @Inject constructor(
                 selectedDate.value = CanvasParametr(
                     offset = event.canvasPar.offset,
                     radios = event.canvasPar.radios,
-                    date = selectedDateToString(DayTraining(event.canvasPar.date.toInt()), localDate)
+                    date = selectedDateToString(
+                        DayTraining(event.canvasPar.date.toInt()),
+                        localDate
+                    )
                 )
 
             }
@@ -144,13 +171,50 @@ class CalendarScreenViewModel @Inject constructor(
     }
 
     override fun onDialogEvent(event: DialogEvent) {
-        when(event){
+        when (event) {
             is DialogEvent.OnConfirm -> {
+
+                    when (choiceDialog) {
+                        Routes.DIALOG_DELETE_WORKOUT -> {
+                            viewModelScope.launch {
+                                if (listItem != null) repository.deleteItem(listItem!!)
+                                listFlow?.collect{
+
+                                }
+                            }
+                        }
+                        Routes.DIALOG_DELETE_TRAINING -> {
+                            viewModelScope.launch {
+                                listFlow?.collect { list ->
+                                    list.forEach { item ->
+                                        repository.deleteItem(item)
+                                    }
+                                }
+                            }
+                            listOfCurrentMonth.value.dayInMonth
+                                .get(getTwoSymbol() - 1)
+                                .training = false
+                        }
+                        //Ошибка при добавлении тренировки
+                        Routes.DIALOG_EDIT -> {
+                            sendUiEvent(UiEvent.Navigate(
+                                Routes.WORKOUT_LIST +
+                                        "/${selectedDate.value.date}" +
+                                        "/${listItem?.id}"))
+                        }
+                    }
+                listOfCurrentMonth.value.dayInMonth
+                    .get(getTwoSymbol() - 1)
+                    .training = false
+                choiceDialog = null
+                listItem = null
                 openDialog.value = false
             }
+
             is DialogEvent.OnCancel -> {
                 openDialog.value = false
             }
+
             else -> {
 
             }

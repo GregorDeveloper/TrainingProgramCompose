@@ -6,7 +6,7 @@ import gregor.developer.trainingprogramcompose.screen.workout_screen.list_workou
 
 sealed class UserWorkoutEvent{
 
-    object OnSaveList: UserWorkoutEvent()
+    data class OnSaveList(val route: String): UserWorkoutEvent()
     data class OnItemClick(val route: String): UserWorkoutEvent()
     data class OnDelete(val item: WorkoutListTraining): UserWorkoutEvent()
     data class OnEditItem(val itemId: Int, val route: String): UserWorkoutEvent()

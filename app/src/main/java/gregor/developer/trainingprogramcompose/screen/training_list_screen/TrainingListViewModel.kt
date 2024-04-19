@@ -52,8 +52,6 @@ class TrainingListViewModel @Inject constructor(
         private set
     override var showEditableText = mutableStateOf(false)
         private set
-    override var choiceDialog = mutableStateOf("")
-        private set
 
     init {
         date = savedStateHandle.get<String>("date") ?: " "
@@ -76,7 +74,7 @@ class TrainingListViewModel @Inject constructor(
             }
 
             is TrainingListEvent.OnShowEditDialog -> {
-                choiceDialog.value = RoutesDialog.ADD_TRAINING
+              //  choiceDialog.value = RoutesDialog.ADD_TRAINING
                 listItem = event.item
                 openDialog.value = true
                 editableText.value = listItem?.name ?: ""

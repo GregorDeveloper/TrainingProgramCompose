@@ -2,6 +2,7 @@ package gregor.developer.trainingprogramcompose.screen.training_list_screen
 
 
 import android.util.Log
+import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
@@ -136,4 +137,7 @@ fun TrainingListScreen(
         }
     }
     MainDialog(viewModel)
+    BackHandler {
+        onNavigate("Back")
+    }
 }

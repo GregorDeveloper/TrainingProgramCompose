@@ -46,6 +46,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.LifecycleOwner
+import gregor.developer.training_program_compose.data.entity.WorkoutListItem
 import gregor.developer.trainingprogramcompose.R
 import gregor.developer.trainingprogramcompose.data.swipe_to_dismiss.ParameterSwipeItem
 import gregor.developer.trainingprogramcompose.dialog.MainDialog
@@ -66,33 +67,15 @@ fun CalendarScreen(
     DisposableEffect(lifecycleOwner) {
         val observer = LifecycleEventObserver { _, event ->
             when (event) {
-                Lifecycle.Event.ON_START -> {
-                    Log.d("LogLifecycle", "ON_START")
-                }
-
-                Lifecycle.Event.ON_STOP -> {
-                    Log.d("LogLifecycle", "ON_STOP")
-                }
-
-                Lifecycle.Event.ON_PAUSE -> {
-                    Log.d("LogLifecycle", "ON_PAUSE")
-                }
-
                 Lifecycle.Event.ON_RESUME -> {
                     Log.d("LogLifecycle", trainingUpdate.toString())
                     if (viewModel.selectedDate.value.date != "" && trainingUpdate) {
                         val date = viewModel.getTwoSymbol()
-                        viewModel.listOfCurrentMonth.value.dayInMonth.get(date - 1).training =
-                            trainingUpdate
-
-                    }
-                    if (trainingUpdate) {
+                        viewModel.listOfCurrentMonth.value.dayInMonth.get(date - 1).training = true
                         viewModel.onEvent(CalendarEvent.GetTraining(viewModel.selectedDate.value.date))
                     }
                 }
-
                 else -> {
-
                 }
             }
         }
@@ -196,10 +179,12 @@ fun CalendarScreen(
                         confirmStateChange = { dismissValue ->
                             when (dismissValue) {
                                 DismissValue.DismissedToStart -> {
+                                    viewModel.onEvent(CalendarEvent.OpenDialog(item, Routes.DIALOG_DELETE_WORKOUT))
                                     true
                                 }
 
                                 DismissValue.DismissedToEnd -> {
+                                    viewModel.onEvent(CalendarEvent.OpenDialog(item, Routes.DIALOG_EDIT))
                                     true
                                 }
 
@@ -323,10 +308,20 @@ fun TitleWorkoutCalendar(
                     )
                 }
             }
+
             IconButton(
                 onClick = {
                     if (viewModel.listFlow != null) {
-                        viewModel.onEvent(CalendarEvent.DeleteTrainingInDay(viewModel.selectedDate.value.date))
+                        viewModel.onEvent(CalendarEvent.OpenDialog(
+                            WorkoutListItem(
+                                null,
+                                "",
+                                viewModel.selectedDate.value.date,
+                                0
+                            ),
+                            Routes.DIALOG_DELETE_TRAINING
+                        )
+                        )
                     }
                 },
             ) {

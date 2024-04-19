@@ -29,8 +29,6 @@ class MainScreenViewModel @Inject constructor(
         private set
     override var showEditableText = mutableStateOf(true)
         private set
-    override var choiceDialog = mutableStateOf("")
-        private set
 
     fun onEvent(event: MainScreenEvent) {
         when (event) {
@@ -54,7 +52,7 @@ class MainScreenViewModel @Inject constructor(
 
             is MainScreenEvent.OnNewItemClick -> {
                 openDialog.value = true
-                    choiceDialog.value = RoutesDialog.ADD_TRAINING
+                  //  choiceDialog.value = RoutesDialog.ADD_TRAINING
             }
         }
     }

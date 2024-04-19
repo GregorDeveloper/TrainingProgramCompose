@@ -85,7 +85,7 @@ fun MainNavigationGraph(
             TrainingListScreen(trainingUpdate)
             { route ->
                 Log.d("LogNavigation", trainingUpdate.toString())
-                if (trainingUpdate){
+                if(route == "Back"){
                     navController.previousBackStackEntry
                         ?.savedStateHandle
                         ?.set("add_training", trainingUpdate)

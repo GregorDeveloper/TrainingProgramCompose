@@ -12,6 +12,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -22,6 +23,8 @@ import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.hilt.navigation.compose.hiltViewModel
 import gregor.developer.trainingprogramcompose.R
 import gregor.developer.trainingprogramcompose.utils.Routes
+import gregor.developer.trainingprogramcompose.utils.UiEvent
+import kotlinx.coroutines.*
 
 
 @Composable
@@ -29,6 +32,19 @@ fun UserWorkoutScreen(
     viewModel: UserWorkoutScreenViewModel = hiltViewModel(),
     onNavigate: (String) -> Unit
 ) {
+    LaunchedEffect(key1 = true) {
+        viewModel.uiEvent.collect { uiEvent ->
+            when (uiEvent) {
+                is UiEvent.Navigate -> {
+                    onNavigate(uiEvent.route)
+                }
+
+                else -> {
+
+                }
+            }
+        }
+    }
     val trainingList = viewModel.itemsList!!.collectAsState(emptyList())
     ConstraintLayout(
         modifier = Modifier.fillMaxSize()
@@ -61,8 +77,7 @@ fun UserWorkoutScreen(
         IconButton(
             onClick = {
                 if(viewModel.date != " "){
-                    viewModel.onEvent(UserWorkoutEvent.OnSaveList)
-                    onNavigate(Routes.SAVE_LIST_AND_BACK)
+                    viewModel.onEvent(UserWorkoutEvent.OnSaveList(Routes.SAVE_LIST_AND_BACK))
                 }else{
                     onNavigate(
                         Routes.WORKOUT_LIST +  "/${" "}" + "/${viewModel.listId}"
@@ -84,6 +99,7 @@ fun UserWorkoutScreen(
             )
         }
     }
+
 
 //    BackHandler() {
 //        onNavigate(

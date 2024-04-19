@@ -3,6 +3,7 @@ package gregor.developer.trainingprogramcompose.screen.workout_screen.list_worko
 
 import android.annotation.SuppressLint
 import android.util.Log
+import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
@@ -86,16 +87,12 @@ fun WorkoutScreen(
        {
             Log.d("MyLogCalendarScreen", it.toString() +" WorkoutScreen")
             onNavigate(it)
-
-//          // navController.previousBackStackEntry
-//               ?.savedStateHandle
-//               ?.set("add_training", "Test")
-//           navController.popBackStack()
-//            route ->
-//            navController.navigate(Routes.MAIN_SCREEN)
-//            Log.d("LogNavigation", "WorkoutScreen")
         }
     }
+    BackHandler {
+        onNavigate(false)
+    }
+
 }
 
 

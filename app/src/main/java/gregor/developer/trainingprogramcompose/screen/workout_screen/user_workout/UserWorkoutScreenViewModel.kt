@@ -14,8 +14,15 @@ import gregor.developer.trainingprogramcompose.data.entity.WorkoutListTraining
 import gregor.developer.trainingprogramcompose.data.repository.WorkoutListTrainingRepository
 import gregor.developer.trainingprogramcompose.dialog.DialogController
 import gregor.developer.trainingprogramcompose.dialog.DialogEvent
+import gregor.developer.trainingprogramcompose.utils.UiEvent
+import kotlinx.coroutines.DelicateCoroutinesApi
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -25,17 +32,20 @@ class UserWorkoutScreenViewModel @Inject constructor(
     private val repositoryWorkoutList: WorkOutListRepository,
     savedStateHandle: SavedStateHandle,
 
-    ): ViewModel(), DialogController {
+    ) : ViewModel(), DialogController {
 
     var itemsList: Flow<List<WorkoutListTraining>>? = null
     var workoutListItem: WorkoutListTraining? = null
     var listId: Int? = null
     var date: String? = null
-
+    private val _uiEvent = Channel<UiEvent>()
+    val uiEvent = _uiEvent.receiveAsFlow()
+    private var saveList = false
     init {
         listId = savedStateHandle.get<Int>("listId")
         date = savedStateHandle.get<String>("date")
         itemsList = listId?.let { repositoryWorkoutListTraining.getAllItemsById(it) }
+
     }
 
     override var dialogTitle = mutableStateOf("")
@@ -46,16 +56,16 @@ class UserWorkoutScreenViewModel @Inject constructor(
         private set
     override var showEditableText = mutableStateOf(false)
         private set
-    override val choiceDialog: MutableState<String>
-        get() = TODO("Not yet implemented")
 
-    fun onEvent(event: UserWorkoutEvent){
-        when(event){
 
+
+    fun onEvent(event: UserWorkoutEvent) {
+        when (event) {
             is UserWorkoutEvent.OnSaveList -> {
-                viewModelScope.launch {
-                    itemsList?.collect{list ->
-                        for (i in 0..list.lastIndex){
+                //GlobalScope.launch(Dispatchers.Main)
+                viewModelScope.launch{
+                    itemsList?.collect { list ->
+                        for (i in 0..list.lastIndex) {
                             repositoryWorkoutList.insertItem(
                                 WorkoutListItem(
                                     null,
@@ -67,19 +77,20 @@ class UserWorkoutScreenViewModel @Inject constructor(
                         }
                     }
                 }
-
-
+                sendUiEvent(UiEvent.Navigate(event.route))
             }
 
             is UserWorkoutEvent.OnItemClick -> {
 
             }
+
             is UserWorkoutEvent.OnDelete -> {
                 workoutListItem = event.item
                 openDialog.value = true
                 dialogTitle.value = "Delete item?"
                 showEditableText.value = false
             }
+
             is UserWorkoutEvent.OnEditItem -> {
 
             }
@@ -89,13 +100,13 @@ class UserWorkoutScreenViewModel @Inject constructor(
     }
 
 
-
     override fun onDialogEvent(event: DialogEvent) {
-        when(event){
+        when (event) {
             is DialogEvent.OnCancel -> {
                 openDialog.value = false
                 // cancelSwipe.value = true
             }
+
             is DialogEvent.OnConfirm -> {
                 if (showEditableText.value) {
                     // onEvent(TrainingListEvent.OnItemSave)
@@ -108,9 +119,43 @@ class UserWorkoutScreenViewModel @Inject constructor(
                 // cancelSwipe.value = true
                 openDialog.value = false
             }
+
             else -> {
 
             }
         }
+    }
+
+    private fun sendUiEvent(event: UiEvent) {
+        viewModelScope.launch {
+            _uiEvent.send(event)
+        }
+    }
+
+    private suspend fun saveList(){
+
+        saveList = true
+    }
+
+    private fun saveListAndGo(route: String, callback: (Boolean) -> Unit) {
+        var flag = false
+        viewModelScope.launch {
+            itemsList?.collect { list ->
+                Log.d("LogUserWorkout", list.size.toString())
+                for (i in 0..list.lastIndex) {
+                    Log.d("LogUserWorkout", list.get(i).name)
+                    repositoryWorkoutList.insertItem(
+                        WorkoutListItem(
+                            null,
+                            list.get(i).name,
+                            date!!,
+                            0
+                        )
+                    )
+                }
+            }
+            flag
+        }
+        callback(flag)
     }
 }

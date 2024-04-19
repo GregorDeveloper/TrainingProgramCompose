@@ -1,7 +1,6 @@
 package gregor.developer.trainingprogramcompose.screen.calendar_screen
 
 import android.graphics.Paint
-import android.util.Log
 import androidx.compose.animation.core.animate
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Canvas
@@ -50,9 +49,9 @@ fun Calendar(
     todayDate: Date,
     rows: Int,
     canvasPar: CanvasParametr,
-    saveCanvasParametr: (CanvasParametr) -> Unit,
+    saveCanvasParameter: (CanvasParametr) -> Unit,
 ) {
-//передать boolean и поставить картинку если true
+
     var canvasSize by remember {
         mutableStateOf(Size.Zero)
     }
@@ -111,7 +110,7 @@ fun Calendar(
                                         ) { value, _ ->
                                             animationRadius = value
                                         }
-                                        saveCanvasParametr(
+                                        saveCanvasParameter(
                                             CanvasParametr(
                                                 clickAnimationOffset,
                                                 animationRadius,
