@@ -59,13 +59,15 @@ class UserWorkoutScreenViewModel @Inject constructor(
 
 
 
+
     fun onEvent(event: UserWorkoutEvent) {
         when (event) {
             is UserWorkoutEvent.OnSaveList -> {
-                //GlobalScope.launch(Dispatchers.Main)
                 viewModelScope.launch{
                     itemsList?.collect { list ->
+                        Log.d("ListSave", "List save")
                         for (i in 0..list.lastIndex) {
+                            Log.d("ListSave", "List cycle")
                             repositoryWorkoutList.insertItem(
                                 WorkoutListItem(
                                     null,
@@ -75,9 +77,10 @@ class UserWorkoutScreenViewModel @Inject constructor(
                                 )
                             )
                         }
+                        sendUiEvent(UiEvent.Navigate(event.route))
                     }
                 }
-                sendUiEvent(UiEvent.Navigate(event.route))
+
             }
 
             is UserWorkoutEvent.OnItemClick -> {
@@ -126,16 +129,12 @@ class UserWorkoutScreenViewModel @Inject constructor(
         }
     }
 
-    private fun sendUiEvent(event: UiEvent) {
-        viewModelScope.launch {
+    private suspend fun sendUiEvent(event: UiEvent) {
+       // viewModelScope.launch {
             _uiEvent.send(event)
-        }
+     //   }
     }
 
-    private suspend fun saveList(){
-
-        saveList = true
-    }
 
     private fun saveListAndGo(route: String, callback: (Boolean) -> Unit) {
         var flag = false

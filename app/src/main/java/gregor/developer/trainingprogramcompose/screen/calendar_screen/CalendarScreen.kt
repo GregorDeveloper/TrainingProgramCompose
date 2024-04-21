@@ -68,9 +68,10 @@ fun CalendarScreen(
         val observer = LifecycleEventObserver { _, event ->
             when (event) {
                 Lifecycle.Event.ON_RESUME -> {
-                    Log.d("LogLifecycle", trainingUpdate.toString())
                     if (viewModel.selectedDate.value.date != "" && trainingUpdate) {
+                        Log.d("LogLifeCycle", "Resume")
                         val date = viewModel.getTwoSymbol()
+                        Log.d("LogLifeCycle", "Resume")
                         viewModel.listOfCurrentMonth.value.dayInMonth.get(date - 1).training = true
                         viewModel.onEvent(CalendarEvent.GetTraining(viewModel.selectedDate.value.date))
                     }

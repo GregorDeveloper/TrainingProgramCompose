@@ -153,7 +153,7 @@ class CalendarScreenViewModel @Inject constructor(
             }
 
             is CalendarEvent.GetTraining -> {
-                listFlow = getAllItemsByDateFlow(event.date)
+                    listFlow = getAllItemsByDateFlow(event.date)
             }
 
             is CalendarEvent.SaveCanvasParametr -> {
@@ -167,6 +167,8 @@ class CalendarScreenViewModel @Inject constructor(
                 )
 
             }
+
+            is CalendarEvent.OpenDialog -> TODO()
         }
     }
 
