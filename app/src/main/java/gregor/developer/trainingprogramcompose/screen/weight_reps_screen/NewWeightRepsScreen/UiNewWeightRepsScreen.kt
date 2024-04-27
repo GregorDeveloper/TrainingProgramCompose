@@ -41,7 +41,7 @@ fun UiNewWeightRepsScreen(
     ) {
 
         Text(
-            text = number.toString(),
+            text = (number + 1).toString(),
             modifier = Modifier
                 .weight(1f)
                 .border(1.dp, Color.Green)

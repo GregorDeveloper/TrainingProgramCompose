@@ -14,12 +14,10 @@ sealed class CalendarEvent {
 
     data class AddListWorkout(val route: String): CalendarEvent()
 
-    data class DeleteWorkOut(val workout: WorkoutListItem): CalendarEvent()
+   // data class DeleteWorkOut(val workout: WorkoutListItem): CalendarEvent()
 
     data class OpenDialog(val workout: WorkoutListItem, val dialog: String): CalendarEvent()
     data class DeleteTrainingInDay(val date: String): CalendarEvent()
-
-    //data class OpenDialog(val workout: WorkoutListItem): CalendarEvent()
 
     data class GetTraining(val date: String): CalendarEvent()
 

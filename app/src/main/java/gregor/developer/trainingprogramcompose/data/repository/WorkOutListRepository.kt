@@ -10,6 +10,8 @@ interface WorkOutListRepository {
 
     suspend fun deleteItem(item: WorkoutListItem)
 
+   // suspend fun deleteAllItemByDate(date: String)
+
     fun getAllItemsById(listId: Int): Flow<List<WorkoutListItem>>
 
     suspend fun getAllItemsByDate(date: String): List<WorkoutListItem>

@@ -42,6 +42,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
+import gregor.developer.trainingprogramcompose.screen.weight_reps_screen.WeightRepsScreenUniv
 import kotlinx.coroutines.launch
 import java.time.LocalDate
 import java.util.Calendar
@@ -53,45 +54,7 @@ import java.util.Calendar
 fun SettingsScreen(
     viewModelSettings: ViewModelSettings = hiltViewModel()
 ) {
-    val calendarInputList by remember {
-        mutableStateOf(createCalendarList())
-    }
-    var clickedCalendarElem by remember {
-        mutableStateOf<CalendarInput?>(null)
-    }
-    Box(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(Color.Black),
-        contentAlignment = Alignment.TopCenter
-    ) {
-        Calendar(
-            calendarInput = calendarInputList,
-            onDayClick = { day ->
-                clickedCalendarElem = calendarInputList.first { it.day == day }
-            },
-            month = "September",
-            modifier = Modifier
-                .padding(10.dp)
-                .fillMaxWidth()
-                .aspectRatio(1.3f)
-        )
-        Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(10.dp)
-                .align(Alignment.Center)
-        ) {
-            clickedCalendarElem?.toDos?.forEach {
-                Text(
-                    if (it.contains("Day")) it else "- $it",
-                    color = Color.White,
-                    fontWeight = FontWeight.SemiBold,
-                    fontSize = if (it.contains("Day")) 25.sp else 18.sp
-                )
-            }
-        }
-    }
+  WeightRepsScreenUniv()
 }
 //@RequiresApi(Build.VERSION_CODES.O)
 private fun createCalendarList(): List<CalendarInput> {
@@ -180,7 +143,7 @@ fun Calendar(
                                 (offset.x / canvasSize.width * CALENDAR_COLUMNS).toInt() + 1
                             row = (offset.y / canvasSize.height * CALENDAR_ROWS).toInt() + 1
                             day = column + (row - 1) * CALENDAR_COLUMNS - offSet
-                            if (day >= 1 && day <= calendarInput.size ) {
+                            if (day >= 1 && day <= calendarInput.size) {
                                 onDayClick(day)
                                 clickAnimationOffset = offset
                                 scope.launch {
@@ -188,7 +151,7 @@ fun Calendar(
                                         animationRadius = value
                                     }
                                 }
-                            }else{
+                            } else {
 
                             }
 

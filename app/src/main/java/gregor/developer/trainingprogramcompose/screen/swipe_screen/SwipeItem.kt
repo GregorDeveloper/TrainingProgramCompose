@@ -15,28 +15,15 @@ import androidx.compose.ui.unit.dp
 import gregor.developer.trainingprogramcompose.data.static_data.ParametersSwipeItem
 
 
-
-@OptIn(ExperimentalMaterialApi::class)
 @Composable
 fun SwipeItem(parametersSwipeItem: ParametersSwipeItem,
-
-             // state: DismissState
 ) {
         Card(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(5.dp),
             backgroundColor = parametersSwipeItem.color,
-//            elevation = animateDpAsState(
-//                targetValue =
-//                if(state.dismissDirection != null) 4.dp
-//                else 0.dp).value
         ) {
-//            val scale by animateFloatAsState(
-//                targetValue =
-//                if(state.targetValue == DismissValue.Default) 0.8f
-//                else 1.2f
-//            )
             Box(modifier = Modifier.fillMaxWidth()) {
                 Icon(
                     painter = painterResource(parametersSwipeItem.icon),
@@ -45,10 +32,8 @@ fun SwipeItem(parametersSwipeItem: ParametersSwipeItem,
                     modifier = Modifier
                         .align(parametersSwipeItem.positionIcon)
                         .padding(5.dp)
-                       // .scale(scale)
                 )
             }
-
         }
 
 }

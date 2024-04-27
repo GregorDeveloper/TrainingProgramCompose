@@ -40,12 +40,12 @@ class UserWorkoutScreenViewModel @Inject constructor(
     var date: String? = null
     private val _uiEvent = Channel<UiEvent>()
     val uiEvent = _uiEvent.receiveAsFlow()
-    private var saveList = false
+
     init {
         listId = savedStateHandle.get<Int>("listId")
         date = savedStateHandle.get<String>("date")
+        Log.d("LogUserWorkout", "listId ${listId} \n date ${date}")
         itemsList = listId?.let { repositoryWorkoutListTraining.getAllItemsById(it) }
-
     }
 
     override var dialogTitle = mutableStateOf("")
@@ -133,28 +133,5 @@ class UserWorkoutScreenViewModel @Inject constructor(
        // viewModelScope.launch {
             _uiEvent.send(event)
      //   }
-    }
-
-
-    private fun saveListAndGo(route: String, callback: (Boolean) -> Unit) {
-        var flag = false
-        viewModelScope.launch {
-            itemsList?.collect { list ->
-                Log.d("LogUserWorkout", list.size.toString())
-                for (i in 0..list.lastIndex) {
-                    Log.d("LogUserWorkout", list.get(i).name)
-                    repositoryWorkoutList.insertItem(
-                        WorkoutListItem(
-                            null,
-                            list.get(i).name,
-                            date!!,
-                            0
-                        )
-                    )
-                }
-            }
-            flag
-        }
-        callback(flag)
     }
 }

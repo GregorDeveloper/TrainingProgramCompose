@@ -14,10 +14,12 @@ import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material.Card
+import androidx.compose.material.DismissState
 import androidx.compose.material.DismissValue
 import androidx.compose.material.Divider
 import androidx.compose.material.DropdownMenu
 import androidx.compose.material.ExperimentalMaterialApi
+import androidx.compose.material.FractionalThreshold
 import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
 import androidx.compose.material.SwipeToDismiss
@@ -31,7 +33,6 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -48,10 +49,9 @@ import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.LifecycleOwner
 import gregor.developer.training_program_compose.data.entity.WorkoutListItem
 import gregor.developer.trainingprogramcompose.R
-import gregor.developer.trainingprogramcompose.data.swipe_to_dismiss.ParameterSwipeItem
+import gregor.developer.trainingprogramcompose.data.swipe_to_dismiss.ParametrSwipeItem
 import gregor.developer.trainingprogramcompose.dialog.MainDialog
 import gregor.developer.trainingprogramcompose.screen.swipe_screen.SwipeItem
-import gregor.developer.trainingprogramcompose.screen.workout_screen.user_workout.UiUserWorkOutScreen
 import gregor.developer.trainingprogramcompose.utils.Routes
 import gregor.developer.trainingprogramcompose.utils.UiEvent
 
@@ -64,14 +64,14 @@ fun CalendarScreen(
     onNavigate: (String) -> Unit
 ) {
     val workoutListFlow = viewModel.listFlow?.collectAsState(initial = emptyList())
+
     DisposableEffect(lifecycleOwner) {
         val observer = LifecycleEventObserver { _, event ->
             when (event) {
                 Lifecycle.Event.ON_RESUME -> {
+                    viewModel.cancelSwipe.value = true
                     if (viewModel.selectedDate.value.date != "" && trainingUpdate) {
-                        Log.d("LogLifeCycle", "Resume")
                         val date = viewModel.getTwoSymbol()
-                        Log.d("LogLifeCycle", "Resume")
                         viewModel.listOfCurrentMonth.value.dayInMonth.get(date - 1).training = true
                         viewModel.onEvent(CalendarEvent.GetTraining(viewModel.selectedDate.value.date))
                     }
@@ -176,20 +176,35 @@ fun CalendarScreen(
                             listItem ->
                         listItem.hashCode()
                     }) { index, item ->
+                    val dismissThreshold = if(viewModel.openTitle.value)0.5f else 1.5f
+
+                    val currentFraction = remember{ mutableStateOf(0f) }
                     val state = rememberDismissState(
                         confirmStateChange = { dismissValue ->
                             when (dismissValue) {
                                 DismissValue.DismissedToStart -> {
-                                    viewModel.onEvent(CalendarEvent.OpenDialog(item, Routes.DIALOG_DELETE_WORKOUT))
-                                    true
+                                    if(currentFraction.value >= dismissThreshold && currentFraction.value < 1.0f){
+                                        viewModel.cancelSwipe.value = false
+                                        viewModel.onEvent(CalendarEvent.OpenDialog(item, Routes.DIALOG_DELETE_WORKOUT))
+                                        true
+                                    }else false
                                 }
 
                                 DismissValue.DismissedToEnd -> {
-                                    viewModel.onEvent(CalendarEvent.OpenDialog(item, Routes.DIALOG_EDIT))
-                                    true
+                                    if(currentFraction.value >= dismissThreshold && currentFraction.value < 1.0f) {
+                                        viewModel.cancelSwipe.value = false
+                                        viewModel.onEvent(
+                                            CalendarEvent.OpenDialog(
+                                                item,
+                                                Routes.DIALOG_EDIT
+                                            )
+                                        )
+                                        true
+                                    }else false
                                 }
 
                                 DismissValue.Default -> {
+                                    viewModel.cancelSwipe.value = false
                                     true
                                 }
                             }
@@ -200,13 +215,21 @@ fun CalendarScreen(
                         modifier = Modifier
                             .fillMaxSize()
                             .padding(
-                                top = 18.dp,
+                                top = 3.dp,
                                 start = 3.dp,
                                 end = 3.dp
                             ),
+                        dismissThresholds = {
+                                            FractionalThreshold(dismissThreshold)
+                        },
                         background = {
+
+                            currentFraction.value = state.progress.fraction
                             val parametersSwipeItem =
-                                state.dismissDirection?.let { ParameterSwipeItem(it) }
+                                state.dismissDirection?.let {
+                                    state.dismissDirection
+                                    ParametrSwipeItem(it)
+                                }
                             if (parametersSwipeItem != null) {
                                 if (viewModel.cancelSwipe.value) {
                                     LaunchedEffect(key1 = viewModel.cancelSwipe.value) {
@@ -219,13 +242,13 @@ fun CalendarScreen(
                         },
                         dismissContent = {
                             UiWorkOutScreen(item) { event ->
-                                Log.d("LogCalendarNavigate", "OnNavigate")
                                 onNavigate(
                                     event
                                 )
                                 //Перейти к концу списка!!!!
                             }
                         },
+
                     )
                     Divider()
                 }

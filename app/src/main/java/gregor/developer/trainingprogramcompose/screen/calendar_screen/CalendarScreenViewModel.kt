@@ -1,6 +1,7 @@
 package gregor.developer.trainingprogramcompose.screen.calendar_screen
 
 import android.util.Log
+import androidx.compose.material.DismissDirection
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.ui.geometry.Offset
 import androidx.lifecycle.ViewModel
@@ -13,14 +14,25 @@ import gregor.developer.trainingprogramcompose.data.static_data.DayTraining
 import gregor.developer.trainingprogramcompose.dialog.DialogController
 import gregor.developer.trainingprogramcompose.dialog.DialogEvent
 import gregor.developer.trainingprogramcompose.screen.calendar_screen.data.CanvasParametr
+import gregor.developer.trainingprogramcompose.screen.swipe_screen.SwipeToDismissController
 import gregor.developer.trainingprogramcompose.utils.Routes
 import gregor.developer.trainingprogramcompose.utils.UiEvent
+import kotlinx.coroutines.FlowPreview
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.cancel
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.asFlow
+import kotlinx.coroutines.flow.cancellable
+import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.emptyFlow
+import kotlinx.coroutines.flow.flatMapConcat
+import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.receiveAsFlow
+import kotlinx.coroutines.flow.toList
 //import gregor.developer.trainingprogramcompose.data.static_data.Month
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 import java.time.DayOfWeek
 import java.time.LocalDate
 import javax.inject.Inject
@@ -30,7 +42,7 @@ import java.time.format.DateTimeFormatter
 @HiltViewModel
 class CalendarScreenViewModel @Inject constructor(
     private val repository: WorkOutListRepository,
-) : ViewModel(), DialogController {
+) : ViewModel(), DialogController, SwipeToDismissController {
     override var dialogTitle = mutableStateOf("List name")
         private set
     override var editableText = mutableStateOf("")
@@ -42,12 +54,13 @@ class CalendarScreenViewModel @Inject constructor(
 
     private var localDate = LocalDate.now()
 
-    var listFlow: Flow<List<WorkoutListItem>>? = null //Flow тест
+    var listCollect: Job? = null
+    var listFlow: Flow<List<WorkoutListItem>>? = null
     private var listItem: WorkoutListItem? = null
     private var choiceDialog: String? = null
     private val _uiEvent = Channel<UiEvent>()
     val uiEvent = _uiEvent.receiveAsFlow()
-    var cancelSwipe = mutableStateOf(false)
+    override var cancelSwipe = mutableStateOf(false)
     val listOfCurrentMonth = mutableStateOf<Date>(
         Date(
             "JANUARY",
@@ -115,16 +128,12 @@ class CalendarScreenViewModel @Inject constructor(
             }
 
             is CalendarEvent.ClickWorkout -> {
-                //  sendUiEvent(UiEvent.Navigate())
+                //sendUiEvent(UiEvent.Navigate(e))
             }
 
             is CalendarEvent.DeleteTrainingInDay -> {
                 openDialog.value = true
                 dialogTitle.value = "Delete all workout for ${event.date}"
-            }
-
-            is CalendarEvent.DeleteWorkOut -> {
-
             }
 
             is CalendarEvent.OpenDialog -> {
@@ -144,7 +153,6 @@ class CalendarScreenViewModel @Inject constructor(
 
                     Routes.DIALOG_EDIT -> {
                         title = "Replace ${event.workout.workoutName}"
-
                         choiceDialog = event.dialog
                     }
                 }
@@ -153,7 +161,7 @@ class CalendarScreenViewModel @Inject constructor(
             }
 
             is CalendarEvent.GetTraining -> {
-                    listFlow = getAllItemsByDateFlow(event.date)
+                listFlow = getAllItemsByDateFlow(event.date)
             }
 
             is CalendarEvent.SaveCanvasParametr -> {
@@ -167,53 +175,59 @@ class CalendarScreenViewModel @Inject constructor(
                 )
 
             }
-
-            is CalendarEvent.OpenDialog -> TODO()
         }
     }
 
     override fun onDialogEvent(event: DialogEvent) {
         when (event) {
             is DialogEvent.OnConfirm -> {
+                when (choiceDialog) {
 
-                    when (choiceDialog) {
-                        Routes.DIALOG_DELETE_WORKOUT -> {
-                            viewModelScope.launch {
-                                if (listItem != null) repository.deleteItem(listItem!!)
-                                listFlow?.collect{
+                    Routes.DIALOG_DELETE_WORKOUT -> {
 
-                                }
-                            }
+                        runBlocking {
+                            if (listItem != null) repository.deleteItem(listItem!!)
+                            var listItem: List<WorkoutListItem> = repository.getAllItemsByDate(selectedDate.value.date)
+                            deleteTrainingIcon(listItem.size)
+                            listItem = emptyList()
                         }
-                        Routes.DIALOG_DELETE_TRAINING -> {
-                            viewModelScope.launch {
-                                listFlow?.collect { list ->
-                                    list.forEach { item ->
-                                        repository.deleteItem(item)
-                                    }
-                                }
+//                        listCollect = viewModelScope.launch() {
+//                            if (listItem != null) repository.deleteItem(listItem!!)
+//                            val listItem: List<WorkoutListItem> = repository.getAllItemsByDate(selectedDate.value.date)
+//                            deleteTrainingIcon(listItem.size)
+//                            Log.d("LogDeleteWorkout", listOfCurrentMonth.value.dayInMonth
+//                                .get(getTwoSymbol() - 1)
+//                                .training.toString())
+//                        }
+                    }
+
+                    Routes.DIALOG_DELETE_TRAINING -> {
+                        listCollect = viewModelScope.launch {
+                            val list = repository.getAllItemsByDate(selectedDate.value.date)
+                            list.forEach { item ->
+                                repository.deleteItem(item)
                             }
-                            listOfCurrentMonth.value.dayInMonth
-                                .get(getTwoSymbol() - 1)
-                                .training = false
-                        }
-                        //Ошибка при добавлении тренировки
-                        Routes.DIALOG_EDIT -> {
-                            sendUiEvent(UiEvent.Navigate(
-                                Routes.WORKOUT_LIST +
-                                        "/${selectedDate.value.date}" +
-                                        "/${listItem?.id}"))
+                            deleteTrainingIcon(0)
                         }
                     }
-                listOfCurrentMonth.value.dayInMonth
-                    .get(getTwoSymbol() - 1)
-                    .training = false
+
+                    Routes.DIALOG_EDIT -> {
+                        sendUiEvent(
+                            UiEvent.Navigate(
+                                Routes.WORKOUT_LIST +
+                                        "/${selectedDate.value.date}" +
+                                        "/${listItem?.id}"
+                            )
+                        )
+                    }
+                }
                 choiceDialog = null
                 listItem = null
                 openDialog.value = false
             }
 
             is DialogEvent.OnCancel -> {
+                cancelSwipe.value = true
                 openDialog.value = false
             }
 
@@ -329,6 +343,14 @@ class CalendarScreenViewModel @Inject constructor(
             zero + day.toString() + "." + selectedMonth(localDate) + "." + localDate.year.toString()
 
         return date
+    }
+
+    private fun deleteTrainingIcon(listSize: Int) {
+        if (listSize == 0) {
+            listOfCurrentMonth.value.dayInMonth
+                .get(getTwoSymbol() - 1)
+                .training = false
+        }
     }
 
     private fun resetSelectedDay() {

@@ -31,15 +31,10 @@ fun NoteScreen(
 ) {
     var text by remember { mutableStateOf(TextFieldValue("")) }
 
-    Card(modifier = Modifier
-        .fillMaxSize()
-        .padding(10.dp),
-        shape = RoundedCornerShape(9.dp)
-    ) {
+    Column(modifier = Modifier.fillMaxSize()
+        .padding(5.dp
+        )){
         Column {
-            Button(onClick = { /*TODO */ }) {
-                Text(text = stringResource(id = R.string.add))
-            }
             TextField(
                 value = text,
                 onValueChange = { newText ->

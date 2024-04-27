@@ -15,6 +15,10 @@ class WorkOutRepoImpl(
        dao.deleteItem(item)
     }
 
+//    override suspend fun deleteAllItemByDate(date: String) {
+//        dao.deleteAllItemByDate(date)
+//    }
+
     override fun getAllItemsById(listId: Int): Flow<List<WorkoutListItem>> {
         return dao.getAllItemsById(listId)
     }

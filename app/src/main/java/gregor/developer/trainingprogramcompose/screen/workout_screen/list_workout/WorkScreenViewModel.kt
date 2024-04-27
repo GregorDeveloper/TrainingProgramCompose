@@ -37,8 +37,8 @@ class WorkScreenViewModel @Inject constructor(
     init {
         listId = savedStateHandle.get<Int>("listId")
         date = savedStateHandle.get<String>("date")
-        Log.d("LogWorkoutScreen", date?.length.toString())
-        Log.d("LogWorkoutScreen", listId.toString() + " listId")
+        Log.d("LogWorkoutScreen", "listId ${listId} \n date ${date}")
+
     }
 
     override var workoutImage = mutableStateOf(0)
