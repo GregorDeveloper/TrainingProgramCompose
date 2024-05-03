@@ -18,6 +18,7 @@ import gregor.developer.trainingprogramcompose.screen.calendar_screen.CalendarEv
 @Composable
 fun TitleDate(
     title: String,
+    modifier: Modifier
 ) {
     Row(
         modifier = Modifier.fillMaxWidth(),
