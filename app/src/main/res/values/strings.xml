@@ -29,5 +29,6 @@
     <string name="RM">1RM - repetition maximum</string>
     <string name="M">M - weight lifted</string>
     <string name="r">r - reps</string>
+    <string name="save">Save</string>
 
 </resources>

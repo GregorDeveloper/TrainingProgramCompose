@@ -7,6 +7,7 @@ object Routes {
     const val WORKOUT_LIST = "workout_list"
     const val USER_WORKOUT_LIST = "user_workout_list"
     const val SETTINGS = "SETTINGS"
+    const val WEIGHT_REPS_SCREEN_UNIV = "weight_reps_screen_univ"
 
     const val MAIN_SCREEN = "main_screen"
 

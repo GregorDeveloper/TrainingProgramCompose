@@ -11,6 +11,7 @@ import androidx.navigation.navArgument
 import gregor.developer.training_program_compose.weight_reps_screen.WeightRepsScreen
 import gregor.developer.trainingprogramcompose.screen.main_screen.MainScreen
 import gregor.developer.trainingprogramcompose.screen.training_list_screen.TrainingListScreen
+import gregor.developer.trainingprogramcompose.screen.weight_reps_screen.weight_reps_univ.WeightRepsScreenUniv
 import gregor.developer.trainingprogramcompose.screen.workout_screen.user_workout.UserWorkoutScreen
 import gregor.developer.trainingprogramcompose.screen.workout_screen.list_workout.WorkoutScreen
 import gregor.developer.trainingprogramcompose.utils.Routes
@@ -94,6 +95,9 @@ fun MainNavigationGraph(
                     navController.navigate(route)
                 }
             }
+        }
+        composable(Routes.WEIGHT_REPS_SCREEN_UNIV){
+            WeightRepsScreenUniv()
         }
 
         composable(Routes.WEIGHT_REPS + "/{workoutName}",

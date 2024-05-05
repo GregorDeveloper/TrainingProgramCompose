@@ -31,10 +31,11 @@ fun NoteScreen(
 ) {
     var text by remember { mutableStateOf(TextFieldValue("")) }
 
-    Column(modifier = Modifier.fillMaxSize()
-        .padding(5.dp
+    Column(modifier = Modifier
+        .fillMaxSize()
+        .padding(
+            5.dp
         )){
-        Column {
             TextField(
                 value = text,
                 onValueChange = { newText ->
@@ -44,10 +45,9 @@ fun NoteScreen(
                 textStyle = TextStyle(
                     fontSize = 18.sp,
                     color = Color.White
-                )
+                ),
+                label = { Text(text = "Note") }
             )
-
-        }
 
     }
 

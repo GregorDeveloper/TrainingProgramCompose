@@ -17,7 +17,9 @@ import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material.Scaffold
 import androidx.compose.material.Text
+import androidx.compose.material.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -42,10 +44,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
-import gregor.developer.trainingprogramcompose.screen.weight_reps_screen.WeightRepsScreenUniv
 import kotlinx.coroutines.launch
 import java.time.LocalDate
-import java.util.Calendar
+
 
 
 //@RequiresApi(Build.VERSION_CODES.O)
@@ -54,7 +55,7 @@ import java.util.Calendar
 fun SettingsScreen(
     viewModelSettings: ViewModelSettings = hiltViewModel()
 ) {
-  WeightRepsScreenUniv()
+
 }
 //@RequiresApi(Build.VERSION_CODES.O)
 private fun createCalendarList(): List<CalendarInput> {
