@@ -10,7 +10,6 @@ import gregor.developer.training_program_compose.data.entity.WeightRepsWorkoutIt
 import gregor.developer.training_program_compose.data.repository.WeightRepsWorkoutRepository
 import gregor.developer.trainingprogramcompose.dialog.dialog_weight_reps.DialogWeightRepsController
 import gregor.developer.trainingprogramcompose.dialog.dialog_weight_reps.DialogWeightRepsEvent
-import gregor.developer.trainingprogramcompose.screen.weight_reps_screen.UtilWeightReps
 import gregor.developer.trainingprogramcompose.utils.getCurrentDate
 import gregor.developer.trainingprogramcompose.utils.workoutObject
 import kotlinx.coroutines.launch
@@ -61,7 +60,8 @@ class NewWeightRepsViewModel @Inject constructor(
                             workoutName!!,
                             item.value?.weight ?: weight.value,
                             item.value?.reps ?: reps.value,
-                            getCurrentDate()
+                            getCurrentDate(),
+                            ""
                         )
                     )
                     if (item.value == null) {
@@ -75,7 +75,8 @@ class NewWeightRepsViewModel @Inject constructor(
                                 workoutName!!,
                                 weight.value,
                                 reps.value,
-                                getCurrentDate()
+                                getCurrentDate(),
+                                ""
                             )
                         )
                     }
@@ -186,7 +187,8 @@ class NewWeightRepsViewModel @Inject constructor(
                         item.value!!.workOutName,
                         listWeight.get(index),
                         listReps!!.get(index),
-                        item.value!!.date
+                        item.value!!.date,
+                        ""
                     )
                 )
             }

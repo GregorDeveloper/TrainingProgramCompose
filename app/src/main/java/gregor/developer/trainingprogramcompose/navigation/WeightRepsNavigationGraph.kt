@@ -1,6 +1,7 @@
 package gregor.developer.trainingprogramcompose.navigation
 
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
@@ -36,7 +37,7 @@ fun WeightRepsNavigationGraph(
         }
 
         composable(Routes.NOTE){
-            NoteScreen()
+            NoteScreen(modifier = Modifier)
         }
     }
 }
