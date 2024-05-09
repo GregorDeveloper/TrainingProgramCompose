@@ -91,6 +91,7 @@ fun OldWeightRepsScreen(
                     "Null",
                     "Null",
                     "Null",
+                    ""
                 ), number = index + 1){
 
                 }

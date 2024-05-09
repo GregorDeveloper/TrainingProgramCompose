@@ -22,7 +22,8 @@ fun ViewModel.splitString(
                 workOutName = item.workOutName,
                 weight = element,
                 reps = reps!!.get(index),
-                date = item.date
+                date = item.date,
+                ""
             )
         )
     }

@@ -39,7 +39,6 @@ fun UiNewWeightRepsScreen(
                 }
             ),
     ) {
-
         Text(
             text = (number + 1).toString(),
             modifier = Modifier

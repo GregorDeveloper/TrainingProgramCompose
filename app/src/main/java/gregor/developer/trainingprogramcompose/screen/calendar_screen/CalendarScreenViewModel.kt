@@ -17,6 +17,7 @@ import gregor.developer.trainingprogramcompose.screen.calendar_screen.data.Canva
 import gregor.developer.trainingprogramcompose.screen.swipe_screen.SwipeToDismissController
 import gregor.developer.trainingprogramcompose.utils.Routes
 import gregor.developer.trainingprogramcompose.utils.UiEvent
+import gregor.developer.trainingprogramcompose.utils.getCurrentDate
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.cancel
@@ -128,7 +129,13 @@ class CalendarScreenViewModel @Inject constructor(
             }
 
             is CalendarEvent.ClickWorkout -> {
-                //sendUiEvent(UiEvent.Navigate(e))
+                Log.d("LogCalendarDate", getCurrentDate())
+                Log.d("LogCalendarDate", selectedDate.value.date)
+                val date = if(getCurrentDate().elementAt(0).toString() == "0") getCurrentDate().drop(1) else getCurrentDate()
+                Log.d("LogCalendarDate", date)
+                if(date.trim() == selectedDate.value.date.trim()) {
+                    sendUiEvent(UiEvent.Navigate(event.route))
+                }
             }
 
             is CalendarEvent.DeleteTrainingInDay -> {
@@ -182,23 +189,13 @@ class CalendarScreenViewModel @Inject constructor(
         when (event) {
             is DialogEvent.OnConfirm -> {
                 when (choiceDialog) {
-
                     Routes.DIALOG_DELETE_WORKOUT -> {
-
                         runBlocking {
                             if (listItem != null) repository.deleteItem(listItem!!)
                             var listItem: List<WorkoutListItem> = repository.getAllItemsByDate(selectedDate.value.date)
                             deleteTrainingIcon(listItem.size)
                             listItem = emptyList()
                         }
-//                        listCollect = viewModelScope.launch() {
-//                            if (listItem != null) repository.deleteItem(listItem!!)
-//                            val listItem: List<WorkoutListItem> = repository.getAllItemsByDate(selectedDate.value.date)
-//                            deleteTrainingIcon(listItem.size)
-//                            Log.d("LogDeleteWorkout", listOfCurrentMonth.value.dayInMonth
-//                                .get(getTwoSymbol() - 1)
-//                                .training.toString())
-//                        }
                     }
 
                     Routes.DIALOG_DELETE_TRAINING -> {

@@ -1,5 +1,6 @@
 package gregor.developer.trainingprogramcompose.screen.weight_reps_screen.weight_reps_univ
 
+import android.util.Log
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -35,6 +36,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.constraintlayout.compose.ConstraintLayout
+import androidx.hilt.navigation.compose.hiltViewModel
 import gregor.developer.training_program_compose.data.entity.WeightRepsWorkoutItem
 import gregor.developer.trainingprogramcompose.R
 import gregor.developer.trainingprogramcompose.dialog.dialog_weight_reps.DialogWeightReps
@@ -46,21 +48,9 @@ import gregor.developer.trainingprogramcompose.screen.weight_reps_screen.NoteScr
 
 @Composable
 fun WeightRepsScreenUniv(
-    viewModel: WeightRepsUnivViewModel
+    viewModel: WeightRepsUnivViewModel = hiltViewModel()
 ) {
     val weightRepsTest = mutableListOf<WeightRepsWorkoutItem>()
-
-    for (i in 0..15) {
-        weightRepsTest.add(
-            WeightRepsWorkoutItem(
-                0,
-                "Test",
-                (50 + i).toString(),
-                "5",
-                "24"
-            ),
-        )
-    }
 
 
     Column(
@@ -111,19 +101,19 @@ fun WeightRepsScreenUniv(
                     modifier = Modifier.fillMaxSize(),
                     contentAlignment = if (weightRepsTest.isEmpty()) Alignment.Center else Alignment.TopCenter
                 ) {
-                    if (weightRepsTest.isEmpty()) {
-                        Text(
-                            text = "Empty table",
-                            style = TextStyle(
-                                fontSize = 25.sp,
-                                color = Color.White
-                            )
-                        )
-                    } else {
+//                    if (weightRepsTest.isEmpty()) {
+//                        Text(
+//                            text = "Empty table",
+//                            style = TextStyle(
+//                                fontSize = 25.sp,
+//                                color = Color.White
+//                            )
+//                        )
+//                    } else {
                         Column(modifier = Modifier.fillMaxSize()) {
                             LazyColumn(modifier = Modifier.weight(0.8f)) {
                                 itemsIndexed(
-                                    weightRepsTest
+                                    viewModel.items
                                 ) { index, item ->
                                     UiNewWeightRepsScreen(weightReps = item, number = index) {
 
@@ -131,7 +121,7 @@ fun WeightRepsScreenUniv(
                                 }
                             }
                         }
-                    }
+                  //  }
                 }
 
             }
@@ -150,7 +140,7 @@ fun WeightRepsScreenUniv(
                     .fillMaxSize()
                     .padding(3.dp),
             ) {
-                NoteScreen(modifier = Modifier.weight(1f))
+                NoteScreen(modifier = Modifier.weight(1f), viewModel)
                 Column(
                     modifier = Modifier
                         .wrapContentSize()
@@ -164,7 +154,7 @@ fun WeightRepsScreenUniv(
                             tint = Color.White
                         )
                     }
-                    IconButton(onClick = { /*TODO*/ }) {
+                    IconButton(onClick = { viewModel.onEvent(WeightRepsUnivEvent.SaveNote(viewModel.note.value)) }) {
                         Icon(
                             painter = painterResource(id = R.drawable.save_icon),
                             contentDescription = "save",

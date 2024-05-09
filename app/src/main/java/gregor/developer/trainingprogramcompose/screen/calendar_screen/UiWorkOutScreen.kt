@@ -32,7 +32,7 @@ fun UiWorkOutScreen(
             .clickable {
                 onEvent(
                     Routes.WEIGHT_REPS_SCREEN_UNIV
-                    //Routes.WEIGHT_REPS + "/${item.workoutName}"
+                     + "/${item.workoutName}"
                 )
             },
         backgroundColor = Color.DarkGray

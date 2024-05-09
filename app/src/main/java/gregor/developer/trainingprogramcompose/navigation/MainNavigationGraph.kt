@@ -96,7 +96,12 @@ fun MainNavigationGraph(
                 }
             }
         }
-        composable(Routes.WEIGHT_REPS_SCREEN_UNIV){
+        composable(Routes.WEIGHT_REPS_SCREEN_UNIV + "/{workoutName}",
+            arguments = listOf(
+                navArgument("workoutName") {
+                    type = NavType.StringType
+                    defaultValue = ""
+                })){
             WeightRepsScreenUniv()
         }
 

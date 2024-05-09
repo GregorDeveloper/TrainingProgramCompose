@@ -242,9 +242,10 @@ fun CalendarScreen(
                         },
                         dismissContent = {
                             UiWorkOutScreen(item) { event ->
-                                onNavigate(
-                                    event
-                                )
+                                viewModel.onEvent(CalendarEvent.ClickWorkout(event))
+//                                onNavigate(
+//                                    event
+//                                )
                                 //Перейти к концу списка!!!!
                             }
                         },
@@ -263,7 +264,6 @@ fun CalendarScreen(
 fun TitleWorkoutCalendar(
     viewModel: CalendarScreenViewModel,
 ) {
-    Log.d("LogOnResume", viewModel.selectedDate.value.date + " title")
     Row(
         modifier = Modifier
             .fillMaxWidth()

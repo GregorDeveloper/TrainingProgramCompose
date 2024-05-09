@@ -78,7 +78,8 @@ class OldWeightRepsViewModel @Inject constructor(
                     workOutName = item.workOutName,
                     weight = element,
                     reps = reps!!.get(index),
-                    date = item.date
+                    date = item.date,
+                    ""
                 )
             )
         }

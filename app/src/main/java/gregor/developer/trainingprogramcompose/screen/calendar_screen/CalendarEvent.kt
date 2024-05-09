@@ -8,7 +8,7 @@ sealed class CalendarEvent {
     data class ChangeMonth(val change: Boolean): CalendarEvent()
     data class ClickDay(val day: DayTraining): CalendarEvent()
 
-    data class  ClickWorkout(val workout: WorkoutListItem): CalendarEvent()
+    data class  ClickWorkout(val route: String): CalendarEvent()
 
     data class AddWorkout(val route: String): CalendarEvent()
 

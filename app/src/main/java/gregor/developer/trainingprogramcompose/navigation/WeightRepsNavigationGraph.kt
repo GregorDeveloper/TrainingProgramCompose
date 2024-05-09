@@ -36,8 +36,8 @@ fun WeightRepsNavigationGraph(
             OldWeightRepsScreen()
         }
 
-        composable(Routes.NOTE){
-            NoteScreen(modifier = Modifier)
-        }
+//        composable(Routes.NOTE){
+//            NoteScreen(modifier = Modifier)
+//        }
     }
 }
