@@ -39,16 +39,12 @@ fun MainNavigationGraph(
         ) {
             UserWorkoutScreen()
             { route ->
-                Log.d("LogNavigation", route)
                 if(route == Routes.SAVE_LIST_AND_BACK){
-                    Log.d("LogNavigation", "if Ok")
                     navController.previousBackStackEntry
                         ?.savedStateHandle
                         ?.set(Routes.ADD_TRAINING, true)
                     navController.popBackStack()
-                    Log.d("LogNavigation", "if Ok")
                 }else{
-                    Log.d("LogNavigation", "else Ok")
                     navController.navigate(route)
                 }
             }
@@ -96,12 +92,17 @@ fun MainNavigationGraph(
                 }
             }
         }
-        composable(Routes.WEIGHT_REPS_SCREEN_UNIV + "/{workoutName}",
+        composable(Routes.WEIGHT_REPS_SCREEN_UNIV + "/{workoutName}" + "/{date}",
             arguments = listOf(
                 navArgument("workoutName") {
                     type = NavType.StringType
                     defaultValue = ""
-                })){
+                },
+                navArgument("date"){
+                    type = NavType.StringType
+                    defaultValue = ""
+                }
+            )){
             WeightRepsScreenUniv()
         }
 

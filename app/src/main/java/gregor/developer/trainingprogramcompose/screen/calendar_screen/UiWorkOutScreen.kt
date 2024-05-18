@@ -25,14 +25,13 @@ fun UiWorkOutScreen(
     item: WorkoutListItem,
     onEvent: (String) -> Unit
 ) {
-    Log.d("MyLogScreen", item.workoutName)
     Card(
         modifier = Modifier.fillMaxWidth()
             .padding(5.dp)
             .clickable {
                 onEvent(
                     Routes.WEIGHT_REPS_SCREEN_UNIV
-                     + "/${item.workoutName}"
+                     + "/${item.workoutName}" + "/${item.date}"
                 )
             },
         backgroundColor = Color.DarkGray

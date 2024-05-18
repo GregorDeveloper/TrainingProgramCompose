@@ -45,14 +45,11 @@ import gregor.developer.trainingprogramcompose.screen.weight_reps_screen.NewWeig
 import gregor.developer.trainingprogramcompose.screen.weight_reps_screen.NoteScreen.NoteScreen
 
 
-
 @Composable
 fun WeightRepsScreenUniv(
     viewModel: WeightRepsUnivViewModel = hiltViewModel()
 ) {
     val weightRepsTest = mutableListOf<WeightRepsWorkoutItem>()
-
-
     Column(
         modifier = Modifier
             .fillMaxSize(),
@@ -65,9 +62,12 @@ fun WeightRepsScreenUniv(
             shape = RoundedCornerShape(9.dp),
         ) {
             TitleDate(
-                title = "title",
-                modifier = Modifier.weight(0.2f)
-            )
+                openChangeDate = viewModel.openChangeDate,
+                date = viewModel.date.value){lastOrNext ->
+                viewModel.onEvent(
+                    if(lastOrNext) WeightRepsUnivEvent.nextTraining else WeightRepsUnivEvent.lastTraining
+                )
+            }
         }
 
         Card(
@@ -110,18 +110,18 @@ fun WeightRepsScreenUniv(
 //                            )
 //                        )
 //                    } else {
-                        Column(modifier = Modifier.fillMaxSize()) {
-                            LazyColumn(modifier = Modifier.weight(0.8f)) {
-                                itemsIndexed(
-                                    viewModel.items
-                                ) { index, item ->
-                                    UiNewWeightRepsScreen(weightReps = item, number = index) {
+                    Column(modifier = Modifier.fillMaxSize()) {
+                        LazyColumn(modifier = Modifier.weight(0.8f)) {
+                            itemsIndexed(
+                                viewModel.items
+                            ) { index, item ->
+                                UiNewWeightRepsScreen(weightReps = item, number = index) {
 
-                                    }
                                 }
                             }
                         }
-                  //  }
+                    }
+                    //  }
                 }
 
             }
@@ -141,39 +141,47 @@ fun WeightRepsScreenUniv(
                     .padding(3.dp),
             ) {
                 NoteScreen(modifier = Modifier.weight(1f), viewModel)
-                Column(
-                    modifier = Modifier
-                        .wrapContentSize()
-                ) {
-                    IconButton(onClick = {
-                        viewModel.onEvent(WeightRepsUnivEvent.OpenDialog)
-                    }) {
-                        Icon(
-                            painter = painterResource(id = R.drawable.add_icon),
-                            contentDescription = "delete note",
-                            tint = Color.White
-                        )
-                    }
-                    IconButton(onClick = { viewModel.onEvent(WeightRepsUnivEvent.SaveNote(viewModel.note.value)) }) {
-                        Icon(
-                            painter = painterResource(id = R.drawable.save_icon),
-                            contentDescription = "save",
-                            tint = Color.White
-                        )
-                    }
-                    IconButton(onClick = { /*TODO*/ }) {
-                        Icon(
-                            painter = painterResource(id = R.drawable.delete_icon),
-                            contentDescription = "save",
-                            tint = Color.White
-                        )
-                    }
-                    IconButton(onClick = { /*TODO*/ }) {
-                        Icon(
-                            painter = painterResource(id = R.drawable.info_icon),
-                            contentDescription = "delete note",
-                            tint = Color.White
-                        )
+                if (viewModel.openChangeDate) {
+                    Column(
+                        modifier = Modifier
+                            .wrapContentSize()
+                    ) {
+                        IconButton(onClick = {
+                            viewModel.onEvent(WeightRepsUnivEvent.OpenDialog)
+                        }) {
+                            Icon(
+                                painter = painterResource(id = R.drawable.add_icon),
+                                contentDescription = "delete note",
+                                tint = Color.White
+                            )
+                        }
+                        IconButton(onClick = {
+                            viewModel.onEvent(
+                                WeightRepsUnivEvent.SaveNote(
+                                    viewModel.note.value
+                                )
+                            )
+                        }) {
+                            Icon(
+                                painter = painterResource(id = R.drawable.save_icon),
+                                contentDescription = "save",
+                                tint = Color.White
+                            )
+                        }
+                        IconButton(onClick = { /*TODO*/ }) {
+                            Icon(
+                                painter = painterResource(id = R.drawable.delete_icon),
+                                contentDescription = "save",
+                                tint = Color.White
+                            )
+                        }
+                        IconButton(onClick = { /*TODO*/ }) {
+                            Icon(
+                                painter = painterResource(id = R.drawable.info_icon),
+                                contentDescription = "delete note",
+                                tint = Color.White
+                            )
+                        }
                     }
                 }
             }

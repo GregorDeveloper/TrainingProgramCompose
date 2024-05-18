@@ -4,6 +4,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
@@ -15,6 +16,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import gregor.developer.trainingprogramcompose.R
 import gregor.developer.trainingprogramcompose.screen.calendar_screen.CalendarEvent
@@ -22,44 +24,50 @@ import gregor.developer.trainingprogramcompose.screen.calendar_screen.CalendarEv
 
 @Composable
 fun TitleDate(
-    title: String,
-    modifier: Modifier
+    openChangeDate: Boolean,
+    date: String,
+    onLastOrNextTraining: (Boolean) -> Unit
 ) {
     Row(
-        modifier = Modifier.fillMaxWidth(),
-        horizontalArrangement = Arrangement.SpaceBetween,
+        modifier = Modifier.fillMaxWidth()
+            .padding(3.dp),
+        horizontalArrangement = if(openChangeDate)Arrangement.SpaceBetween else Arrangement.Center,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        IconButton(onClick = {
-            //viewModel.onEvent(CalendarEvent.ChangeMonth(true))
-        }) {
-            Icon(
-                painter = painterResource(
-                    id = R.drawable.arrow_left
-                ),
-                contentDescription = "left",
-                tint = Color.Green,
-            )
+        if(openChangeDate){
+            IconButton(onClick = {
+                onLastOrNextTraining(false)
+            }) {
+                Icon(
+                    painter = painterResource(
+                        id = R.drawable.arrow_left
+                    ),
+                    contentDescription = "left",
+                    tint = Color.Green,
+                )
+            }
         }
         Text(
-            text = "25.03.2024",
-            //viewModel.listOfCurrentMonth.value.month,
+            text = date,
             fontWeight = FontWeight.SemiBold,
             color = Color.Green,
             fontSize = 25.sp,
             modifier = Modifier.wrapContentSize()
+                .wrapContentSize(),
         )
-        IconButton(onClick = {
-            //viewModel.onEvent(CalendarEvent.ChangeMonth(false))
-        }) {
-            Icon(
-                painter = painterResource(
-                    id = R.drawable.arrow_right
-                ),
-                contentDescription = "left",
-                tint = Color.Green,
-                modifier = Modifier.weight(0.2f)
-            )
+        if(openChangeDate){
+            IconButton(onClick = {
+                onLastOrNextTraining(true)
+            }) {
+                Icon(
+                    painter = painterResource(
+                        id = R.drawable.arrow_right
+                    ),
+                    contentDescription = "left",
+                    tint = Color.Green,
+                    modifier = Modifier.weight(0.2f)
+                )
+            }
         }
     }
 }

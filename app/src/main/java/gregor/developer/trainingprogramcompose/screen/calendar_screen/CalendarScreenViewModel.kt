@@ -4,11 +4,13 @@ import android.util.Log
 import androidx.compose.material.DismissDirection
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.ui.geometry.Offset
+import androidx.core.content.res.TypedArrayUtils.getString
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import gregor.developer.training_program_compose.data.entity.WorkoutListItem
 import gregor.developer.training_program_compose.data.repository.WorkOutListRepository
+import gregor.developer.trainingprogramcompose.R
 import gregor.developer.trainingprogramcompose.data.static_data.Date
 import gregor.developer.trainingprogramcompose.data.static_data.DayTraining
 import gregor.developer.trainingprogramcompose.dialog.DialogController
@@ -16,14 +18,18 @@ import gregor.developer.trainingprogramcompose.dialog.DialogEvent
 import gregor.developer.trainingprogramcompose.screen.calendar_screen.data.CanvasParametr
 import gregor.developer.trainingprogramcompose.screen.swipe_screen.SwipeToDismissController
 import gregor.developer.trainingprogramcompose.utils.Routes
+import gregor.developer.trainingprogramcompose.utils.StringResourcesProvider
 import gregor.developer.trainingprogramcompose.utils.UiEvent
+import gregor.developer.trainingprogramcompose.utils.UiText
 import gregor.developer.trainingprogramcompose.utils.getCurrentDate
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asFlow
+import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.cancellable
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.emptyFlow
@@ -52,6 +58,8 @@ class CalendarScreenViewModel @Inject constructor(
         private set
     override var showEditableText = mutableStateOf(false)
         private set
+    private val _showToast = MutableSharedFlow<Boolean>()
+    val showToastMessage = _showToast.asSharedFlow()
 
     private var localDate = LocalDate.now()
 
@@ -129,12 +137,14 @@ class CalendarScreenViewModel @Inject constructor(
             }
 
             is CalendarEvent.ClickWorkout -> {
-                Log.d("LogCalendarDate", getCurrentDate())
-                Log.d("LogCalendarDate", selectedDate.value.date)
-                val date = if(getCurrentDate().elementAt(0).toString() == "0") getCurrentDate().drop(1) else getCurrentDate()
-                Log.d("LogCalendarDate", date)
-                if(date.trim() == selectedDate.value.date.trim()) {
+                val date =
+                    if (getCurrentDate().elementAt(0).toString() == "0") getCurrentDate().drop(1)
+                    else getCurrentDate()
+                if (selectedDate.value.date.trim() == date.trim()
+                    || selectedDate.value.date.trim() < date.trim()) {
                     sendUiEvent(UiEvent.Navigate(event.route))
+                } else {
+                    sendUiEvent(UiEvent.ShowToast(selectedDate.value.date))
                 }
             }
 
@@ -192,7 +202,8 @@ class CalendarScreenViewModel @Inject constructor(
                     Routes.DIALOG_DELETE_WORKOUT -> {
                         runBlocking {
                             if (listItem != null) repository.deleteItem(listItem!!)
-                            var listItem: List<WorkoutListItem> = repository.getAllItemsByDate(selectedDate.value.date)
+                            var listItem: List<WorkoutListItem> =
+                                repository.getAllItemsByDate(selectedDate.value.date)
                             deleteTrainingIcon(listItem.size)
                             listItem = emptyList()
                         }
@@ -303,11 +314,9 @@ class CalendarScreenViewModel @Inject constructor(
     fun getAllItemsByDateFlow(date: String): Flow<List<WorkoutListItem>> {
         val dt: String
         if (date.length > 3) {
-            Log.d("LogDateLenght", "lenght > 3")
             dt = date
         } else {
             dt = dateForDB(date.toInt(), localDate)
-            Log.d("LogDateLenght", "lenght < 3")
         }
         return repository.getAllItemsByDateFlow(dt)
     }

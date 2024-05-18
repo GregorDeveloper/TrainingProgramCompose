@@ -7,8 +7,8 @@ sealed class WeightRepsUnivEvent {
     object SaveWeightReps: WeightRepsUnivEvent()
     data class SaveNote(val note: String): WeightRepsUnivEvent()
     data class OpenDialogDescription(val workoutName: String): WeightRepsUnivEvent()
-    object previousItemList: WeightRepsUnivEvent()
-    object nextItemList: WeightRepsUnivEvent()
+    object lastTraining: WeightRepsUnivEvent()
+    object nextTraining: WeightRepsUnivEvent()
     object openDialogDate: WeightRepsUnivEvent()
     data class OnTextChangeNote(val note: String): WeightRepsUnivEvent()
 }

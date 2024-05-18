@@ -1,7 +1,6 @@
 package gregor.developer.trainingprogramcompose.screen.weight_reps_screen.weight_reps_univ
 
 import android.util.Log
-import android.widget.Toast
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.SavedStateHandle
@@ -22,7 +21,8 @@ class WeightRepsUnivViewModel @Inject constructor(
     savedStateHandle: SavedStateHandle,
 ): ViewModel(), DialogWeightRepsController {
     private var workoutName: String? = null
-
+    var date  = mutableStateOf("")
+    var openChangeDate: Boolean = true
     var item = mutableStateOf<WeightRepsWorkoutItem?>(null)
     val items = mutableStateListOf<WeightRepsWorkoutItem>()
     val note = mutableStateOf("")
@@ -40,10 +40,28 @@ class WeightRepsUnivViewModel @Inject constructor(
         private set
     init {
         workoutName = savedStateHandle.get<String>("workoutName")
+        date.value = savedStateHandle.get<String>("date") ?: ""
         Log.d("LogWeightRepsInit", workoutName ?: " error")
         Log.d("LogWeightRepsInit", getCurrentDate())
+        openChangeDate = todayOrLastDate(date.value)
+        Log.d("LogWeightRepsInit", openChangeDate.toString())
         getItemCurrentDate()
 
+
+//        viewModelScope.launch {
+//            repository.insertItem(
+//                WeightRepsWorkoutItem(
+//                    item.value?.id,
+//                    workoutName!!,
+//                    "50_60_80_60_80",
+//                    "5_5_8_8_8",
+//                    "15.05.2024",
+//                    "test 1 " +
+//                            "test 2" +
+//                            "test 3"
+//                )
+//            )
+//        }
     }
 
     fun onEvent(event: WeightRepsUnivEvent){
@@ -124,17 +142,48 @@ class WeightRepsUnivViewModel @Inject constructor(
 
             }
 
-            WeightRepsUnivEvent.nextItemList -> TODO()
+            WeightRepsUnivEvent.nextTraining -> {
+                Log.d("LogLastOrNext", "next")
+
+            }
+            WeightRepsUnivEvent.lastTraining -> {
+                Log.d("LogLastOrNext", "last")
+                getLastTraining()
+            }
 
             WeightRepsUnivEvent.openDialogDate -> TODO()
 
-            WeightRepsUnivEvent.previousItemList -> TODO()
+
 
         }
     }
 
-    override fun onDialogEvent(event: DialogWeightRepsEvent) {
+    private fun getLastTraining(){
+        val numberList = item.value?.date?.split(".")
+        val number = numberList!!.get(0).toInt()
+        val monthAndYear = numberList.get(1) + "." + numberList.get(2)
+        /*
+        Парсить БД через класс календарь получая полную тукущую дату и убавляя от нее по одному дню далее переходить на некст месяц
+        надо получить первый элемент в таблице этого упражнения и парсить до него!!!!
+        Или получая текущий день в календаре (например 173 и убавляя от него) сложнее для преобразования дат
+         */
+        viewModelScope.launch {
+            for (i in number - 1 downTo 1){
+                val dt = i.toString() + "." + monthAndYear
+                val result = workoutName?.let { repository.getCurrentWeightReps(it, dt) }
+                if(result != null){
+                    item.value = result
+                    date.value = dt
+                    items.clear()
+                    parsItem()
+                    return@launch
+                }
+            }
+        }
 
+    }
+
+    override fun onDialogEvent(event: DialogWeightRepsEvent) {
         when(event){
             is DialogWeightRepsEvent.OnCancel -> {
                 openDialog.value = false
@@ -167,10 +216,11 @@ class WeightRepsUnivViewModel @Inject constructor(
 
     fun getItemCurrentDate() {
         viewModelScope.launch {
-            Log.d("LogDate", getCurrentDate())
             item.value =
-                workoutName?.let { repository.getCurrentWeightReps(it, getCurrentDate()) }
-            parsItem()
+                workoutName?.let { repository.getCurrentWeightReps(it, date.value) }
+            if(item.value != null) {
+                parsItem()
+            }
         }
     }
 
@@ -218,7 +268,6 @@ class WeightRepsUnivViewModel @Inject constructor(
                 )
             }
             note.value = item.value!!.note
-            Log.d("LogNote", note.value)
         }
     }
 
@@ -235,8 +284,13 @@ class WeightRepsUnivViewModel @Inject constructor(
 
     }
 
-
-
+    fun todayOrLastDate(changeDate: String): Boolean{
+        return if(changeDate.trim() == getCurrentDate().trim()){
+            true
+        }else{
+            false
+        }
+    }
 
 
 }

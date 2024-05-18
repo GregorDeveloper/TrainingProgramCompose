@@ -1,6 +1,7 @@
 package gregor.developer.trainingprogramcompose.screen.calendar_screen
 
 import android.util.Log
+import android.widget.Toast
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -37,8 +38,10 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -54,6 +57,7 @@ import gregor.developer.trainingprogramcompose.dialog.MainDialog
 import gregor.developer.trainingprogramcompose.screen.swipe_screen.SwipeItem
 import gregor.developer.trainingprogramcompose.utils.Routes
 import gregor.developer.trainingprogramcompose.utils.UiEvent
+import kotlinx.coroutines.isActive
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
@@ -64,7 +68,7 @@ fun CalendarScreen(
     onNavigate: (String) -> Unit
 ) {
     val workoutListFlow = viewModel.listFlow?.collectAsState(initial = emptyList())
-
+    val context = LocalContext.current
     DisposableEffect(lifecycleOwner) {
         val observer = LifecycleEventObserver { _, event ->
             when (event) {
@@ -86,17 +90,27 @@ fun CalendarScreen(
         }
     }
     LaunchedEffect(key1 = true) {
+        Log.d("LogClick", "launch")
+//        viewModel.showToastMessage.collect{showToast ->
+//            if(showToast){
+//                Toast.makeText(context, "Toast test", Toast.LENGTH_LONG).show()
+//            }
+//
+//        }
         viewModel.uiEvent.collect { uiEvent ->
             when (uiEvent) {
                 is UiEvent.Navigate -> {
                     onNavigate(uiEvent.route)
                 }
-
+                is UiEvent.ShowToast ->{
+                    val date = context.getString(R.string.toast_calendar) + " " + uiEvent.date
+                    Toast.makeText(context,date, Toast.LENGTH_SHORT).show()
+                }
                 else -> {
-
                 }
             }
         }
+
     }
     Column(
         modifier = Modifier

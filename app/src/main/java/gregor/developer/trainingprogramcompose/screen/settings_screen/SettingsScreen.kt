@@ -4,6 +4,7 @@ package gregor.developer.trainingprogramcompose.screen.settings_screen
 import android.graphics.Paint
 import android.os.Build
 import android.util.Log
+import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.compose.animation.core.animate
 import androidx.compose.animation.core.tween
@@ -21,6 +22,7 @@ import androidx.compose.material.Scaffold
 import androidx.compose.material.Text
 import androidx.compose.material.TopAppBar
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -39,24 +41,34 @@ import androidx.compose.ui.graphics.drawscope.clipPath
 import androidx.compose.ui.graphics.nativeCanvas
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.lifecycle.viewmodel.compose.viewModel
+import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.launch
 import java.time.LocalDate
 
 
 
-//@RequiresApi(Build.VERSION_CODES.O)
 @Preview(showBackground = true)
 @Composable
 fun SettingsScreen(
     viewModelSettings: ViewModelSettings = hiltViewModel()
 ) {
-
+    val context = LocalContext.current
+    LaunchedEffect(true) {
+        viewModelSettings.showToastMessage.collect{
+            if(it){
+                Toast.makeText(context, "Toast", Toast.LENGTH_LONG).show()
+            }
+        }
+    }
 }
+
 //@RequiresApi(Build.VERSION_CODES.O)
 private fun createCalendarList(): List<CalendarInput> {
     val localDate = LocalDate.now()
@@ -92,7 +104,6 @@ private fun createCalendarList(): List<CalendarInput> {
     }
     return calendarInputs
 }
-
 
 
 private const val CALENDAR_ROWS = 5
