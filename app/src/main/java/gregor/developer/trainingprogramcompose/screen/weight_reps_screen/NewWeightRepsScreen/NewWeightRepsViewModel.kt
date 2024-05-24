@@ -198,7 +198,7 @@ class NewWeightRepsViewModel @Inject constructor(
     fun getItemCurrentDate() {
         viewModelScope.launch {
             item.value =
-                workoutName?.let { repository.getCurrentWeightReps(it, getCurrentDate()) }
+                workoutName?.let { repository.getWeightRepsByDate(it, getCurrentDate()) }
             parsItem()
         }
     }

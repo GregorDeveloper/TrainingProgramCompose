@@ -1,14 +1,10 @@
 package gregor.developer.trainingprogramcompose.navigation
 
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
-import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import androidx.navigation.navArgument
 import gregor.developer.trainingprogramcompose.screen.weight_reps_screen.NewWeightRepsScreen.NewWeightRepsScreen
-import gregor.developer.trainingprogramcompose.screen.weight_reps_screen.NoteScreen.NoteScreen
 import gregor.developer.trainingprogramcompose.screen.weight_reps_screen.OldWeightRepsScreen.OldWeightRepsScreen
 import gregor.developer.trainingprogramcompose.utils.Routes
 
@@ -32,7 +28,7 @@ fun WeightRepsNavigationGraph(
             NewWeightRepsScreen(workoutName)
         }
 
-        composable(Routes.OLD_WEIGHT_REPS){
+        composable(Routes.NEXT_WEIGHT_REPS){
             OldWeightRepsScreen()
         }
 

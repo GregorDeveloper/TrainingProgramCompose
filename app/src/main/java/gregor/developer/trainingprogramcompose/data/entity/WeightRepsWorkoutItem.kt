@@ -11,6 +11,5 @@ data class WeightRepsWorkoutItem(
     var weight: String,
     var reps: String,
     val date: String,
-    val note: String
-
+    var note: String
 )
