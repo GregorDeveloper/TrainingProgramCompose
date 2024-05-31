@@ -31,4 +31,5 @@
     <string name="r">r - reps</string>
     <string name="save">Save</string>
     <string name="toast_calendar">Training will be available on:  </string>
+    <string name="no_data">No data: </string>
 </resources>

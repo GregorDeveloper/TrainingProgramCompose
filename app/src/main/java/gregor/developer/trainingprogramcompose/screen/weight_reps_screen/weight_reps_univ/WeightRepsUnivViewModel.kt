@@ -11,8 +11,11 @@ import gregor.developer.training_program_compose.data.entity.WeightRepsWorkoutIt
 import gregor.developer.training_program_compose.data.repository.WeightRepsWorkoutRepository
 import gregor.developer.trainingprogramcompose.dialog.dialog_weight_reps.DialogWeightRepsController
 import gregor.developer.trainingprogramcompose.dialog.dialog_weight_reps.DialogWeightRepsEvent
-import gregor.developer.trainingprogramcompose.utils.Routes
+import gregor.developer.trainingprogramcompose.screen.title_date.LastOrNextDateEvent
+import gregor.developer.trainingprogramcompose.utils.UiEvent
 import gregor.developer.trainingprogramcompose.utils.getCurrentDate
+import kotlinx.coroutines.channels.Channel
+import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -29,6 +32,8 @@ class WeightRepsUnivViewModel @Inject constructor(
     val note = mutableStateOf("")
     var listDate = mutableStateOf<List<WeightRepsWorkoutItem>?>(null)
     val openDropdownMenu = mutableStateOf(false)
+    private val _uiEvent = Channel<UiEvent>()
+    val uiEvent = _uiEvent.receiveAsFlow()
     override var edit = mutableStateOf(false)
         private set
     override var editIndexItem = mutableStateOf(-1)
@@ -46,7 +51,10 @@ class WeightRepsUnivViewModel @Inject constructor(
         workoutName = savedStateHandle.get<String>("workoutName")
         date.value = savedStateHandle.get<String>("date") ?: ""
         openChangeDate = todayOrLastDate(date.value)
-        getItemCurrentDate()
+        viewModelScope.launch {
+            getItemCurrentDate()
+        }
+
         if (item.value == null) {
             viewModelScope.launch {
                 val tr = repository.getWeightReps(workoutName!!)
@@ -62,51 +70,27 @@ class WeightRepsUnivViewModel @Inject constructor(
             }
 
             is WeightRepsUnivEvent.SaveWeightReps -> {
-                saveItemCurrentDate()
-//                viewModelScope.launch {
-//
-//                    if (edit.value) {
-//                        editWeightReps(editIndexItem.value)
-//                    } else {
-//                        item.value?.weight += "_" + weight.value
-//                        item.value?.reps += "_" + reps.value
-//                    }
-//                    repository.insertItem(
-//                        WeightRepsWorkoutItem(
-//                            item.value?.id,
-//                            workoutName!!,
-//                            item.value?.weight ?: weight.value,
-//                            item.value?.reps ?: reps.value,
-//                            getCurrentDate(),
-//                            item.value?.note ?: ""
-//                        )
-//                    )
-//                    if (item.value == null) {
-//                        getItemCurrentDate()
-//                    } else if (!edit.value) {
-//                        items.add(
-//                            WeightRepsWorkoutItem(
-//                                item.value?.id,
-//                                workoutName!!,
-//                                weight.value,
-//                                reps.value,
-//                                getCurrentDate(),
-//                                ""
-//                            )
-//                        )
-//                    } else {
-//                        val deleteItem = items.get(editIndexItem.value)
-//                            .copy(weight = weight.value, reps = reps.value)
-//                        items.removeAt(editIndexItem.value)
-//                        if (showEditText.value) {
-//                            items.add(editIndexItem.value, deleteItem)
-//                        }
-//                    }
-//                    clearingDialog()
-//                    edit.value = false
-//                    showEditText.value = true
-//                    editIndexItem.value = -1
-//                }
+                viewModelScope.launch {
+
+                    getItemCurrentDate()
+                    getWeightReps()
+
+                    repository.insertItem(
+                        WeightRepsWorkoutItem(
+                            item.value?.id,
+                            workoutName!!,
+                            item.value?.weight ?: weight.value,
+                            item.value?.reps ?: reps.value,
+                            getCurrentDate(),
+                            item.value?.note ?: ""
+                        )
+                    )
+                    updateUiWeightReps()
+                    clearingDialog()
+                    edit.value = false
+                    showEditText.value = true
+                    editIndexItem.value = -1
+                }
             }
 
             is WeightRepsUnivEvent.OnTextChangeNote -> {
@@ -114,9 +98,24 @@ class WeightRepsUnivViewModel @Inject constructor(
 
             }
 
+            is WeightRepsUnivEvent.OpenDeleteDialog -> {
+                viewModelScope.launch {
+                    getItemCurrentDate()
+                    openDialog.value = if (item.value?.id != null) true else false
+                    if (!openDialog.value) sendUiEvent(UiEvent.ShowToast(getCurrentDate()))
+                    else showEditText.value = true
+                }
+
+            }
+
+            is WeightRepsUnivEvent.DeleteFullDay -> {
+
+            }
+
             is WeightRepsUnivEvent.SaveNote -> {
-                if (item.value != null) {
+                if (item.value?.id != null) {
                     viewModelScope.launch {
+                        getItemCurrentDate()
                         repository.insertItem(
                             WeightRepsWorkoutItem(
                                 item.value?.id,
@@ -128,37 +127,36 @@ class WeightRepsUnivViewModel @Inject constructor(
                             )
                         )
                     }
+                } else {
+                    sendUiEvent(UiEvent.ShowToast(getCurrentDate()))
                 }
             }
 
             is WeightRepsUnivEvent.OpenDialogDescription -> {
-
+                openDialog.value = true
             }
 
-            is WeightRepsUnivEvent.lastNextTraining -> {
-            }
-
-            WeightRepsUnivEvent.openDialogDate -> {
+            WeightRepsUnivEvent.OpenDialogDate -> {
                 viewModelScope.launch {
 
                     listDate.value = workoutName?.let { repository.getLastTraining(it) }
 
-                    if(listDate.value?.isNotEmpty() == true){
-                        openDropdownMenu.value = if(listDate.value?.size!! > 1) true else false
+                    if (listDate.value?.isNotEmpty() == true) {
+                        openDropdownMenu.value = if (listDate.value?.size!! > 1) true else false
                     }
                 }
             }
         }
     }
 
-    fun onLastOrNextEvent(event: LastOrNextTrainingEvent) {
+    fun onLastOrNextEvent(event: LastOrNextDateEvent) {
         viewModelScope.launch {
-             val currentId = getCurrentId()
+            val currentId = getCurrentId()
             var currentDateNull = false
-            if(currentId != null) {
+            if (currentId != null) {
                 val result = when (event) {
-                    is LastOrNextTrainingEvent.LastTraining -> {
-                        if (item.value == null) {
+                    is LastOrNextDateEvent.LastTraining -> {
+                        if (item.value?.id == null) {
                             repository.getWeightReps(workoutName!!)
                         } else {
                             workoutName?.let {
@@ -170,18 +168,18 @@ class WeightRepsUnivViewModel @Inject constructor(
                         }
                     }
 
-                    is LastOrNextTrainingEvent.NextTraining -> {
+                    is LastOrNextDateEvent.NextTraining -> {
                         currentDateNull = true
+                        if(item.value?.date == getCurrentDate()) return@launch
                         workoutName?.let {
                             repository.getNextTraining(
                                 it,
                                 currentId
                             )
                         }
-
                     }
 
-                    is LastOrNextTrainingEvent.ClickDate -> {
+                    is LastOrNextDateEvent.ClickDate -> {
                         openDropdownMenu.value = false
                         workoutName?.let { name ->
                             repository.getWeightRepsByDate(
@@ -191,10 +189,10 @@ class WeightRepsUnivViewModel @Inject constructor(
                         }
                     }
 
-                    is LastOrNextTrainingEvent.ClickCurrentDate ->{
+                    is LastOrNextDateEvent.ClickCurrentDate -> {
                         currentDateNull = true
                         openDropdownMenu.value = false
-                        workoutName?.let{name ->
+                        workoutName?.let { name ->
                             repository.getWeightRepsByDate(
                                 name,
                                 event.date
@@ -202,7 +200,6 @@ class WeightRepsUnivViewModel @Inject constructor(
                         }
                     }
                 }
-                Log.d("LogCheckingItemByCurrentDate", result?.date ?: " null")
                 if (result != null) {
                     item.value = result
                     date.value = result.date
@@ -210,27 +207,28 @@ class WeightRepsUnivViewModel @Inject constructor(
                     parsItem()
                     return@launch
                 } else if (result == null && currentDateNull) {
-                    date.value = getCurrentDate()
-                    note.value = ""
-                    items.clear()
+                    item.value = null
+                    clearUiDate()
                 }
+            } else {
+                sendUiEvent(UiEvent.ShowToast(""))
             }
         }
     }
 
     private suspend fun getCurrentId(): Int? {
-        return if (item.value != null) item.value?.id else repository.getWeightReps(workoutName!!).id
+        return if (item.value != null) item.value?.id else repository.getWeightReps(workoutName!!)?.id
     }
 
-    private fun saveItemCurrentDate(){
-        viewModelScope.launch {
-            Log.d("LogSaveItem", item.value?.date ?: " error")
-            if(item.value?.date != getCurrentDate()){
-                item.value = workoutName?.let { repository.getWeightRepsByDate(it, getCurrentDate()) }
-                Log.d("LogSaveItem", item.value?.date ?: " error")
+    private suspend fun getItemCurrentDate() {
+        clearUiDate()
+        if (item.value?.date != getCurrentDate()) {
+            item.value =
+                workoutName?.let { repository.getWeightRepsByDate(it, date.value) }
+            if (item.value != null) {
+                parsItem()
             }
         }
-
     }
 
     override fun onDialogEvent(event: DialogWeightRepsEvent) {
@@ -243,6 +241,7 @@ class WeightRepsUnivViewModel @Inject constructor(
             }
 
             is DialogWeightRepsEvent.OnConfirm -> {
+
                 if (weight.value.isNotEmpty() && reps.value.isNotEmpty()) {
                     onEvent(WeightRepsUnivEvent.SaveWeightReps)
                     openDialog.value = false
@@ -264,15 +263,6 @@ class WeightRepsUnivViewModel @Inject constructor(
         }
     }
 
-    fun getItemCurrentDate() {
-        viewModelScope.launch {
-            item.value =
-                workoutName?.let { repository.getWeightRepsByDate(it, date.value) }
-            if (item.value != null) {
-                parsItem()
-            }
-        }
-    }
 
     private fun editWeightReps(indexE: Int) {
         val listWeight = splitWeight()
@@ -300,7 +290,6 @@ class WeightRepsUnivViewModel @Inject constructor(
             }
 
         }
-
     }
 
     private fun parsItem() {
@@ -323,6 +312,45 @@ class WeightRepsUnivViewModel @Inject constructor(
         }
     }
 
+    private suspend fun updateUiWeightReps() {
+        if (item.value == null) {
+            getItemCurrentDate()
+        } else if (!edit.value) {
+            items.add(
+                WeightRepsWorkoutItem(
+                    item.value?.id,
+                    workoutName!!,
+                    weight.value,
+                    reps.value,
+                    getCurrentDate(),
+                    note.value
+                )
+            )
+        } else {
+            val deleteItem = items.get(editIndexItem.value)
+                .copy(weight = weight.value, reps = reps.value)
+            items.removeAt(editIndexItem.value)
+            if (showEditText.value) {
+                items.add(editIndexItem.value, deleteItem)
+            }
+        }
+    }
+
+    private fun getWeightReps() {
+        if (edit.value) {
+            editWeightReps(editIndexItem.value)
+        } else {
+            item.value?.weight += "_" + weight.value
+            item.value?.reps += "_" + reps.value
+        }
+    }
+
+    private fun clearUiDate() {
+        date.value = getCurrentDate()
+        note.value = ""
+        items.clear()
+    }
+
     private fun splitWeight(): List<String>? {
         return item.value?.weight?.split("_")
     }
@@ -338,14 +366,13 @@ class WeightRepsUnivViewModel @Inject constructor(
     }
 
 
-
     private fun todayOrLastDate(changeDate: String): Boolean {
-        return if (changeDate.trim() == getCurrentDate().trim()) {
-            true
-        } else {
-            false
-        }
+        return if(changeDate.trim() == getCurrentDate().trim()) true else false
     }
 
-
+    private fun sendUiEvent(event: UiEvent) {
+        viewModelScope.launch {
+            _uiEvent.send(event)
+        }
+    }
 }

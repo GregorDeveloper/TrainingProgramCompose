@@ -91,12 +91,6 @@ fun CalendarScreen(
     }
     LaunchedEffect(key1 = true) {
         Log.d("LogClick", "launch")
-//        viewModel.showToastMessage.collect{showToast ->
-//            if(showToast){
-//                Toast.makeText(context, "Toast test", Toast.LENGTH_LONG).show()
-//            }
-//
-//        }
         viewModel.uiEvent.collect { uiEvent ->
             when (uiEvent) {
                 is UiEvent.Navigate -> {

@@ -1,5 +1,6 @@
 package gregor.developer.trainingprogramcompose.screen.weight_reps_screen.weight_reps_univ
 
+import android.widget.Toast
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -16,9 +17,11 @@ import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
@@ -32,12 +35,30 @@ import gregor.developer.trainingprogramcompose.dialog.dialog_weight_reps.DialogW
 import gregor.developer.trainingprogramcompose.screen.title_date.TitleDate
 import gregor.developer.trainingprogramcompose.screen.weight_reps_screen.NewWeightRepsScreen.UiNewWeightRepsScreen
 import gregor.developer.trainingprogramcompose.screen.weight_reps_screen.NoteScreen.NoteScreen
+import gregor.developer.trainingprogramcompose.utils.UiEvent
 
 
 @Composable
 fun WeightRepsScreenUniv(
     viewModel: WeightRepsUnivViewModel = hiltViewModel()
 ) {
+    val context = LocalContext.current
+    LaunchedEffect(key1 = true) {
+        viewModel.uiEvent.collect { uiEvent ->
+            when (uiEvent) {
+                is UiEvent.ShowToast -> {
+                    val textToast = context.getString(R.string.no_data) + uiEvent.date
+                    Toast.makeText(context, textToast, Toast.LENGTH_SHORT).show()
+                }
+
+                else -> {
+
+                }
+            }
+
+
+        }
+    }
     val weightRepsTest = mutableListOf<WeightRepsWorkoutItem>()
     Column(
         modifier = Modifier
@@ -53,7 +74,8 @@ fun WeightRepsScreenUniv(
             TitleDate(
                 viewModel = viewModel,
                 openChangeDate = viewModel.openChangeDate,
-                date = viewModel.date.value){event ->
+                date = viewModel.date.value
+            ) { event ->
                 viewModel.onLastOrNextEvent(event)
             }
         }
@@ -156,7 +178,7 @@ fun WeightRepsScreenUniv(
                                 tint = Color.White
                             )
                         }
-                        IconButton(onClick = { /*TODO*/ }) {
+                        IconButton(onClick = { viewModel.onEvent(WeightRepsUnivEvent.OpenDeleteDialog) }) {
                             Icon(
                                 painter = painterResource(id = R.drawable.delete_icon),
                                 contentDescription = "save",

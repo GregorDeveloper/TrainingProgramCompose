@@ -20,7 +20,7 @@ class WeightRepsWorkoutRepoImpl(
         return dao.getAllItemsByName(workoutName)
     }
 
-    override suspend fun getWeightReps(workoutName: String): WeightRepsWorkoutItem {
+    override suspend fun getWeightReps(workoutName: String): WeightRepsWorkoutItem? {
         return dao.getWeightReps(workoutName)
     }
 

@@ -24,7 +24,7 @@ interface WeightRepsWorkOutDao {
 
     //AND id = (SELECT max(id) FROM weight_reps_table)
     @Query("SELECT * FROM weight_reps_table WHERE workOutName = :workoutName ORDER BY id DESC")
-    suspend fun getWeightReps(workoutName: String): WeightRepsWorkoutItem
+    suspend fun getWeightReps(workoutName: String): WeightRepsWorkoutItem?
     @Query("SELECT * FROM weight_reps_table WHERE workOutName = :workoutName AND id < :currentId ORDER BY id DESC")
     suspend fun getLastTraining(workoutName: String, currentId: Int): WeightRepsWorkoutItem
 
