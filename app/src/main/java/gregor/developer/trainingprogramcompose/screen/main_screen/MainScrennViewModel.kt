@@ -1,5 +1,6 @@
 package gregor.developer.trainingprogramcompose.screen.main_screen
 
+import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -21,6 +22,18 @@ class MainScreenViewModel @Inject constructor(
 
     private val list = repository.getAllItems()
 
+    override var addTraining = mutableStateOf(false)
+        private set
+    override var selectedMonthYear = mutableStateOf(false)
+        private set
+    override var listMonth = mutableStateOf(listOf(""))
+        private set
+    override var listYear  = mutableStateOf(listOf(""))
+        private set
+    override val indexMonth: MutableState<Int>
+        get() = TODO("Not yet implemented")
+    override val indexYear: MutableState<Int>
+        get() = TODO("Not yet implemented")
     override var dialogTitle = mutableStateOf("Training name")
         private set
     override var editableText = mutableStateOf("")
@@ -81,6 +94,8 @@ class MainScreenViewModel @Inject constructor(
             is DialogEvent.AddWorkout -> {
 
             }
+
+            else -> {}
         }
     }
 }

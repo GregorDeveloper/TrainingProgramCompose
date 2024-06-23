@@ -36,6 +36,7 @@ import gregor.developer.trainingprogramcompose.screen.title_date.TitleDate
 import gregor.developer.trainingprogramcompose.screen.weight_reps_screen.NewWeightRepsScreen.UiNewWeightRepsScreen
 import gregor.developer.trainingprogramcompose.screen.weight_reps_screen.NoteScreen.NoteScreen
 import gregor.developer.trainingprogramcompose.utils.UiEvent
+import gregor.developer.trainingprogramcompose.utils.getCurrentDate
 
 
 @Composable
@@ -72,9 +73,13 @@ fun WeightRepsScreenUniv(
             shape = RoundedCornerShape(9.dp),
         ) {
             TitleDate(
-                viewModel = viewModel,
                 openChangeDate = viewModel.openChangeDate,
-                date = viewModel.date.value
+                openDropMenu = viewModel.openDropdownMenu,
+                openItemCurrentDate = viewModel.openItemCurrentDate.value,
+                dateItem = null,
+                viewModel.listDate,
+                currentDate = viewModel.getCurrentDate(),
+                selectedDate = viewModel.date.value
             ) { event ->
                 viewModel.onLastOrNextEvent(event)
             }
@@ -125,8 +130,8 @@ fun WeightRepsScreenUniv(
                             itemsIndexed(
                                 viewModel.items
                             ) { index, item ->
-                                UiNewWeightRepsScreen(weightReps = item, number = index) {
-
+                                UiNewWeightRepsScreen(weightReps = item, number = index) {event ->
+                                    viewModel.onEvent(event)
                                 }
                             }
                         }
@@ -157,7 +162,7 @@ fun WeightRepsScreenUniv(
                             .wrapContentSize()
                     ) {
                         IconButton(onClick = {
-                            viewModel.onEvent(WeightRepsUnivEvent.OpenDialog)
+                            viewModel.onEvent(WeightRepsUnivEvent.OpenDialog(context.getString(R.string.add_weight_reps_dialog)))
                         }) {
                             Icon(
                                 painter = painterResource(id = R.drawable.add_icon),
@@ -178,7 +183,8 @@ fun WeightRepsScreenUniv(
                                 tint = Color.White
                             )
                         }
-                        IconButton(onClick = { viewModel.onEvent(WeightRepsUnivEvent.OpenDeleteDialog) }) {
+                        IconButton(onClick = { viewModel.onEvent(WeightRepsUnivEvent.OpenDeleteFullDayDialog(
+                            context.getString(R.string.delete_weight_reps_full_day))) }) {
                             Icon(
                                 painter = painterResource(id = R.drawable.delete_icon),
                                 contentDescription = "save",

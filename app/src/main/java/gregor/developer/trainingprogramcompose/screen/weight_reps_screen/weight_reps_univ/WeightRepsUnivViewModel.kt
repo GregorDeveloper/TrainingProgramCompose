@@ -30,10 +30,16 @@ class WeightRepsUnivViewModel @Inject constructor(
     var item = mutableStateOf<WeightRepsWorkoutItem?>(null)
     val items = mutableStateListOf<WeightRepsWorkoutItem>()
     val note = mutableStateOf("")
-    var listDate = mutableStateOf<List<WeightRepsWorkoutItem>?>(null)
+    var listLastWeightReps = mutableStateOf<List<WeightRepsWorkoutItem>?>(null)
+    var listDate = mutableListOf<String>()
     val openDropdownMenu = mutableStateOf(false)
     private val _uiEvent = Channel<UiEvent>()
     val uiEvent = _uiEvent.receiveAsFlow()
+
+    var openItemCurrentDate = mutableStateOf(true)
+    private var index = -1
+    override var dialogTitle = mutableStateOf("")
+        private set
     override var edit = mutableStateOf(false)
         private set
     override var editIndexItem = mutableStateOf(-1)
@@ -66,12 +72,12 @@ class WeightRepsUnivViewModel @Inject constructor(
     fun onEvent(event: WeightRepsUnivEvent) {
         when (event) {
             is WeightRepsUnivEvent.OpenDialog -> {
+                dialogTitle.value = event.dialogTitle
                 openDialog.value = true
             }
 
             is WeightRepsUnivEvent.SaveWeightReps -> {
                 viewModelScope.launch {
-
                     getItemCurrentDate()
                     getWeightReps()
 
@@ -82,7 +88,7 @@ class WeightRepsUnivViewModel @Inject constructor(
                             item.value?.weight ?: weight.value,
                             item.value?.reps ?: reps.value,
                             getCurrentDate(),
-                            item.value?.note ?: ""
+                            note.value
                         )
                     )
                     updateUiWeightReps()
@@ -91,25 +97,6 @@ class WeightRepsUnivViewModel @Inject constructor(
                     showEditText.value = true
                     editIndexItem.value = -1
                 }
-            }
-
-            is WeightRepsUnivEvent.OnTextChangeNote -> {
-                item.value?.note = event.note
-
-            }
-
-            is WeightRepsUnivEvent.OpenDeleteDialog -> {
-                viewModelScope.launch {
-                    getItemCurrentDate()
-                    openDialog.value = if (item.value?.id != null) true else false
-                    if (!openDialog.value) sendUiEvent(UiEvent.ShowToast(getCurrentDate()))
-                    else showEditText.value = true
-                }
-
-            }
-
-            is WeightRepsUnivEvent.DeleteFullDay -> {
-
             }
 
             is WeightRepsUnivEvent.SaveNote -> {
@@ -132,17 +119,87 @@ class WeightRepsUnivViewModel @Inject constructor(
                 }
             }
 
+            is WeightRepsUnivEvent.DeleteFullDay -> {
+                viewModelScope.launch {
+                    repository.deleteItem(item.value!!)
+                }
+            }
+
+            is WeightRepsUnivEvent.DeleteNumber -> {
+                viewModelScope.launch {
+                    if (items.size > 1) {
+                        deleteWeightReps(index)
+                        items.removeAt(index)
+                        repository.insertItem(item.value!!)
+                    } else {
+                        items.removeAt(index)
+                        repository.deleteItem(item.value!!)
+                    }
+                }
+            }
+
+            is WeightRepsUnivEvent.OnShowEditDialog -> {
+                if (item.value?.date == getCurrentDate()) {
+                    weight.value = items.get(event.index).weight
+                    reps.value = items.get(event.index).reps
+                    editIndexItem.value = event.index
+                    dialogTitle.value = event.dialogTitle + (event.index + 1).toString()
+                    openDialog.value = true
+                    edit.value = true
+                } else {
+
+                }
+
+            }
+
+            is WeightRepsUnivEvent.OnTextChangeNote -> {
+                note.value = event.note
+            }
+
+            is WeightRepsUnivEvent.OpenDeleteDialog -> {
+                viewModelScope.launch {
+                    if (item.value?.date == getCurrentDate()) {
+                        getItemCurrentDate()
+                        index = event.index
+                        dialogTitle.value = event.dialogTitle + (event.index + 1).toString()
+                        openDialog.value = true
+                        showEditText.value = false
+                    } else {
+                        sendUiEvent(UiEvent.ShowToast(getCurrentDate()))
+                    }
+                }
+
+            }
+
+            is WeightRepsUnivEvent.OpenDeleteFullDayDialog -> {
+                viewModelScope.launch {
+                    getItemCurrentDate()
+                    if (item.value?.id != null) {
+                        openDialog.value = true
+                        showEditText.value = false
+                        dialogTitle.value = event.dialogTitle + item.value?.date
+                    } else {
+                        openDialog.value = false
+                        sendUiEvent(UiEvent.ShowToast(getCurrentDate()))
+                    }
+                }
+            }
+
+
             is WeightRepsUnivEvent.OpenDialogDescription -> {
                 openDialog.value = true
             }
 
             WeightRepsUnivEvent.OpenDialogDate -> {
                 viewModelScope.launch {
-
-                    listDate.value = workoutName?.let { repository.getLastTraining(it) }
-
-                    if (listDate.value?.isNotEmpty() == true) {
-                        openDropdownMenu.value = if (listDate.value?.size!! > 1) true else false
+                    listLastWeightReps.value = workoutName?.let { repository.getLastTraining(it) }
+                    if (listLastWeightReps.value?.isNotEmpty() == true) {
+                        Log.d("LogClickDate", listLastWeightReps.value.toString())
+                        for ((index, element) in listLastWeightReps.value?.withIndex()!!) {
+                            listDate.add(element.date)
+                        }
+                        openDropdownMenu.value =
+                            if (listLastWeightReps.value?.size!! > 1) true else false
                     }
                 }
             }
@@ -153,8 +210,34 @@ class WeightRepsUnivViewModel @Inject constructor(
         viewModelScope.launch {
             val currentId = getCurrentId()
             var currentDateNull = false
+            // var result: WeightRepsWorkoutItem? = null
             if (currentId != null) {
                 val result = when (event) {
+                    is LastOrNextDateEvent.OpenDropMenu -> {
+                        listDate.clear()
+                        listLastWeightReps.value =
+                            workoutName?.let { repository.getLastTraining(it) }
+                        if (listLastWeightReps.value?.isNotEmpty() == true) {
+                            for ((index, element) in listLastWeightReps.value?.withIndex()!!) {
+                                listDate.add(element.date)
+                            }
+                            openDropdownMenu.value =
+                                if (listLastWeightReps.value?.size!! > 1) {
+                                    openItemCurrentDate.value=
+                                        if (listLastWeightReps.value!!.first().date.equals(getCurrentDate())) false else true
+                                    Log.d("LogLastOrNext", openItemCurrentDate.toString())
+                                    Log.d(
+                                        "LogLastOrNext",
+                                        listLastWeightReps.value!!.first().date.toString()
+                                    )
+                                    true
+                                } else {
+                                    false
+                                }
+                        }
+                        null
+                    }
+
                     is LastOrNextDateEvent.LastTraining -> {
                         if (item.value?.id == null) {
                             repository.getWeightReps(workoutName!!)
@@ -170,7 +253,7 @@ class WeightRepsUnivViewModel @Inject constructor(
 
                     is LastOrNextDateEvent.NextTraining -> {
                         currentDateNull = true
-                        if(item.value?.date == getCurrentDate()) return@launch
+                        if (item.value?.date == getCurrentDate()) return@launch
                         workoutName?.let {
                             repository.getNextTraining(
                                 it,
@@ -199,10 +282,14 @@ class WeightRepsUnivViewModel @Inject constructor(
                             )
                         }
                     }
+
+                    is LastOrNextDateEvent.SelectedYearMonth -> {
+                        null
+                    }
                 }
                 if (result != null) {
                     item.value = result
-                    date.value = result.date
+                    date.value = result!!.date
                     items.clear()
                     parsItem()
                     return@launch
@@ -221,8 +308,8 @@ class WeightRepsUnivViewModel @Inject constructor(
     }
 
     private suspend fun getItemCurrentDate() {
-        clearUiDate()
         if (item.value?.date != getCurrentDate()) {
+            clearUiDate()
             item.value =
                 workoutName?.let { repository.getWeightRepsByDate(it, date.value) }
             if (item.value != null) {
@@ -241,14 +328,19 @@ class WeightRepsUnivViewModel @Inject constructor(
             }
 
             is DialogWeightRepsEvent.OnConfirm -> {
-
                 if (weight.value.isNotEmpty() && reps.value.isNotEmpty()) {
                     onEvent(WeightRepsUnivEvent.SaveWeightReps)
-                    openDialog.value = false
-                } else if (!showEditText.value) {
-                    onEvent(WeightRepsUnivEvent.SaveWeightReps)
-                    openDialog.value = false
                 }
+//                else if (!showEditText.value) {
+//                    onEvent(WeightRepsUnivEvent.SaveWeightReps)
+//
+//                }
+                else if (index != -1) {
+                    onEvent(WeightRepsUnivEvent.DeleteNumber)
+                } else {
+                    onEvent(WeightRepsUnivEvent.DeleteFullDay)
+                }
+                openDialog.value = false
             }
 
             is DialogWeightRepsEvent.OnTextChangeWeight -> {
@@ -289,6 +381,28 @@ class WeightRepsUnivViewModel @Inject constructor(
                 }
             }
 
+        }
+    }
+
+    private fun deleteWeightReps(ind: Int) {
+        val listWeight = splitWeight()
+        val listReps = splitReps()
+        item.value?.weight = ""
+        item.value?.reps = ""
+        if (listWeight != null) {
+            for ((index, element) in listWeight.withIndex()) {
+                if (index == ind) {
+
+                } else {
+                    item.value?.weight += if (item.value?.weight == "") listWeight.get(index) else "_" + listWeight.get(
+                        index
+                    )
+                    item.value?.reps += if (item.value?.reps == "") listReps?.get(index) else "_" + listReps?.get(
+                        index
+                    )
+                }
+
+            }
         }
     }
 
@@ -367,7 +481,15 @@ class WeightRepsUnivViewModel @Inject constructor(
 
 
     private fun todayOrLastDate(changeDate: String): Boolean {
-        return if(changeDate.trim() == getCurrentDate().trim()) true else false
+        var resultDate = changeDate
+        if (changeDate.split(".").get(0).toInt() in 1..9) {
+            resultDate = "0${changeDate.split(".").get(0)}." +
+                    "${changeDate.split(".").get(1)}." +
+                    changeDate.split(".").get(2)
+        }
+        Log.d("LogDateCheck", resultDate)
+        Log.d("LogDateCheck", getCurrentDate())
+        return if (resultDate.equals(getCurrentDate().trim())) true else false
     }
 
     private fun sendUiEvent(event: UiEvent) {

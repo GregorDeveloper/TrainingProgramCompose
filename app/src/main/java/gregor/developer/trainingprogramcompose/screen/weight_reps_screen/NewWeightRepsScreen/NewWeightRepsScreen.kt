@@ -117,7 +117,7 @@ fun NewWeightRepsScreen(
                         viewModel.items
                     ) { index, item ->
                         UiNewWeightRepsScreen(item, index + 1){event ->
-                            viewModel.onEvent(event)
+                            //viewModel.onEvent(event)
                         }
                     }
                 }

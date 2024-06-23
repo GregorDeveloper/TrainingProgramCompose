@@ -1,6 +1,7 @@
 package gregor.developer.trainingprogramcompose.screen.weight_reps_screen.NewWeightRepsScreen
 
 import android.util.Log
+import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
@@ -17,11 +18,14 @@ import javax.inject.Inject
 
 @HiltViewModel
 class NewWeightRepsViewModel @Inject constructor(
-    private val repository: WeightRepsWorkoutRepository
+    private val repository: WeightRepsWorkoutRepository,
 ) : ViewModel(), DialogWeightRepsController{
     var item = mutableStateOf<WeightRepsWorkoutItem?>(null)
 
     val items = mutableStateListOf<WeightRepsWorkoutItem>()
+
+    override var dialogTitle = mutableStateOf("")
+        private set
     override var edit = mutableStateOf(false)
         private set
     override var editIndexItem = mutableStateOf(-1)

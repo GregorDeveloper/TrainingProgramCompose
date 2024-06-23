@@ -16,19 +16,20 @@ import gregor.developer.trainingprogramcompose.screen.title_date.LastOrNextDateE
 
 @Composable
 fun UiDateList(
-    item: WeightRepsWorkoutItem,
+    date: String,
+    selectedItem: String,
     clickOldDate: (LastOrNextDateEvent) -> Unit
 ) {
     Box(modifier = Modifier
         //.fillMaxWidth()
         .clickable {
-                clickOldDate(LastOrNextDateEvent.ClickDate(item.date))
+                clickOldDate(LastOrNextDateEvent.ClickDate(date))
         },
         contentAlignment = Alignment.Center
        ) {
-        Text(text = item.date,
+        Text(text = date,
             style = TextStyle(
-                color = Color.White,
+                color = if(date.equals(selectedItem)) Color.Green else Color.White,
                 fontSize = 16.sp
             ),
             modifier = Modifier.padding(3.dp)

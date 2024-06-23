@@ -4,6 +4,7 @@ import androidx.compose.runtime.MutableState
 
 
 interface DialogWeightRepsController {
+    val dialogTitle: MutableState<String>
     val openDialog: MutableState<Boolean>
     val weight: MutableState<String>
     val reps: MutableState<String>

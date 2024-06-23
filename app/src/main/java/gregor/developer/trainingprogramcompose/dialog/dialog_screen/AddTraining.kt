@@ -23,14 +23,6 @@ import gregor.developer.trainingprogramcompose.dialog.DialogEvent
 @Composable
 fun AddTraining(dialogController: DialogController) {
     Column(modifier = Modifier.fillMaxWidth()) {
-        Text(
-            text = dialogController.dialogTitle.value,
-            style = TextStyle(
-                color = Color.Green,
-                fontWeight = FontWeight.Bold,
-                fontSize = 20.sp
-            ),
-        )
         Spacer(modifier = Modifier.height(10.dp))
         if (dialogController.showEditableText.value) {
             TextField(

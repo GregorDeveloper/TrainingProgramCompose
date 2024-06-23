@@ -36,7 +36,7 @@ fun NoteScreen(
     viewModel: WeightRepsUnivViewModel,
 ) {
 
-    //var text by remember { mutableStateOf(TextFieldValue()) }
+    var text by remember { mutableStateOf(viewModel.note.value) }
 
     Column(
         modifier = modifier
@@ -47,9 +47,8 @@ fun NoteScreen(
         TextField(
             value = viewModel.note.value,
             onValueChange = { newText ->
-               // text = newText
+                text = newText
                 viewModel.onEvent(WeightRepsUnivEvent.OnTextChangeNote(newText))
-
             },
             modifier = Modifier
                 .fillMaxSize()

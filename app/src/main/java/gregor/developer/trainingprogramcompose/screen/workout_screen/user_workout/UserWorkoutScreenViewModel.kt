@@ -48,6 +48,18 @@ class UserWorkoutScreenViewModel @Inject constructor(
         itemsList = listId?.let { repositoryWorkoutListTraining.getAllItemsById(it) }
     }
 
+    override var addTraining = mutableStateOf(false)
+        private set
+    override var selectedMonthYear = mutableStateOf(false)
+        private set
+    override val listMonth: MutableState<List<String>>
+        get() = TODO("Not yet implemented")
+    override val listYear: MutableState<List<String>>
+        get() = TODO("Not yet implemented")
+    override val indexMonth: MutableState<Int>
+        get() = TODO("Not yet implemented")
+    override val indexYear: MutableState<Int>
+        get() = TODO("Not yet implemented")
     override var dialogTitle = mutableStateOf("")
         private set
     override var editableText = mutableStateOf("")

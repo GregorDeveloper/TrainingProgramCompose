@@ -60,7 +60,7 @@ fun DialogWeightReps(
                 ) {
 
                     Text(
-                        text = "Dialog Title"
+                        text = dialogController.dialogTitle.value
                     )
                     if(dialogController.showEditText.value){
                     TextField(

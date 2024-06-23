@@ -1,7 +1,10 @@
 package gregor.developer.trainingprogramcompose.screen.calendar_screen
 
+import android.os.Build
 import android.util.Log
+import androidx.annotation.RequiresApi
 import androidx.compose.material.DismissDirection
+import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.ui.geometry.Offset
 import androidx.core.content.res.TypedArrayUtils.getString
@@ -17,6 +20,7 @@ import gregor.developer.trainingprogramcompose.dialog.DialogController
 import gregor.developer.trainingprogramcompose.dialog.DialogEvent
 import gregor.developer.trainingprogramcompose.screen.calendar_screen.data.CanvasParametr
 import gregor.developer.trainingprogramcompose.screen.swipe_screen.SwipeToDismissController
+import gregor.developer.trainingprogramcompose.screen.title_date.LastOrNextDateEvent
 import gregor.developer.trainingprogramcompose.utils.Routes
 import gregor.developer.trainingprogramcompose.utils.StringResourcesProvider
 import gregor.developer.trainingprogramcompose.utils.UiEvent
@@ -44,12 +48,29 @@ import java.time.DayOfWeek
 import java.time.LocalDate
 import javax.inject.Inject
 import java.time.Month
+import java.time.Period
+import java.time.Year
 import java.time.format.DateTimeFormatter
 
 @HiltViewModel
 class CalendarScreenViewModel @Inject constructor(
     private val repository: WorkOutListRepository,
 ) : ViewModel(), DialogController, SwipeToDismissController {
+    override var addTraining = mutableStateOf(false)
+        private set
+    override var selectedMonthYear = mutableStateOf(false)
+        private set
+
+    override var listMonth = mutableStateOf(listOf(Month.JANUARY.toString(), Month.FEBRUARY.toString(), Month.MARCH.toString(), Month.APRIL.toString(),
+        Month.MAY.toString(), Month.JUNE.toString(), Month.JULY.toString(), Month.AUGUST.toString(), Month.SEPTEMBER.toString(),
+        Month.OCTOBER.toString(), Month.NOVEMBER.toString(), Month.DECEMBER.toString()))
+        private set
+    override var listYear = mutableStateOf(getListYears())
+        private set
+    override var indexMonth = mutableStateOf(0)
+        private set
+    override var indexYear = mutableStateOf(0)
+        private set
     override var dialogTitle = mutableStateOf("List name")
         private set
     override var editableText = mutableStateOf("")
@@ -63,7 +84,7 @@ class CalendarScreenViewModel @Inject constructor(
 
     private var localDate = LocalDate.now()
 
-    var listCollect: Job? = null
+    val openDropdownMenu = mutableStateOf(false)
     var listFlow: Flow<List<WorkoutListItem>>? = null
     private var listItem: WorkoutListItem? = null
     private var choiceDialog: String? = null
@@ -71,17 +92,17 @@ class CalendarScreenViewModel @Inject constructor(
     val uiEvent = _uiEvent.receiveAsFlow()
     override var cancelSwipe = mutableStateOf(false)
     val listOfCurrentMonth = mutableStateOf<Date>(
-        Date(
-            "JANUARY",
-            2000,
+        Date( localDate.month.name,
+            localDate.year,
             listOf(
                 DayTraining(
                     1, false
                 )
             ),
-            0
+            selectedOfSetDayOfWeek(localDate))
         )
-    )
+
+
     val openTitle = mutableStateOf(false)
 
     val selectedDate = mutableStateOf<CanvasParametr>(CanvasParametr(Offset.Zero, 0.0f, ""))
@@ -91,8 +112,9 @@ class CalendarScreenViewModel @Inject constructor(
 
     init {
         getDayOfMonth(localDate.lengthOfMonth())
+        Log.d("LogDialog", addTraining.value.toString())
+        Log.d("LogDialog", selectedMonthYear.value.toString())
     }
-
     fun onEvent(event: CalendarEvent) {
         when (event) {
             is CalendarEvent.ClickDay -> {
@@ -111,6 +133,7 @@ class CalendarScreenViewModel @Inject constructor(
                         }
                     }
                 }
+                Log.d("LogDialogConf", selectedDate.value.toString())
             }
 
             is CalendarEvent.ChangeMonth -> {
@@ -155,26 +178,36 @@ class CalendarScreenViewModel @Inject constructor(
 
             is CalendarEvent.OpenDialog -> {
                 openDialog.value = true
+                addTraining.value = false
+                selectedMonthYear.value = false
                 listItem = event.workout
-                var title = ""
-                when (event.dialog) {
+                Log.d("LogDialogEvent", event.dialog)
+                dialogTitle.value = when (event.dialog) {
                     Routes.DIALOG_DELETE_TRAINING -> {
-                        title = "Delete all workout for ${event.workout.date}"
+                        Log.d("LogDialogEvent" , event.dialog)
                         choiceDialog = event.dialog
+                        "${event.title}  ${event.workout.date}"
+
                     }
 
                     Routes.DIALOG_DELETE_WORKOUT -> {
-                        title = "Delete ${event.workout.workoutName}"
+                        Log.d("LogDialogEvent" , event.dialog)
                         choiceDialog = event.dialog
+                        "${event.title} ${event.workout.workoutName}"
+
                     }
 
                     Routes.DIALOG_EDIT -> {
-                        title = "Replace ${event.workout.workoutName}"
+                        Log.d("LogDialogEvent" , event.dialog)
                         choiceDialog = event.dialog
+                        "${event.title} ${event.workout.workoutName}"
                     }
-                }
+                    else ->{
+                        ""
+                    }
 
-                dialogTitle.value = title
+                }
+                Log.d("LogDialogEvent" , dialogTitle.value)
             }
 
             is CalendarEvent.GetTraining -> {
@@ -210,7 +243,7 @@ class CalendarScreenViewModel @Inject constructor(
                     }
 
                     Routes.DIALOG_DELETE_TRAINING -> {
-                        listCollect = viewModelScope.launch {
+                        viewModelScope.launch {
                             val list = repository.getAllItemsByDate(selectedDate.value.date)
                             list.forEach { item ->
                                 repository.deleteItem(item)
@@ -228,10 +261,24 @@ class CalendarScreenViewModel @Inject constructor(
                             )
                         )
                     }
+                    Routes.DIALOG_MONTH_YEAR -> {
+                      //  resetSelectedDay()
+                        openTitle.value = false
+                        val month = Month.of(indexMonth.value + 1)
+                        localDate = localDate.minusMonths(calculationMonthOfDate(listYear.value.get(indexYear.value).toInt(), month))
+                        getDayOfMonth(localDate.lengthOfMonth())
+                        resetSelectedDay()
+                        changesCanvasParameter()
+                        openDialog.value = false
+                    }
                 }
+
                 choiceDialog = null
                 listItem = null
                 openDialog.value = false
+            }
+            is DialogEvent.choseMonthYear -> {
+
             }
 
             is DialogEvent.OnCancel -> {
@@ -239,9 +286,71 @@ class CalendarScreenViewModel @Inject constructor(
                 openDialog.value = false
             }
 
+            is DialogEvent.OnReturnCurrentMonth -> {
+                if(localDate.month.toString() != todayDate.value.month || localDate.year != todayDate.value.year){
+                    localDate = LocalDate.now()
+                    getDayOfMonth(localDate.lengthOfMonth())
+                }
+                openTitle.value = false
+                openDialog.value = false
+            }
+
             else -> {
 
             }
+        }
+    }
+    fun lastOrNextMonth(event: LastOrNextDateEvent){
+        when(event){
+            is LastOrNextDateEvent.LastTraining -> {
+                lastOrNextMonth(true)
+            }
+            is LastOrNextDateEvent.NextTraining ->{
+                lastOrNextMonth(false)
+            }
+            is LastOrNextDateEvent.OpenDropMenu -> {
+                indexMonth.value = getIndexMonth() - 1
+                indexYear.value = getIndexYear() - 1
+                openDialog.value = true
+                choiceDialog = Routes.DIALOG_MONTH_YEAR
+                selectedMonthYear.value = true
+            }
+            is LastOrNextDateEvent.ClickDate -> {
+            }
+            is LastOrNextDateEvent.ClickCurrentDate -> {
+            }
+
+            is LastOrNextDateEvent.SelectedYearMonth -> {
+                val month = Month.valueOf(event.month)
+                localDate = localDate.minusMonths(calculationMonthOfDate(event.year, month))
+                getDayOfMonth(localDate.lengthOfMonth())
+                changesCanvasParameter()
+                openDropdownMenu.value = false
+            }
+        }
+    }
+    private fun calculationMonthOfDate(year: Int, month: Month): Long{
+        val year = localDate.year - year
+        val month2 = localDate.month.value - month.value
+        val monthres = 12 * year + month2
+        return monthres.toLong()
+    }
+
+    private fun lastOrNextMonth(change: Boolean){
+        lastNextMonth(change)
+        changesCanvasParameter()
+    }
+    private fun changesCanvasParameter(){
+        selectedDate.value = CanvasParametr(Offset.Zero, 0.0f, "")
+        if (listOfCurrentMonth.value.dayOfWeek >= 6) {
+            rows.value = 1
+            aspectRatio.value = 1.1f
+        } else if (listOfCurrentMonth.value.dayOfWeek >= 5 && listOfCurrentMonth.value.dayInMonth.size >= 31) {
+            rows.value = 1
+            aspectRatio.value = 1.1f
+        } else {
+            rows.value = 0
+            aspectRatio.value = 1.3f
         }
     }
 
@@ -296,11 +405,11 @@ class CalendarScreenViewModel @Inject constructor(
             }
             listOfCurrentMonth.value = Date(
                 localDate.month.toString(),
-                localDate.year,
+                year = localDate.year,
                 listDays,
                 selectedOfSetDayOfWeek(localDate),
             )
-
+            changesCanvasParameter()
         }
         return listDays
     }
@@ -341,7 +450,7 @@ class CalendarScreenViewModel @Inject constructor(
     }
 
     private fun dateForDB(day: Int, localDate: LocalDate): String {
-        val zero = ""
+        var zero = ""
 //        if (day in 1..9) {
 //            zero = "0"
 //        }
@@ -361,8 +470,18 @@ class CalendarScreenViewModel @Inject constructor(
 
     private fun resetSelectedDay() {
         listFlow = null
-        selectedDate.value.date = ""
+        selectedDate.value = CanvasParametr(Offset.Zero, 0.0f, "")
         openTitle.value = false
+    }
+
+    private fun getListYears(): List<String>{
+        var date = LocalDate.of(2000, 1, 1)
+        val list = mutableListOf<String>()
+        for(i in 1..100){
+            val period = Period.ofYears(i)
+            list.add(date.plus(period).year.toString())
+        }
+        return list
     }
 
     private fun selectedOfSetDayOfWeek(localDate: LocalDate): Int {
@@ -378,6 +497,13 @@ class CalendarScreenViewModel @Inject constructor(
             else -> -1
 
         }
+    }
+
+    private fun getIndexMonth(): Int{
+        return localDate.month.value
+    }
+    private fun getIndexYear(): Int{
+        return localDate.year - 2000
     }
 
     private fun selectedMonth(localDate: LocalDate): String {

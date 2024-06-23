@@ -1,6 +1,7 @@
 package gregor.developer.trainingprogramcompose.screen.calendar_screen
 
 import android.graphics.Paint
+import android.util.Log
 import androidx.compose.animation.core.animate
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Canvas
@@ -67,14 +68,25 @@ fun Calendar(
     val daysOfMonth = remember { mutableStateOf(dateList.dayInMonth) }
     val dayOfWeek = remember { mutableStateOf(0) }
     val month = remember { mutableStateOf(dateList.month) }
+    val year = remember {
+        mutableStateOf(dateList.year)
+    }
     dayOfWeek.value = dateList.dayOfWeek
     daysOfMonth.value = dateList.dayInMonth
-
+    Log.d("LogUiCalendar", year.value.toString())
     val scope = rememberCoroutineScope()
     val clickDay = remember { mutableStateOf(-1) }
     val rowss = remember { mutableStateOf(0) }
     rowss.value = rows
-    if (month.value != dateList.month) {
+    if (month.value != dateList.month
+        ||  year.value != dateList.year
+        ) {
+        year.value = dateList.year
+        month.value = dateList.month
+        Log.d("LogUiCalendar", year.value.toString())
+        Log.d("LogUiCalendar", dateList.year.toString())
+//        Log.d("LogUiCalendar", dateList.month.toString())
+//        Log.d("LogUiCalendar", month.value.toString())
         animationRadius = 0f
         clickDay.value = -1
     }

@@ -1,9 +1,9 @@
 package gregor.developer.trainingprogramcompose.screen.calendar_screen
 
+import android.content.Context
 import android.util.Log
 import android.widget.Toast
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
@@ -15,7 +15,6 @@ import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material.Card
-import androidx.compose.material.DismissState
 import androidx.compose.material.DismissValue
 import androidx.compose.material.Divider
 import androidx.compose.material.DropdownMenu
@@ -41,9 +40,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -55,9 +52,9 @@ import gregor.developer.trainingprogramcompose.R
 import gregor.developer.trainingprogramcompose.data.swipe_to_dismiss.ParametrSwipeItem
 import gregor.developer.trainingprogramcompose.dialog.MainDialog
 import gregor.developer.trainingprogramcompose.screen.swipe_screen.SwipeItem
+import gregor.developer.trainingprogramcompose.screen.title_date.TitleDate
 import gregor.developer.trainingprogramcompose.utils.Routes
 import gregor.developer.trainingprogramcompose.utils.UiEvent
-import kotlinx.coroutines.isActive
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
@@ -112,41 +109,17 @@ fun CalendarScreen(
             .background(Color.Black),
     ) {
 
-        Row(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.SpaceBetween
-        ) {
-            IconButton(onClick = {
-                viewModel.onEvent(CalendarEvent.ChangeMonth(true))
-            }) {
-                Icon(
-                    painter = painterResource(
-                        id = R.drawable.arrow_left
-                    ),
-                    contentDescription = "left",
-                    tint = Color.Green,
-                )
-            }
-            Text(
-                text = viewModel.listOfCurrentMonth.value.month,
-                fontWeight = FontWeight.SemiBold,
-                color = Color.White,
-                fontSize = 40.sp,
-            )
-            IconButton(onClick = {
-                viewModel.onEvent(CalendarEvent.ChangeMonth(false))
-            }) {
-                Icon(
-                    painter = painterResource(
-                        id = R.drawable.arrow_right
-                    ),
-                    contentDescription = "left",
-                    tint = Color.Green,
-                    modifier = Modifier.weight(0.2f)
-                )
-            }
+        TitleDate(
+            openChangeDate = true,
+            openDropMenu = viewModel.openDropdownMenu,
+            openItemCurrentDate = false,
+            dateItem = viewModel.todayDate,
+            list = emptyList(),
+            currentDate = viewModel.listOfCurrentMonth.value.month,
+            selectedDate = viewModel.listOfCurrentMonth.value.month + "\n" + viewModel.listOfCurrentMonth.value.year,
+        ) {event ->
+            viewModel.lastOrNextMonth(event)
         }
-
         Calendar(
             dateList = viewModel.listOfCurrentMonth.value,
             onDayClick = { day ->
@@ -170,7 +143,7 @@ fun CalendarScreen(
                     .padding(start = 5.dp, end = 5.dp),
                 backgroundColor = Color.DarkGray
             ) {
-                TitleWorkoutCalendar(viewModel)
+                TitleWorkoutCalendar(viewModel, context)
             }
         }
 
@@ -193,7 +166,12 @@ fun CalendarScreen(
                                 DismissValue.DismissedToStart -> {
                                     if(currentFraction.value >= dismissThreshold && currentFraction.value < 1.0f){
                                         viewModel.cancelSwipe.value = false
-                                        viewModel.onEvent(CalendarEvent.OpenDialog(item, Routes.DIALOG_DELETE_WORKOUT))
+                                        viewModel.onEvent(CalendarEvent.OpenDialog(
+                                            item,
+                                            Routes.DIALOG_DELETE_WORKOUT,
+                                            context.getString(R.string.delete)
+                                        )
+                                        )
                                         true
                                     }else false
                                 }
@@ -204,7 +182,8 @@ fun CalendarScreen(
                                         viewModel.onEvent(
                                             CalendarEvent.OpenDialog(
                                                 item,
-                                                Routes.DIALOG_EDIT
+                                                Routes.DIALOG_EDIT,
+                                                context.getString(R.string.replace)
                                             )
                                         )
                                         true
@@ -271,6 +250,7 @@ fun CalendarScreen(
 @Composable
 fun TitleWorkoutCalendar(
     viewModel: CalendarScreenViewModel,
+    context: Context
 ) {
     Row(
         modifier = Modifier
@@ -286,7 +266,11 @@ fun TitleWorkoutCalendar(
                 .weight(1f)
                 .padding(start = 5.dp)
         ) {
-            Text(text = viewModel.selectedDate.value.date)
+            Text(text = viewModel.selectedDate.value.date,
+                style = TextStyle(
+                    color = Color.White,
+                    fontSize = 18.sp
+                ),)
         }
 
 
@@ -295,7 +279,8 @@ fun TitleWorkoutCalendar(
             IconButton(onClick = { expanded = true }) {
                 Icon(
                     painter = painterResource(id = R.drawable.add_icon),
-                    contentDescription = "Add workout or list"
+                    contentDescription = "Add workout or list",
+                    tint = Color.White
                 )
             }
             DropdownMenu(
@@ -316,7 +301,8 @@ fun TitleWorkoutCalendar(
                     Text(
                         text = "Add workout",
                         style = TextStyle(
-                            fontSize = 16.sp
+                            fontSize = 16.sp,
+                            color = Color.White
                         )
                     )
                 }
@@ -335,7 +321,8 @@ fun TitleWorkoutCalendar(
                     Text(
                         text = "Add list training",
                         style = TextStyle(
-                            fontSize = 16.sp
+                            fontSize = 16.sp,
+                            color = Color.White
                         )
                     )
                 }
@@ -351,7 +338,8 @@ fun TitleWorkoutCalendar(
                                 viewModel.selectedDate.value.date,
                                 0
                             ),
-                            Routes.DIALOG_DELETE_TRAINING
+                            Routes.DIALOG_DELETE_TRAINING,
+                            context.getString(R.string.delete_all_workout_for)
                         )
                         )
                     }
@@ -359,7 +347,8 @@ fun TitleWorkoutCalendar(
             ) {
                 Icon(
                     painter = painterResource(id = R.drawable.delete_icon),
-                    contentDescription = "Delete training"
+                    contentDescription = "Delete training",
+                    tint = Color.White
                 )
             }
         }

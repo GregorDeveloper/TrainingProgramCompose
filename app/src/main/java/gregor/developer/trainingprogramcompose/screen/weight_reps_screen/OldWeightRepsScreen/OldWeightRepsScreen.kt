@@ -98,5 +98,7 @@ fun OldWeightRepsScreen(
             }
         }
     }
-    DialogDate(viewModel)
+//    DialogDate(
+//        viewModel
+//    )
 }

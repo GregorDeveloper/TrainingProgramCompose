@@ -1,6 +1,7 @@
 package gregor.developer.trainingprogramcompose.screen.training_list_screen
 
 import android.util.Log
+import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
@@ -36,6 +37,18 @@ class TrainingListViewModel @Inject constructor(
             TrainingNameItem? = null
     override var cancelSwipe = mutableStateOf(false)
 
+    override var addTraining = mutableStateOf(false)
+        private set
+    override var selectedMonthYear = mutableStateOf(false)
+        private set
+    override var listMonth = mutableStateOf(listOf(""))
+        private set
+    override var listYear = mutableStateOf(listOf(""))
+        private set
+    override var indexMonth = mutableStateOf(0)
+        private set
+    override var indexYear = mutableStateOf(0)
+        private set
     override var dialogTitle = mutableStateOf("List name")
         private set
     override var editableText = mutableStateOf("")
