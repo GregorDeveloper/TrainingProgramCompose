@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="food_array_name">
+        <item>Milk and milk products</item>
+        <item>acidophilus</item>
+        <item>White cheese from cows milk</item>
+        <item>Bifidolakt</item>
+        <item>Yoghurt nat. 1.5% fat</item>
+        <item>Kefir low-fat</item>
+        <item>fat Kefir</item>
+        <item>Milk</item>
+        <item>acidophilus milk</item>
+        <item>Milk powder</item>
+        <item>condensed milk</item>
+        <item>Condensed milk with sugar</item>
+        <item>clabber</item>
+        <item>Ryazhenka</item>
+        <item>Cream, dried</item>
+        <item>Cream 10%</item>
+        <item>Cream 20%</item>
+        <item>Sour cream 10%</item>
+        <item>Sour cream 20%</item>
+        <item>Curd cheese and lots of special</item>
+        <item>Cheese Russian</item>
+        <item>Dutch Cheese</item>
+        <item>Swiss Cheese</item>
+        <item>cheddar cheese</item>
+        <item>Roquefort cheese</item>
+        <item>Cheese Baltic</item>
+        <item>Cheese Poshehonsky</item>
+        <item>Processed cheese</item>
+        <item>Cheese Tale</item>
+        <item>fat cottage cheese</item>
+        <item>Curd bold</item>
+        <item>low-fat cottage cheese</item>
+        <item>Fats and oils</item>
+        <item>The fat melted</item>
+        <item>Fat pig (skinless)</item>
+        <item>Margarine milk</item>
+        <item>Margarine sandwich</item>
+        <item>Margarine Extra</item>
+        <item>Margarine milk</item>
+        <item>Margarine cream</item>
+        <item>Margarine Sunny</item>
+        <item>Food fat Prima</item>
+        <item>Mayonnaise table milk</item>
+        <item>Mayonnaise Provencal</item>
+        <item>Mayonnaise Diabetes</item>
+        <item>Vegetable oil</item>
+        <item>corn oil</item>
+        <item>Sunflower oil</item>
+        <item>Olive oil</item>
+        <item>Butter unsalted</item>
+        <item>Butter diets.</item>
+        <item>Oil peasant nesol.</item>
+        <item>Butter sandwich</item>
+        <item>Butter</item>
+        <item>heating oil</item>
+        <item>BREAD AND BAKERY PRODUCTS, FLOUR</item>
+        <item>Rye bread</item>
+        <item>Millet Bread. of flour I grade</item>
+        <item>White bread tin, 1.</item>
+        <item>Wheat bread, VS</item>
+        <item>Bread floor troughs table</item>
+        <item>Bread, wheat grain</item>
+        <item>Rye bread tin</item>
+        <item>loaf</item>
+        <item>Butter cakes</item>
+        <item>bagels</item>
+        <item>Bagels</item>
+        <item>wheat Crackers</item>
+        <item>Rusk cream</item>
+        <item>Rusk cream</item>
+        <item>Wheat Flour. varieties</item>
+        <item>Wheat flour I grade</item>
+        <item>Flour grade II</item>
+        <item>Rye flour</item>
+        <item>Pasta, VS</item>
+        <item>Yeast</item>
+        <item>CEREALS</item>
+        <item>Buckwheat unground</item>
+        <item>buckwheat</item>
+        <item>semolina</item>
+        <item>Oatmeal</item>
+        <item>barley</item>
+        <item>Millet</item>
+        <item>Rice</item>
+        <item>Wheat Poltava</item>
+        <item>Oatmeal</item>
+        <item>barley</item>
+        <item>Hercules</item>
+        <item>Corn</item>
+        <item>VEGETABLES</item>
+        <item>Eggplant</item>
+        <item>Swede</item>
+        <item>Green peas</item>
+        <item>Courgettes</item>
+        <item>Cabbage</item>
+        <item>Cabbage Brussels</item>
+        <item>Cabbage kohlrabi</item>
+        <item>Cauliflower</item>
+        <item>Cabbage early</item>
+        <item>Cabbage later</item>
+        <item>Sauerkraut</item>
+        <item>Potatoes</item>
+        <item>Green onions (the pen)</item>
+        <item>Leek</item>
+        <item>Bulb onions</item>
+        <item>Carrot red</item>
+        <item>Cucumbers ground</item>
+        <item>greenhouse cucumbers</item>
+        <item>Pickles</item>
+        <item>Green bell pepper</item>
+        <item>Sweet red pepper</item>
+        <item>Parsley (Green)</item>
+        <item>Parsley (root)</item>
+        <item>Rhubarb (stemmed)</item>
+        <item>Radish</item>
+        <item>Radish</item>
+        <item>Turnip</item>
+        <item>Salad</item>
+        <item>Beet</item>
+        <item>Tomatoes (groundwater)</item>
+        <item>Tomatoes (greenhouse)</item>
+        <item>Green bean</item>
+        <item>Horseradish</item>
+        <item>ramson</item>
+        <item>Garlic</item>
+        <item>Spinach</item>
+        <item>Sorrel</item>
+        <item>FRUITS AND BERRIES</item>
+        <item>apricots</item>
+        <item>Quince</item>
+        <item>cherry-plum</item>
+        <item>A pineapple</item>
+        <item>bananas</item>
+        <item>Cherry</item>
+        <item>Garnet</item>
+        <item>Pear</item>
+        <item>figs</item>
+        <item>Dogwood</item>
+        <item>peaches</item>
+        <item>Rowan garden</item>
+        <item>black chokeberry</item>
+        <item>Plum garden</item>
+        <item>dates</item>
+        <item>Persimmon</item>
+        <item>Cherries</item>
+        <item>Mulberry</item>
+        <item>apples</item>
+        <item>Orange</item>
+        <item>Grapefruit</item>
+        <item>Lemon</item>
+        <item>Mandarin</item>
+        <item>cowberry</item>
+        <item>grapes</item>
+        <item>Blueberry</item>
+        <item>Blackberry</item>
+        <item>strawberry</item>
+        <item>Cranberry</item>
+        <item>Gooseberry</item>
+        <item>Raspberries</item>
+        <item>Cloudberry</item>
+        <item>Sea buckthorn</item>
+        <item>white currant</item>
+        <item>Red currants</item>
+        <item>Blackcurrant</item>
+        <item>bilberry</item>
+        <item>Rosehip fresh</item>
+        <item>dried Rosehips</item>
+        <item>DRIED FRUITS</item>
+        <item>Dried apricots</item>
+        <item>Dried apricots</item>
+        <item>Muscatel</item>
+        <item>sultana raisins</item>
+        <item>Cherry</item>
+        <item>Pear</item>
+        <item>peaches</item>
+        <item>prunes</item>
+        <item>apples</item>
+        <item>BEANS</item>
+        <item>beans</item>
+        <item>Shelling Peas</item>
+        <item>Peas one-piece</item>
+        <item>soybean</item>
+        <item>beans</item>
+        <item>lentil</item>
+        <item>MUSHROOMS</item>
+        <item>fresh White</item>
+        <item>White dried</item>
+        <item>fresh boletus</item>
+        <item>fresh boletus</item>
+        <item>Syroezhi fresh</item>
+        <item>Meat, offal, poultry</item>
+        <item>Lamb, 1 cat.</item>
+        <item>Lamb, 2 Cat.</item>
+        <item>Beef, 1 cat.</item>
+        <item>Beef, 2 Cat.</item>
+        <item>Rabbit</item>
+        <item>Pork lean</item>
+        <item>Pork fat</item>
+        <item>Veal</item>
+        <item>lamb kidneys</item>
+        <item>Mutton liver</item>
+        <item>Baranja Heart</item>
+        <item>beef Brains</item>
+        <item>Beef liver</item>
+        <item>beef kidneys</item>
+        <item>beef udder</item>
+        <item>beef Heart</item>
+        <item>neats tongue</item>
+        <item>porcine kidney</item>
+        <item>pig liver</item>
+        <item>pig heart</item>
+        <item>Language pork</item>
+        <item>Geese</item>
+        <item>Turkey</item>
+        <item>Chickens, 1 cat.</item>
+        <item>Chickens, Cat 2.</item>
+        <item>Chickens</item>
+        <item>Ducks</item>
+        <item>Sausage and sausage products</item>
+        <item>Cooked sausage Diabetic</item>
+        <item>Cooked sausage Dietetic</item>
+        <item>Cooked sausage Doctor</item>
+        <item>Cooked sausage Amateur</item>
+        <item>Cooked sausage Dairy</item>
+        <item>Cooked sausage Own</item>
+        <item>Cooked sausage Veal</item>
+        <item>Pork sausages</item>
+        <item>Sausages Dairy</item>
+        <item>Sausages Russian</item>
+        <item>Pork sausage</item>
+        <item>Cooked Smoked Amateur</item>
+        <item>Cooked Smoked Servelat</item>
+        <item>smoked Krakow</item>
+        <item>smoked Minsk</item>
+        <item>smoked Poltava</item>
+        <item>smoked Ukrainian</item>
+        <item>smoked Amateur</item>
+        <item>smoked Moscow</item>
+        <item>CANNED MEAT AND SMOKED</item>
+        <item>Beef stew</item>
+        <item>Breakfast of the tourist (beef)</item>
+        <item>Breakfast of the tourist (pork)</item>
+        <item>sausage-meat</item>
+        <item>Pork stew</item>
+        <item>smoked brisket</item>
+        <item>smoked brisket</item>
+        <item>Ham</item>
+        <item>EGGS</item>
+        <item>Eggs (1pc)</item>
+        <item>Egg powder</item>
+        <item>Dry protein</item>
+        <item>Dry egg yolk</item>
+        <item>Quail egg 100g. (1sht9gr.)</item>
+        <item>FISH AND SEAFOOD</item>
+        <item>Gobies</item>
+        <item>Pink salmon</item>
+        <item>Flounder</item>
+        <item>crucian</item>
+        <item>Carp</item>
+        <item>Keta</item>
+        <item>Smelt</item>
+        <item>Ice</item>
+        <item>Bream</item>
+        <item>Salmon</item>
+        <item>grenadier</item>
+        <item>Lamprey</item>
+        <item>Pollock</item>
+        <item>Capelin</item>
+        <item>Navaga</item>
+        <item>Burbot</item>
+        <item>rockcod marble</item>
+        <item>sea ??perch</item>
+        <item>Perch river</item>
+        <item>Sturgeon</item>
+        <item>Halibut</item>
+        <item>Blue whiting</item>
+        <item>Rybasablya</item>
+        <item>vimba Caspian</item>
+        <item>Carp</item>
+        <item>Saira large</item>
+        <item>Saira fine</item>
+        <item>sprat</item>
+        <item>Herring</item>
+        <item>Whitefish</item>
+        <item>Mackerel</item>
+        <item>catfish</item>
+        <item>Horse mackerel</item>
+        <item>Sterlet</item>
+        <item>Zander</item>
+        <item>Cod</item>
+        <item>Tuna</item>
+        <item>Coley</item>
+        <item>Eel sea</item>
+        <item>Acne</item>
+        <item>Hake</item>
+        <item>Pike</item>
+        <item>Ide</item>
+        <item>Shrimp Far</item>
+        <item>Cod liver</item>
+        <item>Squid</item>
+        <item>Crab</item>
+        <item>Shrimp</item>
+        <item>seaweed</item>
+        <item>Ocean Pasta</item>
+        <item>trepang</item>
+        <item>CAVIAR</item>
+        <item>Kety granular</item>
+        <item>Leshchev breakout</item>
+        <item>pollock breakout</item>
+        <item>Sturgeon granular</item>
+        <item>Sturgeon breakout</item>
+        <item>NUTS</item>
+        <item>Hazelnut</item>
+        <item>Almond</item>
+        <item>Walnut</item>
+        <item>Peanut</item>
+        <item>sunflower Seed</item>
+        <item>SWEETS</item>
+        <item>Honey</item>
+        <item>fruit Drops</item>
+        <item>zephyr</item>
+        <item>Iris</item>
+        <item>jujube</item>
+        <item>Caramel</item>
+        <item>Candy, chocolate glazirovannyeye</item>
+        <item>Paste</item>
+        <item>Sugar</item>
+        <item>Halva tahina</item>
+        <item>sunflower Halva</item>
+        <item>dark Chocolate</item>
+        <item>milk chocolate</item>
+        <item>Chocolate BOUNTY</item>
+        <item>Chocolate MARS (1sht.50g)</item>
+        <item>Chocolate NUTS (1sht.50g)</item>
+        <item>Chocolate PICNIC</item>
+        <item>Chocolate PICNIC (King Size, 55g)</item>
+        <item>Chocolate SNICKERS (1sht.58g)</item>
+        <item>TWIX (1P. 58g) Chocolate</item>
+        <item>Chocolate Choc (with coconut, 1sht.50g)</item>
+        <item>Chocolate molochnoorehovy</item>
+        <item>milk chocolate</item>
+        <item>Milk chocolate with hazelnuts AlpenGold</item>
+        <item>Waffles with fr0mi fillings</item>
+        <item>Waffles with fatty fillings</item>
+        <item>Cake with cream puff</item>
+        <item>Puff Pastry with apple</item>
+        <item>Cake biscuit</item>
+        <item>Gingerbread</item>
+        <item>sponge Cake</item>
+        <item>almond Cake</item>
+        <item>Drinks, juices, tea, coffee</item>
+        <item>dry Vermouth</item>
+        <item>Vermouth fortified</item>
+        <item>White wine or red 10% alc.</item>
+        <item>White dry wine</item>
+        <item>Fortified wine White</item>
+        <item>Water (250g 1stakan)</item>
+        <item>Cocoa powder</item>
+        <item>Cocoa and milk</item>
+        <item>Kvass</item>
+        <item>Coca Cola</item>
+        <item>Compote</item>
+        <item>Coffee beans</item>
+        <item>Black coffee with sugar</item>
+        <item>Liquor</item>
+        <item>Lemonade</item>
+        <item>Fruit liqueur</item>
+        <item>Beer</item>
+        <item>Orange juice</item>
+        <item>grape Juice</item>
+        <item>cherry juice</item>
+        <item>grapefruit juice</item>
+        <item>peach juice</item>
+        <item>Apple juice</item>
+        <item>Alcohol 70%</item>
+        <item>Tomato juice is Good</item>
+        <item>Jerez dry</item>
+        <item>Jerez fortified</item>
+        <item>Tea without milk</item>
+        <item>Tea black with sugar</item>
+    </string-array>
+</resources>

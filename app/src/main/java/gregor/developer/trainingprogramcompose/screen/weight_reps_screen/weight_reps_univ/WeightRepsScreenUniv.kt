@@ -77,6 +77,7 @@ fun WeightRepsScreenUniv(
                 openDropMenu = viewModel.openDropdownMenu,
                 openItemCurrentDate = viewModel.openItemCurrentDate.value,
                 dateItem = null,
+                modifier = Modifier,
                 viewModel.listDate,
                 currentDate = viewModel.getCurrentDate(),
                 selectedDate = viewModel.date.value

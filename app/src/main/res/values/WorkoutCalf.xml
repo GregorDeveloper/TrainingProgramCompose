@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="calf_workout">
+        <item>Standing Calf Raise</item>
+        <item>Calf Raise</item>
+        <item>Calf Raise with Resistance Band</item>
+        <item>Barbell Seated Calf Raise</item>
+        <item>Leg Press Calf Raise</item>
+        <item>Hack Squat Calf Raise</item>
+        <item>Lever Seated Calf Raise</item>
+        <item>Single Leg Calf Raise</item>
+        <item>Hack Machine One-Leg Calf Raise</item>
+        <item>Donkey Calf Raise</item>
+        <item>Lever Donkey Calf Raise</item>
+        <item>Bench Press Machine Standing Calf Raise</item>
+        <item>Standing Cross Leg Hamstring Stretch</item>
+        <item>Standing Barbell Calf Raise</item>
+        <item>Weighted Donkey Calf Raise</item>
+        <item>Squat Hold Calf Raise</item>
+        <item>Standing Hamstring Stretch</item>
+        <item>Weighted Seated Calf Raise</item>
+        <item>Foam Roller Calves</item>
+        <item>Band Foot External Rotation</item>
+        <item>Toe Extensor Stretch</item>
+        <item>Standing Dorsiflexion</item>
+        <item>Standing Wall Calf Stretch</item>
+        <item>Standing Toe Up Achilles Stretch</item>
+        <item>Standing Toe Flexor Stretch</item>
+        <item>Standing Gastrocnemius Calf Stretch</item>
+        <item>Single Heel Drop Calf Stretch</item>
+        <item>Seated Straight Leg Calf Stretch</item>
+        <item>Lunging Straight Leg Calf Stretch</item>
+        <item>Posterior Tibialis Stretch</item>
+        <item>Foot and Ankles Stretches</item>
+        <item>Foot and Ankle Rotation</item>
+        <item>Calves Stretch Static Position</item>
+        <item>Single Leg Calves Stretch</item>
+        <item>Calf Stretch With Rope</item>
+        <item>Crouching Heel Back Calf Stretch</item>
+        <item>Seated Calf Press on Leg Press Machine</item>
+        <item>Single Calf Raise on Leg Press Machine</item>
+        <item>Inner Thigh Side Stretch</item>
+        <item>Single Leg Donkey Calf Raise</item>
+    </string-array>
+
+    <string-array name="calf_equipment">
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, Gymstick, Resistance Band</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Foam Roller, Full Gym</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+    </string-array>
+
+    <string-array name="calf_primary_muscles">
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf, Hip, Leg</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf, Hip, Leg</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf, Leg</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf, Leg</item>
+        <item>Calf</item>
+        <item>Calf</item>
+        <item>Calf, Hip, Leg</item>
+        <item>Calf</item>
+    </string-array>
+
+    <string-array name="calf_secondary_muscles">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+</resources>

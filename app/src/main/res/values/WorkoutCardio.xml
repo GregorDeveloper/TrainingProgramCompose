@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cardio_workout">
+        <item>5 Dot Drills</item>
+        <item>Navy Seal Burpee</item>
+        <item>Depth Jump to Hurdle Hop</item>
+        <item>Power Lunge</item>
+        <item>Shadow Boxing</item>
+        <item>Riding Outdoor Bicycle</item>
+        <item>Walking</item>
+        <item>Briskly Walking</item>
+        <item>Running</item>
+        <item>Sprint</item>
+        <item>Walk Wave Machine</item>
+        <item>Jump Rope</item>
+        <item>Bike</item>
+        <item>Treadmill</item>
+        <item>Incline Treadmill</item>
+        <item>Rowing Machine</item>
+        <item>Manual Treadmill</item>
+        <item>Elliptical Machine</item>
+        <item>Stair Climber Machine</item>
+        <item>Elbow To Knee Twists</item>
+        <item>Push-up Toe Touch</item>
+        <item>Mountain Climber</item>
+        <item>Bicycle Crunch</item>
+        <item>T-Cross Sit-up</item>
+        <item>Power Skips</item>
+        <item>Plyo Jacks</item>
+        <item>Split Jacks</item>
+        <item>Butt Kicks</item>
+        <item>Fast Feet Run</item>
+        <item>Wheel Run</item>
+        <item>Zig Zag Hops Plyometric</item>
+        <item>Bodyweight Squat</item>
+        <item>Lateral Speed Step</item>
+        <item>Curtsy Squat</item>
+        <item>Split Jump Squat</item>
+        <item>Backward Jump</item>
+        <item>Jumping jack</item>
+        <item>Single Leg Broad Jump</item>
+        <item>Spider Plank</item>
+        <item>Run in Place</item>
+        <item>Jump Squats</item>
+        <item>Short Stride Run</item>
+        <item>Lateral Step-up</item>
+        <item>Step Up + Opposite Elbow to Knee Twist</item>
+        <item>Band Assisted Sprinter Run</item>
+        <item>Backward Running</item>
+        <item>Side Shuttle</item>
+        <item>Tuck Jump</item>
+        <item>High Knee Squat</item>
+        <item>Boxer Shuffle Cardio</item>
+        <item>Jab Boxing</item>
+        <item>Punches</item>
+        <item>Right Uppercut</item>
+        <item>Right Cross</item>
+        <item>Hook Kick</item>
+        <item>Boxing Right Cross</item>
+        <item>Walking High Knee Lunges</item>
+        <item>High Knees Lift Run</item>
+        <item>Jack Burpees</item>
+        <item>Astride Jumps</item>
+        <item>Long Jump</item>
+        <item>Front Plank With Arm And Leg Lift</item>
+        <item>Kettlebell Clean and Jerk</item>
+        <item>Dumbbell Burpees</item>
+        <item>Ski Step</item>
+        <item>Dumbbell Split Jump</item>
+        <item>Dumbbell Jump Squat</item>
+        <item>Burpees</item>
+        <item>Vibration Plate</item>
+        <item>High Knees Against Wall</item>
+        <item>Vertical Mountain Climber</item>
+        <item>Single Leg Hip Thrust Jump</item>
+        <item>Cross Body Push-up</item>
+        <item>Box Jump to Pistol Squat</item>
+        <item>Box Jump 2 to 1</item>
+        <item>Box Jump 1 to 2</item>
+        <item>Single Leg Box Jump</item>
+        <item>Stationary Bike Run</item>
+        <item>Hands Bike</item>
+        <item>Squat Tuck Jump</item>
+        <item>1-2 Stick Drill</item>
+        <item>Step Up with Knee Raises</item>
+        <item>Snap Jumps</item>
+        <item>Bear Crawl</item>
+        <item>High Knee Run</item>
+        <item>High Knee Skips</item>
+        <item>Skater</item>
+        <item>Assault AirBike</item>
+        <item>Recumbent Exercise Bike</item>
+        <item>The Box Jump</item>
+        <item>Battle Rope</item>
+    </string-array>
+
+    <string-array name="cardio_equipment">
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Bench, Full Gym, NO EQUIPMENT</item>
+        <item>Bench, Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Kettlebell</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Bench, Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym</item>
+    </string-array>
+
+    <string-array name="cardio_primary_muscles">
+        <item>Cardio, Hip, Leg</item>
+        <item>Cardio, Full Body</item>
+        <item>Cardio, Hip, Leg</item>
+        <item>Cardio, Hip, Leg</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Back / Wing, Cardio, Full Body</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio, Full Body</item>
+        <item>Abs, Cardio</item>
+        <item>Abs, Cardio</item>
+        <item>Abs, Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio, Leg</item>
+        <item>Cardio, Hip, Leg</item>
+        <item>Cardio, Leg</item>
+        <item>Cardio, Hip, Leg</item>
+        <item>Cardio, Hip, Leg</item>
+        <item>Cardio, Leg</item>
+        <item>Cardio, Leg</item>
+        <item>Cardio, Leg</item>
+        <item>Abs, Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio, Hip, Leg</item>
+        <item>Cardio</item>
+        <item>Cardio, Leg</item>
+        <item>Cardio, Leg</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Abs, Cardio, Hip, Leg</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio, Leg</item>
+        <item>Abs, Cardio, Hip, Leg</item>
+        <item>Cardio, Full Body, Hip, Leg, Shoulders</item>
+        <item>Cardio, Full Body</item>
+        <item>Cardio</item>
+        <item>Cardio, Hip, Leg</item>
+        <item>Cardio, Full Body, Hip, Leg</item>
+        <item>Abs, Cardio, Full Body, Hip, Leg</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio, Hip</item>
+        <item>Cardio, Full Body</item>
+        <item>Cardio, Hip, Leg</item>
+        <item>Cardio, Hip, Leg</item>
+        <item>Cardio, Hip, Leg</item>
+        <item>Cardio, Hip, Leg</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio, Leg</item>
+        <item>Abs, Cardio, Full Body, Hip, Leg</item>
+        <item>Abs, Cardio</item>
+        <item>Cardio, Hip, Leg</item>
+        <item>Abs, Cardio, Leg</item>
+        <item>Cardio, Hip, Leg</item>
+        <item>Cardio</item>
+        <item>Cardio</item>
+        <item>Cardio, Hip, Leg</item>
+        <item>Back / Wing, Cardio, Full Body, Shoulders</item>
+    </string-array>
+
+    <string-array name="cardio_secondary_muscles">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Secondary Muscles: Abs, Calves</item>
+        <item>null</item>
+    </string-array>
+</resources>

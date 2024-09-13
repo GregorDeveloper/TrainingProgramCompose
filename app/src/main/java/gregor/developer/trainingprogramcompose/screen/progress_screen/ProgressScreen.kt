@@ -40,6 +40,16 @@ fun ProgressScreen(
 
     val offset = Offset(5.0f, 10.0f)
     Column(modifier = Modifier.fillMaxSize()) {
+
+        Card(modifier = Modifier
+            .fillMaxWidth()
+            .padding(7.dp),
+            backgroundColor = Color.DarkGray){
+
+
+
+
+        }
         Card(
             modifier = Modifier
                 .fillMaxWidth()

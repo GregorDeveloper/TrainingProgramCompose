@@ -77,7 +77,6 @@ fun MainScreen(
     val navController = rememberNavController()
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = navBackStackEntry?.destination?.route
-    Log.d("LogMain", navBackStackEntry?.destination?.route.toString())
     Scaffold(
         modifier = Modifier
             .fillMaxSize(),

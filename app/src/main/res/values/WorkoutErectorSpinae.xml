@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="erector_spinae_workout">
+        <item>Dumbbell Good Morning</item>
+        <item>Dumbbell Deadlift</item>
+        <item>Dumbbell Sumo Deadlift</item>
+        <item>Seated Back Extension</item>
+        <item>Barbell Bent Over Row</item>
+        <item>Bent Over Dumbbell Row</item>
+        <item>Deadlift</item>
+        <item>Romanian Deadlift</item>
+        <item>Sphinx Stretch</item>
+        <item>Good Morning</item>
+        <item>Weighted Back Extension</item>
+        <item>Dumbbell Romanian Deadlift</item>
+        <item>Sumo Deadlift</item>
+        <item>Dumbbell Straight Leg Deadlift</item>
+        <item>Seated Hamstring Stretch</item>
+        <item>Kettlebell Single Leg Deadlift</item>
+        <item>Hyperextension</item>
+        <item>Floor Hyperextension</item>
+        <item>Flat Bench Hyperextension</item>
+        <item>Reverse Hyperextension Machine</item>
+        <item>T-Bar Row</item>
+        <item>Smith Machine Good Morning</item>
+        <item>Cable Pull Through</item>
+        <item>Twisting Hyperextension</item>
+        <item>Swimming</item>
+        <item>Frog Reverse Hyperextension</item>
+        <item>Bird Dog</item>
+        <item>Seated Cable Rope Row</item>
+        <item>Kettlebell Deadlift</item>
+        <item>Standing Toe Touches</item>
+        <item>Seated Toe Touches</item>
+        <item>Foam Roller Back Stretch</item>
+        <item>Lying Upper Body Rotation</item>
+        <item>Stiff Leg Deadlift</item>
+        <item>Kneeling Back Rotation</item>
+        <item>Bow Pose</item>
+        <item>Cat Cow Pose</item>
+        <item>Kneeling T-spine Rotation</item>
+        <item>Supine Spinal Twist</item>
+        <item>Landmine T-Bar Row</item>
+        <item>Barbell Pendlay Row</item>
+        <item>Superman</item>
+        <item>Hindu Push-ups</item>
+        <item>Arm Leg Raises</item>
+        <item>Dumbbell Pull Through</item>
+        <item>Glute Ham Raise</item>
+        <item>Push-up With Rotation</item>
+        <item>Side Plank Rotation</item>
+        <item>Kettlebell Figure 8</item>
+        <item>Barbell Single Leg Deadlift</item>
+        <item>Dumbbell Single Leg Deadlift</item>
+        <item>Good Morning With Resistance Band</item>
+        <item>Rolling Like a Ball</item>
+        <item>Dhanurasana | Rocking Bow Pose</item>
+        <item>Swing | Gymstick</item>
+        <item>Single Leg Reverse Hyperextension | Gymstick</item>
+    </string-array>
+
+    <string-array name="erector_spinae_equipment">
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Barbell, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Kettlebell</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Machine</item>
+        <item>Barbell, Full Gym, Landmine</item>
+        <item>Full Gym, Machine</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, Kettlebell</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Foam Roller, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Barbell, Full Gym, Landmine</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Kettlebell</item>
+        <item>Barbell, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Gymstick, Resistance Band</item>
+        <item>Full Gym, Gymstick, Resistance Band</item>
+    </string-array>
+
+    <string-array name="erector_spinae_primary_muscles">
+        <item>Erector Spinae, Hip, Leg</item>
+        <item>Erector Spinae, Full Body, Hip, Leg</item>
+        <item>Erector Spinae, Full Body, Hip, Leg</item>
+        <item>Erector Spinae</item>
+        <item>Back / Wing, Erector Spinae, Full Body</item>
+        <item>Back / Wing, Erector Spinae, Full Body</item>
+        <item>Back / Wing, Erector Spinae, Hip, Leg</item>
+        <item>Back / Wing, Erector Spinae, Hip, Leg</item>
+        <item>Erector Spinae, Neck</item>
+        <item>Erector Spinae, Hip, Leg</item>
+        <item>Erector Spinae</item>
+        <item>Erector Spinae, Hip, Leg</item>
+        <item>Back / Wing, Erector Spinae, Hip, Leg</item>
+        <item>Back / Wing, Erector Spinae, Leg</item>
+        <item>Erector Spinae, Leg</item>
+        <item>Erector Spinae, Hip</item>
+        <item>Erector Spinae</item>
+        <item>Erector Spinae, Neck</item>
+        <item>Erector Spinae</item>
+        <item>Erector Spinae, Hip</item>
+        <item>Back / Wing, Erector Spinae</item>
+        <item>Erector Spinae, Hip, Leg</item>
+        <item>Erector Spinae, Hip</item>
+        <item>Abs, Erector Spinae</item>
+        <item>Back / Wing, Erector Spinae, Hip, Trapezius</item>
+        <item>Erector Spinae, Hip</item>
+        <item>Erector Spinae, Hip</item>
+        <item>Back / Wing, Erector Spinae</item>
+        <item>Erector Spinae, Hip, Leg</item>
+        <item>Erector Spinae, Leg</item>
+        <item>Back / Wing, Erector Spinae, Leg</item>
+        <item>Back / Wing, Erector Spinae</item>
+        <item>Abs, Back / Wing, Chest, Erector Spinae, Shoulders</item>
+        <item>Erector Spinae, Hip, Leg</item>
+        <item>Erector Spinae, Shoulders</item>
+        <item>Abs, Erector Spinae, Leg, Yoga</item>
+        <item>Erector Spinae, Yoga</item>
+        <item>Abs, Back / Wing, Erector Spinae, Shoulders</item>
+        <item>Back / Wing, Erector Spinae, Yoga</item>
+        <item>Back / Wing, Erector Spinae</item>
+        <item>Back / Wing, Erector Spinae</item>
+        <item>Erector Spinae, Neck</item>
+        <item>Abs, Calisthenic, Erector Spinae, Shoulders</item>
+        <item>Erector Spinae, Hip</item>
+        <item>Erector Spinae, Hip, Leg</item>
+        <item>Erector Spinae, Hip, Leg</item>
+        <item>Abs, Chest, Erector Spinae</item>
+        <item>Abs, Erector Spinae</item>
+        <item>Abs, Erector Spinae, Full Body, Hip, Leg</item>
+        <item>Erector Spinae, Hip, Leg</item>
+        <item>Erector Spinae, Hip, Leg</item>
+        <item>Erector Spinae, Leg</item>
+        <item>Erector Spinae</item>
+        <item>Abs, Erector Spinae, Yoga</item>
+        <item>Erector Spinae, Hip, Shoulders</item>
+        <item>Erector Spinae, Hip</item>
+    </string-array>
+
+    <string-array name="erector_spinae_secondary_muscles">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Secondary Muscles: Stretch</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+</resources>

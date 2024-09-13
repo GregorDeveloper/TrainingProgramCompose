@@ -9,6 +9,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import gregor.developer.training_program_compose.weight_reps_screen.WeightRepsScreen
+import gregor.developer.trainingprogramcompose.screen.food_screen.FoodScreen
 import gregor.developer.trainingprogramcompose.screen.main_screen.MainScreen
 import gregor.developer.trainingprogramcompose.screen.training_list_screen.TrainingListScreen
 import gregor.developer.trainingprogramcompose.screen.weight_reps_screen.weight_reps_univ.WeightRepsScreenUniv
@@ -67,6 +68,25 @@ fun MainNavigationGraph(
                 navController.previousBackStackEntry
                     ?.savedStateHandle
                     ?.set("add_training", it)
+                navController.popBackStack()
+            }
+        }
+
+        composable(Routes.FOOD_SCREEN + "/{date}" + "/{listId}",
+            arguments = listOf(
+                navArgument(name = "date"){
+                    type = NavType.StringType
+                    defaultValue = ""
+                },
+                navArgument("listId") {
+                    type = NavType.IntType
+                    defaultValue = -1
+                }
+            )){
+            FoodScreen(){
+                navController.previousBackStackEntry
+                    ?.savedStateHandle
+                    ?.set("add_food", it)
                 navController.popBackStack()
             }
         }

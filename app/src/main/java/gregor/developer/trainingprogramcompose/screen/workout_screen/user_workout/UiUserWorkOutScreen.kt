@@ -28,7 +28,6 @@ fun UiUserWorkOutScreen(
     item: WorkoutListTraining,
     onEvent: (String) -> Unit
 ) {
-    Log.d("MyLogScreen", item.name)
     Card(
         modifier = Modifier.fillMaxWidth()
             .padding(5.dp),

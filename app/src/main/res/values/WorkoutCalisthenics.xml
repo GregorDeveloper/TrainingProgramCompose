@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="calisthenics_workout">
+        <item>Frog Stand</item>
+        <item>Wall Walk</item>
+        <item>Dragon Flag</item>
+        <item>Human Flag</item>
+        <item>Pull-Up</item>
+        <item>Legless Rope Climb</item>
+        <item>Muscle-Up</item>
+        <item>Captains Chair Leg Raise</item>
+        <item>Close Grip Chin Up</item>
+        <item>Hanging Knee Raises</item>
+        <item>Hanging Side Knee Raises</item>
+        <item>Hanging Windshield Wiper</item>
+        <item>Toes to Bar</item>
+        <item>Parallel Bar Dips</item>
+        <item>Handstand Push-Up</item>
+        <item>Reverse Push-up</item>
+        <item>Cross Arm Push-up</item>
+        <item>Upside Down Pull-up</item>
+        <item>L-Sit</item>
+        <item>Clap Push-Up</item>
+        <item>Ab Straps Leg Raise</item>
+        <item>Dips Between Chairs</item>
+        <item>Ring Inverted Row</item>
+        <item>Impossible Dips</item>
+        <item>Korean Dips</item>
+        <item>Straight Bar Dip</item>
+        <item>Bench Pike Push-up</item>
+        <item>Pike Push-up</item>
+        <item>L-Sit Pull-Up</item>
+        <item>Back Lever</item>
+        <item>Swing 360</item>
+        <item>Front Lever Pull-up</item>
+        <item>Single Arm Push-up</item>
+        <item>Wall-Supported Handstand Push-Ups</item>
+        <item>Archer Pull-up</item>
+        <item>Handstand</item>
+        <item>Forearm Push-up</item>
+        <item>Handstand Push-ups Between Benches</item>
+        <item>Kipping Handstand Push-up</item>
+        <item>Hindu Push-ups</item>
+        <item>Diamond Push-up</item>
+        <item>Push-Up</item>
+        <item>Suspended Ab Fall-out</item>
+        <item>Bodyweight Skull Crushers</item>
+        <item>Straddle Planche</item>
+        <item>Planche Push-Up</item>
+        <item>Finger Push-up</item>
+        <item>Chest Tap Push-up</item>
+        <item>Archer Push-Up</item>
+        <item>Ring Dips</item>
+        <item>Single Arm Raise Push-up</item>
+    </string-array>
+
+    <string-array name="calisthenics_equipment">
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Bench, Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, TRX Suspension</item>
+        <item>Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item></item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, TRX Suspension</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, TRX Suspension</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+    </string-array>
+
+    <string-array name="calisthenics_primary_muscles">
+        <item>Calisthenic</item>
+        <item>Calisthenic, Full Body</item>
+        <item>Abs, Calisthenic</item>
+        <item>Calisthenic, Full Body</item>
+        <item>Back / Wing, Calisthenic</item>
+        <item>Back / Wing, Calisthenic, Full Body</item>
+        <item>Back / Wing, Calisthenic, Full Body</item>
+        <item>Abs, Calisthenic</item>
+        <item>Back / Wing, Calisthenic</item>
+        <item>Abs, Calisthenic</item>
+        <item>Abs, Calisthenic</item>
+        <item>Abs, Calisthenic</item>
+        <item>Abs, Calisthenic</item>
+        <item>Calisthenic, Chest, Triceps</item>
+        <item>Calisthenic, Shoulders</item>
+        <item>Calisthenic, Chest, Triceps</item>
+        <item>Calisthenic, Triceps</item>
+        <item>Back / Wing, Calisthenic</item>
+        <item>Abs, Calisthenic</item>
+        <item>Calisthenic, Chest</item>
+        <item>Abs, Calisthenic</item>
+        <item>Calisthenic, Chest, Triceps</item>
+        <item>Back / Wing, Calisthenic</item>
+        <item>Calisthenic, Full Body, Triceps</item>
+        <item>Calisthenic, Chest, Full Body, Triceps</item>
+        <item>Calisthenic, Chest, Full Body, Triceps</item>
+        <item>Calisthenic, Shoulders</item>
+        <item>Calisthenic, Chest, Shoulders</item>
+        <item>Back / Wing, Calisthenic, Full Body</item>
+        <item>Back / Wing, Calisthenic, Full Body, Shoulders</item>
+        <item>Back / Wing, Calisthenic</item>
+        <item>Back / Wing, Calisthenic, Full Body</item>
+        <item>Calisthenic, Chest, Triceps</item>
+        <item>Calisthenic, Shoulders, Triceps</item>
+        <item>Back / Wing, Calisthenic, Full Body</item>
+        <item>Calisthenic, Full Body</item>
+        <item>Calisthenic, Chest, Triceps</item>
+        <item>Calisthenic, Shoulders, Triceps</item>
+        <item>Calisthenic, Full Body, Shoulders, Triceps</item>
+        <item>Abs, Calisthenic, Erector Spinae, Shoulders</item>
+        <item>Calisthenic, Chest, Triceps</item>
+        <item>Calisthenic, Chest</item>
+        <item>Abs, Calisthenic</item>
+        <item>Abs, Calisthenic, Full Body, Triceps</item>
+        <item>Calisthenic, Chest, Full Body, Triceps</item>
+        <item>Calisthenic, Chest, Full Body, Triceps</item>
+        <item>Calisthenic, Chest</item>
+        <item>Calisthenic, Chest</item>
+        <item>Calisthenic, Chest, Full Body, Triceps</item>
+        <item>Calisthenic, Chest, Full Body, Triceps</item>
+        <item>Calisthenic, Chest, Triceps</item>
+    </string-array>
+
+    <string-array name="calisthenics_secondary_muscles">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Secondary Muscles: Hip Flexors</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Secondary Muscles: Stretch</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+</resources>

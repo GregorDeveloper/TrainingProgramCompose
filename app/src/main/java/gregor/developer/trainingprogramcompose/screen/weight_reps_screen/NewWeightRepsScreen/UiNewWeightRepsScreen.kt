@@ -48,7 +48,7 @@ fun UiNewWeightRepsScreen(
             text = (number + 1).toString(),
             modifier = Modifier
                 .weight(1f)
-                .border(1.dp, Color.Green)
+                .border(1.dp, Color.White)
                 .padding(5.dp),
             style = TextStyle(
                 color = Color.White,
@@ -61,10 +61,10 @@ fun UiNewWeightRepsScreen(
             text = weightReps.weight,
             modifier = Modifier
                 .weight(2f)
-                .border(1.dp, Color.Green)
+                .border(1.dp, Color.White)
                 .padding(5.dp),
             style = TextStyle(
-                color = Color.Green,
+                color = Color.White,
                 fontSize = 20.sp
             ),
             textAlign = TextAlign.Center
@@ -73,10 +73,10 @@ fun UiNewWeightRepsScreen(
             text = weightReps.reps,
             modifier = Modifier
                 .weight(2f)
-                .border(1.dp, Color.Green)
+                .border(1.dp, Color.White)
                 .padding(5.dp),
             style = TextStyle(
-                color = Color.Green,
+                color = Color.White,
                 fontSize = 20.sp
             ),
             textAlign = TextAlign.Center

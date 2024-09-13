@@ -33,12 +33,9 @@ class WorkScreenViewModel @Inject constructor(
     val searchWorkout = mutableStateOf("")
     private var groupMuscleSave: String = "Neck"
 
-
     init {
         listId = savedStateHandle.get<Int>("listId")
         date = savedStateHandle.get<String>("date")
-        Log.d("LogWorkoutScreen", "listId ${listId} \n date ${date}")
-
     }
 
     override var workoutImage = mutableStateOf(0)
@@ -47,7 +44,6 @@ class WorkScreenViewModel @Inject constructor(
         private set
     override var workoutDescription = mutableStateOf("")
         private set
-
 
     override var openDialogDescription = mutableStateOf(false)
         private set
@@ -58,7 +54,6 @@ class WorkScreenViewModel @Inject constructor(
     val itemGroup = mutableStateOf<List<WorkoutItem>>(muscleGroup.workoutNeck)
     val listSelected = mutableStateOf<List<WorkoutItem>>(muscleGroup.workoutNeck)
     val groupList = mutableStateOf<List<MuscleItem>>(muscleGroup.muscleGroupList)
-
 
     fun onEvent(event: WorkoutEvent) {
         when (event) {

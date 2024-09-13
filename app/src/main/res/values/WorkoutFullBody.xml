@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="full_body_workout">
+        <item>One Arm Medicine Ball Slam</item>
+        <item>Navy Seal Burpee</item>
+        <item>Dumbbell Walking Lunge</item>
+        <item>Dumbbell Push Press</item>
+        <item>Dumbbell Deadlift</item>
+        <item>Dumbbell Sumo Deadlift</item>
+        <item>Backward Medicine Ball Throw</item>
+        <item>Zercher Carry</item>
+        <item>Wall Walk</item>
+        <item>Kettlebell Hang Clean</item>
+        <item>Dumbbell Power Clean</item>
+        <item>Dumbbell Devil Press</item>
+        <item>Overhead Squat</item>
+        <item>Ski Ergometer</item>
+        <item>Human Flag</item>
+        <item>Farmer's Walk</item>
+        <item>Log Lift</item>
+        <item>Tire Sledge Hammer</item>
+        <item>Tire Flip</item>
+        <item>Barbell Snatch</item>
+        <item>Power Snatch</item>
+        <item>Muscle Snatch</item>
+        <item>Heaving Snatch Balance</item>
+        <item>Barbell Hang Clean</item>
+        <item>Rowing Machine</item>
+        <item>Barbell Bent Over Row</item>
+        <item>Legless Rope Climb</item>
+        <item>Push-up Toe Touch</item>
+        <item>Bent Over Dumbbell Row</item>
+        <item>Muscle-Up</item>
+        <item>Push Press</item>
+        <item>Landmine Squat to Press</item>
+        <item>Barbell Clean and Press</item>
+        <item>Power Clean</item>
+        <item>Turkish Get-up</item>
+        <item>Kettlebell Swings</item>
+        <item>One Arm Kettlebell Snatch</item>
+        <item>Impossible Dips</item>
+        <item>Korean Dips</item>
+        <item>Straight Bar Dip</item>
+        <item>Kettlebell Clean and Jerk</item>
+        <item>Dumbbell Burpees</item>
+        <item>Dumbbell Jump Squat</item>
+        <item>Burpees</item>
+        <item>L-Sit Pull-Up</item>
+        <item>Back Lever</item>
+        <item>Front Lever Pull-up</item>
+        <item>One Arm Dumbbell Snatch</item>
+        <item>Archer Pull-up</item>
+        <item>Cross Body Push-up</item>
+        <item>Trap Bar Jump Squat</item>
+        <item>Medicine Ball-Sit-up Throw</item>
+        <item>Barbell Jump Squat</item>
+        <item>Handstand Walk</item>
+        <item>Handstand</item>
+        <item>Kettlebell Clean and Press</item>
+        <item>Climbing Monkey Bars</item>
+        <item>Kipping Handstand Push-up</item>
+        <item>Snap Jumps</item>
+        <item>Barbell Thruster</item>
+        <item>Bodyweight Skull Crushers</item>
+        <item>Straddle Planche</item>
+        <item>One Arm Kettlebell Swing</item>
+        <item>Medicine ball Overhead Slam</item>
+        <item>Wall Ball</item>
+        <item>Kettlebell Renegade Row</item>
+        <item>Push-Up to Renegade Row</item>
+        <item>Modified Hindu Push-up</item>
+        <item>Planche Push-Up</item>
+        <item>Archer Push-Up</item>
+        <item>Kettlebell Figure 8</item>
+        <item>Dumbbell Renegade Row</item>
+        <item>Dumbbell Iron Cross</item>
+        <item>Ring Dips</item>
+        <item>Battle Rope</item>
+    </string-array>
+
+    <string-array name="full_body_equipment">
+        <item>Exercise Ball, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Exercise Ball, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Kettlebell</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym</item>
+        <item>Dumbbells, Full Gym, Kettlebell</item>
+        <item>Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, Landmine</item>
+        <item>Barbell, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Dumbbells, Kettlebell</item>
+        <item>Full Gym, Kettlebell</item>
+        <item>Full Gym, Kettlebell</item>
+        <item>Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym, Kettlebell</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item></item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Barbell, Full Gym</item>
+        <item>Exercise Ball, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Kettlebell</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Kettlebell</item>
+        <item>Exercise Ball, Full Gym</item>
+        <item>Exercise Ball, Full Gym</item>
+        <item>Full Gym, Kettlebell</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Kettlebell</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, TRX Suspension</item>
+        <item>Full Gym</item>
+    </string-array>
+
+    <string-array name="full_body_primary_muscles">
+        <item>Abs, Chest, Full Body, Shoulders</item>
+        <item>Cardio, Full Body</item>
+        <item>Full Body, Hip, Leg</item>
+        <item>Full Body, Shoulders</item>
+        <item>Erector Spinae, Full Body, Hip, Leg</item>
+        <item>Erector Spinae, Full Body, Hip, Leg</item>
+        <item>Full Body</item>
+        <item>Full Body</item>
+        <item>Calisthenic, Full Body</item>
+        <item>Full Body</item>
+        <item>Full Body</item>
+        <item>Full Body</item>
+        <item>Full Body</item>
+        <item>Full Body</item>
+        <item>Calisthenic, Full Body</item>
+        <item>Full Body</item>
+        <item>Full Body</item>
+        <item>Full Body</item>
+        <item>Full Body</item>
+        <item>Full Body</item>
+        <item>Full Body</item>
+        <item>Full Body</item>
+        <item>Full Body</item>
+        <item>Full Body</item>
+        <item>Back / Wing, Cardio, Full Body</item>
+        <item>Back / Wing, Erector Spinae, Full Body</item>
+        <item>Back / Wing, Calisthenic, Full Body</item>
+        <item>Cardio, Full Body</item>
+        <item>Back / Wing, Erector Spinae, Full Body</item>
+        <item>Back / Wing, Calisthenic, Full Body</item>
+        <item>Full Body, Shoulders</item>
+        <item>Full Body, Hip, Leg, Shoulders</item>
+        <item>Full Body, Leg, Shoulders</item>
+        <item>Full Body</item>
+        <item>Full Body</item>
+        <item>Abs, Full Body, Hip, Leg, Shoulders</item>
+        <item>Full Body, Hip, Leg, Shoulders</item>
+        <item>Calisthenic, Full Body, Triceps</item>
+        <item>Calisthenic, Chest, Full Body, Triceps</item>
+        <item>Calisthenic, Chest, Full Body, Triceps</item>
+        <item>Cardio, Full Body, Hip, Leg, Shoulders</item>
+        <item>Cardio, Full Body</item>
+        <item>Cardio, Full Body, Hip, Leg</item>
+        <item>Abs, Cardio, Full Body, Hip, Leg</item>
+        <item>Back / Wing, Calisthenic, Full Body</item>
+        <item>Back / Wing, Calisthenic, Full Body, Shoulders</item>
+        <item>Back / Wing, Calisthenic, Full Body</item>
+        <item>Full Body, Hip, Leg, Shoulders</item>
+        <item>Back / Wing, Calisthenic, Full Body</item>
+        <item>Cardio, Full Body</item>
+        <item>Full Body, Hip, Leg</item>
+        <item>Abs, Full Body</item>
+        <item>Full Body, Hip, Leg</item>
+        <item>Full Body</item>
+        <item>Calisthenic, Full Body</item>
+        <item>Full Body, Hip, Leg, Shoulders</item>
+        <item>Back / Wing, Full Body</item>
+        <item>Calisthenic, Full Body, Shoulders, Triceps</item>
+        <item>Abs, Cardio, Full Body, Hip, Leg</item>
+        <item>Full Body, Leg, Shoulders</item>
+        <item>Abs, Calisthenic, Full Body, Triceps</item>
+        <item>Calisthenic, Chest, Full Body, Triceps</item>
+        <item>Full Body, Hip, Shoulders</item>
+        <item>Back / Wing, Full Body, Shoulders</item>
+        <item>Full Body, Hip, Leg, Shoulders</item>
+        <item>Back / Wing, Chest, Full Body</item>
+        <item>Back / Wing, Chest, Full Body</item>
+        <item>Chest, Full Body</item>
+        <item>Calisthenic, Chest, Full Body, Triceps</item>
+        <item>Calisthenic, Chest, Full Body, Triceps</item>
+        <item>Abs, Erector Spinae, Full Body, Hip, Leg</item>
+        <item>Back / Wing, Full Body</item>
+        <item>Full Body, Hip, Leg, Shoulders</item>
+        <item>Calisthenic, Chest, Full Body, Triceps</item>
+        <item>Back / Wing, Cardio, Full Body, Shoulders</item>
+    </string-array>
+
+    <string-array name="full_body_secondary_muscles">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+</resources>

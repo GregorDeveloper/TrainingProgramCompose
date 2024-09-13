@@ -17,7 +17,6 @@ import gregor.developer.trainingprogramcompose.screen.main_screen.BottomNavItem
 @Composable
 fun WeightRepsBottomNav(
     navController: NavHostController,
-    addWeightReps: Boolean
 ) {
     val listItems = listOf(
         WeightRepsBottomNavItem.NewWeightReps,

@@ -25,9 +25,9 @@ fun TitleTableWeightReps() {
             text = "Number",
             modifier = Modifier
                 .weight(1f)
-                .border(1.dp, Color.Green),
+                .border(1.dp, Color.White),
             style = TextStyle(
-                color = Color.Green,
+                color = Color.White,
                 fontSize = 18.sp
             ),
             textAlign = TextAlign.Center
@@ -37,9 +37,9 @@ fun TitleTableWeightReps() {
             text = "Weight",
             modifier = Modifier
                 .weight(2f)
-                .border(1.dp, Color.Green),
+                .border(1.dp, Color.White),
             style = TextStyle(
-                color = Color.Green,
+                color = Color.White,
                 fontSize = 18.sp
             ),
             textAlign = TextAlign.Center
@@ -48,9 +48,9 @@ fun TitleTableWeightReps() {
             text = "Reps",
             modifier = Modifier
                 .weight(2f)
-                .border(1.dp, Color.Green),
+                .border(1.dp, Color.White),
             style = TextStyle(
-                color = Color.Green,
+                color = Color.White,
                 fontSize = 18.sp
             ),
             textAlign = TextAlign.Center

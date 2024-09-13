@@ -9,6 +9,9 @@ import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -29,6 +32,7 @@ import androidx.compose.ui.graphics.drawscope.translate
 import androidx.compose.ui.graphics.nativeCanvas
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import gregor.developer.trainingprogramcompose.R
@@ -43,7 +47,7 @@ private const val CALENDAR_COLUMNS = 7
 
 @Composable
 fun Calendar(
-    modifier: Modifier = Modifier,
+    modifier: Modifier,
     dateList: Date,
     onDayClick: (DayTraining) -> Unit,
     strokeWidth: Float = 7f,
@@ -52,6 +56,10 @@ fun Calendar(
     canvasPar: CanvasParametr,
     saveCanvasParameter: (CanvasParametr) -> Unit,
 ) {
+
+    var clickDayColorText by remember {
+        mutableStateOf(-1)
+    }
 
     var canvasSize by remember {
         mutableStateOf(Size.Zero)
@@ -62,8 +70,9 @@ fun Calendar(
     var animationRadius by remember {
         mutableStateOf(canvasPar.radios)
     }
-    var date by remember {
-        mutableStateOf(canvasPar.date)
+
+    val listTest by remember {
+        mutableStateOf(dateList)
     }
     val daysOfMonth = remember { mutableStateOf(dateList.dayInMonth) }
     val dayOfWeek = remember { mutableStateOf(0) }
@@ -73,31 +82,28 @@ fun Calendar(
     }
     dayOfWeek.value = dateList.dayOfWeek
     daysOfMonth.value = dateList.dayInMonth
-    Log.d("LogUiCalendar", year.value.toString())
     val scope = rememberCoroutineScope()
     val clickDay = remember { mutableStateOf(-1) }
     val rowss = remember { mutableStateOf(0) }
     rowss.value = rows
     if (month.value != dateList.month
-        ||  year.value != dateList.year
-        ) {
+        || year.value != dateList.year
+    ) {
         year.value = dateList.year
         month.value = dateList.month
-        Log.d("LogUiCalendar", year.value.toString())
-        Log.d("LogUiCalendar", dateList.year.toString())
-//        Log.d("LogUiCalendar", dateList.month.toString())
-//        Log.d("LogUiCalendar", month.value.toString())
         animationRadius = 0f
         clickDay.value = -1
     }
-    val painter = painterResource(R.drawable.training_list)
+    val painter = painterResource(R.drawable.fitness_icon_8)
     Column(
         modifier = modifier,
         verticalArrangement = Arrangement.spacedBy(10.dp)
     ) {
+//        Log.d()
         Canvas(
             modifier = Modifier
                 .fillMaxSize()
+                .padding(5.dp)
                 .pointerInput(true) {
                     detectTapGestures(
                         onTap = { offset ->
@@ -113,6 +119,7 @@ fun Calendar(
                                 onDayClick(daysOfMonth.value.get(day - 1))
                                 scope.launch {
                                     if (day != clickDay.value) {
+                                        clickDayColorText = day
                                         clickDay.value = day
                                         clickAnimationOffset = offset
                                         animate(
@@ -126,7 +133,8 @@ fun Calendar(
                                             CanvasParametr(
                                                 clickAnimationOffset,
                                                 animationRadius,
-                                                day.toString()
+                                                day.toString(),
+                                                canvasPar.positionPic
                                             )
                                         )
                                     } else if (day == clickDay.value) {
@@ -170,8 +178,9 @@ fun Calendar(
             }
 
             drawRoundRect(
-                Color.Green,
-                cornerRadius = CornerRadius(25f, 25f),
+                color = Color.Green,
+                size = Size(width = canvasWidth, height = canvasHeight),
+                cornerRadius = CornerRadius(25f, 25f), //обводка
                 style = Stroke(
                     width = strokeWidth
                 )
@@ -210,7 +219,6 @@ fun Calendar(
                                 dateList.year == todayDate.year &&
                                 dateList.dayInMonth.get(i - dateList.dayOfWeek).day == todayDate.dayInMonth[0].day
                             ) {
-
                                 Color.Green.toArgb()
                             } else {
                                 Color.White.toArgb()
@@ -219,14 +227,19 @@ fun Calendar(
                         }
                     )
                 }
-                if (dateList.dayInMonth.get(i - dayOfWeek.value).training) {
+                if(daysOfMonth.value.get(i - dayOfWeek.value).training)
+                        //(daysOfMonth.value.get(i - dayOfWeek.value).training)
+                { // Изменить цвет при нажатии
+
                     translate(
-                        textPositionX + 35f,
-                        textPositionY + 15f,
+                        textPositionX + 70f,
+                        textPositionY - 20f
+                               // canvasPar.positionPic
+                        ,
                     ) {
                         with(painter) {
                             draw(
-                                size = Size(30.dp.toPx(), 30.dp.toPx()),
+                                size = Size(20.dp.toPx(), 20.dp.toPx()),
                                 alpha = 1f,
                                 colorFilter = ColorFilter.tint(Color.Green)
                             )

@@ -25,7 +25,11 @@ object Routes {
     const val DIALOG_DELETE_WORKOUT = "dialog_delete_workout"
     const val DIALOG_EDIT = "dialog_edit"
     const val DIALOG_MONTH_YEAR = "dialog_month_year"
+    const val DIALOG_DELETE_FOOD = "dialog_month_year"
+    const val DIALOG_EDIT_FOOD = "dialog_month_year"
 
+    const val LIST_WORKOUT = "list_workout"
+    const val FOOD_SCREEN = "food_screen"
     const val LAST_WEIGHT_REPS = "new_weight_reps"
     const val NEXT_WEIGHT_REPS = "old_weight_reps"
     const val CLICK_OLD_DATE = "click_old_date"

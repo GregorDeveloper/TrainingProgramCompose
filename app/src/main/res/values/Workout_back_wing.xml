@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="back_wing_workout">
+        <item>Rowing Machine</item>
+        <item>Lever Front Pulldown</item>
+        <item>Pull-Up</item>
+        <item>Cable Rear Pulldown</item>
+        <item>Lat Pulldown</item>
+        <item>Seated Cable Row</item>
+        <item>Barbell Bent Over Row</item>
+        <item>Cable Straight Arm Pulldown</item>
+        <item>Legless Rope Climb</item>
+        <item>Lever T-Bar Row</item>
+        <item>Dumbbell Row</item>
+        <item>Bent Over Dumbbell Row</item>
+        <item>Dumbbell Bent Over Reverse Grip Row</item>
+        <item>Reverse Lat-Pulldown</item>
+        <item>Muscle-Up</item>
+        <item>Seated Row Machine</item>
+        <item>One Arm Cable Row</item>
+        <item>Reverse Grip Barbell Row</item>
+        <item>Deadlift</item>
+        <item>Romanian Deadlift</item>
+        <item>Upper Back Stretch</item>
+        <item>Kneeling High Pulley Row</item>
+        <item>Sumo Deadlift</item>
+        <item>Half Kneeling Lat Pulldown</item>
+        <item>Dumbbell Straight Leg Deadlift</item>
+        <item>Across Chest Shoulder Stretch</item>
+        <item>Standing Reach Up Back rotation Stretch</item>
+        <item>Shoulder Stretch Behind Back</item>
+        <item>Smith Machine Bent Over Row</item>
+        <item>Incline Reverse Grip Dumbbell Row</item>
+        <item>Barbell Pullover</item>
+        <item>Cable Pullover</item>
+        <item>Weighted Pull-up</item>
+        <item>Reverse grip Pull-up</item>
+        <item>Close Grip Chin Up</item>
+        <item>Assisted Pull-up</item>
+        <item>Table Inverted Row</item>
+        <item>Cable One Arm Lat Pulldown</item>
+        <item>Reverse Grip Machine Row</item>
+        <item>Close Grip Cable Row</item>
+        <item>Rope Straight Arm Pulldown</item>
+        <item>V-bar Lat Pulldown</item>
+        <item>One-Arm Barbell Row</item>
+        <item>T-Bar Row</item>
+        <item>Incline Cable Row</item>
+        <item>Cable Bent Over Row</item>
+        <item>Standing Side Bend Stretch</item>
+        <item>Back Pec Stretch</item>
+        <item>Double Cable Neutral Grip Lat Pulldown On Floor</item>
+        <item>Incline Barbell Row</item>
+        <item>Kneeling Single Arm High Pulley Row</item>
+        <item>Upside Down Pull-up</item>
+        <item>Swimming</item>
+        <item>Brachialis Pull-up</item>
+        <item>Close Grip Lat-Pulldown</item>
+        <item>Seated Cable Rope Row</item>
+        <item>Cable Seated Pullover</item>
+        <item>Scapular Protraction and Retraction</item>
+        <item>Ring Inverted Row</item>
+        <item>Inverted Row</item>
+        <item>Lever Cable Rear Pulldown</item>
+        <item>Shotgun Row</item>
+        <item>Elbow Reverse Push-Up</item>
+        <item>Weighted One Arm Pull-up</item>
+        <item>Cable Crossover Lat Pulldown</item>
+        <item>One Arm Landmine Row</item>
+        <item>Lever Reverse T-Bar Row</item>
+        <item>Kettlebell Bent Over Row</item>
+        <item>Full Range Of Motion Lat Pulldown</item>
+        <item>Chin-Up</item>
+        <item>Seated Toe Touches</item>
+        <item>L-Sit Pull-Up</item>
+        <item>Back Lever</item>
+        <item>Swing 360</item>
+        <item>Front Lever Pull-up</item>
+        <item>Towel Shoulder Stretch</item>
+        <item>Foam Roller Back Stretch</item>
+        <item>Foam Roller Rhomboids</item>
+        <item>Foam Roller Upper Back</item>
+        <item>Foam Roller Lat Stretch</item>
+        <item>Lying Upper Body Rotation</item>
+        <item>Lever Pullover</item>
+        <item>One Arm Chin-Up</item>
+        <item>Scapula Pull-up</item>
+        <item>Archer Pull-up</item>
+        <item>Jumping Pull-up</item>
+        <item>Commando Pull-up</item>
+        <item>Behind The Neck Pull-up</item>
+        <item>Cable One-Arm Pulldown</item>
+        <item>Barbell Decline Bent Arm Pullover</item>
+        <item>Dead Hang</item>
+        <item>Isometric Pull-Up</item>
+        <item>Wide Grip Barbell Bent Over Row Plus</item>
+        <item>Wide Grip Alternate Barbell Bent Over Row Plus</item>
+        <item>Wall Slides</item>
+        <item>Kneeling T-spine Rotation</item>
+        <item>Climbing Monkey Bars</item>
+        <item>Supine Spinal Twist</item>
+        <item>Back Slaps Wrap Around Stretch</item>
+        <item>Bodyweight Row in Doorway</item>
+        <item>Lever High Row</item>
+        <item>Incline Dumbbell Hammer Row</item>
+        <item>Plate Loaded Seated Row</item>
+        <item>Chin Up Around the Bar</item>
+        <item>EZ-Bar Bent Arm Pullover</item>
+        <item>Banded Shoulder Extension</item>
+        <item>Banded Shoulder Adduction</item>
+        <item>Landmine T-Bar Row</item>
+        <item>Cable Twisting Standing High Row</item>
+        <item>Single Arm Twisting Seated Cable Row</item>
+        <item>Band Alternating Lat Pulldown</item>
+        <item>Band Alternating Low Row with Twist</item>
+        <item>Band Seated Row</item>
+        <item>Barbell Pendlay Row</item>
+        <item>Standing side bend</item>
+        <item>Neutral Grip Pull-up</item>
+        <item>Medicine ball Overhead Slam</item>
+        <item>Dumbbell Seal Row</item>
+        <item>Kettlebell Renegade Row</item>
+        <item>Push-Up to Renegade Row</item>
+        <item>Dumbbell Renegade Row</item>
+        <item>Band Assisted Pull-up</item>
+        <item>Standing Banded Row</item>
+        <item>Kneeling Pulldown With Resistance Band</item>
+        <item>Bent Over Row | Gymstick</item>
+        <item>Battle Rope</item>
+    </string-array>
+    
+    <string-array name="back_wing_equipment">
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Cable</item>
+        <item>Cable, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Cable, Full Gym, Resistance Band</item>
+        <item>Barbell, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Cable, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Machine</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Cable, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Barbell, Full Gym, Landmine</item>
+        <item>Barbell, Full Gym, Landmine</item>
+        <item>Cable, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Cable, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, TRX Suspension</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Machine</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Barbell, Full Gym, Landmine</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Kettlebell</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item></item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Foam Roller, Full Gym</item>
+        <item>Foam Roller, Full Gym</item>
+        <item>Foam Roller, Full Gym</item>
+        <item>Foam Roller, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Machine</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Barbell, Full Gym, Landmine</item>
+        <item>Cable, Full Gym, Resistance Band</item>
+        <item>Cable, Full Gym, Resistance Band</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym</item>
+        <item>Exercise Ball, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, Kettlebell</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Full Gym, Gymstick, Resistance Band</item>
+        <item>Full Gym, Gymstick, Resistance Band</item>
+        <item>Full Gym</item>
+    </string-array>
+
+    <string-array name="back_wing_primary_muscles">
+        <item>Back / Wing, Cardio, Full Body</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Calisthenic</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Erector Spinae, Full Body</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Calisthenic, Full Body</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Erector Spinae, Full Body</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Calisthenic, Full Body</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Erector Spinae, Hip, Leg</item>
+        <item>Back / Wing, Erector Spinae, Hip, Leg</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Trapezius</item>
+        <item>Back / Wing, Erector Spinae, Hip, Leg</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Erector Spinae, Leg</item>
+        <item>Back / Wing, Shoulders</item>
+        <item>Back / Wing, Shoulders</item>
+        <item>Back / Wing, Chest, Shoulders, Triceps</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Calisthenic</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Erector Spinae</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Chest</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Calisthenic</item>
+        <item>Back / Wing, Erector Spinae, Hip, Trapezius</item>
+        <item>Back / Wing, Biceps</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Erector Spinae</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Shoulders, Trapezius</item>
+        <item>Back / Wing, Calisthenic</item>
+        <item>Back / Wing, Chest</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Trapezius</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Shoulders</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Shoulders</item>
+        <item>Back / Wing, Biceps</item>
+        <item>Back / Wing, Erector Spinae, Leg</item>
+        <item>Back / Wing, Calisthenic, Full Body</item>
+        <item>Back / Wing, Calisthenic, Full Body, Shoulders</item>
+        <item>Back / Wing, Calisthenic</item>
+        <item>Back / Wing, Calisthenic, Full Body</item>
+        <item>Back / Wing, Shoulders, Triceps</item>
+        <item>Back / Wing, Erector Spinae</item>
+        <item>Back / Wing, Trapezius</item>
+        <item>Back / Wing, Trapezius</item>
+        <item>Back / Wing</item>
+        <item>Abs, Back / Wing, Chest, Erector Spinae, Shoulders</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Biceps</item>
+        <item>Back / Wing, Trapezius</item>
+        <item>Back / Wing, Calisthenic, Full Body</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Trapezius</item>
+        <item>Back / Wing, Trapezius</item>
+        <item>Back / Wing, Shoulders</item>
+        <item>Abs, Back / Wing, Erector Spinae, Shoulders</item>
+        <item>Back / Wing, Full Body</item>
+        <item>Back / Wing, Erector Spinae, Yoga</item>
+        <item>Back / Wing, Chest, Shoulders</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Shoulders</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Biceps</item>
+        <item>Back / Wing, Triceps</item>
+        <item>Back / Wing, Shoulders</item>
+        <item>Back / Wing, Chest</item>
+        <item>Back / Wing, Erector Spinae</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Erector Spinae</item>
+        <item>Abs, Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Full Body, Shoulders</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Chest, Full Body</item>
+        <item>Back / Wing, Chest, Full Body</item>
+        <item>Back / Wing, Full Body</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing</item>
+        <item>Back / Wing, Shoulders</item>
+        <item>Back / Wing, Cardio, Full Body, Shoulders</item>
+    </string-array>
+
+    <string-array name="back_wing_secondary_muscles">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Secondary Muscles: Trapezius</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+</resources>

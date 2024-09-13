@@ -72,7 +72,7 @@ dependencies {
     kapt ("androidx.room:room-compiler:2.5.0")
 
     //Material
-    implementation ("androidx.compose.material:material:1.2.1")
+    implementation ("androidx.compose.material:material:1.6.8")
 
     implementation ("androidx.constraintlayout:constraintlayout-compose:1.0.1")
 

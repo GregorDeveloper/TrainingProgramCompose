@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forearm_workout">
+        <item>Seated Zottman Curl</item>
+        <item>Wrist Roller</item>
+        <item>Dumbbell Seated Neutral Wrist Curl</item>
+        <item>Dumbbell Wrist Curl</item>
+        <item>Barbell Reverse Wrist Curl</item>
+        <item>Wrist Circles Stretch</item>
+        <item>Barbell Reverse Curl</item>
+        <item>Cable One-Arm Wrist Curl On Floor</item>
+        <item>Hand Gripper</item>
+        <item>Dumbbell Reverse Curl</item>
+        <item>Seated Hammer Curl</item>
+        <item>Reverse Grip EZ-Bar Curl</item>
+        <item>Dumbbell Scott Hammer Curl</item>
+        <item>Behind The Back Barbell Wrist Curl</item>
+        <item>Standing One Arm Chest Stretch</item>
+        <item>Wrist Ulnar Deviator And Extensor Stretch</item>
+        <item>Reverse Wrist Stretch</item>
+        <item>Wrist Stretch</item>
+        <item>Dumbbell Preacher Hammer (Scott) Curl</item>
+        <item>Weighted Neutral Wrist Curl</item>
+        <item>Single Dumbbell Spider Hammer Curl</item>
+        <item>Reverse Wrist Curl</item>
+        <item>Wrist Curl</item>
+        <item>Hammer Curl with Resistance Band</item>
+        <item>Cable Reverse Grip EZ-bar Biceps Curl</item>
+        <item>Barbell Finger Curl</item>
+        <item>Dumbbell Finger Curl</item>
+        <item>Single Arm Reverse Grip Cable Bicep Curl</item>
+        <item>Barbell Reverse Wrist Curl Over a Bench</item>
+        <item>Water Bottle Hammer Curl</item>
+    </string-array>
+
+    <string-array name="forearm_equipment">
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Barbell, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Barbell, Dumbbells, Full Gym</item>
+        <item>Barbell, Dumbbells, Full Gym</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Cable, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Cable, Full Gym, Resistance Band</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+    </string-array>
+
+    <string-array name="forearm_primary_muscles">
+        <item>Biceps, Forearm</item>
+        <item>Forearm</item>
+        <item>Forearm</item>
+        <item>Forearm</item>
+        <item>Forearm</item>
+        <item>Forearm</item>
+        <item>Forearm</item>
+        <item>Forearm</item>
+        <item>Forearm</item>
+        <item>Biceps, Forearm</item>
+        <item>Biceps, Forearm</item>
+        <item>Biceps, Forearm</item>
+        <item>Biceps, Forearm</item>
+        <item>Forearm</item>
+        <item>Biceps, Chest, Forearm</item>
+        <item>Forearm</item>
+        <item>Forearm</item>
+        <item>Forearm</item>
+        <item>Biceps, Forearm</item>
+        <item>Forearm</item>
+        <item>Biceps, Forearm</item>
+        <item>Forearm</item>
+        <item>Forearm</item>
+        <item>Biceps, Forearm</item>
+        <item>Biceps, Forearm</item>
+        <item>Forearm</item>
+        <item>Forearm</item>
+        <item>Biceps, Forearm</item>
+        <item>Forearm</item>
+        <item>Biceps, Forearm</item>
+    </string-array>
+
+    <string-array name="forearm_secondary_muscles">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+</resources>

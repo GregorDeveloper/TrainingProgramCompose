@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="abs_workout">
+        <item>One Arm Medicine Ball Slam</item>
+        <item>Medicine Ball Rotational Throw</item>
+        <item>Dragon Flag</item>
+        <item>Ab Coaster Machine</item>
+        <item>Cross Crunch</item>
+        <item>Standing Cable Crunch</item>
+        <item>Seated Bench Leg Pull-in</item>
+        <item>Cross Body Mountain Climber</item>
+        <item>Alternate Leg Raises</item>
+        <item>Crunches</item>
+        <item>Mountain Climber</item>
+        <item>Bicycle Crunch</item>
+        <item>Lying Scissor Kick</item>
+        <item>Leg Raise</item>
+        <item>Oblique Floor Crunches</item>
+        <item>T-Cross Sit-up</item>
+        <item>Dead Bug</item>
+        <item>Decline Sit-up</item>
+        <item>Reverse Crunch</item>
+        <item>Kneeling Cable Crunch</item>
+        <item>Heel Touch</item>
+        <item>Standing Rotation</item>
+        <item>Standing Toe Touch</item>
+        <item>Crunch With Leg Raise</item>
+        <item>Alternate Lying Floor Leg Raise</item>
+        <item>Weighted Crunch</item>
+        <item>Seated Side Crunch</item>
+        <item>Incline Leg Hip Raise</item>
+        <item>Bodyweight Windmill</item>
+        <item>Front to Side Plank</item>
+        <item>Tuck Crunch</item>
+        <item>Dumbbell Side Bend</item>
+        <item>Double Leg Stretch</item>
+        <item>Spider Plank</item>
+        <item>Captains Chair Leg Raise</item>
+        <item>Bench Side Bend</item>
+        <item>Crab Twist Toe Touch</item>
+        <item>Quarter Sit-up</item>
+        <item>Weighted Sit-ups</item>
+        <item>Lying Knee Raise</item>
+        <item>Floor Crunch</item>
+        <item>Reverse Plank</item>
+        <item>Stability Ball Knee Tuck</item>
+        <item>Hanging Knee Raises</item>
+        <item>Hanging Side Knee Raises</item>
+        <item>Hanging Windshield Wiper</item>
+        <item>Toes to Bar</item>
+        <item>Weighted Hanging Knee Raises</item>
+        <item>Teaser Pilates</item>
+        <item>Seated Oblique Twist</item>
+        <item>Side Bridge</item>
+        <item>Plank With Arm And Leg Lift</item>
+        <item>Weighted Front Plank</item>
+        <item>Cable Side Bend</item>
+        <item>Barbell Side Bend</item>
+        <item>Seated Barbell Twist</item>
+        <item>Bent Over Twist</item>
+        <item>Dumbbell V-up</item>
+        <item>Lever Lying Crunch</item>
+        <item>Twisting Hyperextension</item>
+        <item>Ab Roller Crunch</item>
+        <item>Standing Cable High-To-Low Twist</item>
+        <item>Standing Cable Low-To-High Twist</item>
+        <item>Standing Cable Twist</item>
+        <item>L-Sit</item>
+        <item>High Knee Squat</item>
+        <item>Kettlebell Windmill</item>
+        <item>Kettlebell Swings</item>
+        <item>Full Crunch Machine</item>
+        <item>Front Plank with Arm Lift</item>
+        <item>Bhujangasana | Cobra Abdominal Stretch</item>
+        <item>Ab Straps Leg Raise</item>
+        <item>Boat Pose</item>
+        <item>Seated Twist Machine</item>
+        <item>Inchworm</item>
+        <item>Front Plank With Arm And Leg Lift</item>
+        <item>Weighted Lying Twist</item>
+        <item>Swiss Ball Rollout</item>
+        <item>Weighted Side Bend On Stability Ball</item>
+        <item>Stability Ball V-Up</item>
+        <item>Exercise Ball Frog Crunch</item>
+        <item>Cable Seated Cross Arm Twist</item>
+        <item>Burpees</item>
+        <item>Standing Twist Machine</item>
+        <item>Seated Crunch Machine</item>
+        <item>Barbell Rollout</item>
+        <item>Landmine Twist</item>
+        <item>Frog Crunch</item>
+        <item>Ab Wheel Rollout</item>
+        <item>Lying Upper Body Rotation</item>
+        <item>Bicycle Twisting Crunch</item>
+        <item>Fish Pose</item>
+        <item>Hands In Air Dead Bug</item>
+        <item>4 Point Tummy Vacuum Exercise</item>
+        <item>Seated Flutter Kick</item>
+        <item>Seated Cable Twist</item>
+        <item>Bodyweight Kneeling Sissy Squat</item>
+        <item>Bow Pose</item>
+        <item>Kneeling T-spine Rotation</item>
+        <item>Standing Barbell Rollout</item>
+        <item>Side Plank Oblique Crunch</item>
+        <item>Medicine Ball-Sit-up Throw</item>
+        <item>Side Bent</item>
+        <item>Leg Scissors</item>
+        <item>Abdominal Bracing</item>
+        <item>Lying Toe Touches</item>
+        <item>Dumbbell Floor Wipers</item>
+        <item>Side Bridge Hip Abduction</item>
+        <item>Cable Half Kneeling Pallof Press</item>
+        <item>Snap Jumps</item>
+        <item>Side Plank Leg Raises</item>
+        <item>Reverse Plank Kicks</item>
+        <item>Hindu Push-ups</item>
+        <item>Bear Crawl</item>
+        <item>High Knee Skips</item>
+        <item>Double Crunches</item>
+        <item>Toe Reaches</item>
+        <item>Sit-ups</item>
+        <item>Side Plank</item>
+        <item>Plank Leg Lift</item>
+        <item>Plank Knee to Elbow</item>
+        <item>Russian Twist</item>
+        <item>Plank</item>
+        <item>Leg Pull-in Knee-ups</item>
+        <item>Glute Bridge</item>
+        <item>Hollow Hold</item>
+        <item>Long Arm Crunch</item>
+        <item>Half Wipers</item>
+        <item>Jackknife Sit-ups (V-Up)</item>
+        <item>Flutter Kick</item>
+        <item>Standing side bend</item>
+        <item>Suspended Ab Fall-out</item>
+        <item>TRX Mountain Climber</item>
+        <item>Side Plank Knee to Elbow</item>
+        <item>Bodyweight Skull Crushers</item>
+        <item>Half Cross Crunch</item>
+        <item>Cable Seated Twist on Floor</item>
+        <item>Butterfly Sit-up</item>
+        <item>Push-up With Rotation</item>
+        <item>Side Plank Rotation</item>
+        <item>Prone Abdominal Hollowing</item>
+        <item>Hell Slide</item>
+        <item>Half Frog Pose</item>
+        <item>Medicine Ball Crunch</item>
+        <item>Kettlebell Figure 8</item>
+        <item>Ball Russian Twist throw with partner</item>
+        <item>Seated Ab Crunch Machine</item>
+        <item>Dumbbell Windmill</item>
+        <item>Side Lying Feet Raise</item>
+        <item>Dhanurasana | Rocking Bow Pose</item>
+        <item>Seated Twist With Resistance Band</item>
+        <item>Twist With Resistance Band</item>
+        <item>Twist down up With Resistance Band</item>
+        <item>Standing Side Bend | Gymstick</item>
+        <item>Banded Lying leg and hip raise</item>
+        <item>Banded Jack knife sit-up</item>
+        <item>Down to Up Twist |Gymstick</item>
+        <item>Bicycle Crunch | Gymstick</item>
+        <item>Plank Jacks / Extended Leg</item>
+    </string-array>
+    
+    <string-array name="abs_equipment">
+        <item>Exercise Ball, Full Gym</item>
+        <item>Exercise Ball, Full Gym</item>
+        <item>Bench, Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Cable, Full Gym</item>
+        <item>Bench, Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Bench, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Bench, Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Dumbbells, Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Exercise Ball, Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Dumbbells, Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Cable, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Cable, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Kettlebell</item>
+        <item>Full Gym, Kettlebell</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Exercise Ball, Full Gym</item>
+        <item>Exercise Ball, Full Gym</item>
+        <item>Exercise Ball, Full Gym</item>
+        <item>Exercise Ball, Full Gym</item>
+        <item>Exercise Ball, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Barbell, Full Gym</item>
+        <item>Barbell, Full Gym, Landmine</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Bench, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Barbell, Full Gym</item>
+        <item>Bench, Full Gym, NO EQUIPMENT</item>
+        <item>Exercise Ball, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, TRX Suspension</item>
+        <item>Full Gym, TRX Suspension</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Exercise Ball, Full Gym</item>
+        <item>Full Gym, Kettlebell</item>
+        <item>Exercise Ball, Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Full Gym, Gymstick, Resistance Band</item>
+        <item>Full Gym, Gymstick, Resistance Band</item>
+        <item>Full Gym, Gymstick, Resistance Band</item>
+        <item>Full Gym, Gymstick, Resistance Band</item>
+        <item>Full Gym, Gymstick, Resistance Band</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+    </string-array>
+
+    <string-array name="abs_primary_muscles">
+        <item>Abs, Chest, Full Body, Shoulders</item>
+        <item>Abs</item>
+        <item>Abs, Calisthenic</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Cardio</item>
+        <item>Abs, Cardio</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Cardio</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Leg</item>
+        <item>Abs</item>
+        <item>Abs, Leg</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Cardio</item>
+        <item>Abs, Calisthenic</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Hip</item>
+        <item>Abs</item>
+        <item>Abs, Calisthenic</item>
+        <item>Abs, Calisthenic</item>
+        <item>Abs, Calisthenic</item>
+        <item>Abs, Calisthenic</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Hip, Leg</item>
+        <item>Abs, Leg</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Erector Spinae</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Calisthenic</item>
+        <item>Abs, Cardio, Hip, Leg</item>
+        <item>Abs, Shoulders</item>
+        <item>Abs, Full Body, Hip, Leg, Shoulders</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Neck, Yoga</item>
+        <item>Abs, Calisthenic</item>
+        <item>Abs, Leg</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Cardio, Hip, Leg</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Cardio, Full Body, Hip, Leg</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Hip</item>
+        <item>Abs, Back / Wing, Chest, Erector Spinae, Shoulders</item>
+        <item>Abs</item>
+        <item>Abs, Chest, Neck, Yoga</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Leg</item>
+        <item>Abs, Erector Spinae, Leg, Yoga</item>
+        <item>Abs, Back / Wing, Erector Spinae, Shoulders</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Full Body</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Yoga</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Hip</item>
+        <item>Abs, Chest, Shoulders</item>
+        <item>Abs, Cardio, Full Body, Hip, Leg</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Calisthenic, Erector Spinae, Shoulders</item>
+        <item>Abs, Cardio</item>
+        <item>Abs, Cardio, Leg</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Hip</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Hip</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Back / Wing</item>
+        <item>Abs, Calisthenic</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Calisthenic, Full Body, Triceps</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Chest, Erector Spinae</item>
+        <item>Abs, Erector Spinae</item>
+        <item>Abs</item>
+        <item>Abs, Leg</item>
+        <item>Abs, Leg, Yoga</item>
+        <item>Abs</item>
+        <item>Abs, Erector Spinae, Full Body, Hip, Leg</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs, Shoulders</item>
+        <item>Abs, Hip</item>
+        <item>Abs, Erector Spinae, Yoga</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+        <item>Abs</item>
+    </string-array>
+    
+    <string-array name="abs_secondary_muscles">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Secondary Muscles: Hip Flexors</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Secondary Muscles: Abs</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Secondary Muscles: Glutes, Hip Flexors</item>
+        <item>Secondary Muscles: Stretch</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Secondary Muscles: Abs</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Secondary Muscles: Abs</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Secondary Muscles: Abs</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Secondary Muscles: Lower Back, Middle Back</item>
+    </string-array>
+</resources>

@@ -52,7 +52,7 @@ fun WeightRepsScreen(
             //.background(Color.Green)
             .fillMaxSize(),
         bottomBar = {
-            WeightRepsBottomNav(navController, false)
+            WeightRepsBottomNav(navController)
         },
 //        floatingActionButton = {
 //            FloatingActionButton(

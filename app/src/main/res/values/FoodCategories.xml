@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="food_array_categories">
+        <item>Milk and milk products</item>
+        <item>Fats and oils</item>
+        <item>BREAD AND BAKERY PRODUCTS. FLOUR</item>
+        <item>CEREALS</item>
+        <item>VEGETABLES</item>
+        <item>FRUITS AND BERRIES</item>
+        <item>DRIED FRUITS</item>
+        <item>BEANS</item>
+        <item>MUSHROOMS</item>
+        <item>Meat. offal. poultry</item>
+        <item>Sausage and sausage products</item>
+        <item>CANNED MEAT AND SMOKED</item>
+        <item>EGGS</item>
+        <item>FISH AND SEAFOOD</item>
+        <item>CAVIAR</item>
+        <item>NUTS</item>
+        <item>SWEETS</item>
+        <item>Drinks. juices. tea. coffee</item>
+</string-array>
+</resources>

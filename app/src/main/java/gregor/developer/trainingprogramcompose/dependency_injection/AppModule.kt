@@ -7,6 +7,8 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import gregor.developer.training_program_compose.data.MainDb
+import gregor.developer.training_program_compose.data.repository.CalculationCalorieRepoImpl
+import gregor.developer.training_program_compose.data.repository.CalculationCalorieRepository
 import gregor.developer.training_program_compose.data.repository.TrainingNameRepoImpl
 import gregor.developer.training_program_compose.data.repository.TrainingNameRepository
 import gregor.developer.training_program_compose.data.repository.WeightRepsWorkoutRepoImpl
@@ -53,6 +55,12 @@ object AppModule {
     @Singleton
     fun provideWorkoutListTraining(db: MainDb): WorkoutListTrainingRepository{
         return WorkoutListTrainingRepoImpl(db.workoutListTrainingDao)
+    }
+
+    @Provides
+    @Singleton
+    fun provideCalculationCalorie(db: MainDb): CalculationCalorieRepository{
+        return CalculationCalorieRepoImpl(db.calculationCalorieDao)
     }
 
 }

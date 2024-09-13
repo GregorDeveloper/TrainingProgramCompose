@@ -6,4 +6,5 @@ data class CanvasParametr (
     val offset: Offset,
     var radios: Float,
     var date: String,
+    val positionPic: Float
 )

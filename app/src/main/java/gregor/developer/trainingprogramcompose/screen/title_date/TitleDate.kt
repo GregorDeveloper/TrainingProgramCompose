@@ -39,7 +39,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -58,6 +60,7 @@ fun TitleDate(
     openDropMenu: MutableState<Boolean>,
     openItemCurrentDate: Boolean,
     dateItem: MutableState<Date>?,
+    modifier: Modifier,
     list: List<String>,
     currentDate: String,
     selectedDate: String,
@@ -71,12 +74,11 @@ fun TitleDate(
     scope.launch { lazyListState.scrollToItem(dateItem?.value?.year?.minus(2002) ?: 40) }
     
     var selectedMonth by remember{mutableStateOf( dateItem?.value?.month)}
-
+    var titleDialog = stringResource(id = R.string.selected_date)
 
     Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(3.dp),
+        modifier = modifier,
+          //  .padding(3.dp),
         horizontalArrangement = if (openChangeDate) Arrangement.SpaceBetween else Arrangement.Center,
         verticalAlignment = Alignment.CenterVertically
     ) {
@@ -93,34 +95,24 @@ fun TitleDate(
                 )
             }
         }
-
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
-            Card(
-                backgroundColor = Color.Transparent,
+            Column(
+//                contentColor = Color.White,
+//                backgroundColor = Color.Transparent,
                 modifier = Modifier.clickable {
-                    onLastOrNext(LastOrNextDateEvent.OpenDropMenu)
+                    onLastOrNext(LastOrNextDateEvent.OpenDropMenu(titleDialog))
                 }) {
-                Column(horizontalAlignment = Alignment.CenterHorizontally) {
+               // Column(horizontalAlignment = Alignment.CenterHorizontally) {
                     Text(
                         text = selectedDate.lowercase(),
                         fontWeight = FontWeight.SemiBold,
                         textAlign = TextAlign.Center,
                         color = Color.White,
-                        fontSize = 25.sp,
+                        fontSize = 18.sp,
                         modifier = Modifier
                             .wrapContentSize()
-                            .wrapContentSize()
                     )
-//                    Text(
-//                        text = dateItem?.value?.year.toString(),
-//                        fontWeight = FontWeight.SemiBold,
-//                        color = Color.Green,
-//                        fontSize = 25.sp,
-//                        modifier = Modifier
-//                            .wrapContentSize()
-//                            .wrapContentSize()
-//                    )
-                }
+             //   }
             }
 
             DropdownMenu(
@@ -132,20 +124,7 @@ fun TitleDate(
                         .size(150.dp)
                         .padding(10.dp),
                 ) {
-//                    if (listYears != null) {
-//                        LazyRow(state = lazyListState) {
-//                            itemsIndexed(listYears){index, item ->
-//                                UiDateList(date = item, selectedItem = selectedYear.toString()) { event ->
-//                                    onLastOrNext(event)
-//                                    selectedYear = item.toInt()
-//                                }
-//
-//                            }
-//                        }
-//                        Divider(color = Color.Green, thickness = 2.dp)
-//                    }
                     LazyColumn(modifier = Modifier.fillMaxWidth()) {
-
                         if (openItemCurrentDate) {
                             item {
                                 Text(

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="neck_workout">
+        <item>Weighted Lateral Neck Flexion</item>
+        <item>Weighted Lying Neck Extension</item>
+        <item>Weighted Lying Neck Flexion</item>
+        <item>Gittleson Shrug</item>
+        <item>Diagonal Neck Stretch</item>
+        <item>Neck Rotation Stretch</item>
+        <item>Neck Flexion Stretch</item>
+        <item>Neck Extension Stretch</item>
+        <item>Side Neck Stretch</item>
+        <item>Side Push Neck Stretch</item>
+        <item>Front and Back Neck Stretch</item>
+        <item>Chin Tuck</item>
+        <item>Prone Cervical Extension</item>
+        <item>Kneeling Neck Stretch</item>
+        <item>Weighted Neck Harness Extension</item>
+        <item>Lying Weighted Neck Flexion</item>
+        <item>Lying Weighted Neck Extension</item>
+        <item>Lever Neck Right Side Flexion (plate loaded)</item>
+        <item>Lever Neck Extension (plate loaded)</item>
+        <item>Cable Seated Neck Flexion with head harness</item>
+        <item>Cable Seated Neck Extension with head harness</item>
+        <item>Sphinx Stretch</item>
+        <item>Floor Hyperextension</item>
+        <item>Bhujangasana | Cobra Abdominal Stretch</item>
+        <item>Fish Pose</item>
+        <item>Superman</item>
+    </string-array>
+
+    <string-array name="neck_equipment">
+        <item>Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Cable, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+    </string-array>
+
+    <string-array name="neck_primary_muscles">
+        <item>Neck</item>
+        <item>Neck</item>
+        <item>Neck</item>
+        <item>Neck, Trapezius</item>
+        <item>Neck</item>
+        <item>Neck</item>
+        <item>Neck</item>
+        <item>Neck</item>
+        <item>Neck</item>
+        <item>Neck</item>
+        <item>Neck</item>
+        <item>Neck</item>
+        <item>Neck</item>
+        <item>Neck</item>
+        <item>Neck</item>
+        <item>Neck</item>
+        <item>Neck</item>
+        <item>Neck</item>
+        <item>Neck</item>
+        <item>Neck</item>
+        <item>Neck</item>
+        <item>Erector Spinae, Neck</item>
+        <item>Erector Spinae, Neck</item>
+        <item>Abs, Neck, Yoga</item>
+        <item>Abs, Chest, Neck, Yoga</item>
+        <item>Erector Spinae, Neck</item>
+    </string-array>
+
+    <string-array name="neck_secondary_muscles">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+</resources>

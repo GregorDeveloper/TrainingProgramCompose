@@ -50,7 +50,6 @@ fun WorkoutScreen(
                 viewModel.onEvent(WorkoutEvent.OnSearchWorkout(viewModel.searchWorkout.value))
             }
         }
-
     ) {
         Column(modifier = Modifier.fillMaxSize()) {
             Column {
@@ -85,7 +84,6 @@ fun WorkoutScreen(
 
         DialogDescription(viewModel)
        {
-            Log.d("MyLogCalendarScreen", it.toString() +" WorkoutScreen")
             onNavigate(it)
         }
     }

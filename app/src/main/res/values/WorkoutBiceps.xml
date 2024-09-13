@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="biceps_workout">
+        <item>Seated Zottman Curl</item>
+        <item>Standing Barbell Concentration Curl</item>
+        <item>Waiter Curl</item>
+        <item>Double Arm Dumbbell Curl</item>
+        <item>Dumbbell Curl</item>
+        <item>Barbell Curl</item>
+        <item>Concentration Curl</item>
+        <item>Dumbbell Preacher Curl</item>
+        <item>EZ Bar Preacher Curl</item>
+        <item>Hammer Curl</item>
+        <item>Seated Incline Dumbbell Curl</item>
+        <item>Lever Preacher Curl</item>
+        <item>High Cable Single Arm Bicep Curl</item>
+        <item>One Arm Cable Curl</item>
+        <item>Lying Cable Curl</item>
+        <item>Zottman Curl</item>
+        <item>Dumbbell Reverse Curl</item>
+        <item>Seated Close-Grip Concentration Curl</item>
+        <item>Biceps Leg Concentration Curl</item>
+        <item>Prone Incline Barbell Curl</item>
+        <item>Overhead Cable Curl</item>
+        <item>Seated Hammer Curl</item>
+        <item>Seated Biceps Curl</item>
+        <item>Single Arm Cable Preacher Curl</item>
+        <item>Cable Concentration Curl</item>
+        <item>Reverse Grip EZ-Bar Curl</item>
+        <item>Dumbbell Scott Hammer Curl</item>
+        <item>Lying High Bench Barbell Curl</item>
+        <item>Cable Rope Hammer Curl</item>
+        <item>Biceps Curl Machine</item>
+        <item>Dumbbell High Curl</item>
+        <item>Brachialis Pull-up</item>
+        <item>Close Grip Z-Bar Curl</item>
+        <item>Dumbbell Scott Curl</item>
+        <item>Barbell Curl On Arm Blaster</item>
+        <item>Arm Blaster Hammer Curl</item>
+        <item>Dumbbell Curl On Arm Blaster</item>
+        <item>Standing One Arm Chest Stretch</item>
+        <item>One Arm Biceps Curl</item>
+        <item>Chin-Up</item>
+        <item>Lever Biceps Curl</item>
+        <item>Cable Incline Biceps Curl</item>
+        <item>One Arm Chin-Up</item>
+        <item>Dumbbell Preacher Hammer (Scott) Curl</item>
+        <item>One Arm Prone Dumbbell Curl</item>
+        <item>Dumbbell Alternate Preacher Curl</item>
+        <item>Two Dumbbell Preacher Curl</item>
+        <item>Flexor Incline Dumbbell Curls</item>
+        <item>Barbell Alternate Biceps Curl</item>
+        <item>Cable Kneeling Biceps Curl</item>
+        <item>Cable Two Arm Curl on Incline Bench</item>
+        <item>Chin Up Around the Bar</item>
+        <item>Elbow Flexion</item>
+        <item>Cable Pulldown Biceps Curl</item>
+        <item>Band Biceps Curl</item>
+        <item>Single Dumbbell Spider Hammer Curl</item>
+        <item>Cable Curl</item>
+        <item>Z-Bar Curl</item>
+        <item>Hammer Curl with Resistance Band</item>
+        <item>Cable Reverse Grip EZ-bar Biceps Curl</item>
+        <item>Standing Reverse Shoulder Stretch</item>
+        <item>Barbell Drag Curl</item>
+        <item>Close Grip Barbell Curl</item>
+        <item>One Arm Cable Bicep Curl</item>
+        <item>Single Arm Reverse Grip Cable Bicep Curl</item>
+        <item>Water Bottle Hammer Curl</item>
+        <item>Seated Alternating Dumbbell Curl</item>
+        <item>Seated Bicep Curl With Resistance Band</item>
+        <item>One-Arm Biceps Curl With Resistance Band</item>
+    </string-array>
+
+    <string-array name="biceps_equipment">
+        <item>Dumbbells, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Cable, Full Gym, Resistance Band</item>
+        <item>Cable, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Barbell, Full Gym</item>
+        <item>Cable, Full Gym, Resistance Band</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Cable, Full Gym, Resistance Band</item>
+        <item>Cable, Full Gym, Resistance Band</item>
+        <item>Barbell, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Barbell, Bench, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Barbell, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Cable, Full Gym, Resistance Band</item>
+        <item>Cable, Full Gym, Resistance Band</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Cable, Full Gym, Resistance Band</item>
+    </string-array>
+
+    <string-array name="biceps_primary_muscles">
+        <item>Biceps, Forearm</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps, Forearm</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps, Forearm</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps, Forearm</item>
+        <item>Biceps, Forearm</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Back / Wing, Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps, Chest, Forearm</item>
+        <item>Biceps</item>
+        <item>Back / Wing, Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Back / Wing, Biceps</item>
+        <item>Biceps, Forearm</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Back / Wing, Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps, Forearm</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps, Forearm</item>
+        <item>Biceps, Forearm</item>
+        <item>Biceps, Shoulders</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps, Forearm</item>
+        <item>Biceps, Forearm</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+        <item>Biceps</item>
+    </string-array>
+
+    <string-array name="biceps_secondary_muscles">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Secondary Muscles: Biceps</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Secondary Muscles: Biceps</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+</resources>

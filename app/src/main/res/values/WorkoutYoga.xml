@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="yoga_workout">
+        <item>Warrior 1 Pose</item>
+        <item>Warrior 2 Pose</item>
+        <item>Warrior 3 Pose</item>
+        <item>Humble Warrior Pose</item>
+        <item>Reverse Warrior Pose (Viparita Virabhadrasana)</item>
+        <item>Ustrasana</item>
+        <item>Utthita Trikonasana (Extended Triangle Pose)</item>
+        <item>Tiger Yoga Pose</item>
+        <item>Bhekasana Frog Pose</item>
+        <item>Balasana | Child Pose</item>
+        <item>Anuvittasana | Standing Backbend Pose</item>
+        <item>Anjaneyasana | Low Lunge Pose</item>
+        <item>Eka Pada Setu Bandha Sarvangasana</item>
+        <item>Dandayamana Bharmanasana | Balancing Table Pose</item>
+        <item>Chaturanga Dandasana | Low Plank Pose</item>
+        <item>Bitilasana | Cow Pose</item>
+        <item>Pada Hastasana | Hands to Feet Pose</item>
+        <item>Titli Asana | Butterfly Pose</item>
+        <item>Baddha Konasana | Butterfly Pose</item>
+        <item>Makarasana - Crocodile Pose</item>
+        <item>Ardha Uttanasana | Standing Half Forward Bend</item>
+        <item>Ardha Kapotasana - Half Pigeon Pose</item>
+        <item>Advasana | Reverse Corpse Pose</item>
+        <item>Adho Mukha Vrksasana Yoga | Handstand Pose</item>
+        <item>Adho Mukha Svanasana | Downward Facing Dog</item>
+        <item>Tadasana | Mountain Pose</item>
+        <item>Supta Baddha Konasana | Reclining Bound Angle</item>
+        <item>Viparita Karani | Legs ups the Wall Pose</item>
+        <item>Supta Matsyendrasana | Supine Spinal Twist</item>
+        <item>Samakonasana | Straight Angle Pose</item>
+        <item>Shoulderstand | Salamba Sarvangasana</item>
+        <item>Nauka Sanchalanasan | Rowing the Boat Pose</item>
+        <item>Malasana | Squat Pose or Garland Pose</item>
+        <item>Full Lotus Pose</item>
+        <item>Halasana | Plow Pose</item>
+        <item>Locust Pose</item>
+        <item>Wheel Pose | Chakrasana | Urdhva Dhanurasana</item>
+        <item>Garudasana | Eagle Pose</item>
+        <item>Crab Pose</item>
+        <item>Childs Pose To Cobra Pose</item>
+        <item>Camel Pose</item>
+        <item>Bridge Pose</item>
+        <item>Saithalyasana (Animal Relaxation Pose)</item>
+        <item>Upavistha Konasana</item>
+        <item>Bhujangasana | Cobra Abdominal Stretch</item>
+        <item>Fish Pose</item>
+        <item>Bow Pose</item>
+        <item>Cat Cow Pose</item>
+        <item>Abdominal Bracing</item>
+        <item>Double Pigeon Pose</item>
+        <item>Frog Pose</item>
+        <item>Supine Spinal Twist</item>
+        <item>Parsva Balasana | Thread the Needle Pose</item>
+        <item>Half Frog Pose</item>
+        <item>Happy Baby Pose</item>
+        <item>Dhanurasana | Rocking Bow Pose</item>
+    </string-array>
+
+    <string-array name="yoga_equipment">
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+    </string-array>
+
+    <string-array name="yoga_primary_muscles">
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Yoga</item>
+        <item>Leg, Yoga</item>
+        <item>Abs, Neck, Yoga</item>
+        <item>Abs, Chest, Neck, Yoga</item>
+        <item>Abs, Erector Spinae, Leg, Yoga</item>
+        <item>Erector Spinae, Yoga</item>
+        <item>Abs, Yoga</item>
+        <item>Yoga</item>
+        <item>Hip, Leg, Yoga</item>
+        <item>Back / Wing, Erector Spinae, Yoga</item>
+        <item>Yoga</item>
+        <item>Abs, Leg, Yoga</item>
+        <item>Hip, Leg, Yoga</item>
+        <item>Abs, Erector Spinae, Yoga</item>
+    </string-array>
+
+    <string-array name="yoga_secondary_muscles">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+</resources>

@@ -79,7 +79,8 @@ class TrainingListViewModel @Inject constructor(
             }
 
             is TrainingListEvent.OnShowEditDialog -> {
-              //  choiceDialog.value = RoutesDialog.ADD_TRAINING
+                Log.d("LogDialog", addTraining.value.toString())
+                addTraining.value = true
                 listItem = event.item
                 openDialog.value = true
                 editableText.value = listItem?.name ?: ""
@@ -93,6 +94,7 @@ class TrainingListViewModel @Inject constructor(
             }
 
             is TrainingListEvent.OnShowDeleteDialog -> {
+                addTraining.value = false
                 listItem = event.item
                 openDialog.value = true
                 dialogTitle.value = "Delete item?"

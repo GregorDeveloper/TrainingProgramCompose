@@ -32,6 +32,7 @@
     <string name="save">Save</string>
     <string name="toast_calendar">Training will be available on:  </string>
     <string name="no_data">No data: </string>
+    <string name="no_data_toast">No data </string>
     <string name="add_weight_reps_dialog">Add weight reps  </string>
     <string name="edit_weight_reps_dialog">Edit weight reps №  </string>
     <string name="delete_weight_reps_full_day">Delete all data for:  </string>
@@ -39,4 +40,12 @@
     <string name="replace">Replace:  </string>
     <string name="delete">Delete:  </string>
     <string name="delete_all_workout_for">Delete all workout for</string>
+    <string name="calculation_calorie">Calculation calorie</string>
+    <string name="calories">Cal</string>
+    <string name="protein">Prot</string>
+    <string name="fat">Fat</string>
+    <string name="carbohydrates">Carb</string>
+    <string name="grams">Grams</string>
+    <string name="training">Training</string>
+    <string name="calories_calculation">Calories calculation</string>
 </resources>

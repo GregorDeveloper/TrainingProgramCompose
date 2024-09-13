@@ -22,6 +22,7 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -70,26 +71,29 @@ class UserWorkoutScreenViewModel @Inject constructor(
         private set
 
 
-
-
     fun onEvent(event: UserWorkoutEvent) {
         when (event) {
             is UserWorkoutEvent.OnSaveList -> {
-                viewModelScope.launch{
-                    itemsList?.collect { list ->
-                        Log.d("ListSave", "List save")
-                        for (i in 0..list.lastIndex) {
-                            Log.d("ListSave", "List cycle")
-                            repositoryWorkoutList.insertItem(
-                                WorkoutListItem(
-                                    null,
-                                    list.get(i).name,
-                                    date!!,
-                                    0
+                viewModelScope.launch {
+                    Log.d("LogUserWorkoutViewModel", itemsList?.first()?.size.toString())
+                    if (itemsList?.first()?.size!! > 1) {
+                        itemsList?.collect { list ->
+                            Log.d("ListSave", "List save")
+                            for (i in 0..list.lastIndex) {
+                                Log.d("ListSave", "List cycle")
+                                repositoryWorkoutList.insertItem(
+                                    WorkoutListItem(
+                                        null,
+                                        list.get(i).name,
+                                        date!!,
+                                        0
+                                    )
                                 )
-                            )
+                            }
+                            sendUiEvent(UiEvent.Navigate(event.route))
                         }
-                        sendUiEvent(UiEvent.Navigate(event.route))
+                    }else{
+                        sendUiEvent(UiEvent.ShowToast(""))
                     }
                 }
 
@@ -142,8 +146,8 @@ class UserWorkoutScreenViewModel @Inject constructor(
     }
 
     private suspend fun sendUiEvent(event: UiEvent) {
-       // viewModelScope.launch {
-            _uiEvent.send(event)
-     //   }
+        // viewModelScope.launch {
+        _uiEvent.send(event)
+        //   }
     }
 }

@@ -22,7 +22,7 @@ class MainScreenViewModel @Inject constructor(
 
     private val list = repository.getAllItems()
 
-    override var addTraining = mutableStateOf(false)
+    override var addTraining = mutableStateOf(true)
         private set
     override var selectedMonthYear = mutableStateOf(false)
         private set

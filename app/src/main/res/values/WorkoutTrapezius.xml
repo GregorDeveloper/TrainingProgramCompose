@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="trapezius_workout">
+        <item>Overhead Shrug</item>
+        <item>Gittleson Shrug</item>
+        <item>45 Degree Incline Row</item>
+        <item>Dumbbell Shrug</item>
+        <item>Cable Shrug</item>
+        <item>Barbell Shrug</item>
+        <item>Behind The Back Barbell Shrug</item>
+        <item>Dumbbell Incline Shrug</item>
+        <item>Prone Incline Shrug</item>
+        <item>Lever Shrug</item>
+        <item>Rear Delt Fly Machine</item>
+        <item>Lever Gripless Shrug</item>
+        <item>Cable Rear Delt Fly</item>
+        <item>Bent Over Lateral Raise</item>
+        <item>Cable Upright Row</item>
+        <item>Face Pull</item>
+        <item>Half Kneeling High Cable Row Rope</item>
+        <item>Dumbbell Raise</item>
+        <item>Dumbbell Upright Row</item>
+        <item>Bodyweight Military Press</item>
+        <item>Kneeling High Pulley Row</item>
+        <item>Ez Bar Upright Row</item>
+        <item>Band Pull-Apart</item>
+        <item>Bent Over Reverse Cable Fly</item>
+        <item>Bent-Over Barbell Reverse Raise</item>
+        <item>Barbell Rear Delt Raise</item>
+        <item>Smith Machine Shrug</item>
+        <item>Incline Dumbbell Reverse Fly</item>
+        <item>Incline Dumbbell Y-Raise</item>
+        <item>Dumbbell Incline T-Raise</item>
+        <item>Swimming</item>
+        <item>Bent Over Rear Delt Fly | Gymstick</item>
+        <item>Scapular Protraction and Retraction</item>
+        <item>Cross Cable Face Pull</item>
+        <item>Elbow Reverse Push-Up</item>
+        <item>Scapula Dips</item>
+        <item>Push-Up Plus</item>
+        <item>Seated Ballerina Exercise</item>
+        <item>Seated Scapular Retraction Exercise</item>
+        <item>Foam Roller Rhomboids</item>
+        <item>Foam Roller Upper Back</item>
+        <item>Scapula Pull-up</item>
+        <item>Serratus Wall Slide With Foam Roller</item>
+        <item>Dip Shrugs (Serratus Shrugs)</item>
+        <item>Wide Grip Barbell Bent Over Row Plus</item>
+        <item>Wide Grip Alternate Barbell Bent Over Row Plus</item>
+        <item>One-Arm Dumbbell Upright Row</item>
+        <item>Cable Y Raise</item>
+        <item>Barbell Upright Row</item>
+        <item>Resistance Band Bent Over Rear Delt Fly</item>
+        <item>Resistance Band Pull Apart</item>
+        <item>Single Arm Upright Row | Gymstick</item>
+        <item>Face Pull With Resistance Band</item>
+    </string-array>
+
+    <string-array name="trapezius_equipment">
+        <item>Barbell, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Cable, Full Gym, Resistance Band</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Cable, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Cable, Full Gym, Resistance Band</item>
+        <item>Cable, Full Gym, Resistance Band</item>
+        <item>Barbell, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Gymstick, Resistance Band</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Foam Roller, Full Gym</item>
+        <item>Foam Roller, Full Gym</item>
+        <item>Full Gym</item>
+        <item>Foam Roller, Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Barbell, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Full Gym, Gymstick, Resistance Band</item>
+        <item>Full Gym, Gymstick, Resistance Band</item>
+    </string-array>
+
+    <string-array name="trapezius_primary_muscles">
+        <item>Trapezius</item>
+        <item>Neck, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Trapezius</item>
+        <item>Trapezius</item>
+        <item>Trapezius</item>
+        <item>Trapezius</item>
+        <item>Trapezius</item>
+        <item>Trapezius</item>
+        <item>Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Back / Wing, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Back / Wing, Erector Spinae, Hip, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Back / Wing, Shoulders, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Back / Wing, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Chest, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Back / Wing, Trapezius</item>
+        <item>Back / Wing, Trapezius</item>
+        <item>Back / Wing, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Trapezius</item>
+        <item>Back / Wing, Trapezius</item>
+        <item>Back / Wing, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+        <item>Shoulders, Trapezius</item>
+    </string-array>
+
+    <string-array name="trapezius_secondary_muscles">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Secondary Muscles: Shoulders</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Secondary Muscles: Trapezius</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+</resources>

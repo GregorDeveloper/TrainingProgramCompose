@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="triceps_workout">
+        <item>Medicine Ball Overhead Throw</item>
+        <item>One Arm Triceps Pushdown</item>
+        <item>Dumbbell Kickback</item>
+        <item>One Arm Reverse Pushdown</item>
+        <item>Push-down</item>
+        <item>Bench Dips</item>
+        <item>Triceps Dips</item>
+        <item>One Arm Lying Triceps Extension</item>
+        <item>Cable Rope Overhead Triceps Extension</item>
+        <item>Lever Triceps Dip</item>
+        <item>Lying Barbell Triceps Extension</item>
+        <item>Cable Tricep Kickback</item>
+        <item>Triceps Dips on Floor</item>
+        <item>Dumbbell Seated Front and Back Tate Press</item>
+        <item>Kneeling Cable Triceps Extension</item>
+        <item>Cable Rear Drive</item>
+        <item>Narrow Grip Wall Push-Up</item>
+        <item>Shoulder Stretch Behind Back</item>
+        <item>Body Ups</item>
+        <item>Wall Push-up</item>
+        <item>Cable Lying Triceps Extensions</item>
+        <item>Chair Dips</item>
+        <item>Seated One-Arm Dumbbell Triceps Extension</item>
+        <item>Seated Dumbbell Triceps Extension</item>
+        <item>Lever Triceps Extension</item>
+        <item>Bench Dips on Floor</item>
+        <item>Parallel Bar Dips</item>
+        <item>Dumbbell Skull Crusher</item>
+        <item>Dumbbell Incline Two Arm Extension</item>
+        <item>One Arm Pronated Dumbbell Triceps Extension</item>
+        <item>Seated EZ-Bar Overhead Triceps Extension</item>
+        <item>Cable Incline Triceps Extension</item>
+        <item>Reverse Push-up</item>
+        <item>Cable Side Triceps Extension</item>
+        <item>Incline EZ-Bar Triceps Extension</item>
+        <item>High Pulley Overhead Tricep Extension</item>
+        <item>Rope Pushdown</item>
+        <item>Reverse Grip Pushdown</item>
+        <item>Cross Arm Push-up</item>
+        <item>Cable Concentration Extension on Knee</item>
+        <item>Close-Grip Dumbbell Press</item>
+        <item>Single Dumbbell Close-grip Press</item>
+        <item>Kneeling Diamond Push-Up</item>
+        <item>Dips Between Chairs</item>
+        <item>Cable One-Arm Overhead Triceps Extension</item>
+        <item>Standing Barbell Triceps Extension</item>
+        <item>Impossible Dips</item>
+        <item>Korean Dips</item>
+        <item>Straight Bar Dip</item>
+        <item>Exercise Ball Triceps Extension</item>
+        <item>Dumbbell Decline One-Arm Hammer Press</item>
+        <item>Triceps Extension Machine</item>
+        <item>Triceps Dip Machine</item>
+        <item>Single Arm Push-up</item>
+        <item>Wall-Supported Handstand Push-Ups</item>
+        <item>Towel Shoulder Stretch</item>
+        <item>Decline Close-Grip Bench To Skull Crusher</item>
+        <item>Barbell One Arm Floor Press</item>
+        <item>Asisted Triceps Dips</item>
+        <item>Reaction Ball Throw</item>
+        <item>Standing Triceps Stretch</item>
+        <item>Forearm Push-up</item>
+        <item>EZ-Bar Bent Arm Pullover</item>
+        <item>Low Cable Tricep Kickback</item>
+        <item>Band Skull Crusher</item>
+        <item>Band Pushdown</item>
+        <item>Decline Dumbbell Triceps Extension</item>
+        <item>Dumbbell Tate Press</item>
+        <item>Handstand Push-ups Between Benches</item>
+        <item>Kipping Handstand Push-up</item>
+        <item>Bent Over Kickback</item>
+        <item>Close Grip Bench Press</item>
+        <item>Dumbbell Triceps Extension</item>
+        <item>Diamond Push-up</item>
+        <item>Triceps Extension with Resistance Bands</item>
+        <item>Alternating Lying Dumbbell Triceps Extension</item>
+        <item>Barbell Reverse Grip Skullcrusher</item>
+        <item>Barbell Lying Back of the Head Tricep Extension</item>
+        <item>EZ Bar Lying Close Grip Triceps Extension Behind Head</item>
+        <item>Kneeling Cable Triceps Extension</item>
+        <item>Close-Grip Reverse Bench Press</item>
+        <item>One Arm High Pulley Overhead Tricep Extension</item>
+        <item>Cable Crossover Triceps Extension</item>
+        <item>Side One Arm Reverse Pushdown</item>
+        <item>Bodyweight Skull Crushers</item>
+        <item>V-bar Pushdown</item>
+        <item>Cable Rope Lying Tricep Extension</item>
+        <item>Cable Lying Triceps Extension</item>
+        <item>Straddle Planche</item>
+        <item>Close Grip Knee Push-up</item>
+        <item>Supine Medicine Ball Chest Throw</item>
+        <item>Reverse Dips</item>
+        <item>Planche Push-Up</item>
+        <item>Archer Push-Up</item>
+        <item>Ring Dips</item>
+        <item>Single Arm Raise Push-up</item>
+        <item>Suspended Push-Up</item>
+        <item>Close-grip Dumbbell Push-Up</item>
+        <item>Medicine Ball Push-Up</item>
+        <item>Single Arm Push-Up on Medicine Ball</item>
+        <item>Rear Drive With Resistance Band</item>
+        <item>Standing Triceps Extension | Gymstick</item>
+        <item>Banded Overhead Triceps Extension</item>
+        <item>Overhead Triceps Extension | Gymstick</item>
+    </string-array>
+
+    <string-array name="triceps_equipment">
+        <item>Exercise Ball, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Bench, Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Machine, NO EQUIPMENT</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Barbell, Bench, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Bench, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Cable, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Cable, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Cable, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym</item>
+        <item>Full Gym</item>
+        <item>Exercise Ball, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, Machine</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Barbell, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Full Gym, Machine</item>
+        <item>Exercise Ball, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Barbell, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Barbell, Bench, Full Gym</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Barbell, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Cable, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Cable, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Exercise Ball, Full Gym</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, TRX Suspension</item>
+        <item>Full Gym, NO EQUIPMENT</item>
+        <item>Full Gym, TRX Suspension</item>
+        <item>Dumbbells, Full Gym</item>
+        <item>Exercise Ball, Full Gym</item>
+        <item>Exercise Ball, Full Gym</item>
+        <item>Full Gym, Resistance Band</item>
+        <item>Full Gym, Gymstick, Resistance Band</item>
+        <item>Full Gym, Gymstick, Resistance Band</item>
+        <item>Full Gym, Gymstick, Resistance Band</item>
+    </string-array>
+
+    <string-array name="triceps_primary_muscles">
+        <item>Chest, Shoulders, Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Chest, Triceps</item>
+        <item>Back / Wing, Chest, Shoulders, Triceps</item>
+        <item>Triceps</item>
+        <item>Chest, Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Calisthenic, Chest, Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Calisthenic, Chest, Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Calisthenic, Triceps</item>
+        <item>Triceps</item>
+        <item>Chest, Triceps</item>
+        <item>Chest, Triceps</item>
+        <item>Chest, Triceps</item>
+        <item>Calisthenic, Chest, Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Calisthenic, Full Body, Triceps</item>
+        <item>Calisthenic, Chest, Full Body, Triceps</item>
+        <item>Calisthenic, Chest, Full Body, Triceps</item>
+        <item>Triceps</item>
+        <item>Chest, Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Calisthenic, Chest, Triceps</item>
+        <item>Calisthenic, Shoulders, Triceps</item>
+        <item>Back / Wing, Shoulders, Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Chest, Shoulders, Triceps</item>
+        <item>Triceps</item>
+        <item>Calisthenic, Chest, Triceps</item>
+        <item>Back / Wing, Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Calisthenic, Shoulders, Triceps</item>
+        <item>Calisthenic, Full Body, Shoulders, Triceps</item>
+        <item>Triceps</item>
+        <item>Chest, Triceps</item>
+        <item>Triceps</item>
+        <item>Calisthenic, Chest, Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Chest, Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Abs, Calisthenic, Full Body, Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Calisthenic, Chest, Full Body, Triceps</item>
+        <item>Chest, Triceps</item>
+        <item>Chest, Triceps</item>
+        <item>Chest, Triceps</item>
+        <item>Calisthenic, Chest, Full Body, Triceps</item>
+        <item>Calisthenic, Chest, Full Body, Triceps</item>
+        <item>Calisthenic, Chest, Full Body, Triceps</item>
+        <item>Calisthenic, Chest, Triceps</item>
+        <item>Chest, Triceps</item>
+        <item>Chest, Triceps</item>
+        <item>Chest, Triceps</item>
+        <item>Chest, Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+        <item>Triceps</item>
+    </string-array>
+
+    <string-array name="triceps_secondary_muscles">
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Secondary Muscles: Triceps</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+</resources>

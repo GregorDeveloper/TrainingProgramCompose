@@ -70,34 +70,34 @@ fun DialogDate(dialogController: DialogController) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
 
-        Box(modifier = Modifier.fillMaxWidth()
-            ) {
-            Text(
-                text = stringResource(R.string.selected_date) + "\n"
-                        + dialogController.listMonth.value.get(dialogController.indexMonth.value)
-                    .lowercase() + " "
-                        + dialogController.listYear.value.get(dialogController.indexYear.value)
-                    .lowercase(),
-                modifier = Modifier
-                    .padding(5.dp)
-                    .align(Alignment.Center),
-                textAlign = TextAlign.Center,
-                style = TextStyle(
-                    fontSize = 20.sp,
-                    fontWeight = FontWeight.Bold,
-                    color = Color.White
-                )
-            )
-            IconButton(onClick = { dialogController.onDialogEvent(DialogEvent.OnReturnCurrentMonth) },
-                modifier = Modifier.align(Alignment.CenterEnd)
-                ) {
-                Icon(
-                    painter = painterResource(id = R.drawable.return_current_month),
-                    contentDescription = "return current month",
-                    tint = Color.White
-                )
-            }
-        }
+//        Box(modifier = Modifier.fillMaxWidth()
+//            ) {
+//            Text(
+//                text = stringResource(R.string.selected_date) + "\n"
+//                        + dialogController.listMonth.value.get(dialogController.indexMonth.value)
+//                    .lowercase() + " "
+//                        + dialogController.listYear.value.get(dialogController.indexYear.value)
+//                    .lowercase(),
+//                modifier = Modifier
+//                    .padding(5.dp)
+//                    .align(Alignment.Center),
+//                textAlign = TextAlign.Center,
+//                style = TextStyle(
+//                    fontSize = 20.sp,
+//                    fontWeight = FontWeight.Bold,
+//                    color = Color.White
+//                )
+//            )
+//            IconButton(onClick = { dialogController.onDialogEvent(DialogEvent.OnReturnCurrentMonth) },
+//                modifier = Modifier.align(Alignment.CenterEnd)
+//                ) {
+//                Icon(
+//                    painter = painterResource(id = R.drawable.return_current_month),
+//                    contentDescription = "return current month",
+//                    tint = Color.White
+//                )
+//            }
+//        }
         Row(
             modifier = Modifier.padding(5.dp)
             ,

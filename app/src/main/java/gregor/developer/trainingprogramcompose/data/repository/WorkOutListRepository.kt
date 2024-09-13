@@ -1,6 +1,5 @@
 package gregor.developer.training_program_compose.data.repository
 
-import gregor.developer.training_program_compose.data.entity.TrainingNameItem
 import gregor.developer.training_program_compose.data.entity.WorkoutListItem
 import kotlinx.coroutines.flow.Flow
 

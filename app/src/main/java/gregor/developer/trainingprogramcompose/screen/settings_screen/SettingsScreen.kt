@@ -48,6 +48,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
+import gregor.developer.trainingprogramcompose.screen.food_screen.FoodScreen
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.launch
 import java.time.LocalDate
@@ -67,6 +68,7 @@ fun SettingsScreen(
             }
         }
     }
+
 }
 
 //@RequiresApi(Build.VERSION_CODES.O)
