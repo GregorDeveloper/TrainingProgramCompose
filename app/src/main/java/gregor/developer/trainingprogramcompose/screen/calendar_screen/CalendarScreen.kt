@@ -74,9 +74,6 @@ fun CalendarScreen(
     val navController = rememberNavController()
     val context = LocalContext.current
 
-    val dateList by remember {
-        mutableStateOf(viewModel.listOfCurrentMonth.value)
-    }
     DisposableEffect(lifecycleOwner) {
         val observer = LifecycleEventObserver { _, event ->
             when (event) {
@@ -145,7 +142,7 @@ fun CalendarScreen(
             }
         }
         Calendar(
-            dateList = viewModel.listOfCurrentMonth.value,
+            dateList = viewModel.listOfCurrentMonth,
             onDayClick = { day ->
                 viewModel.onEvent(CalendarEvent.ClickDay(day))
             },

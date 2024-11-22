@@ -1,5 +1,6 @@
 package gregor.developer.trainingprogramcompose.screen.calendar_screen.ListWorkout
 
+import androidx.compose.foundation.gestures.AnchoredDraggableState
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding

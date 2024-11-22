@@ -10,11 +10,13 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import gregor.developer.training_program_compose.weight_reps_screen.WeightRepsScreen
 import gregor.developer.trainingprogramcompose.screen.food_screen.FoodScreen
+import gregor.developer.trainingprogramcompose.screen.food_screen.food_screen_new.FoodScreenNew
 import gregor.developer.trainingprogramcompose.screen.main_screen.MainScreen
 import gregor.developer.trainingprogramcompose.screen.training_list_screen.TrainingListScreen
 import gregor.developer.trainingprogramcompose.screen.weight_reps_screen.weight_reps_univ.WeightRepsScreenUniv
 import gregor.developer.trainingprogramcompose.screen.workout_screen.user_workout.UserWorkoutScreen
 import gregor.developer.trainingprogramcompose.screen.workout_screen.list_workout.WorkoutScreen
+import gregor.developer.trainingprogramcompose.screen.workout_screen.list_workout_univ.ListWorkoutUniv
 import gregor.developer.trainingprogramcompose.utils.Routes
 
 @Composable
@@ -64,7 +66,7 @@ fun MainNavigationGraph(
                 },
             )
         ) {
-            WorkoutScreen() {
+            ListWorkoutUniv() {
                 navController.previousBackStackEntry
                     ?.savedStateHandle
                     ?.set("add_training", it)
@@ -81,9 +83,9 @@ fun MainNavigationGraph(
                 navArgument("listId") {
                     type = NavType.IntType
                     defaultValue = -1
-                }
+                },
             )){
-            FoodScreen(){
+            FoodScreenNew(){
                 navController.previousBackStackEntry
                     ?.savedStateHandle
                     ?.set("add_food", it)

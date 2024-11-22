@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="muscle_group">
+        <item>Abs</item>
+        <item>Back</item>
+        <item>Biceps</item>
+        <item>Calf</item>
+        <item>Calisthenics</item>
+        <item>Cardio</item>
+        <item>Chest</item>
+        <item>Erector-spinae</item>
+        <item>Forearm</item>
+        <item>Full-body</item>
+        <item>Hip</item>
+        <item>Leg</item>
+        <item>Neck</item>
+        <item>Shoulders</item>
+        <item>Trapezius</item>
+        <item>Triceps</item>
+        <item>Yoga</item>
+    </string-array>
+</resources>

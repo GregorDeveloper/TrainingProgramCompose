@@ -37,10 +37,12 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import gregor.developer.trainingprogramcompose.R
+import gregor.developer.trainingprogramcompose.dialog.dialog_list.DescriptionDialog
 import gregor.developer.trainingprogramcompose.screen.ListUniv
 import gregor.developer.trainingprogramcompose.screen.food_screen.FoodEvent
 import gregor.developer.trainingprogramcompose.screen.food_screen.FoodScreenViewModel
 import gregor.developer.trainingprogramcompose.screen.food_screen.ItemList
+import gregor.developer.trainingprogramcompose.screen.food_screen.chooseArrayFood
 import kotlinx.coroutines.launch
 import java.time.LocalDate
 
@@ -51,27 +53,31 @@ import java.time.LocalDate
 fun SettingsScreen(
     viewModel: FoodScreenViewModel = hiltViewModel()
 ) {
-    val context = LocalContext.current
-    ListUniv(
-        search = viewModel.searchFood,
-        uiEvent = {
-
-        },
-        fabVisible = viewModel.fabVisible,
-        clearList = {
-            viewModel.onEvent(FoodEvent.ClearList)
-        },
-        saveListAndBack = {
-            viewModel.onEvent(FoodEvent.SaveListAndBack)
-        },
-        checking = viewModel.checkingFood,
-        saveAndBack = {
-
-        },
-        addListFood = {
-
-        }
-    )
+    DescriptionDialog()
+//    ListUniv(
+//        foodOrWorkout = true,
+//        search = viewModel.searchFood,
+//        chooseArray = {index ->
+//            chooseArrayWorkout(index, context)
+//        },
+//        uiEvent = {
+//
+//        },
+//        fabVisible = viewModel.fabVisible,
+//        clearList = {
+//            viewModel.onEvent(FoodEvent.ClearList)
+//        },
+//        saveListAndBack = {
+//            viewModel.onEvent(FoodEvent.SaveListAndBack)
+//        },
+//        checking = viewModel.checkingFood,
+//        saveAndBack = {
+//
+//        },
+//        addListFood = {
+//
+//        }
+//    )
 
 }
 
@@ -222,11 +228,11 @@ fun chooseArrayWorkout(index: Int, context: Context): ItemList {
         )
 
         else -> ItemList(
-            context.resources.getStringArray(R.array.food_array_milk_products),
-            context.resources.getStringArray(R.array.calories_array_milk_products),
-            context.resources.getStringArray(R.array.proteins_array_milk_products),
-            context.resources.getStringArray(R.array.fats_array_milk_products),
-            context.resources.getStringArray(R.array.carbohydrates_array_milk_products)
+            context.resources.getStringArray(R.array.abs_workout),
+            context.resources.getStringArray(R.array.abs_equipment),
+            context.resources.getStringArray(R.array.abs_primary_muscles),
+            context.resources.getStringArray(R.array.abs_secondary_muscles),
+            context.resources.getStringArray(R.array.abs_secondary_muscles),
         )
     }
 }

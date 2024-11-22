@@ -98,10 +98,24 @@ class CalendarScreenViewModel @Inject constructor(
         Date(
             localDate.month.name,
             localDate.year,
-            getDayOfMonth(localDate.lengthOfMonth()),
+            test(localDate.lengthOfMonth()),
             selectedOfSetDayOfWeek(localDate)
         )
     )
+
+    fun test(daysInMonth: Int): List<DayTraining>{
+        val listR = mutableListOf<DayTraining>()
+        for(i in 1..daysInMonth){
+            listR.add(
+                DayTraining(
+                    i,
+                    false
+                )
+            )
+
+        }
+        return listR
+    }
 
 
     val openTitle = mutableStateOf(false)
@@ -127,31 +141,41 @@ class CalendarScreenViewModel @Inject constructor(
     )
 
     init {
+        getDayOfMonthTest(localDate.lengthOfMonth())
 
-        listOfCurrentMonth.value = Date(
-            localDate.month.name,
-            localDate.year,
-            getDayOfMonth(localDate.lengthOfMonth()),
-            selectedOfSetDayOfWeek(localDate)
-        )
-        //getDayOfMonth(localDate.lengthOfMonth())
+//        Log.d("LogCalendar", "init start")
+//            // getDayOfMonthTest(localDate.lengthOfMonth())
+//        getDayOfMonth(localDate.lengthOfMonth())
+//        listOfCurrentMonth.value = Date(
+//            localDate.month.name,
+//            localDate.year,
+//            getDayOfMonth(localDate.lengthOfMonth()),
+//            selectedOfSetDayOfWeek(localDate)
+//        )
+        Log.d("LogCalendar", "init stop")
     }
 
 
     fun onEvent(event: CalendarEvent) {
         when (event) {
             is CalendarEvent.ClickDay -> {
+                Log.d("LogClickDay", "Click, ${selectedDateToString(event.day, localDate)} / " +
+                        "selected date = ")
                 if (selectedDateToString(event.day, localDate).equals(selectedDate.value.date)) {
+                    Log.d("LogClickDay", "Click day if 1")
                     resetSelectedDay()
                 } else {
+                    Log.d("LogClickDay", "Click day else 1")
                     selectedDate.value.date = selectedDateToString(event.day, localDate)
                     openTitle.value = true
                     openTitle(selectedDate.value.date)
                     if (listOfCurrentMonth.value.dayInMonth.get(event.day.day - 1).training == true) {
+                        Log.d("LogClickDay", "Click training = true")
                         viewModelScope.launch {
                             listWorkoutFlow = getAllItemsByDateFlow(event.day.day.toString())
                         }
                     } else {
+                        Log.d("LogClickDay", "Click training = false")
                         viewModelScope.launch {
                             listWorkoutFlow = null
                             listFoodFlow = null
@@ -275,6 +299,7 @@ class CalendarScreenViewModel @Inject constructor(
             }
 
             is CalendarEvent.SaveCanvasParametr -> {
+                Log.d("LogSaceveCanvas", "save par")
                 selectedDate.value = CanvasParametr(
                     offset = event.canvasPar.offset,
                     radios = event.canvasPar.radios,
@@ -371,7 +396,8 @@ class CalendarScreenViewModel @Inject constructor(
                                 listYear.value.get(indexYear.value).toInt(), month
                             )
                         )
-                        getDayOfMonth(localDate.lengthOfMonth())
+                        getDayOfMonthTest(localDate.lengthOfMonth())
+                       // getDayOfMonth(localDate.lengthOfMonth())
                         resetSelectedDay()
                         changesCanvasParameter()
                         openDialog.value = false
@@ -440,7 +466,7 @@ class CalendarScreenViewModel @Inject constructor(
             is LastOrNextDateEvent.SelectedYearMonth -> {
                 val month = Month.valueOf(event.month)
                 localDate = localDate.minusMonths(calculationMonthOfDate(event.year, month))
-                getDayOfMonth(localDate.lengthOfMonth())
+                    //getDayOfMonth(localDate.lengthOfMonth())
                 changesCanvasParameter()
                 openDropdownMenu.value = false
             }
@@ -508,13 +534,40 @@ class CalendarScreenViewModel @Inject constructor(
         return Date(
             localDate.month.toString(),
             localDate.year,
-            listOf(DayTraining(localDate.dayOfMonth)),
+            mutableListOf(DayTraining(localDate.dayOfMonth)),
             selectedOfSetDayOfWeek(localDate),
         )
     }
 
+
+    private fun getDayOfMonthTest(daysInMonth: Int){
+        val listDays = mutableListOf<DayTraining>()
+        Log.d("LogCalendar", "start")
+        viewModelScope.launch {
+            for (i in 1..daysInMonth) {
+                Log.d("LogCalendar", "list")
+                listDays.add(
+                    DayTraining(
+                        i,
+                        checkTrainingByDate(dateForDB(i, localDate))
+                    )
+                )
+            }
+            Log.d("LogCalendar", "set list")
+            listOfCurrentMonth.value = Date(
+                localDate.month.toString(),
+                year = localDate.year,
+                listDays,
+                selectedOfSetDayOfWeek(localDate),
+            )
+            changesCanvasParameter()
+            Log.d("LogCalendar", listOfCurrentMonth.value.dayInMonth.size.toString())
+        }
+    }
+
     private fun getDayOfMonth(daysInMonth: Int): List<DayTraining> {
         val listDays = mutableListOf<DayTraining>()
+        Log.d("LogCalendar", "getDayOfMonth start")
         viewModelScope.launch {
             for (i in 1..daysInMonth) {
                 listDays.add(
@@ -524,12 +577,14 @@ class CalendarScreenViewModel @Inject constructor(
                     )
                 )
             }
-            listOfCurrentMonth.value = Date(
-                localDate.month.toString(),
-                year = localDate.year,
-                listDays,
-                selectedOfSetDayOfWeek(localDate),
-            )
+//            listOfCurrentMonth.value = Date(
+//                localDate.month.toString(),
+//                year = localDate.year,
+//                listDays,
+//                selectedOfSetDayOfWeek(localDate),
+//            )
+           // Log.d("LogCalendar", "end getDayOfMonth")
+            Log.d("LogCalendar", listOfCurrentMonth.value.dayInMonth.size.toString())
             changesCanvasParameter()
         }
         return listDays
@@ -563,7 +618,9 @@ class CalendarScreenViewModel @Inject constructor(
         } else {
             localDate.plusMonths(1)
         }
-        getDayOfMonth(localDate.lengthOfMonth())
+        Log.d("LogLastOrNextMonth", localDate.lengthOfMonth().toString())
+        getDayOfMonthTest(localDate.lengthOfMonth())
+       // getDayOfMonth(localDate.lengthOfMonth())
         resetSelectedDay()
     }
 

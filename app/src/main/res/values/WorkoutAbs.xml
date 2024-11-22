@@ -530,7 +530,7 @@
         <item>null</item>
         <item>null</item>
         <item>null</item>
-        <item>Secondary Muscles: Hip Flexors</item>
+        <item>Hip Flexors</item>
         <item>null</item>
         <item>null</item>
         <item>null</item>
@@ -545,7 +545,7 @@
         <item>null</item>
         <item>null</item>
         <item>null</item>
-        <item>Secondary Muscles: Abs</item>
+        <item>Abs</item>
         <item>null</item>
         <item>null</item>
         <item>null</item>
@@ -598,8 +598,8 @@
         <item>null</item>
         <item>null</item>
         <item>null</item>
-        <item>Secondary Muscles: Glutes, Hip Flexors</item>
-        <item>Secondary Muscles: Stretch</item>
+        <item>Glutes, Hip Flexors</item>
+        <item>Stretch</item>
         <item>null</item>
         <item>null</item>
         <item>null</item>
@@ -612,11 +612,11 @@
         <item>null</item>
         <item>null</item>
         <item>null</item>
-        <item>Secondary Muscles: Abs</item>
+        <item>Abs</item>
         <item>null</item>
         <item>null</item>
         <item>null</item>
-        <item>Secondary Muscles: Abs</item>
+        <item>Abs</item>
         <item>null</item>
         <item>null</item>
         <item>null</item>
@@ -638,14 +638,14 @@
         <item>null</item>
         <item>null</item>
         <item>null</item>
-        <item>Secondary Muscles: Abs</item>
+        <item>Abs</item>
         <item>null</item>
         <item>null</item>
         <item>null</item>
         <item>null</item>
         <item>null</item>
         <item>null</item>
-        <item>Secondary Muscles: Lower Back, Middle Back</item>
+        <item>Lower Back, Middle Back</item>
     </string-array>
 
 

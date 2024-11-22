@@ -86,8 +86,7 @@ fun UserWorkoutScreen(
                 Log.d("LogUserWorkOut", " x")
                 if(viewModel.date != " "){
                     viewModel.onEvent(UserWorkoutEvent.OnSaveList(Routes.SAVE_LIST_AND_BACK))
-                }else if(trainingList.value.isNotEmpty()){
-                   // Log.d("LogUserWorkOut", " list not empty")
+                }else{ //Добавить проверку
                     onNavigate(
                         Routes.WORKOUT_LIST +  "/${" "}" + "/${viewModel.listId}"
                     )

@@ -34,6 +34,7 @@ class FoodScreenViewModel @Inject constructor(
         date = savedStateHandle.get<String>("date")
         listId = savedStateHandle.get<Int>("listId")
         Log.d("LogId", listId.toString())
+        Log.d("LogId", "asd")
     }
 
     fun onEvent(event: FoodEvent) {

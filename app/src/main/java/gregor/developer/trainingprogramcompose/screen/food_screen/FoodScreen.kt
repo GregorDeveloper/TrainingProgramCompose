@@ -182,7 +182,9 @@ fun FoodScreen(
                                 )
                             ),
                         ),
+
                         viewModel.fabVisible.value,
+                        id = -1,
                         { food ->
                             viewModel.onEvent(FoodEvent.SaveAndBack(food))
                         }
@@ -232,7 +234,8 @@ fun searchFood(
 fun resultSearchFoodList(
     search: String,
     ind: Int,
-    context: Context
+    context: Context,
+
 ): ItemList {
     val name = mutableListOf<String>()
     val calories = mutableListOf<String>()
@@ -439,7 +442,6 @@ fun getIndexCategory(categoryName: String, context: Context): Int {
 fun getNewIndexCategory(name: String, array: Array<String>): Int {
     for ((index, value) in array.withIndex()) {
         if (name.trim().lowercase().equals(value.trim().lowercase())) {
-            Log.d("LogFoodScreenViewModel", "index - $index value - $value")
             return index
         }
     }

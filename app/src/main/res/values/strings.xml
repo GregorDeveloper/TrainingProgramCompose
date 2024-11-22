@@ -48,4 +48,11 @@
     <string name="grams">Grams</string>
     <string name="training">Training</string>
     <string name="calories_calculation">Calories calculation</string>
+    <string name="equipment">Equipment:</string>
+    <string name="primary_muscles">Primary muscles:</string>
+    <string name="secondary_muscles">Secondary Muscles:</string>
+    <string name="add_workout">Add workout</string>
+    <string name="add_food">Add food</string>
+    <string-array name="ok">OK</string-array>
+    <string-array name="save">Save</string-array>
 </resources>

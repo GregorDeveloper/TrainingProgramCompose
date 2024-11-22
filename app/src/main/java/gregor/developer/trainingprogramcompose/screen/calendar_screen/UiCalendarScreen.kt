@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -48,7 +49,7 @@ private const val CALENDAR_COLUMNS = 7
 @Composable
 fun Calendar(
     modifier: Modifier,
-    dateList: Date,
+    dateList: MutableState<Date>,
     onDayClick: (DayTraining) -> Unit,
     strokeWidth: Float = 7f,
     todayDate: Date,
@@ -71,26 +72,26 @@ fun Calendar(
         mutableStateOf(canvasPar.radios)
     }
 
-    val listTest by remember {
+    val listDt = remember {
         mutableStateOf(dateList)
     }
-    val daysOfMonth = remember { mutableStateOf(dateList.dayInMonth) }
+    val daysOfMonth = remember { mutableStateOf(dateList.value.dayInMonth) }
     val dayOfWeek = remember { mutableStateOf(0) }
-    val month = remember { mutableStateOf(dateList.month) }
+    val month = remember { mutableStateOf(dateList.value.month) }
     val year = remember {
-        mutableStateOf(dateList.year)
+        mutableStateOf(dateList.value.year)
     }
-    dayOfWeek.value = dateList.dayOfWeek
-    daysOfMonth.value = dateList.dayInMonth
+    dayOfWeek.value = dateList.value.dayOfWeek
+    daysOfMonth.value = dateList.value.dayInMonth
     val scope = rememberCoroutineScope()
     val clickDay = remember { mutableStateOf(-1) }
     val rowss = remember { mutableStateOf(0) }
     rowss.value = rows
-    if (month.value != dateList.month
-        || year.value != dateList.year
+    if (month.value != dateList.value.month
+        || year.value != dateList.value.year
     ) {
-        year.value = dateList.year
-        month.value = dateList.month
+        year.value = dateList.value.year
+        month.value = dateList.value.month
         animationRadius = 0f
         clickDay.value = -1
     }
@@ -204,20 +205,21 @@ fun Calendar(
             }
             val textHeight = 17.dp.toPx()
 
-            for (i in dateList.dayOfWeek until dateList.dayInMonth.size + dateList.dayOfWeek) {
+            for (i in dateList.value.dayOfWeek until dateList.value.dayInMonth.size + dateList.value.dayOfWeek) {
                 val textPositionX: Float
                 textPositionX = xSteps * (i % CALENDAR_COLUMNS) + strokeWidth
                 val textPositionY = (i / CALENDAR_COLUMNS) * ySteps + textHeight + strokeWidth / 2
                 drawContext.canvas.nativeCanvas.apply {
                     drawText(
-                        dateList.dayInMonth.get(i - dateList.dayOfWeek).day.toString(),
+                    //   listDt.value.value.dayInMonth.get(i - listDt.value.value.dayOfWeek).day.toString(),
+                        dateList.value.dayInMonth.get(i - dateList.value.dayOfWeek).day.toString(),
                         textPositionX,
                         textPositionY,
                         Paint().apply {
                             textSize = textHeight
-                            color = if (dateList.month == todayDate.month &&
-                                dateList.year == todayDate.year &&
-                                dateList.dayInMonth.get(i - dateList.dayOfWeek).day == todayDate.dayInMonth[0].day
+                            color = if (dateList.value.month == todayDate.month &&
+                                dateList.value.year == todayDate.year &&
+                                dateList.value.dayInMonth.get(i - dateList.value.dayOfWeek).day == todayDate.dayInMonth[0].day
                             ) {
                                 Color.Green.toArgb()
                             } else {
@@ -246,7 +248,7 @@ fun Calendar(
                         }
                     }
                 }
-                month.value = dateList.month
+                month.value = dateList.value.month
             }
         }
     }
