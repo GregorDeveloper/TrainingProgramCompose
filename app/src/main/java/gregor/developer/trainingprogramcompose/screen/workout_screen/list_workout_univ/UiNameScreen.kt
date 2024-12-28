@@ -58,7 +58,8 @@ fun UiNameScreen(
                                 primaryMuscles = workoutDate.primaryMuscles,
                                 secondaryMuscles = workoutDate.secondaryMuscles,
                                 additionalPar = "",
-                                checking = !check.value
+                                checking = !check.value,
+                                numberDescription = ""
                             ),
                         )
                         check.value = !check.value
@@ -70,7 +71,8 @@ fun UiNameScreen(
                                 primaryMuscles = workoutDate.primaryMuscles,
                                 secondaryMuscles = workoutDate.secondaryMuscles,
                                 additionalPar = "",
-                                checking = false
+                                checking = false,
+                                numberDescription = ""
                             ),
                         )
                     }
@@ -146,7 +148,8 @@ fun UiNameScreen(
                                     primaryMuscles = workoutDate.primaryMuscles,
                                     secondaryMuscles = workoutDate.secondaryMuscles,
                                     additionalPar = "",
-                                    checking = it
+                                    checking = it,
+                                    numberDescription = ""
                                 ),
                             )
                             check.value = it

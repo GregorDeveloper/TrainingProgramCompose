@@ -9,5 +9,6 @@ data class WorkoutListItem(
     val id: Int? = null,
     val workoutName: String,
     val date: String,
-    val listId: Int
+    val listId: Int,
+    val numberDescription: String,
 )

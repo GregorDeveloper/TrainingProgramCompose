@@ -7,5 +7,6 @@ data class WorkoutDate(
     val secondaryMuscles: String,
     val additionalPar: String,
     var checking: Boolean,
+    val numberDescription: String,
 
 )

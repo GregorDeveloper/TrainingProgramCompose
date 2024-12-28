@@ -8,5 +8,6 @@ data class WorkoutListTraining (
     @PrimaryKey
     val id: Int? = null,
     val name: String,
-    val listId: Int
+    val listId: Int,
+    val numberDescription: String,
 )

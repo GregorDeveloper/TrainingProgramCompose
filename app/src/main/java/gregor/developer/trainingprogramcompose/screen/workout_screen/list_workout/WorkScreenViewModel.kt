@@ -54,6 +54,7 @@ class WorkScreenViewModel @Inject constructor(
     val itemGroup = mutableStateOf<List<WorkoutItem>>(muscleGroup.workoutNeck)
     val listSelected = mutableStateOf<List<WorkoutItem>>(muscleGroup.workoutNeck)
     val groupList = mutableStateOf<List<MuscleItem>>(muscleGroup.muscleGroupList)
+    val numberDescription = mutableStateOf("")
 
     fun onEvent(event: WorkoutEvent) {
         when (event) {
@@ -66,7 +67,8 @@ class WorkScreenViewModel @Inject constructor(
                                 listId,
                                 event.item,
                                 date!!,
-                                0
+                                0,
+                                numberDescription.value
                             )
                         )
 
@@ -78,7 +80,8 @@ class WorkScreenViewModel @Inject constructor(
                                 workoutListItem?.id,
                                 event.item,
                                 date!!,
-                                0 // убрать из таблицы
+                                0, // убрать из таблицы
+                                numberDescription.value
                             )
                         )
                     }else if(listId != -1){
@@ -87,7 +90,8 @@ class WorkScreenViewModel @Inject constructor(
                             WorkoutListTraining(
                                 workoutListItem?.id,
                                 event.item,
-                                listId!!
+                                listId!!,
+                                numberDescription.value
                             )
                         )
                     }

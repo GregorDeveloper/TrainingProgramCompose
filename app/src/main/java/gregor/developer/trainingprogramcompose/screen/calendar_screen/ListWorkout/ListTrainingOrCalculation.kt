@@ -118,10 +118,6 @@ fun ListTrainingOrCalculation(
                     dismissContent = {
                         UiWorkOutScreen(item) { event ->
                             viewModel.onEvent(CalendarEvent.ClickWorkout(event))
-//                                onNavigate(
-//                                    event
-//                                )
-                            //Перейти к концу списка!!!!
                         }
                     },
 

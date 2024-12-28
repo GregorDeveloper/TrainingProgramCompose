@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="abs_workout">
-        <item>One Arm Medicine Ball Slam</item>
+      <item>One Arm Medicine Ball Slam</item>
         <item>Medicine Ball Rotational Throw</item>
         <item>Dragon Flag</item>
         <item>Ab Coaster Machine</item>

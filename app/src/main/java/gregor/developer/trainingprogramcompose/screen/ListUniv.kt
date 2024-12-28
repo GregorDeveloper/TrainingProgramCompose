@@ -43,7 +43,7 @@ fun ListUniv(
     search: MutableState<String>,
     fabVisible: MutableState<Boolean>,
     id: Int,
-    clickDescription: (String) -> Unit,
+    clickDescription: (String, Int, Int) -> Unit,
     clearList: () -> Unit,
     saveListAndBack: () -> Unit,
     checking: MutableList<WorkoutDate>,
@@ -171,29 +171,34 @@ fun ListUniv(
                 contentPadding = PaddingValues(bottom = 20.dp)
             ) {
                 itemsIndexed(arrayName.name) { index, item ->
-                    if(foodOrWorkout){
+                    if (foodOrWorkout) {
                         UiNameScreen(
-                           workoutDate =  WorkoutDate(
+                            workoutDate = WorkoutDate(
                                 name = item,
                                 equipment = arrayName.calories.get(index),
                                 primaryMuscles = arrayName.proteins.get(index),
                                 secondaryMuscles = arrayName.fats.get(index),
                                 additionalPar = "",
-                                checking = checkList(item, checking)
+                                checking = checkList(item, checking),
+                                numberDescription = ""
                             ),
                             checking = fabVisible.value,
                             id = id,
                             clickDescription = { name ->
-                                clickDescription(name)
+                                clickDescription(
+                                    name,
+                                    indexCat,
+                                    index
+                                )
                             },
-                           clickFood =  { food ->
-                                saveAndBack(food)
+                            clickFood = { food ->
+                                saveAndBack(createItemFoodOrWorkout(food, indexCat, index))
                             },
                             addList = { food ->
-                                addListFood(food)
+                                addListFood(createItemFoodOrWorkout(food, indexCat, index))
                             }
                         )
-                    }else{
+                    } else {
                         UiFoodNameScreen(
                             foodDate = FoodDate(
                                 name = item,
@@ -203,19 +208,20 @@ fun ListUniv(
                                 carbohydrates = arrayName.carbohydrates.get(index).toDouble(),
                                 checking = checkList(item, checking)
                             ),
-                           checking = fabVisible.value,
+                            checking = fabVisible.value,
                             id = id,
-                           clickFood =  { food ->
-                               saveAndBack(
-                                   WorkoutDate(
-                                   name = food.name,
-                                   equipment = food.calories.toString(),
-                                   primaryMuscles = food.proteins.toString(),
-                                   secondaryMuscles = food.fats.toString(),
-                                   additionalPar = food.carbohydrates.toString(),
-                                   checking = food.checking
-                               )
-                               )
+                            clickFood = { food ->
+                                saveAndBack(
+                                    WorkoutDate(
+                                        name = food.name,
+                                        equipment = food.calories.toString(),
+                                        primaryMuscles = food.proteins.toString(),
+                                        secondaryMuscles = food.fats.toString(),
+                                        additionalPar = food.carbohydrates.toString(),
+                                        checking = food.checking,
+                                        numberDescription = ""
+                                    )
+                                )
                             },
                             addList = { food ->
                                 addListFood(
@@ -231,6 +237,17 @@ fun ListUniv(
 
 
     }
+}
+fun createItemFoodOrWorkout(workout: WorkoutDate, indexCat: Int, indexItem: Int): WorkoutDate{
+    return WorkoutDate(
+        name = workout.name,
+        equipment = workout.equipment,
+        primaryMuscles = workout.primaryMuscles,
+        secondaryMuscles = workout.secondaryMuscles,
+        additionalPar = workout.additionalPar,
+        checking = workout.checking,
+        numberDescription = "${indexCat}_${indexItem}"
+    )
 }
 
 fun searchItemUniv(
@@ -295,7 +312,8 @@ fun resultSearchList(
         calories = calories.toTypedArray(),
         proteins = proteins.toTypedArray(),
         fats = fats.toTypedArray(),
-        carbohydrates = carbohydrates.toTypedArray()
+        carbohydrates = carbohydrates.toTypedArray(),
+        arrayOf()
     )
 }
 
@@ -328,7 +346,6 @@ fun getArrayCategory(context: Context, foodOrWorkout: Boolean): Array<String> {
 }
 
 fun getArrayList(index: Int, context: Context, foodOrWorkout: Boolean): ItemList {
-    Log.d("LogSearchResult", index.toString())
     return if (foodOrWorkout) {
         chooseArrayWorkout(index, context)
     } else {
@@ -336,17 +353,16 @@ fun getArrayList(index: Int, context: Context, foodOrWorkout: Boolean): ItemList
     }
 }
 
-fun checkList(name: String, list: MutableList<WorkoutDate>): Boolean{
+fun checkList(name: String, list: MutableList<WorkoutDate>): Boolean {
     var a = false
     list.forEach {
-        if(it.name.equals(name)) a = true
+        if (it.name.equals(name)) a = true
     }
-    Log.d("LogCheckList", a.toString())
     return a
 }
 
-fun chooseArrayCategory(foodOrWorkout: Boolean, context: Context): Array<String>{
-    return context.resources.getStringArray(if(foodOrWorkout)R.array.muscle_group else R.array.food_array_categories)
+fun chooseArrayCategory(foodOrWorkout: Boolean, context: Context): Array<String> {
+    return context.resources.getStringArray(if (foodOrWorkout) R.array.muscle_group else R.array.food_array_categories)
 }
 
 fun chooseArrayWorkout(index: Int, context: Context): ItemList {
@@ -356,6 +372,7 @@ fun chooseArrayWorkout(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.abs_equipment),
             context.resources.getStringArray(R.array.abs_primary_muscles),
             context.resources.getStringArray(R.array.abs_secondary_muscles),
+            arrayOf(),
             arrayOf()
         )
 
@@ -364,6 +381,7 @@ fun chooseArrayWorkout(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.back_wing_equipment),
             context.resources.getStringArray(R.array.back_wing_primary_muscles),
             context.resources.getStringArray(R.array.back_wing_secondary_muscles),
+            arrayOf(),
             arrayOf()
         )
 
@@ -372,6 +390,7 @@ fun chooseArrayWorkout(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.biceps_equipment),
             context.resources.getStringArray(R.array.biceps_primary_muscles),
             context.resources.getStringArray(R.array.biceps_secondary_muscles),
+            arrayOf(),
             arrayOf()
         )
 
@@ -380,6 +399,7 @@ fun chooseArrayWorkout(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.calf_equipment),
             context.resources.getStringArray(R.array.calf_primary_muscles),
             context.resources.getStringArray(R.array.calf_secondary_muscles),
+            arrayOf(),
             arrayOf()
         )
 
@@ -388,6 +408,7 @@ fun chooseArrayWorkout(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.calisthenics_equipment),
             context.resources.getStringArray(R.array.calisthenics_primary_muscles),
             context.resources.getStringArray(R.array.calisthenics_secondary_muscles),
+            arrayOf(),
             arrayOf()
         )
 
@@ -396,6 +417,7 @@ fun chooseArrayWorkout(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.cardio_equipment),
             context.resources.getStringArray(R.array.cardio_primary_muscles),
             context.resources.getStringArray(R.array.cardio_secondary_muscles),
+            arrayOf(),
             arrayOf()
         )
 
@@ -404,6 +426,7 @@ fun chooseArrayWorkout(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.chest_equipment),
             context.resources.getStringArray(R.array.chest_primary_muscles),
             context.resources.getStringArray(R.array.chest_secondary_muscles),
+            arrayOf(),
             arrayOf()
         )
 
@@ -412,6 +435,7 @@ fun chooseArrayWorkout(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.erector_spinae_equipment),
             context.resources.getStringArray(R.array.erector_spinae_primary_muscles),
             context.resources.getStringArray(R.array.erector_spinae_secondary_muscles),
+            arrayOf(),
             arrayOf()
         )
 
@@ -420,6 +444,7 @@ fun chooseArrayWorkout(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.forearm_equipment),
             context.resources.getStringArray(R.array.forearm_primary_muscles),
             context.resources.getStringArray(R.array.forearm_secondary_muscles),
+            arrayOf(),
             arrayOf()
         )
 
@@ -428,6 +453,7 @@ fun chooseArrayWorkout(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.full_body_equipment),
             context.resources.getStringArray(R.array.full_body_primary_muscles),
             context.resources.getStringArray(R.array.full_body_secondary_muscles),
+            arrayOf(),
             arrayOf()
         )
 
@@ -436,6 +462,7 @@ fun chooseArrayWorkout(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.hip_equipment),
             context.resources.getStringArray(R.array.hip_primary_muscles),
             context.resources.getStringArray(R.array.hip_secondary_muscles),
+            arrayOf(),
             arrayOf()
         )
 
@@ -444,6 +471,7 @@ fun chooseArrayWorkout(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.leg_equipment),
             context.resources.getStringArray(R.array.leg_primary_muscles),
             context.resources.getStringArray(R.array.leg_secondary_muscles),
+            arrayOf(),
             arrayOf()
         )
 
@@ -452,6 +480,7 @@ fun chooseArrayWorkout(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.neck_equipment),
             context.resources.getStringArray(R.array.neck_primary_muscles),
             context.resources.getStringArray(R.array.neck_secondary_muscles),
+            arrayOf(),
             arrayOf()
         )
 
@@ -460,6 +489,7 @@ fun chooseArrayWorkout(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.shoulders_equipment),
             context.resources.getStringArray(R.array.shoulders_primary_muscles),
             context.resources.getStringArray(R.array.shoulders_secondary_muscles),
+            arrayOf(),
             arrayOf()
         )
 
@@ -468,6 +498,7 @@ fun chooseArrayWorkout(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.trapezius_equipment),
             context.resources.getStringArray(R.array.trapezius_primary_muscles),
             context.resources.getStringArray(R.array.trapezius_secondary_muscles),
+            arrayOf(),
             arrayOf()
         )
 
@@ -476,6 +507,7 @@ fun chooseArrayWorkout(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.triceps_equipment),
             context.resources.getStringArray(R.array.triceps_primary_muscles),
             context.resources.getStringArray(R.array.triceps_secondary_muscles),
+            arrayOf(),
             arrayOf()
         )
 
@@ -484,6 +516,7 @@ fun chooseArrayWorkout(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.yoga_equipment),
             context.resources.getStringArray(R.array.yoga_primary_muscles),
             context.resources.getStringArray(R.array.yoga_secondary_muscles),
+            arrayOf(),
             arrayOf()
         )
 
@@ -492,19 +525,21 @@ fun chooseArrayWorkout(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.abs_equipment),
             context.resources.getStringArray(R.array.abs_primary_muscles),
             context.resources.getStringArray(R.array.abs_secondary_muscles),
-            context.resources.getStringArray(R.array.abs_secondary_muscles),
+            arrayOf(),
+            arrayOf()
         )
     }
 }
 
-fun foodToWorkout(food: FoodDate): WorkoutDate{
+fun foodToWorkout(food: FoodDate): WorkoutDate {
     return WorkoutDate(
         name = food.name,
         equipment = food.calories.toString(),
         primaryMuscles = food.proteins.toString(),
         secondaryMuscles = food.fats.toString(),
         additionalPar = food.carbohydrates.toString(),
-        checking = food.checking
+        checking = food.checking,
+        numberDescription = ""
     )
 }
 
@@ -515,7 +550,8 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.calories_array_milk_products),
             context.resources.getStringArray(R.array.proteins_array_milk_products),
             context.resources.getStringArray(R.array.fats_array_milk_products),
-            context.resources.getStringArray(R.array.carbohydrates_array_milk_products)
+            context.resources.getStringArray(R.array.carbohydrates_array_milk_products),
+            arrayOf()
         )
 
         1 -> ItemList(
@@ -523,7 +559,8 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.calories_array_fats_oils),
             context.resources.getStringArray(R.array.proteins_array_fats_oils),
             context.resources.getStringArray(R.array.fats_array_fats_oils),
-            context.resources.getStringArray(R.array.carbohydrates_array_fats_oils)
+            context.resources.getStringArray(R.array.carbohydrates_array_fats_oils),
+            arrayOf()
         )
 
         2 -> ItemList(
@@ -532,6 +569,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_bread_and_bakery),
             context.resources.getStringArray(R.array.fats_array_bread_and_bakery),
             context.resources.getStringArray(R.array.carbohydrates_array_bread_and_bakery),
+            arrayOf()
         )
 
         3 -> ItemList(
@@ -540,6 +578,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_cereals),
             context.resources.getStringArray(R.array.fats_array_cereals),
             context.resources.getStringArray(R.array.carbohydrates_array_cereals),
+            arrayOf()
         )
 
         4 -> ItemList(
@@ -548,6 +587,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_vegetables),
             context.resources.getStringArray(R.array.fats_array_vegetables),
             context.resources.getStringArray(R.array.carbohydrates_array_vegetables),
+            arrayOf()
         )
 
         5 -> ItemList(
@@ -556,6 +596,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_fruits_berries),
             context.resources.getStringArray(R.array.fats_array_fruits_berries),
             context.resources.getStringArray(R.array.carbohydrates_array_fruits_berries),
+            arrayOf()
         )
 
         6 -> ItemList(
@@ -564,6 +605,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_dried_fruits),
             context.resources.getStringArray(R.array.fats_array_dried_fruits),
             context.resources.getStringArray(R.array.carbohydrates_array_dried_fruits),
+            arrayOf()
         )
 
         7 -> ItemList(
@@ -572,6 +614,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_beans),
             context.resources.getStringArray(R.array.fats_array_beans),
             context.resources.getStringArray(R.array.carbohydrates_array_beans),
+            arrayOf()
         )
 
         8 -> ItemList(
@@ -580,6 +623,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_mushrooms),
             context.resources.getStringArray(R.array.fats_array_mushrooms),
             context.resources.getStringArray(R.array.carbohydrates_array_mushrooms),
+            arrayOf()
         )
 
         9 -> ItemList(
@@ -587,7 +631,8 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.calories_array_meat_offal_poultry),
             context.resources.getStringArray(R.array.proteins_array_meat_offal_poultry),
             context.resources.getStringArray(R.array.fats_array_meat_offal_poultry),
-            context.resources.getStringArray(R.array.carbohydrates_array_meat_offal_poultry)
+            context.resources.getStringArray(R.array.carbohydrates_array_meat_offal_poultry),
+            arrayOf()
         )
 
         10 -> ItemList(
@@ -596,6 +641,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_sausage_products),
             context.resources.getStringArray(R.array.fats_array_sausage_products),
             context.resources.getStringArray(R.array.carbohydrates_array_sausage_products),
+            arrayOf()
         )
 
         11 -> ItemList(
@@ -604,6 +650,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_canned_meat_and_smoked),
             context.resources.getStringArray(R.array.fats_array_canned_meat_and_smoked),
             context.resources.getStringArray(R.array.carbohydrates_array_canned_meat_and_smoked),
+            arrayOf()
         )
 
         12 -> ItemList(
@@ -612,6 +659,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_eggs),
             context.resources.getStringArray(R.array.fats_array_eggs),
             context.resources.getStringArray(R.array.carbohydrates_array_eggs),
+            arrayOf()
         )
 
         13 -> ItemList(
@@ -620,6 +668,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_fish_and_seafood),
             context.resources.getStringArray(R.array.fats_array_fish_and_seafood),
             context.resources.getStringArray(R.array.carbohydrates_array_fish_and_seafood),
+            arrayOf()
         )
 
         14 -> ItemList(
@@ -628,8 +677,8 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_caviar),
             context.resources.getStringArray(R.array.fats_array_caviar),
             context.resources.getStringArray(R.array.carbohydrates_array_caviar),
-
-            )
+            arrayOf()
+        )
 
         15 -> ItemList(
             context.resources.getStringArray(R.array.food_array_nuts),
@@ -637,6 +686,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_nuts),
             context.resources.getStringArray(R.array.fats_array_nuts),
             context.resources.getStringArray(R.array.carbohydrates_array_nuts),
+            arrayOf()
         )
 
         16 -> ItemList(
@@ -645,6 +695,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_sweets),
             context.resources.getStringArray(R.array.fats_array_sweets),
             context.resources.getStringArray(R.array.carbohydrates_array_sweets),
+            arrayOf()
         )
 
         17 -> ItemList(
@@ -653,6 +704,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_drinks),
             context.resources.getStringArray(R.array.fats_array_drinks),
             context.resources.getStringArray(R.array.carbohydrates_array_drinks),
+            arrayOf()
         )
 
         else -> ItemList(
@@ -660,7 +712,12 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.calories_array_milk_products),
             context.resources.getStringArray(R.array.proteins_array_milk_products),
             context.resources.getStringArray(R.array.fats_array_milk_products),
-            context.resources.getStringArray(R.array.carbohydrates_array_milk_products)
+            context.resources.getStringArray(R.array.carbohydrates_array_milk_products),
+            arrayOf()
         )
     }
+}
+
+fun getArrayDescription() {
+
 }

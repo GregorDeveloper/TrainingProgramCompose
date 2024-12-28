@@ -18,6 +18,8 @@ import androidx.compose.material.IconButton
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -31,6 +33,7 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import gregor.developer.training_program_compose.data.entity.WeightRepsWorkoutItem
 import gregor.developer.trainingprogramcompose.R
+import gregor.developer.trainingprogramcompose.dialog.dialog_list.DescriptionDialog
 import gregor.developer.trainingprogramcompose.dialog.dialog_weight_reps.DialogWeightReps
 import gregor.developer.trainingprogramcompose.screen.title_date.TitleDate
 import gregor.developer.trainingprogramcompose.screen.weight_reps_screen.NewWeightRepsScreen.UiNewWeightRepsScreen
@@ -60,6 +63,9 @@ fun WeightRepsScreenUniv(
 
         }
     }
+    val openDescription = remember {
+        mutableStateOf(false)
+    }
     val weightRepsTest = mutableListOf<WeightRepsWorkoutItem>()
     Column(
         modifier = Modifier
@@ -77,7 +83,7 @@ fun WeightRepsScreenUniv(
                 openDropMenu = viewModel.openDropdownMenu,
                 openItemCurrentDate = viewModel.openItemCurrentDate.value,
                 dateItem = null,
-                modifier = Modifier,
+                modifier = Modifier.fillMaxWidth(),
                 viewModel.listDate,
                 currentDate = viewModel.getCurrentDate(),
                 selectedDate = viewModel.date.value
@@ -117,15 +123,6 @@ fun WeightRepsScreenUniv(
                     modifier = Modifier.fillMaxSize(),
                     contentAlignment = if (weightRepsTest.isEmpty()) Alignment.Center else Alignment.TopCenter
                 ) {
-//                    if (weightRepsTest.isEmpty()) {
-//                        Text(
-//                            text = "Empty table",
-//                            style = TextStyle(
-//                                fontSize = 25.sp,
-//                                color = Color.White
-//                            )
-//                        )
-//                    } else {
                     Column(modifier = Modifier.fillMaxSize()) {
                         LazyColumn(modifier = Modifier.weight(0.8f)) {
                             itemsIndexed(
@@ -192,7 +189,7 @@ fun WeightRepsScreenUniv(
                                 tint = Color.White
                             )
                         }
-                        IconButton(onClick = { /*TODO*/ }) {
+                        IconButton(onClick = { openDescription.value = true }) {
                             Icon(
                                 painter = painterResource(id = R.drawable.info_icon),
                                 contentDescription = "delete note",
@@ -205,6 +202,13 @@ fun WeightRepsScreenUniv(
         }
 
     }
-
+    if(openDescription.value){
+        DescriptionDialog(
+            viewModel.indexCategory,
+            viewModel.indexItem
+        ) {
+            openDescription.value = !openDescription.value
+        }
+    }
     DialogWeightReps(dialogController = viewModel)
 }

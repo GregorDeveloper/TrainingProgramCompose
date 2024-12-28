@@ -43,8 +43,6 @@ class ViewModelListWorkout @Inject constructor(
     var date: String? = null
     override var workoutOrFood: MutableState<Boolean> = mutableStateOf(true)
 
-
-
     val fabVisibility = mutableStateOf(false)
     val search = mutableStateOf("")
 
@@ -101,7 +99,7 @@ class ViewModelListWorkout @Inject constructor(
             is DialogListEvent.OnConfirm -> {
                 viewModelScope.launch {
                     list.forEach {
-                        saveItemWorkout(it.name)
+                        saveItemWorkout(it)
                     }
                     openDialog.value = false
                     sendUiEvent(UiEvent.BackStack)
@@ -115,15 +113,16 @@ class ViewModelListWorkout @Inject constructor(
         }
     }
 
-    private suspend fun saveItemWorkout(name: String) {
+    private suspend fun saveItemWorkout(workoutDate: WorkoutDate) {
         if (listId == -1) {
             Log.d("LogSave", "listId == -1")
             repositoryWorkout.insertItem(
                 WorkoutListItem(
                     id = workoutListItem?.id,
-                    workoutName = name,
+                    workoutName = workoutDate.name,
                     date = date ?: "",
-                    listId = listId ?: -1
+                    listId = listId ?: -1,
+                    numberDescription = workoutDate.numberDescription
                 )
             )
         } else if(listId != -1 && date == " ") {
@@ -131,17 +130,19 @@ class ViewModelListWorkout @Inject constructor(
             repositoryTraining.insertItem(
                 WorkoutListTraining(
                     id = workoutListItem?.id,
-                    name = name,
-                    listId = listId!!
+                    name = workoutDate.name,
+                    listId = listId!!,
+                    numberDescription = workoutDate.numberDescription
                 )
             )
         }else if(listId!! > 0){
             repositoryWorkout.insertItem(
                 WorkoutListItem(
                     id = listId,
-                    workoutName = name,
+                    workoutName = workoutDate.name,
                     date = date ?: "",
-                    listId = listId ?: -1
+                    listId = listId ?: -1,
+                    numberDescription = workoutDate.numberDescription
                 )
             )
         }

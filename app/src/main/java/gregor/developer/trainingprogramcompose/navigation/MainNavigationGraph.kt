@@ -114,13 +114,18 @@ fun MainNavigationGraph(
                 }
             }
         }
-        composable(Routes.WEIGHT_REPS_SCREEN_UNIV + "/{workoutName}" + "/{date}",
+        composable(Routes.WEIGHT_REPS_SCREEN_UNIV + "/{workoutName}" + "/{date}"
+                + "/{numberDescription}",
             arguments = listOf(
                 navArgument("workoutName") {
                     type = NavType.StringType
                     defaultValue = ""
                 },
                 navArgument("date"){
+                    type = NavType.StringType
+                    defaultValue = ""
+                },
+                navArgument("numberDescription"){
                     type = NavType.StringType
                     defaultValue = ""
                 }

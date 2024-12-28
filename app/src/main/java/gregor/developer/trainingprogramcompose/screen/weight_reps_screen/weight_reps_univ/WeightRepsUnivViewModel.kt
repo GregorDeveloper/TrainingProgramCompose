@@ -36,6 +36,10 @@ class WeightRepsUnivViewModel @Inject constructor(
     private val _uiEvent = Channel<UiEvent>()
     val uiEvent = _uiEvent.receiveAsFlow()
 
+    private var numberDescription: String? = null
+    var indexCategory = -1
+    var indexItem = -1
+
     var openItemCurrentDate = mutableStateOf(true)
     private var index = -1
     override var dialogTitle = mutableStateOf("")
@@ -56,7 +60,11 @@ class WeightRepsUnivViewModel @Inject constructor(
     init {
         workoutName = savedStateHandle.get<String>("workoutName")
         date.value = savedStateHandle.get<String>("date") ?: ""
+        numberDescription = savedStateHandle.get<String>("numberDescription")
         openChangeDate = todayOrLastDate(date.value)
+
+        indexCategory = numberDescription?.substringBefore("_")!!.toInt()
+        indexItem = numberDescription?.substringAfter("_")!!.toInt()
         viewModelScope.launch {
             getItemCurrentDate()
         }

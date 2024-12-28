@@ -221,6 +221,7 @@ class CalendarScreenViewModel @Inject constructor(
                 if (selectedDate.value.date.trim() == date.trim()
                     || selectedDate.value.date.trim() < date.trim()
                 ) {
+                    Log.d("LogClickWorkout", event.route)
                     sendUiEvent(UiEvent.Navigate(event.route))
                 } else {
                     sendUiEvent(UiEvent.ShowToast(selectedDate.value.date))

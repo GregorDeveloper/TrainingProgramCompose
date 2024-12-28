@@ -41,6 +41,7 @@ class UserWorkoutScreenViewModel @Inject constructor(
     var date: String? = null
     private val _uiEvent = Channel<UiEvent>()
     val uiEvent = _uiEvent.receiveAsFlow()
+    val numberDescription = mutableStateOf("")
 
     init {
         listId = savedStateHandle.get<Int>("listId")
@@ -86,7 +87,8 @@ class UserWorkoutScreenViewModel @Inject constructor(
                                         null,
                                         list.get(i).name,
                                         date!!,
-                                        0
+                                        0,
+                                        list.get(i).numberDescription
                                     )
                                 )
                             }

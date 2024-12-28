@@ -34,7 +34,9 @@ fun FoodScreenNew(
         search = viewModel.search,
         fabVisible = viewModel.fabVisibility,
         id = viewModel.listId ?: -1,
-        clickDescription = {},
+        clickDescription = {name, indexCat, indexList ->
+
+        },
         clearList = { viewModel.onEvent(FoodEventNew.ClearList) },
         saveListAndBack = { viewModel.onEvent(FoodEventNew.SaveListAndBack) },
         checking = viewModel.list,

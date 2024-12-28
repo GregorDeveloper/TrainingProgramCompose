@@ -307,7 +307,8 @@ fun TitleWorkoutCalendar(
                                             null,
                                             "",
                                             viewModel.selectedDate.value.date,
-                                            0
+                                            0,
+                                            ""
                                         ),
                                         Routes.DIALOG_DELETE_TRAINING,
                                         context.getString(R.string.delete_all_workout_for)

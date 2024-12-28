@@ -11,6 +11,7 @@ import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material.Button
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -33,8 +34,10 @@ import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.hilt.navigation.compose.hiltViewModel
 import gregor.developer.trainingprogramcompose.R
 import gregor.developer.trainingprogramcompose.dialog.dialog_list.DescriptionDialog
@@ -45,7 +48,8 @@ import gregor.developer.trainingprogramcompose.screen.food_screen.ItemList
 import gregor.developer.trainingprogramcompose.screen.food_screen.chooseArrayFood
 import kotlinx.coroutines.launch
 import java.time.LocalDate
-
+import javax.annotation.Resource
+import kotlin.jvm.internal.Reflection
 
 
 @Preview(showBackground = true)
@@ -53,7 +57,28 @@ import java.time.LocalDate
 fun SettingsScreen(
     viewModel: FoodScreenViewModel = hiltViewModel()
 ) {
-    DescriptionDialog()
+    val context = LocalContext.current
+
+
+    //val test = context.resources.getStringArray(R.array.asd).get(0).get(0)
+    val open = remember {
+        mutableStateOf(false)
+    }
+    ConstraintLayout(modifier = Modifier.fillMaxSize()) {
+        Button(onClick = {
+            open.value = !open.value
+            Log.d("LogOpen", open.value.toString())
+        }) {
+            Text(text = "open description")
+        }
+        if(open.value){
+            DescriptionDialog( -1, -1){
+                open.value = !open.value
+                Log.d("LogOpen", open.value.toString())
+            }
+        }
+    }
+    //DescriptionDialog()
 //    ListUniv(
 //        foodOrWorkout = true,
 //        search = viewModel.searchFood,
@@ -79,162 +104,6 @@ fun SettingsScreen(
 //        }
 //    )
 
-}
-
-fun chooseArrayWorkout(index: Int, context: Context): ItemList {
-    return when (index) {
-        0 -> ItemList(
-            context.resources.getStringArray(R.array.abs_workout),
-            context.resources.getStringArray(R.array.abs_equipment),
-            context.resources.getStringArray(R.array.abs_primary_muscles),
-            context.resources.getStringArray(R.array.abs_secondary_muscles),
-            arrayOf()
-        )
-
-        1 -> ItemList(
-            context.resources.getStringArray(R.array.back_wing_workout),
-            context.resources.getStringArray(R.array.back_wing_equipment),
-            context.resources.getStringArray(R.array.back_wing_primary_muscles),
-            context.resources.getStringArray(R.array.back_wing_secondary_muscles),
-            arrayOf()
-        )
-
-        2 -> ItemList(
-            context.resources.getStringArray(R.array.biceps_workout),
-            context.resources.getStringArray(R.array.biceps_equipment),
-            context.resources.getStringArray(R.array.biceps_primary_muscles),
-            context.resources.getStringArray(R.array.biceps_secondary_muscles),
-            arrayOf()
-        )
-
-        3 -> ItemList(
-            context.resources.getStringArray(R.array.calf_workout),
-            context.resources.getStringArray(R.array.calf_equipment),
-            context.resources.getStringArray(R.array.calf_primary_muscles),
-            context.resources.getStringArray(R.array.calf_secondary_muscles),
-            arrayOf()
-        )
-
-        4 -> ItemList(
-            context.resources.getStringArray(R.array.calisthenics_workout),
-            context.resources.getStringArray(R.array.calisthenics_equipment),
-            context.resources.getStringArray(R.array.calisthenics_primary_muscles),
-            context.resources.getStringArray(R.array.calisthenics_secondary_muscles),
-            arrayOf()
-        )
-
-        5 -> ItemList(
-            context.resources.getStringArray(R.array.cardio_workout),
-            context.resources.getStringArray(R.array.cardio_equipment),
-            context.resources.getStringArray(R.array.cardio_primary_muscles),
-            context.resources.getStringArray(R.array.cardio_secondary_muscles),
-            arrayOf()
-        )
-
-        6 -> ItemList(
-            context.resources.getStringArray(R.array.chest_workout),
-            context.resources.getStringArray(R.array.chest_equipment),
-            context.resources.getStringArray(R.array.chest_primary_muscles),
-            context.resources.getStringArray(R.array.chest_secondary_muscles),
-            arrayOf()
-        )
-
-        7 -> ItemList(
-            context.resources.getStringArray(R.array.erector_spinae_workout),
-            context.resources.getStringArray(R.array.erector_spinae_equipment),
-            context.resources.getStringArray(R.array.erector_spinae_primary_muscles),
-            context.resources.getStringArray(R.array.erector_spinae_secondary_muscles),
-            arrayOf()
-        )
-
-        8 -> ItemList(
-            context.resources.getStringArray(R.array.forearm_workout),
-            context.resources.getStringArray(R.array.forearm_equipment),
-            context.resources.getStringArray(R.array.forearm_primary_muscles),
-            context.resources.getStringArray(R.array.forearm_secondary_muscles),
-            arrayOf()
-        )
-
-        9 -> ItemList(
-            context.resources.getStringArray(R.array.full_body_workout),
-            context.resources.getStringArray(R.array.full_body_equipment),
-            context.resources.getStringArray(R.array.full_body_primary_muscles),
-            context.resources.getStringArray(R.array.full_body_secondary_muscles),
-            arrayOf()
-        )
-
-        10 -> ItemList(
-            context.resources.getStringArray(R.array.hip_workout),
-            context.resources.getStringArray(R.array.hip_equipment),
-            context.resources.getStringArray(R.array.hip_primary_muscles),
-            context.resources.getStringArray(R.array.hip_secondary_muscles),
-            arrayOf()
-        )
-
-        11 -> ItemList(
-            context.resources.getStringArray(R.array.leg_workout),
-            context.resources.getStringArray(R.array.leg_equipment),
-            context.resources.getStringArray(R.array.leg_primary_muscles),
-            context.resources.getStringArray(R.array.leg_secondary_muscles),
-            arrayOf()
-        )
-
-        12 -> ItemList(
-            context.resources.getStringArray(R.array.neck_workout),
-            context.resources.getStringArray(R.array.neck_equipment),
-            context.resources.getStringArray(R.array.neck_primary_muscles),
-            context.resources.getStringArray(R.array.neck_secondary_muscles),
-            arrayOf()
-        )
-
-        13 -> ItemList(
-            context.resources.getStringArray(R.array.shoulders_workout),
-            context.resources.getStringArray(R.array.shoulders_equipment),
-            context.resources.getStringArray(R.array.shoulders_primary_muscles),
-            context.resources.getStringArray(R.array.shoulders_secondary_muscles),
-            arrayOf()
-        )
-
-        14 -> ItemList(
-            context.resources.getStringArray(R.array.trapezius_workout),
-            context.resources.getStringArray(R.array.trapezius_equipment),
-            context.resources.getStringArray(R.array.trapezius_primary_muscles),
-            context.resources.getStringArray(R.array.trapezius_secondary_muscles),
-            arrayOf()
-            )
-
-        15 -> ItemList(
-            context.resources.getStringArray(R.array.triceps_workout),
-            context.resources.getStringArray(R.array.trapezius_equipment),
-            context.resources.getStringArray(R.array.triceps_primary_muscles),
-            context.resources.getStringArray(R.array.triceps_secondary_muscles),
-            arrayOf()
-        )
-
-        16 -> ItemList(
-            context.resources.getStringArray(R.array.yoga_workout),
-            context.resources.getStringArray(R.array.yoga_equipment),
-            context.resources.getStringArray(R.array.yoga_primary_muscles),
-            context.resources.getStringArray(R.array.yoga_secondary_muscles),
-            arrayOf()
-        )
-
-        17 -> ItemList(
-            context.resources.getStringArray(R.array.food_array_drinks),
-            context.resources.getStringArray(R.array.calories_array_drinks),
-            context.resources.getStringArray(R.array.proteins_array_drinks),
-            context.resources.getStringArray(R.array.fats_array_drinks),
-            context.resources.getStringArray(R.array.carbohydrates_array_drinks),
-        )
-
-        else -> ItemList(
-            context.resources.getStringArray(R.array.abs_workout),
-            context.resources.getStringArray(R.array.abs_equipment),
-            context.resources.getStringArray(R.array.abs_primary_muscles),
-            context.resources.getStringArray(R.array.abs_secondary_muscles),
-            context.resources.getStringArray(R.array.abs_secondary_muscles),
-        )
-    }
 }
 
 //@RequiresApi(Build.VERSION_CODES.O)

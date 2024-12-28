@@ -235,8 +235,7 @@ fun resultSearchFoodList(
     search: String,
     ind: Int,
     context: Context,
-
-): ItemList {
+    ): ItemList {
     val name = mutableListOf<String>()
     val calories = mutableListOf<String>()
     val proteins = mutableListOf<String>()
@@ -257,7 +256,8 @@ fun resultSearchFoodList(
         calories = calories.toTypedArray(),
         proteins = proteins.toTypedArray(),
         fats = fats.toTypedArray(),
-        carbohydrates = carbohydrates.toTypedArray()
+        carbohydrates = carbohydrates.toTypedArray(),
+        arrayOf()
     )
 }
 
@@ -269,7 +269,8 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.calories_array_milk_products),
             context.resources.getStringArray(R.array.proteins_array_milk_products),
             context.resources.getStringArray(R.array.fats_array_milk_products),
-            context.resources.getStringArray(R.array.carbohydrates_array_milk_products)
+            context.resources.getStringArray(R.array.carbohydrates_array_milk_products),
+                    arrayOf()
         )
 
         1 -> ItemList(
@@ -277,7 +278,8 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.calories_array_fats_oils),
             context.resources.getStringArray(R.array.proteins_array_fats_oils),
             context.resources.getStringArray(R.array.fats_array_fats_oils),
-            context.resources.getStringArray(R.array.carbohydrates_array_fats_oils)
+            context.resources.getStringArray(R.array.carbohydrates_array_fats_oils),
+            arrayOf()
         )
 
         2 -> ItemList(
@@ -286,6 +288,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_bread_and_bakery),
             context.resources.getStringArray(R.array.fats_array_bread_and_bakery),
             context.resources.getStringArray(R.array.carbohydrates_array_bread_and_bakery),
+            arrayOf()
         )
 
         3 -> ItemList(
@@ -294,6 +297,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_cereals),
             context.resources.getStringArray(R.array.fats_array_cereals),
             context.resources.getStringArray(R.array.carbohydrates_array_cereals),
+            arrayOf()
         )
 
         4 -> ItemList(
@@ -302,6 +306,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_vegetables),
             context.resources.getStringArray(R.array.fats_array_vegetables),
             context.resources.getStringArray(R.array.carbohydrates_array_vegetables),
+            arrayOf()
         )
 
         5 -> ItemList(
@@ -310,6 +315,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_fruits_berries),
             context.resources.getStringArray(R.array.fats_array_fruits_berries),
             context.resources.getStringArray(R.array.carbohydrates_array_fruits_berries),
+            arrayOf()
         )
 
         6 -> ItemList(
@@ -318,6 +324,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_dried_fruits),
             context.resources.getStringArray(R.array.fats_array_dried_fruits),
             context.resources.getStringArray(R.array.carbohydrates_array_dried_fruits),
+            arrayOf()
         )
 
         7 -> ItemList(
@@ -326,6 +333,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_beans),
             context.resources.getStringArray(R.array.fats_array_beans),
             context.resources.getStringArray(R.array.carbohydrates_array_beans),
+            arrayOf()
         )
 
         8 -> ItemList(
@@ -334,6 +342,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_mushrooms),
             context.resources.getStringArray(R.array.fats_array_mushrooms),
             context.resources.getStringArray(R.array.carbohydrates_array_mushrooms),
+            arrayOf()
         )
 
         9 -> ItemList(
@@ -341,7 +350,8 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.calories_array_meat_offal_poultry),
             context.resources.getStringArray(R.array.proteins_array_meat_offal_poultry),
             context.resources.getStringArray(R.array.fats_array_meat_offal_poultry),
-            context.resources.getStringArray(R.array.carbohydrates_array_meat_offal_poultry)
+            context.resources.getStringArray(R.array.carbohydrates_array_meat_offal_poultry),
+            arrayOf()
         )
 
         10 -> ItemList(
@@ -350,6 +360,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_sausage_products),
             context.resources.getStringArray(R.array.fats_array_sausage_products),
             context.resources.getStringArray(R.array.carbohydrates_array_sausage_products),
+            arrayOf()
         )
 
         11 -> ItemList(
@@ -358,6 +369,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_canned_meat_and_smoked),
             context.resources.getStringArray(R.array.fats_array_canned_meat_and_smoked),
             context.resources.getStringArray(R.array.carbohydrates_array_canned_meat_and_smoked),
+            arrayOf()
         )
 
         12 -> ItemList(
@@ -366,6 +378,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_eggs),
             context.resources.getStringArray(R.array.fats_array_eggs),
             context.resources.getStringArray(R.array.carbohydrates_array_eggs),
+            arrayOf()
         )
 
         13 -> ItemList(
@@ -374,6 +387,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_fish_and_seafood),
             context.resources.getStringArray(R.array.fats_array_fish_and_seafood),
             context.resources.getStringArray(R.array.carbohydrates_array_fish_and_seafood),
+            arrayOf()
         )
 
         14 -> ItemList(
@@ -382,7 +396,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_caviar),
             context.resources.getStringArray(R.array.fats_array_caviar),
             context.resources.getStringArray(R.array.carbohydrates_array_caviar),
-
+            arrayOf()
             )
 
         15 -> ItemList(
@@ -391,6 +405,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_nuts),
             context.resources.getStringArray(R.array.fats_array_nuts),
             context.resources.getStringArray(R.array.carbohydrates_array_nuts),
+            arrayOf()
         )
 
         16 -> ItemList(
@@ -399,6 +414,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_sweets),
             context.resources.getStringArray(R.array.fats_array_sweets),
             context.resources.getStringArray(R.array.carbohydrates_array_sweets),
+            arrayOf()
         )
 
         17 -> ItemList(
@@ -407,6 +423,7 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.proteins_array_drinks),
             context.resources.getStringArray(R.array.fats_array_drinks),
             context.resources.getStringArray(R.array.carbohydrates_array_drinks),
+            arrayOf()
         )
 
         else -> ItemList(
@@ -414,7 +431,8 @@ fun chooseArrayFood(index: Int, context: Context): ItemList {
             context.resources.getStringArray(R.array.calories_array_milk_products),
             context.resources.getStringArray(R.array.proteins_array_milk_products),
             context.resources.getStringArray(R.array.fats_array_milk_products),
-            context.resources.getStringArray(R.array.carbohydrates_array_milk_products)
+            context.resources.getStringArray(R.array.carbohydrates_array_milk_products),
+            arrayOf()
         )
     }
 }
@@ -468,7 +486,8 @@ data class ItemList(
     val calories: Array<String>,
     val proteins: Array<String>,
     val fats: Array<String>,
-    val carbohydrates: Array<String>
+    val carbohydrates: Array<String>,
+    val description: Array<Array<String>>
 )
 
 
