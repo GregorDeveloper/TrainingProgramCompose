@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="descriptionCalisthenicsFrogStand">
+        <item>Frog Stand</item>
+        <item>The Frog Stand is a bodyweight balance exercise that engages the muscles of the arms, shoulders, core, and wrists. It helps develop strength and stability in the upper body while improving balance and control.</item>
+        <item>It is a static hold where the body is positioned in a squatting posture, with the weight supported by the hands and knees. It improves balance and builds foundational strength for more advanced calisthenics moves.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start by kneeling on the floor and place your hands on the ground, shoulder-width apart.</item>
+        <item>2. Position your knees inside your elbows, creating a stable base for your body.</item>
+        <item>3. Slowly lift your feet off the floor while maintaining balance on your hands and knees.</item>
+        <item>4. Hold the position for as long as possible, maintaining stability throughout the body.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your gaze forward to improve balance and avoid arching your back.</item>
+        <item>2. Keep your elbows slightly bent to reduce stress on the joints.</item>
+        <item>3. Focus on short holds at first, gradually increasing the duration as you progress.</item>
+        <item>4. Warm up your wrists and shoulders before attempting this exercise to prevent injury.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsWallWalk">
+        <item>Wall Walk</item>
+        <item>The Wall Walk is a dynamic bodyweight exercise that targets the shoulders, core, and arms. It enhances upper body strength, coordination, and stability while improving body control in an inverted position.</item>
+        <item>This movement involves walking your feet up a wall while your hands move towards the wall, ultimately reaching an inverted handstand position.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a push-up position with your feet facing a wall.</item>
+        <item>2. Begin walking your feet up the wall while simultaneously moving your hands closer to the wall.</item>
+        <item>3. Continue to walk your feet up and your hands toward the wall until your body is in an inverted position with your chest facing the wall.</item>
+        <item>4. Reverse the movement to return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight throughout the movement to maintain balance.</item>
+        <item>2. Perform the movement slowly and with control to avoid injury.</item>
+        <item>3. Start with a partial wall walk if you are new to the exercise and gradually increase the height.</item>
+        <item>4. Ensure your hands are positioned firmly to prevent slipping.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsDragonFlag">
+        <item>Dragon Flag</item>
+        <item>The Dragon Flag is an advanced calisthenics exercise that targets the core, especially the lower abs, and engages the shoulders, chest, and back. It is a challenging movement that requires significant strength, control, and stability.</item>
+        <item>This movement involves holding the body in a straight line while lowering and raising it using core strength, supported by the shoulders and upper back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie flat on your back on a bench or elevated surface and grip the edges for support.</item>
+        <item>2. Lift your legs and torso off the surface, creating a straight line from your shoulders to your feet.</item>
+        <item>3. Slowly lower your body, keeping your torso straight and engaging your core to maintain control.</item>
+        <item>4. Raise your body back to the starting position using your core strength, keeping your movements slow and controlled.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back and legs straight throughout the movement.</item>
+        <item>2. Engage your core and avoid using momentum to perform the exercise.</item>
+        <item>3. Start by performing a modified version, such as a tuck dragon flag, to build strength gradually.</item>
+        <item>4. Ensure your grip is strong enough to support your body during the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsHumanFlag">
+        <item>Human Flag</item>
+        <item>The Human Flag is an advanced bodyweight exercise that targets the core, shoulders, arms, and obliques. It is a powerful move that requires exceptional strength and body control to hold a flag-like position with the body parallel to the ground.</item>
+        <item>This exercise involves gripping a vertical pole or structure with both hands and lifting the body into a horizontal position using strength from the upper body and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Grip a pole with both hands, keeping your body vertical to the ground.</item>
+        <item>2. Using your core and shoulders, lift your legs and torso into a horizontal position, keeping your body parallel to the ground.</item>
+        <item>3. Hold the position as long as possible, engaging your core, shoulders, and arms for stability.</item>
+        <item>4. Slowly lower your body back to the starting position with control.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core and maintain tension throughout your body to keep your body straight.</item>
+        <item>2. Keep your grip firm on the pole to prevent slipping during the movement.</item>
+        <item>3. Work on building core and shoulder strength before attempting the full human flag.</item>
+        <item>4. Consider using assisted progressions, such as the flag hold with bent legs, to build strength for the full flag.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsPullUp">
+        <item>Pull-Up</item>
+        <item>The Pull-Up is a classic bodyweight exercise that primarily targets the upper body, specifically the back, biceps, and shoulders. It is a fundamental movement for building pulling strength and improving overall upper body strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Grab a pull-up bar with both hands, palms facing away (overhand grip) or towards you (underhand grip), and hands shoulder-width apart.</item>
+        <item>2. Hang from the bar with your arms fully extended and your feet off the ground.</item>
+        <item>3. Pull your body upward by engaging your back and biceps, keeping your chest towards the bar and your elbows close to your body.</item>
+        <item>4. Lower your body back down in a controlled manner until your arms are fully extended again.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on pulling with your back and biceps rather than relying too much on your arms.</item>
+        <item>2. Avoid swinging your body or using momentum to complete the movement.</item>
+        <item>3. Keep your core tight throughout the exercise to maintain stability.</item>
+        <item>4. If you\'re a beginner, use resistance bands or an assisted pull-up machine to build strength.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsLeglessRopeClimb">
+        <item>Legless Rope Climb</item>
+        <item>The Legless Rope Climb is an advanced climbing exercise that targets the upper body, core, and grip strength. It requires a combination of coordination, strength, and technique to climb a rope without using the legs for assistance.</item>
+        <item>This exercise involves using only the arms and upper body to climb the rope, relying on grip strength and core engagement to propel the body upwards.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Grab a rope with both hands, keeping your arms extended overhead and your body hanging below.</item>
+        <item>2. Pull your body upward using your arms and engage your core to stabilize your body.</item>
+        <item>3. As you pull, try to bring your chest to the rope, then reach higher with your hands to continue the climb.</item>
+        <item>4. Continue climbing the rope until you reach the top or a desired height.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core to help lift your legs and avoid swinging or using momentum.</item>
+        <item>2. Keep your arms close to your body as you pull to maximize efficiency.</item>
+        <item>3. Work on building grip strength and shoulder endurance before attempting legless rope climbs.</item>
+        <item>4. Ensure you have a safe environment with proper rope setup to prevent injury.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsMuscleUp">
+        <item>Muscle-Up</item>
+        <item>The Muscle-Up is an advanced calisthenics exercise that combines a pull-up and a dip into one fluid motion. It targets the upper body, particularly the back, shoulders, chest, and arms, and is an excellent movement for building pulling and pushing strength.</item>
+        <item>This exercise involves pulling yourself up on a bar or rings, then transitioning into a dip to press your body upward.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin by gripping a bar or rings with your palms facing away from you, hands shoulder-width apart.</item>
+        <item>2. Perform a pull-up, pulling your chest towards the bar or rings.</item>
+        <item>3. As your chest passes the bar, transition into a dip position by pressing your body upwards until your arms are fully extended.</item>
+        <item>4. Lower your body back down in a controlled manner to complete the movement.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Perform the pull-up portion explosively, then transition smoothly into the dip phase.</item>
+        <item>2. Engage your core and keep your legs tight to avoid swinging.</item>
+        <item>3. If you\'re new to muscle-ups, start with assisted variations or practice the pull-up and dip separately before combining them.</item>
+        <item>4. Focus on developing pulling and pushing strength before attempting muscle-ups.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsCaptainsChairLegRaise">
+        <item>Captain\'s Chair Leg Raise</item>
+        <item>The Captain\'s Chair Leg Raise is a core exercise that targets the lower abs and hip flexors. It is typically performed using a captain\'s chair, a piece of equipment with armrests and back support.</item>
+        <item>This exercise helps improve abdominal strength and stability while engaging the hip flexors and lower back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the captain\'s chair and place your forearms on the armrests, gripping the handles for support.</item>
+        <item>2. Press your back against the back support and allow your legs to hang down straight.</item>
+        <item>3. Lift your legs toward your chest by contracting your abs and hip flexors.</item>
+        <item>4. Slowly lower your legs back to the starting position without swinging or using momentum.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your lower back pressed against the back support to avoid strain.</item>
+        <item>2. Perform the movement slowly and under control to maximize muscle engagement.</item>
+        <item>3. Avoid swinging your legs; use your abs to lift your legs rather than relying on momentum.</item>
+        <item>4. Keep your core tight throughout the movement for maximum effectiveness.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsCloseGripChinUp">
+        <item>Close-Grip Chin-Up</item>
+        <item>The Close-Grip Chin-Up is a variation of the traditional chin-up, with the hands positioned closer together. It targets the biceps more intensely while still engaging the back, shoulders, and core.</item>
+        <item>This exercise is great for building arm strength, particularly in the biceps, while also improving overall upper body pulling strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Grab a pull-up bar with your palms facing towards you (supine grip) and your hands placed close together, about shoulder-width apart or narrower.</item>
+        <item>2. Hang from the bar with your arms fully extended and your feet off the ground.</item>
+        <item>3. Pull your body upward, bringing your chest towards the bar while engaging your biceps and back.</item>
+        <item>4. Lower your body back down in a controlled manner until your arms are fully extended again.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows close to your body throughout the movement to maximize bicep engagement.</item>
+        <item>2. Avoid swinging or using momentum to complete the movement.</item>
+        <item>3. Focus on slow, controlled repetitions to effectively target the muscles.</item>
+        <item>4. If you\'re a beginner, consider using resistance bands or an assisted machine to help with the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsHangingKneeRaises">
+        <item>Hanging Knee Raises</item>
+        <item>Hanging Knee Raises are a core exercise that targets the lower abs and hip flexors. This exercise also engages the forearms, shoulders, and upper back as they stabilize the body during the movement.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hang from a pull-up bar with your arms fully extended and your feet off the ground.</item>
+        <item>2. Keep your legs straight and core tight as you pull your knees towards your chest, lifting them as high as you can.</item>
+        <item>3. Slowly lower your legs back down to the starting position, keeping the movement controlled.</item>
+        <item>4. Repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid swinging your body; focus on using your abs and hip flexors to lift your knees.</item>
+        <item>2. Keep your chest up and core engaged throughout the movement.</item>
+        <item>3. Perform the exercise slowly to maximize muscle engagement and avoid using momentum.</item>
+        <item>4. If you’re new to this movement, you can use a resistance band to assist in lifting your legs.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsHangingSideKneeRaises">
+        <item>Hanging Side Knee Raises</item>
+        <item>Hanging Side Knee Raises are a variation of the hanging knee raise, targeting the obliques and core. This exercise involves lifting your knees towards your sides rather than straight up, improving lateral core strength and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hang from a pull-up bar with your arms fully extended and your legs hanging straight down.</item>
+        <item>2. Engage your core and lift your knees to one side of your body, aiming to bring them toward your elbow.</item>
+        <item>3. Slowly lower your knees back to the starting position and repeat on the opposite side.</item>
+        <item>4. Alternate between sides for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on controlled movements and avoid swinging your legs.</item>
+        <item>2. Keep your core engaged to prevent using momentum to complete the movement.</item>
+        <item>3. Perform the exercise slowly and with control to maximize oblique activation.</item>
+        <item>4. If you are new to hanging leg exercises, try bent-knee variations for easier execution.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsHangingWindshieldWiper">
+        <item>Hanging Windshield Wiper</item>
+        <item>The Hanging Windshield Wiper is an advanced core exercise that targets the obliques, abs, and hip flexors. It involves a twisting motion that works the entire core and helps improve rotational strength and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hang from a pull-up bar with your arms fully extended and your legs straight.</item>
+        <item>2. Lift your legs up while twisting your hips to one side, moving your legs in a wide arc towards that side.</item>
+        <item>3. Slowly reverse the motion, bringing your legs to the opposite side in a controlled manner.</item>
+        <item>4. Continue alternating sides for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your legs straight throughout the movement to increase difficulty and engage your core more effectively.</item>
+        <item>2. Move in a slow and controlled manner to maximize core activation and avoid swinging.</item>
+        <item>3. Engage your core and focus on twisting with your hips rather than just swinging your legs.</item>
+        <item>4. If this exercise is too difficult, try bent-knee windshield wipers to build strength first.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsToesToBar">
+        <item>Toes to Bar</item>
+        <item>Toes to Bar is a dynamic core exercise that engages the entire abdominal region, especially the lower abs and hip flexors. This movement also works the shoulders, back, and arms, as they stabilize the body during the lift.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hang from a pull-up bar with your arms fully extended and your legs hanging straight down.</item>
+        <item>2. Engage your core and lift your legs up, aiming to bring your toes to touch the bar.</item>
+        <item>3. Slowly lower your legs back down to the starting position, keeping the movement controlled and smooth.</item>
+        <item>4. Repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on lifting with your core, not your arms or legs, to maximize abdominal engagement.</item>
+        <item>2. Keep your legs straight throughout the movement for added challenge and core activation.</item>
+        <item>3. Perform the movement slowly and avoid swinging to ensure you\'re using your core muscles effectively.</item>
+        <item>4. If you find this exercise difficult, try the knee raise variation until you build enough strength.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsParallelBarDips">
+        <item>Parallel Bar Dips</item>
+        <item>Parallel Bar Dips are a bodyweight exercise that primarily targets the triceps, shoulders, and chest. It is an effective upper body movement that builds pressing strength and helps improve stability in the shoulders.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place your hands on parallel bars, positioning them shoulder-width apart, and lift your body off the ground.</item>
+        <item>2. Lower your body down by bending your elbows until your upper arms are parallel to the ground.</item>
+        <item>3. Press through your palms and extend your elbows to push your body back to the starting position.</item>
+        <item>4. Repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows close to your body to emphasize triceps activation.</item>
+        <item>2. Avoid letting your shoulders rise towards your ears; keep them stable throughout the movement.</item>
+        <item>3. Lower your body slowly to maximize time under tension and muscle engagement.</item>
+        <item>4. If you\'re a beginner, use assisted parallel bar dips or perform bench dips to build strength.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsHandstandPushUp">
+        <item>Handstand Push-Up</item>
+        <item>The Handstand Push-Up is an advanced upper-body exercise that targets the shoulders, triceps, and core. This exercise requires strength, balance, and coordination to perform the push-up while in a handstand position.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin by kicking up into a handstand position against a wall or freestanding.</item>
+        <item>2. Keep your body straight and engage your core to stabilize.</item>
+        <item>3. Lower your body by bending your elbows until your head nearly touches the ground.</item>
+        <item>4. Push through your palms to extend your arms and raise your body back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight to prevent excessive arching in your back.</item>
+        <item>2. Avoid flaring your elbows out; keep them pointed slightly backward.</item>
+        <item>3. If you\'re a beginner, use wall support or work on building shoulder and core strength first.</item>
+        <item>4. Perform the movement slowly and under control for maximum muscle engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsReversePushUp">
+        <item>Reverse Push-Up</item>
+        <item>The Reverse Push-Up is a variation of the traditional push-up that emphasizes the triceps, shoulders, and upper chest. It also targets the core and helps improve overall upper body strength and endurance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with your hands placed slightly behind you, fingers pointing towards your feet.</item>
+        <item>2. Place your feet flat on the ground, knees bent at a 90-degree angle.</item>
+        <item>3. Press through your palms and raise your hips off the ground, extending your arms fully.</item>
+        <item>4. Lower your body down by bending your elbows, keeping your chest up and your shoulders down.</item>
+        <item>5. Push back up to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows pointing backward, not out to the sides, to emphasize triceps activation.</item>
+        <item>2. Avoid letting your shoulders hunch forward; keep them back and down.</item>
+        <item>3. Perform the movement slowly and under control to maximize muscle engagement.</item>
+        <item>4. If you\'re a beginner, start with bent knees or use a bench for support.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsCrossArmPushUp">
+        <item>Cross Arm Push-Up</item>
+        <item>The Cross Arm Push-Up is a variation of the traditional push-up that targets the chest, triceps, and shoulders while adding a challenge to balance and coordination. The cross-arm position recruits additional muscle fibers in the upper body.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a push-up position with your arms in a crossed configuration—one arm placed on top of the other across your chest.</item>
+        <item>2. Perform a standard push-up by lowering your chest towards the floor and then pressing back up to the starting position.</item>
+        <item>3. Complete the desired number of reps and then switch the arm positioning for the other side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged and your body in a straight line throughout the movement.</item>
+        <item>2. Lower yourself slowly and avoid letting your elbows flare out too much.</item>
+        <item>3. Focus on squeezing your chest and triceps as you push back up.</item>
+        <item>4. If you\'re new to this variation, start with a modified position or use a bench for support.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsUpsideDownPullUp">
+        <item>Upside Down Pull-Up</item>
+        <item>The Upside Down Pull-Up is a bodyweight exercise that targets the back, shoulders, and arms. It is an advanced movement that requires body control and upper body strength to pull the body upside down and engage the muscles effectively.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin by positioning yourself under a low bar, gripping the bar with your palms facing away from you (overhand grip).</item>
+        <item>2. Hang from the bar with your body in a horizontal position, keeping your legs off the ground.</item>
+        <item>3. Pull your chest towards the bar by engaging your back and arm muscles.</item>
+        <item>4. Lower yourself back down with control and repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight and your legs in a straight position to prevent swinging.</item>
+        <item>2. Focus on engaging your back and biceps during the pull-up portion.</item>
+        <item>3. Perform the movement slowly to maintain control and maximize muscle activation.</item>
+        <item>4. Ensure the bar is at an appropriate height for your skill level to avoid injury.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsLSit">
+        <item>L-Sit</item>
+        <item>The L-Sit is a core exercise that targets the abdominal muscles, hip flexors, and lower back. It also engages the shoulders and arms, making it a full-body movement that challenges stability and strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with your legs extended straight in front of you and your hands placed by your sides for support.</item>
+        <item>2. Push through your palms and raise your legs off the floor, keeping them straight and forming an "L" shape with your body.</item>
+        <item>3. Hold the position for as long as you can, keeping your core engaged and your shoulders pressed downward.</item>
+        <item>4. Slowly lower your legs back down to the floor and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your legs as straight as possible for maximum core activation.</item>
+        <item>2. Focus on keeping your shoulders down and back, not allowing them to shrug upward.</item>
+        <item>3. Start with short holds and gradually increase the duration as you build strength.</item>
+        <item>4. If you’re a beginner, practice with bent knees or use a support such as parallettes to reduce the difficulty.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsClapPushUp">
+        <item>Clap Push-Up</item>
+        <item>The Clap Push-Up is an explosive variation of the traditional push-up, designed to develop upper body power and explosiveness. This exercise targets the chest, triceps, shoulders, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a standard push-up position with your body in a straight line and your hands placed slightly wider than shoulder-width apart.</item>
+        <item>2. Lower your body down towards the floor by bending your elbows, keeping your core engaged.</item>
+        <item>3. Push up explosively, generating enough force to lift your hands off the ground.</item>
+        <item>4. Clap your hands together while in mid-air and land softly back in the push-up position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on generating power from your chest and triceps to perform the explosive push-up.</item>
+        <item>2. Ensure a soft landing to reduce impact on your wrists and elbows.</item>
+        <item>3. Perform the movement with control to avoid excessive swinging or arching in the back.</item>
+        <item>4. If you\'re a beginner, start with regular push-ups or plyometric push-ups without the clap.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsAbStrapsLegRaise">
+        <item>Ab Straps Leg Raise</item>
+        <item>The Ab Straps Leg Raise is a great exercise for targeting the lower abs and hip flexors, while also engaging the core and stabilizing muscles. This exercise is performed using hanging straps or knee pads to support your body during the movement.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hang from a set of ab straps or knee pads, ensuring that your arms are fully extended and your body is suspended.</item>
+        <item>2. With your legs straight, engage your core and lift your legs up towards your chest.</item>
+        <item>3. Slowly lower your legs back down to the starting position, maintaining control and stability throughout the movement.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements slow and controlled to maximize abdominal engagement.</item>
+        <item>2. Avoid swinging your legs or using momentum to perform the exercise.</item>
+        <item>3. Focus on using your lower abs and hip flexors to lift your legs rather than relying on your back or arms.</item>
+        <item>4. If you\'re a beginner, try knee raises before progressing to straight-leg raises.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsDipsBetweenChairs">
+        <item>Dips Between Chairs</item>
+        <item>Dips Between Chairs are a bodyweight exercise that targets the triceps, shoulders, and chest. By performing dips with your hands placed on two chairs, this exercise challenges the upper body and helps to develop pressing strength and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place two sturdy chairs parallel to each other, ensuring they are stable and won\'t slide.</item>
+        <item>2. Place your hands on the chairs, with your fingers pointing forward and your arms straight.</item>
+        <item>3. Lower your body by bending your elbows until your upper arms are parallel to the ground.</item>
+        <item>4. Push yourself back up to the starting position by extending your arms, engaging your triceps and chest.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows close to your body and avoid letting them flare outward.</item>
+        <item>2. Keep your chest up and your shoulders down throughout the movement.</item>
+        <item>3. Perform the movement slowly to maximize muscle activation and control.</item>
+        <item>4. If you\'re a beginner, consider using a bench or step for a shallower range of motion.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsRingInvertedRow">
+        <item>Ring Inverted Row</item>
+        <item>The Ring Inverted Row is a bodyweight exercise that targets the back, shoulders, and arms. By using gymnastic rings, this movement requires more stabilization and engages more muscles than the traditional bar row.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set up a pair of gymnastic rings at waist height.</item>
+        <item>2. Grab the rings with your palms facing each other and your body in a straight line, suspended under the rings.</item>
+        <item>3. Pull your chest towards the rings by engaging your back and biceps.</item>
+        <item>4. Slowly lower yourself back down to the starting position with control.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your body in a straight line, avoiding excessive swinging or arching of your back.</item>
+        <item>2. Focus on pulling with your back muscles rather than relying on your arms.</item>
+        <item>3. Keep your core engaged to avoid letting your hips sag or rise.</item>
+        <item>4. If you\'re a beginner, consider adjusting the ring height to make the movement easier or use assistance for stability.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsImpossibleDips">
+        <item>Impossible Dips</item>
+        <item>Impossible Dips are an advanced calisthenics exercise that targets the triceps, chest, and shoulders. This exercise involves performing dips with your hands placed in an extremely difficult position, often on rings or elevated bars.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start by setting up two parallel bars or rings that are higher than normal dip bars.</item>
+        <item>2. Place your hands on the bars or rings, ensuring a firm grip and proper positioning.</item>
+        <item>3. Lower your body down, bending your elbows, while keeping your body as stable as possible.</item>
+        <item>4. Push back up to the starting position, fully extending your arms and engaging your triceps and chest.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows close to your body and your chest up throughout the movement.</item>
+        <item>2. Perform the movement slowly to control the descent and engagement of muscles.</item>
+        <item>3. If you\'re new to impossible dips, start with regular dips or assisted versions before progressing to this advanced variation.</item>
+        <item>4. Ensure the bars or rings are properly secured to avoid injury.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsKoreanDips">
+        <item>Korean Dips</item>
+        <item>Korean Dips are an advanced bodyweight exercise that target the triceps, shoulders, and chest. This movement involves lowering the body between two parallel bars while keeping the arms bent at an angle, emphasizing triceps engagement and shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set up two parallel bars at a width that allows your arms to be slightly bent when performing the dip.</item>
+        <item>2. Grip the bars with your palms facing down, keeping your elbows slightly bent.</item>
+        <item>3. Lower your body down between the bars, keeping your elbows pointed backward and close to your body.</item>
+        <item>4. Push back up to the starting position by extending your arms, focusing on triceps and chest engagement.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest up and your back straight to prevent overextension in the shoulders.</item>
+        <item>2. Focus on keeping your elbows close to your body throughout the dip.</item>
+        <item>3. Perform the movement slowly to maintain control and maximize triceps activation.</item>
+        <item>4. If you\'re a beginner, use assisted dips or reduce the range of motion until you build strength.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsStraightBarDip">
+        <item>Straight Bar Dip</item>
+        <item>Straight Bar Dips are a variation of the traditional dip that involves using a straight bar instead of parallel bars. This exercise targets the triceps, shoulders, and chest while also improving grip strength and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set up a straight bar at an appropriate height that allows you to hang with your arms extended and your feet off the ground.</item>
+        <item>2. Grip the bar with your palms facing down and your body hanging straight below it.</item>
+        <item>3. Lower your body by bending your elbows, keeping your chest up and elbows close to your body.</item>
+        <item>4. Push yourself back up to the starting position, fully extending your arms and engaging your triceps and chest.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your body straight and avoid swinging during the movement.</item>
+        <item>2. Focus on pressing with your palms and engaging your triceps as you push back up.</item>
+        <item>3. Perform the movement with control, lowering yourself slowly to maximize muscle activation.</item>
+        <item>4. If you\'re a beginner, use assisted dips or perform regular dips with parallel bars first.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsBenchPikePushUp">
+        <item>Bench Pike Push-Up</item>
+        <item>The Bench Pike Push-Up is a variation of the push-up that targets the shoulders, chest, and triceps by performing the movement with your feet elevated on a bench. This exercise mimics a handstand push-up with less intensity.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start by placing your feet on a bench or elevated surface and assume a pike position with your hips raised high in the air.</item>
+        <item>2. Lower your head towards the floor by bending your elbows, keeping your body in a V-shape.</item>
+        <item>3. Push yourself back up to the starting position by straightening your arms and engaging your shoulders and triceps.</item>
+        <item>4. Repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows pointed slightly outward, not flaring too much to the sides.</item>
+        <item>2. Maintain a strong core and avoid letting your back arch excessively.</item>
+        <item>3. Perform the movement slowly to maintain control and proper form.</item>
+        <item>4. If you’re a beginner, try reducing the height of the bench or performing standard push-ups first.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsPikePushUp">
+        <item>Pike Push-Up</item>
+        <item>The Pike Push-Up is a bodyweight exercise that focuses on the shoulders, triceps, and upper chest. It is similar to the Bench Pike Push-Up but performed on the floor, with the hips raised to form a V-shape.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin in a push-up position, with your hands placed slightly wider than shoulder-width apart and your feet close together.</item>
+        <item>2. Raise your hips up towards the ceiling, forming an inverted V-shape with your body.</item>
+        <item>3. Lower your head towards the floor by bending your elbows, keeping your body stable.</item>
+        <item>4. Push yourself back up to the starting position by straightening your arms and engaging your shoulders and triceps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and your core engaged to avoid any excessive arching in the lower back.</item>
+        <item>2. Focus on controlling the movement during both the lowering and pressing phases to engage the shoulders more effectively.</item>
+        <item>3. If you find this exercise challenging, start with regular push-ups or decrease the height of your hips.</item>
+        <item>4. Perform the movement slowly to ensure proper form and muscle engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionCalisthenicsLSitPullUp">
+        <item>L-Sit Pull-Up</item>
+        <item>The L-Sit Pull-Up combines the traditional pull-up with an L-sit position, making it a full-body exercise that engages the back, shoulders, biceps, and core. This variation increases the intensity by requiring greater core stability while pulling the body up.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hang from a pull-up bar with your arms fully extended and your legs raised straight in front of you, forming an L-shape with your body.</item>
+        <item>2. Pull your chest towards the bar by engaging your back and arms while keeping your legs elevated and straight.</item>
+        <item>3. Lower your body back down to the starting position with control, maintaining the L-sit position.</item>
+        <item>4. Repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your legs straight and avoid swinging to maintain tension in your core throughout the movement.</item>
+        <item>2. Focus on pulling with your back and arms, rather than relying solely on your arms.</item>
+        <item>3. Engage your core to keep your legs elevated and avoid sagging in the lower back.</item>
+        <item>4. If you\'re a beginner, you can perform regular pull-ups or use assistance until you build enough core strength.</item>
+    </string-array>
+
+    <string-array name="descriptionBackLever">
+        <item>Back Lever</item>
+        <item>The Back Lever is an advanced static hold that demonstrates exceptional core and back strength in calisthenics.</item>
+        <item>This exercise involves holding the body horizontally parallel to the ground while hanging from a bar with an overhand grip.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start hanging from a pull-up bar with overhand grip</item>
+        <item>2. Lift legs up and bring body into inverted hang position</item>
+        <item>3. Slowly lower into horizontal position while keeping body straight</item>
+        <item>4. Hold position with arms fully extended</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Begin with tuck progressions before attempting full lever</item>
+        <item>2. Engage entire posterior chain including glutes and shoulders</item>
+        <item>3. Use false grip for better wrist positioning</item>
+        <item>4. Practice with spotter or bands for safety</item>
+    </string-array>
+
+    <string-array name="descriptionSwing360">
+        <item>Swing 360</item>
+        <item>The Swing 360 is an advanced bar movement combining strength and momentum for a full rotation around the bar.</item>
+        <item>This dynamic exercise requires coordination, grip strength and full-body control.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start with standard swing momentum on pull-up bar</item>
+        <item>2. At peak of backswing, pull hard while rotating shoulders</item>
+        <item>3. Continue rotation by bringing legs over and around the bar</item>
+        <item>4. Complete full rotation and control landing</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Master basic swings and 180 turns first</item>
+        <item>2. Focus on powerful hip drive initiation</item>
+        <item>3. Keep arms slightly bent during rotation</item>
+        <item>4. Practice over mats or with spotter</item>
+    </string-array>
+
+    <string-array name="descriptionFrontLeverPullUp">
+        <item>Front Lever Pull-up</item>
+        <item>The Front Lever Pull-up combines static strength with dynamic movement for an advanced upper body challenge.</item>
+        <item>This exercise transitions between front lever hold and pull-up positions.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin in dead hang position on pull-up bar</item>
+        <item>2. Engage core and lift into front lever position</item>
+        <item>3. While maintaining lever, pull chest toward bar</item>
+        <item>4. Slowly lower back to lever position</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Master front lever hold before attempting pull-up variation</item>
+        <item>2. Keep body straight throughout movement</item>
+        <item>3. Initiate pull with scapular retraction</item>
+        <item>4. Use resistance bands for progression</item>
+    </string-array>
+
+    <string-array name="descriptionSingleArmPushUp">
+        <item>Single Arm Push-up</item>
+        <item>The Single Arm Push-up is an advanced upper body exercise demonstrating exceptional strength and core stability.</item>
+        <item>This variation challenges unilateral strength and anti-rotation core control.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Assume standard push-up position with feet wide for balance</item>
+        <item>2. Place one hand behind back and other centered under chest</item>
+        <item>3. Lower chest toward ground while maintaining straight body line</item>
+        <item>4. Push back up to starting position</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Master archer push-ups before attempting single arm</item>
+        <item>2. Engage entire core to prevent rotation</item>
+        <item>3. Start with elevated surface to reduce difficulty</item>
+        <item>4. Keep working arm close to body</item>
+    </string-array>
+
+    <string-array name="descriptionWallSupportedHandstandPushUps">
+        <item>Wall-Supported Handstand Push-Ups</item>
+        <item>Wall-Supported Handstand Push-Ups build overhead pressing strength in vertical position.</item>
+        <item>This exercise develops shoulder strength and stability while inverted.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Kick up into handstand position against wall</item>
+        <item>2. Maintain straight body alignment with slight forward lean</item>
+        <item>3. Slowly lower head toward ground by bending elbows</item>
+        <item>4. Push back up to full arm extension</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Start with partial range of motion</item>
+        <item>2. Keep core engaged to prevent arching back</item>
+        <item>3. Focus on controlled eccentric phase</item>
+        <item>4. Use yoga blocks to reduce range initially</item>
+    </string-array>
+
+    <string-array name="descriptionArcherPullUp">
+        <item>Archer Pull-up</item>
+        <item>The Archer Pull-up is an advanced unilateral pulling exercise that develops exceptional upper body strength.</item>
+        <item>This variation challenges each arm independently while maintaining body control.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Grab the bar with wide overhand grip</item>
+        <item>2. Pull up while leaning to one side and straightening opposite arm</item>
+        <item>3. At the top, one arm should be fully extended sideways</item>
+        <item>4. Lower down with control and alternate sides</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Start with assisted variations using resistance bands</item>
+        <item>2. Keep core engaged to prevent swinging</item>
+        <item>3. Focus on scapular retraction at the start</item>
+        <item>4. Progress gradually to full range of motion</item>
+    </string-array>
+
+    <string-array name="descriptionHandstand">
+        <item>Handstand</item>
+        <item>The Handstand is a fundamental bodyweight skill that develops shoulder strength and balance.</item>
+        <item>This inverted position requires full-body tension and proprioception.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place hands shoulder-width apart on ground</item>
+        <item>2. Kick up or press into vertical position</item>
+        <item>3. Maintain straight body line from wrists to toes</item>
+        <item>4. Balance using finger and wrist adjustments</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Start with wall-supported holds</item>
+        <item>2. Engage core and glutes to maintain straight line</item>
+        <item>3. Practice facing both towards and away from wall</item>
+        <item>4. Use spotter when learning freestanding version</item>
+    </string-array>
+
+    <string-array name="descriptionForearmPushUp">
+        <item>Forearm Push-up</item>
+        <item>The Forearm Push-up is a variation that emphasizes triceps and core strength.</item>
+        <item>This exercise builds stability for more advanced planche progressions.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in forearm plank position</item>
+        <item>2. Push through palms to lift elbows off ground</item>
+        <item>3. Extend arms to straight-arm plank position</item>
+        <item>4. Lower back to forearm position with control</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain straight body line throughout</item>
+        <item>2. Keep elbows close to body during transition</item>
+        <item>3. Progress from knees to full plank variation</item>
+        <item>4. Focus on smooth, controlled movement</item>
+    </string-array>
+
+    <string-array name="descriptionHandstandPushUpsBetweenBenches">
+        <item>Handstand Push-ups Between Benches</item>
+        <item>This variation allows for greater range of motion in handstand push-ups.</item>
+        <item>Using benches increases difficulty by lowering head below hands.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set up two parallel benches slightly wider than shoulder-width</item>
+        <item>2. Kick up into handstand position with hands on benches</item>
+        <item>3. Lower head between benches until it passes hand level</item>
+        <item>4. Push back up to full arm extension</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Ensure benches are stable and secure</item>
+        <item>2. Use spotter when learning this variation</item>
+        <item>3. Start with partial range of motion</item>
+        <item>4. Engage core to prevent arching back</item>
+    </string-array>
+
+    <string-array name="descriptionKippingHandstandPushUp">
+        <item>Kipping Handstand Push-up</item>
+        <item>The kipping variation uses momentum to complete multiple repetitions.</item>
+        <item>Common in CrossFit, it allows for higher volume overhead pressing.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Kick up to wall handstand position</item>
+        <item>2. Slightly bend knees and create slight arch</item>
+        <item>3. Use leg drive to assist upward press</item>
+        <item>4. Control descent for next repetition</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Master strict handstand push-ups first</item>
+        <item>2. Focus on smooth rhythm and timing</item>
+        <item>3. Use appropriate range for your mobility</item>
+        <item>4. Strengthen shoulders to prevent injury</item>
+    </string-array>
+
+    <string-array name="descriptionHinduPushUps">
+        <item>Hindu Push-ups</item>
+        <item>This traditional exercise combines strength and mobility in dynamic movement.</item>
+        <item>It works shoulders, chest and core through full range of motion.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in downward dog position</item>
+        <item>2. Lower hips while bending arms and moving forward</item>
+        <item>3. Continue into upward facing position</item>
+        <item>4. Push back to starting position</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain fluid, continuous motion</item>
+        <item>2. Keep core engaged throughout movement</item>
+        <item>3. Focus on shoulder mobility at bottom position</item>
+        <item>4. Breathe in during descent, out during ascent</item>
+    </string-array>
+
+    <string-array name="descriptionDiamondPushUp">
+        <item>Diamond Push-up</item>
+        <item>This variation emphasizes triceps development with close hand position.</item>
+        <item>The diamond shape increases resistance on triceps muscles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place hands together forming diamond shape with thumbs and index fingers</item>
+        <item>2. Maintain straight body line from head to heels</item>
+        <item>3. Lower chest toward hands while keeping elbows close</item>
+        <item>4. Push back up to starting position</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Start with knees on floor if full version is too difficult</item>
+        <item>2. Keep elbows pointing backward, not outward</item>
+        <item>3. Engage core to prevent sagging hips</item>
+        <item>4. Progress slowly to avoid wrist strain</item>
+    </string-array>
+
+    <string-array name="descriptionPushUp">
+        <item>Push-Up</item>
+        <item>The classic push-up builds foundational upper body strength.</item>
+        <item>This compound exercise works chest, shoulders and triceps simultaneously.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in plank position with hands slightly wider than shoulders</item>
+        <item>2. Lower body until chest nearly touches ground</item>
+        <item>3. Keep elbows at about 45-degree angle from body</item>
+        <item>4. Push back up to starting position</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain straight body line throughout</item>
+        <item>2. Engage core and glutes for stability</item>
+        <item>3. Control both lowering and lifting phases</item>
+        <item>4. Breathe in on descent, out on ascent</item>
+    </string-array>
+
+    <string-array name="descriptionSuspendedAbFallOut">
+        <item>Suspended Ab Fall-out</item>
+        <item>This advanced core exercise challenges anti-extension strength.</item>
+        <item>Using suspension trainers increases instability and difficulty.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Kneel facing suspension straps with forearms in handles</item>
+        <item>2. Engage core and slowly lean forward</item>
+        <item>3. Extend arms forward while maintaining body tension</item>
+        <item>4. Pull back to starting position using core muscles</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Start with short range of motion</item>
+        <item>2. Keep hips stable throughout movement</item>
+        <item>3. Avoid overarching lower back</item>
+        <item>4. Progress gradually to full extension</item>
+    </string-array>
+
+    <string-array name="descriptionBodyweightSkullCrushers">
+        <item>Bodyweight Skull Crushers</item>
+        <item>This triceps-focused exercise mimics the barbell version using bodyweight.</item>
+        <item>It isolates triceps through elbow extension movement.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set up between parallel bars or sturdy surfaces</item>
+        <item>2. Lower body by bending elbows while keeping them stationary</item>
+        <item>3. Descend until head passes hands level</item>
+        <item>4. Extend arms to return to starting position</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep elbows pointing forward, not flaring out</item>
+        <item>2. Control movement throughout full range</item>
+        <item>3. Adjust difficulty by changing body angle</item>
+        <item>4. Engage core to prevent swinging</item>
+    </string-array>
+
+    <string-array name="descriptionStraddlePlanche">
+        <item>Straddle Planche</item>
+        <item>The Straddle Planche is an advanced static hold demonstrating exceptional upper body strength.</item>
+        <item>This variation with legs spread reduces leverage difficulty compared to full planche.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in push-up position with legs spread wide</item>
+        <item>2. Lean forward while lifting feet off ground</item>
+        <item>3. Balance on hands with arms straight and body parallel to ground</item>
+        <item>4. Maintain position with core and shoulder engagement</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Master planche leans and tuck planche first</item>
+        <item>2. Focus on protracting shoulders and leaning forward</item>
+        <item>3. Use parallettes or push-up bars for wrist comfort</item>
+        <item>4. Train with spotters or bands initially</item>
+    </string-array>
+
+    <string-array name="descriptionPlanchePushUp">
+        <item>Planche Push-Up</item>
+        <item>This elite exercise combines planche hold with pressing movement.</item>
+        <item>It requires tremendous shoulder, chest and core strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in advanced tuck planche position</item>
+        <item>2. Lower body while maintaining forward lean</item>
+        <item>3. Keep arms straight with elbows slightly bent</item>
+        <item>4. Push back up to starting position</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Master static planche holds before attempting push-ups</item>
+        <item>2. Use parallettes to reduce wrist strain</item>
+        <item>3. Focus on maintaining proper body angle</item>
+        <item>4. Progress through planche variations gradually</item>
+    </string-array>
+
+    <string-array name="descriptionFingerPushUp">
+        <item>Finger Push-up</item>
+        <item>This advanced variation develops grip and finger strength.</item>
+        <item>It builds forearm endurance and tendon resilience.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Assume standard push-up position on fingertips</item>
+        <item>2. Distribute weight evenly across all fingers</item>
+        <item>3. Lower chest toward ground while maintaining straight body</item>
+        <item>4. Push back up to starting position</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Start with knees on floor variation</item>
+        <item>2. Progress gradually to avoid finger strain</item>
+        <item>3. Keep wrists straight to reduce stress</item>
+        <item>4. Train on soft surface initially</item>
+    </string-array>
+
+    <string-array name="descriptionChestTapPushUp">
+        <item>Chest Tap Push-up</item>
+        <item>This explosive variation adds plyometric element to push-ups.</item>
+        <item>It develops power and shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in standard push-up position</item>
+        <item>2. Lower body with control</item>
+        <item>3. Explosively push up to lift hands off ground</item>
+        <item>4. Quickly tap chest with hands before returning to position</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Master regular push-ups first</item>
+        <item>2. Land softly to reduce impact</item>
+        <item>3. Engage core throughout movement</item>
+        <item>4. Start with small elevation, progress to higher taps</item>
+    </string-array>
+
+    <string-array name="descriptionArcherPushUp">
+        <item>Archer Push-Up</item>
+        <item>This unilateral variation develops single-arm pushing strength.</item>
+        <item>It bridges the gap between standard and one-arm push-ups.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Assume wide stance push-up position</item>
+        <item>2. Shift weight to one side while straightening opposite arm</item>
+        <item>3. Lower chest toward working hand</item>
+        <item>4. Push back up and alternate sides</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep hips level throughout movement</item>
+        <item>2. Maintain straight body line</item>
+        <item>3. Progress gradually by adjusting hand width</item>
+        <item>4. Focus on controlled eccentric phase</item>
+    </string-array>
+
+    <string-array name="descriptionRingDips">
+        <item>Ring Dips</item>
+        <item>This advanced variation of dips adds instability from hanging rings.</item>
+        <item>It develops exceptional shoulder stability and triceps strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Support yourself on rings with arms locked out</item>
+        <item>2. Slowly lower while controlling ring movement</item>
+        <item>3. Descend until shoulders are below elbows</item>
+        <item>4. Press back up to starting position</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Master bar dips before attempting ring version</item>
+        <item>2. Keep rings close to body throughout</item>
+        <item>3. Engage core to prevent excessive swinging</item>
+        <item>4. Progress through partial range before full dips</item>
+    </string-array>
+
+    <string-array name="descriptionSingleArmRaisePushUp">
+        <item>Single Arm Raise Push-up</item>
+        <item>This challenging variation combines push-up with unilateral shoulder work.</item>
+        <item>It develops anti-rotation core strength along with pushing power.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Perform standard push-up</item>
+        <item>2. At top position, lift one arm straight forward</item>
+        <item>3. Hold briefly while maintaining balance</item>
+        <item>4. Lower hand back down and repeat on opposite side</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Start with knee-supported version</item>
+        <item>2. Keep hips square to ground</item>
+        <item>3. Engage entire core to prevent rotation</item>
+        <item>4. Progress from short to longer holds</item>
+    </string-array>
+</resources>

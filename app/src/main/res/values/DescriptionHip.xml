@@ -1,0 +1,2782 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="descriptionHipDumbbellGobletSquat">
+        <item>Dumbbell Goblet Squat</item>
+        <item>The Dumbbell Goblet Squat is a lower body exercise that targets the quads, glutes, and hamstrings. It also engages the core and upper body for stability during the movement.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell with both hands at chest level, keeping your elbows pointed down and the dumbbell close to your body.</item>
+        <item>2. Stand with your feet shoulder-width apart, toes slightly turned out.</item>
+        <item>3. Lower your body into a squat position by bending your knees and pushing your hips back, keeping your chest up and back straight.</item>
+        <item>4. Once your thighs are parallel to the ground, push through your heels to return to the starting position.</item>
+        <item>5. Repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Ensure your knees are tracking over your toes and do not cave inwards.</item>
+        <item>2. Keep your core engaged to maintain a neutral spine throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipCurtsyLunge">
+        <item>Curtsy Lunge</item>
+        <item>The Curtsy Lunge is a lower-body exercise that targets the quads, glutes, and inner thighs. It also challenges balance and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand tall with feet hip-width apart and hands on your hips or at your sides for balance.</item>
+        <item>2. Take a step back and across your body with your right leg, lowering into a lunge with the right knee crossing behind your left leg.</item>
+        <item>3. Ensure that both knees are bent at 90 degrees, keeping your chest up and back straight.</item>
+        <item>4. Push through the left heel to return to the starting position.</item>
+        <item>5. Repeat on the opposite side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your knees tracking in the direction of your toes to avoid unnecessary stress on your joints.</item>
+        <item>2. Engage your core to maintain balance throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHip5DotDrills">
+        <item>5 Dot Drills</item>
+        <item>The 5 Dot Drills is an agility drill used to improve footwork, balance, and coordination. It involves hopping between five markers arranged in a "star" shape.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place five dots or markers on the floor in a star pattern, one in the center and four others positioned around it in a cross pattern.</item>
+        <item>2. Stand in the center and begin hopping to each dot in a specified pattern, such as clockwise or counterclockwise.</item>
+        <item>3. Perform the drill for the desired time or number of repetitions, keeping your feet light and quick.</item>
+        <item>4. Increase the speed as you become more comfortable with the pattern.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on using quick, controlled movements to land softly on each dot.</item>
+        <item>2. Keep your knees slightly bent to absorb the shock of landing and to maintain balance.</item>
+    </string-array>
+
+    <string-array name="descriptionHipHighKneeLungeOnBosuBall">
+        <item>High Knee Lunge on Bosu Ball</item>
+        <item>The High Knee Lunge on Bosu Ball is a challenging exercise that improves balance, coordination, and leg strength while engaging the core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with one foot on the center of the Bosu Ball, with your other foot on the ground behind you.</item>
+        <item>2. Lower your body into a lunge position by bending your front knee and dropping the back knee toward the ground.</item>
+        <item>3. As you push back to the standing position, bring your back knee up toward your chest, balancing on the Bosu Ball.</item>
+        <item>4. Alternate legs and repeat the movement.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain an upright posture and keep your core engaged for balance.</item>
+        <item>2. Control your movements to prevent wobbling or falling off the Bosu Ball.</item>
+    </string-array>
+
+    <string-array name="descriptionHipStandingLegCircles">
+        <item>Standing Leg Circles</item>
+        <item>Standing Leg Circles are a balance and mobility exercise that targets the hips, glutes, and core, helping to improve flexibility and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand tall with your feet hip-width apart and hands on your hips or extended out to the sides for balance.</item>
+        <item>2. Lift one leg off the ground and extend it in front of you, then begin making small circles with your foot.</item>
+        <item>3. Gradually increase the size of the circles, keeping your hips and torso stable.</item>
+        <item>4. After completing the desired number of reps, switch legs and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core to maintain balance and prevent swaying.</item>
+        <item>2. Perform the movement slowly and with control to maximize muscle activation.</item>
+    </string-array>
+
+    <string-array name="descriptionHipStaticLunge">
+        <item>Static Lunge</item>
+        <item>The Static Lunge is a great exercise for targeting the quads, hamstrings, glutes, and calves while also improving stability and balance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start by standing with your feet hip-width apart.</item>
+        <item>2. Step one leg forward into a lunge position, ensuring that your front knee is aligned with your ankle and your back knee is just above the ground.</item>
+        <item>3. Lower your hips straight down, keeping your torso upright and your core engaged.</item>
+        <item>4. Push through the heel of your front foot to return to the starting position.</item>
+        <item>5. Repeat the movement for the desired number of reps and switch legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid leaning forward to prevent strain on your back.</item>
+        <item>2. Ensure your front knee doesn\'t go beyond your toes to avoid unnecessary stress on your knee joint.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDumbbellWalkingLunge">
+        <item>Dumbbell Walking Lunge</item>
+        <item>The Dumbbell Walking Lunge is an excellent exercise for building strength and stability in the legs, glutes, and core while improving balance and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand at your sides, standing tall with your feet hip-width apart.</item>
+        <item>2. Step forward with your right leg into a lunge position, lowering your hips until both knees are at 90-degree angles.</item>
+        <item>3. Push through the right heel to stand up, and then step forward with your left leg, repeating the lunge on the other side.</item>
+        <item>4. Continue alternating legs as you walk forward for the desired distance or number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest upright and avoid leaning forward.</item>
+        <item>2. Ensure your knees stay aligned with your toes and don\'t cave inward during the lunge.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDumbbellGoodMorning">
+        <item>Dumbbell Good Morning</item>
+        <item>The Dumbbell Good Morning targets the hamstrings, glutes, and lower back, helping to improve posterior chain strength and flexibility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand, positioning them at shoulder height, or across your upper back like a barbell (optional).</item>
+        <item>2. Stand with your feet shoulder-width apart and knees slightly bent.</item>
+        <item>3. Hinge forward at the hips, lowering your torso toward the ground while keeping your back straight and core engaged.</item>
+        <item>4. Lower your torso until it\'s parallel to the ground or until you feel a stretch in your hamstrings.</item>
+        <item>5. Reverse the movement by driving your hips forward to return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on hinging at the hips rather than bending at the waist to avoid strain on the lower back.</item>
+        <item>2. Keep your neck aligned with your spine throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDumbbellSquat">
+        <item>Dumbbell Squat</item>
+        <item>The Dumbbell Squat is a lower-body exercise that works the quads, glutes, hamstrings, and calves while also engaging the core for stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand at your sides or in a goblet position at chest height.</item>
+        <item>2. Stand with your feet shoulder-width apart, toes slightly pointed outward.</item>
+        <item>3. Push your hips back and bend your knees to lower your body into a squat, ensuring your knees track over your toes.</item>
+        <item>4. Lower until your thighs are parallel to the ground or deeper if you can maintain proper form.</item>
+        <item>5. Push through your heels to stand back up and return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest upright and avoid rounding your back.</item>
+        <item>2. Ensure your knees don\'t cave inward during the squat.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDepthJumpToHurdleHop">
+        <item>Depth Jump to Hurdle Hop</item>
+        <item>The Depth Jump to Hurdle Hop is an explosive plyometric exercise that targets the legs, improves vertical jump, and develops lower body power.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start by standing on a box or platform, approximately 12-18 inches off the ground.</item>
+        <item>2. Step off the box and land softly on the ground, immediately transitioning into a vertical jump to clear a hurdle or an obstacle.</item>
+        <item>3. Upon landing, absorb the impact by bending your knees slightly and prepare to repeat the jump.</item>
+        <item>4. Perform the exercise for the desired number of reps or time.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on landing softly to reduce impact on your joints.</item>
+        <item>2. Keep your knees slightly bent upon landing to absorb the shock and immediately spring back up.</item>
+    </string-array>
+
+    <string-array name="descriptionHipPowerLunge">
+        <item>Power Lunge</item>
+        <item>The Power Lunge is a dynamic plyometric exercise that strengthens the legs, glutes, and core while improving explosive power and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a standing position with your feet hip-width apart.</item>
+        <item>2. Step one leg back into a lunge position, lowering your back knee toward the floor.</item>
+        <item>3. Explode upward from the lunge position, jumping and switching legs in mid-air.</item>
+        <item>4. Land softly with the opposite leg forward in a lunge position and repeat the movement.</item>
+        <item>5. Continue alternating legs for the desired number of reps or time.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Land softly to reduce impact on your joints.</item>
+        <item>2. Keep your chest upright and core engaged throughout the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDumbbellDeadlift">
+        <item>Dumbbell Deadlift</item>
+        <item>The Dumbbell Deadlift is a foundational strength exercise that targets the glutes, hamstrings, lower back, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet hip-width apart and a dumbbell in each hand, arms fully extended by your sides.</item>
+        <item>2. Hinge at your hips, lowering the dumbbells toward the ground while keeping your back straight and core engaged.</item>
+        <item>3. Lower the dumbbells until you feel a stretch in your hamstrings or they reach mid-shin level.</item>
+        <item>4. Reverse the movement by driving your hips forward and standing tall.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep the dumbbells close to your body during the movement.</item>
+        <item>2. Avoid rounding your back to prevent strain on your lower back.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDumbbellSumoDeadlift">
+        <item>Dumbbell Sumo Deadlift</item>
+        <item>The Dumbbell Sumo Deadlift is a lower-body exercise that targets the inner thighs, glutes, hamstrings, and quads.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet wider than shoulder-width apart, toes pointed slightly outward, and a dumbbell held with both hands in front of your body.</item>
+        <item>2. Push your hips back and bend your knees, lowering the dumbbell toward the floor while keeping your chest upright.</item>
+        <item>3. Lower until your thighs are parallel to the ground or as deep as your flexibility allows.</item>
+        <item>4. Push through your heels to return to the starting position, squeezing your glutes at the top.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your knees tracking over your toes to avoid stress on your joints.</item>
+        <item>2. Maintain a straight back throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBodyweightLunge">
+        <item>Bodyweight Lunge</item>
+        <item>The Bodyweight Lunge is a simple yet effective exercise for strengthening the legs, glutes, and improving balance and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand tall with your feet hip-width apart and hands on your hips or at your sides.</item>
+        <item>2. Step one leg forward and lower your hips until both knees are bent at approximately 90-degree angles.</item>
+        <item>3. Ensure your front knee stays above your ankle and your back knee hovers just above the ground.</item>
+        <item>4. Push through your front heel to return to the starting position and repeat on the other leg.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your torso upright and core engaged throughout the movement.</item>
+        <item>2. Avoid letting your front knee collapse inward or extend beyond your toes.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBulgarianSplitSquatJump">
+        <item>Bulgarian Split Squat Jump</item>
+        <item>The Bulgarian Split Squat Jump is an advanced plyometric exercise that builds explosive power and strengthens the glutes, quads, and hamstrings.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand a few feet in front of a bench or elevated surface, placing one foot behind you on the bench.</item>
+        <item>2. Lower into a split squat by bending your front knee until your back knee is close to the ground.</item>
+        <item>3. Explosively push through your front heel to jump into the air while maintaining balance.</item>
+        <item>4. Land softly in the starting position and repeat for the desired number of reps before switching legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on control during the descent and power during the jump.</item>
+        <item>2. Keep your chest upright and your core tight for stability.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBarbellGluteBridgeTwoLegsOnBench">
+        <item>Barbell Glute Bridge Two Legs on Bench</item>
+        <item>The Barbell Glute Bridge with Two Legs on a Bench is an effective exercise for targeting the glutes, hamstrings, and core, while also improving hip stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the ground with your upper back resting against a bench and a barbell positioned across your hips.</item>
+        <item>2. Place your feet flat on the floor, shoulder-width apart, with knees bent at a 90-degree angle.</item>
+        <item>3. Drive through your heels and lift your hips toward the ceiling until your torso forms a straight line from your shoulders to your knees.</item>
+        <item>4. Squeeze your glutes at the top, then lower your hips back down to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid overarching your lower back by engaging your core.</item>
+        <item>2. Keep your chin slightly tucked to maintain a neutral neck position.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBarbellHipThrusts">
+        <item>Barbell Hip Thrusts</item>
+        <item>Barbell Hip Thrusts are a highly effective exercise for building glute strength, improving hip power, and enhancing lower body performance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the ground with your upper back against a bench and a barbell positioned across your hips.</item>
+        <item>2. Roll the barbell into position and securely pad it for comfort if needed.</item>
+        <item>3. Drive through your heels to lift your hips upward until your torso is parallel to the ground.</item>
+        <item>4. Squeeze your glutes at the top, then slowly lower back down.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your feet flat on the ground and positioned to maximize glute activation.</item>
+        <item>2. Avoid letting your knees collapse inward during the lift.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSmithMachineReverseKickback">
+        <item>Smith Machine Reverse Kickback</item>
+        <item>The Smith Machine Reverse Kickback is a glute-focused exercise that isolates the muscles while stabilizing the movement for improved form.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Position yourself in a Smith Machine with the barbell set low and a mat under your knees for comfort.</item>
+        <item>2. Kneel on all fours with one leg extended straight back, foot flexed.</item>
+        <item>3. Push the bar upward by extending your leg fully, squeezing your glutes at the top.</item>
+        <item>4. Slowly lower back to the starting position and repeat on the other leg.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on keeping your core engaged to avoid arching your lower back.</item>
+        <item>2. Perform the movement slowly to maximize muscle activation.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSquat">
+        <item>Squat</item>
+        <item>The Squat is a foundational lower body exercise that builds strength in the glutes, quads, hamstrings, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, toes pointed slightly outward.</item>
+        <item>2. Lower your body by bending your knees and pushing your hips back as if sitting into a chair.</item>
+        <item>3. Go as low as your flexibility allows, keeping your chest up and knees tracking over your toes.</item>
+        <item>4. Push through your heels to return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid rounding your lower back.</item>
+        <item>2. Engage your core throughout the movement for stability.</item>
+    </string-array>
+
+    <string-array name="descriptionHipPlieDumbbellSquat">
+        <item>Plie Dumbbell Squat</item>
+        <item>The Plie Dumbbell Squat is a lower-body exercise targeting the inner thighs, glutes, and quads, while also improving hip mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet wider than shoulder-width apart, toes pointing outward, and hold a dumbbell with both hands in front of you.</item>
+        <item>2. Lower your body by bending your knees and pushing your hips back, keeping your chest upright.</item>
+        <item>3. Lower until your thighs are parallel to the ground or as low as your flexibility allows.</item>
+        <item>4. Push through your heels to return to the starting position, squeezing your glutes at the top.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your knees tracking in line with your toes to avoid joint stress.</item>
+        <item>2. Maintain a neutral spine throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDeadlift">
+        <item>Deadlift</item>
+        <item>The Deadlift is a foundational strength exercise that targets the glutes, hamstrings, lower back, and core, improving overall strength and posture.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, toes pointing forward, and the barbell positioned over the middle of your feet.</item>
+        <item>2. Bend at the hips and knees to grip the barbell, keeping your back flat and chest up.</item>
+        <item>3. Push through your heels to lift the barbell, extending your hips and knees simultaneously, while maintaining a neutral spine.</item>
+        <item>4. Lower the barbell back to the ground with control, keeping your back straight and core engaged.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rounding your back during the lift to prevent injury.</item>
+        <item>2. Keep the bar close to your body throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipRomanianDeadlift">
+        <item>Romanian Deadlift</item>
+        <item>The Romanian Deadlift is a variation of the deadlift that emphasizes the hamstrings and glutes, with less focus on the lower back compared to the conventional deadlift.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding a barbell or dumbbells in front of your thighs.</item>
+        <item>2. Keep your knees slightly bent and hinge at the hips, lowering the weights toward the floor while maintaining a flat back and slight arch in the lower back.</item>
+        <item>3. Stop when you feel a stretch in your hamstrings, then reverse the movement by driving your hips forward to return to the standing position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid bending your back; keep it neutral throughout the movement.</item>
+        <item>2. Focus on using your hips and hamstrings to lift the weight, not your lower back.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBarbellHackSquats">
+        <item>Barbell Hack Squats</item>
+        <item>The Barbell Hack Squat is a variation of the squat where you hold the barbell behind your legs, targeting the quadriceps, hamstrings, and glutes.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart and the barbell positioned behind your legs, gripping it with both hands.</item>
+        <item>2. Lower your hips into a squat position, keeping your chest up and back straight.</item>
+        <item>3. Drive through your heels to return to the starting position, fully extending your hips and knees.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep the barbell close to your legs to reduce stress on your lower back.</item>
+        <item>2. Focus on squatting deep while maintaining a neutral spine.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBarbellSumoSquat">
+        <item>Barbell Sumo Squat</item>
+        <item>The Barbell Sumo Squat is a variation of the squat that targets the inner thighs, glutes, and quads by widening your stance and pointing your toes outward.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet wider than shoulder-width apart, toes pointing outward, and the barbell positioned across your upper back.</item>
+        <item>2. Lower your body into a squat, keeping your knees tracking over your toes and your back straight.</item>
+        <item>3. Push through your heels to return to the standing position, squeezing your glutes at the top.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a neutral spine and avoid leaning forward during the squat.</item>
+        <item>2. Ensure your knees are aligned with your toes as you lower into the squat.</item>
+    </string-array>
+
+    <string-array name="descriptionHipLeverStandingRearKick">
+        <item>Lever Standing Rear Kick</item>
+        <item>The Lever Standing Rear Kick is an exercise that targets the glutes, hamstrings, and lower back, helping to improve hip stability and strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand next to the lever machine with one foot in the foot plate and the other leg positioned to kick backward.</item>
+        <item>2. Adjust the machine settings for your height and leg length.</item>
+        <item>3. Push against the foot plate with the back leg, driving your heel toward the ceiling and squeezing your glutes at the top.</item>
+        <item>4. Slowly return to the starting position, keeping your core engaged and controlling the movement.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid arching your back during the kick, and focus on using your glutes.</item>
+        <item>2. Perform the movement slowly to maximize muscle activation.</item>
+    </string-array>
+
+    <string-array name="descriptionHipGoodMorning">
+        <item>Good Morning</item>
+        <item>The Good Morning exercise is a compound movement that targets the hamstrings, glutes, and lower back, improving posterior chain strength and flexibility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, with a barbell resting on your upper back or holding dumbbells at your shoulders.</item>
+        <item>2. Keep your back straight, hinge at the hips, and lower your torso forward until it is nearly parallel to the ground.</item>
+        <item>3. Reverse the motion by driving your hips forward and returning to the upright position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a neutral spine throughout the movement to prevent injury.</item>
+        <item>2. Avoid locking your knees; keep them slightly bent during the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDumbbellRomanianDeadlift">
+        <item>Dumbbell Romanian Deadlift</item>
+        <item>The Dumbbell Romanian Deadlift emphasizes the hamstrings and glutes while improving balance and flexibility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet hip-width apart, holding a dumbbell in each hand in front of your thighs.</item>
+        <item>2. Slightly bend your knees, hinge at the hips, and lower the dumbbells along your legs while keeping your back straight.</item>
+        <item>3. Stop when you feel a stretch in your hamstrings, then return to the standing position by driving your hips forward.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep the dumbbells close to your legs throughout the movement.</item>
+        <item>2. Avoid rounding your back; maintain a neutral spine.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSumoDeadlift">
+        <item>Sumo Deadlift</item>
+        <item>The Sumo Deadlift is a variation of the deadlift with a wide stance that targets the inner thighs, hamstrings, and glutes.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet wider than shoulder-width apart, toes pointing outward, and grip the barbell with your hands inside your knees.</item>
+        <item>2. Keep your chest up, back straight, and hips low as you lift the barbell by driving through your heels.</item>
+        <item>3. Lower the barbell back to the ground with control, maintaining a neutral spine.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your knees tracking over your toes during the lift.</item>
+        <item>2. Engage your core to support your lower back.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDumbbellLunge">
+        <item>Dumbbell Lunge</item>
+        <item>The Dumbbell Lunge is a dynamic exercise that targets the quadriceps, hamstrings, glutes, and core, improving lower-body strength and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand at your sides, and stand upright with your feet together.</item>
+        <item>2. Step forward with one leg, lowering your body until both knees are bent at a 90-degree angle.</item>
+        <item>3. Push through your front heel to return to the starting position and repeat with the opposite leg.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest up and back straight throughout the movement.</item>
+        <item>2. Ensure your front knee does not extend past your toes to protect your joints.</item>
+    </string-array>
+
+    <string-array name="descriptionHipLeverSideHipAbduction">
+        <item>Lever Side Hip Abduction</item>
+        <item>The Lever Side Hip Abduction is an isolation exercise that targets the hip abductors, improving hip strength and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Position yourself on the lever machine, with one leg secured and the other free to move outward.</item>
+        <item>2. Push against the lever with your leg, moving it outward to the side in a controlled motion.</item>
+        <item>3. Slowly return to the starting position and repeat for the desired number of reps before switching legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid jerking movements; focus on slow and controlled reps.</item>
+        <item>2. Keep your core engaged to stabilize your torso during the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBodyweightSumoSquat">
+        <item>Bodyweight Sumo Squat</item>
+        <item>The Bodyweight Sumo Squat is a lower-body exercise targeting the inner thighs, glutes, and quadriceps, enhancing flexibility and strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet wider than shoulder-width apart, toes pointing outward.</item>
+        <item>2. Lower your hips into a squat position while keeping your back straight and chest up.</item>
+        <item>3. Push through your heels to return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid letting your knees cave inward; keep them aligned with your toes.</item>
+        <item>2. Engage your core for better balance and stability.</item>
+    </string-array>
+
+    <string-array name="descriptionHipLeverSideHipAdduction">
+        <item>Lever Side Hip Adduction</item>
+        <item>The Lever Side Hip Adduction is an isolation exercise focusing on the inner thighs, improving strength and stability in the adductor muscles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the lever machine and position your legs around the pads.</item>
+        <item>2. Squeeze your legs together against the resistance, engaging your inner thighs.</item>
+        <item>3. Slowly return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use a controlled tempo to maximize muscle engagement.</item>
+        <item>2. Avoid using excessive weight to maintain proper form.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDumbbellRearLunge">
+        <item>Dumbbell Rear Lunge</item>
+        <item>The Dumbbell Rear Lunge targets the glutes, hamstrings, and quadriceps, improving lower-body strength and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand and stand upright with your feet together.</item>
+        <item>2. Step backward with one leg, lowering your body until your front thigh is parallel to the ground.</item>
+        <item>3. Push through your front heel to return to the starting position and repeat with the opposite leg.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your torso upright and avoid leaning forward.</item>
+        <item>2. Maintain balance by engaging your core throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBarbellLateralLunge">
+        <item>Barbell Lateral Lunge</item>
+        <item>The Barbell Lateral Lunge strengthens the lower body while enhancing balance and flexibility, focusing on the glutes, quadriceps, and adductors.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place a barbell on your upper back and stand upright with your feet together.</item>
+        <item>2. Step laterally to one side, bending your knee and lowering your hips while keeping your other leg straight.</item>
+        <item>3. Push off your bent leg to return to the starting position and repeat on the other side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Ensure your knee tracks over your toes to avoid strain.</item>
+        <item>2. Keep your chest up and back straight during the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipStandingHipAbduction">
+        <item>Standing Hip Abduction</item>
+        <item>The Standing Hip Abduction is a simple and effective exercise that targets the hip abductors, improving hip strength and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright, holding onto a support for balance if needed.</item>
+        <item>2. Lift one leg out to the side in a controlled motion, keeping your torso upright.</item>
+        <item>3. Lower your leg back to the starting position and repeat before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid leaning to one side; keep your torso stable.</item>
+        <item>2. Perform the movement slowly to fully engage the target muscles.</item>
+    </string-array>
+
+    <string-array name="descriptionHipCableHipAdduction">
+        <item>Cable Hip Adduction</item>
+        <item>The Cable Hip Adduction is an isolation exercise targeting the adductor muscles of the inner thighs, improving strength and stability in the lower body.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach an ankle strap to a low cable pulley and secure it around one ankle.</item>
+        <item>2. Stand sideways to the cable machine, with the strapped leg away from the machine.</item>
+        <item>3. Bring the strapped leg across your body in a controlled motion, engaging your inner thigh muscles.</item>
+        <item>4. Slowly return to the starting position and repeat before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain an upright posture throughout the exercise.</item>
+        <item>2. Use a controlled motion to avoid using momentum.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBodyweightSquat">
+        <item>Bodyweight Squat</item>
+        <item>The Bodyweight Squat is a foundational lower-body exercise that strengthens the glutes, quadriceps, hamstrings, and core while improving mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart and your toes slightly turned outward.</item>
+        <item>2. Lower your hips back and down as if sitting into a chair, keeping your chest up and back straight.</item>
+        <item>3. Push through your heels to return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Ensure your knees track over your toes and do not collapse inward.</item>
+        <item>2. Engage your core to maintain stability and balance.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSideLyingClam">
+        <item>Side Lying Clam</item>
+        <item>The Side Lying Clam strengthens the hip abductors and external rotators, enhancing hip stability and preventing knee injuries.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your side with your legs stacked and knees bent at a 90-degree angle.</item>
+        <item>2. Keep your feet together as you lift your top knee away from the bottom knee, opening your hips.</item>
+        <item>3. Slowly lower your knee back down and repeat before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rotating your torso; keep the movement isolated to your hip.</item>
+        <item>2. Perform the exercise slowly to fully engage the target muscles.</item>
+    </string-array>
+
+    <string-array name="descriptionHipKettlebellSingleLegDeadlift">
+        <item>Kettlebell Single Leg Deadlift</item>
+        <item>The Kettlebell Single Leg Deadlift strengthens the hamstrings, glutes, and lower back while improving balance and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a kettlebell in one hand and stand upright with your feet hip-width apart.</item>
+        <item>2. Shift your weight onto one leg, keeping a slight bend in the knee.</item>
+        <item>3. Hinge at the hips, lowering the kettlebell toward the ground while extending your other leg straight back.</item>
+        <item>4. Return to the starting position and repeat before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and core engaged throughout the movement.</item>
+        <item>2. Move slowly to maintain balance and control.</item>
+    </string-array>
+
+    <string-array name="descriptionHipReverseLungeKneeLift">
+        <item>Reverse Lunge Knee Lift</item>
+        <item>The Reverse Lunge Knee Lift combines lower-body strength with balance and coordination, targeting the glutes, quadriceps, and hamstrings.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright with your feet hip-width apart.</item>
+        <item>2. Step backward with one leg into a lunge position, lowering your back knee toward the ground.</item>
+        <item>3. Push through your front heel to return to the starting position, lifting the back knee toward your chest.</item>
+        <item>4. Repeat on the same leg or alternate sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest up and back straight throughout the movement.</item>
+        <item>2. Engage your core for better balance and stability.</item>
+    </string-array>
+
+    <string-array name="descriptionHipCurtsySquat">
+        <item>Curtsy Squat</item>
+        <item>The Curtsy Squat targets the glutes, quadriceps, and inner thighs while improving balance and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet hip-width apart and your hands on your hips or in front of your chest.</item>
+        <item>2. Step one leg diagonally behind the other, lowering into a squat position.</item>
+        <item>3. Return to the starting position and repeat on the other side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest upright and back straight throughout the movement.</item>
+        <item>2. Avoid letting your front knee collapse inward.</item>
+    </string-array>
+
+    <string-array name="descriptionHipCableGobletSquat">
+        <item>Cable Goblet Squat</item>
+        <item>The Cable Goblet Squat strengthens the lower body, particularly the quads, glutes, and hamstrings, while engaging the core for stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a rope or handle to a low cable pulley and grasp it with both hands.</item>
+        <item>2. Step back slightly to create tension and hold the handle close to your chest.</item>
+        <item>3. Lower your hips into a squat position, keeping your chest up and back straight.</item>
+        <item>4. Push through your heels to return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your knees aligned with your toes as you squat.</item>
+        <item>2. Engage your core to maintain stability.</item>
+    </string-array>
+
+    <string-array name="descriptionHipCableDonkeyKickback">
+        <item>Cable Donkey Kickback</item>
+        <item>The Cable Donkey Kickback isolates the glutes, helping to build strength and improve shape and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach an ankle strap to a low cable pulley and secure it around one ankle.</item>
+        <item>2. Position yourself on all fours or lean slightly forward holding onto a support for balance.</item>
+        <item>3. Extend your strapped leg straight back, squeezing your glutes at the top.</item>
+        <item>4. Slowly return to the starting position and repeat before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid arching your back; keep your core tight.</item>
+        <item>2. Focus on slow, controlled movements to maximize glute engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBridgeHipAbduction">
+        <item>Bridge Hip Abduction</item>
+        <item>The Bridge Hip Abduction strengthens the glutes and outer thighs while improving pelvic stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with your knees bent and feet flat on the floor, hip-width apart.</item>
+        <item>2. Lift your hips toward the ceiling, forming a straight line from your shoulders to your knees.</item>
+        <item>3. At the top, open your knees outward in a controlled motion, then bring them back together.</item>
+        <item>4. Lower your hips back to the ground and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to maintain stability.</item>
+        <item>2. Avoid arching your lower back during the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipThighFlyAdductorMagnusStretch">
+        <item>Thigh Fly (Adductor Magnus Stretch)</item>
+        <item>The Thigh Fly (Adductor Magnus Stretch) increases flexibility in the inner thighs and adductors, aiding mobility and preventing injuries.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the ground with your feet together and your knees bent, allowing them to fall outward.</item>
+        <item>2. Gently press your knees down toward the ground using your hands or elbows.</item>
+        <item>3. Hold the stretch for the desired duration, breathing deeply.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid forcing your knees down; let gravity assist the stretch.</item>
+        <item>2. Keep your back straight to maximize the stretch.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSplitJumpSquat">
+        <item>Split Jump Squat</item>
+        <item>The Split Jump Squat is a dynamic plyometric exercise that targets the legs and glutes while improving explosive power and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a lunge position with one foot forward and the other foot back, both knees bent.</item>
+        <item>2. Explode upward, switching legs mid-air so that you land with the opposite foot forward.</item>
+        <item>3. Absorb the landing by bending your knees and immediately repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest upright and engage your core for stability.</item>
+        <item>2. Land softly to reduce impact on your joints.</item>
+    </string-array>
+
+    <string-array name="descriptionHipCossackSquat">
+        <item>Cossack Squat</item>
+        <item>The Cossack Squat enhances lower body strength, flexibility, and mobility, particularly in the hips and inner thighs.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet wider than shoulder-width apart.</item>
+        <item>2. Shift your weight to one side, bending the knee while keeping the other leg straight.</item>
+        <item>3. Lower your hips as far as your mobility allows, then return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest up and back straight throughout the movement.</item>
+        <item>2. Ensure your bent knee tracks over your toes.</item>
+    </string-array>
+
+    <string-array name="descriptionHipGluteKickbackMachine">
+        <item>Glute Kickback Machine</item>
+        <item>The Glute Kickback Machine isolates the glutes, building strength and enhancing muscle activation.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Position yourself on the machine, securing the padded lever behind one leg.</item>
+        <item>2. Push the lever back and upward using your glutes.</item>
+        <item>3. Slowly return to the starting position and repeat before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using momentum; focus on controlled movements.</item>
+        <item>2. Keep your core engaged to maintain stability.</item>
+    </string-array>
+
+    <string-array name="descriptionHipStandingCrossLegHamstringStretch">
+        <item>Standing Cross Leg Hamstring Stretch</item>
+        <item>The Standing Cross Leg Hamstring Stretch improves hamstring flexibility and alleviates tension in the lower back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand tall and cross one leg over the other.</item>
+        <item>2. Slowly bend forward at the hips, reaching toward your toes.</item>
+        <item>3. Hold the stretch for the desired duration, then switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rounding your back; focus on hinging at the hips.</item>
+        <item>2. Breathe deeply to help relax into the stretch.</item>
+    </string-array>
+
+    <string-array name="descriptionHipJumpSquats">
+        <item>Jump Squats</item>
+        <item>The Jump Squat is a plyometric exercise that enhances explosive power, lower body strength, and cardiovascular endurance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart.</item>
+        <item>2. Lower into a squat position, keeping your chest upright.</item>
+        <item>3. Explode upward into a jump, reaching as high as possible.</item>
+        <item>4. Land softly and immediately transition into the next squat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use your arms to help generate upward momentum.</item>
+        <item>2. Maintain proper squat form to avoid knee or back strain.</item>
+    </string-array>
+
+    <string-array name="descriptionHipReversePlank">
+        <item>Reverse Plank</item>
+        <item>The Reverse Plank strengthens the core, glutes, and hamstrings while improving shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with your legs extended and your hands placed behind you, fingers pointing forward.</item>
+        <item>2. Lift your hips toward the ceiling, forming a straight line from head to heels.</item>
+        <item>3. Hold the position while engaging your glutes and core.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your shoulders away from your ears to avoid tension.</item>
+        <item>2. Maintain a neutral neck position by looking slightly upward.</item>
+    </string-array>
+
+    <string-array name="descriptionHipLandmineSquatToPress">
+        <item>Landmine Squat to Press</item>
+        <item>The Landmine Squat to Press combines lower and upper body strength training, targeting the legs, shoulders, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold one end of a barbell secured in a landmine attachment with both hands at chest level.</item>
+        <item>2. Lower into a squat, keeping your chest upright.</item>
+        <item>3. Push through your heels to stand and press the barbell overhead.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Ensure the barbell moves in a controlled manner throughout.</item>
+        <item>2. Keep your core engaged to avoid arching your back.</item>
+    </string-array>
+
+    <string-array name="descriptionHipStandingHipExtension">
+        <item>Standing Hip Extension</item>
+        <item>The Standing Hip Extension strengthens the glutes and improves hip mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand tall, holding onto a stable surface for support if needed.</item>
+        <item>2. Extend one leg backward while keeping it straight, squeezing your glutes.</item>
+        <item>3. Slowly return to the starting position and repeat on the other leg.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid leaning forward; keep your torso upright.</item>
+        <item>2. Focus on controlled movements to maximize muscle engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBenchGluteFlutterKicks">
+        <item>Bench Glute Flutter Kicks</item>
+        <item>Bench Glute Flutter Kicks target the glutes, hamstrings, and lower back while promoting endurance and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie facedown on a bench, hips at the edge, and legs hanging down.</item>
+        <item>2. Lift both legs until they are level with your body.</item>
+        <item>3. Alternate kicking your legs up and down in a flutter motion.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to stabilize your lower back.</item>
+        <item>2. Perform controlled, smooth kicks to avoid jerky movements.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDumbbellLateralStepUp">
+        <item>Dumbbell Lateral Step-Up</item>
+        <item>The Dumbbell Lateral Step-Up strengthens the quads, hamstrings, and glutes while improving balance and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand beside a sturdy platform or bench, holding a dumbbell in each hand.</item>
+        <item>2. Step laterally onto the platform with one foot, pressing through your heel to lift your body up.</item>
+        <item>3. Step down with the opposite foot and repeat on the same side before switching.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest upright and core engaged throughout the movement.</item>
+        <item>2. Avoid pushing off the ground with your trailing leg; focus on the leading leg.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBarbellStepUp">
+        <item>Barbell Step-Up</item>
+        <item>The Barbell Step-Up is a compound exercise targeting the glutes, quads, and hamstrings, improving lower body strength and balance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place a barbell across your upper back and stand facing a sturdy platform or bench.</item>
+        <item>2. Step up onto the platform with one foot, pressing through your heel to lift your body up.</item>
+        <item>3. Step down with the opposite foot and repeat on the other side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest upright and avoid leaning forward.</item>
+        <item>2. Control your descent to prevent unnecessary impact.</item>
+    </string-array>
+
+    <string-array name="descriptionHipLyingGluteStretch">
+        <item>Lying Glute Stretch</item>
+        <item>The Lying Glute Stretch enhances flexibility in the glutes and hips, aiding in recovery and reducing stiffness.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with your knees bent and feet flat on the floor.</item>
+        <item>2. Cross one ankle over the opposite thigh, forming a figure-four shape.</item>
+        <item>3. Pull the bottom thigh toward your chest, feeling a stretch in your glutes.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid straining your neck or shoulders; keep them relaxed.</item>
+        <item>2. Hold the stretch for 20-30 seconds before switching sides.</item>
+    </string-array>
+
+    <string-array name="descriptionHipReverseHyperextensionMachine">
+        <item>Reverse Hyperextension Machine</item>
+        <item>The Reverse Hyperextension Machine targets the glutes, hamstrings, and lower back, promoting strength and spinal health.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie facedown on the reverse hyperextension machine with your hips at the edge and legs hanging down.</item>
+        <item>2. Lift your legs upward until they are level with your body.</item>
+        <item>3. Lower your legs back to the starting position in a controlled manner.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid swinging your legs; focus on controlled movements.</item>
+        <item>2. Engage your core to prevent strain on your lower back.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBodyweightHipThrust">
+        <item>Bodyweight Hip Thrust</item>
+        <item>The Bodyweight Hip Thrust strengthens the glutes and hamstrings, improving hip stability and lower body power.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with your upper back resting against a bench and knees bent, feet flat on the ground.</item>
+        <item>2. Drive your hips upward, forming a straight line from shoulders to knees.</item>
+        <item>3. Lower your hips back down without touching the ground and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Squeeze your glutes at the top for maximum activation.</item>
+        <item>2. Keep your chin tucked to avoid straining your neck.</item>
+    </string-array>
+
+    <string-array name="descriptionHipPlankWithArmAndLegLift">
+        <item>Plank With Arm And Leg Lift</item>
+        <item>The Plank With Arm And Leg Lift challenges core stability, balance, and coordination while engaging multiple muscle groups.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin in a plank position with hands directly under shoulders and feet hip-width apart.</item>
+        <item>2. Lift one arm and the opposite leg simultaneously, keeping your body stable.</item>
+        <item>3. Lower them back down and alternate sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid letting your hips sag or rotate during the movement.</item>
+        <item>2. Move slowly to maintain control and balance.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSingleLegBridge">
+        <item>Single Leg Bridge</item>
+        <item>The Single Leg Bridge is a unilateral exercise that strengthens the glutes, hamstrings, and core, while improving balance and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with one knee bent and the other leg extended straight up.</item>
+        <item>2. Push through the heel of your bent leg to lift your hips off the ground, creating a straight line from shoulders to knees.</item>
+        <item>3. Lower your hips back down and repeat on the same leg before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to prevent arching in your lower back.</item>
+        <item>2. Perform the movement slowly and with control.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSmithMachineGoodMorning">
+        <item>Smith Machine Good Morning</item>
+        <item>The Smith Machine Good Morning is a posterior chain exercise targeting the hamstrings, glutes, and lower back, performed with added stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Position the barbell of the Smith machine across your upper back and stand with feet shoulder-width apart.</item>
+        <item>2. Keeping a slight bend in your knees, hinge forward at the hips until your torso is nearly parallel to the ground.</item>
+        <item>3. Return to the starting position by extending your hips.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rounding your back; maintain a neutral spine throughout.</item>
+        <item>2. Keep the movement slow and controlled to prevent strain.</item>
+    </string-array>
+
+    <string-array name="descriptionHipCablePullThrough">
+        <item>Cable Pull Through</item>
+        <item>The Cable Pull Through is a glute and hamstring-focused exercise that enhances hip hinge mechanics and posterior chain strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand facing away from a low cable pulley with a rope attachment held between your legs.</item>
+        <item>2. Hinge at the hips, allowing the cable to pull your hands backward while keeping your back straight.</item>
+        <item>3. Thrust your hips forward to return to the starting position, squeezing your glutes at the top.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your knees slightly bent and avoid locking them out.</item>
+        <item>2. Focus on using your glutes and hamstrings to drive the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipWallSit">
+        <item>Wall Sit</item>
+        <item>The Wall Sit is an isometric exercise that builds endurance in the quads, glutes, and calves while improving stability and core engagement.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your back against a wall and feet shoulder-width apart, a few inches away from the wall.</item>
+        <item>2. Slide down until your thighs are parallel to the floor, forming a 90-degree angle at the knees.</item>
+        <item>3. Hold the position for the desired duration while keeping your back flat against the wall.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid letting your knees extend past your toes.</item>
+        <item>2. Keep your weight distributed evenly through your feet.</item>
+    </string-array>
+
+    <string-array name="descriptionHipHighKneeSquat">
+        <item>High Knee Squat</item>
+        <item>The High Knee Squat combines dynamic movement with strength training, targeting the quads, glutes, and hip flexors while improving balance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with feet hip-width apart and hands at your sides or clasped in front of your chest.</item>
+        <item>2. Perform a squat, lowering your hips back and down.</item>
+        <item>3. As you rise, lift one knee high toward your chest, balancing briefly on the opposite leg.</item>
+        <item>4. Alternate knees with each repetition.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest upright and engage your core for stability.</item>
+        <item>2. Perform the movement at a controlled pace to maintain balance.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSwimming">
+        <item>Swimming</item>
+        <item>Swimming is a low-impact, full-body cardiovascular exercise that improves endurance, flexibility, and muscle strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Choose your preferred swimming stroke (freestyle, backstroke, breaststroke, or butterfly).</item>
+        <item>2. Focus on smooth, controlled movements to propel yourself through the water.</item>
+        <item>3. Maintain proper breathing techniques to ensure consistent oxygen intake.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use a streamlined body position to minimize drag.</item>
+        <item>2. Keep a consistent rhythm with both your arms and legs.</item>
+    </string-array>
+
+    <string-array name="descriptionHipFrogReverseHyperextension">
+        <item>Frog Reverse Hyperextension</item>
+        <item>The Frog Reverse Hyperextension targets the glutes and lower back, while engaging the core and improving hip mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down on a bench or flat surface, with your hips at the edge and legs bent, knees apart, and feet together.</item>
+        <item>2. Lift your legs and hips upward, squeezing your glutes at the top of the movement.</item>
+        <item>3. Lower your legs back down with control.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid overextending your lower back; focus on glute engagement.</item>
+        <item>2. Perform the movement slowly and with control for maximum effectiveness.</item>
+    </string-array>
+
+    <string-array name="descriptionHipKettlebellSplitSnatch">
+        <item>Kettlebell Split Snatch</item>
+        <item>The Kettlebell Split Snatch is a dynamic exercise that builds explosive power, balance, and coordination, targeting the shoulders, legs, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start with the kettlebell on the floor between your feet, feet shoulder-width apart.</item>
+        <item>2. Hinge at the hips and grasp the kettlebell with one hand.</item>
+        <item>3. Drive through your legs to lift the kettlebell, transitioning into a split stance as you lock it overhead.</item>
+        <item>4. Return to the starting position and repeat on the opposite side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep the kettlebell close to your body during the movement.</item>
+        <item>2. Ensure your overhead position is stable before lowering the kettlebell.</item>
+    </string-array>
+
+    <string-array name="descriptionHipKettlebellSwings">
+        <item>Kettlebell Swings</item>
+        <item>Kettlebell Swings are a foundational exercise that builds explosive hip power, engages the glutes, hamstrings, and core, and improves cardiovascular endurance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with feet shoulder-width apart, holding the kettlebell with both hands.</item>
+        <item>2. Hinge at the hips, allowing the kettlebell to swing back between your legs.</item>
+        <item>3. Thrust your hips forward to propel the kettlebell to chest height.</item>
+        <item>4. Allow the kettlebell to swing back down as you hinge again.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid using your arms to lift the kettlebell.</item>
+        <item>2. Focus on driving the movement with your hips.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBodyweightSingleLegDeadlift">
+        <item>Bodyweight Single Leg Deadlift</item>
+        <item>The Bodyweight Single Leg Deadlift is a balance-focused exercise that strengthens the glutes, hamstrings, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand on one leg with a slight bend in your knee, and extend the opposite leg behind you.</item>
+        <item>2. Hinge at the hips, lowering your torso while keeping your back flat and extending your arms forward or to the sides for balance.</item>
+        <item>3. Return to the starting position and repeat on the same leg before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a straight line from your head to your raised foot.</item>
+        <item>2. Perform the movement slowly to improve stability and control.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBodyweightBoxSquat">
+        <item>Bodyweight Box Squat</item>
+        <item>The Bodyweight Box Squat is a lower-body exercise that focuses on developing the glutes, hamstrings, and quadriceps while improving squat form and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand in front of a box or bench with your feet shoulder-width apart.</item>
+        <item>2. Push your hips back and lower your body until your glutes lightly touch the box, keeping your chest upright.</item>
+        <item>3. Drive through your heels to return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Ensure your knees track over your toes during the movement.</item>
+        <item>2. Avoid sitting fully on the box; maintain tension in your legs.</item>
+    </string-array>
+
+    <string-array name="descriptionHipStepUpSingleLegBalanceWithBicepCurl">
+        <item>Step Up Single Leg Balance with Bicep Curl</item>
+        <item>This exercise combines strength, balance, and coordination by engaging the lower body and arms simultaneously.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand in front of a step or platform holding dumbbells at your sides.</item>
+        <item>2. Step onto the platform with one leg, bringing the opposite knee up to a 90-degree angle while performing a bicep curl.</item>
+        <item>3. Lower back down with control and repeat on the same leg before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to maintain balance.</item>
+        <item>2. Use controlled movements to avoid momentum during the curl.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBirdDog">
+        <item>Bird Dog</item>
+        <item>The Bird Dog is a core stability exercise that improves balance, coordination, and spinal alignment while engaging the back and glutes.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin on your hands and knees in a tabletop position, with your back straight.</item>
+        <item>2. Extend one arm forward and the opposite leg backward, creating a straight line from your fingertips to your toes.</item>
+        <item>3. Hold for a moment, then return to the starting position and repeat on the opposite side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid letting your hips tilt; keep them level throughout the movement.</item>
+        <item>2. Perform the exercise slowly to maintain control and stability.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDumbbellStepUp">
+        <item>Dumbbell Step-Up</item>
+        <item>The Dumbbell Step-Up is a unilateral exercise that targets the quads, glutes, and hamstrings, while improving balance and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand in front of a step or platform, holding dumbbells at your sides.</item>
+        <item>2. Step onto the platform with one foot, driving through the heel to lift your body.</item>
+        <item>3. Step back down with the same foot and repeat on the other side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your torso upright and avoid leaning forward.</item>
+        <item>2. Use a platform height that allows you to perform the movement with proper form.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBeltSquat">
+        <item>Belt Squat</item>
+        <item>The Belt Squat is a lower-body strength exercise that minimizes spinal load while targeting the quads, glutes, and hamstrings.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a squat belt around your waist and secure the weights.</item>
+        <item>2. Stand on a platform with your feet shoulder-width apart and the weights hanging below.</item>
+        <item>3. Push your hips back and lower your body into a squat, keeping your chest upright.</item>
+        <item>4. Drive through your heels to return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain proper squat mechanics with your knees tracking over your toes.</item>
+        <item>2. Keep tension in your legs throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipReverseLunge">
+        <item>Reverse Lunge</item>
+        <item>The Reverse Lunge is a lower-body exercise that strengthens the glutes, quads, and hamstrings while improving balance and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright with your feet hip-width apart.</item>
+        <item>2. Step one foot backward into a lunge position, lowering your hips until both knees are bent at about 90 degrees.</item>
+        <item>3. Push through the heel of your front foot to return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest upright and core engaged throughout the movement.</item>
+        <item>2. Avoid letting your front knee extend past your toes.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDumbbellGluteBridge">
+        <item>Dumbbell Glute Bridge</item>
+        <item>The Dumbbell Glute Bridge targets the glutes and hamstrings, improving lower body strength and hip stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with your knees bent, feet flat on the ground, and a dumbbell resting on your hips.</item>
+        <item>2. Press through your heels to lift your hips toward the ceiling, squeezing your glutes at the top.</item>
+        <item>3. Lower your hips back down with control and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to avoid overarching your lower back.</item>
+        <item>2. Focus on squeezing your glutes at the top of the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipOneArmKettlebellSnatch">
+        <item>One Arm Kettlebell Snatch</item>
+        <item>This full-body power exercise builds strength and explosiveness, focusing on the shoulders, hips, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding a kettlebell in one hand.</item>
+        <item>2. Swing the kettlebell back between your legs and then explosively drive it upward, extending your hips and pulling the kettlebell overhead.</item>
+        <item>3. Lock out your arm at the top, then lower the kettlebell back to the starting position with control.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use your hips to generate power, not just your arm.</item>
+        <item>2. Keep the kettlebell close to your body during the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipFrontPlankWithArmAndLegLift">
+        <item>Front Plank With Arm And Leg Lift</item>
+        <item>This advanced plank variation improves core stability, balance, and strength by engaging multiple muscle groups.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin in a forearm plank position with your body in a straight line from head to heels.</item>
+        <item>2. Lift one arm and the opposite leg off the ground, holding for a moment.</item>
+        <item>3. Lower them back down and repeat on the other side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid letting your hips sag or rotate during the movement.</item>
+        <item>2. Perform the exercise slowly and with control to maintain balance.</item>
+    </string-array>
+
+    <string-array name="descriptionHipResistanceBandReverseHyperextension">
+        <item>Resistance Band Reverse Hyperextension</item>
+        <item>This exercise targets the glutes, hamstrings, and lower back, improving posterior chain strength and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Anchor a resistance band securely at a low point and loop it around your ankles.</item>
+        <item>2. Lie face down on a bench with your hips at the edge and your legs hanging off.</item>
+        <item>3. Extend your legs backward against the resistance of the band, squeezing your glutes at the top.</item>
+        <item>4. Lower your legs back down with control and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements controlled to maintain tension in the band.</item>
+        <item>2. Avoid overextending your lower back during the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionHipResistanceBandToeTouch">
+        <item>Resistance Band Toe Touch</item>
+        <item>This exercise targets the core, especially the lower abs, while also engaging the hip flexors.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back and loop a resistance band around your feet, holding the ends in each hand.</item>
+        <item>2. Lift your legs straight up toward the ceiling, keeping them extended.</item>
+        <item>3. Crunch upward, reaching your hands toward your toes while maintaining tension in the band.</item>
+        <item>4. Lower back down with control and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements slow and controlled to maximize core engagement.</item>
+        <item>2. Avoid straining your neck; focus on lifting with your abs.</item>
+    </string-array>
+
+    <string-array name="descriptionHipKneelingHipFlexorStretch">
+        <item>Kneeling Hip Flexor Stretch</item>
+        <item>This stretch improves hip flexibility and mobility, targeting the hip flexors and quads.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Kneel on one knee with the other foot forward, forming a 90-degree angle with both legs.</item>
+        <item>2. Shift your hips forward slightly until you feel a stretch in the front of your hip on the kneeling side.</item>
+        <item>3. Hold the stretch for 20–30 seconds, then switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid leaning forward excessively.</item>
+        <item>2. Squeeze your glutes to deepen the stretch.</item>
+    </string-array>
+
+    <string-array name="descriptionHipExerciseBallWallSquat">
+        <item>Exercise Ball Wall Squat</item>
+        <item>This exercise strengthens the quads, glutes, and hamstrings while providing support to the back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place an exercise ball between your lower back and a wall.</item>
+        <item>2. Stand with your feet shoulder-width apart and slightly forward.</item>
+        <item>3. Lower your body into a squat, rolling the ball down the wall as you bend your knees.</item>
+        <item>4. Return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your knees behind your toes during the squat.</item>
+        <item>2. Engage your core to maintain stability.</item>
+    </string-array>
+
+    <string-array name="descriptionHipKettlebellCleanAndJerk">
+        <item>Kettlebell Clean and Jerk</item>
+        <item>This dynamic full-body exercise builds strength and power, focusing on the shoulders, glutes, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding a kettlebell in one hand.</item>
+        <item>2. Clean the kettlebell to your shoulder by driving through your hips and pulling it upward.</item>
+        <item>3. Perform a jerk by bending your knees slightly and then extending them to press the kettlebell overhead.</item>
+        <item>4. Lower the kettlebell back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep the kettlebell close to your body throughout the movement.</item>
+        <item>2. Use your legs to generate power for the jerk.</item>
+    </string-array>
+
+    <string-array name="descriptionHipKettlebellGobletSquat">
+        <item>Kettlebell Goblet Squat</item>
+        <item>The Kettlebell Goblet Squat is a lower-body exercise that targets the glutes, quads, and hamstrings while engaging the core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a kettlebell by the horns at chest level with both hands.</item>
+        <item>2. Stand with your feet slightly wider than shoulder-width apart.</item>
+        <item>3. Lower your body into a squat, keeping your chest up and back straight.</item>
+        <item>4. Push through your heels to return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows close to your body to maintain proper kettlebell positioning.</item>
+        <item>2. Avoid rounding your back during the squat.</item>
+    </string-array>
+
+    <string-array name="descriptionHipKettlebellDeadlift">
+        <item>Kettlebell Deadlift</item>
+        <item>The Kettlebell Deadlift is a fundamental strength exercise targeting the glutes, hamstrings, lower back, and core, while improving overall posterior chain strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place a kettlebell on the ground between your feet, which should be shoulder-width apart.</item>
+        <item>2. Hinge at the hips, pushing them backward, and bend your knees slightly to grip the kettlebell handle with both hands.</item>
+        <item>3. Keep your back straight and chest up as you engage your core and lift the kettlebell by extending your hips and knees.</item>
+        <item>4. Stand fully upright, then lower the kettlebell back to the starting position with control.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rounding your back; maintain a neutral spine throughout the movement.</item>
+        <item>2. Focus on using your glutes and hamstrings to drive the movement, not your lower back.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBandLyingHipExternalRotation">
+        <item>Band Lying Hip External Rotation</item>
+        <item>The Band Lying Hip External Rotation is an exercise designed to strengthen the hip rotators and improve hip stability and mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with your knees bent and feet flat on the ground.</item>
+        <item>2. Place a resistance band around your thighs, just above your knees.</item>
+        <item>3. Keep your feet together as you press your knees outward against the band.</item>
+        <item>4. Slowly return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a neutral pelvis and avoid overarching your lower back.</item>
+        <item>2. Perform the movement slowly and with control to engage the correct muscles.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDumbbellSplitJump">
+        <item>Dumbbell Split Jump</item>
+        <item>The Dumbbell Split Jump is a plyometric exercise that targets the lower body muscles, including the quads, glutes, and hamstrings, while enhancing power and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand, letting them hang at your sides.</item>
+        <item>2. Assume a lunge position with one foot forward and the other back.</item>
+        <item>3. Push off explosively, switching legs mid-air, and land in a lunge position with the opposite leg forward.</item>
+        <item>4. Repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Land softly to reduce impact on your joints.</item>
+        <item>2. Maintain an upright torso throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBandedStepUp">
+        <item>Banded Step-Up</item>
+        <item>The Banded Step-Up is a resistance exercise that builds strength and stability in the lower body, particularly the glutes, quads, and hamstrings.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place a resistance band around your thighs, just above your knees.</item>
+        <item>2. Stand in front of a sturdy elevated surface, such as a bench or step.</item>
+        <item>3. Step up onto the surface with one leg, driving through the heel to extend the hip and knee.</item>
+        <item>4. Step down with the opposite leg and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements controlled to maintain balance and tension on the band.</item>
+        <item>2. Avoid leaning forward; keep your chest upright throughout the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDumbbellJumpSquat">
+        <item>Dumbbell Jump Squat</item>
+        <item>The Dumbbell Jump Squat is a plyometric strength exercise that targets the glutes, quads, and hamstrings while increasing explosive power.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand at your sides.</item>
+        <item>2. Stand with your feet shoulder-width apart and lower into a squat position.</item>
+        <item>3. Explode upward into a jump, keeping the dumbbells stable at your sides.</item>
+        <item>4. Land softly and immediately transition into the next repetition.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on maintaining proper squat form during the landing to protect your knees.</item>
+        <item>2. Use lighter dumbbells if you\'re new to the exercise to prioritize technique.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBurpees">
+        <item>Burpees</item>
+        <item>Burpees are a full-body exercise that improves strength, endurance, and cardiovascular fitness by engaging multiple muscle groups.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin standing with your feet shoulder-width apart.</item>
+        <item>2. Drop into a squat position with your hands on the ground in front of you.</item>
+        <item>3. Kick your feet back into a plank position, then lower your chest to the ground.</item>
+        <item>4. Push back up into a plank, jump your feet forward, and explosively jump into the air, reaching your arms overhead.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a strong core to protect your lower back during the plank portion.</item>
+        <item>2. Land softly to reduce impact on your joints during the jump.</item>
+    </string-array>
+
+    <string-array name="descriptionHipReverseHackSquat">
+        <item>Reverse Hack Squat</item>
+        <item>The Reverse Hack Squat is a lower-body exercise that targets the glutes, quads, and hamstrings while reducing stress on the lower back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Position yourself on a hack squat machine, facing the pads with your shoulders and chest supported.</item>
+        <item>2. Place your feet shoulder-width apart on the platform, with your toes slightly angled outward.</item>
+        <item>3. Unlock the machine and lower your body by bending your knees and hips.</item>
+        <item>4. Push through your heels to return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to maintain stability during the movement.</item>
+        <item>2. Avoid locking out your knees at the top of the lift.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDuckWalk">
+        <item>Duck Walk</item>
+        <item>The Duck Walk is a bodyweight exercise that strengthens the legs and improves flexibility in the hips and ankles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin in a squat position with your thighs parallel to the ground and hands in front for balance.</item>
+        <item>2. Step forward with one foot while staying low in the squat position.</item>
+        <item>3. Alternate steps as you "walk" forward, maintaining the squat throughout.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and chest up to avoid rounding your spine.</item>
+        <item>2. Perform the exercise on a smooth surface to reduce strain on your knees.</item>
+    </string-array>
+
+    <string-array name="descriptionHipZercherSquat">
+        <item>Zercher Squat</item>
+        <item>The Zercher Squat is a compound exercise that targets the quads, glutes, and core while engaging the upper body for support.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place a barbell in the crook of your elbows, holding it close to your body.</item>
+        <item>2. Stand with your feet shoulder-width apart and lower your body into a squat position.</item>
+        <item>3. Push through your heels to return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core to maintain stability and prevent leaning forward.</item>
+        <item>2. Use padding or a towel on the barbell for added comfort if needed.</item>
+    </string-array>
+
+    <string-array name="descriptionHipAbWheelRollout">
+        <item>Ab Wheel Rollout</item>
+        <item>The Ab Wheel Rollout is a core-strengthening exercise that primarily targets the abdominal muscles and improves overall core stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Kneel on the floor with an ab wheel positioned in front of you, gripping the handles with both hands.</item>
+        <item>2. Slowly roll the wheel forward, extending your body into a straight line while keeping your core engaged.</item>
+        <item>3. Pause briefly at the extended position, then roll the wheel back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid letting your hips sag; keep your body aligned throughout the movement.</item>
+        <item>2. Start with shorter ranges of motion if you\'re new to the exercise to build strength gradually.</item>
+    </string-array>
+
+    <string-array name="descriptionHipStandingHamstringStretch">
+        <item>Standing Hamstring Stretch</item>
+        <item>The Standing Hamstring Stretch is a flexibility exercise that targets the hamstrings and helps improve overall lower-body mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with one foot extended forward, placing your heel on the ground with your toes pointing upward.</item>
+        <item>2. Keep your other leg slightly bent for support and hinge forward at your hips, reaching toward your extended foot.</item>
+        <item>3. Hold the stretch for 15-30 seconds and switch legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rounding your back; focus on hinging at the hips to deepen the stretch.</item>
+        <item>2. Perform the stretch gently without bouncing to prevent muscle strain.</item>
+    </string-array>
+
+    <string-array name="descriptionHipKettlebellThruster">
+        <item>Kettlebell Thruster</item>
+        <item>The Kettlebell Thruster is a dynamic full-body exercise that combines a squat and an overhead press, targeting the quads, glutes, shoulders, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a kettlebell in each hand at shoulder height with your palms facing each other.</item>
+        <item>2. Lower into a squat position, keeping your chest up and knees behind your toes.</item>
+        <item>3. As you rise from the squat, press the kettlebells overhead until your arms are fully extended.</item>
+        <item>4. Lower the kettlebells back to shoulder height and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged throughout the movement to maintain stability.</item>
+        <item>2. Avoid arching your lower back during the squat or press.</item>
+    </string-array>
+
+    <string-array name="descriptionHipOneArmDumbbellSnatch">
+        <item>One Arm Dumbbell Snatch</item>
+        <item>The One Arm Dumbbell Snatch is a powerful full-body movement that targets the legs, back, shoulders, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place a dumbbell on the floor between your feet while standing with your knees slightly bent.</item>
+        <item>2. Grip the dumbbell with one hand, keeping your chest up and back flat.</item>
+        <item>3. Explode upward, using your legs and hips to propel the dumbbell overhead in a fluid motion.</item>
+        <item>4. Lower the dumbbell back to the starting position and repeat on the opposite side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use your legs and hips to drive the movement, not just your arm.</item>
+        <item>2. Keep the dumbbell close to your body throughout the lift for better control.</item>
+    </string-array>
+
+    <string-array name="descriptionHipLandmineLunge">
+        <item>Landmine Lunge</item>
+        <item>The Landmine Lunge is a lower-body exercise that targets the quads, glutes, and hamstrings, while also engaging the core for stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set up a landmine attachment with a barbell and grip the bar with both hands.</item>
+        <item>2. Step forward with one leg and lower your body into a lunge position, keeping your chest up and core tight.</item>
+        <item>3. Push through your front heel to return to the starting position, and repeat on the opposite side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your knee aligned with your toes and avoid letting it cave inward during the lunge.</item>
+        <item>2. Maintain a stable upper body to avoid unnecessary leaning.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSmithMachineLunge">
+        <item>Smith Machine Lunge</item>
+        <item>The Smith Machine Lunge is a controlled variation of the lunge that targets the quads, glutes, and hamstrings while providing added stability through the Smith machine.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set the barbell on a Smith machine at shoulder height and position yourself under the bar.</item>
+        <item>2. Step back with one foot and lower your body into a lunge position, ensuring your front knee stays behind your toes.</item>
+        <item>3. Push through the heel of your front foot to return to the starting position, and repeat on the opposite leg.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your torso upright and your core engaged throughout the movement.</item>
+        <item>2. Avoid using excessive weight that could cause instability in the lunge.</item>
+    </string-array>
+
+    <string-array name="descriptionHipTowelLegCurl">
+        <item>Towel Leg Curl</item>
+        <item>The Towel Leg Curl is a hamstring exercise that involves using a towel or similar object for resistance, targeting the hamstrings and glutes.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie flat on your back with a towel under your feet on a smooth surface like a hardwood floor.</item>
+        <item>2. Keep your legs straight and your feet flat on the towel, then lift your hips off the ground into a bridge position.</item>
+        <item>3. Slowly slide your feet toward your glutes by bending your knees, and then return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your glutes and core throughout the movement to maintain stability.</item>
+        <item>2. Perform the exercise slowly and with control to maximize hamstring activation.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSingleLegHipThrustJump">
+        <item>Single Leg Hip Thrust Jump</item>
+        <item>The Single Leg Hip Thrust Jump is an advanced glute and hamstring exercise that combines the hip thrust with a plyometric jump for explosive strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with your upper back against a bench and one foot planted firmly on the ground.</item>
+        <item>2. Extend your other leg straight out in front of you.</item>
+        <item>3. Drive through your planted heel to lift your hips, explosively jumping off the ground with your supporting leg.</item>
+        <item>4. Land softly and immediately reset for the next repetition.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain control during the jump and landing to avoid injury.</item>
+        <item>2. Focus on engaging your glutes to generate power.</item>
+    </string-array>
+
+    <string-array name="descriptionHipFoamRollerGlutes">
+        <item>Foam Roller Glutes</item>
+        <item>The Foam Roller Glutes exercise is a recovery and mobility technique that targets the glute muscles, helping to relieve tension and improve flexibility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a foam roller with one leg crossed over the other to target one glute at a time.</item>
+        <item>2. Lean slightly toward the side of the glute being massaged.</item>
+        <item>3. Roll back and forth slowly over the foam roller, focusing on tight or tender areas.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Apply steady pressure without rolling too quickly for effective muscle release.</item>
+        <item>2. Adjust your body position to target different areas of the glute.</item>
+    </string-array>
+
+    <string-array name="descriptionHipFoamRollerInnerThighAdductorStretch">
+        <item>Foam Roller Inner Thigh Adductor Stretch</item>
+        <item>The Foam Roller Inner Thigh Adductor Stretch is a mobility exercise that targets the inner thigh muscles, improving flexibility and reducing tension.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down with one leg bent at a 90-degree angle and the foam roller under your inner thigh.</item>
+        <item>2. Roll back and forth slowly, focusing on tight areas of the adductor muscle.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to maintain proper posture during the movement.</item>
+        <item>2. Adjust the roller’s position to target different parts of the muscle.</item>
+    </string-array>
+
+    <string-array name="descriptionHip9090HipStretch">
+        <item>90/90 Hip Stretch</item>
+        <item>The 90/90 Hip Stretch is a mobility exercise that targets the hip flexors and external rotators, improving flexibility and range of motion.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with one leg bent at a 90-degree angle in front of you and the other leg bent at a 90-degree angle behind you.</item>
+        <item>2. Keep your torso upright and lean slightly forward to feel a stretch in your front hip.</item>
+        <item>3. Hold the position for a few seconds and then switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight to avoid unnecessary strain on your lower back.</item>
+        <item>2. Move slowly and breathe deeply to enhance the stretch.</item>
+    </string-array>
+
+    <string-array name="descriptionHipStiffLegDeadlift">
+        <item>Stiff Leg Deadlift</item>
+        <item>The Stiff Leg Deadlift is a hamstring-dominant exercise that also engages the glutes and lower back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding a barbell or dumbbells in front of your thighs.</item>
+        <item>2. With a slight bend in your knees, hinge at your hips to lower the weight toward the ground while keeping your back straight.</item>
+        <item>3. Stop when you feel a stretch in your hamstrings, then return to the starting position by engaging your glutes.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rounding your back to prevent injury.</item>
+        <item>2. Keep the weight close to your body throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipCableForwardLunge">
+        <item>Cable Forward Lunge</item>
+        <item>The Cable Forward Lunge is a lower-body exercise that targets the glutes, quads, and hamstrings while incorporating core stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a handle or rope to a low pulley and hold it with both hands.</item>
+        <item>2. Stand facing the cable machine with feet shoulder-width apart.</item>
+        <item>3. Step forward with one leg, lowering your body until your front thigh is parallel to the ground.</item>
+        <item>4. Push through your front heel to return to the starting position and repeat on the other leg.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest upright and core engaged throughout the movement.</item>
+        <item>2. Avoid letting your front knee extend past your toes.</item>
+    </string-array>
+
+    <string-array name="descriptionHipKneelingCablePullThrough">
+        <item>Kneeling Cable Pull Through</item>
+        <item>The Kneeling Cable Pull Through is a hip-dominant exercise that targets the glutes and hamstrings while reducing lower back involvement.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a rope handle to a low pulley on a cable machine.</item>
+        <item>2. Kneel facing away from the machine with the rope between your legs.</item>
+        <item>3. Hinge at your hips to pull the rope forward, squeezing your glutes at the top.</item>
+        <item>4. Slowly return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a neutral spine throughout the movement.</item>
+        <item>2. Focus on hip extension to engage the glutes effectively.</item>
+    </string-array>
+
+    <string-array name="descriptionHipCableFrontSquat">
+        <item>Cable Front Squat</item>
+        <item>The Cable Front Squat is a lower-body exercise that emphasizes the quads, glutes, and core while using the cable machine for resistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a straight bar to a low pulley and hold it at shoulder level with an overhand grip.</item>
+        <item>2. Stand with feet shoulder-width apart and the cable taut.</item>
+        <item>3. Lower your body into a squat, keeping your back straight and chest up.</item>
+        <item>4. Push through your heels to return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep the bar close to your chest to maintain balance and proper posture.</item>
+        <item>2. Avoid letting your knees cave inward during the squat.</item>
+    </string-array>
+
+    <string-array name="descriptionHipTrapBarJumpSquat">
+        <item>Trap Bar Jump Squat</item>
+        <item>The Trap Bar Jump Squat is an explosive lower-body exercise that targets the quads, glutes, and hamstrings while improving power and athleticism.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand inside a trap bar with feet shoulder-width apart and grip the handles.</item>
+        <item>2. Lower into a squat and explode upward into a jump.</item>
+        <item>3. Land softly with knees slightly bent and reset for the next repetition.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a straight back throughout the movement to avoid injury.</item>
+        <item>2. Focus on a soft landing to reduce impact on your joints.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBoxJumpToPistolSquat">
+        <item>Box Jump to Pistol Squat</item>
+        <item>The Box Jump to Pistol Squat is an advanced plyometric exercise that enhances lower-body strength, balance, and control.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand in front of a sturdy box with feet shoulder-width apart.</item>
+        <item>2. Jump onto the box, landing softly with both feet.</item>
+        <item>3. Shift your weight onto one leg and lower into a pistol squat.</item>
+        <item>4. Push back up, step off the box, and repeat on the other leg.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Start with a lower box and progress as your strength and balance improve.</item>
+        <item>2. Keep your core engaged to maintain stability during the pistol squat.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBoxJump2to1">
+        <item>Box Jump 2 to 1</item>
+        <item>The Box Jump 2 to 1 is a plyometric exercise that improves lower-body strength, coordination, and balance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand in front of a sturdy box with feet shoulder-width apart.</item>
+        <item>2. Jump onto the box with both feet, landing softly and absorbing the impact.</item>
+        <item>3. Shift your balance onto one leg and hold for a moment.</item>
+        <item>4. Step down and repeat, alternating legs on each repetition.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Ensure the box is sturdy and of a suitable height for your skill level.</item>
+        <item>2. Focus on landing softly and maintaining control during the single-leg balance.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBoxJump1to2">
+        <item>Box Jump 1 to 2</item>
+        <item>The Box Jump 1 to 2 is a dynamic plyometric exercise that targets lower-body strength and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand in front of a sturdy box on one leg.</item>
+        <item>2. Jump onto the box, landing with both feet softly and evenly.</item>
+        <item>3. Step down carefully and repeat, alternating starting legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Begin with a lower box to build confidence and control.</item>
+        <item>2. Engage your core to maintain balance throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSingleLegBoxJump">
+        <item>Single Leg Box Jump</item>
+        <item>The Single Leg Box Jump is an advanced plyometric exercise designed to enhance unilateral leg power, balance, and control.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand in front of a sturdy box on one leg with the other leg lifted slightly off the ground.</item>
+        <item>2. Bend your standing knee and jump onto the box, landing softly on the same leg.</item>
+        <item>3. Step down and repeat on the opposite leg.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use a box of appropriate height to ensure safe and effective performance.</item>
+        <item>2. Keep your core engaged and your landing controlled to avoid injury.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBarbellJumpSquat">
+        <item>Barbell Jump Squat</item>
+        <item>The Barbell Jump Squat is an explosive exercise that develops power and strength in the quads, glutes, and hamstrings.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place a barbell across your upper back and stand with feet shoulder-width apart.</item>
+        <item>2. Lower into a squat and then explode upward into a jump.</item>
+        <item>3. Land softly with knees slightly bent and reset for the next repetition.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Start with a light barbell to master the technique before increasing weight.</item>
+        <item>2. Maintain proper squat form and avoid excessive forward lean.</item>
+    </string-array>
+
+    <string-array name="descriptionHipFrogPose">
+        <item>Frog Pose</item>
+        <item>The Frog Pose is a flexibility and mobility exercise that targets the hip adductors and inner thighs, improving range of motion.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin on all fours with your knees wide apart and feet in line with your knees.</item>
+        <item>2. Lower your forearms to the ground and shift your hips back toward your heels.</item>
+        <item>3. Hold the position, feeling a stretch in your inner thighs and hips.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back flat and avoid arching during the stretch.</item>
+        <item>2. Breathe deeply and relax into the stretch for optimal results.</item>
+    </string-array>
+
+    <string-array name="descriptionHipATGSplitSquat">
+        <item>ATG Split Squat</item>
+        <item>The ATG Split Squat is a mobility and strength exercise that targets the quads, hamstrings, and hip flexors, emphasizing a deep range of motion.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin in a split stance with one foot forward and the other back, keeping your torso upright.</item>
+        <item>2. Lower your back knee toward the ground, allowing the front knee to move forward as far as comfortable.</item>
+        <item>3. Push through your front foot to return to the starting position and repeat on the other leg.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your front heel on the ground and maintain balance throughout the movement.</item>
+        <item>2. Start with a smaller range of motion and progress as flexibility improves.</item>
+    </string-array>
+
+    <string-array name="descriptionHipKettlebellCleanAndPress">
+        <item>Kettlebell Clean and Press</item>
+        <item>The Kettlebell Clean and Press is a full-body strength exercise that targets the shoulders, arms, and core while improving coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin with a kettlebell on the ground between your feet.</item>
+        <item>2. Hinge at your hips to grab the kettlebell with one hand, then clean it to shoulder height.</item>
+        <item>3. Press the kettlebell overhead, keeping your core engaged.</item>
+        <item>4. Lower it back to shoulder height, then return it to the ground.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your wrist straight and avoid letting the kettlebell flip against your forearm.</item>
+        <item>2. Perform the movement in a controlled manner to maintain form.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSeatedPiriformisStretch">
+        <item>Seated Piriformis Stretch</item>
+        <item>The Seated Piriformis Stretch is a flexibility exercise designed to relieve tension in the piriformis muscle and improve hip mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the ground with both legs extended in front of you.</item>
+        <item>2. Cross one ankle over the opposite thigh, forming a figure-four shape.</item>
+        <item>3. Lean forward slightly while keeping your back straight until you feel a stretch in your hip.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rounding your back while leaning forward.</item>
+        <item>2. Hold the stretch for 20–30 seconds and repeat on the other side.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBarbellPinFrontSquat">
+        <item>Barbell Pin Front Squat</item>
+        <item>The Barbell Pin Front Squat is a strength exercise that targets the quads, glutes, and core, emphasizing control and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set safety pins in a squat rack at an appropriate height for the bottom of the squat.</item>
+        <item>2. Position the barbell on your front shoulders with a clean grip or crossed-arm grip.</item>
+        <item>3. Start from the bottom position, lifting the barbell off the pins and completing the squat.</item>
+        <item>4. Lower the barbell back to the pins with control.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows high to maintain a strong rack position.</item>
+        <item>2. Engage your core to prevent your torso from collapsing forward.</item>
+    </string-array>
+
+    <string-array name="descriptionHipHipExtensionOnBench">
+        <item>Hip Extension on Bench</item>
+        <item>The Hip Extension on Bench is a glute-focused exercise that also engages the hamstrings and lower back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down on a bench with your hips at the edge and legs extended downward.</item>
+        <item>2. Lift your legs upward until they are in line with your torso, squeezing your glutes at the top.</item>
+        <item>3. Lower your legs back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid overextending your lower back during the lift.</item>
+        <item>2. Perform the movement slowly and with control for maximum glute activation.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDonkeyKickOnSmithMachine">
+        <item>Donkey Kick on Smith Machine</item>
+        <item>The Donkey Kick on Smith Machine is a glute isolation exercise that also activates the hamstrings and lower back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Position yourself on all fours under the Smith Machine with the bar resting on one foot.</item>
+        <item>2. Push the bar upward by extending your leg behind you, keeping your knee slightly bent.</item>
+        <item>3. Lower the bar back to the starting position and repeat before switching legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to maintain balance.</item>
+        <item>2. Perform the movement slowly to ensure controlled activation of the glutes.</item>
+    </string-array>
+
+    <string-array name="descriptionHipGluteBridgeOnBench">
+        <item>Glute Bridge on Bench</item>
+        <item>The Glute Bridge on Bench is a glute-focused exercise that also targets the hamstrings and lower back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Position your upper back on a bench with your feet flat on the ground and knees bent.</item>
+        <item>2. Drive through your heels to lift your hips upward until your body forms a straight line from shoulders to knees.</item>
+        <item>3. Lower your hips back down with control and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid overextending your lower back at the top of the movement.</item>
+        <item>2. Keep your chin tucked to prevent neck strain.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDonkeyKickOnLegExtensionMachine">
+        <item>Donkey Kick on Leg Extension Machine</item>
+        <item>The Donkey Kick on Leg Extension Machine is a unique adaptation targeting the glutes and hamstrings.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand facing the leg extension machine with one foot placed on the pad.</item>
+        <item>2. Push the pad backward by extending your leg behind you.</item>
+        <item>3. Return to the starting position and repeat before switching legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight and avoid arching your back.</item>
+        <item>2. Perform the movement in a controlled manner for maximum glute activation.</item>
+    </string-array>
+
+    <string-array name="descriptionHipHipThrustOnLegExtensionMachine">
+        <item>Hip Thrust on Leg Extension Machine</item>
+        <item>The Hip Thrust on Leg Extension Machine is a glute isolation exercise that emphasizes strength and muscle activation.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the edge of the leg extension machine with the pad positioned on your hips.</item>
+        <item>2. Push your hips upward against the pad until your torso is parallel to the floor.</item>
+        <item>3. Lower your hips back down and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid arching your back at the top of the movement.</item>
+        <item>2. Focus on squeezing your glutes for maximum effectiveness.</item>
+    </string-array>
+
+    <string-array name="descriptionHipHipThrustMachine">
+        <item>Hip Thrust Machine</item>
+        <item>The Hip Thrust Machine is a specialized piece of equipment designed to target the glutes and hamstrings effectively.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the machine with the pad positioned across your hips and your feet flat on the platform.</item>
+        <item>2. Push through your heels to lift your hips upward, squeezing your glutes at the top.</item>
+        <item>3. Lower your hips back down and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Adjust the machine to fit your body comfortably before starting.</item>
+        <item>2. Keep your chin tucked to avoid neck strain and focus on glute engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSquatOnTheAbductorMachine">
+        <item>Squat on The Abductor Machine</item>
+        <item>This exercise combines a squat motion with abduction, effectively targeting the glutes, quads, and outer thighs.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the abductor machine and position your legs on the pads.</item>
+        <item>2. Push outward with your legs to engage the abductors while lowering your body into a squat position.</item>
+        <item>3. Return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and chest up during the squat motion.</item>
+        <item>2. Perform the movement in a controlled manner for better muscle activation.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBarbellSingleLegHipThrust">
+        <item>Barbell Single Leg Hip Thrust</item>
+        <item>This is a unilateral exercise that emphasizes glute strength and balance while using a barbell for resistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the ground with your upper back resting against a bench and a barbell placed across your hips.</item>
+        <item>2. Extend one leg straight out while keeping the other foot flat on the ground.</item>
+        <item>3. Push through your grounded heel to lift your hips upward, forming a straight line from shoulders to knees.</item>
+        <item>4. Lower your hips back down and repeat before switching legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep the movement controlled to prevent injury and maximize glute activation.</item>
+        <item>2. Use a barbell pad to make the exercise more comfortable on your hips.</item>
+    </string-array>
+
+    <string-array name="descriptionHipPelvicTilt">
+        <item>Pelvic Tilt</item>
+        <item>The Pelvic Tilt is a bodyweight exercise that strengthens the lower back and engages the core and pelvic muscles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with your knees bent and feet flat on the ground.</item>
+        <item>2. Engage your core and tilt your pelvis upward by flattening your lower back against the floor.</item>
+        <item>3. Hold the position briefly and then return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid arching your back during the movement.</item>
+        <item>2. Breathe deeply and maintain control throughout the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionHipGluteBridgeOneLegOnBench">
+        <item>Glute Bridge One Leg on Bench</item>
+        <item>This variation of the glute bridge increases the challenge by isolating one leg at a time.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place one foot on a bench with the other leg extended straight out.</item>
+        <item>2. Push through your grounded foot to lift your hips upward, forming a straight line from shoulders to the elevated knee.</item>
+        <item>3. Lower your hips back down and repeat before switching legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to stabilize your body.</item>
+        <item>2. Avoid letting your hips sag or twist during the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipUnilateralBridge">
+        <item>Unilateral Bridge</item>
+        <item>The Unilateral Bridge is a bodyweight exercise that targets the glutes and hamstrings while improving balance and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with one knee bent and the other leg extended straight out.</item>
+        <item>2. Push through your grounded heel to lift your hips upward until your body forms a straight line from shoulders to knee.</item>
+        <item>3. Lower your hips back down and repeat before switching legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a slow and controlled motion for better muscle activation.</item>
+        <item>2. Keep your core tight to prevent any excessive movement or strain.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSideBridgeHipAbduction">
+        <item>Side Bridge Hip Abduction</item>
+        <item>This exercise combines a side plank with hip abduction to target the obliques, glutes, and outer thighs.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a side plank position with your body in a straight line, supported by your forearm and the side of your foot.</item>
+        <item>2. Lift your top leg upward while keeping it straight.</item>
+        <item>3. Lower your leg back down without touching the ground and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to maintain a stable plank position.</item>
+        <item>2. Avoid letting your hips sag during the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipStraightLegKickback">
+        <item>Straight Leg Kickback</item>
+        <item>This exercise targets the glutes and hamstrings by extending the leg backward in a controlled manner.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start on all fours with your hands under your shoulders and knees under your hips.</item>
+        <item>2. Extend one leg straight back while keeping it in line with your body.</item>
+        <item>3. Squeeze your glutes at the top, then lower the leg back down without touching the floor.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight to prevent arching your back.</item>
+        <item>2. Perform the movement slowly for better muscle activation.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDeclineBenchDumbbellLunge">
+        <item>Decline Bench Dumbbell Lunge</item>
+        <item>This exercise enhances lower-body strength and balance while incorporating the decline bench for added difficulty.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand in front of a decline bench, holding a dumbbell in each hand.</item>
+        <item>2. Step backward with one foot onto the bench and lower your body into a lunge position.</item>
+        <item>3. Push through your front foot to return to the starting position and repeat on the other leg.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain an upright posture throughout the movement.</item>
+        <item>2. Keep your knees aligned with your toes to avoid strain.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBandedStandingGluteKickback">
+        <item>Banded Standing Glute Kickback</item>
+        <item>This exercise uses a resistance band to target the glutes and hamstrings through a controlled kickback motion.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place a resistance band around your ankles and stand upright with feet shoulder-width apart.</item>
+        <item>2. Shift your weight onto one leg and kick the other leg straight back while keeping it straight.</item>
+        <item>3. Return to the starting position and repeat before switching legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight to maintain balance.</item>
+        <item>2. Perform the movement slowly to ensure proper resistance and activation.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBandedSeatedHipAbduction">
+        <item>Banded Seated Hip Abduction</item>
+        <item>This exercise strengthens the glutes and outer thighs using a resistance band while seated.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a bench or sturdy surface with a resistance band around your thighs, just above your knees.</item>
+        <item>2. Open your legs outward against the resistance of the band.</item>
+        <item>3. Slowly return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and chest up during the exercise.</item>
+        <item>2. Use a band with appropriate resistance for your fitness level.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBandedSingleLegGluteBridge">
+        <item>Banded Single Leg Glute Bridge</item>
+        <item>This exercise targets the glutes and hamstrings, with added resistance from a band for increased activation.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with a resistance band around your thighs, just above your knees.</item>
+        <item>2. Bend one knee and keep the other leg extended straight out.</item>
+        <item>3. Push through your heel to lift your hips while keeping the extended leg aligned with your torso.</item>
+        <item>4. Lower your hips back down and repeat before switching legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to avoid arching your back.</item>
+        <item>2. Squeeze your glutes at the top of the movement for maximum effectiveness.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBandedGluteBridge">
+        <item>Banded Glute Bridge</item>
+        <item>This exercise enhances glute activation by adding resistance to the traditional glute bridge.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with a resistance band around your thighs, just above your knees.</item>
+        <item>2. Bend your knees and keep your feet flat on the floor, hip-width apart.</item>
+        <item>3. Push through your heels to lift your hips while pressing your knees outward against the band.</item>
+        <item>4. Lower your hips back down and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid overextending your back at the top of the movement.</item>
+        <item>2. Focus on squeezing your glutes throughout the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionHipLateralLegSwings">
+        <item>Lateral Leg Swings</item>
+        <item>This dynamic stretching exercise helps improve hip mobility and warm up the glutes and hip flexors.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright with one hand on a sturdy object for support.</item>
+        <item>2. Swing one leg across your body, then out to the side in a controlled motion.</item>
+        <item>3. Repeat for the desired number of swings, then switch legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements controlled to avoid overextending.</item>
+        <item>2. Maintain an upright posture throughout the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBandedWalk">
+        <item>Banded Walk</item>
+        <item>This exercise strengthens the glutes and outer thighs while improving lower-body stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place a resistance band around your thighs, just above your knees.</item>
+        <item>2. Lower into a partial squat position and step sideways, keeping tension on the band.</item>
+        <item>3. Take a series of steps in one direction, then reverse.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and chest up throughout the movement.</item>
+        <item>2. Avoid letting your knees cave inward while stepping.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBandSideLyingClam">
+        <item>Band Side Lying Clam</item>
+        <item>This exercise targets the gluteus medius and outer thighs, using a resistance band for added intensity.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your side with a resistance band around your thighs, just above your knees.</item>
+        <item>2. Bend your knees to 90 degrees and stack your hips and feet.</item>
+        <item>3. Lift your top knee upward while keeping your feet together.</item>
+        <item>4. Slowly return to the starting position and repeat before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to prevent rolling backward.</item>
+        <item>2. Perform the movement slowly to maximize resistance and activation.</item>
+    </string-array>
+
+    <string-array name="descriptionHipResistanceBandLateralWalk">
+        <item>Resistance Band Lateral Walk</item>
+        <item>This exercise strengthens the glutes, outer thighs, and hip stabilizers using a resistance band.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place a resistance band around your thighs, just above your knees.</item>
+        <item>2. Lower into a slight squat position with feet shoulder-width apart.</item>
+        <item>3. Step sideways with one foot, then follow with the other foot, keeping tension on the band.</item>
+        <item>4. Continue for the desired number of steps, then switch directions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your knees slightly bent and your chest upright.</item>
+        <item>2. Avoid letting your knees collapse inward while stepping.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBandedGluteKickbacks">
+        <item>Banded Glute Kickbacks</item>
+        <item>This exercise isolates the glutes and hamstrings, using a resistance band for added challenge.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place a resistance band around your thighs, just above your knees.</item>
+        <item>2. Get into a tabletop position with hands under shoulders and knees under hips.</item>
+        <item>3. Extend one leg straight back, squeezing your glutes at the top of the movement.</item>
+        <item>4. Return to the starting position and repeat before switching legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid arching during the movement.</item>
+        <item>2. Focus on engaging your glutes rather than your lower back.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBandedDonkeyKicks">
+        <item>Banded Donkey Kicks</item>
+        <item>This exercise targets the glutes and hamstrings with added resistance from a band.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place a resistance band around your thighs, just above your knees.</item>
+        <item>2. Start in a tabletop position with hands under shoulders and knees under hips.</item>
+        <item>3. Lift one knee and kick your foot upward, extending your leg straight behind you.</item>
+        <item>4. Lower your knee back down without touching the ground and repeat before switching legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid twisting your hips during the movement.</item>
+        <item>2. Squeeze your glutes at the top of each kick for maximum activation.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBandedThighFly">
+        <item>Banded Thigh Fly</item>
+        <item>This exercise strengthens the inner and outer thighs, glutes, and hips.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with a resistance band around your thighs, just above your knees.</item>
+        <item>2. Bend your knees, keeping your feet flat on the floor, hip-width apart.</item>
+        <item>3. Open your knees outward against the resistance of the band.</item>
+        <item>4. Slowly bring your knees back together and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core to maintain stability during the movement.</item>
+        <item>2. Perform the movement slowly to maximize resistance.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBandSideLyingLegLift">
+        <item>Band Side Lying Leg Lift</item>
+        <item>This exercise targets the gluteus medius and improves hip stability with added resistance from a band.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your side with a resistance band around your ankles.</item>
+        <item>2. Keep your bottom leg bent for support and your top leg straight.</item>
+        <item>3. Lift your top leg upward against the resistance of the band.</item>
+        <item>4. Lower your leg back down in a controlled motion and repeat before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rolling your hips backward during the movement.</item>
+        <item>2. Perform the exercise slowly to maintain tension on the band.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBandedFireHydrant">
+        <item>Banded Fire Hydrant</item>
+        <item>This exercise activates the glutes, hip abductors, and stabilizers using a resistance band.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place a resistance band around your thighs, just above your knees.</item>
+        <item>2. Start in a tabletop position with your hands under shoulders and knees under hips.</item>
+        <item>3. Lift one knee out to the side while keeping it bent, resisting the tension of the band.</item>
+        <item>4. Lower the knee back down and repeat before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back flat and core engaged throughout the movement.</item>
+        <item>2. Avoid rotating your hips during the lift.</item>
+    </string-array>
+
+    <string-array name="descriptionHipKneelingJumpSquat">
+        <item>Kneeling Jump Squat</item>
+        <item>This plyometric exercise builds explosive power in the lower body and glutes.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a kneeling position with your knees hip-width apart and feet flat on the floor.</item>
+        <item>2. Swing your arms forward and push through your hips to jump into a squat position.</item>
+        <item>3. Land softly with your knees slightly bent and return to the kneeling position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core to maintain stability during the jump.</item>
+        <item>2. Land softly to reduce impact on your joints.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBandedKettlebellGobletSquat">
+        <item>Banded Kettlebell Goblet Squat</item>
+        <item>This exercise targets the glutes, quads, and hamstrings with added resistance from a band.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place a resistance band around your thighs, just above your knees, and hold a kettlebell at chest height.</item>
+        <item>2. Stand with your feet shoulder-width apart and toes slightly turned out.</item>
+        <item>3. Lower into a squat, pushing your knees outward against the band.</item>
+        <item>4. Push through your heels to return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and chest up throughout the movement.</item>
+        <item>2. Avoid letting your knees collapse inward.</item>
+    </string-array>
+
+    <string-array name="descriptionHipKettlebellFrontSquat">
+        <item>Kettlebell Front Squat</item>
+        <item>This exercise strengthens the glutes, quads, and core while improving squat mechanics.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a kettlebell in the rack position at shoulder height with one or both hands.</item>
+        <item>2. Stand with your feet shoulder-width apart and toes slightly turned out.</item>
+        <item>3. Lower into a squat, keeping your chest upright and back straight.</item>
+        <item>4. Push through your heels to return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows pointed forward to maintain proper kettlebell positioning.</item>
+        <item>2. Focus on engaging your core throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSingleKneeToChest">
+        <item>Single Knee To Chest</item>
+        <item>This stretch improves flexibility in the lower back, glutes, and hamstrings.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with your legs extended and arms at your sides.</item>
+        <item>2. Bend one knee and pull it toward your chest, holding it with both hands.</item>
+        <item>3. Hold the stretch for the desired duration, then switch to the other leg.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your other leg straight and relaxed on the ground.</item>
+        <item>2. Avoid lifting your head or shoulders off the floor.</item>
+    </string-array>
+
+    <string-array name="descriptionHipPistolSquatToBox">
+        <item>Pistol Squat to Box</item>
+        <item>This exercise improves single-leg strength, balance, and control while reducing the depth to accommodate different skill levels.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand in front of a box or bench with one leg extended forward.</item>
+        <item>2. Lower your body into a squat on the supporting leg until your glutes lightly touch the box.</item>
+        <item>3. Push through your heel to return to the starting position and repeat before switching legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest up and core engaged for stability.</item>
+        <item>2. Use a box height that allows for proper form without overstraining.</item>
+    </string-array>
+
+    <string-array name="descriptionHipFrogPump">
+        <item>Frog Pump</item>
+        <item>This glute isolation exercise targets the gluteus maximus and medius with minimal strain on the lower back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with your knees bent and the soles of your feet pressed together.</item>
+        <item>2. Push through your heels to lift your hips off the ground, squeezing your glutes at the top.</item>
+        <item>3. Lower your hips back down and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid overextending your lower back during the lift.</item>
+        <item>2. Focus on squeezing your glutes throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipLandmineDeadlift">
+        <item>Landmine Deadlift</item>
+        <item>This variation of the deadlift uses a landmine attachment to target the posterior chain while reducing stress on the lower back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand over the barbell with the landmine attachment, feet shoulder-width apart.</item>
+        <item>2. Grip the end of the barbell with both hands and hinge at your hips to lower into a deadlift position.</item>
+        <item>3. Push through your heels to stand up, extending your hips fully at the top.</item>
+        <item>4. Lower the barbell back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and core engaged throughout the movement.</item>
+        <item>2. Avoid using your arms to lift the weight; focus on your glutes and hamstrings.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBandSeatedHipExternalRotation">
+        <item>Band Seated Hip External Rotation</item>
+        <item>This exercise strengthens the hip rotators and improves stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a bench or chair with a resistance band looped around your thighs, just above your knees.</item>
+        <item>2. Open your knees outward against the resistance of the band, keeping your feet flat on the floor.</item>
+        <item>3. Slowly return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a straight back and upright posture while seated.</item>
+        <item>2. Control the movement to avoid relying on momentum.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBandSeatedHipInternalRotation">
+        <item>Band Seated Hip Internal Rotation</item>
+        <item>This exercise targets the hip internal rotators and enhances mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a bench or chair with a resistance band looped around your thighs, just above your knees.</item>
+        <item>2. Rotate your knees inward against the resistance of the band, keeping your feet flat on the floor.</item>
+        <item>3. Slowly return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Sit upright with your back straight to engage the correct muscles.</item>
+        <item>2. Move slowly and deliberately to maximize muscle activation.</item>
+    </string-array>
+
+    <string-array name="descriptionHipLandmineSquat">
+        <item>Landmine Squat</item>
+        <item>This compound exercise targets the quads, glutes, and core while allowing for an upright torso position.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding the end of the barbell with both hands close to your chest.</item>
+        <item>2. Lower your body into a squat by bending your knees and hips while keeping the barbell in front of you.</item>
+        <item>3. Push through your heels to return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest lifted and core engaged throughout the movement.</item>
+        <item>2. Ensure your knees track over your toes during the squat.</item>
+    </string-array>
+
+    <string-array name="descriptionHipRackPull">
+        <item>Rack Pull</item>
+        <item>The Rack Pull is a partial deadlift that focuses on the upper posterior chain, particularly the traps, lats, and spinal erectors.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set the barbell on a rack or blocks at knee height or slightly below.</item>
+        <item>2. Stand with your feet shoulder-width apart and grip the barbell just outside your legs.</item>
+        <item>3. Lift the barbell by extending your hips and knees until standing upright.</item>
+        <item>4. Lower the barbell back to the rack and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and shoulders retracted throughout the lift.</item>
+        <item>2. Avoid using excessive weight to maintain proper form.</item>
+    </string-array>
+
+    <string-array name="descriptionHipStandingKneeHugs">
+        <item>Standing Knee Hugs</item>
+        <item>This dynamic stretch improves hip flexibility and balance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand tall with your feet hip-width apart.</item>
+        <item>2. Lift one knee toward your chest and hold it with both hands for a brief moment.</item>
+        <item>3. Release the leg and return to the starting position before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain an upright posture and avoid leaning forward.</item>
+        <item>2. Perform the movement slowly to enhance balance and control.</item>
+    </string-array>
+
+    <string-array name="descriptionHipFireHydrant">
+        <item>Fire Hydrant</item>
+        <item>This bodyweight exercise targets the glutes and hip abductors, improving hip mobility and strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start on all fours with your hands under your shoulders and knees under your hips.</item>
+        <item>2. Lift one leg out to the side, keeping your knee bent at 90 degrees.</item>
+        <item>3. Lower your leg back to the starting position and repeat before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back flat and core engaged to avoid arching.</item>
+        <item>2. Focus on controlled movements rather than speed.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSnapJumps">
+        <item>Snap Jumps</item>
+        <item>This plyometric exercise builds core strength and cardiovascular endurance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a high plank position with your hands under your shoulders.</item>
+        <item>2. Jump your feet forward toward your hands while keeping your core engaged.</item>
+        <item>3. Quickly jump your feet back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a straight line from your head to your heels during the plank.</item>
+        <item>2. Land softly to reduce the impact on your joints.</item>
+    </string-array>
+
+    <string-array name="descriptionPiriformisStretch">
+        <item>Piriformis Stretch</item>
+        <item>The Piriformis Stretch targets the deep hip rotator muscle that can contribute to sciatic nerve irritation when tight.</item>
+        <item>This stretch helps relieve tension in the glutes and improves hip mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with both legs extended</item>
+        <item>2. Cross one leg over the other, placing foot flat on floor</item>
+        <item>3. Gently pull knee toward opposite shoulder</item>
+        <item>4. Hold for 20-30 seconds then switch sides</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep back straight and avoid rounding spine</item>
+        <item>2. Adjust pull intensity based on comfort level</item>
+        <item>3. Breathe deeply to enhance muscle relaxation</item>
+        <item>4. Perform after workouts or during dedicated stretching sessions</item>
+    </string-array>
+
+    <string-array name="descriptionHalfKneelingHipFlexorStretch">
+        <item>Half Kneeling Hip Flexor Stretch</item>
+        <item>This stretch targets the hip flexors which often become tight from prolonged sitting.</item>
+        <item>It helps improve hip extension range of motion and posture.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Kneel on one knee with other foot forward (90° angles)</item>
+        <item>2. Tuck pelvis slightly and lean forward</item>
+        <item>3. Squeeze glute of kneeling leg to enhance stretch</item>
+        <item>4. Hold for 20-30 seconds then switch sides</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep torso upright - avoid excessive forward lean</item>
+        <item>2. Place padding under knee if needed</item>
+        <item>3. Progress by reaching same-side arm overhead</item>
+        <item>4. Stretch both sides equally</item>
+    </string-array>
+
+    <string-array name="descriptionBarbellGluteBridge">
+        <item>Barbell Glute Bridge</item>
+        <item>This loaded hip extension exercise specifically targets the glute muscles.</item>
+        <item>It builds strength in the posterior chain while minimizing spinal loading.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on ground with shoulders against bench, barbell over hips</item>
+        <item>2. Drive through heels to lift hips until body forms straight line</item>
+        <item>3. Squeeze glutes at top position</item>
+        <item>4. Lower with control and repeat</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use pad or towel for barbell comfort</item>
+        <item>2. Maintain chin tucked to avoid neck strain</item>
+        <item>3. Focus on glute contraction rather than weight lifted</item>
+        <item>4. Progress from bodyweight to weighted variations</item>
+    </string-array>
+
+    <string-array name="descriptionCableHipExtension">
+        <item>Cable Hip Extension</item>
+        <item>This isolation exercise targets the glutes with constant tension from cable resistance.</item>
+        <item>It helps develop mind-muscle connection with the glute muscles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach ankle cuff to low cable pulley</item>
+        <item>2. Face machine and extend working leg backward</item>
+        <item>3. Squeeze glute at full extension</item>
+        <item>4. Return with control and repeat</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep torso stable - avoid excessive leaning</item>
+        <item>2. Use light weight to focus on proper form</item>
+        <item>3. Perform movement slowly with control</item>
+        <item>4. Alternate with other glute activation exercises</item>
+    </string-array>
+
+    <string-array name="descriptionCableHipAbduction">
+        <item>Cable Hip Abduction</item>
+        <item>This exercise isolates the gluteus medius to improve hip stability and strength.</item>
+        <item>It helps prevent knee valgus and supports proper lower body mechanics.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach ankle cuff to low cable pulley</item>
+        <item>2. Stand sideways to machine and move working leg outward</item>
+        <item>3. Keep toes pointing forward throughout</item>
+        <item>4. Return with control and repeat</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain upright posture - avoid leaning</item>
+        <item>2. Focus on moving from the hip, not the foot</item>
+        <item>3. Use light to moderate weight</item>
+        <item>4. Perform both concentric and eccentric phases slowly</item>
+    </string-array>
+
+    <string-array name="descriptionHipDonkeyKicks">
+        <item>Donkey Kicks</item>
+        <item>This bodyweight exercise targets the glutes, improving strength and stability in the hips.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start on all fours with your hands under your shoulders and knees under your hips.</item>
+        <item>2. Lift one leg, keeping the knee bent at 90 degrees, until your thigh is parallel to the floor.</item>
+        <item>3. Lower your leg back to the starting position and repeat before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight to avoid arching your lower back.</item>
+        <item>2. Perform the movement slowly for better glute activation.</item>
+    </string-array>
+
+    <string-array name="descriptionHipHighKneeRun">
+        <item>High Knee Run</item>
+        <item>This cardio exercise engages the core, glutes, and legs while improving cardiovascular endurance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright with your feet hip-width apart.</item>
+        <item>2. Quickly alternate lifting your knees to waist level while pumping your arms.</item>
+        <item>3. Maintain a brisk pace for the desired duration.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Stay on the balls of your feet for quicker movement.</item>
+        <item>2. Keep your back straight and engage your core throughout the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionHipInnerThighSideStretch">
+        <item>Inner Thigh Side Stretch</item>
+        <item>This static stretch targets the inner thighs, improving flexibility and reducing tightness.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your legs wide apart and toes pointing forward.</item>
+        <item>2. Shift your weight to one side, bending the knee while keeping the other leg straight.</item>
+        <item>3. Hold the stretch for a few seconds, then switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and chest up during the stretch.</item>
+        <item>2. Avoid pushing too far if you feel discomfort in the inner thighs.</item>
+    </string-array>
+
+    <string-array name="descriptionHipPlankLegLift">
+        <item>Plank Leg Lift</item>
+        <item>This isometric exercise strengthens the core, glutes, and lower back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a forearm plank position, keeping your body in a straight line.</item>
+        <item>2. Lift one leg slightly off the ground, keeping it straight and engaged.</item>
+        <item>3. Lower the leg back down and repeat with the other leg.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid letting your hips sag or rise too high.</item>
+        <item>2. Keep your core tight to maintain stability throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSkater">
+        <item>Skater</item>
+        <item>This dynamic exercise improves agility, balance, and lateral strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a slight squat position with your feet hip-width apart.</item>
+        <item>2. Jump laterally to one side, landing on one foot while keeping the other leg off the ground.</item>
+        <item>3. Push off the landing foot and jump to the opposite side, repeating the movement.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Land softly to reduce impact on your joints.</item>
+        <item>2. Maintain control and balance during each jump.</item>
+    </string-array>
+
+    <string-array name="descriptionHipButterflyStretch">
+        <item>Butterfly Stretch</item>
+        <item>This static stretch targets the inner thighs, groin, and lower back, improving flexibility and relaxation.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with your legs bent and the soles of your feet pressed together.</item>
+        <item>2. Hold your feet with your hands and gently press your knees toward the floor.</item>
+        <item>3. Hold the stretch for 20–30 seconds while breathing deeply.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid bouncing your knees to prevent strain.</item>
+        <item>2. Keep your back straight and focus on opening your hips.</item>
+    </string-array>
+
+    <string-array name="descriptionHipGluteBridge">
+        <item>Glute Bridge</item>
+        <item>This exercise targets the glutes, hamstrings, and core, improving hip mobility and strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with your knees bent and feet flat on the ground, hip-width apart.</item>
+        <item>2. Push through your heels to lift your hips until your body forms a straight line from shoulders to knees.</item>
+        <item>3. Lower your hips back to the ground and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to avoid overextending your back.</item>
+        <item>2. Squeeze your glutes at the top for maximum activation.</item>
+    </string-array>
+
+    <string-array name="descriptionHipArmLegRaises">
+        <item>Arm Leg Raises</item>
+        <item>This exercise improves core stability, coordination, and balance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start on all fours with your hands under your shoulders and knees under your hips.</item>
+        <item>2. Extend one arm forward and the opposite leg backward until both are in line with your body.</item>
+        <item>3. Lower them back to the starting position and repeat on the opposite side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight to avoid sagging or arching your back.</item>
+        <item>2. Move slowly to maintain control and balance.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDumbbellForwardLeaningLunge">
+        <item>Dumbbell Forward Leaning Lunge</item>
+        <item>This variation of the lunge emphasizes the glutes and hamstrings while also working the quads.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand and step forward into a lunge position.</item>
+        <item>2. Lean slightly forward at the hips while keeping your back straight.</item>
+        <item>3. Push back to the starting position and repeat on the other leg.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your front knee aligned with your toes to avoid strain.</item>
+        <item>2. Engage your glutes during the forward lean for better activation.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDumbbellReverseLunge">
+        <item>Dumbbell Reverse Lunge</item>
+        <item>This lunge variation works the glutes, hamstrings, and quads while improving balance and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand with your arms at your sides.</item>
+        <item>2. Step backward with one leg and lower your body into a lunge position.</item>
+        <item>3. Push through the front foot to return to the starting position and repeat on the other leg.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your torso upright and your core engaged throughout the movement.</item>
+        <item>2. Ensure your front knee stays over your ankle, not beyond your toes.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBodyweightBulgarianSplitSquat">
+        <item>Bodyweight Bulgarian Split Squat</item>
+        <item>This unilateral lower-body exercise targets the glutes, quads, and hamstrings while improving balance and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand a few feet in front of a bench or elevated surface and place one foot behind you on the bench.</item>
+        <item>2. Lower your body into a lunge position, keeping your front knee aligned over your toes.</item>
+        <item>3. Push through your front heel to return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your torso upright throughout the movement.</item>
+        <item>2. Avoid letting your front knee cave inward; keep it in line with your foot.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDumbbellSumoSquat">
+        <item>Dumbbell Sumo Squat</item>
+        <item>This squat variation targets the inner thighs, glutes, and quads while engaging the core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell with both hands at arm’s length in front of you.</item>
+        <item>2. Stand with your feet wider than shoulder-width apart and your toes pointed slightly outward.</item>
+        <item>3. Lower your body into a squat, keeping your chest lifted and back straight.</item>
+        <item>4. Push through your heels to return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your weight evenly distributed through your feet.</item>
+        <item>2. Avoid rounding your back during the squat.</item>
+    </string-array>
+
+    <string-array name="descriptionHipHipAdductionMachine">
+        <item>Hip Adduction Machine</item>
+        <item>This machine exercise isolates the inner thigh muscles, particularly the adductors.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the hip adduction machine and adjust the pads to your starting position.</item>
+        <item>2. Squeeze your legs together to move the pads inward.</item>
+        <item>3. Slowly return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using momentum; move with control.</item>
+        <item>2. Maintain an upright posture with your core engaged.</item>
+    </string-array>
+фыв
+    <string-array name="descriptionHipHipAbductionMachine">
+        <item>Hip Abduction Machine</item>
+        <item>This exercise focuses on the gluteus medius and minimus, strengthening the outer hips and improving stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the hip abduction machine and position your legs against the pads.</item>
+        <item>2. Press your legs outward as far as possible.</item>
+        <item>3. Slowly return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Control the movement to prevent swinging.</item>
+        <item>2. Avoid leaning forward or backward; keep your torso steady.</item>
+    </string-array>
+
+    <string-array name="descriptionHipZercherDeadlift">
+        <item>Zercher Deadlift</item>
+        <item>This unconventional deadlift variation emphasizes the quads, glutes, and upper back while improving core strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Position a barbell in the crook of your elbows and stand with your feet shoulder-width apart.</item>
+        <item>2. Hinge at your hips and bend your knees to lower into a squat, keeping your back straight.</item>
+        <item>3. Push through your heels to stand up, keeping the barbell close to your body.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core braced to support the weight.</item>
+        <item>2. Avoid rounding your back during the movement.</item>
+    </string-array>
+
+
+    <string-array name="descriptionHipDumbbellPullThrough">
+        <item>Dumbbell Pull Through</item>
+        <item>This exercise targets the glutes, hamstrings, and lower back while engaging the core for stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a wide stance with a dumbbell placed on the ground between your legs.</item>
+        <item>2. Hinge at your hips and grab the dumbbell with both hands.</item>
+        <item>3. Swing the dumbbell back between your legs, keeping your chest lifted and back straight.</item>
+        <item>4. Thrust your hips forward to bring the dumbbell back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rounding your back; maintain a neutral spine.</item>
+        <item>2. Use your glutes and hamstrings to power the movement, not your arms.</item>
+    </string-array>
+
+    <string-array name="descriptionHipJeffersonSquat">
+        <item>Jefferson Squat</item>
+        <item>This squat variation targets the quads, glutes, and inner thighs while improving balance and core engagement.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand over a barbell with your feet shoulder-width apart, the barbell positioned between your legs.</item>
+        <item>2. Grasp the barbell with one hand in front of your body and the other hand behind, using an alternating grip.</item>
+        <item>3. Lower your body into a squat, keeping your chest up and knees tracking over your toes.</item>
+        <item>4. Push through your heels to return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep the barbell close to your body throughout the movement.</item>
+        <item>2. Maintain even weight distribution through your feet.</item>
+    </string-array>
+
+    <string-array name="descriptionHipGluteHamRaise">
+        <item>Glute Ham Raise</item>
+        <item>This bodyweight or machine-assisted exercise targets the glutes, hamstrings, and lower back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Secure your feet under a padded bar or similar support and position your thighs on the pad.</item>
+        <item>2. Start in a kneeling position with your torso upright.</item>
+        <item>3. Lower your torso forward by extending your knees while keeping your back straight.</item>
+        <item>4. Pull yourself back to the starting position using your hamstrings and glutes.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Move slowly and control the descent to avoid injury.</item>
+        <item>2. Avoid hyperextending your lower back at the top of the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipTRXPistolSquat">
+        <item>TRX Pistol Squat</item>
+        <item>This single-leg squat variation targets the glutes, quads, and hamstrings while improving balance and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold onto TRX handles and stand on one leg with the other leg extended in front of you.</item>
+        <item>2. Lower your body into a single-leg squat, keeping your extended leg off the ground.</item>
+        <item>3. Push through your heel to return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest lifted and back straight throughout the movement.</item>
+        <item>2. Use the TRX handles for balance, not to pull yourself up.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSittingWideLegAdductorStretch">
+        <item>Sitting Wide Leg Adductor Stretch</item>
+        <item>This flexibility exercise targets the inner thighs, hamstrings, and lower back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with your legs extended wide apart.</item>
+        <item>2. Lean your torso forward while keeping your back straight, reaching toward the floor or your feet.</item>
+        <item>3. Hold the stretch for 20-30 seconds and repeat as needed.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rounding your back; keep it straight to deepen the stretch safely.</item>
+        <item>2. Breathe deeply to relax into the stretch and avoid bouncing.</item>
+    </string-array>
+
+    <string-array name="descriptionHipStandingWideKneesAdductorStretch">
+        <item>Standing Wide Knees Adductor Stretch</item>
+        <item>This stretch targets the inner thighs and groin muscles, improving flexibility and mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet wider than shoulder-width apart, toes pointing slightly outward.</item>
+        <item>2. Bend one knee and shift your weight to that side while keeping the other leg straight.</item>
+        <item>3. Lean into the stretch, feeling a pull in the inner thigh of the straight leg.</item>
+        <item>4. Hold for 20-30 seconds, switch sides, and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and chest up throughout the stretch.</item>
+        <item>2. Avoid letting your bent knee extend past your toes.</item>
+    </string-array>
+
+    <string-array name="descriptionHipStandingWideLegAdductorStretch">
+        <item>Standing Wide Leg Adductor Stretch</item>
+        <item>This stretch focuses on the inner thighs and hamstrings, enhancing flexibility and balance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet wide apart, toes pointing forward.</item>
+        <item>2. Hinge at your hips and reach toward the floor with both hands, keeping your back straight.</item>
+        <item>3. Feel the stretch in your inner thighs and hamstrings.</item>
+        <item>4. Hold for 20-30 seconds and return to standing.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rounding your back; maintain a neutral spine.</item>
+        <item>2. Adjust the width of your stance for comfort and intensity.</item>
+    </string-array>
+
+    <string-array name="descriptionHipHipCircles">
+        <item>Hip Circles</item>
+        <item>This dynamic warm-up exercise targets the hips, improving mobility and flexibility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart and hands on your hips.</item>
+        <item>2. Slowly rotate your hips in a circular motion, making large circles.</item>
+        <item>3. Complete 8-10 circles in one direction, then reverse the motion.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your upper body stable and focus on moving only your hips.</item>
+        <item>2. Perform the exercise slowly and smoothly for maximum benefit.</item>
+    </string-array>
+
+    <string-array name="descriptionHipOneArmKettlebellSwing">
+        <item>One Arm Kettlebell Swing</item>
+        <item>This exercise targets the glutes, hamstrings, and shoulders while improving grip strength and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart and a kettlebell on the ground in front of you.</item>
+        <item>2. Hinge at your hips, grab the kettlebell with one hand, and swing it back between your legs.</item>
+        <item>3. Thrust your hips forward to swing the kettlebell up to shoulder height.</item>
+        <item>4. Control the descent and repeat for the desired number of reps before switching arms.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid using your arm to lift the kettlebell; use your hips.</item>
+        <item>2. Maintain a firm grip on the kettlebell throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipResistanceBandOverheadSquat">
+        <item>Resistance Band Overhead Squat</item>
+        <item>This exercise targets the glutes, quads, hamstrings, and shoulders while engaging the core for stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a resistance band overhead with both hands, arms extended.</item>
+        <item>2. Stand with your feet shoulder-width apart and toes pointing slightly outward.</item>
+        <item>3. Lower your body into a squat while keeping the band taut and your arms overhead.</item>
+        <item>4. Push through your heels to return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest lifted and avoid letting your knees cave inward.</item>
+        <item>2. Ensure the band remains taut and your arms stay fully extended throughout the movement.</item>
+    </string-array>
+
+
+    <string-array name="descriptionHipLeverStandingHipExtension">
+        <item>Lever Standing Hip Extension</item>
+        <item>This machine-based exercise targets the glutes and hamstrings, focusing on hip extension strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Adjust the machine to fit your height and position yourself so the lever pad is against the back of your thigh, just above the knee.</item>
+        <item>2. Stand upright with your body facing forward, holding onto the machine handles for support.</item>
+        <item>3. Extend your leg backward, keeping your upper body stable and squeezing your glutes at the top of the movement.</item>
+        <item>4. Slowly return to the starting position and repeat for the desired number of repetitions before switching legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid arching your lower back during the movement; focus on glute activation.</item>
+        <item>2. Control the motion and avoid using momentum to lift the lever.</item>
+    </string-array>
+
+    <string-array name="descriptionHipWallBall">
+        <item>Wall Ball</item>
+        <item>A functional exercise combining a squat and an overhead throw, targeting the legs, core, shoulders, and arms.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand about two feet from a wall, holding a medicine ball at chest level.</item>
+        <item>2. Squat down, keeping your chest up and weight on your heels.</item>
+        <item>3. Explode upward from the squat, throwing the ball against the wall at a target height.</item>
+        <item>4. Catch the ball as it comes down and immediately move into the next squat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a neutral spine and avoid leaning too far forward during the squat.</item>
+        <item>2. Use a controlled motion to catch the ball and transition smoothly.</item>
+    </string-array>
+
+    <string-array name="descriptionHipKicksLegBent">
+        <item>Kicks Leg Bent</item>
+        <item>An exercise targeting the glutes and hamstrings, improving flexibility and strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright with your feet hip-width apart.</item>
+        <item>2. Bend one knee to a 90-degree angle, lifting your leg backward.</item>
+        <item>3. Extend your leg backward in a controlled motion, squeezing your glutes at the top.</item>
+        <item>4. Return to the starting position and repeat for the desired number of repetitions before switching legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid arching your back; focus on isolating the glutes.</item>
+        <item>2. Perform the motion slowly to maximize muscle engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipKneelingLegOutAdductorStretch">
+        <item>Kneeling Leg Out Adductor Stretch</item>
+        <item>A mobility exercise to stretch the inner thighs and improve hip flexibility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Kneel on the floor with one leg extended out to the side, keeping the foot flat.</item>
+        <item>2. Place your hands on the floor for support and gently rock your hips backward to deepen the stretch.</item>
+        <item>3. Hold the stretch for 20-30 seconds, then switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your extended leg straight and avoid rotating your hips.</item>
+        <item>2. Perform the stretch gently without bouncing to avoid strain.</item>
+    </string-array>
+
+    <string-array name="descriptionHipHappyBabyPose">
+        <item>Happy Baby Pose</item>
+        <item>A yoga pose that stretches the lower back, inner thighs, and hamstrings while promoting relaxation.</item>
+        <item>To perform the pose:</item>
+        <item>1. Lie on your back with your knees bent and feet lifted toward the ceiling.</item>
+        <item>2. Grab the outer edges of your feet with your hands, keeping your arms on the inside of your legs.</item>
+        <item>3. Gently pull your knees toward your armpits, keeping your tailbone on the floor.</item>
+        <item>4. Hold the pose for 20-30 seconds, breathing deeply.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Relax your shoulders and keep your head on the ground.</item>
+        <item>2. Avoid overpulling; focus on a comfortable stretch.</item>
+    </string-array>
+
+    <string-array name="descriptionHipKettlebellFigure8">
+        <item>Kettlebell Figure 8</item>
+        <item>A dynamic exercise that improves grip strength, core stability, and overall coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding a kettlebell in one hand.</item>
+        <item>2. Lower into a slight squat and pass the kettlebell between your legs, switching hands.</item>
+        <item>3. Guide the kettlebell around one leg and back through your legs, creating a figure-8 motion.</item>
+        <item>4. Repeat continuously for the desired number of repetitions, alternating hands.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and core engaged to avoid strain.</item>
+        <item>2. Use controlled movements to maintain stability.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSmithMachineHipThrust">
+        <item>Smith Machine Hip Thrust</item>
+        <item>A strength-building exercise that targets the glutes and hamstrings.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with your upper back resting against a bench and a Smith machine bar positioned over your hips.</item>
+        <item>2. Roll the bar onto your hips, ensuring it’s padded for comfort.</item>
+        <item>3. Plant your feet flat on the ground, shoulder-width apart, and thrust your hips upward, squeezing your glutes at the top.</item>
+        <item>4. Lower your hips back down in a controlled motion and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid overextending your lower back at the top of the movement.</item>
+        <item>2. Keep your chin tucked and gaze forward to maintain alignment.</item>
+    </string-array>
+
+    <string-array name="descriptionHipResistanceBandHipThrust">
+        <item>Resistance Band Hip Thrust</item>
+        <item>An effective exercise to activate the glutes and hamstrings using a resistance band.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place a resistance band around your thighs, just above your knees.</item>
+        <item>2. Sit on the floor with your upper back resting against a bench and feet flat on the ground.</item>
+        <item>3. Thrust your hips upward, pressing your knees outward against the band for added resistance.</item>
+        <item>4. Squeeze your glutes at the top, then lower your hips back down and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged and avoid arching your back.</item>
+        <item>2. Ensure the resistance band provides adequate tension without slipping.</item>
+    </string-array>
+
+    <string-array name="descriptionHipResistanceBandHipThrustsOnKnees">
+        <item>Resistance Band Hip Thrusts on Knees</item>
+        <item>A glute-focused variation performed on your knees with a resistance band.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Kneel on the ground with a resistance band around your thighs, just above your knees.</item>
+        <item>2. Sit back onto your heels, then thrust your hips forward, pressing your knees outward against the band.</item>
+        <item>3. Squeeze your glutes at the top of the motion and return to the starting position.</item>
+        <item>4. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid leaning too far forward.</item>
+        <item>2. Use a resistance band that provides enough tension for effective engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBarbellSingleLegDeadlift">
+        <item>Barbell Single Leg Deadlift</item>
+        <item>A unilateral strength exercise targeting the hamstrings, glutes, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a barbell with both hands and stand on one leg, keeping the other slightly bent.</item>
+        <item>2. Hinge at the hips, lowering the barbell toward the floor while extending your free leg backward for balance.</item>
+        <item>3. Keep your back straight and core engaged as you lower the barbell.</item>
+        <item>4. Return to the starting position by pushing through your standing leg.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rounding your back; focus on maintaining a neutral spine.</item>
+        <item>2. Perform the movement slowly to maintain balance and control.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDumbbellSingleLegDeadlift">
+        <item>Dumbbell Single Leg Deadlift</item>
+        <item>A unilateral exercise targeting hamstrings, glutes, and core, while improving balance and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in one hand and stand on the opposite leg.</item>
+        <item>2. Hinge at the hips, lowering the dumbbell toward the ground while extending your free leg back.</item>
+        <item>3. Keep your back straight and core engaged as you lower.</item>
+        <item>4. Return to the starting position by pushing through the standing leg.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rounding your back during the movement.</item>
+        <item>2. Move slowly to maintain balance and control.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDumbbellBenchSquat">
+        <item>Dumbbell Bench Squat</item>
+        <item>A lower-body exercise to strengthen glutes, quads, and hamstrings using added resistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand and stand in front of a bench or box.</item>
+        <item>2. Lower your body into a squat, sitting lightly onto the bench while keeping your chest up.</item>
+        <item>3. Push through your heels to return to the starting position.</item>
+        <item>4. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using momentum to stand up; use controlled movements.</item>
+        <item>2. Keep your knees aligned with your toes during the squat.</item>
+    </string-array>
+
+    <string-array name="descriptionHipPendulumSquat">
+        <item>Pendulum Squat</item>
+        <item>A machine-assisted squat variation focusing on the quads, glutes, and hamstrings.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Position yourself in the pendulum squat machine with your back supported and shoulders under the pads.</item>
+        <item>2. Place your feet shoulder-width apart on the platform.</item>
+        <item>3. Lower your body into a squat by bending your knees and hips.</item>
+        <item>4. Push through your heels to return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid locking out your knees at the top of the movement.</item>
+        <item>2. Keep your back firmly against the support throughout the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionHipDumbbellIronCross">
+        <item>Dumbbell Iron Cross</item>
+        <item>A shoulder and core exercise that improves strength and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand and stand with your feet shoulder-width apart.</item>
+        <item>2. Raise your arms out to the sides until they are parallel to the ground, forming a T-shape.</item>
+        <item>3. Slowly lower the dumbbells back to the starting position.</item>
+        <item>4. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using momentum; keep the movement slow and controlled.</item>
+        <item>2. Engage your core to maintain proper posture.</item>
+    </string-array>
+
+    <string-array name="descriptionHipBoxPistolSquat">
+        <item>Box Pistol Squat</item>
+        <item>A single-leg squat variation that builds strength, balance, and flexibility in the lower body.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand on one leg in front of a box or bench.</item>
+        <item>2. Lower your body into a squat, sitting lightly onto the box while keeping your free leg extended forward.</item>
+        <item>3. Push through your heel to stand back up to the starting position.</item>
+        <item>4. Repeat on the other leg.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use a box height that allows proper form without compromising balance.</item>
+        <item>2. Engage your core to stabilize your body throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSittingRotationHipStretch">
+        <item>Sitting Rotation Hip Stretch</item>
+        <item>A flexibility exercise targeting the hip rotators, improving mobility and reducing stiffness.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the ground with one leg bent in front of you and the other leg bent behind you.</item>
+        <item>2. Place your hands on the ground for support, keeping your torso upright.</item>
+        <item>3. Gently rotate your torso toward the front leg, feeling a stretch in your hips.</item>
+        <item>4. Hold the stretch for 20-30 seconds and switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements slow and controlled to avoid overstretching.</item>
+        <item>2. Focus on maintaining good posture throughout the stretch.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSupportedOneLegStandingHipFlexorAndKneeExtensorStretch">
+        <item>Supported One Leg Standing Hip Flexor and Knee Extensor Stretch</item>
+        <item>An effective stretch targeting the hip flexors and quadriceps, enhancing flexibility and mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand near a wall or sturdy surface for support.</item>
+        <item>2. Bend one knee and bring your heel toward your glutes, holding your ankle with the same-side hand.</item>
+        <item>3. Keep your standing leg straight and your torso upright.</item>
+        <item>4. Hold the stretch for 20-30 seconds and switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid arching your lower back; engage your core to maintain alignment.</item>
+        <item>2. Ensure you feel a gentle stretch without any discomfort.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSquatMobilityComplex">
+        <item>Squat Mobility Complex</item>
+        <item>A dynamic exercise designed to enhance squat depth and overall lower-body mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin in a deep squat position with your feet slightly wider than shoulder-width apart.</item>
+        <item>2. Place your elbows on the inside of your knees and gently push outward to open your hips.</item>
+        <item>3. Shift your weight side to side, forward, and backward to stretch the ankles and hips.</item>
+        <item>4. Hold the position for 20-30 seconds while maintaining a straight back.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rounding your back; keep your chest up throughout the movement.</item>
+        <item>2. Move slowly and focus on areas that feel tight or restricted.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSideLyingHipAdduction">
+        <item>Side Lying Hip Adduction</item>
+        <item>An isolation exercise for the inner thighs, targeting the adductor muscles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your side with your legs extended straight.</item>
+        <item>2. Cross your top leg over and place your foot flat on the ground in front of your bottom leg.</item>
+        <item>3. Lift your bottom leg upward, keeping it straight, then slowly lower it back down.</item>
+        <item>4. Repeat for the desired number of repetitions and switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using momentum; focus on controlled movements.</item>
+        <item>2. Keep your core engaged to stabilize your torso during the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSideHipAbduction">
+        <item>Side Hip Abduction</item>
+        <item>A lateral movement exercise targeting the gluteus medius and hip abductors for improved hip stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your side with your legs stacked and extended straight.</item>
+        <item>2. Lift your top leg upward, keeping it straight and aligned with your body.</item>
+        <item>3. Slowly lower your leg back to the starting position.</item>
+        <item>4. Repeat for the desired number of repetitions and switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rotating your hips; keep them stacked throughout the movement.</item>
+        <item>2. Perform the exercise with a controlled tempo for maximum engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSideLyingFeetRaise">
+        <item>Side Lying Feet Raise</item>
+        <item>A strengthening exercise targeting the obliques and inner thighs, improving core stability and leg strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your side with your legs extended straight and stacked on top of each other.</item>
+        <item>2. Rest your head on your bottom arm and use your top arm for support by placing it in front of you.</item>
+        <item>3. Lift your top leg as high as possible while keeping it straight.</item>
+        <item>4. Slowly lower your leg back down to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your hips stacked to avoid rolling backward or forward.</item>
+        <item>2. Engage your core throughout the movement for stability.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSingleStiffLegDeadliftWithResistanceBand">
+        <item>Single Stiff Leg Deadlift With Resistance Band</item>
+        <item>An effective exercise for hamstrings, glutes, and balance using a resistance band for added intensity.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand on a resistance band with one foot and hold the ends with both hands.</item>
+        <item>2. Shift your weight onto the planted foot and hinge forward at the hips, extending the opposite leg backward.</item>
+        <item>3. Lower your torso until it is nearly parallel to the ground, keeping your back straight.</item>
+        <item>4. Return to the starting position by driving through your planted heel and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on maintaining a neutral spine throughout the movement.</item>
+        <item>2. Keep a slight bend in your standing knee for stability.</item>
+    </string-array>
+
+    <string-array name="descriptionHipPullThroughWithResistanceBand">
+        <item>Pull Through With Resistance Band</item>
+        <item>A glute and hamstring-focused exercise that enhances posterior chain strength using a resistance band.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a resistance band to a low anchor point behind you.</item>
+        <item>2. Stand with your back to the anchor point and straddle the band, holding it with both hands between your legs.</item>
+        <item>3. Hinge at your hips, lowering your torso while maintaining a neutral spine.</item>
+        <item>4. Squeeze your glutes as you thrust your hips forward to return to standing.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rounding your back during the hip hinge.</item>
+        <item>2. Control the movement to prevent snapping the band.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSwingGymstick">
+        <item>Swing | Gymstick</item>
+        <item>An effective full-body exercise targeting glutes, hamstrings, and shoulders while improving core stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold the Gymstick firmly with both hands, feet shoulder-width apart.</item>
+        <item>2. Hinge at the hips, lowering the Gymstick between your knees.</item>
+        <item>3. Thrust your hips forward to swing the Gymstick upward to shoulder height.</item>
+        <item>4. Allow the Gymstick to descend naturally, controlling the movement, and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on using your hips for momentum, not your arms.</item>
+        <item>2. Maintain a neutral spine throughout the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSingleLegReverseHyperextensionGymstick">
+        <item>Single Leg Reverse Hyperextension | Gymstick</item>
+        <item>A great exercise for isolating and strengthening the glutes and hamstrings, improving hip stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Secure the Gymstick to one foot and position yourself on a bench or platform.</item>
+        <item>2. Hang your legs off the edge with your hips at the bench edge.</item>
+        <item>3. Lift the leg with the Gymstick upward until it aligns with your torso.</item>
+        <item>4. Lower the leg back down slowly and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to avoid overarching your lower back.</item>
+        <item>2. Perform the movement in a slow and controlled manner.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSplitSquatGymstick">
+        <item>Split Squat | Gymstick</item>
+        <item>A lower-body strengthening exercise that targets the quads, glutes, and hamstrings, performed with Gymstick resistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place one foot forward and the other foot back in a split stance, securing the Gymstick under your front foot and holding it across your shoulders.</item>
+        <item>2. Lower your body by bending both knees until your back knee is just above the ground.</item>
+        <item>3. Push through your front heel to return to the starting position and repeat before switching legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest lifted and core engaged for balance and stability.</item>
+        <item>2. Ensure your front knee stays aligned with your toes during the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipSquatGymstick">
+        <item>Squat | Gymstick</item>
+        <item>A foundational lower-body exercise targeting the glutes, quads, and hamstrings, enhanced with Gymstick resistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, Gymstick secured under your feet and held across your shoulders.</item>
+        <item>2. Lower your body into a squat, keeping your chest lifted and back straight.</item>
+        <item>3. Push through your heels to return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your knees aligned with your toes to avoid strain.</item>
+        <item>2. Engage your core to maintain balance and stability.</item>
+    </string-array>
+
+    <string-array name="descriptionHipKneelingSingleLegKickGymstick">
+        <item>Kneeling Single Leg Kick | Gymstick</item>
+        <item>An isolated glute and hamstring exercise performed in a kneeling position using the Gymstick.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach the Gymstick bands to your ankle and secure the Gymstick under your hands in a kneeling position.</item>
+        <item>2. Extend one leg back, keeping it straight and in line with your torso.</item>
+        <item>3. Return the leg to the starting position and repeat before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to stabilize your torso.</item>
+        <item>2. Avoid arching your back during the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHipPinSquat">
+        <item>Pin Squat</item>
+        <item>A strength-building squat variation that emphasizes control and power by pausing at the bottom of the movement.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set the barbell on safety pins at a height near the bottom of your squat range.</item>
+        <item>2. Stand under the barbell, positioning it across your upper back, and lift it off the pins.</item>
+        <item>3. Lower the barbell to touch the pins, pause briefly, and then drive upward to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest up and back straight throughout the movement.</item>
+        <item>2. Use the pause to eliminate momentum and build strength in the bottom position.</item>
+    </string-array>
+
+    <string-array name="descriptionHipTheBoxJump">
+        <item>The Box Jump</item>
+        <item>A plyometric exercise for building explosive lower-body strength, targeting the glutes, quads, and calves.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand in front of a sturdy box or platform with feet shoulder-width apart.</item>
+        <item>2. Lower into a partial squat and explode upward, swinging your arms for momentum.</item>
+        <item>3. Land softly on the box with knees slightly bent and step down carefully to repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on landing softly to reduce impact on your joints.</item>
+        <item>2. Ensure the box is stable and at an appropriate height for your ability.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,1436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="descriptionTricepsMedicineBallOverheadThrow">
+        <item>Medicine Ball Overhead Throw</item>
+        <item>The Medicine Ball Overhead Throw is an explosive exercise that develops power in the shoulders, triceps, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with feet shoulder-width apart, holding a medicine ball with both hands.</item>
+        <item>2. Raise the ball overhead and engage your core.</item>
+        <item>3. Forcefully throw the ball straight down to the ground.</item>
+        <item>4. Catch the ball on the bounce or retrieve it and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use your entire body to generate force, not just your arms.</item>
+        <item>2. Maintain a tight core to avoid straining your lower back.</item>
+        <item>3. Perform with speed but maintain control.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsOneArmTricepsPushdown">
+        <item>One Arm Triceps Pushdown</item>
+        <item>The One Arm Triceps Pushdown isolates the triceps for unilateral strength development.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a single handle to a high pulley on a cable machine.</item>
+        <item>2. Grasp the handle with one hand and stand upright.</item>
+        <item>3. Push the handle downward until your arm is fully extended.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbow stationary and close to your torso.</item>
+        <item>2. Focus on full triceps contraction at the bottom.</item>
+        <item>3. Use a controlled motion to prevent momentum.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsDumbbellKickback">
+        <item>Dumbbell Kickback</item>
+        <item>The Dumbbell Kickback effectively targets the triceps by extending the arm against resistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand and hinge forward at the hips.</item>
+        <item>2. Keep your upper arms stationary and elbows bent at 90 degrees.</item>
+        <item>3. Extend your arms straight back, fully contracting the triceps.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid swinging the weights; use controlled movements.</item>
+        <item>2. Keep your core engaged to maintain stability.</item>
+        <item>3. Ensure full triceps activation by extending fully.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsOneArmReversePushdown">
+        <item>One Arm Reverse Pushdown</item>
+        <item>This variation of the triceps pushdown uses a reverse grip to target different triceps muscle fibers.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a single handle to a high pulley cable.</item>
+        <item>2. Hold the handle with an underhand grip (palm facing up).</item>
+        <item>3. Push the handle down until your arm is fully extended.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your wrist straight to avoid unnecessary strain.</item>
+        <item>2. Focus on controlled movements to maximize tension.</item>
+        <item>3. Perform with lighter weights to maintain proper form.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsPushdown">
+        <item>Push-down</item>
+        <item>The Push-down is a classic cable exercise for building triceps strength and endurance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a straight bar or rope to the high pulley of a cable machine.</item>
+        <item>2. Stand upright and grip the bar with an overhand grip.</item>
+        <item>3. Push the bar down until your arms are fully extended.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows locked in place and avoid flaring them.</item>
+        <item>2. Use a moderate weight to prevent momentum.</item>
+        <item>3. Focus on squeezing the triceps at the bottom of the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsBenchDips">
+        <item>Bench Dips</item>
+        <item>Bench Dips are an effective bodyweight exercise that targets the triceps, shoulders, and chest.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the edge of a bench with your hands placed next to your hips.</item>
+        <item>2. Extend your legs forward and lower your body by bending your elbows.</item>
+        <item>3. Push yourself back up to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows pointing backward to avoid shoulder strain.</item>
+        <item>2. Lower yourself until your arms form a 90-degree angle.</item>
+        <item>3. Engage your core to maintain stability.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsTricepsDips">
+        <item>Triceps Dips</item>
+        <item>Triceps Dips are a compound movement that builds upper body strength, focusing on the triceps and shoulders.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Grip parallel bars and lift yourself with straight arms.</item>
+        <item>2. Lower your body by bending your elbows until your arms reach a 90-degree angle.</item>
+        <item>3. Push yourself back up to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows tucked to fully engage the triceps.</item>
+        <item>2. Avoid swinging your legs for momentum.</item>
+        <item>3. Use controlled movements to prevent injury.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsOneArmLyingTricepsExtension">
+        <item>One Arm Lying Triceps Extension</item>
+        <item>This unilateral exercise isolates the triceps for balanced strength development.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on a bench holding a dumbbell in one hand.</item>
+        <item>2. Extend your arm straight up, then lower the dumbbell towards your forehead.</item>
+        <item>3. Push the dumbbell back up to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbow stationary to isolate the triceps.</item>
+        <item>2. Use a controlled movement to avoid hitting your head.</item>
+        <item>3. Perform equal repetitions on both arms for balance.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsCableRopeOverheadTricepsExtension">
+        <item>Cable Rope Overhead Triceps Extension</item>
+        <item>This cable exercise provides constant tension on the triceps, maximizing activation.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a rope handle to a high pulley cable.</item>
+        <item>2. Face away from the machine and grasp the rope with both hands.</item>
+        <item>3. Extend your arms overhead, then lower the rope behind your head.</item>
+        <item>4. Push the rope back up to full extension.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows close to your head to isolate the triceps.</item>
+        <item>2. Avoid using excessive weight that can strain your shoulders.</item>
+        <item>3. Maintain a slight forward lean for better stability.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsLeverTricepsDip">
+        <item>Lever Triceps Dip</item>
+        <item>The Lever Triceps Dip is a machine-based exercise that mimics parallel bar dips but with controlled resistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the machine and grasp the handles.</item>
+        <item>2. Push the handles downward until your arms are fully extended.</item>
+        <item>3. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid leaning too far forward.</item>
+        <item>2. Use a controlled motion to prevent jerking.</item>
+        <item>3. Adjust the weight to ensure proper form and full range of motion.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsLyingBarbellTricepsExtension">
+        <item>Lying Barbell Triceps Extension</item>
+        <item>This exercise, also known as the skull crusher, targets the triceps and helps build upper arm strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on a bench and hold a barbell with an overhand grip, arms extended.</item>
+        <item>2. Lower the barbell towards your forehead by bending your elbows.</item>
+        <item>3. Extend your arms back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows stationary to fully engage the triceps.</item>
+        <item>2. Use a controlled motion to prevent hitting your forehead.</item>
+        <item>3. Avoid arching your back; keep it flat on the bench.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsCableTricepKickback">
+        <item>Cable Tricep Kickback</item>
+        <item>A variation of the dumbbell kickback, this exercise provides continuous tension on the triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a single handle to a low pulley and grasp it with one hand.</item>
+        <item>2. Bend at the waist, keeping your back straight.</item>
+        <item>3. Extend your arm fully behind you, then return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your upper arm stationary throughout the movement.</item>
+        <item>2. Use a lightweight to maintain strict form.</item>
+        <item>3. Perform equal repetitions on both arms for balance.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsTricepsDipsOnFloor">
+        <item>Triceps Dips on Floor</item>
+        <item>A bodyweight exercise that strengthens the triceps using minimal equipment.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with your knees bent and hands placed behind you.</item>
+        <item>2. Lift your hips off the floor and lower your body by bending your elbows.</item>
+        <item>3. Push yourself back up to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows pointing backward to engage the triceps effectively.</item>
+        <item>2. Avoid locking out your elbows at the top.</item>
+        <item>3. Perform slow and controlled reps to prevent strain.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsDumbbellSeatedFrontAndBackTatePress">
+        <item>Dumbbell Seated Front and Back Tate Press</item>
+        <item>This variation of the Tate Press targets the triceps from different angles for enhanced development.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a bench holding dumbbells with a neutral grip.</item>
+        <item>2. Lower the dumbbells towards your chest, keeping elbows flared.</item>
+        <item>3. Press the dumbbells back up, alternating between the front and back of your head.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain control throughout the movement to prevent injury.</item>
+        <item>2. Use moderate weight to ensure proper form.</item>
+        <item>3. Keep your core engaged for stability.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsKneelingCableTricepsExtension">
+        <item>Kneeling Cable Triceps Extension</item>
+        <item>A cable-based exercise that isolates the triceps while minimizing momentum.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a rope to a high pulley and kneel facing the machine.</item>
+        <item>2. Grip the rope with both hands and extend your arms downward.</item>
+        <item>3. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows tucked close to your body.</item>
+        <item>2. Avoid using your shoulders; focus on triceps engagement.</item>
+        <item>3. Use a slow and controlled movement to maximize effectiveness.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsCableRearDrive">
+        <item>Cable Rear Drive</item>
+        <item>This exercise targets the triceps while engaging the core for stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a straight bar to a high pulley cable machine.</item>
+        <item>2. Stand facing away from the machine, holding the bar with both hands behind your head.</item>
+        <item>3. Extend your arms forward until they are fully straightened.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows tucked in to maintain tension on the triceps.</item>
+        <item>2. Avoid using momentum; control each rep.</item>
+        <item>3. Engage your core to prevent excessive leaning.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsNarrowGripWallPushUp">
+        <item>Narrow Grip Wall Push-Up</item>
+        <item>A beginner-friendly triceps exercise using body weight.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand facing a wall, placing your hands close together at chest level.</item>
+        <item>2. Lower your chest towards the wall by bending your elbows.</item>
+        <item>3. Push back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows close to your body for maximum triceps activation.</item>
+        <item>2. Maintain a straight line from head to heels.</item>
+        <item>3. Perform slow and controlled repetitions.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsShoulderStretchBehindBack">
+        <item>Shoulder Stretch Behind Back</item>
+        <item>A stretching exercise that improves shoulder mobility and flexibility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand tall and clasp your hands behind your back.</item>
+        <item>2. Lift your hands upward while keeping your arms straight.</item>
+        <item>3. Hold the stretch for a few seconds, then release.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid shrugging your shoulders; keep them relaxed.</item>
+        <item>2. Perform the stretch slowly to prevent injury.</item>
+        <item>3. Breathe deeply and hold for at least 20-30 seconds.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsBodyUps">
+        <item>Body Ups</item>
+        <item>A bodyweight triceps exercise that also engages the core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a forearm plank position.</item>
+        <item>2. Push up onto your hands one arm at a time.</item>
+        <item>3. Lower back down to the forearm plank.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight to prevent hip sagging.</item>
+        <item>2. Maintain a steady and controlled pace.</item>
+        <item>3. Alternate leading arms to ensure balanced development.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsWallPushUp">
+        <item>Wall Push-Up</item>
+        <item>A simple bodyweight exercise to strengthen the chest, shoulders, and triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand facing a wall, placing your hands slightly wider than shoulder-width.</item>
+        <item>2. Lean in towards the wall by bending your elbows.</item>
+        <item>3. Push back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid arching.</item>
+        <item>2. Control the movement to maximize muscle engagement.</item>
+        <item>3. Adjust hand placement for different intensity levels.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsCableLyingTricepsExtensions">
+        <item>Cable Lying Triceps Extensions</item>
+        <item>A variation of the skull crusher using a cable machine to maintain constant tension on the triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a straight bar or rope to a low pulley cable machine.</item>
+        <item>2. Lie on a flat bench and grasp the attachment with an overhand grip.</item>
+        <item>3. Extend your arms fully, then slowly lower the bar towards your forehead.</item>
+        <item>4. Push the bar back up to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows stationary to isolate the triceps.</item>
+        <item>2. Avoid excessive weight to prevent strain on the elbows.</item>
+        <item>3. Use a controlled motion to maximize muscle engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsChairDips">
+        <item>Chair Dips</item>
+        <item>A convenient triceps exercise using a chair for resistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the edge of a sturdy chair and grip the sides.</item>
+        <item>2. Move your feet forward and lower your body by bending your elbows.</item>
+        <item>3. Push yourself back up to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back close to the chair.</item>
+        <item>2. Avoid locking out your elbows at the top.</item>
+        <item>3. Control the descent to prevent injury.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsSeatedOneArmDumbbellTricepsExtension">
+        <item>Seated One-Arm Dumbbell Triceps Extension</item>
+        <item>A unilateral triceps exercise to build arm strength and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a bench and hold a dumbbell in one hand.</item>
+        <item>2. Extend your arm overhead and slowly lower the dumbbell behind your head.</item>
+        <item>3. Press the dumbbell back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbow pointed straight up.</item>
+        <item>2. Use a moderate weight to maintain form.</item>
+        <item>3. Perform equal reps on both arms.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsSeatedDumbbellTricepsExtension">
+        <item>Seated Dumbbell Triceps Extension</item>
+        <item>A compound movement targeting all three heads of the triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a bench and hold a dumbbell with both hands.</item>
+        <item>2. Extend your arms overhead and lower the dumbbell behind your head.</item>
+        <item>3. Push the dumbbell back up to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged for stability.</item>
+        <item>2. Maintain a controlled motion throughout the movement.</item>
+        <item>3. Avoid excessive arching of the back.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsLeverTricepsExtension">
+        <item>Lever Triceps Extension</item>
+        <item>A machine-based triceps exercise providing guided resistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the triceps extension machine and adjust the seat height.</item>
+        <item>2. Grip the handles and extend your arms fully.</item>
+        <item>3. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows fixed to isolate the triceps.</item>
+        <item>2. Avoid using momentum; control each rep.</item>
+        <item>3. Adjust the weight for a challenging but manageable resistance.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsBenchDipsOnFloor">
+        <item>Bench Dips on Floor</item>
+        <item>A bodyweight triceps exercise that mimics traditional bench dips but performed on the floor.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with your hands behind you, fingers pointing forward.</item>
+        <item>2. Lift your hips and support your weight with your arms.</item>
+        <item>3. Lower your body by bending your elbows, then push back up.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows close to your body.</item>
+        <item>2. Avoid locking out your elbows at the top.</item>
+        <item>3. Engage your core for better stability.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsParallelBarDips">
+        <item>Parallel Bar Dips</item>
+        <item>A compound upper-body movement that primarily targets the triceps and chest.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Grip the parallel bars with your arms fully extended.</item>
+        <item>2. Lower your body by bending your elbows to 90 degrees.</item>
+        <item>3. Push back up to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Lean forward slightly to engage the chest or stay upright to focus on triceps.</item>
+        <item>2. Use controlled movement to avoid shoulder strain.</item>
+        <item>3. Engage your core throughout the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsDumbbellSkullCrusher">
+        <item>Dumbbell Skull Crusher</item>
+        <item>A free-weight variation of the traditional skull crusher for triceps isolation.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on a bench holding dumbbells with arms extended.</item>
+        <item>2. Lower the dumbbells towards your forehead by bending your elbows.</item>
+        <item>3. Extend your arms back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows stationary to maximize triceps activation.</item>
+        <item>2. Use a slow, controlled motion to avoid injury.</item>
+        <item>3. Avoid excessive weight that may compromise form.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsDumbbellInclineTwoArmExtension">
+        <item>Dumbbell Incline Two Arm Extension</item>
+        <item>A triceps isolation exercise performed on an incline bench.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on an incline bench holding dumbbells overhead.</item>
+        <item>2. Lower the dumbbells behind your head by bending your elbows.</item>
+        <item>3. Extend your arms back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a slow and controlled movement.</item>
+        <item>2. Keep your elbows close together to maximize triceps engagement.</item>
+        <item>3. Avoid arching your back during the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsOneArmPronatedDumbbellTricepsExtension">
+        <item>One Arm Pronated Dumbbell Triceps Extension</item>
+        <item>A unilateral triceps exercise emphasizing control and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in one hand with a pronated (overhand) grip.</item>
+        <item>2. Extend your arm overhead and lower the dumbbell behind your head.</item>
+        <item>3. Press the dumbbell back up to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbow stationary to isolate the triceps.</item>
+        <item>2. Use a controlled movement to prevent strain.</item>
+        <item>3. Perform equal reps on both arms.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsSeatedEZBarOverheadTricepsExtension">
+        <item>Seated EZ-Bar Overhead Triceps Extension</item>
+        <item>A strength-building exercise that targets the triceps using an EZ-bar.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a bench with back support, holding an EZ-bar overhead.</item>
+        <item>2. Lower the bar behind your head by bending your elbows.</item>
+        <item>3. Extend your arms to return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows close together.</item>
+        <item>2. Use a slow and controlled motion.</item>
+        <item>3. Avoid arching your back.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsCableInclineTricepsExtension">
+        <item>Cable Incline Triceps Extension</item>
+        <item>An isolation exercise using a cable machine to target the triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on an incline bench facing away from a cable machine.</item>
+        <item>2. Hold a bar or rope attachment with arms extended.</item>
+        <item>3. Lower the weight behind your head by bending your elbows.</item>
+        <item>4. Extend your arms back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a slow, controlled movement.</item>
+        <item>2. Keep your elbows stationary.</item>
+        <item>3. Engage your core for stability.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsReversePushUp">
+        <item>Reverse Push-Up</item>
+        <item>A bodyweight exercise that works the triceps and shoulders.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with your hands placed behind you, fingers facing forward.</item>
+        <item>2. Lift your hips off the ground, supporting your weight with your arms.</item>
+        <item>3. Lower yourself by bending your elbows, then push back up.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged.</item>
+        <item>2. Avoid locking out your elbows at the top.</item>
+        <item>3. Perform slow and controlled reps.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsCableSideTricepsExtension">
+        <item>Cable Side Triceps Extension</item>
+        <item>A unilateral exercise using a cable machine to isolate the triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand sideways to a cable machine with a handle set at shoulder height.</item>
+        <item>2. Hold the handle with one hand and extend your arm fully.</item>
+        <item>3. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbow stationary.</item>
+        <item>2. Perform equal reps on both arms.</item>
+        <item>3. Use a moderate weight for controlled movement.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsInclineEZBarTricepsExtension">
+        <item>Incline EZ-Bar Triceps Extension</item>
+        <item>A variation of the triceps extension performed on an incline bench.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on an incline bench while holding an EZ-bar overhead.</item>
+        <item>2. Lower the bar behind your head by bending your elbows.</item>
+        <item>3. Extend your arms back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows close together.</item>
+        <item>2. Use a controlled range of motion.</item>
+        <item>3. Avoid using excessive weight to maintain proper form.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsHighPulleyOverheadTricepExtension">
+        <item>High Pulley Overhead Tricep Extension</item>
+        <item>A cable machine exercise that effectively isolates the triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand facing away from the cable machine with a rope or bar attachment.</item>
+        <item>2. Grip the handle with both hands and extend your arms overhead.</item>
+        <item>3. Lower the handle behind your head by bending your elbows.</item>
+        <item>4. Extend your arms back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows stationary.</item>
+        <item>2. Use a controlled movement to avoid momentum.</item>
+        <item>3. Engage your core for stability.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsRopePushdown">
+        <item>Rope Pushdown</item>
+        <item>A classic triceps isolation exercise using a cable machine and rope attachment.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a rope to the high pulley of a cable machine.</item>
+        <item>2. Stand upright and grasp the rope with both hands, palms facing inward.</item>
+        <item>3. Push the rope downward until your arms are fully extended.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows close to your body.</item>
+        <item>2. Use a full range of motion for maximum engagement.</item>
+        <item>3. Avoid swinging or using excessive momentum.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsReverseGripPushdown">
+        <item>Reverse Grip Pushdown</item>
+        <item>A variation of the triceps pushdown that emphasizes the medial head of the triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a straight bar to the high pulley of a cable machine.</item>
+        <item>2. Stand upright and grasp the bar with an underhand grip (palms facing up).</item>
+        <item>3. Push the bar downward until your arms are fully extended.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows stationary throughout the movement.</item>
+        <item>2. Use a moderate weight to maintain control.</item>
+        <item>3. Engage your core for better stability.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsCrossArmPushUp">
+        <item>Cross Arm Push-up</item>
+        <item>A bodyweight triceps and chest exercise that requires balance and control.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Get into a push-up position with your hands crossed over each other.</item>
+        <item>2. Lower your chest towards the ground while keeping your arms crossed.</item>
+        <item>3. Push yourself back up to the starting position.</item>
+        <item>4. Repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to maintain balance.</item>
+        <item>2. Use slow and controlled movements.</item>
+        <item>3. Modify by doing the exercise on your knees if needed.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsCableConcentrationExtensionOnKnee">
+        <item>Cable Concentration Extension on Knee</item>
+        <item>A focused triceps extension using a cable machine for isolation.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a single handle to the low pulley of a cable machine.</item>
+        <item>2. Sit on a bench and lean forward, resting your elbow on your knee.</item>
+        <item>3. Extend your arm fully, squeezing your triceps at the top.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a controlled motion throughout.</item>
+        <item>2. Keep your elbow stationary.</item>
+        <item>3. Focus on the triceps contraction at the peak of the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsCloseGripDumbbellPress">
+        <item>Close-Grip Dumbbell Press</item>
+        <item>A variation of the dumbbell bench press that targets the triceps more intensely.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on a bench and hold a dumbbell in each hand with a neutral grip.</item>
+        <item>2. Press the dumbbells together and extend your arms above your chest.</item>
+        <item>3. Lower the dumbbells slowly to your chest while keeping them close together.</item>
+        <item>4. Press them back up to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain constant tension by keeping the dumbbells pressed together.</item>
+        <item>2. Keep your elbows tucked to engage the triceps more.</item>
+        <item>3. Control the movement to avoid bouncing the dumbbells.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsSingleDumbbellCloseGripPress">
+        <item>Single Dumbbell Close-Grip Press</item>
+        <item>A triceps-focused pressing exercise using a single dumbbell.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on a bench and grip the sides of a dumbbell with both hands.</item>
+        <item>2. Hold the dumbbell over your chest with your elbows tucked in.</item>
+        <item>3. Lower the dumbbell to your chest while keeping your elbows close.</item>
+        <item>4. Press it back up to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged for stability.</item>
+        <item>2. Use a slow and controlled motion.</item>
+        <item>3. Focus on squeezing your triceps at the top.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsKneelingDiamondPushUp">
+        <item>Kneeling Diamond Push-Up</item>
+        <item>A beginner-friendly version of the diamond push-up that targets the triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Get into a kneeling push-up position with your hands forming a diamond shape.</item>
+        <item>2. Lower your chest toward your hands, keeping your elbows close.</item>
+        <item>3. Push yourself back up to the starting position.</item>
+        <item>4. Repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged.</item>
+        <item>2. Use a controlled movement to avoid straining your shoulders.</item>
+        <item>3. Gradually progress to a standard diamond push-up.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsDipsBetweenChairs">
+        <item>Dips Between Chairs</item>
+        <item>A bodyweight triceps exercise using two stable chairs.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Position two chairs shoulder-width apart and grip the edges.</item>
+        <item>2. Lift your body off the ground with straight arms.</item>
+        <item>3. Lower yourself by bending your elbows until they reach a 90-degree angle.</item>
+        <item>4. Push yourself back up to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows tucked in to target the triceps.</item>
+        <item>2. Use sturdy chairs to ensure stability.</item>
+        <item>3. Avoid going too low to prevent shoulder strain.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsCableOneArmOverheadTricepsExtension">
+        <item>Cable One-Arm Overhead Triceps Extension</item>
+        <item>An isolation exercise for the triceps using a cable machine.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a single handle to the low pulley of a cable machine.</item>
+        <item>2. Grab the handle with one hand and lift it overhead.</item>
+        <item>3. Extend your arm fully, then slowly lower it back down.</item>
+        <item>4. Repeat for the desired reps and switch arms.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbow stationary.</item>
+        <item>2. Use a light weight to maintain control.</item>
+        <item>3. Focus on a full range of motion.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsStandingBarbellTricepsExtension">
+        <item>Standing Barbell Triceps Extension</item>
+        <item>A compound triceps exercise using a barbell for maximum resistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright and grip a barbell with both hands, positioning it behind your head.</item>
+        <item>2. Keep your elbows close to your ears and extend your arms fully.</item>
+        <item>3. Slowly lower the barbell back behind your head.</item>
+        <item>4. Repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a firm grip on the barbell.</item>
+        <item>2. Avoid flaring your elbows to keep tension on the triceps.</item>
+        <item>3. Use controlled movements to prevent injury.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsImpossibleDips">
+        <item>Impossible Dips</item>
+        <item>An advanced dip variation that requires significant upper body strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Position yourself on parallel bars or dip bars.</item>
+        <item>2. Lean forward slightly and lower your body slowly.</item>
+        <item>3. Pause at the bottom, then push yourself back up.</item>
+        <item>4. Repeat for the desired reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movement controlled.</item>
+        <item>2. Engage your triceps and shoulders throughout.</item>
+        <item>3. Avoid excessive swinging.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsKoreanDips">
+        <item>Korean Dips</item>
+        <item>A challenging dip variation that places greater emphasis on the posterior chain.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Get into a dip position with your hands gripping a bar behind you.</item>
+        <item>2. Lower your body while keeping your legs extended forward.</item>
+        <item>3. Push yourself back up while maintaining form.</item>
+        <item>4. Repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core for stability.</item>
+        <item>2. Keep your movements slow and controlled.</item>
+        <item>3. Start with standard dips before attempting this variation.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsStraightBarDip">
+        <item>Straight Bar Dip</item>
+        <item>A dip variation using a straight bar to challenge stability and strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Position yourself above a straight bar with both hands gripping it.</item>
+        <item>2. Lower your body while keeping your chest slightly forward.</item>
+        <item>3. Push yourself back up to the starting position.</item>
+        <item>4. Repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows tucked in.</item>
+        <item>2. Maintain a strong grip to avoid slipping.</item>
+        <item>3. Engage your core to help with balance.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsExerciseBallTricepsExtension">
+        <item>Exercise Ball Triceps Extension</item>
+        <item>A stability-focused triceps extension using an exercise ball.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on an exercise ball with your feet firmly on the ground.</item>
+        <item>2. Hold a dumbbell in both hands and extend your arms overhead.</item>
+        <item>3. Lower the dumbbell behind your head, keeping your elbows stable.</item>
+        <item>4. Extend your arms back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core for balance.</item>
+        <item>2. Use a controlled motion to prevent instability.</item>
+        <item>3. Start with a light dumbbell and gradually increase weight.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsDumbbellDeclineOneArmHammerPress">
+        <item>Dumbbell Decline One-Arm Hammer Press</item>
+        <item>A unilateral chest and triceps exercise performed on a decline bench.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on a decline bench, holding a dumbbell in a neutral grip.</item>
+        <item>2. Lower the dumbbell slowly to your chest while keeping your elbow close to your body.</item>
+        <item>3. Press the dumbbell back up to the starting position.</item>
+        <item>4. Repeat for the desired reps, then switch arms.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain control throughout the movement.</item>
+        <item>2. Engage your core to stabilize your body.</item>
+        <item>3. Use a weight that allows for proper form.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsTricepsExtensionMachine">
+        <item>Triceps Extension Machine</item>
+        <item>A machine-based exercise that isolates the triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Adjust the seat and select an appropriate weight.</item>
+        <item>2. Grip the handles and press down, fully extending your arms.</item>
+        <item>3. Slowly return to the starting position.</item>
+        <item>4. Repeat for the desired reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows stationary.</item>
+        <item>2. Avoid using momentum to lift the weight.</item>
+        <item>3. Control the movement to maximize muscle engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsTricepsDipMachine">
+        <item>Triceps Dip Machine</item>
+        <item>A machine-assisted dip variation that targets the triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Adjust the seat and select an appropriate weight.</item>
+        <item>2. Grip the handles and push down, extending your arms.</item>
+        <item>3. Slowly return to the starting position.</item>
+        <item>4. Repeat for the desired reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows tucked in.</item>
+        <item>2. Maintain control throughout the movement.</item>
+        <item>3. Avoid locking out your elbows at the top.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsSingleArmPushUp">
+        <item>Single Arm Push-Up</item>
+        <item>An advanced bodyweight exercise that challenges upper body strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Assume a standard push-up position but keep one arm behind your back.</item>
+        <item>2. Lower your body slowly while keeping your core tight.</item>
+        <item>3. Push back up to the starting position.</item>
+        <item>4. Repeat for the desired reps, then switch arms.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a strong core to prevent rotation.</item>
+        <item>2. Perform the exercise on an elevated surface if needed.</item>
+        <item>3. Engage your entire body for stability.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsWallSupportedHandstandPushUps">
+        <item>Wall-Supported Handstand Push-Ups</item>
+        <item>A challenging push-up variation that builds shoulder and triceps strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Kick up into a handstand position against a wall.</item>
+        <item>2. Lower yourself by bending your elbows until your head nearly touches the ground.</item>
+        <item>3. Press back up to the starting position.</item>
+        <item>4. Repeat for the desired reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged for balance.</item>
+        <item>2. Control the descent to avoid injury.</item>
+        <item>3. Use a soft surface under your head for safety.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsTowelShoulderStretch">
+        <item>Towel Shoulder Stretch</item>
+        <item>A flexibility exercise that targets the shoulders and triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a towel behind your back with one hand overhead and the other behind your lower back.</item>
+        <item>2. Gently pull the towel upward with your top hand to stretch the lower shoulder.</item>
+        <item>3. Hold the stretch for 20-30 seconds.</item>
+        <item>4. Switch arms and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your spine straight throughout the stretch.</item>
+        <item>2. Do not force the movement; stretch gently.</item>
+        <item>3. Breathe deeply to enhance relaxation.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsDeclineCloseGripBenchToSkullCrusher">
+        <item>Decline Close-Grip Bench To Skull Crusher</item>
+        <item>A compound triceps exercise that combines pressing and extension movements.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on a decline bench and grip the barbell with a close grip.</item>
+        <item>2. Lower the bar to your lower chest and press it back up.</item>
+        <item>3. After pressing, transition into a skull crusher by lowering the bar toward your forehead.</item>
+        <item>4. Extend your arms back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows tucked to engage the triceps.</item>
+        <item>2. Use a controlled motion to avoid injury.</item>
+        <item>3. Select a weight that allows for proper form.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsBarbellOneArmFloorPress">
+        <item>Barbell One-Arm Floor Press</item>
+        <item>A unilateral pressing exercise that targets the chest and triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on the floor and hold a barbell with one hand.</item>
+        <item>2. Press the barbell upward until your arm is fully extended.</item>
+        <item>3. Lower the barbell slowly until your upper arm touches the floor.</item>
+        <item>4. Repeat for the desired reps and switch arms.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged for stability.</item>
+        <item>2. Control the movement to prevent imbalances.</item>
+        <item>3. Use a spotter if lifting heavy weights.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsAssistedTricepsDips">
+        <item>Assisted Triceps Dips</item>
+        <item>A machine-assisted exercise that helps build triceps strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set the weight on the dip assist machine.</item>
+        <item>2. Grip the dip bars and place your knees on the support pad.</item>
+        <item>3. Lower yourself by bending your elbows until your arms are at a 90-degree angle.</item>
+        <item>4. Push yourself back up to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest upright and core engaged.</item>
+        <item>2. Control the descent to avoid straining your shoulders.</item>
+        <item>3. Adjust the weight to match your strength level.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsReactionBallThrow">
+        <item>Reaction Ball Throw</item>
+        <item>A dynamic exercise that improves hand-eye coordination and reaction time.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a reaction ball and throw it against a wall or the floor.</item>
+        <item>2. React quickly to catch the ball as it bounces unpredictably.</item>
+        <item>3. Repeat for multiple repetitions.</item>
+        <item>4. Adjust the distance and force for added challenge.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Stay light on your feet for quick movements.</item>
+        <item>2. Keep your eyes focused on the ball at all times.</item>
+        <item>3. Use both hands to balance training intensity.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsStandingTricepsStretch">
+        <item>Standing Triceps Stretch</item>
+        <item>A flexibility exercise that helps loosen the triceps and shoulders.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand tall and raise one arm overhead.</item>
+        <item>2. Bend your elbow, bringing your hand behind your head.</item>
+        <item>3. Use the opposite hand to gently pull the elbow further back.</item>
+        <item>4. Hold the stretch for 20-30 seconds, then switch arms.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid arching.</item>
+        <item>2. Stretch gently without forcing the movement.</item>
+        <item>3. Breathe deeply to enhance relaxation.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsForearmPushUp">
+        <item>Forearm Push-Up</item>
+        <item>A bodyweight exercise that strengthens the triceps, shoulders, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Get into a forearm plank position with your elbows under your shoulders.</item>
+        <item>2. Push through your forearms to lift your upper body slightly.</item>
+        <item>3. Lower back down under control.</item>
+        <item>4. Repeat for the desired reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight to prevent sagging.</item>
+        <item>2. Use a controlled motion to maximize muscle engagement.</item>
+        <item>3. Avoid shrugging your shoulders during the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsEZBarBentArmPullover">
+        <item>EZ-Bar Bent Arm Pullover</item>
+        <item>A compound exercise that targets the triceps, chest, and lats.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on a bench and hold an EZ-bar with a shoulder-width grip.</item>
+        <item>2. Lower the bar in an arc behind your head, keeping your elbows slightly bent.</item>
+        <item>3. Bring the bar back to the starting position above your chest.</item>
+        <item>4. Repeat for the desired reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a slight bend in your elbows to reduce joint strain.</item>
+        <item>2. Use a controlled motion to prevent excessive shoulder stress.</item>
+        <item>3. Engage your core to stabilize your body on the bench.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsLowCableTricepKickback">
+        <item>Low Cable Tricep Kickback</item>
+        <item>An isolation exercise for the triceps using a cable machine.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a handle to the low pulley of a cable machine.</item>
+        <item>2. Bend forward slightly and hold the handle with one hand.</item>
+        <item>3. Extend your arm backward until it is fully straight.</item>
+        <item>4. Slowly return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbow close to your torso.</item>
+        <item>2. Use a slow and controlled movement.</item>
+        <item>3. Avoid swinging the weight; focus on muscle contraction.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsBandSkullCrusher">
+        <item>Band Skull Crusher</item>
+        <item>A resistance band variation of the skull crusher targeting the triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Anchor a resistance band at a low position.</item>
+        <item>2. Lie on a bench or the floor and hold the band handles.</item>
+        <item>3. Extend your arms upward, then slowly lower your hands towards your forehead.</item>
+        <item>4. Press back up to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows fixed in place.</item>
+        <item>2. Maintain control of the band tension throughout the movement.</item>
+        <item>3. Avoid using momentum; focus on muscle engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsBandPushdown">
+        <item>Band Pushdown</item>
+        <item>A resistance band exercise that isolates the triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Anchor a resistance band at a high position.</item>
+        <item>2. Grasp the band with both hands and stand upright.</item>
+        <item>3. Push the band downward until your arms are fully extended.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows close to your body.</item>
+        <item>2. Control the movement and avoid using momentum.</item>
+        <item>3. Use a band with appropriate resistance for your strength level.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsDeclineDumbbellTricepsExtension">
+        <item>Decline Dumbbell Triceps Extension</item>
+        <item>An advanced triceps isolation exercise performed on a decline bench.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on a decline bench and hold a dumbbell in each hand.</item>
+        <item>2. Extend your arms straight above your chest.</item>
+        <item>3. Bend your elbows to lower the dumbbells towards your forehead.</item>
+        <item>4. Extend your arms back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows stationary to focus on the triceps.</item>
+        <item>2. Use a controlled movement to avoid strain.</item>
+        <item>3. Avoid locking out your elbows at the top of the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsDumbbellTatePress">
+        <item>Dumbbell Tate Press</item>
+        <item>A triceps exercise that also engages the chest muscles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on a flat bench with a dumbbell in each hand.</item>
+        <item>2. Extend your arms straight above your chest.</item>
+        <item>3. Lower the dumbbells towards your chest by bending your elbows outward.</item>
+        <item>4. Press the dumbbells back up to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep the dumbbells close together during the movement.</item>
+        <item>2. Use a slow and controlled motion.</item>
+        <item>3. Avoid excessive weight to prevent elbow strain.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsHandstandPushupsBetweenBenches">
+        <item>Handstand Push-ups Between Benches</item>
+        <item>An advanced bodyweight exercise that strengthens the shoulders and triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place two benches close together and position yourself in a handstand between them.</item>
+        <item>2. Lower your body by bending your elbows until your head reaches below the bench level.</item>
+        <item>3. Push yourself back up to the starting position.</item>
+        <item>4. Repeat for the desired reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Ensure stability of the benches before starting.</item>
+        <item>2. Engage your core to maintain balance.</item>
+        <item>3. Only attempt if you have sufficient upper body strength.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsKippingHandstandPushup">
+        <item>Kipping Handstand Push-up</item>
+        <item>A dynamic variation of the handstand push-up using momentum from the legs.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Kick up into a handstand position against a wall.</item>
+        <item>2. Lower your head towards the ground by bending your elbows.</item>
+        <item>3. Explosively kick your legs upward while pressing back to the starting position.</item>
+        <item>4. Repeat for the desired reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use your legs to generate momentum.</item>
+        <item>2. Keep your core tight for stability.</item>
+        <item>3. Ensure a controlled descent to prevent injury.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsBentOverKickback">
+        <item>Bent Over Kickback</item>
+        <item>A triceps isolation exercise performed in a bent-over position.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand and bend forward at the hips.</item>
+        <item>2. Keep your upper arms parallel to your torso.</item>
+        <item>3. Extend your arms straight back, fully contracting the triceps.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows stationary throughout the movement.</item>
+        <item>2. Use controlled motion and avoid swinging the weights.</item>
+        <item>3. Maintain a neutral spine to avoid lower back strain.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsCloseGripBenchPress">
+        <item>Close Grip Bench Press</item>
+        <item>A compound exercise that targets the triceps and chest.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on a flat bench and grip the barbell with hands shoulder-width apart.</item>
+        <item>2. Lower the bar to your chest while keeping your elbows close to your body.</item>
+        <item>3. Press the bar back up to the starting position.</item>
+        <item>4. Repeat for the desired reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your wrists straight to avoid strain.</item>
+        <item>2. Engage your triceps by maintaining a close grip.</item>
+        <item>3. Avoid flaring your elbows to prevent shoulder injury.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsDumbbellTricepsExtension">
+        <item>Dumbbell Triceps Extension</item>
+        <item>An isolation exercise for the triceps performed with dumbbells.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell with both hands and raise it overhead.</item>
+        <item>2. Lower the dumbbell behind your head by bending your elbows.</item>
+        <item>3. Extend your arms back to the starting position.</item>
+        <item>4. Repeat for the desired reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows close to your head.</item>
+        <item>2. Use a controlled motion to avoid strain.</item>
+        <item>3. Choose an appropriate weight to maintain proper form.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsDiamondPushup">
+        <item>Diamond Push-up</item>
+        <item>A bodyweight exercise that targets the triceps and chest.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Assume a push-up position with your hands forming a diamond shape under your chest.</item>
+        <item>2. Lower your body until your chest nearly touches your hands.</item>
+        <item>3. Push yourself back up to the starting position.</item>
+        <item>4. Repeat for the desired reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows close to your body.</item>
+        <item>2. Engage your core for stability.</item>
+        <item>3. Perform the movement slowly for maximum muscle activation.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsTricepsExtensionWithResistanceBands">
+        <item>Triceps Extension with Resistance Bands</item>
+        <item>An effective exercise for building triceps strength using resistance bands.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Anchor a resistance band at a high position.</item>
+        <item>2. Hold the band with both hands and position your elbows close to your head.</item>
+        <item>3. Extend your arms straight to fully contract the triceps.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain controlled movement to prevent excessive momentum.</item>
+        <item>2. Keep your elbows stationary to isolate the triceps.</item>
+        <item>3. Adjust the band\'s resistance based on your strength level.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsAlternatingLyingDumbbellTricepsExtension">
+        <item>Alternating Lying Dumbbell Triceps Extension</item>
+        <item>An isolation exercise that targets the triceps while lying on a bench.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on a flat bench, holding a dumbbell in each hand.</item>
+        <item>2. Extend both arms straight up.</item>
+        <item>3. Lower one dumbbell towards your head by bending your elbow.</item>
+        <item>4. Return to the starting position and repeat with the other arm.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows stationary throughout the movement.</item>
+        <item>2. Use a controlled motion to avoid strain.</item>
+        <item>3. Avoid excessive arching of your back.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsBarbellReverseGripSkullcrusher">
+        <item>Barbell Reverse Grip Skullcrusher</item>
+        <item>A variation of the skull crusher exercise that uses a reverse grip for increased triceps activation.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on a bench, holding a barbell with a reverse (underhand) grip.</item>
+        <item>2. Extend your arms straight above your head.</item>
+        <item>3. Lower the barbell towards your forehead by bending your elbows.</item>
+        <item>4. Extend your arms back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows in a fixed position.</item>
+        <item>2. Use a controlled movement to prevent injury.</item>
+        <item>3. Choose an appropriate weight to maintain proper form.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsBarbellLyingBackOfTheHeadTricepExtension">
+        <item>Barbell Lying Back of the Head Tricep Extension</item>
+        <item>A barbell exercise that isolates the triceps by lowering the weight behind the head.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on a flat bench, holding a barbell with an overhand grip.</item>
+        <item>2. Extend your arms straight above your chest.</item>
+        <item>3. Lower the barbell behind your head by bending your elbows.</item>
+        <item>4. Extend your arms back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows stationary throughout the movement.</item>
+        <item>2. Avoid using excessive weight to prevent injury.</item>
+        <item>3. Maintain a slow and controlled motion.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsEZBarLyingCloseGripTricepsExtensionBehindHead">
+        <item>EZ Bar Lying Close Grip Triceps Extension Behind Head</item>
+        <item>A triceps exercise performed with an EZ bar for reduced wrist strain.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on a bench and hold an EZ bar with a close grip.</item>
+        <item>2. Extend your arms straight above your chest.</item>
+        <item>3. Lower the bar behind your head by bending your elbows.</item>
+        <item>4. Extend your arms back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows close to your head.</item>
+        <item>2. Use a controlled motion to prevent strain.</item>
+        <item>3. Avoid arching your back excessively.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsKneelingCableTricepsExtension2">
+        <item>Kneeling Cable Triceps Extension</item>
+        <item>A cable machine exercise that isolates the triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a rope or bar to the high pulley of a cable machine.</item>
+        <item>2. Kneel on the floor and hold the attachment with both hands.</item>
+        <item>3. Extend your arms forward while keeping your elbows stationary.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged for stability.</item>
+        <item>2. Avoid using momentum to complete the movement.</item>
+        <item>3. Use a full range of motion for maximum triceps activation.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsCloseGripReverseBenchPress">
+        <item>Close-Grip Reverse Bench Press</item>
+        <item>A bench press variation that emphasizes the triceps and upper chest by using a reverse grip.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on a bench and grip the barbell with a close, underhand grip.</item>
+        <item>2. Lower the barbell slowly to your lower chest.</item>
+        <item>3. Press the barbell back up to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows close to your torso.</item>
+        <item>2. Use a controlled motion to avoid wrist strain.</item>
+        <item>3. Maintain a firm grip to prevent instability.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsOneArmHighPulleyOverheadTricepExtension">
+        <item>One Arm High Pulley Overhead Tricep Extension</item>
+        <item>A cable machine exercise that isolates one arm at a time for triceps activation.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a single handle to the high pulley of a cable machine.</item>
+        <item>2. Stand with your back to the machine and grasp the handle with one hand.</item>
+        <item>3. Extend your arm overhead, keeping your elbow stationary.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged for stability.</item>
+        <item>2. Avoid using momentum to complete the movement.</item>
+        <item>3. Use a full range of motion for maximum triceps engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsCableCrossoverTricepsExtension">
+        <item>Cable Crossover Triceps Extension</item>
+        <item>A triceps isolation exercise using cables in a crossover position.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach handles to the high pulleys of a cable crossover machine.</item>
+        <item>2. Stand in the center, grasping each handle with the opposite hand.</item>
+        <item>3. Extend your arms downward, keeping your elbows fixed.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain an upright posture.</item>
+        <item>2. Keep your elbows close to your body.</item>
+        <item>3. Avoid excessive swinging of the arms.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsSideOneArmReversePushdown">
+        <item>Side One Arm Reverse Pushdown</item>
+        <item>A unilateral triceps pushdown variation with a reverse grip for focused engagement.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a single handle to a high pulley.</item>
+        <item>2. Stand sideways to the cable machine and grasp the handle with an underhand grip.</item>
+        <item>3. Extend your arm downward while keeping your elbow stationary.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use a light weight to maintain control.</item>
+        <item>2. Keep your wrist straight throughout the movement.</item>
+        <item>3. Focus on squeezing the triceps at the bottom of the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsBodyweightSkullCrushers">
+        <item>Bodyweight Skull Crushers</item>
+        <item>A bodyweight triceps exercise that mimics the skull crusher movement without weights.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place your hands on a stable elevated surface, such as parallel bars or a bench.</item>
+        <item>2. Lean forward and lower your forehead towards your hands by bending your elbows.</item>
+        <item>3. Push back up to the starting position.</item>
+        <item>4. Keep your body in a straight line throughout the movement.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged for stability.</item>
+        <item>2. Avoid flaring your elbows out.</item>
+        <item>3. Perform the movement slowly to maximize muscle engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsVBarPushdown">
+        <item>V-Bar Pushdown</item>
+        <item>A cable exercise that targets the triceps using a V-bar attachment for a strong grip and controlled movement.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a V-bar to the high pulley of a cable machine.</item>
+        <item>2. Stand upright and grasp the bar with an overhand grip.</item>
+        <item>3. Push the bar down until your arms are fully extended.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows close to your body.</item>
+        <item>2. Avoid using momentum—control the movement.</item>
+        <item>3. Engage your core for stability.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsCableRopeLyingTricepExtension">
+        <item>Cable Rope Lying Tricep Extension</item>
+        <item>A cable variation of the skull crusher that provides continuous tension on the triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a rope to the low pulley of a cable machine.</item>
+        <item>2. Lie on a bench and grasp the rope with both hands.</item>
+        <item>3. Extend your arms fully while keeping your elbows stationary.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain control throughout the movement.</item>
+        <item>2. Keep your elbows locked in place.</item>
+        <item>3. Avoid arching your back.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsCableLyingTricepsExtension">
+        <item>Cable Lying Triceps Extension</item>
+        <item>A cable-based alternative to traditional triceps extensions, offering controlled resistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a straight or EZ bar to a low pulley.</item>
+        <item>2. Lie on a bench and grasp the bar with both hands.</item>
+        <item>3. Lower the bar towards your forehead while keeping your elbows fixed.</item>
+        <item>4. Extend your arms back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements slow and controlled.</item>
+        <item>2. Avoid excessive weight to prevent strain.</item>
+        <item>3. Engage your core for stability.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsStraddlePlanche">
+        <item>Straddle Planche</item>
+        <item>An advanced bodyweight exercise that heavily engages the triceps, shoulders, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place your hands on the ground, shoulder-width apart.</item>
+        <item>2. Lean forward and lift your legs off the ground, keeping them straddled.</item>
+        <item>3. Balance on your hands, maintaining a straight-arm position.</item>
+        <item>4. Hold for as long as possible before lowering back down.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core to maintain balance.</item>
+        <item>2. Keep your elbows locked.</item>
+        <item>3. Start with progressions if needed.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsCloseGripKneePushUp">
+        <item>Close-Grip Knee Push-Up</item>
+        <item>A beginner-friendly push-up variation that targets the triceps and chest.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Get into a modified push-up position with your knees on the ground.</item>
+        <item>2. Place your hands close together under your chest.</item>
+        <item>3. Lower your body until your chest nearly touches the floor.</item>
+        <item>4. Push back up to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows close to your torso.</item>
+        <item>2. Maintain a straight line from your knees to your shoulders.</item>
+        <item>3. Control the descent and push explosively upward.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsSupineMedicineBallChestThrow">
+        <item>Supine Medicine Ball Chest Throw</item>
+        <item>An explosive exercise that strengthens the chest and triceps while improving power.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with a medicine ball held at chest level.</item>
+        <item>2. Extend your arms forcefully, throwing the ball straight up.</item>
+        <item>3. Catch the ball on the way down and immediately repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use a medicine ball of appropriate weight to maintain control.</item>
+        <item>2. Engage your core for stability.</item>
+        <item>3. Perform in a safe area to avoid injury.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsReverseDips">
+        <item>Reverse Dips</item>
+        <item>A triceps and shoulder exercise performed using parallel bars or a bench.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Position yourself between parallel bars or place hands on a bench behind you.</item>
+        <item>2. Lower your body by bending your elbows until your arms are at 90 degrees.</item>
+        <item>3. Push yourself back up to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back close to the bench if using one.</item>
+        <item>2. Engage your triceps and avoid excessive swinging.</item>
+        <item>3. Use slow, controlled movements.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsPlanchePushUp">
+        <item>Planche Push-Up</item>
+        <item>An advanced bodyweight exercise that heavily engages the triceps, shoulders, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Assume a push-up position with hands placed below your shoulders.</item>
+        <item>2. Lean forward, shifting your body weight onto your hands.</item>
+        <item>3. Lower your chest towards the ground while keeping your legs off the floor.</item>
+        <item>4. Push back up while maintaining balance.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to prevent loss of balance.</item>
+        <item>2. Start with progressions if needed.</item>
+        <item>3. Avoid locking your elbows to prevent strain.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsArcherPushUp">
+        <item>Archer Push-Up</item>
+        <item>A unilateral push-up variation that enhances strength and control in the triceps and chest.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Assume a standard push-up position with hands placed wider than shoulder-width apart.</item>
+        <item>2. Lower your chest towards one hand while keeping the other arm extended.</item>
+        <item>3. Push back up and repeat on the opposite side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight and body aligned.</item>
+        <item>2. Move in a controlled manner to avoid injury.</item>
+        <item>3. Gradually increase the range of motion as you progress.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsRingDips">
+        <item>Ring Dips</item>
+        <item>An advanced triceps and shoulder exercise performed using gymnastic rings.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Grip the rings and lift yourself to a support position.</item>
+        <item>2. Lower your body by bending your elbows until your shoulders are below your elbows.</item>
+        <item>3. Push yourself back up to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core to maintain stability.</item>
+        <item>2. Avoid excessive swinging.</item>
+        <item>3. Use slow and controlled movements to prevent injury.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsSingleArmRaisePushUp">
+        <item>Single Arm Raise Push-up</item>
+        <item>An advanced push-up variation that challenges core stability and shoulder strength by adding an arm raise.</item>
+        <item>This exercise develops anti-rotation core strength while increasing pushing power.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin in standard push-up position</item>
+        <item>2. Lower body with control</item>
+        <item>3. As you push up, lift one arm straight forward</item>
+        <item>4. Hold briefly then return arm and repeat</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep hips parallel to ground</item>
+        <item>2. Engage entire core to prevent rotation</item>
+        <item>3. Start with short holds (1-2 seconds)</item>
+        <item>4. Alternate arms for balanced development</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsSuspendedPushUp">
+        <item>Suspended Push-Up</item>
+        <item>A challenging push-up variation using suspension trainers to increase instability and core engagement.</item>
+        <item>The unstable surface forces greater muscle recruitment throughout the kinetic chain.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Adjust straps to mid-length and grip handles</item>
+        <item>2. Assume push-up position with feet on ground</item>
+        <item>3. Lower chest between hands with control</item>
+        <item>4. Push back up to starting position</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep body in straight line throughout</item>
+        <item>2. Start with feet wide for stability</item>
+        <item>3. Progress to narrower stance as you improve</item>
+        <item>4. Focus on slow, controlled movements</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsCloseGripDumbbellPushUp">
+        <item>Close-grip Dumbbell Push-Up</item>
+        <item>A triceps-focused push-up variation performed with dumbbells to increase range of motion.</item>
+        <item>The neutral grip reduces wrist strain while emphasizing triceps development.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place dumbbells close together in push-up position</item>
+        <item>2. Keep elbows tucked close to body</item>
+        <item>3. Lower chest between dumbbells</item>
+        <item>4. Press back up to starting position</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain straight body alignment</item>
+        <item>2. Squeeze dumbbells together for stability</item>
+        <item>3. Focus on full range of motion</item>
+        <item>4. Can be progressed to renegade rows</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsMedicineBallPushUp">
+        <item>Medicine Ball Push-Up</item>
+        <item>An unstable push-up variation that increases core activation and shoulder stability.</item>
+        <item>The medicine ball creates an unstable surface that challenges proprioception.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place one hand on medicine ball, other on floor</item>
+        <item>2. Maintain straight body line</item>
+        <item>3. Lower chest with control</item>
+        <item>4. Push back up and switch hands</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Start with larger ball for stability</item>
+        <item>2. Progress to smaller balls as you improve</item>
+        <item>3. Keep shoulders level throughout</item>
+        <item>4. Engage core to prevent sagging</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsSingleArmPushUpOnMedicineBall">
+        <item>Single Arm Push-Up on Medicine Ball</item>
+        <item>An advanced unilateral pushing exercise combining instability with single-arm strength.</item>
+        <item>Develops exceptional core stability and shoulder strength simultaneously.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place one hand on medicine ball in push-up position</item>
+        <item>2. Place other hand behind back</item>
+        <item>3. Lower with control maintaining straight body</item>
+        <item>4. Push back up and switch sides</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Master regular single-arm push-ups first</item>
+        <item>2. Use larger ball initially for stability</item>
+        <item>3. Keep feet wide for balance</item>
+        <item>4. Focus on quality over quantity</item>
+    </string-array>
+
+
+    <string-array name="descriptionTricepsRearDriveWithResistanceBand">
+        <item>Rear Drive With Resistance Band</item>
+        <item>An exercise that targets the triceps and posterior shoulder muscles using a resistance band.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a resistance band to a fixed point at chest height.</item>
+        <item>2. Stand facing away from the anchor point and hold the band with both hands.</item>
+        <item>3. Extend your arms backward, keeping them straight.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a slight forward lean to maximize tension.</item>
+        <item>2. Keep your core engaged for stability.</item>
+        <item>3. Perform slow, controlled movements.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsStandingTricepsExtensionGymstick">
+        <item>Standing Triceps Extension | Gymstick</item>
+        <item>A resistance band exercise that focuses on the triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Step on the Gymstick band with both feet and hold the stick behind your head.</item>
+        <item>2. Extend your arms overhead, straightening them fully.</item>
+        <item>3. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows close to your head.</item>
+        <item>2. Avoid arching your lower back.</item>
+        <item>3. Control the movement to prevent jerking.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsBandedOverheadTricepsExtension">
+        <item>Banded Overhead Triceps Extension</item>
+        <item>A triceps-focused exercise performed with a resistance band.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Secure the band under your feet and hold the other end behind your head.</item>
+        <item>2. Extend your arms fully overhead.</item>
+        <item>3. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows in a fixed position.</item>
+        <item>2. Engage your core to prevent leaning backward.</item>
+        <item>3. Perform slow, controlled reps.</item>
+    </string-array>
+
+    <string-array name="descriptionTricepsOverheadTricepsExtensionGymstick">
+        <item>Overhead Triceps Extension | Gymstick</item>
+        <item>A triceps isolation exercise using the Gymstick.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand on the Gymstick band and hold the stick behind your head.</item>
+        <item>2. Extend your arms overhead until they are fully straight.</item>
+        <item>3. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows close to your head.</item>
+        <item>2. Avoid using momentum to lift the weight.</item>
+        <item>3. Maintain a steady and controlled movement.</item>
+    </string-array>
+
+</resources>

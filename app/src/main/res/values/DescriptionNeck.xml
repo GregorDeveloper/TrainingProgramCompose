@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="descriptionNeckWeightedLateralNeckFlexion">
+        <item>Weighted Lateral Neck Flexion</item>
+        <item>A strengthening exercise targeting the lateral neck muscles, ideal for improving neck stability and mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Secure a neck harness with a weight attached to the side of your head.</item>
+        <item>2. Sit or stand upright, keeping your back straight and shoulders relaxed.</item>
+        <item>3. Slowly tilt your head towards the side with the weight, stretching the opposite side of your neck.</item>
+        <item>4. Return your head to the starting position and repeat for the desired repetitions before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Perform the movement in a controlled manner to avoid straining the neck muscles.</item>
+        <item>2. Keep your movements slow and focused to maintain tension on the target muscles.</item>
+    </string-array>
+
+    <string-array name="descriptionNeckWeightedLyingNeckExtension">
+        <item>Weighted Lying Neck Extension</item>
+        <item>A neck-strengthening exercise that targets the posterior neck muscles to improve neck stability and posture.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down on a flat bench with your head hanging off the edge.</item>
+        <item>2. Place a lightweight plate on the back of your head, holding it in place with your hands.</item>
+        <item>3. Slowly lift your head upwards by extending your neck, keeping the motion controlled.</item>
+        <item>4. Lower your head back to the starting position and repeat for the desired repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Start with a light weight to avoid straining your neck.</item>
+        <item>2. Keep your movements controlled to maintain tension on the posterior neck muscles.</item>
+    </string-array>
+
+    <string-array name="descriptionNeckWeightedLyingNeckFlexion">
+        <item>Weighted Lying Neck Flexion</item>
+        <item>This exercise targets the anterior neck muscles, improving neck strength and reducing injury risk.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back on a flat bench with your head hanging off the edge.</item>
+        <item>2. Place a lightweight plate on your forehead, holding it securely with your hands.</item>
+        <item>3. Slowly lower your head backwards, stretching the neck muscles.</item>
+        <item>4. Flex your neck to lift your head back to the starting position and repeat for the desired repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use a light weight and progress gradually as your neck strength improves.</item>
+        <item>2. Avoid jerky movements to reduce strain on the neck.</item>
+    </string-array>
+
+    <string-array name="descriptionNeckGittlesonShrug">
+        <item>Gittleson Shrug</item>
+        <item>A unique exercise targeting the trapezius and upper shoulder muscles for improved strength and posture.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright with a dumbbell in each hand, palms facing your body.</item>
+        <item>2. Shrug your shoulders upwards as high as possible, focusing on engaging the trapezius.</item>
+        <item>3. Hold the top position briefly, then lower your shoulders back down and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Perform slow and controlled movements to maximize engagement of the trapezius muscles.</item>
+        <item>2. Avoid rotating your shoulders during the exercise to maintain proper form.</item>
+    </string-array>
+
+    <string-array name="descriptionNeckDiagonalNeckStretch">
+        <item>Diagonal Neck Stretch</item>
+        <item>A stretching exercise to target the neck and upper shoulder muscles, relieving tension and improving flexibility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit or stand upright with your shoulders relaxed.</item>
+        <item>2. Tilt your head diagonally forward, bringing your ear toward the opposite shoulder.</item>
+        <item>3. Gently place your hand on the side of your head to enhance the stretch.</item>
+        <item>4. Hold the stretch for 15-30 seconds, then switch sides and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using excessive force to pull your head to prevent strain.</item>
+        <item>2. Keep your shoulders relaxed throughout the stretch.</item>
+    </string-array>
+
+    <string-array name="descriptionNeckNeckRotationStretch">
+        <item>Neck Rotation Stretch</item>
+        <item>A simple and effective stretch to improve neck mobility and alleviate tension in the cervical spine.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit or stand upright with your shoulders relaxed and back straight.</item>
+        <item>2. Slowly turn your head to one side, looking over your shoulder.</item>
+        <item>3. Hold the stretch for 15-30 seconds, then return to the center and switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Move your head slowly to avoid discomfort or strain.</item>
+        <item>2. Keep your chin level and shoulders relaxed for proper alignment.</item>
+    </string-array>
+
+    <string-array name="descriptionNeckNeckFlexionStretch">
+        <item>Neck Flexion Stretch</item>
+        <item>A stretching exercise designed to release tension in the back of the neck and upper shoulders, promoting flexibility and relaxation.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit or stand upright with your shoulders relaxed.</item>
+        <item>2. Slowly tilt your head forward, bringing your chin toward your chest.</item>
+        <item>3. Hold the stretch for 15-30 seconds, feeling a gentle pull along the back of your neck.</item>
+        <item>4. Return to the starting position and repeat as needed.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid forcing your head down to prevent overstretching.</item>
+        <item>2. Keep your shoulders relaxed and your movements controlled.</item>
+    </string-array>
+
+    <string-array name="descriptionNeckNeckExtensionStretch">
+        <item>Neck Extension Stretch</item>
+        <item>This stretch targets the front of the neck, promoting better flexibility and releasing tension in the cervical spine.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit or stand upright with your shoulders relaxed.</item>
+        <item>2. Slowly tilt your head backward, looking up toward the ceiling.</item>
+        <item>3. Hold the stretch for 15-30 seconds, feeling a gentle stretch along the front of your neck.</item>
+        <item>4. Return to the starting position and repeat as needed.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid compressing your cervical spine by overextending your neck.</item>
+        <item>2. Keep the motion slow and controlled to prevent discomfort.</item>
+    </string-array>
+
+    <string-array name="descriptionNeckSideNeckStretch">
+        <item>Side Neck Stretch</item>
+        <item>A gentle stretch to target the sides of the neck, relieving tension and improving range of motion.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit or stand upright with your shoulders relaxed.</item>
+        <item>2. Tilt your head to one side, bringing your ear toward your shoulder.</item>
+        <item>3. Hold the stretch for 15-30 seconds, then switch sides.</item>
+        <item>4. Repeat as needed on both sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid lifting your shoulder to meet your ear; focus on tilting the head only.</item>
+        <item>2. Perform the stretch slowly to avoid straining the neck muscles.</item>
+    </string-array>
+
+    <string-array name="descriptionNeckSidePushNeckStretch">
+        <item>Side Push Neck Stretch</item>
+        <item>A stretch that enhances flexibility and releases tension in the sides of the neck by using gentle resistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit or stand upright with your shoulders relaxed.</item>
+        <item>2. Place one hand on the side of your head and gently push your head toward the opposite shoulder.</item>
+        <item>3. Hold the stretch for 15-30 seconds, then switch sides.</item>
+        <item>4. Repeat as needed on both sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Apply gentle pressure to avoid overstretching or discomfort.</item>
+        <item>2. Keep your shoulders relaxed throughout the stretch.</item>
+    </string-array>
+
+    <string-array name="descriptionNeckFrontAndBackNeckStretch">
+        <item>Front and Back Neck Stretch</item>
+        <item>An effective stretch to improve flexibility and relieve stiffness in both the front and back of the neck.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit or stand upright with your shoulders relaxed.</item>
+        <item>2. Tilt your head forward, bringing your chin toward your chest, and hold for 15-30 seconds.</item>
+        <item>3. Tilt your head backward, looking up toward the ceiling, and hold for 15-30 seconds.</item>
+        <item>4. Repeat as needed to enhance neck mobility.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Move slowly and avoid abrupt motions to prevent strain.</item>
+        <item>2. Keep your shoulders relaxed and your movements controlled.</item>
+    </string-array>
+
+    <string-array name="descriptionChinTuck">
+        <item>Chin Tuck</item>
+        <item>The Chin Tuck is a fundamental exercise for improving neck posture and alignment.</item>
+        <item>This exercise helps counteract forward head posture and strengthens deep neck flexors.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit or stand with good posture</item>
+        <item>2. Gently retract chin straight back (not down)</item>
+        <item>3. Create "double chin" position without tilting head</item>
+        <item>4. Hold for 5 seconds then release</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep eyes looking forward - don\'t look up or down</item>
+        <item>2. Use fingers to guide movement initially if needed</item>
+        <item>3. Perform multiple times throughout day</item>
+        <item>4. Combine with deep breathing for relaxation</item>
+    </string-array>
+
+    <string-array name="descriptionProneCervicalExtension">
+        <item>Prone Cervical Extension</item>
+        <item>This exercise strengthens the posterior neck muscles in a controlled manner.</item>
+        <item>It helps improve neck endurance and postural support.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down on bench with head over edge</item>
+        <item>2. Start with head in neutral position</item>
+        <item>3. Slowly lift head to align with torso</item>
+        <item>4. Lower with control and repeat</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep movement small and controlled</item>
+        <item>2. Avoid hyperextending or jerking motions</item>
+        <item>3. Start with bodyweight before adding resistance</item>
+        <item>4. Combine with chin tucks for balanced training</item>
+    </string-array>
+
+    <string-array name="descriptionKneelingNeckStretch">
+        <item>Kneeling Neck Stretch</item>
+        <item>This stretch releases tension in the neck and upper trapezius muscles.</item>
+        <item>It improves mobility and reduces stiffness in the cervical spine.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Kneel and place one hand on bench for support</item>
+        <item>2. Let other arm hang while tilting head opposite side</item>
+        <item>3. Gently apply overpressure with free hand</item>
+        <item>4. Hold 20-30 seconds then switch sides</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain gentle stretch - no pain</item>
+        <item>2. Keep shoulders relaxed down</item>
+        <item>3. Breathe deeply during stretch</item>
+        <item>4. Combine with shoulder rolls for full release</item>
+    </string-array>
+
+    <string-array name="descriptionWeightedNeckHarnessExtension">
+        <item>Weighted Neck Harness Extension</item>
+        <item>This exercise builds strength in the posterior neck muscles using specialized equipment.</item>
+        <item>It\'s commonly used by athletes needing neck stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach appropriate weight to neck harness</item>
+        <item>2. Lean forward at hips with hands on knees</item>
+        <item>3. Slowly extend neck against resistance</item>
+        <item>4. Return to neutral with control</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Start with very light weight (2-5 lbs)</item>
+        <item>2. Maintain smooth, controlled motion</item>
+        <item>3. Keep movements within comfortable range</item>
+        <item>4. Balance with flexion exercises</item>
+    </string-array>
+
+    <string-array name="descriptionLyingWeightedNeckFlexion">
+        <item>Lying Weighted Neck Flexion</item>
+        <item>This exercise strengthens the anterior neck muscles in a supine position.</item>
+        <item>It helps create balanced neck strength when paired with extension work.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on bench with head over edge</item>
+        <item>2. Place light weight plate on forehead (use towel)</item>
+        <item>3. Slowly tuck chin to chest against resistance</item>
+        <item>4. Return to start position with control</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use extremely light weights (1-3 lbs max)</item>
+        <item>2. Focus on quality of movement over load</item>
+        <item>3. Keep movements small and precise</item>
+        <item>4. Combine with isometric holds for variation</item>
+    </string-array>
+
+    <string-array name="descriptionNeckLyingWeightedNeckExtension">
+        <item>Lying Weighted Neck Extension</item>
+        <item>An exercise to strengthen the posterior neck muscles, improving posture and neck stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down on a flat surface with your head extending off the edge and a small weight plate resting on the back of your head.</item>
+        <item>2. Slowly lift your head upward, extending your neck against the resistance of the weight.</item>
+        <item>3. Hold for a moment at the top, then slowly lower your head back to the starting position.</item>
+        <item>4. Repeat for 8-12 repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use a light weight initially to avoid overloading the neck muscles.</item>
+        <item>2. Keep your movements slow and controlled for safety.</item>
+    </string-array>
+
+    <string-array name="descriptionNeckLeverNeckRightSideFlexion">
+        <item>Lever Neck Right Side Flexion (plate loaded)</item>
+        <item>A targeted exercise to strengthen the lateral neck muscles on the right side, enhancing balance and neck stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the lever machine and adjust it to align with the side of your head.</item>
+        <item>2. Slowly press your head to the side, lifting the weight against resistance.</item>
+        <item>3. Return to the starting position under control.</item>
+        <item>4. Repeat for 8-12 repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Adjust the weight to a manageable level for precise movement.</item>
+        <item>2. Keep the motion smooth and avoid jerking your head.</item>
+    </string-array>
+
+    <string-array name="descriptionNeckLeverNeckExtension">
+        <item>Lever Neck Extension (plate loaded)</item>
+        <item>A focused exercise for the posterior neck muscles using a plate-loaded lever machine.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the machine with the pad against the back of your head.</item>
+        <item>2. Slowly extend your neck backward, lifting the weight against resistance.</item>
+        <item>3. Pause briefly, then return to the starting position.</item>
+        <item>4. Repeat for 8-12 repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Ensure the machine is properly adjusted for your height.</item>
+        <item>2. Move slowly and steadily to engage the correct muscles.</item>
+    </string-array>
+
+    <string-array name="descriptionNeckCableSeatedNeckFlexion">
+        <item>Cable Seated Neck Flexion with Head Harness</item>
+        <item>A strengthening exercise for the anterior neck muscles using a cable machine and head harness.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach the head harness to the cable machine at a low setting and sit facing the machine.</item>
+        <item>2. Secure the harness around your head and lean slightly forward.</item>
+        <item>3. Slowly flex your neck, bringing your chin toward your chest against the resistance.</item>
+        <item>4. Return to the starting position under control.</item>
+        <item>5. Repeat for 8-12 repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid using momentum.</item>
+        <item>2. Adjust the cable weight to a comfortable level.</item>
+    </string-array>
+
+    <string-array name="descriptionNeckCableSeatedNeckExtension">
+        <item>Cable Seated Neck Extension with Head Harness</item>
+        <item>An effective exercise to target the posterior neck muscles using a cable machine and head harness.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach the head harness to the cable machine at a low setting and sit with your back to the machine.</item>
+        <item>2. Secure the harness around your head and lean slightly forward.</item>
+        <item>3. Slowly extend your neck backward, lifting the weight against resistance.</item>
+        <item>4. Return to the starting position under control.</item>
+        <item>5. Repeat for 8-12 repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid sudden or jerky movements; keep it slow and controlled.</item>
+        <item>2. Ensure the harness fits securely for comfort and safety.</item>
+    </string-array>
+
+    <string-array name="descriptionNeckSphinxStretch">
+        <item>Sphinx Stretch</item>
+        <item>A gentle stretch to target the lower back and improve spinal mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down on the floor with your legs extended and feet hip-width apart.</item>
+        <item>2. Place your elbows under your shoulders, forearms parallel to each other.</item>
+        <item>3. Press your forearms into the ground and gently lift your chest, arching your back slightly.</item>
+        <item>4. Hold the stretch for 20-30 seconds, breathing deeply.</item>
+        <item>5. Lower back down to the starting position and repeat as needed.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid straining your lower back; keep the lift gentle and controlled.</item>
+        <item>2. Keep your shoulders relaxed and away from your ears.</item>
+    </string-array>
+
+    <string-array name="descriptionNeckFloorHyperextension">
+        <item>Floor Hyperextension</item>
+        <item>An exercise to strengthen the lower back, glutes, and hamstrings while improving posture.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down on the floor with your arms extended forward and legs straight.</item>
+        <item>2. Lift your chest, arms, and legs off the ground simultaneously, squeezing your lower back and glutes.</item>
+        <item>3. Hold the position briefly, then lower back down to the starting position.</item>
+        <item>4. Repeat for 10-15 repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid jerky movements; lift and lower your body smoothly.</item>
+        <item>2. Keep your neck in a neutral position to prevent strain.</item>
+    </string-array>
+
+    <string-array name="descriptionNeckBhujangasanaCobraAbdominalStretch">
+        <item>Bhujangasana | Cobra Abdominal Stretch</item>
+        <item>A classic yoga pose to stretch the abdominal muscles and improve spinal flexibility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down with your hands placed under your shoulders, elbows close to your body.</item>
+        <item>2. Press your palms into the floor and slowly lift your chest, extending your back.</item>
+        <item>3. Keep your elbows slightly bent and shoulders relaxed.</item>
+        <item>4. Hold the position for 20-30 seconds, then return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid overextending your lower back; focus on a comfortable stretch.</item>
+        <item>2. Engage your glutes and thighs lightly for support.</item>
+    </string-array>
+
+    <string-array name="descriptionNeckFishPose">
+        <item>Fish Pose</item>
+        <item>A yoga pose that stretches the neck, chest, and shoulders while promoting relaxation.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with your legs extended and arms by your sides.</item>
+        <item>2. Lift your chest upward, arching your back and allowing the top of your head to lightly rest on the ground.</item>
+        <item>3. Keep your legs and arms relaxed, maintaining the arch for 20-30 seconds.</item>
+        <item>4. Slowly lower your back and head to return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid putting too much weight on your head; focus on chest elevation.</item>
+        <item>2. Use a folded blanket under your head for added support if needed.</item>
+    </string-array>
+
+    <string-array name="descriptionNeckSuperman">
+        <item>Superman</item>
+        <item>An exercise to strengthen the lower back, glutes, and shoulders.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down on the floor with your arms extended forward and legs straight.</item>
+        <item>2. Simultaneously lift your arms, chest, and legs off the ground, engaging your lower back and glutes.</item>
+        <item>3. Hold the position for 2-3 seconds, then slowly lower back down.</item>
+        <item>4. Repeat for 10-15 repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid jerking movements; keep the lift and lower controlled.</item>
+        <item>2. Focus on squeezing your glutes and keeping your neck neutral.</item>
+    </string-array>
+
+</resources>

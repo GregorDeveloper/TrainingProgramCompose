@@ -1,0 +1,2501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="descriptionShouldersOneArmMedicineBallSlam">
+        <item>One Arm Medicine Ball Slam</item>
+        <item>A dynamic exercise that builds power, coordination, and upper body strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding a medicine ball in one hand.</item>
+        <item>2. Lift the ball overhead, fully extending your arm.</item>
+        <item>3. Using explosive power, slam the ball down onto the ground as hard as possible.</item>
+        <item>4. Catch the ball on the rebound or pick it up, and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core and avoid rounding your back during the slam.</item>
+        <item>2. Perform the movement with controlled aggression to maximize power.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersSeatedBarbellShoulderPress">
+        <item>Seated Barbell Shoulder Press</item>
+        <item>A compound exercise to target the shoulders, triceps, and upper chest.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a bench with back support, holding a barbell at shoulder height with an overhand grip.</item>
+        <item>2. Press the barbell overhead until your arms are fully extended.</item>
+        <item>3. Lower the barbell back to the starting position in a controlled manner.</item>
+        <item>4. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back pressed against the bench and avoid arching excessively.</item>
+        <item>2. Lower the barbell just below chin level for a full range of motion.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersMedicineBallOverheadThrow">
+        <item>Medicine Ball Overhead Throw</item>
+        <item>An explosive exercise to develop upper body strength and power.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding a medicine ball with both hands.</item>
+        <item>2. Lift the ball overhead, extending your arms fully.</item>
+        <item>3. Using explosive power, throw the ball forward or against a wall as hard as possible.</item>
+        <item>4. Retrieve the ball and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use your entire body to generate force, including your legs and core.</item>
+        <item>2. Maintain a neutral spine and avoid overextending your lower back.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellPushPress">
+        <item>Dumbbell Push Press</item>
+        <item>A compound movement that targets the shoulders, triceps, and legs, while developing explosive power.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding dumbbells at shoulder height with palms facing forward.</item>
+        <item>2. Slightly bend your knees and use your legs to help press the dumbbells overhead.</item>
+        <item>3. Fully extend your arms overhead, then lower the dumbbells back to the starting position.</item>
+        <item>4. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid locking your elbows at the top of the press.</item>
+        <item>2. Keep your movements controlled and avoid excessive swinging of the weights.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersStandingDumbbellShoulderPress">
+        <item>Standing Dumbbell Shoulder Press</item>
+        <item>A basic yet effective exercise to strengthen the shoulders, triceps, and upper chest.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding dumbbells at shoulder height with palms facing forward.</item>
+        <item>2. Press the dumbbells overhead until your arms are fully extended.</item>
+        <item>3. Lower the dumbbells back to shoulder height in a controlled manner.</item>
+        <item>4. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to maintain balance and prevent arching your lower back.</item>
+        <item>2. Move the dumbbells in a smooth and controlled motion to maximize effectiveness.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersArmScissors">
+        <item>Arm Scissors</item>
+        <item>A dynamic stretch to improve shoulder mobility and warm up the upper body.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, arms extended straight out to the sides at shoulder height.</item>
+        <item>2. Swing your arms in front of your body, crossing them like scissors.</item>
+        <item>3. Open your arms wide again, returning to the starting position.</item>
+        <item>4. Repeat the movement in a continuous and fluid motion.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your shoulders relaxed and avoid shrugging during the movement.</item>
+        <item>2. Perform the exercise at a moderate pace to avoid straining your muscles.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersSideArmRaises">
+        <item>Side Arm Raises</item>
+        <item>An isolation exercise to target the lateral deltoids for stronger and more defined shoulders.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand or sit with your feet shoulder-width apart, holding dumbbells in each hand by your sides.</item>
+        <item>2. Raise your arms out to the sides until they reach shoulder height.</item>
+        <item>3. Slowly lower the dumbbells back to the starting position.</item>
+        <item>4. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using momentum; focus on controlled movements.</item>
+        <item>2. Keep a slight bend in your elbows to reduce strain on your joints.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersArmCircles">
+        <item>Arm Circles</item>
+        <item>A simple exercise to warm up the shoulders, improve mobility, and increase blood flow.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, arms extended out to the sides at shoulder height.</item>
+        <item>2. Make small forward circles with your arms in a continuous motion.</item>
+        <item>3. After a set number of repetitions, reverse the direction of the circles.</item>
+        <item>4. Repeat as desired.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements controlled and consistent.</item>
+        <item>2. Avoid shrugging your shoulders during the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellLateralRaise">
+        <item>Dumbbell Lateral Raise</item>
+        <item>A key isolation exercise for building strong and defined lateral deltoids.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand or sit with a dumbbell in each hand, arms at your sides with palms facing inward.</item>
+        <item>2. Lift the dumbbells out to the sides until they reach shoulder height, keeping a slight bend in your elbows.</item>
+        <item>3. Lower the dumbbells back to the starting position in a controlled manner.</item>
+        <item>4. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid swinging the dumbbells or using momentum.</item>
+        <item>2. Focus on engaging your shoulder muscles throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellShoulderPress">
+        <item>Dumbbell Shoulder Press</item>
+        <item>A compound exercise to strengthen the shoulders, triceps, and upper chest.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit or stand with a dumbbell in each hand, holding them at shoulder height with palms facing forward.</item>
+        <item>2. Press the dumbbells upward until your arms are fully extended.</item>
+        <item>3. Lower the dumbbells back to the starting position in a controlled manner.</item>
+        <item>4. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to maintain stability.</item>
+        <item>2. Avoid locking your elbows at the top of the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersSmithMachineBehindNeckPress">
+        <item>Smith Machine Behind Neck Press</item>
+        <item>An exercise targeting the shoulders, specifically the deltoids, with added stability from the Smith machine.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a bench placed under the Smith machine, with the barbell positioned at shoulder height behind your neck.</item>
+        <item>2. Grip the bar slightly wider than shoulder-width, with palms facing forward.</item>
+        <item>3. Unlock the bar and slowly lower it behind your head to just above shoulder level.</item>
+        <item>4. Press the bar upward until your arms are fully extended.</item>
+        <item>5. Lower the bar back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid excessive arching.</item>
+        <item>2. Perform the movement in a controlled manner to avoid straining your shoulders.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersSmithMachineShoulderPress">
+        <item>Smith Machine Shoulder Press</item>
+        <item>A compound exercise for developing shoulder strength and size with support from the Smith machine.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a bench with a backrest positioned under the Smith machine, with the bar at shoulder height.</item>
+        <item>2. Grip the bar slightly wider than shoulder-width, palms facing forward.</item>
+        <item>3. Unlock the bar and press it upward until your arms are fully extended.</item>
+        <item>4. Slowly lower the bar back to the starting position at shoulder level.</item>
+        <item>5. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to maintain proper posture.</item>
+        <item>2. Avoid locking your elbows at the top of the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersCableLateralRaise">
+        <item>Cable Lateral Raise</item>
+        <item>An isolation exercise for the lateral deltoids, helping to build shoulder width and definition.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand next to a cable machine with the handle attachment set at the lowest position.</item>
+        <item>2. Grab the handle with the hand farthest from the machine, and stand with your feet shoulder-width apart.</item>
+        <item>3. Keeping a slight bend in your elbow, raise your arm laterally until it reaches shoulder height.</item>
+        <item>4. Lower the handle back to the starting position in a controlled motion.</item>
+        <item>5. Repeat for the desired number of repetitions, then switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using momentum or swinging your body.</item>
+        <item>2. Focus on engaging your deltoid muscles throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionShoulders45DegreeInclineRow">
+        <item>45 Degree Incline Row</item>
+        <item>A compound exercise targeting the rear deltoids, traps, and upper back muscles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set an adjustable bench to a 45-degree incline and lie chest-down on it.</item>
+        <item>2. Hold a dumbbell in each hand with your arms extended toward the ground.</item>
+        <item>3. Pull the dumbbells toward your chest, squeezing your shoulder blades together at the top of the movement.</item>
+        <item>4. Lower the dumbbells back to the starting position in a controlled manner.</item>
+        <item>5. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid letting your elbows flare out too much.</item>
+        <item>2. Focus on squeezing your shoulder blades together during each rep.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersLeverShoulderPress">
+        <item>Lever Shoulder Press</item>
+        <item>A machine-based exercise for building strength and size in the shoulders, especially the deltoids.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Adjust the seat height of the lever shoulder press machine so the handles are at shoulder level.</item>
+        <item>2. Sit down and grip the handles with palms facing forward.</item>
+        <item>3. Push the handles upward until your arms are fully extended.</item>
+        <item>4. Slowly lower the handles back to the starting position.</item>
+        <item>5. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back firmly pressed against the seat to avoid strain.</item>
+        <item>2. Perform the movement in a controlled manner to maximize effectiveness.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersStandingCloseGripMilitaryPress">
+        <item>Standing Close Grip Military Press</item>
+        <item>A shoulder exercise that emphasizes the anterior deltoids and triceps by using a narrow grip on the barbell.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright with your feet shoulder-width apart, holding a barbell with a close grip (hands slightly narrower than shoulder-width).</item>
+        <item>2. Bring the barbell to shoulder level, resting it on your upper chest.</item>
+        <item>3. Press the barbell upward until your arms are fully extended above your head.</item>
+        <item>4. Lower the barbell back to the starting position in a controlled manner.</item>
+        <item>5. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to avoid arching your back.</item>
+        <item>2. Ensure the barbell travels in a straight line for maximum efficiency.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBarbellMilitaryPress">
+        <item>Barbell Military Press (Overhead Press)</item>
+        <item>A classic compound movement for building shoulder strength and stability, targeting the deltoids, triceps, and upper chest.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright with a barbell held at shoulder level, palms facing forward and elbows slightly forward.</item>
+        <item>2. Press the barbell upward in a straight line until your arms are fully extended.</item>
+        <item>3. Lower the barbell back to the starting position at shoulder level.</item>
+        <item>4. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid leaning back; keep your core tight to maintain stability.</item>
+        <item>2. Use a grip slightly wider than shoulder-width for optimal engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellChestSupportedLateralRaises">
+        <item>Dumbbell Chest Supported Lateral Raises</item>
+        <item>An isolation exercise that targets the lateral deltoids while minimizing momentum.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Adjust a bench to a slight incline and lie chest-down on it.</item>
+        <item>2. Hold a dumbbell in each hand, allowing your arms to hang down naturally.</item>
+        <item>3. Lift the dumbbells outward to shoulder height, keeping a slight bend in your elbows.</item>
+        <item>4. Slowly lower the dumbbells back to the starting position.</item>
+        <item>5. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep the movement controlled to avoid using momentum.</item>
+        <item>2. Focus on squeezing your shoulder muscles at the top of the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbell6WayRaise">
+        <item>Dumbbell 6 Way Raise</item>
+        <item>An advanced shoulder exercise that targets all deltoid heads through a combination of movements.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright with a dumbbell in each hand at your sides.</item>
+        <item>2. Raise the dumbbells laterally to shoulder height.</item>
+        <item>3. Move the dumbbells forward in front of you, then lift them overhead.</item>
+        <item>4. Reverse the motion by lowering the dumbbells back to shoulder height in front of you, moving them laterally, and finally returning to the starting position.</item>
+        <item>5. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use light weights to maintain control and proper form.</item>
+        <item>2. Keep your movements slow and deliberate to maximize shoulder engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbell4WayLateralRaise">
+        <item>Dumbbell 4 Way Lateral Raise</item>
+        <item>A challenging variation of the lateral raise that engages all areas of the deltoids.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright with a dumbbell in each hand at your sides.</item>
+        <item>2. Perform a lateral raise, lifting the dumbbells to shoulder height.</item>
+        <item>3. Bring the dumbbells forward to meet in front of your chest.</item>
+        <item>4. Lower the dumbbells back to your sides and repeat.</item>
+        <item>5. Continue for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a slight bend in your elbows throughout the movement.</item>
+        <item>2. Avoid swinging the weights; focus on controlled motion.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersAlternatingDumbbellFrontRaise">
+        <item>Alternating Dumbbell Front Raise</item>
+        <item>A shoulder exercise that targets the anterior deltoids while improving shoulder stability and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright with a dumbbell in each hand, palms facing your thighs.</item>
+        <item>2. Lift one dumbbell in front of you to shoulder height, keeping your arm straight.</item>
+        <item>3. Lower the dumbbell back to the starting position while raising the other dumbbell.</item>
+        <item>4. Alternate arms for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using momentum; keep the movement controlled.</item>
+        <item>2. Do not lift the dumbbell above shoulder height to reduce strain on the shoulder joint.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersTwoArmCableFrontRaise">
+        <item>Two Arm Cable Front Raise</item>
+        <item>An isolation exercise that focuses on the anterior deltoids using cables for consistent tension.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach handles to the low pulleys of a cable machine and stand between them.</item>
+        <item>2. Hold the handles with palms facing down and arms straight in front of your thighs.</item>
+        <item>3. Raise both handles simultaneously to shoulder height.</item>
+        <item>4. Slowly lower the handles back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your arms straight but not locked at the elbows.</item>
+        <item>2. Engage your core to maintain stability and avoid swaying.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersTwoArmDumbbellFrontRaise">
+        <item>Two Arm Dumbbell Front Raise</item>
+        <item>A simple yet effective exercise for targeting the anterior deltoids.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright holding a dumbbell in each hand with your arms in front of your thighs, palms facing down.</item>
+        <item>2. Raise both dumbbells simultaneously to shoulder height.</item>
+        <item>3. Lower the dumbbells back to the starting position in a controlled manner.</item>
+        <item>4. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid leaning backward.</item>
+        <item>2. Use a weight that allows you to maintain proper form throughout the set.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellFrontRaise">
+        <item>Dumbbell Front Raise</item>
+        <item>A classic anterior deltoid exercise that also engages the upper chest and traps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright holding a dumbbell in each hand with your palms facing your thighs.</item>
+        <item>2. Lift both dumbbells in front of you to shoulder height, keeping your arms straight.</item>
+        <item>3. Slowly lower the dumbbells back to the starting position.</item>
+        <item>4. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain control throughout the movement to avoid swinging.</item>
+        <item>2. Stop at shoulder height to protect your shoulder joints.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersCableFrontRaise">
+        <item>Cable Front Raise</item>
+        <item>A variation of the front raise that uses a cable machine for continuous tension on the anterior deltoids.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a straight bar or handle to the low pulley of a cable machine.</item>
+        <item>2. Stand upright facing the machine and hold the bar with both hands, palms facing down.</item>
+        <item>3. Raise the bar in front of you to shoulder height.</item>
+        <item>4. Lower the bar back to the starting position in a controlled motion.</item>
+        <item>5. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to maintain a stable posture.</item>
+        <item>2. Use a moderate weight to avoid jerky movements.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersLeaningSingleArmDumbbellLateralRaise">
+        <item>Leaning Single Arm Dumbbell Lateral Raise</item>
+        <item>A shoulder isolation exercise that targets the lateral deltoids with an extended range of motion.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in one hand and use the other hand to grip a stable support at hip height.</item>
+        <item>2. Lean your body away from the support, allowing your arm holding the dumbbell to hang straight down.</item>
+        <item>3. Raise the dumbbell out to the side until your arm is parallel to the ground.</item>
+        <item>4. Lower the dumbbell back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using momentum; perform the movement slowly and under control.</item>
+        <item>2. Keep a slight bend in your elbow to reduce strain on the joint.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersSeatedBehindNeckPress">
+        <item>Seated Behind Neck Press</item>
+        <item>A shoulder pressing exercise that emphasizes the rear and lateral deltoids.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a bench with a barbell held behind your head at shoulder level, palms facing forward.</item>
+        <item>2. Press the barbell upward until your arms are fully extended.</item>
+        <item>3. Slowly lower the barbell back to the starting position behind your neck.</item>
+        <item>4. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use a controlled motion to avoid straining your shoulders or neck.</item>
+        <item>2. Keep your back straight and avoid arching during the press.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersRearDeltFlyMachine">
+        <item>Rear Delt Fly Machine</item>
+        <item>A machine-based exercise that targets the rear deltoids, traps, and upper back muscles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Adjust the machine\'s seat and handles to align with your shoulders.</item>
+        <item>2. Sit on the machine, gripping the handles with palms facing inward.</item>
+        <item>3. Pull the handles outward and backward, squeezing your shoulder blades together.</item>
+        <item>4. Return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on using your rear deltoids rather than your arms.</item>
+        <item>2. Avoid jerking or swinging the handles.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersSeatedRearLateralDumbbellRaise">
+        <item>Seated Rear Lateral Dumbbell Raise</item>
+        <item>A free-weight exercise targeting the rear deltoids and upper back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a bench holding a dumbbell in each hand with your palms facing each other.</item>
+        <item>2. Lean forward slightly so that your chest is near your thighs.</item>
+        <item>3. Lift the dumbbells out to the sides until your arms are parallel to the floor.</item>
+        <item>4. Slowly lower the dumbbells back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep a slight bend in your elbows throughout the movement.</item>
+        <item>2. Focus on engaging the rear deltoids rather than using momentum.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersHalfArnoldPress">
+        <item>Half Arnold Press</item>
+        <item>A shoulder pressing variation that combines the Arnold Press and a half-rep for added intensity.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand at shoulder level with your palms facing your chest.</item>
+        <item>2. Rotate your palms outward and press the dumbbells upward until your arms are fully extended.</item>
+        <item>3. Lower the dumbbells halfway down, then press them back up to the top.</item>
+        <item>4. Finally, lower the dumbbells completely back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use a weight that allows you to maintain control throughout the exercise.</item>
+        <item>2. Engage your core to stabilize your body and prevent leaning.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersArnoldPress">
+        <item>Arnold Press</item>
+        <item>A compound shoulder exercise that targets the front, side, and rear deltoids, along with engaging the triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand at shoulder height with your palms facing your chest.</item>
+        <item>2. Rotate your wrists outward as you press the dumbbells overhead until your arms are fully extended.</item>
+        <item>3. Reverse the movement, lowering the dumbbells back to the starting position.</item>
+        <item>4. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Move through a full range of motion for maximum muscle engagement.</item>
+        <item>2. Maintain a straight back and avoid using momentum during the lift.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersSeatedDumbbellLateralRaise">
+        <item>Seated Dumbbell Lateral Raise</item>
+        <item>A focused shoulder exercise that isolates the lateral deltoids.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a bench holding a dumbbell in each hand at your sides, palms facing inward.</item>
+        <item>2. Raise both dumbbells out to the sides until your arms are parallel to the ground.</item>
+        <item>3. Slowly lower the dumbbells back to the starting position.</item>
+        <item>4. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid shrugging your shoulders; focus on using your deltoids to lift the weights.</item>
+        <item>2. Keep a slight bend in your elbows to reduce strain on your joints.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersCableRearDeltFly">
+        <item>Cable Rear Delt Fly</item>
+        <item>A cable machine exercise that targets the rear deltoids and upper back muscles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set the cables at shoulder height and grab the handles with a cross-grip (right hand on the left handle, left hand on the right handle).</item>
+        <item>2. Step back slightly and stand with feet shoulder-width apart.</item>
+        <item>3. Pull the cables outward and backward, focusing on squeezing your shoulder blades together.</item>
+        <item>4. Return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your arms slightly bent and avoid locking your elbows.</item>
+        <item>2. Use a controlled motion to avoid relying on momentum.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBentOverLateralRaise">
+        <item>Bent Over Lateral Raise</item>
+        <item>A free-weight exercise that targets the rear deltoids and upper back muscles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand with your palms facing each other, and bend at the hips to bring your chest parallel to the ground.</item>
+        <item>2. Lift the dumbbells out to the sides until your arms are parallel to the floor.</item>
+        <item>3. Lower the dumbbells back to the starting position.</item>
+        <item>4. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a slight bend in your elbows throughout the movement.</item>
+        <item>2. Avoid using momentum to lift the dumbbells; focus on engaging the rear deltoids.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBentArmLateralRaise">
+        <item>Bent Arm Lateral Raise</item>
+        <item>A shoulder isolation exercise that targets the lateral deltoids with reduced leverage for increased focus.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand with your elbows bent at a 90-degree angle.</item>
+        <item>2. Lift the dumbbells out to the sides until your arms are parallel to the floor.</item>
+        <item>3. Slowly lower the dumbbells back to the starting position.</item>
+        <item>4. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows bent throughout the movement to maintain proper form.</item>
+        <item>2. Avoid raising the dumbbells above shoulder height to protect your joints.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersCableUprightRow">
+        <item>Cable Upright Row</item>
+        <item>The Cable Upright Row is a strength exercise that primarily targets the shoulders and traps while engaging the biceps and forearms.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a straight bar or rope handle to a low pulley on a cable machine.</item>
+        <item>2. Stand upright with feet shoulder-width apart, holding the bar with an overhand grip.</item>
+        <item>3. Keep your back straight and chest up as you pull the bar upwards toward your chin.</item>
+        <item>4. Lead with your elbows, keeping them higher than the bar throughout the movement.</item>
+        <item>5. Slowly lower the bar back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid excessive swinging or leaning backward.</item>
+        <item>2. Perform the exercise in a controlled manner to target the muscles effectively.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersFacePull">
+        <item>Face Pull</item>
+        <item>The Face Pull is an excellent exercise for strengthening the rear delts, traps, and improving shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a rope handle to a high pulley on a cable machine.</item>
+        <item>2. Stand facing the machine, holding the ends of the rope with both hands.</item>
+        <item>3. Step back slightly and pull the rope toward your face, leading with your elbows.</item>
+        <item>4. Squeeze your shoulder blades together at the peak and slowly return to the start.</item>
+        <item>5. Repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged and avoid arching your back.</item>
+        <item>2. Focus on controlled movements for optimal activation.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersHalfKneelingHighCableRowRope">
+        <item>Half Kneeling High Cable Row Rope</item>
+        <item>The Half Kneeling High Cable Row Rope targets the lats, traps, and biceps while engaging the core for stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set a cable machine to a high pulley and attach a rope handle.</item>
+        <item>2. Kneel on one knee with the other foot flat on the ground for support.</item>
+        <item>3. Grasp the rope with both hands and pull it toward your chest, keeping your elbows close to your sides.</item>
+        <item>4. Squeeze your shoulder blades together at the peak of the movement.</item>
+        <item>5. Slowly extend your arms back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a straight back and avoid rotating your torso.</item>
+        <item>2. Keep the movement slow and controlled for better muscle engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersLeaningCableLateralRaise">
+        <item>Leaning Cable Lateral Raise</item>
+        <item>The Leaning Cable Lateral Raise is a shoulder isolation exercise that targets the lateral deltoid, helping to build width and definition.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a handle to the low pulley on a cable machine.</item>
+        <item>2. Stand sideways to the machine and grab the handle with the arm farthest from the pulley.</item>
+        <item>3. Lean slightly away from the machine, supporting yourself with your other hand.</item>
+        <item>4. Raise your arm laterally until it is parallel to the floor.</item>
+        <item>5. Slowly lower the arm back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using momentum to lift the weight.</item>
+        <item>2. Keep a slight bend in the elbow throughout the motion.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellRaise">
+        <item>Dumbbell Raise</item>
+        <item>The Dumbbell Raise is a versatile exercise that can target different parts of the shoulder depending on the angle of the lift.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright, holding a dumbbell in each hand at your sides.</item>
+        <item>2. With a slight bend in your elbows, raise the dumbbells outward and upward to shoulder level.</item>
+        <item>3. Pause briefly at the top before lowering the dumbbells back to the starting position.</item>
+        <item>4. Repeat for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid swinging the weights or using momentum to lift.</item>
+        <item>2. Keep your back straight and core engaged throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellUprightRow">
+        <item>Dumbbell Upright Row</item>
+        <item>The Dumbbell Upright Row targets the shoulders and traps, while also engaging the biceps for assistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright, holding a dumbbell in each hand with an overhand grip, palms facing your thighs.</item>
+        <item>2. Pull the dumbbells upward along your torso, leading with your elbows.</item>
+        <item>3. Raise the weights to just below your chin, keeping your elbows higher than your hands.</item>
+        <item>4. Slowly lower the dumbbells back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid swinging the weights or arching your back.</item>
+        <item>2. Perform the exercise with controlled movements for optimal muscle engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBodyweightMilitaryPress">
+        <item>Bodyweight Military Press</item>
+        <item>The Bodyweight Military Press is a challenging shoulder exercise that develops strength and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a pike push-up position, with your hips elevated and hands shoulder-width apart on the floor.</item>
+        <item>2. Bend your elbows and lower your head toward the ground in a controlled motion.</item>
+        <item>3. Push back up to the starting position, fully extending your arms.</item>
+        <item>4. Repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to maintain balance and stability.</item>
+        <item>2. Adjust the angle of your body to modify the intensity of the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersPushPress">
+        <item>Push Press</item>
+        <item>The Push Press is a compound exercise that builds explosive strength in the shoulders, triceps, and legs.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with feet shoulder-width apart, holding a barbell or dumbbells at shoulder height.</item>
+        <item>2. Slightly bend your knees to lower your body into a quarter squat.</item>
+        <item>3. Drive through your legs and press the weight overhead in one fluid motion.</item>
+        <item>4. Lower the weight back to shoulder height and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight to protect your lower back.</item>
+        <item>2. Use controlled movements to avoid jerking or losing balance.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersEzBarUprightRow">
+        <item>Ez Bar Upright Row</item>
+        <item>The Ez Bar Upright Row is a shoulder and upper trap exercise that also engages the biceps and forearms.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright, holding an EZ bar with an overhand grip at hip level.</item>
+        <item>2. Pull the bar upward along your torso, leading with your elbows.</item>
+        <item>3. Raise the bar to chest level, keeping your elbows higher than your hands.</item>
+        <item>4. Slowly lower the bar back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using momentum or excessive swinging.</item>
+        <item>2. Perform the exercise in a controlled manner to maximize muscle activation.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellLyingOneArmRearLateralRaise">
+        <item>Dumbbell Lying One-Arm Rear Lateral Raise</item>
+        <item>The Dumbbell Lying One-Arm Rear Lateral Raise isolates the rear delts and upper back muscles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your side on a flat bench, holding a dumbbell in your top hand.</item>
+        <item>2. Keep your elbow slightly bent and raise the dumbbell outward and upward to shoulder height.</item>
+        <item>3. Pause briefly at the top and lower the dumbbell back to the starting position.</item>
+        <item>4. Repeat for the desired number of reps before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rotating your torso or using momentum to lift the weight.</item>
+        <item>2. Focus on slow, controlled movements for better isolation.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersLateralRaiseMachine">
+        <item>Lateral Raise Machine</item>
+        <item>The Lateral Raise Machine isolates the shoulder\'s lateral deltoid muscles, enhancing shoulder width and definition.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the machine with your arms positioned under the padded levers and your back straight.</item>
+        <item>2. Grip the handles (if available) or rest your hands lightly on the pads.</item>
+        <item>3. Push the levers upward by raising your elbows out to the sides.</item>
+        <item>4. Slowly return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Adjust the seat height so your elbows align with the machine\'s pivot point.</item>
+        <item>2. Focus on smooth, controlled motions to avoid jerking.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersScottPress">
+        <item>Scott Press</item>
+        <item>The Scott Press is a variation of the shoulder press that targets the front and lateral deltoids.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit or stand with a dumbbell in each hand, held at shoulder height with palms facing forward.</item>
+        <item>2. Press the dumbbells upward in a diagonal path, bringing them closer together at the top.</item>
+        <item>3. Lower the weights back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows slightly bent throughout the movement.</item>
+        <item>2. Use a controlled tempo to maintain tension on the deltoids.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBandPullApart">
+        <item>Band Pull-Apart</item>
+        <item>The Band Pull-Apart is a simple yet effective exercise for strengthening the rear delts and upper back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a resistance band with both hands at shoulder height, arms extended forward.</item>
+        <item>2. Pull the band apart by moving your hands outward until your arms are in line with your torso.</item>
+        <item>3. Slowly return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your shoulders down and avoid shrugging.</item>
+        <item>2. Focus on squeezing your shoulder blades together at the end of the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBentOverReverseCableFly">
+        <item>Bent Over Reverse Cable Fly</item>
+        <item>The Bent Over Reverse Cable Fly targets the rear delts and upper back, improving posture and shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set the cable handles to the lowest setting on a dual-cable machine.</item>
+        <item>2. Bend at the hips with a slight bend in your knees, keeping your back straight.</item>
+        <item>3. Grab a handle in each hand and pull the cables outward and upward until your arms are in line with your shoulders.</item>
+        <item>4. Slowly return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using momentum; focus on controlled movements.</item>
+        <item>2. Keep a slight bend in your elbows to reduce strain on the joints.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBentOverBarbellReverseRaise">
+        <item>Bent-Over Barbell Reverse Raise</item>
+        <item>The Bent-Over Barbell Reverse Raise strengthens the rear delts and traps, contributing to a balanced shoulder appearance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with feet shoulder-width apart, holding a barbell with a pronated grip.</item>
+        <item>2. Bend at the hips until your torso is nearly parallel to the ground, keeping your back straight.</item>
+        <item>3. Raise the barbell outward and upward, keeping your elbows slightly bent.</item>
+        <item>4. Lower the barbell back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rounding your back during the movement.</item>
+        <item>2. Perform the exercise with slow, controlled motions for optimal effectiveness.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersWeightedRoundArm">
+        <item>Weighted Round Arm</item>
+        <item>The Weighted Round Arm exercise strengthens the shoulders, biceps, and triceps while improving arm mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with feet shoulder-width apart, holding a dumbbell or weight plate in each hand.</item>
+        <item>2. Extend your arms forward and trace a large circular motion, moving the weights around in a smooth, controlled arc.</item>
+        <item>3. Complete the circle and reverse the direction for the next repetition.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements smooth to avoid jerking.</item>
+        <item>2. Use a light weight to maintain control and proper form.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersWeightPlateFrontRaise">
+        <item>Weight Plate Front Raise</item>
+        <item>The Weight Plate Front Raise isolates the anterior deltoids for building shoulder strength and size.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright, holding a weight plate with both hands at the 3 o’clock and 9 o’clock positions.</item>
+        <item>2. Keep your arms straight and lift the plate until it reaches shoulder height.</item>
+        <item>3. Lower the plate back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid swinging the weight to maintain focus on the shoulders.</item>
+        <item>2. Keep your core engaged for stability.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersTwoArmCableLateralRaise">
+        <item>Two Arm Cable Lateral Raise</item>
+        <item>The Two Arm Cable Lateral Raise targets the lateral deltoids, enhancing shoulder width and definition.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set the cables to the lowest position on a dual-cable machine and hold the handles with your arms at your sides.</item>
+        <item>2. Raise your arms laterally until they are parallel to the ground.</item>
+        <item>3. Slowly lower your arms back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep a slight bend in your elbows to reduce joint strain.</item>
+        <item>2. Use controlled movements to prevent momentum from taking over.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersLandmineSquatToPress">
+        <item>Landmine Squat to Press</item>
+        <item>The Landmine Squat to Press combines a squat and overhead press, targeting the legs, shoulders, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place one end of a barbell into a landmine attachment or secure it in a corner.</item>
+        <item>2. Hold the barbell near the weighted end with both hands at chest level.</item>
+        <item>3. Perform a squat, then as you stand up, press the barbell overhead.</item>
+        <item>4. Lower the barbell back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to maintain balance.</item>
+        <item>2. Avoid leaning forward during the squat phase.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersCableShoulderPress">
+        <item>Cable Shoulder Press</item>
+        <item>The Cable Shoulder Press builds shoulder strength while providing constant tension throughout the movement.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Adjust the cables to shoulder height and attach handles to each side.</item>
+        <item>2. Hold the handles at shoulder level with your palms facing forward.</item>
+        <item>3. Press the handles upward until your arms are fully extended.</item>
+        <item>4. Lower the handles back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows slightly in front of your body for a natural pressing path.</item>
+        <item>2. Avoid arching your back by keeping your core engaged.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBarbellRearDeltRaise">
+        <item>Barbell Rear Delt Raise</item>
+        <item>The Barbell Rear Delt Raise targets the rear deltoids and upper back muscles for improved posture and shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a barbell with a pronated grip and stand with feet shoulder-width apart.</item>
+        <item>2. Bend at the hips until your torso is nearly parallel to the ground.</item>
+        <item>3. With a slight bend in your elbows, raise the barbell outward until your arms are parallel to the floor.</item>
+        <item>4. Lower the barbell back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using momentum by performing slow, controlled movements.</item>
+        <item>2. Keep your core engaged to protect your lower back.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDoubleCableFrontRaise">
+        <item>Double Cable Front Raise</item>
+        <item>The Double Cable Front Raise isolates the front deltoids for shoulder strength and size.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set the cables to the lowest position on a dual-cable machine and hold the handles with your arms at your sides.</item>
+        <item>2. With your palms facing down, raise the cables forward until your arms are at shoulder height.</item>
+        <item>3. Lower the cables back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep a slight bend in your elbows to reduce joint strain.</item>
+        <item>2. Avoid leaning back during the movement; maintain a neutral spine.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersStandingSmithMachineShoulderPress">
+        <item>Standing Smith Machine Shoulder Press</item>
+        <item>The Standing Smith Machine Shoulder Press strengthens the shoulders and triceps while providing stability for controlled pressing.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Position the bar of the Smith machine at shoulder height.</item>
+        <item>2. Stand with your feet shoulder-width apart and grip the bar with your palms facing forward.</item>
+        <item>3. Press the bar upward until your arms are fully extended.</item>
+        <item>4. Lower the bar back to shoulder level and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid locking your elbows at the top to maintain tension on the muscles.</item>
+        <item>2. Keep your core engaged to stabilize your body.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellWPress">
+        <item>Dumbbell W Press</item>
+        <item>The Dumbbell W Press strengthens the shoulders and improves mobility by engaging multiple shoulder muscles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand with your arms bent and palms facing forward.</item>
+        <item>2. Start with your elbows in line with your shoulders, forming a "W" shape with your arms.</item>
+        <item>3. Press the dumbbells upward and outward, fully extending your arms.</item>
+        <item>4. Lower the dumbbells back to the "W" position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements controlled to avoid swinging the weights.</item>
+        <item>2. Focus on maintaining the "W" shape throughout the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellOneArmShoulderPress">
+        <item>Dumbbell One Arm Shoulder Press</item>
+        <item>The Dumbbell One Arm Shoulder Press targets shoulder stability and strength while engaging the core for balance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in one hand at shoulder height with your palm facing forward.</item>
+        <item>2. Press the dumbbell upward until your arm is fully extended.</item>
+        <item>3. Lower the dumbbell back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight to prevent leaning to one side.</item>
+        <item>2. Perform equal repetitions on each side for balanced development.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellScaption">
+        <item>Dumbbell Scaption</item>
+        <item>The Dumbbell Scaption targets the stabilizing muscles of the shoulders, focusing on the rotator cuff and deltoids.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand with your arms resting at your sides, palms facing inward.</item>
+        <item>2. Raise your arms at a 30-degree angle to the front until they are at shoulder height.</item>
+        <item>3. Lower your arms back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use light weights to avoid straining the shoulder joint.</item>
+        <item>2. Keep your movements controlled and avoid swinging the dumbbells.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBarbellCleanAndPress">
+        <item>Barbell Clean and Press</item>
+        <item>The Barbell Clean and Press is a full-body exercise that builds explosive power, strength, and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart and a barbell on the ground in front of you.</item>
+        <item>2. Perform a clean by lifting the bar to your shoulders in one fluid motion.</item>
+        <item>3. Press the barbell overhead until your arms are fully extended.</item>
+        <item>4. Lower the bar back to your shoulders, then to the ground, and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core and maintain a straight back throughout the movement.</item>
+        <item>2. Start with a manageable weight to perfect your form before progressing.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellCubanPress">
+        <item>Dumbbell Cuban Press</item>
+        <item>The Dumbbell Cuban Press combines shoulder rotation and pressing to strengthen the rotator cuff and deltoids.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand and lift your arms so your elbows are at shoulder height and bent at 90 degrees.</item>
+        <item>2. Rotate your forearms upward to bring the dumbbells overhead.</item>
+        <item>3. Press the dumbbells upward until your arms are fully extended.</item>
+        <item>4. Reverse the motion back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use light to moderate weights to avoid compromising form.</item>
+        <item>2. Focus on smooth, controlled movements to engage the targeted muscles.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellCubanExternalRotation">
+        <item>Dumbbell Cuban External Rotation</item>
+        <item>The Dumbbell Cuban External Rotation improves shoulder stability and strengthens the rotator cuff.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand with your elbows bent at 90 degrees and at shoulder height.</item>
+        <item>2. Rotate your forearms upward and outward while keeping your elbows in place.</item>
+        <item>3. Lower your forearms back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements controlled and avoid using momentum.</item>
+        <item>2. Focus on maintaining proper posture to target the correct muscles.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersStandingAlternatingDumbbellShoulderPress">
+        <item>Standing Alternating Dumbbell Shoulder Press</item>
+        <item>The Standing Alternating Dumbbell Shoulder Press strengthens the shoulders and core while promoting balance and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand at shoulder height with your palms facing forward.</item>
+        <item>2. Press one dumbbell upward until your arm is fully extended.</item>
+        <item>3. Lower the dumbbell back to shoulder height and repeat with the opposite arm.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid leaning or twisting during the exercise; keep your core engaged.</item>
+        <item>2. Perform the movement slowly to maximize muscle engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersCableExternalShoulderRotation">
+        <item>Cable External Shoulder Rotation</item>
+        <item>The Cable External Shoulder Rotation targets the rotator cuff and improves shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a single handle to a low cable pulley and stand perpendicular to the machine.</item>
+        <item>2. Hold the handle with the arm closest to the machine, elbow bent at 90 degrees, and upper arm close to your side.</item>
+        <item>3. Rotate your forearm outward while keeping your elbow fixed in place.</item>
+        <item>4. Return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use light weight to focus on controlled movement.</item>
+        <item>2. Avoid letting your elbow move away from your body.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersCableInternalShoulderRotation">
+        <item>Cable Internal Shoulder Rotation</item>
+        <item>The Cable Internal Shoulder Rotation strengthens the internal rotators of the shoulder for better joint stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a single handle to a low cable pulley and stand perpendicular to the machine.</item>
+        <item>2. Hold the handle with the arm farthest from the machine, elbow bent at 90 degrees, and upper arm close to your side.</item>
+        <item>3. Rotate your forearm inward across your body while keeping your elbow fixed in place.</item>
+        <item>4. Return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Perform the movement slowly and with control.</item>
+        <item>2. Use a light weight to prevent strain on the shoulder joint.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersAcrossChestShoulderStretch">
+        <item>Across Chest Shoulder Stretch</item>
+        <item>The Across Chest Shoulder Stretch helps to loosen the shoulder and upper back muscles.</item>
+        <item>To perform the stretch:</item>
+        <item>1. Extend one arm across your chest and hold it with your opposite hand just above the elbow.</item>
+        <item>2. Gently pull your arm closer to your chest until you feel a stretch in your shoulder.</item>
+        <item>3. Hold the position for 15–30 seconds, then switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rotating your torso; keep it facing forward.</item>
+        <item>2. Do not apply excessive force; the stretch should feel comfortable.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersStandingReachUpBackRotationStretch">
+        <item>Standing Reach Up Back Rotation Stretch</item>
+        <item>The Standing Reach Up Back Rotation Stretch improves shoulder mobility and posture.</item>
+        <item>To perform the stretch:</item>
+        <item>1. Stand tall with your feet shoulder-width apart and arms at your sides.</item>
+        <item>2. Raise one arm overhead and reach backward as far as comfortable.</item>
+        <item>3. Rotate your upper body slightly in the same direction to deepen the stretch.</item>
+        <item>4. Hold for 15–30 seconds and switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid hyperextending your lower back.</item>
+        <item>2. Keep your movements controlled and within a comfortable range.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersShoulderStretchBehindBack">
+        <item>Shoulder Stretch Behind Back</item>
+        <item>The Shoulder Stretch Behind Back helps to open the shoulders and chest while relieving tension.</item>
+        <item>To perform the stretch:</item>
+        <item>1. Stand tall and clasp your hands behind your back, palms facing each other.</item>
+        <item>2. Straighten your arms and lift them slightly upward while keeping your chest open.</item>
+        <item>3. Hold the position for 15–30 seconds.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid hunching your shoulders; keep them down and relaxed.</item>
+        <item>2. If clasping your hands is difficult, use a towel or strap to assist.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersInclineDumbbellSideLateralRaise">
+        <item>Incline Dumbbell Side Lateral Raise</item>
+        <item>The Incline Dumbbell Side Lateral Raise targets the lateral deltoids, enhancing shoulder width and definition.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set an incline bench at a 30–45-degree angle and lie on your side, holding a dumbbell in your top hand.</item>
+        <item>2. Start with the dumbbell close to your hip and your arm slightly bent.</item>
+        <item>3. Raise the dumbbell outward until your arm is parallel to the floor.</item>
+        <item>4. Lower it back down with control and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use a light weight to maintain good form.</item>
+        <item>2. Avoid using momentum to lift the dumbbell.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellSideLyingRearDeltRaise">
+        <item>Dumbbell Side Lying Rear Delt Raise</item>
+        <item>The Dumbbell Side Lying Rear Delt Raise isolates the rear deltoids, improving upper back and shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your side on a flat bench or the floor, holding a dumbbell in your top hand.</item>
+        <item>2. Keep your arm slightly bent and start with the dumbbell in front of your body.</item>
+        <item>3. Raise the dumbbell upward in an arc until it’s level with your shoulder.</item>
+        <item>4. Lower it back down and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on slow, controlled movements.</item>
+        <item>2. Keep your torso stable and avoid twisting.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersLyingCableReverseFly">
+        <item>Lying Cable Reverse Fly</item>
+        <item>The Lying Cable Reverse Fly targets the rear delts and upper back muscles for improved posture and strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down on a bench placed between two low cable pulleys.</item>
+        <item>2. Hold the cable handles in each hand with your arms extended downward.</item>
+        <item>3. Raise your arms outward in a wide arc until they are level with your shoulders.</item>
+        <item>4. Slowly return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use a light weight to ensure smooth, controlled movement.</item>
+        <item>2. Avoid shrugging your shoulders during the lift.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersSingleArmCircles">
+        <item>Single Arm Circles</item>
+        <item>Single Arm Circles are a dynamic warm-up exercise that mobilizes the shoulder joint and improves flexibility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright with your feet shoulder-width apart.</item>
+        <item>2. Extend one arm straight out to the side and begin making small circles with your hand.</item>
+        <item>3. Gradually increase the circle size for a greater range of motion.</item>
+        <item>4. Reverse the direction after a few seconds and switch arms.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your arm straight but relaxed.</item>
+        <item>2. Maintain a steady pace to avoid jerking movements.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellLateralToFrontRaise">
+        <item>Dumbbell Lateral to Front Raise</item>
+        <item>The Dumbbell Lateral to Front Raise combines lateral and front raises to work the deltoids and improve shoulder definition.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright, holding dumbbells at your sides with your palms facing inward.</item>
+        <item>2. Lift the dumbbells outward to shoulder height, forming a T-shape with your body.</item>
+        <item>3. Bring the dumbbells in front of you at shoulder height, then lower them back down.</item>
+        <item>4. Reverse the movement to return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use controlled movements to avoid swinging the weights.</item>
+        <item>2. Keep your core engaged to maintain proper posture.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersOneArmBentOverCableLateralRaise">
+        <item>One-Arm Bent Over Cable Lateral Raise</item>
+        <item>The One-Arm Bent Over Cable Lateral Raise targets the rear deltoids and upper back, enhancing shoulder stability and strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set a cable pulley to the lowest position and attach a single handle.</item>
+        <item>2. Stand to the side of the cable machine and bend forward at the hips, keeping your back flat.</item>
+        <item>3. Grab the handle with the hand furthest from the machine, arm extended downward.</item>
+        <item>4. Raise your arm outward until it is parallel to the floor, then lower back down with control.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your torso stable and avoid twisting.</item>
+        <item>2. Use a light weight to maintain good form.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersHandstandPushUp">
+        <item>Handstand Push-Up</item>
+        <item>The Handstand Push-Up is a challenging bodyweight exercise that builds shoulder, arm, and core strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Kick up into a handstand position against a wall for support.</item>
+        <item>2. Lower your head toward the ground in a controlled motion, keeping your elbows tucked slightly inward.</item>
+        <item>3. Push back up to the starting position, fully extending your arms.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core to maintain balance.</item>
+        <item>2. Use a spotter or wall for stability if you\'re a beginner.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersEZBarUnderhandPress">
+        <item>EZ Bar Underhand Press</item>
+        <item>The EZ Bar Underhand Press strengthens the anterior deltoids and triceps while reducing wrist strain.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Grip the EZ bar with an underhand grip, hands shoulder-width apart.</item>
+        <item>2. Start with the bar at chest level and press it upward until your arms are fully extended.</item>
+        <item>3. Slowly lower the bar back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your wrists straight to avoid unnecessary strain.</item>
+        <item>2. Maintain a steady, controlled motion throughout the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellLyingExternalShoulderRotation">
+        <item>Dumbbell Lying External Shoulder Rotation</item>
+        <item>The Dumbbell Lying External Shoulder Rotation targets the rotator cuff, improving shoulder stability and injury prevention.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your side on a flat bench or floor, holding a dumbbell in the hand of the upper arm.</item>
+        <item>2. Bend your elbow to a 90-degree angle, keeping it close to your side.</item>
+        <item>3. Rotate your forearm upward as far as comfortably possible, then lower it back down.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use a light weight to avoid overloading the rotator cuff.</item>
+        <item>2. Focus on slow, controlled movements for effectiveness.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersInclineDumbbellReverseFly">
+        <item>Incline Dumbbell Reverse Fly</item>
+        <item>The Incline Dumbbell Reverse Fly strengthens the rear deltoids and upper back muscles, promoting posture and balance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set an incline bench to a 30–45-degree angle and lie face down on it, holding a dumbbell in each hand.</item>
+        <item>2. Start with your arms hanging straight down, palms facing each other.</item>
+        <item>3. Raise your arms outward in a wide arc until they are parallel to the floor.</item>
+        <item>4. Slowly lower the dumbbells back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using momentum to lift the weights.</item>
+        <item>2. Keep your chest on the bench to isolate the target muscles.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersInclineDumbbellYRaise">
+        <item>Incline Dumbbell Y-Raise</item>
+        <item>The Incline Dumbbell Y-Raise targets the upper back and rear deltoids, improving posture and shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set an incline bench to a 30–45-degree angle and lie face down on it, holding a dumbbell in each hand.</item>
+        <item>2. Let your arms hang straight down, palms facing each other.</item>
+        <item>3. Raise your arms upward at an angle, forming a "Y" shape, until they are in line with your body.</item>
+        <item>4. Slowly return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use a controlled motion and avoid swinging the weights.</item>
+        <item>2. Focus on squeezing your shoulder blades together at the top of the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellInclineTRaise">
+        <item>Dumbbell Incline T-Raise</item>
+        <item>The Dumbbell Incline T-Raise works the rear deltoids, traps, and rhomboids, enhancing upper back strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down on an incline bench set at a 30–45-degree angle, holding a dumbbell in each hand.</item>
+        <item>2. Start with your arms hanging straight down, palms facing each other.</item>
+        <item>3. Raise your arms outward to the sides, forming a "T" shape, until they are parallel to the floor.</item>
+        <item>4. Lower the dumbbells back down with control and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements smooth and controlled.</item>
+        <item>2. Avoid shrugging your shoulders during the lift.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBenchSupportedDumbbellExternalRotation">
+        <item>Bench Supported Dumbbell External Rotation</item>
+        <item>This exercise targets the rotator cuff, enhancing shoulder stability and mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set an incline bench to a low angle and lie on it sideways, supporting your upper body.</item>
+        <item>2. Hold a dumbbell in the hand of the upper arm, with your elbow bent at 90 degrees and supported against your side.</item>
+        <item>3. Rotate your forearm upward, keeping your elbow fixed, then slowly return to the start position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use light weights to prevent straining the rotator cuff.</item>
+        <item>2. Perform the motion slowly to maintain control and precision.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellSeatedBentOverRearDeltRow">
+        <item>Dumbbell Seated Bent Over Rear Delt Row</item>
+        <item>This exercise strengthens the rear deltoids, traps, and upper back muscles, improving posture and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a bench with your feet flat on the ground, holding dumbbells in each hand.</item>
+        <item>2. Bend forward at the hips, letting the dumbbells hang below your shoulders.</item>
+        <item>3. Pull the dumbbells up and outward, squeezing your shoulder blades together.</item>
+        <item>4. Slowly lower the dumbbells back down and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight to avoid strain.</item>
+        <item>2. Focus on using your rear delts rather than momentum to lift the weights.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellStandingPalmsInPress">
+        <item>Dumbbell Standing Palms In Press</item>
+        <item>This exercise focuses on shoulder and tricep strength while minimizing stress on the shoulder joint.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright, holding dumbbells in each hand with your palms facing each other.</item>
+        <item>2. Start with the dumbbells at shoulder height, elbows bent.</item>
+        <item>3. Press the dumbbells upward until your arms are fully extended.</item>
+        <item>4. Lower the dumbbells back down to shoulder height and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to maintain balance.</item>
+        <item>2. Avoid flaring your elbows out excessively during the press.</item>
+    </string-array>
+
+    <string-array name="descriptionLyingShoulderPress">
+        <item>Lying Shoulder Press</item>
+        <item>The Lying Shoulder Press is an upper body exercise that primarily targets the deltoid muscles while also engaging the triceps and upper chest.</item>
+        <item>This variation is performed on an incline bench to isolate the shoulders and reduce strain on the lower back compared to standing versions.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set an incline bench to 45-60 degrees and lie back with dumbbells</item>
+        <item>2. Hold the weights at shoulder level with palms facing forward</item>
+        <item>3. Press the weights upward until arms are fully extended</item>
+        <item>4. Slowly lower back to the starting position</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a slight bend in elbows at the top position</item>
+        <item>2. Keep your core engaged throughout the movement</item>
+        <item>3. Avoid arching your lower back during the press</item>
+        <item>4. Use a spotter when attempting heavy weights</item>
+    </string-array>
+
+    <string-array name="descriptionDumbbellRearDeltRow">
+        <item>Dumbbell Rear Delt Row</item>
+        <item>The Dumbbell Rear Delt Row specifically targets the posterior deltoid muscles to improve shoulder balance and posture.</item>
+        <item>This exercise helps counteract rounded shoulders by strengthening the often-neglected rear delts.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Bend forward at 45 degrees holding dumbbells with palms facing</item>
+        <item>2. Pull the weights up and out to 90-degree angles</item>
+        <item>3. Squeeze shoulder blades together at the top position</item>
+        <item>4. Slowly lower back to starting position</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a neutral spine throughout</item>
+        <item>2. Focus on muscle contraction rather than heavy weight</item>
+        <item>3. Imagine pouring water from your elbows at the top</item>
+        <item>4. Keep movements slow and controlled</item>
+    </string-array>
+
+    <string-array name="descriptionLeverLateralRaise">
+        <item>Lever Lateral Raise</item>
+        <item>The Lever Lateral Raise isolates the medial deltoids using specialized gym equipment for balanced shoulder development.</item>
+        <item>This machine variation provides constant tension throughout the movement range.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit in the machine with arms at your sides</item>
+        <item>2. Lift arms upward to shoulder height</item>
+        <item>3. Maintain a slight bend in elbows</item>
+        <item>4. Slowly lower back to starting position</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid shrugging your shoulders upward</item>
+        <item>2. Keep wrists neutral throughout</item>
+        <item>3. Focus on 2-second lift, 3-second lower tempo</item>
+        <item>4. Use weight that allows perfect form</item>
+    </string-array>
+
+    <string-array name="descriptionKettlebellOneArmMilitaryPress">
+        <item>Kettlebell One-Arm Military Press</item>
+        <item>This overhead pressing variation builds shoulder strength and stability with unilateral loading.</item>
+        <item>The kettlebell\'s offset center of gravity increases core engagement and shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Clean the kettlebell to rack position</item>
+        <item>2. Press overhead while keeping wrist straight</item>
+        <item>3. Fully extend arm without hyperextending elbow</item>
+        <item>4. Lower with control back to rack position</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep ribs down to avoid excessive arch</item>
+        <item>2. Brace your core throughout movement</item>
+        <item>3. Maintain neutral head position</item>
+        <item>4. Complete all reps on one side before switching</item>
+    </string-array>
+
+    <string-array name="descriptionKettlebellSplitSnatch">
+        <item>Kettlebell Split Snatch</item>
+        <item>This explosive movement develops power, coordination, and shoulder mobility.</item>
+        <item>The split stance variation adds stability while training full-body coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in athletic stance with kettlebell between legs</item>
+        <item>2. Explosively extend hips while pulling kettlebell up</item>
+        <item>3. Drop into split stance as bell flips overhead</item>
+        <item>4. Stand up with bell locked out overhead</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on powerful hip drive initiation</item>
+        <item>2. Keep arm relaxed during the pull phase</item>
+        <item>3. Punch upward to secure lockout position</item>
+        <item>4. Practice with light weight to master technique</item>
+    </string-array>
+
+    <string-array name="descriptionKettlebellWindmill">
+        <item>Kettlebell Windmill</item>
+        <item>The Kettlebell Windmill is a dynamic exercise that improves shoulder mobility, core stability, and hip hinge mechanics.</item>
+        <item>This compound movement challenges full-body coordination while working on flexibility and strength simultaneously.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Press one kettlebell overhead and lock out your arm</item>
+        <item>2. Stagger your feet slightly with toes pointed outward</item>
+        <item>3. Hinge at hips while keeping eyes on the kettlebell</item>
+        <item>4. Lower opposite hand toward foot while maintaining overhead lockout</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your eyes on the kettlebell throughout</item>
+        <item>2. Maintain a locked elbow on the loaded side</item>
+        <item>3. Move slowly with complete control</item>
+        <item>4. Start with very light weight to learn the movement pattern</item>
+    </string-array>
+
+    <string-array name="descriptionKettlebellSwings">
+        <item>Kettlebell Swings</item>
+        <item>The Kettlebell Swing is a fundamental explosive exercise that develops power in the posterior chain.</item>
+        <item>This movement teaches proper hip hinge mechanics while building endurance and power.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with feet shoulder-width apart, kettlebell between legs</item>
+        <item>2. Hinge at hips and swing kettlebell back between legs</item>
+        <item>3. Explosively extend hips to propel kettlebell forward</item>
+        <item>4. Control the descent for the next repetition</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Drive the movement with your hips, not your arms</item>
+        <item>2. Keep your core braced throughout</item>
+        <item>3. The kettlebell should reach chest height at peak</item>
+        <item>4. Avoid squatting - focus on the hip hinge motion</item>
+    </string-array>
+
+    <string-array name="descriptionKettlebellArnoldPress">
+        <item>Kettlebell Arnold Press</item>
+        <item>The Kettlebell Arnold Press is a rotational overhead press that works all three deltoid heads.</item>
+        <item>This variation adds grip challenge and core activation compared to dumbbell version.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold kettlebells in rack position with palms facing you</item>
+        <item>2. Begin pressing while rotating palms outward</item>
+        <item>3. At full extension, palms should face forward</item>
+        <item>4. Reverse the motion on the way down</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain neutral wrist position</item>
+        <item>2. Control the rotation throughout</item>
+        <item>3. Avoid excessive arching in lower back</item>
+        <item>4. Use moderate weight to maintain proper form</item>
+    </string-array>
+
+    <string-array name="descriptionBentOverRearDeltFlyGymstick">
+        <item>Bent Over Rear Delt Fly | Gymstick</item>
+        <item>This variation using the Gymstick specifically targets the rear deltoids with adjustable resistance.</item>
+        <item>The flexible bar provides progressive tension for optimal muscle engagement.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand on center of Gymstick with feet shoulder-width</item>
+        <item>2. Hinge forward 45 degrees holding the handles</item>
+        <item>3. Lift arms outward to shoulder height</item>
+        <item>4. Slowly return to starting position</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain slight bend in elbows</item>
+        <item>2. Squeeze shoulder blades at peak contraction</item>
+        <item>3. Control resistance on the lowering phase</item>
+        <item>4. Adjust foot position to modify resistance</item>
+    </string-array>
+
+    <string-array name="descriptionCableSeatedShoulderInternalRotation">
+        <item>Cable Seated Shoulder Internal Rotation</item>
+        <item>This rotator cuff exercise strengthens the internal rotators for shoulder health and balance.</item>
+        <item>It helps prevent imbalances that can lead to shoulder impingement issues.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit sideways to cable machine with elbow bent 90°</item>
+        <item>2. Keep elbow tucked at your side throughout</item>
+        <item>3. Rotate forearm inward across your body</item>
+        <item>4. Slowly return to starting position</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use very light weight - focus on control</item>
+        <item>2. Maintain proper elbow position</item>
+        <item>3. Perform equal reps on both sides</item>
+        <item>4. Combine with external rotation exercises</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersHalfKneelingCableExternalRotation">
+        <item>Half Kneeling Cable External Rotation</item>
+        <item>This exercise strengthens the external rotator muscles of the shoulder, improving stability and preventing injury.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set the cable handle at elbow height while kneeling sideways to the machine with the outside knee down.</item>
+        <item>2. Hold the cable handle with the hand furthest from the machine, keeping your elbow bent at 90 degrees and tucked into your side.</item>
+        <item>3. Rotate your forearm outward until it is perpendicular to your body.</item>
+        <item>4. Slowly return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid shrugging your shoulder; keep it relaxed and down.</item>
+        <item>2. Perform the movement in a slow and controlled manner.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersLandmineLateralRaise">
+        <item>Landmine Lateral Raise</item>
+        <item>This exercise targets the lateral deltoids, improving shoulder width and strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Secure one end of a barbell in a landmine attachment or corner of a wall.</item>
+        <item>2. Stand sideways to the barbell, holding the free end with the hand furthest from it.</item>
+        <item>3. Raise the barbell laterally until your arm reaches shoulder height.</item>
+        <item>4. Lower the barbell back down and repeat for the desired repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your torso upright and avoid leaning to the side.</item>
+        <item>2. Use controlled movements to engage the target muscles effectively.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersSeatedDumbbellFrontRaise">
+        <item>Seated Dumbbell Front Raise</item>
+        <item>The Seated Dumbbell Front Raise targets the front deltoids, improving shoulder strength and size.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a bench holding a dumbbell in each hand with arms resting by your sides.</item>
+        <item>2. Raise the dumbbells to shoulder height in front of you, keeping your arms straight.</item>
+        <item>3. Slowly lower the dumbbells back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid swinging the weights; focus on controlled movements.</item>
+        <item>2. Keep your core engaged to maintain stability.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersScapularProtractionAndRetraction">
+        <item>Scapular Protraction and Retraction</item>
+        <item>This exercise improves scapular mobility and shoulder blade control, enhancing overall shoulder function.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand or sit with your arms extended forward at shoulder height.</item>
+        <item>2. Push your hands forward to protract your shoulder blades, then retract them by pulling your shoulder blades back together.</item>
+        <item>3. Repeat the movement for the desired number of repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep the movement focused on the shoulder blades, avoiding excessive arm movement.</item>
+        <item>2. Maintain a neutral spine throughout the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersOneArmKettlebellSnatch">
+        <item>One Arm Kettlebell Snatch</item>
+        <item>This explosive exercise targets the shoulders, back, and core, improving power and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with feet shoulder-width apart, holding a kettlebell with one hand between your legs.</item>
+        <item>2. Drive through your hips to swing the kettlebell upward, pulling it close to your body.</item>
+        <item>3. At the top, rotate your hand and lock out the kettlebell overhead.</item>
+        <item>4. Lower the kettlebell back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use your hips and legs for power, not just your arm.</item>
+        <item>2. Keep the kettlebell path close to your body for better control.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersCrossCableFacePull">
+        <item>Cross Cable Face Pull</item>
+        <item>This exercise targets the rear deltoids, traps, and upper back, promoting better posture and shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set the pulleys on a cable machine at upper chest level and attach rope handles to each side.</item>
+        <item>2. Cross the cables so the left hand holds the right handle and the right hand holds the left handle.</item>
+        <item>3. Pull the handles toward your face, keeping your elbows high and squeezing your shoulder blades together.</item>
+        <item>4. Slowly return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your torso upright and avoid leaning back.</item>
+        <item>2. Focus on squeezing your shoulder blades at the peak of the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersOneArmLandmineRow">
+        <item>One Arm Landmine Row</item>
+        <item>This exercise targets the lats, traps, and rhomboids, building upper back strength and improving shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place one end of a barbell in a landmine attachment or secure it in a corner.</item>
+        <item>2. Stand on the opposite side of the barbell with your feet staggered and the front hand holding the free end.</item>
+        <item>3. Row the barbell towards your waist, squeezing your shoulder blade at the top.</item>
+        <item>4. Slowly lower it back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged and back straight throughout the movement.</item>
+        <item>2. Avoid shrugging your shoulders or twisting your torso.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersResistanceBandSeatedShoulderPress">
+        <item>Resistance Band Seated Shoulder Press</item>
+        <item>This exercise strengthens the shoulders and improves stability using resistance bands.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a bench with your feet flat on the floor and a resistance band looped under them.</item>
+        <item>2. Hold the band handles at shoulder level with palms facing forward.</item>
+        <item>3. Press the handles upward until your arms are fully extended.</item>
+        <item>4. Slowly lower the handles back to shoulder level and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Move in a controlled manner to maintain tension in the bands.</item>
+        <item>2. Keep your core tight to stabilize your torso.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBenchPikePushUp">
+        <item>Bench Pike Push-Up</item>
+        <item>This bodyweight exercise targets the shoulders, particularly the anterior deltoids, as well as the triceps and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place your feet on a bench and hands on the floor in a pike position, with hips elevated and arms straight.</item>
+        <item>2. Bend your elbows to lower your head toward the floor.</item>
+        <item>3. Push back up to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid arching your lower back.</item>
+        <item>2. Lower your head gently to prevent neck strain.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersPikePushUp">
+        <item>Pike Push-Up</item>
+        <item>The Pike Push-Up builds shoulder strength and is a precursor to handstand push-ups.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin in a downward dog position with hands and feet on the floor, hips elevated.</item>
+        <item>2. Lower your head toward the floor by bending your elbows.</item>
+        <item>3. Push back up to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged and back straight.</item>
+        <item>2. Use a slow, controlled motion to maximize muscle engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersTallKneelingOneArmKettlebellPress">
+        <item>Tall Kneeling One Arm Kettlebell Press</item>
+        <item>This exercise targets the shoulders and core, improving stability and unilateral strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Kneel on the floor in a tall kneeling position with your hips extended and glutes engaged.</item>
+        <item>2. Hold a kettlebell in one hand at shoulder height with the bell resting on the back of your wrist.</item>
+        <item>3. Press the kettlebell straight overhead until your arm is fully extended.</item>
+        <item>4. Slowly lower it back to shoulder height and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight to avoid arching your lower back.</item>
+        <item>2. Move in a controlled manner to maintain balance and stability.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersKettlebellCleanAndJerk">
+        <item>Kettlebell Clean and Jerk</item>
+        <item>This full-body exercise focuses on explosive power, targeting the shoulders, legs, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start with the kettlebell on the ground in front of you, gripping the handle with one hand.</item>
+        <item>2. Perform a clean to bring the kettlebell to shoulder height in a rack position.</item>
+        <item>3. Quickly dip and drive through your legs to press the kettlebell overhead.</item>
+        <item>4. Lower the kettlebell back to the rack position and then to the ground to repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on explosive hip drive during the clean.</item>
+        <item>2. Avoid letting the kettlebell crash onto your wrist; keep the movement smooth.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersFullRangeOfMotionLatPulldown">
+        <item>Full Range of Motion Lat Pulldown</item>
+        <item>This exercise targets the lats and improves overall upper body strength and posture.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit at a lat pulldown machine with the bar attached to the cable above you.</item>
+        <item>2. Grip the bar slightly wider than shoulder-width with your palms facing away.</item>
+        <item>3. Pull the bar down to your chest while squeezing your shoulder blades together.</item>
+        <item>4. Slowly release the bar back to the starting position with full arm extension.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using momentum; focus on controlled movements.</item>
+        <item>2. Keep your torso upright and engage your core throughout.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersLeverShoulderPressHammerGrip">
+        <item>Lever Shoulder Press (Hammer Grip)</item>
+        <item>This exercise targets the deltoid muscles, focusing on strength and hypertrophy.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the lever shoulder press machine and grip the handles with a neutral (hammer) grip.</item>
+        <item>2. Press the handles upward until your arms are fully extended without locking your elbows.</item>
+        <item>3. Slowly lower the handles back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back pressed against the seat for support.</item>
+        <item>2. Avoid using excessive weight to ensure proper form.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellLyingRearLateralRaise">
+        <item>Dumbbell Lying Rear Lateral Raise</item>
+        <item>This exercise isolates the rear deltoids, improving shoulder stability and posture.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down on an incline bench, holding a dumbbell in each hand with arms hanging down.</item>
+        <item>2. Raise the dumbbells out to the sides until they are level with your shoulders.</item>
+        <item>3. Slowly lower them back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep a slight bend in your elbows throughout the movement.</item>
+        <item>2. Avoid swinging the weights; focus on controlled movements.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersLeverReverseShoulderPress">
+        <item>Lever Reverse Shoulder Press</item>
+        <item>This exercise emphasizes the rear deltoids and upper back muscles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit facing the lever shoulder press machine, gripping the handles with palms facing inward.</item>
+        <item>2. Press the handles away from your body until your arms are fully extended.</item>
+        <item>3. Slowly return the handles to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and core engaged throughout the movement.</item>
+        <item>2. Avoid locking your elbows at the top of the press.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersSideLyingRearDeltDumbbellRaise">
+        <item>Side Lying Rear Delt Dumbbell Raise</item>
+        <item>This isolation exercise targets the rear deltoids for improved shoulder stability and posture.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your side on a bench or the floor, holding a dumbbell in your top hand.</item>
+        <item>2. Keep a slight bend in your elbow and raise the dumbbell out to the side until it is level with your shoulder.</item>
+        <item>3. Lower the dumbbell back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Perform the movement slowly to maintain control and focus on the target muscle.</item>
+        <item>2. Avoid rotating your torso during the lift.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersScapulaDips">
+        <item>Scapula Dips</item>
+        <item>This exercise strengthens the scapular stabilizers, improving shoulder health and mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Position yourself on parallel bars with your arms straight and shoulders relaxed.</item>
+        <item>2. Without bending your elbows, lower your body by allowing your shoulders to move up.</item>
+        <item>3. Push your shoulders down to lift your body slightly and return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on the movement of your scapulae rather than your arms.</item>
+        <item>2. Keep your core engaged to maintain stability.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersEzBarInclineFrontRaise">
+        <item>Ez-Bar Incline Front Raise</item>
+        <item>This exercise targets the front deltoids, enhancing shoulder strength and definition.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on an incline bench while holding an EZ bar with a shoulder-width grip.</item>
+        <item>2. Raise the bar in front of you to shoulder height, keeping your arms straight.</item>
+        <item>3. Slowly lower the bar back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight and avoid arching your back.</item>
+        <item>2. Move in a controlled manner to prevent momentum from assisting the lift.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBackLever">
+        <item>Back Lever</item>
+        <item>This advanced bodyweight exercise targets the shoulders, back, and core, requiring significant strength and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hang from a bar with an overhand grip and bring your legs up to a tucked position.</item>
+        <item>2. Straighten your body horizontally, keeping your core tight and arms locked.</item>
+        <item>3. Hold the position for a few seconds, then return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Practice progressions like tuck holds before attempting the full movement.</item>
+        <item>2. Engage your entire body to maintain stability and control.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBarbellFrontRaiseTwist">
+        <item>Barbell Front Raise Twist</item>
+        <item>This exercise targets the front deltoids and adds rotational movement for core engagement.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a barbell with both hands at shoulder-width grip in front of your thighs.</item>
+        <item>2. Raise the barbell to shoulder height while simultaneously twisting it slightly to one side.</item>
+        <item>3. Lower the barbell back to the starting position and repeat, alternating the twist direction.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to stabilize your body.</item>
+        <item>2. Avoid using momentum; perform the movement in a controlled manner.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersKettlebellShoulderPress">
+        <item>Kettlebell Shoulder Press</item>
+        <item>This exercise targets the shoulders, focusing on strength and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a kettlebell in one hand at shoulder height with your palm facing inward.</item>
+        <item>2. Press the kettlebell overhead until your arm is fully extended.</item>
+        <item>3. Lower the kettlebell back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a neutral wrist position to prevent strain.</item>
+        <item>2. Keep your core tight to avoid leaning backward during the press.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersWallSupportedHandstandPushUps">
+        <item>Wall-Supported Handstand Push-Ups</item>
+        <item>This bodyweight exercise strengthens the shoulders, triceps, and upper chest.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Kick up into a handstand position with your feet supported against a wall.</item>
+        <item>2. Lower your head toward the ground by bending your elbows.</item>
+        <item>3. Push back up to the starting position by extending your arms.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core to maintain balance and control.</item>
+        <item>2. Use a padded surface under your head for safety.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersTowelShoulderStretch">
+        <item>Towel Shoulder Stretch</item>
+        <item>This stretch improves shoulder mobility and flexibility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a towel behind your back, with one hand gripping the top and the other the bottom.</item>
+        <item>2. Pull the towel upward with the top hand while the bottom hand provides resistance.</item>
+        <item>3. Hold the stretch for a few seconds, then switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements slow and controlled.</item>
+        <item>2. Avoid overstretching; stop if you feel pain.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersKettlebellThruster">
+        <item>Kettlebell Thruster</item>
+        <item>This compound exercise works the shoulders, legs, and core for full-body strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a kettlebell in each hand at shoulder height and stand with feet shoulder-width apart.</item>
+        <item>2. Perform a squat, lowering your body until your thighs are parallel to the ground.</item>
+        <item>3. As you rise from the squat, press the kettlebells overhead in one fluid motion.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and core engaged throughout the movement.</item>
+        <item>2. Ensure the kettlebells follow a straight path during the press.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersOneArmDumbbellSnatch">
+        <item>One Arm Dumbbell Snatch</item>
+        <item>This dynamic exercise builds explosive power, targeting the shoulders, back, and legs.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with feet shoulder-width apart, holding a dumbbell in one hand between your legs.</item>
+        <item>2. Perform a squat, lowering the dumbbell toward the ground.</item>
+        <item>3. Explode upward, pulling the dumbbell overhead in a single motion while extending your hips and knees.</item>
+        <item>4. Lock out your arm at the top, then return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged for balance and stability.</item>
+        <item>2. Use your legs and hips to generate power, not just your arm.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBandFrontLateralRaise">
+        <item>Band Front Lateral Raise</item>
+        <item>This resistance band exercise targets the shoulders and improves stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand on a resistance band with your feet shoulder-width apart, holding the handles in each hand.</item>
+        <item>2. Lift your arms forward and to the sides until they are parallel to the ground.</item>
+        <item>3. Lower the arms back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a slight bend in your elbows to reduce strain.</item>
+        <item>2. Perform the movement slowly and with control.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersShoulderPendulum">
+        <item>Shoulder Pendulum</item>
+        <item>This gentle exercise helps improve shoulder mobility and relieve tension.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lean forward slightly, supporting your weight with one hand on a stable surface.</item>
+        <item>2. Let the opposite arm hang freely and gently swing it in small circles.</item>
+        <item>3. Gradually increase the size of the circles, then reverse direction.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid engaging your shoulder muscles; let gravity guide the movement.</item>
+        <item>2. Keep the motion smooth and controlled.</item>
+    </string-array>
+
+    <string-array name="descriptionShoulders90DegreeCableExternalRotation">
+        <item>90-Degree Cable External Rotation</item>
+        <item>This exercise strengthens the rotator cuff and enhances shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set a cable machine to elbow height and attach a single handle.</item>
+        <item>2. Stand with your side to the machine, holding the handle in the outside hand with your elbow bent at 90 degrees.</item>
+        <item>3. Rotate your forearm outward while keeping your elbow stationary.</item>
+        <item>4. Return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid excessive movement of your upper arm; keep it close to your body.</item>
+        <item>2. Perform the exercise slowly to focus on the rotator cuff muscles.</item>
+    </string-array>
+
+    <string-array name="descriptionShoulders90DegreeCableInternalRotation">
+        <item>90-Degree Cable Internal Rotation</item>
+        <item>This exercise targets the rotator cuff and improves shoulder strength and mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set a cable machine to elbow height and attach a single handle.</item>
+        <item>2. Stand with your side to the machine, holding the handle in the inside hand with your elbow bent at 90 degrees.</item>
+        <item>3. Rotate your forearm inward while keeping your elbow stationary.</item>
+        <item>4. Return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your upper arm stable and close to your body throughout the movement.</item>
+        <item>2. Use a light weight to avoid overloading the rotator cuff muscles.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersSeatedBallerinaExercise">
+        <item>Seated Ballerina Exercise</item>
+        <item>This stretching exercise improves shoulder mobility and posture.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a chair with a straight back, feet flat on the floor.</item>
+        <item>2. Raise one arm overhead and lean to the opposite side, creating a side stretch.</item>
+        <item>3. Hold the position for a few seconds, then return to the center and switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to prevent slouching.</item>
+        <item>2. Move slowly and gently to avoid straining.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersSeatedScapularRetractionExercise">
+        <item>Seated Scapular Retraction Exercise</item>
+        <item>This exercise strengthens the upper back and improves posture.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a chair with a straight back, feet flat on the floor.</item>
+        <item>2. Pull your shoulder blades together and hold the contraction for a few seconds.</item>
+        <item>3. Release and repeat the movement.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid shrugging your shoulders; focus on squeezing your scapulae together.</item>
+        <item>2. Keep your neck relaxed during the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersFoamRollerPosteriorShoulder">
+        <item>Foam Roller Posterior Shoulder</item>
+        <item>This foam rolling exercise relieves tension and improves shoulder flexibility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your side with a foam roller positioned under your posterior shoulder.</item>
+        <item>2. Use your legs and opposite arm for support as you roll back and forth over the shoulder area.</item>
+        <item>3. Pause on tender spots to release tension, then continue.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Apply gentle pressure to avoid discomfort.</item>
+        <item>2. Breathe deeply to help your muscles relax.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersFoamRollerFrontShoulderAndChest">
+        <item>Foam Roller Front Shoulder and Chest</item>
+        <item>This foam rolling exercise targets the chest and front shoulder muscles to relieve tightness.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down with a foam roller positioned under your chest and front shoulder area.</item>
+        <item>2. Slowly roll back and forth over the targeted muscles.</item>
+        <item>3. Pause on tight areas, then continue the movement.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep the pressure moderate to avoid pain.</item>
+        <item>2. Perform the exercise slowly for maximum effectiveness.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersRotatorCuffStretch">
+        <item>Rotator Cuff Stretch</item>
+        <item>This stretch improves flexibility and reduces tension in the rotator cuff muscles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Cross one arm over your chest and use the opposite hand to gently pull the arm closer.</item>
+        <item>2. Hold the stretch for 20–30 seconds, then switch arms.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your shoulders relaxed throughout the stretch.</item>
+        <item>2. Avoid pulling too hard; the stretch should feel comfortable.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersAssistedReverseStretchChestAndShoulder">
+        <item>Assisted Reverse Stretch (Chest and Shoulder)</item>
+        <item>This stretch targets the chest and shoulder muscles, improving flexibility and relieving tension.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand tall with your arms extended behind you, holding onto a support (e.g., a wall or a bar).</item>
+        <item>2. Gently lean forward while pulling your arms back to stretch the chest and shoulders.</item>
+        <item>3. Hold the stretch for 20–30 seconds, then slowly release.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight during the stretch.</item>
+        <item>2. Avoid over-stretching; focus on gentle, controlled movement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersLyingUpperBodyRotation">
+        <item>Lying Upper Body Rotation</item>
+        <item>This stretch improves spinal flexibility and targets the upper back and shoulders.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie flat on your back with your arms extended out to the sides, palms facing down.</item>
+        <item>2. Slowly rotate your upper body to one side, keeping your legs flat on the floor.</item>
+        <item>3. Hold for 20–30 seconds, then return to the center and repeat on the opposite side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your head aligned with your spine during the rotation.</item>
+        <item>2. Move slowly and avoid jerking to protect your spine.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersKneelingBackRotation">
+        <item>Kneeling Back Rotation</item>
+        <item>This exercise improves thoracic spine mobility and relieves stiffness in the back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Kneel on the floor with your knees and hands shoulder-width apart.</item>
+        <item>2. Place one hand behind your head and rotate your upper body toward the opposite side, reaching with the elbow.</item>
+        <item>3. Hold the position for 20–30 seconds, then switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to stabilize your lower back during the rotation.</item>
+        <item>2. Perform the rotation slowly to deepen the stretch.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersSerratusWallSlideWithFoamRoller">
+        <item>Serratus Wall Slide with Foam Roller</item>
+        <item>This exercise improves shoulder mobility and activates the serratus anterior muscle.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand against a wall with a foam roller placed between your hands and the wall.</item>
+        <item>2. Slowly slide your hands up the wall while maintaining pressure on the foam roller, focusing on keeping your arms in line with your body.</item>
+        <item>3. Lower your arms back to the starting position and repeat for 10–12 reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core and avoid arching your back.</item>
+        <item>2. Focus on controlled movements rather than speed.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersWallSupportedArmRaises">
+        <item>Wall-Supported Arm Raises</item>
+        <item>This exercise strengthens the shoulders and improves mobility while stabilizing the shoulder blades.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand facing a wall with your hands placed on the wall at shoulder height.</item>
+        <item>2. Slowly raise one arm forward, keeping your shoulder stable, then lower it back down.</item>
+        <item>3. Repeat the movement for 10–12 reps on each arm.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid shrugging your shoulders during the raise.</item>
+        <item>2. Keep your torso stable and engage your core for support.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBackhandRaise">
+        <item>Backhand Raise</item>
+        <item>The Backhand Raise is a shoulder exercise that targets the posterior deltoids and upper back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart and hold a dumbbell in each hand with palms facing down.</item>
+        <item>2. With a slight bend in your elbows, raise your arms out to the sides and slightly behind your body, engaging your rear delts.</item>
+        <item>3. Lower the weights back to the starting position and repeat for 10–12 reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid swinging your body; keep the movement slow and controlled.</item>
+        <item>2. Focus on using your shoulder muscles, not your traps.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellSeatedCubanPress">
+        <item>Dumbbell Seated Cuban Press</item>
+        <item>This exercise targets the rotator cuff, shoulders, and upper back muscles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a bench with your feet flat on the floor, holding a dumbbell in each hand.</item>
+        <item>2. Start with the dumbbells at shoulder height and your elbows bent at 90 degrees.</item>
+        <item>3. Press the dumbbells overhead while rotating your wrists so that your palms face forward at the top.</item>
+        <item>4. Lower the weights back down and return to the starting position. Repeat for 10–12 reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements controlled to avoid stressing your shoulders.</item>
+        <item>2. Engage your core for stability during the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersKneelingCableShoulderPress">
+        <item>Kneeling Cable Shoulder Press</item>
+        <item>The Kneeling Cable Shoulder Press focuses on the shoulders and upper body stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set a cable machine to the lowest setting and attach a straight bar or rope.</item>
+        <item>2. Kneel on one or both knees in front of the cable machine, holding the handle at shoulder height.</item>
+        <item>3. Press the handle overhead until your arms are fully extended.</item>
+        <item>4. Slowly return to the starting position and repeat for 10–12 reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a straight back and engage your core for balance.</item>
+        <item>2. Avoid flaring your elbows excessively.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersWallSlides">
+        <item>Wall Slides</item>
+        <item>Wall Slides are a mobility exercise that targets the shoulders and upper back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your back against a wall and feet about 6 inches away from it.</item>
+        <item>2. Keep your lower back, upper back, and head in contact with the wall.</item>
+        <item>3. Raise your arms overhead while maintaining contact with the wall.</item>
+        <item>4. Slowly lower your arms back down to shoulder height and repeat for 10–12 reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on maintaining contact between your arms and the wall.</item>
+        <item>2. Avoid arching your lower back during the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersKneelingTSpineRotation">
+        <item>Kneeling T-Spine Rotation</item>
+        <item>This exercise improves thoracic spine mobility and shoulder rotation.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin in a quadruped position on all fours, with hands under shoulders and knees under hips.</item>
+        <item>2. Place one hand behind your head, keeping your elbow out to the side.</item>
+        <item>3. Rotate your torso to bring the elbow of the lifted arm under your body.</item>
+        <item>4. Reverse the motion, rotating the elbow upward while keeping your hips stable. Repeat for 10 reps on each side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Move slowly and focus on the range of motion rather than speed.</item>
+        <item>2. Keep your hips level and avoid shifting them during the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersPlateLoadedShoulderPress">
+        <item>Plate Loaded Shoulder Press</item>
+        <item>The Plate Loaded Shoulder Press is a strength exercise that targets the shoulders and triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the plate-loaded shoulder press machine with your back firmly against the pad.</item>
+        <item>2. Grasp the handles at shoulder height with a firm grip.</item>
+        <item>3. Press the handles upward until your arms are fully extended.</item>
+        <item>4. Slowly lower the handles back to the starting position and repeat for 10–12 reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements controlled to avoid jerking.</item>
+        <item>2. Maintain a straight back and engage your core throughout the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersChestSupportedDumbbellFrontRaises">
+        <item>Chest Supported Dumbbell Front Raises</item>
+        <item>This exercise targets the front delts and reduces strain on the lower back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down on an incline bench with a dumbbell in each hand.</item>
+        <item>2. Allow your arms to hang straight down with palms facing each other.</item>
+        <item>3. Raise the dumbbells in front of you until they are at shoulder height.</item>
+        <item>4. Slowly lower the dumbbells back down and repeat for 10–12 reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements controlled and avoid swinging the weights.</item>
+        <item>2. Focus on engaging your shoulder muscles to lift the dumbbells.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersOneArmDumbbellUprightRow">
+        <item>One-Arm Dumbbell Upright Row</item>
+        <item>This unilateral exercise targets the shoulders, traps, and biceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding a dumbbell in one hand in front of your thighs.</item>
+        <item>2. Pull the dumbbell upward along your body, keeping your elbow higher than your hand.</item>
+        <item>3. Pause at the top when the dumbbell reaches chest height.</item>
+        <item>4. Slowly lower the dumbbell back to the starting position and repeat for 10–12 reps on each side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid jerking the weight; use a smooth, controlled motion.</item>
+        <item>2. Keep your back straight and core engaged throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersSingleArmArnoldPress">
+        <item>Single-Arm Arnold Press</item>
+        <item>This exercise combines shoulder pressing and rotation to engage multiple muscles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit or stand while holding a dumbbell in one hand at shoulder height, palm facing your chest.</item>
+        <item>2. Press the dumbbell upward while rotating your wrist so your palm faces forward at the top.</item>
+        <item>3. Reverse the motion to return to the starting position and repeat for 10–12 reps on each arm.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements controlled to avoid straining your shoulders.</item>
+        <item>2. Engage your core for stability during the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersKneelingLandminePress">
+        <item>Kneeling Landmine Press</item>
+        <item>The Kneeling Landmine Press focuses on the shoulders, chest, and core stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set up a barbell in a landmine attachment or wedge it into a corner.</item>
+        <item>2. Kneel on one or both knees, holding the barbell with one hand at shoulder height.</item>
+        <item>3. Press the barbell upward and slightly forward until your arm is fully extended.</item>
+        <item>4. Slowly lower the barbell back to the starting position and repeat for 10–12 reps on each side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged and avoid arching your back.</item>
+        <item>2. Use a controlled motion to maintain stability during the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersPikePushUpBetweenChairs">
+        <item>Pike Push-Up Between Chairs</item>
+        <item>This advanced exercise targets the shoulders and triceps with increased range of motion.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place two sturdy chairs shoulder-width apart and position yourself in a pike push-up position between them.</item>
+        <item>2. Lower your head between the chairs until it passes below the seat level.</item>
+        <item>3. Press back up to the starting position while keeping your body in a pike shape.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Ensure the chairs are stable and won\'t move during the exercise.</item>
+        <item>2. Maintain a tight core to avoid losing balance or form.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersKettlebellCleanAndPress">
+        <item>Kettlebell Clean and Press</item>
+        <item>This full-body exercise targets the shoulders, legs, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start with a kettlebell on the ground in front of you.</item>
+        <item>2. Clean the kettlebell to shoulder height by driving through your hips and pulling it close to your body.</item>
+        <item>3. Press the kettlebell overhead until your arm is fully extended.</item>
+        <item>4. Lower the kettlebell back to the starting position and repeat for 10–12 reps on each side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use a controlled motion to avoid jerking the weight.</item>
+        <item>2. Engage your core to stabilize the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellZPress">
+        <item>Dumbbell Z Press</item>
+        <item>The Z Press targets the shoulders and core, emphasizing stability and overhead strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with your legs straight out in front of you and a dumbbell in each hand.</item>
+        <item>2. Hold the dumbbells at shoulder height with your palms facing forward.</item>
+        <item>3. Press the dumbbells upward until your arms are fully extended.</item>
+        <item>4. Slowly lower the dumbbells back to shoulder height and repeat for 10–12 reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid leaning back during the exercise.</item>
+        <item>2. Engage your core for stability and balance.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersCableYRaise">
+        <item>Cable Y Raise</item>
+        <item>The Cable Y Raise strengthens the shoulders and upper traps while improving shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set the cables to the lowest setting and hold a handle in each hand.</item>
+        <item>2. Stand tall with your arms in front of you and palms facing each other.</item>
+        <item>3. Raise your arms diagonally upward to form a "Y" shape with your body.</item>
+        <item>4. Slowly lower the cables back to the starting position and repeat for 10–12 reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements slow and controlled to engage the target muscles effectively.</item>
+        <item>2. Avoid shrugging your shoulders during the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersAlternateDumbbellLateralRaise">
+        <item>Alternate Dumbbell Lateral Raise</item>
+        <item>This exercise isolates the side delts for improved shoulder width and strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding a dumbbell in each hand at your sides.</item>
+        <item>2. Raise one arm out to the side until it reaches shoulder height.</item>
+        <item>3. Lower the dumbbell back down while simultaneously raising the other arm.</item>
+        <item>4. Continue alternating arms for 10–12 reps per side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use controlled movements and avoid using momentum to lift the dumbbells.</item>
+        <item>2. Keep a slight bend in your elbows to reduce stress on the joints.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBackSlapsWrapAroundStretch">
+        <item>Back Slaps Wrap Around Stretch</item>
+        <item>This dynamic stretch warms up the shoulders and upper back while improving mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand tall with your arms extended out to the sides at shoulder height.</item>
+        <item>2. Swing your arms forward and cross them in front of your chest as if hugging yourself.</item>
+        <item>3. Immediately swing your arms back to the starting position, clapping your back lightly with your hands.</item>
+        <item>4. Repeat the motion for 10–15 reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep the movements smooth and controlled to avoid overextending your arms.</item>
+        <item>2. Maintain an upright posture throughout the stretch.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersReactionBallThrow">
+        <item>Reaction Ball Throw</item>
+        <item>This agility-focused exercise improves hand-eye coordination and reaction speed.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a reaction ball in one hand and stand in an athletic stance.</item>
+        <item>2. Toss the ball against a wall with force and be ready to catch it as it rebounds in an unpredictable direction.</item>
+        <item>3. Alternate hands and repeat the drill for 10–12 throws per side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on quick movements to improve reaction time.</item>
+        <item>2. Keep your eyes on the ball at all times.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersFrontRackPVCStretch">
+        <item>Front Rack PVC Stretch</item>
+        <item>This stretch enhances shoulder and wrist mobility for better front rack positioning.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a PVC pipe with both hands in front of you, keeping your elbows bent at 90 degrees.</item>
+        <item>2. Slowly raise the pipe upward while maintaining the front rack position.</item>
+        <item>3. Hold the stretch for 15–30 seconds and return to the starting position.</item>
+        <item>4. Repeat for 2–3 sets.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows high and close to your body.</item>
+        <item>2. Avoid compensating with your lower back; engage your core.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersLeverHighRow">
+        <item>Lever High Row</item>
+        <item>This machine-based exercise targets the upper back and rear delts for strength and muscle growth.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit at the lever high row machine and grip the handles with both hands.</item>
+        <item>2. Pull the handles toward your chest, squeezing your shoulder blades together at the top.</item>
+        <item>3. Slowly release the handles back to the starting position and repeat for 10–12 reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using momentum; focus on controlled movements.</item>
+        <item>2. Keep your back straight and chest up during the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersCableHalfKneelingPallofPress">
+        <item>Cable Half Kneeling Pallof Press</item>
+        <item>This core stability exercise strengthens the obliques and improves anti-rotational strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a handle to a cable machine at chest height and kneel with one knee on the ground, facing sideways to the machine.</item>
+        <item>2. Hold the handle with both hands close to your chest.</item>
+        <item>3. Press the handle straight out in front of you, resisting the cable\'s pull.</item>
+        <item>4. Slowly bring the handle back to your chest and repeat for 10–12 reps per side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core throughout the exercise to maintain stability.</item>
+        <item>2. Avoid twisting your torso; keep your body facing forward.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersChestAndFrontOfShoulderStretch">
+        <item>Chest and Front of Shoulder Stretch</item>
+        <item>This stretch targets the chest and anterior shoulders, improving flexibility and posture.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand in a doorway and place your forearms on either side of the frame with elbows at 90 degrees.</item>
+        <item>2. Step forward gently until you feel a stretch across your chest and front shoulders.</item>
+        <item>3. Hold the stretch for 15–30 seconds and then return to the starting position.</item>
+        <item>4. Repeat for 2–3 sets.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid arching your back; keep your core engaged.</item>
+        <item>2. Perform the stretch slowly to prevent overstretching.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersShoulderExternalRotation">
+        <item>Shoulder External Rotation</item>
+        <item>This exercise strengthens the rotator cuff and improves shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a resistance band to a stable anchor at elbow height.</item>
+        <item>2. Hold the band with one hand and bend your elbow at 90 degrees, keeping it close to your body.</item>
+        <item>3. Rotate your forearm outward while keeping your elbow stationary.</item>
+        <item>4. Slowly return to the starting position and repeat for 10–15 reps per side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your wrist neutral to avoid unnecessary strain.</item>
+        <item>2. Use controlled movements to maximize effectiveness.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersShoulderInternalRotation">
+        <item>Shoulder Internal Rotation</item>
+        <item>This exercise strengthens the internal rotators of the shoulder, aiding in joint stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a resistance band to a stable anchor at elbow height.</item>
+        <item>2. Hold the band with one hand and bend your elbow at 90 degrees, keeping it close to your body.</item>
+        <item>3. Rotate your forearm inward across your body.</item>
+        <item>4. Slowly return to the starting position and repeat for 10–15 reps per side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid lifting your elbow away from your body.</item>
+        <item>2. Use a resistance level that allows smooth and controlled movements.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersLateralRaiseWithTowelOnWall">
+        <item>Lateral Raise with Towel on Wall</item>
+        <item>This unique variation of the lateral raise enhances shoulder stability and mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand next to a wall with a towel under your forearm.</item>
+        <item>2. Press the towel lightly into the wall as you raise your arm to the side to shoulder height.</item>
+        <item>3. Slowly lower your arm back to the starting position and repeat for 10–12 reps per side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements controlled to maintain contact with the wall.</item>
+        <item>2. Engage your core to prevent leaning.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersAlternatingShoulderFlexion">
+        <item>Alternating Shoulder Flexion</item>
+        <item>This exercise improves shoulder mobility and stability while engaging the core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart and hold a light dumbbell in each hand.</item>
+        <item>2. Lift one arm straight in front of you to shoulder height, keeping your palm facing down.</item>
+        <item>3. Lower the arm while simultaneously raising the opposite arm.</item>
+        <item>4. Continue alternating arms for 10–12 reps per side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid shrugging your shoulders.</item>
+        <item>2. Use controlled movements to prevent momentum.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBandedShoulderExternalRotation">
+        <item>Banded Shoulder External Rotation</item>
+        <item>This exercise strengthens the rotator cuff and enhances shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a resistance band to a stable anchor at elbow height.</item>
+        <item>2. Hold the band with one hand and bend your elbow at 90 degrees, keeping it close to your body.</item>
+        <item>3. Rotate your forearm outward while keeping your elbow stationary.</item>
+        <item>4. Slowly return to the starting position and repeat for 10–15 reps per side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid arching your back; maintain an upright posture.</item>
+        <item>2. Use slow, controlled movements to target the correct muscles.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBandedShoulderFlexion">
+        <item>Banded Shoulder Flexion</item>
+        <item>This exercise targets the anterior deltoids and improves shoulder strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Anchor a resistance band at floor level and hold it with one hand.</item>
+        <item>2. Stand upright and lift your arm straight in front of you to shoulder height.</item>
+        <item>3. Lower your arm back to the starting position under control.</item>
+        <item>4. Repeat for 10–15 reps per side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using momentum; focus on smooth, steady movements.</item>
+        <item>2. Engage your core to prevent arching your back.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBandedShoulderExtension">
+        <item>Banded Shoulder Extension</item>
+        <item>This exercise strengthens the posterior deltoids and upper back muscles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a resistance band to an anchor at shoulder height and hold it with one hand.</item>
+        <item>2. Stand with a slight forward lean, keeping your arm straight.</item>
+        <item>3. Pull your arm backward until it’s in line with your torso.</item>
+        <item>4. Slowly return to the starting position and repeat for 10–15 reps per side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a neutral wrist position throughout the exercise.</item>
+        <item>2. Avoid shrugging your shoulders; keep them relaxed.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBandSingleArmShoulderPress">
+        <item>Band Single Arm Shoulder Press</item>
+        <item>This exercise improves unilateral shoulder strength and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand on a resistance band with one foot and hold the other end in one hand at shoulder height.</item>
+        <item>2. Press the band upward until your arm is fully extended.</item>
+        <item>3. Slowly lower your arm back to the starting position.</item>
+        <item>4. Repeat for 10–12 reps per side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to prevent leaning.</item>
+        <item>2. Use a controlled tempo to avoid bouncing the band.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersHandstandPushUpsBetweenBenches">
+        <item>Handstand Push-Ups Between Benches</item>
+        <item>This advanced exercise targets the shoulders, triceps, and core for strength and balance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place two benches parallel to each other, shoulder-width apart.</item>
+        <item>2. Assume a handstand position with your hands on the benches and your head between them.</item>
+        <item>3. Lower your body until your head is level with the benches.</item>
+        <item>4. Push back up to the starting position.</item>
+        <item>5. Repeat for 6–10 reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Ensure the benches are stable to avoid accidents.</item>
+        <item>2. Engage your core to maintain balance and control.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersKippingHandstandPushUp">
+        <item>Kipping Handstand Push-Up</item>
+        <item>This dynamic exercise targets the shoulders, triceps, and core while incorporating momentum.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Assume a handstand position against a wall with your arms fully extended.</item>
+        <item>2. Lower your head to the ground, tucking your knees toward your chest.</item>
+        <item>3. Explosively kick your legs upward while pushing through your arms to return to the starting position.</item>
+        <item>4. Repeat for 6–10 reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on timing the leg kick with the arm press for efficiency.</item>
+        <item>2. Maintain a neutral spine to protect your lower back.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBentOverDumbbellRearDeltRaiseWithHeadOnBench">
+        <item>Bent-Over Dumbbell Rear Delt Raise With Head On Bench</item>
+        <item>This exercise isolates the rear deltoids and upper back muscles for definition and strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Adjust a bench to a low incline and place your forehead on it to support your torso.</item>
+        <item>2. Hold a dumbbell in each hand with your arms hanging straight down.</item>
+        <item>3. Raise the dumbbells outward until they’re in line with your shoulders.</item>
+        <item>4. Slowly return to the starting position and repeat for 10–12 reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows slightly bent throughout the movement.</item>
+        <item>2. Avoid using momentum; lift the weights in a controlled manner.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersHinduPushUps">
+        <item>Hindu Push-Ups</item>
+        <item>This full-body movement enhances upper body strength, flexibility, and mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a downward-facing dog position with your hips raised and arms extended.</item>
+        <item>2. Lower your chest toward the ground, swooping forward into an upward-facing dog position.</item>
+        <item>3. Push back to the starting position and repeat for 10–15 reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a fluid motion between positions for maximum benefit.</item>
+        <item>2. Focus on engaging your chest, shoulders, and core.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBarbellUprightRow">
+        <item>Barbell Upright Row</item>
+        <item>This exercise targets the shoulders, traps, and upper back for increased strength and size.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright holding a barbell with an overhand grip, hands shoulder-width apart.</item>
+        <item>2. Pull the barbell upward, keeping it close to your body, until your elbows are in line with your shoulders.</item>
+        <item>3. Lower the barbell back to the starting position under control.</item>
+        <item>4. Repeat for 10–12 reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your shoulders relaxed and avoid shrugging during the lift.</item>
+        <item>2. Focus on using your deltoids to lift the bar, not your arms.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBarbellFrontRaise">
+        <item>Barbell Front Raise</item>
+        <item>This exercise builds the anterior deltoids, contributing to shoulder width and strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright holding a barbell with both hands, palms facing down.</item>
+        <item>2. Lift the barbell straight in front of you to shoulder height.</item>
+        <item>3. Lower the barbell back to the starting position under control.</item>
+        <item>4. Repeat for 10–12 reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid swinging the barbell; use slow, controlled movements.</item>
+        <item>2. Engage your core to maintain a stable posture throughout the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersCornerWallStretch">
+        <item>Corner Wall Stretch</item>
+        <item>This stretch opens up the chest and shoulders, improving posture and flexibility.</item>
+        <item>To perform the stretch:</item>
+        <item>1. Stand in a corner with your arms bent at 90 degrees, hands placed on the walls.</item>
+        <item>2. Step forward with one foot, leaning into the corner to feel a stretch across your chest and shoulders.</item>
+        <item>3. Hold the position for 20–30 seconds, then release.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight as you lean in.</item>
+        <item>2. Avoid overextending your neck.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBarbellThruster">
+        <item>Barbell Thruster</item>
+        <item>A powerful compound exercise that targets shoulders, legs, and core strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a barbell across your upper chest with palms facing up and elbows pointing forward.</item>
+        <item>2. Squat down until your thighs are parallel to the floor.</item>
+        <item>3. Explosively push up to standing, pressing the barbell overhead.</item>
+        <item>4. Lower the barbell back to your chest and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight to stabilize your spine.</item>
+        <item>2. Use a controlled motion when lowering the barbell.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersOneArmKettlebellSwing">
+        <item>One Arm Kettlebell Swing</item>
+        <item>A dynamic exercise that strengthens the posterior chain and enhances grip strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with feet shoulder-width apart, holding a kettlebell with one hand.</item>
+        <item>2. Hinge at your hips and swing the kettlebell back between your legs.</item>
+        <item>3. Drive through your hips to swing the kettlebell forward to chest level.</item>
+        <item>4. Control the descent and repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using your arms to lift the kettlebell; the power should come from your hips.</item>
+        <item>2. Maintain a neutral spine throughout.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersStandingReverseShoulderStretch">
+        <item>Standing Reverse Shoulder Stretch</item>
+        <item>This stretch improves shoulder flexibility and relieves tension in the upper back.</item>
+        <item>To perform the stretch:</item>
+        <item>1. Stand tall and clasp your hands behind your back.</item>
+        <item>2. Straighten your arms and lift them slightly away from your back.</item>
+        <item>3. Hold the position for 15–30 seconds, then release.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your shoulders relaxed and down.</item>
+        <item>2. Avoid arching your lower back.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersResistanceBandBentOverRearDeltFly">
+        <item>Resistance Band Bent Over Rear Delt Fly</item>
+        <item>A targeted exercise for the rear deltoids and upper back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a resistance band with both hands and step on the center of the band with your feet shoulder-width apart.</item>
+        <item>2. Bend at your hips and slightly at your knees, keeping your back flat.</item>
+        <item>3. Pull the band apart by moving your hands outward, squeezing your shoulder blades together.</item>
+        <item>4. Slowly return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on using your rear delts to move the band.</item>
+        <item>2. Keep your neck in a neutral position.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersMedicineBallOverheadSlam">
+        <item>Medicine Ball Overhead Slam</item>
+        <item>An explosive exercise that engages the core, shoulders, and arms while improving power.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with feet shoulder-width apart, holding a medicine ball with both hands.</item>
+        <item>2. Raise the ball overhead, fully extending your arms.</item>
+        <item>3. Engage your core and slam the ball down onto the ground as hard as you can.</item>
+        <item>4. Catch the ball on the rebound (if applicable) and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight during the slam.</item>
+        <item>2. Use your entire body for maximum power.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDoorwayPecAndShoulderStretch">
+        <item>Doorway Pec and Shoulder Stretch</item>
+        <item>This stretch enhances shoulder mobility and opens up the chest.</item>
+        <item>To perform the stretch:</item>
+        <item>1. Stand in a doorway with your arms bent at 90 degrees, placing your forearms on the doorframe.</item>
+        <item>2. Step forward with one foot, leaning gently into the stretch.</item>
+        <item>3. Hold for 20–30 seconds, then switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your neck relaxed and avoid overextending your back.</item>
+        <item>2. Adjust the height of your arms for a varied stretch.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersWallBall">
+        <item>Wall Ball</item>
+        <item>A functional exercise that combines a squat with an overhead throw, targeting the legs, core, and shoulders.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand facing a wall, holding a medicine ball at chest height.</item>
+        <item>2. Squat down, keeping your back straight and chest up.</item>
+        <item>3. Explode upward, throwing the ball against the wall at a target height.</item>
+        <item>4. Catch the ball as it comes down and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use a smooth, controlled motion for catching and throwing.</item>
+        <item>2. Maintain a neutral spine throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersResistanceBandPullApart">
+        <item>Resistance Band Pull Apart</item>
+        <item>A simple yet effective exercise for strengthening the upper back and shoulders.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a resistance band with both hands, arms extended in front of you at shoulder height.</item>
+        <item>2. Pull the band apart by moving your arms outward, squeezing your shoulder blades together.</item>
+        <item>3. Slowly return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your shoulders relaxed and down.</item>
+        <item>2. Avoid using momentum; focus on controlled movements.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersKettlebellLateralRaise">
+        <item>Kettlebell Lateral Raise</item>
+        <item>A unique variation of lateral raises that targets the deltoids and improves shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand tall, holding a kettlebell in each hand by your sides.</item>
+        <item>2. Raise both arms out to the sides until they are at shoulder height.</item>
+        <item>3. Lower the kettlebells back to your sides with control and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep a slight bend in your elbows to reduce strain on the joints.</item>
+        <item>2. Focus on slow, controlled movements to engage the shoulders fully.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellWindmill">
+        <item>Dumbbell Windmill</item>
+        <item>A full-body exercise that targets the core, shoulders, and hips while improving flexibility and balance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding a dumbbell in one hand overhead.</item>
+        <item>2. Keeping your arm straight, slowly rotate your torso and lower your body toward the floor while keeping the dumbbell stable overhead.</item>
+        <item>3. Reach your free hand toward the floor, keeping your eyes on the dumbbell, and hinge at the hips to deepen the stretch.</item>
+        <item>4. Return to the standing position and repeat on the other side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged throughout the movement.</item>
+        <item>2. Avoid letting your knees collapse inward as you move.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellIronCross">
+        <item>Dumbbell Iron Cross</item>
+        <item>An exercise that targets the chest, shoulders, and core with an emphasis on stability and strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back, holding a dumbbell in each hand with your arms extended out to the sides.</item>
+        <item>2. Slowly raise both dumbbells toward the center of your body, bringing them together directly over your chest.</item>
+        <item>3. Lower the dumbbells back to the starting position with control and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows slightly bent throughout the movement to reduce stress on the joints.</item>
+        <item>2. Focus on controlled, deliberate motions rather than rushing through the set.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersInclineLandminePress">
+        <item>Incline Landmine Press</item>
+        <item>A shoulder-focused exercise that also engages the chest and triceps while improving pressing strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set up a landmine machine at an inclined angle, holding the barbell with both hands near the bar\'s end.</item>
+        <item>2. Press the barbell upward and forward, extending your arms fully while keeping your chest up and core engaged.</item>
+        <item>3. Slowly lower the bar back to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid arching your lower back during the press.</item>
+        <item>2. Keep your shoulders and wrists aligned with the bar throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellSingleArmLateralRaise">
+        <item>Dumbbell Single Arm Lateral Raise</item>
+        <item>An effective exercise for isolating the lateral deltoid, improving shoulder strength and definition.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding a dumbbell in one hand at your side.</item>
+        <item>2. Keeping a slight bend in your elbow, raise the dumbbell out to the side until your arm reaches shoulder height.</item>
+        <item>3. Slowly lower the dumbbell back to the starting position and repeat with the other arm.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to prevent swaying or using momentum during the raise.</item>
+        <item>2. Ensure that the movement is controlled, focusing on the muscle contraction in your shoulders.</item>
+        <item>3. Avoid lifting your arm too high, as it may strain the shoulder joint.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersDumbbellSeatedAlternateFrontRaise">
+        <item>Dumbbell Seated Alternate Front Raise</item>
+        <item>A variation of the front raise that isolates the deltoids while reducing the involvement of the legs.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a bench with a dumbbell in each hand, resting your arms at your sides.</item>
+        <item>2. Raise one dumbbell in front of you, keeping your arm straight, until it reaches shoulder height.</item>
+        <item>3. Lower the dumbbell back to your side and repeat with the other arm.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight and avoid using momentum to lift the weights.</item>
+        <item>2. Perform the movement slowly and with control to maximize muscle activation.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersSwingGymstick">
+        <item>Swing | Gymstick</item>
+        <item>A dynamic exercise using a Gymstick to target the hips, glutes, and core while improving cardiovascular endurance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with feet shoulder-width apart, holding the Gymstick with both hands in front of you.</item>
+        <item>2. Push your hips back and swing the Gymstick between your legs, keeping your back straight and core engaged.</item>
+        <item>3. Drive your hips forward and swing the stick up to chest height, maintaining control throughout the movement.</item>
+        <item>4. Repeat the swinging motion with fluidity and consistency.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest up and shoulders back to avoid rounding your spine.</item>
+        <item>2. Focus on using your hips and glutes to generate power, not your arms.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersSideBendPressGymstick">
+        <item>Side Bend Press | Gymstick</item>
+        <item>The Side Bend Press is an effective core exercise that targets the obliques, shoulders, and arms.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding a Gymstick with both hands at shoulder height.</item>
+        <item>2. Lean to one side while keeping your back straight and your core engaged.</item>
+        <item>3. Press the Gymstick overhead as you return to the neutral standing position, extending your arms fully.</item>
+        <item>4. Lower the Gymstick back to shoulder height and repeat the movement on the other side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your hips stable and avoid excessive swaying during the side bend.</item>
+        <item>2. Perform the overhead press in a controlled manner to avoid jerking motions.</item>
+        <item>3. Ensure that your core is engaged throughout the movement to protect your lower back.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersSingleArmUprightRowGymstick">
+        <item>Single Arm Upright Row | Gymstick</item>
+        <item>The Single Arm Upright Row targets the shoulders and upper back, helping to improve posture and upper body strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding the Gymstick with one hand in front of your thighs.</item>
+        <item>2. Pull the Gymstick upwards towards your chin, keeping your elbow high and out to the side.</item>
+        <item>3. Slowly lower the Gymstick back to the starting position and repeat with the other arm.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid arching it during the row.</item>
+        <item>2. Use a controlled motion to prevent injury to the shoulder joint.</item>
+        <item>3. Avoid using excessive weight, as the goal is to focus on form and controlled movement.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBehindTheHeadMilitaryPressGymstick">
+        <item>Behind the Head Military Press | Gymstick</item>
+        <item>The Behind the Head Military Press is a shoulder-strengthening exercise that targets the deltoids and triceps.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding the Gymstick behind your head with both hands.</item>
+        <item>2. Press the Gymstick upward until your arms are fully extended above your head.</item>
+        <item>3. Slowly lower the Gymstick back to the starting position behind your head and repeat the movement.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight to avoid arching your lower back during the press.</item>
+        <item>2. Ensure your elbows are pointing slightly forward to avoid stressing the shoulder joints.</item>
+        <item>3. Perform the exercise in a slow, controlled manner for maximum effectiveness.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersSkierGymstick">
+        <item>Skier | Gymstick</item>
+        <item>The Skier is a full-body movement that improves coordination and engages the lower body, core, and shoulders.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet slightly wider than shoulder-width apart, holding the Gymstick with both hands in front of you.</item>
+        <item>2. Swing the Gymstick back behind you while bending your knees and driving your hips back into a squat position.</item>
+        <item>3. Swing the Gymstick forward and up while simultaneously straightening your legs and engaging your core.</item>
+        <item>4. Return to the starting position and repeat the movement in a fluid motion.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid rounding it during the squat portion of the movement.</item>
+        <item>2. Engage your glutes and hamstrings to power the upward swing of the Gymstick.</item>
+        <item>3. Perform the exercise at a steady pace to maximize cardiovascular benefits.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersFacePullWithResistanceBand">
+        <item>Face Pull with Resistance Band</item>
+        <item>The Face Pull targets the upper back, shoulders, and traps, improving posture and shoulder health.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a resistance band to a high anchor point and grab the handles with both hands, palms facing inward.</item>
+        <item>2. Step back to create tension in the band, and pull the handles towards your face, keeping your elbows high and wide.</item>
+        <item>3. Slowly return the handles to the starting position, maintaining control over the movement.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on squeezing your shoulder blades together as you pull the band towards your face.</item>
+        <item>2. Avoid using momentum; perform the movement slowly for better muscle activation.</item>
+        <item>3. Keep your core engaged to maintain proper posture during the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBentOverRowGymstick">
+        <item>Bent Over Row | Gymstick</item>
+        <item>The Bent Over Row with Gymstick is a compound exercise targeting the upper back, lats, and biceps, helping to improve posture and upper body strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding the Gymstick with both hands in front of your thighs.</item>
+        <item>2. Hinge forward at your hips, keeping a straight back and bending your knees slightly.</item>
+        <item>3. Pull the Gymstick towards your torso, squeezing your shoulder blades together at the top of the movement.</item>
+        <item>4. Slowly lower the Gymstick back to the starting position, keeping tension in your muscles.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight throughout the movement to avoid strain on your lower back.</item>
+        <item>2. Focus on using your back muscles to pull the Gymstick rather than relying on your arms.</item>
+        <item>3. Perform the movement slowly and with control to maximize muscle activation.</item>
+    </string-array>
+
+    <string-array name="descriptionShouldersBattleRope">
+        <item>Battle Rope</item>
+        <item>The Battle Rope exercise is a full-body workout that primarily targets the shoulders, arms, and core, offering both strength and cardiovascular benefits.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart and hold one end of the battle rope in each hand.</item>
+        <item>2. Begin by creating waves in the rope by alternating raising and lowering each arm in a quick and controlled motion.</item>
+        <item>3. Increase the speed and intensity of the waves to challenge your muscles and cardiovascular system.</item>
+        <item>4. Keep your core engaged and your knees slightly bent to maintain stability throughout the movement.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on maintaining a consistent pace and rhythm for maximum effectiveness.</item>
+        <item>2. Keep your movements controlled to prevent jerking and reduce the risk of injury.</item>
+        <item>3. Engage your core throughout the exercise to improve overall body control and stability.</item>
+    </string-array>
+
+</resources>

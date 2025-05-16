@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="descriptionFullBodyOneArmMedicineBallSlam">
+        <item>One Arm Medicine Ball Slam</item>
+        <item>The One Arm Medicine Ball Slam is a dynamic full-body exercise that targets the core, shoulders, and arms while improving explosive power and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding a medicine ball in one hand.</item>
+        <item>2. Lift the ball overhead with one arm, then slam it down towards the ground as hard as you can.</item>
+        <item>3. Catch the ball on the rebound, and repeat the movement for the desired number of reps, alternating arms if needed.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core to control the ball during the slam and catch.</item>
+        <item>2. Keep your back straight and avoid excessive rounding of the spine during the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyNavySealBurpee">
+        <item>Navy Seal Burpee</item>
+        <item>The Navy Seal Burpee is a more intense variation of the standard burpee, incorporating a push-up and jump, making it a full-body, explosive exercise that builds strength and endurance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start by standing with your feet shoulder-width apart.</item>
+        <item>2. Drop into a squat, place your hands on the ground, and kick your feet back into a plank position.</item>
+        <item>3. Perform a push-up, then jump your feet back towards your hands.</item>
+        <item>4. Jump into the air, bringing your arms overhead and landing softly.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged throughout the movement to avoid sagging in your lower back.</item>
+        <item>2. Perform the push-up in a controlled manner, and focus on landing softly during the jump.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyDumbbellWalkingLunge">
+        <item>Dumbbell Walking Lunge</item>
+        <item>The Dumbbell Walking Lunge is a lower body exercise that targets the glutes, quads, and hamstrings while improving balance and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand, keeping your arms by your sides.</item>
+        <item>2. Take a step forward with one leg, lowering your hips until both knees are bent at about 90 degrees.</item>
+        <item>3. Push off the front foot to step forward into the next lunge, alternating legs with each step.</item>
+        <item>4. Repeat for the desired number of steps or reps, maintaining a steady pace and keeping your torso upright.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your front knee aligned with your toes, avoiding it from extending past your foot.</item>
+        <item>2. Maintain a strong core to help stabilize your torso during the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyDumbbellPushPress">
+        <item>Dumbbell Push Press</item>
+        <item>The Dumbbell Push Press is a powerful overhead press exercise that uses a slight leg drive to help lift the dumbbells, engaging the shoulders, triceps, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding a dumbbell in each hand at shoulder height.</item>
+        <item>2. Slightly bend your knees and use your legs to help "push" the dumbbells overhead.</item>
+        <item>3. Lock out your arms at the top, then lower the dumbbells back to shoulder height and repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Ensure that you use your legs to generate the power, not just your arms.</item>
+        <item>2. Keep your core tight to prevent arching your back as you press the dumbbells overhead.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyDumbbellDeadlift">
+        <item>Dumbbell Deadlift</item>
+        <item>The Dumbbell Deadlift is a lower-body exercise that primarily targets the hamstrings, glutes, and lower back, promoting posterior chain strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding a dumbbell in each hand in front of your thighs.</item>
+        <item>2. With a slight bend in your knees, hinge at your hips and lower the dumbbells toward the floor, keeping your back straight and your core engaged.</item>
+        <item>3. Once the dumbbells pass your knees, reverse the motion by driving your hips forward and standing tall.</item>
+        <item>4. Repeat for the desired number of reps, focusing on proper form and full hip extension at the top.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep the dumbbells close to your body throughout the movement to maintain control.</item>
+        <item>2. Avoid rounding your back; keep your chest lifted and your spine neutral.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyDumbbellSumoDeadlift">
+        <item>Dumbbell Sumo Deadlift</item>
+        <item>The Dumbbell Sumo Deadlift is a variation of the traditional deadlift that targets the inner thighs, glutes, and hamstrings, while also engaging the lower back and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet wider than shoulder-width apart, toes pointing outward, holding a dumbbell with both hands in front of your body.</item>
+        <item>2. With a slight bend in your knees, push your hips back and lower the dumbbell toward the ground, keeping your back straight.</item>
+        <item>3. Lower the dumbbell until you feel a stretch in your inner thighs, then drive through your heels and return to a standing position.</item>
+        <item>4. Repeat for the desired number of reps, focusing on the movement in your hips and legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest lifted and back flat throughout the movement.</item>
+        <item>2. Engage your core to maintain stability and prevent rounding your back.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyBackwardMedicineBallThrow">
+        <item>Backward Medicine Ball Throw</item>
+        <item>The Backward Medicine Ball Throw is a powerful explosive movement that targets the core, shoulders, and legs, while also improving coordination and reaction time.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding a medicine ball in both hands behind your head.</item>
+        <item>2. Squat down slightly, then explosively extend your hips and throw the ball backwards over your head as far as possible.</item>
+        <item>3. Retrieve the ball and repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use your hips and legs to generate power, not just your arms.</item>
+        <item>2. Keep your core tight to stabilize your torso during the throw.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyZercherCarry">
+        <item>Zercher Carry</item>
+        <item>The Zercher Carry is a functional strength exercise that targets the core, shoulders, and legs. It\'s a great way to build total body strength and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart and place a barbell in the crooks of your elbows, holding it at chest level.</item>
+        <item>2. Keep your core tight, and walk forward by stepping with one foot at a time.</item>
+        <item>3. Continue walking until you reach the desired distance or time, then carefully lower the barbell back to the ground.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core to prevent excessive arching of your back during the carry.</item>
+        <item>2. Maintain a neutral spine and avoid letting the barbell pull your shoulders forward.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyWallWalk">
+        <item>Wall Walk</item>
+        <item>The Wall Walk is an advanced bodyweight exercise that targets the shoulders, core, and upper body, improving overall body control and strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a push-up position with your feet against a wall and your hands on the floor.</item>
+        <item>2. Slowly walk your feet up the wall while simultaneously walking your hands closer to the wall, moving in a "walking" motion.</item>
+        <item>3. Continue until your chest is close to the wall, then reverse the movement by walking your hands and feet back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to prevent sagging in your lower back.</item>
+        <item>2. Perform the movement slowly and with control to avoid injury.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyKettlebellHangClean">
+        <item>Kettlebell Hang Clean</item>
+        <item>The Kettlebell Hang Clean is an explosive exercise that targets the hips, glutes, hamstrings, and shoulders. It helps build power, coordination, and strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart and a kettlebell on the floor between your legs.</item>
+        <item>2. Hinge at your hips and grip the kettlebell with both hands, keeping your chest lifted and back flat.</item>
+        <item>3. Drive through your hips to swing the kettlebell upwards, pulling it towards your chest and then catching it at shoulder height.</item>
+        <item>4. Reverse the movement to lower the kettlebell back to the starting position and repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use your hips to generate the power, not just your arms.</item>
+        <item>2. Maintain a strong, neutral spine throughout the movement to avoid injury.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyDumbbellPowerClean">
+        <item>Dumbbell Power Clean</item>
+        <item>The Dumbbell Power Clean is an explosive movement that targets the hips, legs, and shoulders. It improves power, coordination, and total-body strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart and a dumbbell placed in front of you on the floor.</item>
+        <item>2. Grip the dumbbells with an overhand grip, hinging at the hips and keeping your chest lifted and back flat.</item>
+        <item>3. Use your hips to generate power and explosively pull the dumbbells to your shoulders, catching them in a partial squat position.</item>
+        <item>4. Reverse the movement by lowering the dumbbells back to the starting position and repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on using your legs and hips to generate power, rather than just pulling with your arms.</item>
+        <item>2. Keep the dumbbells close to your body throughout the movement to prevent unnecessary swinging.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyDumbbellDevilPress">
+        <item>Dumbbell Devil Press</item>
+        <item>The Dumbbell Devil Press is a full-body movement that combines a burpee and a dumbbell snatch. It targets the chest, shoulders, legs, and core, improving endurance and strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a standing position with a dumbbell in each hand.</item>
+        <item>2. Drop down into a burpee position by placing the dumbbells on the floor, jumping your feet back, and lowering your chest to the ground.</item>
+        <item>3. Push back up and, as you jump your feet forward, perform a dumbbell snatch by swinging the dumbbells overhead.</item>
+        <item>4. Repeat the movement for the desired number of reps, making sure to keep the movement fluid and controlled.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core during the burpee and snatch portions to prevent your lower back from arching.</item>
+        <item>2. Use your hips and legs to power the dumbbells overhead, rather than relying solely on your arms.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyOverheadSquat">
+        <item>Overhead Squat</item>
+        <item>The Overhead Squat is a compound exercise that primarily targets the legs, hips, and shoulders. It also engages the core for stability and balance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding a barbell or dumbbells overhead with a wide grip.</item>
+        <item>2. Keeping your chest lifted and your back straight, squat down by pushing your hips back and bending your knees.</item>
+        <item>3. Lower yourself as deep as possible while maintaining balance and control, then press back up to the standing position.</item>
+        <item>4. Repeat for the desired number of reps, ensuring that your core stays tight and your arms remain locked overhead.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your arms fully extended and your back neutral throughout the squat.</item>
+        <item>2. Push your knees out and make sure your chest remains up to avoid rounding your back.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodySkiErgometer">
+        <item>Ski Ergometer</item>
+        <item>The Ski Ergometer is a cardio exercise that mimics the movement of cross-country skiing, primarily targeting the upper body, shoulders, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit at the Ski Ergometer and grip the handles, ensuring your body is in an upright position.</item>
+        <item>2. Pull the handles down toward your hips while keeping your chest lifted and core engaged.</item>
+        <item>3. Extend your arms overhead, then pull the handles back down, mimicking the motion of skiing.</item>
+        <item>4. Continue for the desired amount of time, focusing on maintaining a steady and controlled rhythm.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged throughout to maintain good posture and stability.</item>
+        <item>2. Use your upper body, shoulders, and arms to drive the movement while keeping your legs stable and engaged.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyHumanFlag">
+        <item>Human Flag</item>
+        <item>The Human Flag is an advanced bodyweight exercise that requires core, shoulder, and upper body strength. It involves holding your body parallel to the ground while gripping a vertical pole.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Grip a vertical pole with both hands, one hand placed high and the other placed lower.</item>
+        <item>2. Using your core and shoulders, lift your legs and torso horizontally, keeping your body straight and tight.</item>
+        <item>3. Hold the position for as long as you can while maintaining a controlled, stable posture.</item>
+        <item>4. Lower yourself back down and rest, then repeat for the desired number of sets.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your body tight and engage your core muscles to maintain stability.</item>
+        <item>2. Avoid letting your legs sag or your back arch during the hold.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyFarmersWalk">
+        <item>Farmers Walk</item>
+        <item>The Farmers Walk is a functional strength exercise that targets the forearms, traps, shoulders, and core. It also improves grip strength and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with a heavy dumbbell or kettlebell in each hand, arms fully extended by your sides.</item>
+        <item>2. Keep your back straight, shoulders back, and core tight as you walk forward in a controlled manner.</item>
+        <item>3. Walk for a predetermined distance or time, focusing on maintaining good posture and a steady pace.</item>
+        <item>4. After completing your walk, safely set the weights down and rest before repeating.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid slouching or leaning forward during the walk; keep your chest up and shoulders back.</item>
+        <item>2. Focus on squeezing the weights tightly to engage your forearms and improve grip strength.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyLogLift">
+        <item>Log Lift</item>
+        <item>The Log Lift is a strongman exercise that targets the shoulders, upper back, and arms. It is often performed with a log-shaped implement to improve overhead pressing strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart and grip the log with both hands, keeping your back straight and chest up.</item>
+        <item>2. Clean the log to your chest by extending your hips and knees, then press the log overhead by extending your arms.</item>
+        <item>3. Lower the log back to the ground under control, then repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged and your back flat during the clean and press to avoid injury.</item>
+        <item>2. Drive the log overhead with your legs first, using the shoulders to lock it into place.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyTireSledgeHammer">
+        <item>Tire Sledge Hammer</item>
+        <item>The Tire Sledge Hammer exercise is an intense functional movement that targets the shoulders, arms, and core. It also improves coordination and endurance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart in front of a large tire, holding a sledgehammer with both hands.</item>
+        <item>2. Raise the sledgehammer overhead and strike the tire with a powerful motion, swinging it down and across your body.</item>
+        <item>3. Alternate sides or perform multiple reps on each side, depending on your program.</item>
+        <item>4. Repeat for the desired number of sets or reps, focusing on maintaining a strong, controlled swing.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core throughout the movement to maintain stability and protect your lower back.</item>
+        <item>2. Keep your grip tight on the sledgehammer and generate power from your legs and hips.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyTireFlip">
+        <item>Tire Flip</item>
+        <item>The Tire Flip is a full-body exercise that targets the legs, back, and arms. It also helps develop functional strength and power.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, crouching down and gripping the bottom of a large tire with both hands.</item>
+        <item>2. Lift the tire by driving through your legs and using your hips, while keeping your back flat and core engaged.</item>
+        <item>3. Flip the tire over by pushing it with your legs and extending your hips, then quickly reset and repeat.</item>
+        <item>4. Continue flipping the tire for a predetermined distance or time.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back flat and your chest up to avoid rounding your spine while lifting the tire.</item>
+        <item>2. Use your legs and hips to generate the force needed to flip the tire, rather than relying solely on your arms.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyBarbellSnatch">
+        <item>Barbell Snatch</item>
+        <item>The Barbell Snatch is an explosive Olympic weightlifting movement that targets the entire body, with a focus on the legs, back, shoulders, and core. It develops power, coordination, and mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart and grip the barbell with an overhand grip, hands placed wide outside your knees.</item>
+        <item>2. Lower your hips, keeping your chest lifted, and prepare to pull the barbell up in one continuous motion.</item>
+        <item>3. Explosively pull the barbell up, driving through your legs and hips, then catch the bar overhead with fully extended arms.</item>
+        <item>4. Lower the barbell back to the ground under control and repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use your hips and legs to generate power, avoiding excessive pulling with your arms.</item>
+        <item>2. Ensure your back is flat and chest is up during the initial pull to protect your spine.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyPowerSnatch">
+        <item>Power Snatch</item>
+        <item>The Power Snatch is an explosive Olympic lift that targets the entire body, with emphasis on the legs, back, shoulders, and core. It improves power, coordination, and mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start with your feet shoulder-width apart and grip the barbell with a wide grip, just outside your knees.</item>
+        <item>2. Bend your knees slightly and lower your hips, keeping your chest lifted and back flat.</item>
+        <item>3. Explosively pull the barbell upwards, driving through your legs and hips, then catch the bar overhead with fully extended arms.</item>
+        <item>4. Lower the barbell back down under control and repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Ensure that your back remains straight and your chest is lifted throughout the movement to avoid injury.</item>
+        <item>2. Use your legs and hips to generate the power needed to lift the barbell, avoiding excessive pulling with your arms.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyMuscleSnatch">
+        <item>Muscle Snatch</item>
+        <item>The Muscle Snatch is a variation of the snatch that focuses on the upper body and shoulders. It helps to build explosive strength and upper body coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart and grip the barbell with an overhand grip, hands slightly wider than shoulder-width.</item>
+        <item>2. Lower your hips, keeping your chest up, and pull the barbell up in one continuous motion.</item>
+        <item>3. As you pull the barbell, drive through your legs and hips, and catch the barbell overhead using your arms and shoulders to extend the bar fully.</item>
+        <item>4. Return the barbell to the ground with control and repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on using your arms to finish the lift and catch the bar overhead.</item>
+        <item>2. Maintain a strong core and flat back throughout the movement to avoid injury.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyHeavingSnatchBalance">
+        <item>Heaving Snatch Balance</item>
+        <item>The Heaving Snatch Balance is a variation of the snatch that helps improve overhead stability and balance. It also helps build speed in the catch phase of the snatch.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start with the barbell on your shoulders and your feet shoulder-width apart.</item>
+        <item>2. Dip slightly by bending your knees and then explosively drive upwards with your legs while pushing the barbell overhead.</item>
+        <item>3. As the barbell moves upwards, quickly drop under the bar into a full squat position to catch it overhead.</item>
+        <item>4. Stand up fully with the barbell overhead, then lower the bar back to the shoulders and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on maintaining a strong core and a tight grip on the bar throughout the movement.</item>
+        <item>2. Practice the dip and drive technique to ensure a smooth and powerful transition under the bar.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyBarbellHangClean">
+        <item>Barbell Hang Clean</item>
+        <item>The Barbell Hang Clean is an Olympic lift that targets the legs, back, shoulders, and arms. It helps develop power, speed, and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart and grip the barbell just above your knees, keeping your back flat and chest up.</item>
+        <item>2. Lower your hips and engage your core, preparing to explosively pull the barbell upwards.</item>
+        <item>3. As you pull, extend your hips and knees, then catch the barbell in a squat position with the bar resting on your shoulders.</item>
+        <item>4. Stand up fully, then lower the barbell back to the starting position and repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest up and back flat throughout the movement to avoid injury.</item>
+        <item>2. Focus on using your hips and legs to generate the power needed to pull the barbell up.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyRowingMachine">
+        <item>Rowing Machine</item>
+        <item>The Rowing Machine provides a full-body workout that targets the legs, back, arms, and core. It is excellent for improving cardiovascular fitness and endurance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the rowing machine with your feet secured in the foot straps and your knees bent.</item>
+        <item>2. Grip the handle with both hands, keeping your arms extended in front of you and your back straight.</item>
+        <item>3. Push with your legs to begin the stroke, then lean back slightly and pull the handle toward your chest.</item>
+        <item>4. Extend your arms back out and lean forward to prepare for the next stroke.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on using your legs to initiate the stroke, then follow through with your back and arms.</item>
+        <item>2. Maintain a smooth and controlled motion to avoid jerking and reduce the risk of injury.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyBarbellBentOverRow">
+        <item>Barbell Bent Over Row</item>
+        <item>The Barbell Bent Over Row targets the upper back, shoulders, and arms. It helps develop strength and muscle mass, particularly in the lats and rhomboids.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start by standing with your feet shoulder-width apart and hold the barbell with an overhand grip.</item>
+        <item>2. Bend your knees slightly and lean forward at the waist, keeping your back flat and chest up.</item>
+        <item>3. Pull the barbell towards your torso, keeping your elbows close to your body.</item>
+        <item>4. Lower the barbell back down to the starting position with control and repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back flat and avoid rounding your spine during the lift.</item>
+        <item>2. Squeeze your shoulder blades together at the top of the movement for full activation of your back muscles.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyLeglessRopeClimb">
+        <item>Legless Rope Climb</item>
+        <item>The Legless Rope Climb is a challenging exercise that builds upper body strength, particularly in the arms, back, and core. It requires significant grip strength and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Grab the rope with both hands and pull yourself up, using only your upper body for the climb.</item>
+        <item>2. Engage your core to maintain a stable position as you climb, avoiding using your legs for assistance.</item>
+        <item>3. Continue to climb until you reach the top of the rope, then slowly descend back down to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight to help you stabilize your body during the climb.</item>
+        <item>2. Use a strong, controlled grip on the rope to ensure you don\'t lose hold while climbing.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyPushUpToeTouch">
+        <item>Push-Up Toe Touch</item>
+        <item>The Push-Up Toe Touch combines the classic push-up with a dynamic toe touch, engaging the chest, shoulders, core, and legs.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a standard push-up position with your hands placed slightly wider than shoulder-width apart.</item>
+        <item>2. Lower your chest to the ground by bending your elbows.</item>
+        <item>3. As you push back up, lift one leg and touch your opposite foot with your hand, maintaining a strong plank position.</item>
+        <item>4. Return your foot to the ground, perform another push-up, and repeat with the other leg.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged and avoid letting your hips sag during the push-up phase.</item>
+        <item>2. Focus on controlled movements to maintain balance and form throughout the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyBentOverDumbbellRow">
+        <item>Bent Over Dumbbell Row</item>
+        <item>The Bent Over Dumbbell Row targets the back muscles, including the lats, rhomboids, and traps, while also engaging the core and arms.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand, bend your knees slightly, and lean forward at the hips, keeping your back flat and chest up.</item>
+        <item>2. Row the dumbbells toward your torso by bending your elbows, keeping them close to your body.</item>
+        <item>3. Slowly lower the dumbbells back to the starting position and repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid jerking or swinging the weights, using controlled movements throughout the exercise.</item>
+        <item>2. Keep your back straight and shoulders down to prevent unnecessary strain on your lower back.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyMuscleUp">
+        <item>Muscle-Up</item>
+        <item>The Muscle-Up is an advanced bodyweight exercise that combines a pull-up with a dip, requiring significant upper body strength, explosiveness, and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start by gripping the bar with an overhand grip and hanging with your arms extended.</item>
+        <item>2. Perform a pull-up, pulling your chest above the bar, then explosively transition into a dip position by pushing yourself upward and over the bar.</item>
+        <item>3. Push yourself fully into the dip position, then lower yourself back down to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core and avoid swinging your body to gain momentum during the movement.</item>
+        <item>2. Focus on a smooth and controlled transition from the pull-up to the dip phase to maximize efficiency.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyPushPress">
+        <item>Push Press</item>
+        <item>The Push Press is a dynamic strength exercise that works the shoulders, triceps, and core while also engaging the lower body. It uses momentum from the legs to help press a barbell overhead.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start by standing with your feet shoulder-width apart, holding a barbell at shoulder height with an overhand grip.</item>
+        <item>2. Slightly bend your knees and use your legs to help push the barbell overhead, fully extending your arms.</item>
+        <item>3. Lower the barbell back down to shoulder height with control and repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight and avoid using excessive momentum from your lower back to prevent injury.</item>
+        <item>2. Focus on pressing the barbell in a straight line overhead, keeping your elbows under the barbell.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyLandmineSquatToPress">
+        <item>Landmine Squat to Press</item>
+        <item>The Landmine Squat to Press is a compound movement that targets the legs, core, and shoulders. It combines a squat with an overhead press, improving overall strength and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand facing the landmine machine with your feet shoulder-width apart and grasp the end of the barbell with both hands.</item>
+        <item>2. Perform a squat by pushing your hips back and lowering your body until your thighs are parallel to the ground.</item>
+        <item>3. Push through your heels to return to standing, then press the barbell overhead by extending your arms fully.</item>
+        <item>4. Lower the barbell back down and repeat the movement for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest up and back straight during the squat to avoid injury.</item>
+        <item>2. Ensure that your knees track over your toes during the squat, maintaining proper form.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyBarbellCleanAndPress">
+        <item>Barbell Clean and Press</item>
+        <item>The Barbell Clean and Press is a full-body exercise that improves power, strength, and coordination. It combines the clean and press movements into one fluid motion, working multiple muscle groups.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart and grip the barbell with an overhand grip just outside your knees.</item>
+        <item>2. Pull the barbell off the ground, using your hips and legs to lift it to your shoulders in a clean motion.</item>
+        <item>3. Press the barbell overhead by extending your arms, fully locking out at the top.</item>
+        <item>4. Lower the barbell back down to your shoulders and then to the ground with control, repeating for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and engage your core during the clean to prevent injury.</item>
+        <item>2. Ensure a smooth transition between the clean and press, using minimal rest between the two movements.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyPowerClean">
+        <item>Power Clean</item>
+        <item>The Power Clean is a fast, explosive movement that targets the legs, back, and shoulders. It’s often used in Olympic weightlifting and functional training.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet hip-width apart, grip the barbell with an overhand grip, and ensure your back is flat.</item>
+        <item>2. With a powerful drive from your legs and hips, pull the barbell off the ground and bring it to your shoulders.</item>
+        <item>3. Catch the barbell at your shoulders in a partial squat position, then stand up straight and press the barbell overhead.</item>
+        <item>4. Lower the barbell back to the ground with control and repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on using your legs and hips to generate power for the clean phase, not just your arms.</item>
+        <item>2. Keep your chest up and your back flat during the lift to avoid rounding your spine.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyTurkishGetUp">
+        <item>Turkish Get-up</item>
+        <item>The Turkish Get-up is a full-body exercise that improves mobility, stability, and strength. It targets the shoulders, core, and legs while improving coordination and balance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back holding a kettlebell or dumbbell in one hand, with your arm fully extended overhead.</item>
+        <item>2. Keep the weight overhead and use your free hand to push yourself up onto your elbow, then onto your hand, and finally onto one knee.</item>
+        <item>3. Stand up while keeping the weight overhead, then reverse the movement to return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on controlled movements and stability at each phase of the get-up.</item>
+        <item>2. Keep your eyes on the weight overhead throughout the movement to maintain balance.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyKettlebellSwings">
+        <item>Kettlebell Swings</item>
+        <item>The Kettlebell Swing is a dynamic exercise that works the entire body, especially the hips, glutes, and core. It is often used to improve cardiovascular endurance, strength, and explosiveness.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet slightly wider than shoulder-width apart, holding a kettlebell with both hands in front of you.</item>
+        <item>2. Hinge at the hips and slightly bend your knees to lower the kettlebell between your legs.</item>
+        <item>3. Drive your hips forward to swing the kettlebell up to chest height, keeping your arms straight and core engaged.</item>
+        <item>4. Allow the kettlebell to swing back down between your legs as you hinge at the hips and repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on using your hips to generate the power for the swing, not your arms.</item>
+        <item>2. Keep your back straight and core engaged throughout the movement to prevent injury.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyOneArmKettlebellSnatch">
+        <item>One Arm Kettlebell Snatch</item>
+        <item>The One Arm Kettlebell Snatch is a powerful exercise that works the entire body, particularly the shoulders, back, and legs. It is a dynamic movement that improves explosiveness and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start by standing with your feet hip-width apart, holding a kettlebell in one hand in front of you on the ground.</item>
+        <item>2. Swing the kettlebell between your legs and then thrust your hips forward to drive the kettlebell up overhead in one smooth motion.</item>
+        <item>3. Lock out your arm at the top and control the kettlebell back down to the starting position, then repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core and hips to generate power for the movement, not your arm.</item>
+        <item>2. Keep the kettlebell close to your body during the swing and snatch for better control.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyImpossibleDips">
+        <item>Impossible Dips</item>
+        <item>The Impossible Dip is an advanced exercise that targets the triceps and chest. It requires significant upper body strength, particularly in the shoulders and arms.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set up two parallel bars, ensuring they are stable and at a height that allows you to hang with your arms extended.</item>
+        <item>2. Jump and place your hands on the bars, lifting your body up so that your arms are fully extended.</item>
+        <item>3. Lower your body by bending your elbows, then push yourself back up by extending your arms fully, keeping your chest open.</item>
+        <item>4. Repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to avoid sagging in your lower back.</item>
+        <item>2. Perform the movement slowly and with control to fully activate the triceps and chest muscles.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyKoreanDips">
+        <item>Korean Dips</item>
+        <item>Korean Dips are a bodyweight exercise that primarily targets the chest, triceps, and shoulders. They involve a unique dipping movement that emphasizes the upper body.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set up two parallel bars, ensuring they are positioned at a height that allows you to lower your body under control.</item>
+        <item>2. Grab the bars with a firm grip and lift your body, keeping your legs extended in front of you.</item>
+        <item>3. Lower your body until your upper arms are parallel to the ground, then push back up to the starting position.</item>
+        <item>4. Repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest up and avoid letting your shoulders round forward during the dip.</item>
+        <item>2. Engage your core throughout the movement to maintain stability and control.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyStraightBarDip">
+        <item>Straight Bar Dip</item>
+        <item>The Straight Bar Dip is a variation of the traditional dip, targeting the chest, shoulders, and triceps. It involves using a straight bar for added challenge and variety.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set up a straight bar at a height that allows you to hold it with your hands while your feet are off the ground.</item>
+        <item>2. Place your hands on the bar and lift your body off the ground, ensuring your arms are fully extended.</item>
+        <item>3. Lower your body until your upper arms are parallel to the ground, then push back up to the starting position.</item>
+        <item>4. Repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on keeping your elbows in a safe range of motion and avoid flaring them out excessively.</item>
+        <item>2. Engage your chest and triceps to control the movement and push back up with strength.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyKettlebellCleanAndJerk">
+        <item>Kettlebell Clean and Jerk</item>
+        <item>The Kettlebell Clean and Jerk is a powerful total-body exercise that targets the hips, glutes, shoulders, and core. It is often used to improve strength, explosiveness, and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding a kettlebell in one hand with your arm extended in front of you.</item>
+        <item>2. Hinge at your hips to lower the kettlebell between your legs, then explosively drive your hips forward to "clean" the kettlebell to shoulder height.</item>
+        <item>3. From the clean position, jerk the kettlebell overhead by dipping into a slight squat and then driving through your legs to press it upwards.</item>
+        <item>4. Lower the kettlebell back down and repeat the movement for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use your hips to generate power for the clean and jerk, not your arms.</item>
+        <item>2. Engage your core and maintain proper posture throughout the movement to avoid injury.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyDumbbellBurpees">
+        <item>Dumbbell Burpees</item>
+        <item>The Dumbbell Burpee is a variation of the classic burpee, incorporating dumbbells to add resistance and challenge the upper body, core, and legs.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand and stand with your feet shoulder-width apart.</item>
+        <item>2. Drop into a squat position and place the dumbbells on the ground in front of you.</item>
+        <item>3. Jump your feet back into a push-up position while keeping the dumbbells in place.</item>
+        <item>4. Perform a push-up, then jump your feet back towards the dumbbells.</item>
+        <item>5. Jump up explosively, bringing the dumbbells overhead in a press, then return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core throughout the movement to maintain stability.</item>
+        <item>2. Focus on controlled movements, especially during the push-up and the jump.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyDumbbellJumpSquat">
+        <item>Dumbbell Jump Squat</item>
+        <item>The Dumbbell Jump Squat is a powerful lower-body exercise that targets the quads, hamstrings, glutes, and calves. It is designed to improve explosive strength and power.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand by your sides, with your feet shoulder-width apart.</item>
+        <item>2. Lower your body into a squat position, keeping your chest up and your knees tracking over your toes.</item>
+        <item>3. Explosively jump upward, extending your legs and arms in a fluid motion.</item>
+        <item>4. Land softly back into a squat position and immediately repeat the jump.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on a soft landing to reduce the impact on your knees.</item>
+        <item>2. Keep your core tight during the jump to maintain balance and control.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyBurpees">
+        <item>Burpees</item>
+        <item>Burpees are a full-body exercise that improves cardiovascular endurance, strength, and coordination. They target the legs, chest, arms, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart and your arms by your sides.</item>
+        <item>2. Drop into a squat position and place your hands on the floor in front of you.</item>
+        <item>3. Jump your feet back into a push-up position, then lower your chest to the floor and perform a push-up.</item>
+        <item>4. Push yourself back up, then jump your feet forward to the squat position.</item>
+        <item>5. Explosively jump up, reaching your arms overhead, and return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a steady rhythm and perform the movement as smoothly as possible.</item>
+        <item>2. Keep your core tight to avoid lower-back strain during the push-up portion of the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyLSitPullUp">
+        <item>L-Sit Pull-Up</item>
+        <item>The L-Sit Pull-Up is an advanced pull-up variation that challenges the upper body, core, and grip strength. It involves performing a pull-up while holding an L-sit position.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hang from a pull-up bar with your hands shoulder-width apart and your legs extended in front of you, creating an L-shape with your body.</item>
+        <item>2. Pull yourself up towards the bar while maintaining the L-sit position, focusing on engaging your back and biceps.</item>
+        <item>3. Lower yourself back down with control and repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to prevent your legs from dropping during the movement.</item>
+        <item>2. Perform the pull-up in a controlled manner, focusing on form and technique.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyBackLever">
+        <item>Back Lever</item>
+        <item>The Back Lever is a challenging gymnastics move that requires significant strength, control, and flexibility. It primarily targets the shoulders, core, and lower back while improving overall body control.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hang from a horizontal bar with your hands placed slightly wider than shoulder-width apart.</item>
+        <item>2. Engage your core and back to slowly rotate your body backward, aiming to bring your body parallel to the ground, keeping your legs straight and together.</item>
+        <item>3. Hold the position for as long as you can, maintaining a tight body and straight lines from head to toe.</item>
+        <item>4. Carefully return to the starting position by using your core strength.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight and legs straight throughout the movement.</item>
+        <item>2. Focus on gradual progression, as this is an advanced move requiring significant strength and control.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyFrontLeverPullUp">
+        <item>Front Lever Pull-Up</item>
+        <item>The Front Lever Pull-Up combines a front lever hold with a pull-up movement, targeting the core, lats, and arms. This is an advanced exercise requiring significant strength and body control.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin by hanging from a pull-up bar with your hands slightly wider than shoulder-width apart.</item>
+        <item>2. Pull your legs up and lean your body back into a front lever position (horizontal to the ground).</item>
+        <item>3. Perform a pull-up by pulling your chest toward the bar while keeping your legs elevated and body rigid.</item>
+        <item>4. Slowly lower yourself back to the starting position and repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a tight core and avoid letting your body sag during the pull-up portion.</item>
+        <item>2. Gradually build up to the full front lever position to ensure proper form and strength development.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyOneArmDumbbellSnatch">
+        <item>One Arm Dumbbell Snatch</item>
+        <item>The One Arm Dumbbell Snatch is an explosive full-body movement that improves power, coordination, and strength, especially targeting the legs, hips, shoulders, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding a dumbbell in one hand with your arm fully extended in front of you.</item>
+        <item>2. Hinge at your hips and lower the dumbbell to the floor while keeping your chest up and back straight.</item>
+        <item>3. Explosively drive through your hips and legs, using the momentum to pull the dumbbell up and overhead in one fluid motion.</item>
+        <item>4. Lock out your arm overhead and return the dumbbell back to the starting position under control.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use your hips to generate power and avoid using your arm alone to lift the dumbbell.</item>
+        <item>2. Perform the movement with explosive speed while maintaining control throughout.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyArcherPullUp">
+        <item>Archer Pull-Up</item>
+        <item>The Archer Pull-Up is a challenging variation of the pull-up that focuses on unilateral strength, targeting the lats, biceps, and shoulders while increasing overall pulling power.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hang from a pull-up bar with a wider than shoulder-width grip, keeping your body straight.</item>
+        <item>2. Pull yourself up to one side, extending your opposite arm out to the side, as if you\'re drawing a bow.</item>
+        <item>3. Lower yourself back down and repeat on the other side, alternating between sides for each rep.</item>
+        <item>4. Complete the desired number of repetitions, ensuring that both sides are trained equally.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to avoid swinging during the movement.</item>
+        <item>2. Focus on controlled movements, especially when lowering your body back down.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyCrossBodyPushUp">
+        <item>Cross Body Push-Up</item>
+        <item>The Cross Body Push-Up is a dynamic variation of the standard push-up that engages the chest, triceps, shoulders, and core, while adding an element of rotational movement to increase difficulty.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a standard push-up position with your hands placed shoulder-width apart.</item>
+        <item>2. As you lower your body toward the ground, bring one knee toward the opposite elbow, creating a diagonal cross-body motion.</item>
+        <item>3. Push yourself back up to the starting position, then alternate sides with each repetition.</item>
+        <item>4. Complete the desired number of reps, ensuring that each side is worked evenly.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core tight throughout the movement to stabilize your body.</item>
+        <item>2. Move with control to avoid straining the shoulder joints and to maintain balance.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyTrapBarJumpSquat">
+        <item>Trap Bar Jump Squat</item>
+        <item>The Trap Bar Jump Squat is a plyometric exercise that focuses on developing explosive power in the legs, especially the quads, hamstrings, and glutes. It also helps improve vertical jump height and athletic performance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand inside a trap bar with feet shoulder-width apart, gripping the handles securely.</item>
+        <item>2. Lower your body into a squat position by bending your knees and pushing your hips back.</item>
+        <item>3. Explosively jump upward, extending your legs and pushing through your heels, while keeping the trap bar close to your body.</item>
+        <item>4. Land softly and immediately go into the next rep, maintaining proper squat form throughout.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on explosive power and speed, driving your feet into the ground as you jump.</item>
+        <item>2. Keep your chest up and back straight to avoid injury while performing the jump squat.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyMedicineBallSitUpThrow">
+        <item>Medicine Ball Sit-up Throw</item>
+        <item>The Medicine Ball Sit-up Throw is a dynamic exercise that targets the core muscles while improving coordination and explosive power, particularly in the abdominals, shoulders, and chest.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin by lying on your back with your knees bent and feet flat on the ground, holding a medicine ball at chest level.</item>
+        <item>2. Perform a sit-up, bringing your torso up and simultaneously throwing the medicine ball forward as you extend your arms.</item>
+        <item>3. Catch the ball as it comes back and return to the starting position with control.</item>
+        <item>4. Repeat the movement for the desired number of reps, focusing on using your core to generate the power for the throw.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core throughout the entire movement to control both the sit-up and the throw.</item>
+        <item>2. Make sure to use a moderate weight medicine ball to avoid strain during the throw.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyBarbellJumpSquat">
+        <item>Barbell Jump Squat</item>
+        <item>The Barbell Jump Squat is a plyometric exercise that combines strength and explosiveness. It helps improve lower body power, focusing on the quads, glutes, hamstrings, and calves while enhancing vertical jump performance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start by standing with your feet shoulder-width apart and a barbell positioned across your upper traps, as you would in a back squat.</item>
+        <item>2. Lower yourself into a squat position, keeping your chest up and your back straight.</item>
+        <item>3. Explode upward into a jump, extending your legs fully while pushing through your heels.</item>
+        <item>4. Land softly, absorbing the impact through your legs, and immediately go into the next rep.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep the barbell stable on your back throughout the jump, avoiding any unnecessary shifting.</item>
+        <item>2. Focus on generating maximum power from your legs during the jump, and ensure a soft landing to protect your joints.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyHandstandWalk">
+        <item>Handstand Walk</item>
+        <item>The Handstand Walk is an advanced gymnastics move that requires significant strength, balance, and coordination. It targets the shoulders, triceps, and core while enhancing overall body control.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin by kicking up into a handstand position against a wall or freestanding, ensuring your body is straight and your hands are shoulder-width apart.</item>
+        <item>2. Engage your core and use your hands and shoulders to move your body forward, walking on your hands while maintaining balance.</item>
+        <item>3. Keep your legs together and your body tight as you walk in a controlled manner.</item>
+        <item>4. Continue walking for the desired distance or time before safely returning to the ground.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Practice proper handstand form first before attempting to walk on your hands.</item>
+        <item>2. Keep your core engaged and avoid excessive arching in your back to maintain stability during the walk.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyHandstand">
+        <item>Handstand</item>
+        <item>The Handstand is a fundamental gymnastics move that develops shoulder strength, balance, and coordination. It also engages the core and improves body control.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start by kicking into a handstand position with your hands placed shoulder-width apart on the floor or against a wall.</item>
+        <item>2. Keep your body straight and your core tight, with your legs fully extended and together.</item>
+        <item>3. Focus on maintaining balance and stability by pressing through your palms and keeping your shoulders engaged.</item>
+        <item>4. Hold the position for as long as you can, ensuring proper form throughout the movement.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Begin by practicing with a wall for support, and gradually work up to freestanding handstands.</item>
+        <item>2. Keep your head neutral and avoid looking down to prevent neck strain.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyKettlebellCleanAndPress">
+        <item>Kettlebell Clean and Press</item>
+        <item>The Kettlebell Clean and Press is a full-body exercise that targets the shoulders, arms, and legs while developing explosive power, endurance, and coordination. This dynamic movement combines a clean to bring the kettlebell to the rack position and a press to extend it overhead.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start by standing with your feet shoulder-width apart, holding a kettlebell with one hand between your legs.</item>
+        <item>2. Hinge at the hips and bend your knees slightly, then explosively pull the kettlebell up towards your shoulder, flipping it into the rack position.</item>
+        <item>3. Press the kettlebell overhead by extending your arm fully, keeping your core engaged and body stable.</item>
+        <item>4. Lower the kettlebell back down to the starting position and repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and chest up during the clean to avoid injury.</item>
+        <item>2. Maintain a controlled movement and engage your core to stabilize your body during the press.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyClimbingMonkeyBars">
+        <item>Climbing Monkey Bars</item>
+        <item>The Climbing Monkey Bars is a challenging upper body exercise that targets the shoulders, arms, and core. It improves grip strength and enhances coordination as you move from bar to bar.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Grab the first bar of the monkey bars with both hands and position your body in a slight squat stance.</item>
+        <item>2. Pull yourself upward and forward to the next bar, switching hands as you go from one bar to the next.</item>
+        <item>3. Continue moving across the bars until you reach the end of the set, using your upper body strength to navigate each section.</item>
+        <item>4. Lower yourself down carefully once you have completed the set, or return to the starting point if desired.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core throughout the movement to maintain stability and control.</item>
+        <item>2. Keep your body close to the bars to reduce the effort required from your arms.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyKippingHandstandPushup">
+        <item>Kipping Handstand Push-up</item>
+        <item>The Kipping Handstand Push-up is an advanced exercise that combines strength and momentum to perform a push-up while in a handstand position. It targets the shoulders, triceps, and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Kick into a handstand position, keeping your body tight and your core engaged.</item>
+        <item>2. Lower your body toward the ground by bending your elbows, then use a powerful kip motion to push yourself back up to the starting position.</item>
+        <item>3. Repeat the movement for the desired number of reps, ensuring proper form and control throughout.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on using your hips to generate the momentum for the push-up, not just your arms.</item>
+        <item>2. Keep your body in a straight line during the handstand to avoid excessive arching in your back.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodySnapJumps">
+        <item>Snap Jumps</item>
+        <item>Snap Jumps are a plyometric exercise that targets the legs, especially the quads and calves, while improving explosiveness, agility, and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart and knees slightly bent.</item>
+        <item>2. Jump explosively upward, bringing your knees toward your chest and keeping your arms at your sides for momentum.</item>
+        <item>3. Land softly with your knees slightly bent to absorb the impact, and immediately go into the next jump.</item>
+        <item>4. Repeat for the desired number of reps, focusing on quick and powerful jumps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core and keep your chest up during the jumps to maintain proper posture.</item>
+        <item>2. Focus on landing softly to protect your joints and reduce the risk of injury.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyBarbellThruster">
+        <item>Barbell Thruster</item>
+        <item>The Barbell Thruster is a compound movement that combines a front squat and overhead press. It targets the legs, shoulders, and core while improving explosive strength and endurance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin by standing with your feet shoulder-width apart, holding a barbell at shoulder height in a front rack position.</item>
+        <item>2. Lower yourself into a squat position by bending your knees and hips.</item>
+        <item>3. As you stand back up, press the barbell overhead, extending your arms fully.</item>
+        <item>4. Lower the barbell back down to the starting position and repeat the movement for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest up and back straight during the squat portion to avoid injury.</item>
+        <item>2. Use a powerful drive from your legs to press the barbell overhead, minimizing the strain on your shoulders.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyBodyweightSkullCrushers">
+        <item>Bodyweight Skull Crushers</item>
+        <item>Bodyweight Skull Crushers are a bodyweight variation of the traditional triceps exercise, targeting the triceps and the forearms. This movement can be performed using your body weight for resistance, making it great for building upper body strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start by placing your hands on a bench or a raised surface, with your arms extended directly beneath your shoulders.</item>
+        <item>2. Walk your feet back slightly so that your body forms a diagonal line from head to heels.</item>
+        <item>3. Bend your elbows to lower your head toward the ground, keeping your elbows fixed and pointed towards the ceiling.</item>
+        <item>4. Press back up to the starting position, fully extending your arms.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows in a stationary position throughout the movement to isolate the triceps.</item>
+        <item>2. Focus on controlling the movement as you lower your body and press back up to avoid jerking motions.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyStraddlePlanche">
+        <item>Straddle Planche</item>
+        <item>The Straddle Planche is an advanced calisthenics exercise that targets the core, shoulders, and arms while improving overall body control and strength. The exercise involves holding a planche position with the legs spread wide apart for added balance and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin by sitting on the floor with your legs spread wide apart in a straddle position.</item>
+        <item>2. Place your hands on the floor next to your hips and lean forward, lifting your legs and body off the ground while keeping your arms fully extended.</item>
+        <item>3. Hold the position, keeping your legs spread wide apart and your body as horizontal as possible.</item>
+        <item>4. Maintain the position for the desired duration, engaging your core and arms to stabilize your body.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest open and shoulders active to avoid collapsing your upper body.</item>
+        <item>2. Engage your core and avoid letting your lower back sag during the hold.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyOneArmKettlebellSwing">
+        <item>One Arm Kettlebell Swing</item>
+        <item>The One Arm Kettlebell Swing is a dynamic exercise that targets the hips, glutes, hamstrings, and core while also improving grip strength. It is a variation of the kettlebell swing performed with one arm for increased challenge and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart and place a kettlebell in front of you on the floor.</item>
+        <item>2. Bend at the hips and grasp the kettlebell with one hand, while keeping your back straight and chest up.</item>
+        <item>3. Swing the kettlebell back between your legs and then drive your hips forward to propel the kettlebell upward to shoulder height.</item>
+        <item>4. Control the kettlebell as it swings back down and repeat for the desired number of reps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on generating power from your hips and legs, rather than using your arm to lift the kettlebell.</item>
+        <item>2. Keep your core engaged to maintain stability throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyMedicineBallOverheadSlam">
+        <item>Medicine Ball Overhead Slam</item>
+        <item>The Medicine Ball Overhead Slam is a full-body explosive movement that works the shoulders, core, and legs while also enhancing cardiovascular fitness. It is great for building power and releasing tension.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart, holding a medicine ball with both hands overhead.</item>
+        <item>2. Engage your core and slam the ball down onto the ground as hard as possible while simultaneously bending your knees and hips.</item>
+        <item>3. Catch the ball as it bounces back up or pick it up and repeat the motion.</item>
+        <item>4. Perform the exercise for the desired number of reps, maintaining a fluid, powerful motion.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on driving through your legs and hips to generate power for the slam.</item>
+        <item>2. Keep your back straight and engage your core to protect your lower back during the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyWallBall">
+        <item>Wall Ball</item>
+        <item>The Wall Ball is a functional exercise that targets the legs, core, and shoulders. It combines a squat with an overhead throw, making it great for improving strength, endurance, and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand facing a wall, holding a medicine ball at chest height with both hands.</item>
+        <item>2. Perform a deep squat, keeping your chest up and your knees behind your toes.</item>
+        <item>3. As you stand up, throw the ball towards the wall, aiming for a target at the top of the wall.</item>
+        <item>4. Catch the ball as it comes back down and immediately go into the next squat and throw.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements smooth and controlled, especially when catching the ball.</item>
+        <item>2. Focus on using your legs to generate power for the throw, rather than relying solely on your arms.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyKettlebellRenegadeRow">
+        <item>Kettlebell Renegade Row</item>
+        <item>The Kettlebell Renegade Row is a full-body exercise that targets the back, shoulders, core, and arms. It combines a rowing movement with a plank, providing a challenge for stability and strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a plank position with a kettlebell in each hand, keeping your body in a straight line from head to heels.</item>
+        <item>2. Row one kettlebell up towards your side, keeping your elbow close to your body while stabilizing your hips and core.</item>
+        <item>3. Lower the kettlebell back to the ground and repeat the row on the opposite side.</item>
+        <item>4. Perform the movement for the desired number of reps while maintaining a solid core and keeping your body in a straight line.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged and avoid rotating your hips during the row.</item>
+        <item>2. Focus on a slow and controlled movement for both the row and the plank position to maintain balance.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyPushUpToRenegadeRow">
+        <item>Push-Up to Renegade Row</item>
+        <item>The Push-Up to Renegade Row is a dynamic, full-body exercise that combines a push-up with a rowing movement, targeting the chest, shoulders, arms, and core while challenging stability and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a plank position with a kettlebell in each hand.</item>
+        <item>2. Perform a push-up by lowering your chest towards the ground, then press back up to the top position.</item>
+        <item>3. After the push-up, row one kettlebell towards your side, keeping your elbow close to your body and maintaining a stable core.</item>
+        <item>4. Lower the kettlebell back to the ground, perform another push-up, and repeat the row on the opposite side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core to prevent your hips from rotating during the push-up and row.</item>
+        <item>2. Perform each movement slowly and with control to maximize strength and stability.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyModifiedHinduPushUp">
+        <item>Modified Hindu Push-Up</item>
+        <item>The Modified Hindu Push-Up is a variation of the traditional Hindu push-up, focusing on flexibility and mobility while also targeting the chest, shoulders, and triceps. This modified version is less intense than the classic Hindu push-up.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a downward dog position with your hips raised and your hands shoulder-width apart.</item>
+        <item>2. Lower your chest towards the floor in a smooth motion, as you push your hips towards the ground, resembling an arc.</item>
+        <item>3. Push through your hands to return to the starting position, while maintaining a fluid, continuous motion.</item>
+        <item>4. Repeat for the desired number of reps, keeping your body engaged and moving in a controlled manner.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on maintaining fluid movement throughout the exercise rather than forcing the range of motion.</item>
+        <item>2. Keep your core tight to avoid sagging in your lower back.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyPlanchePushUp">
+        <item>Planche Push-Up</item>
+        <item>The Planche Push-Up is an advanced bodyweight exercise that primarily targets the shoulders, chest, and core. It requires significant upper body and core strength to maintain the body in a horizontal position while performing a push-up.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin in a push-up position, but with your feet off the ground and your body parallel to the floor.</item>
+        <item>2. Lower your chest towards the ground, keeping your arms bent at a 90-degree angle, and then press back up to the starting position.</item>
+        <item>3. Repeat for the desired number of reps, ensuring your body stays parallel to the ground throughout the movement.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core and legs to keep your body stable and prevent sagging in the lower back.</item>
+        <item>2. Start with basic progressions if this exercise is too advanced for you.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyArcherPushUp">
+        <item>Archer Push-Up</item>
+        <item>The Archer Push-Up is a challenging variation of the standard push-up that targets the chest, shoulders, and triceps while increasing the demand on core stability. It involves a wider hand placement and alternating the load between the arms.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a push-up position, but with your hands placed wider than shoulder-width apart.</item>
+        <item>2. Lower your chest towards one hand, while keeping the opposite arm straight.</item>
+        <item>3. Push back up to the starting position, then perform the push-up on the opposite side.</item>
+        <item>4. Repeat for the desired number of reps, alternating between the two sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your body aligned and avoid rotating your hips during the movement.</item>
+        <item>2. Engage your core to maintain stability while shifting the load between arms.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyKettlebellFigure8">
+        <item>Kettlebell Figure 8</item>
+        <item>The Kettlebell Figure 8 is an effective dynamic exercise that targets the shoulders, core, and legs while improving coordination and stability. It involves passing the kettlebell between your legs in a figure-8 motion.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet shoulder-width apart and hold a kettlebell with both hands.</item>
+        <item>2. Pass the kettlebell around one leg from the outside to the inside, then around the other leg in the same pattern to form a figure-8.</item>
+        <item>3. Continue passing the kettlebell in the figure-8 motion for the desired number of reps.</item>
+        <item>4. Engage your core throughout the movement to maintain stability and avoid leaning forward.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep a neutral spine and bend at the hips to guide the kettlebell smoothly between your legs.</item>
+        <item>2. Maintain a steady rhythm and avoid jerking the kettlebell to prevent injury.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyDumbbellRenegadeRow">
+        <item>Dumbbell Renegade Row</item>
+        <item>The Dumbbell Renegade Row is a full-body exercise that strengthens the back, shoulders, arms, and core. It combines a row movement with a plank position, improving both strength and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin in a plank position with a dumbbell in each hand and your body in a straight line from head to heels.</item>
+        <item>2. Row one dumbbell towards your ribcage, keeping your elbow close to your body while stabilizing your hips and core.</item>
+        <item>3. Lower the dumbbell back to the ground, then row the opposite dumbbell.</item>
+        <item>4. Alternate rows for the desired number of reps while keeping your body stable and your core engaged.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rotating your hips during the row—keep your body in a straight line.</item>
+        <item>2. Perform each row slowly and with control to maximize strength and stability.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyDumbbellIronCross">
+        <item>Dumbbell Iron Cross</item>
+        <item>The Dumbbell Iron Cross is an exercise that targets the shoulders and chest, requiring significant stability and control. It involves holding two dumbbells while performing a horizontal "fly" motion.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with a dumbbell in each hand, arms extended out to the sides at shoulder height.</item>
+        <item>2. Keeping a slight bend in your elbows, slowly rotate your arms to the front, bringing the dumbbells towards each other in front of you.</item>
+        <item>3. Reverse the motion, slowly returning your arms to the starting position, maintaining control throughout the movement.</item>
+        <item>4. Repeat for the desired number of reps, focusing on engaging the shoulder and chest muscles.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to prevent leaning backward or arching your back.</item>
+        <item>2. Perform the movement slowly and with control to maximize muscle engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyRingDips">
+        <item>Ring Dips</item>
+        <item>Ring Dips are an advanced exercise that targets the chest, triceps, and shoulders. Performing dips on rings requires greater stability and control than traditional bar dips.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set up two gymnastic rings and grip them firmly with your hands, keeping your body in an upright position.</item>
+        <item>2. Lower your body by bending your elbows until your upper arms are parallel to the ground or your shoulders are below your elbows.</item>
+        <item>3. Push through your palms to extend your arms, returning to the starting position.</item>
+        <item>4. Repeat for the desired number of reps, maintaining control and stability throughout.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows slightly in front of your body as you lower yourself, avoiding excessive flaring.</item>
+        <item>2. Engage your core and avoid swinging your body to help maintain stability on the rings.</item>
+    </string-array>
+
+    <string-array name="descriptionFullBodyBattleRope">
+        <item>Battle Rope</item>
+        <item>Battle Rope exercises involve using thick, heavy ropes to perform a variety of movements that target your shoulders, arms, and core. This dynamic exercise also provides cardiovascular benefits.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand facing the battle ropes with your feet shoulder-width apart, gripping the ends of the ropes with both hands.</item>
+        <item>2. Perform waves by lifting and lowering the ropes in alternating motions, creating continuous, undulating movements.</item>
+        <item>3. You can also try slams by lifting the ropes above your head and forcefully slamming them to the ground.</item>
+        <item>4. Perform for the desired duration, varying the intensity of the movements.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged and avoid excessive leaning forward or backward.</item>
+        <item>2. Use your legs to generate power and help control the movement, especially during battle rope slams.</item>
+    </string-array>
+</resources>

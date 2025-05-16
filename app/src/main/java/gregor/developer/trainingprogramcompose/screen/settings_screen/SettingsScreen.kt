@@ -3,6 +3,7 @@ package gregor.developer.trainingprogramcompose.screen.settings_screen
 
 import android.content.Context
 import android.graphics.Paint
+import android.util.EventLogTags.Description
 import android.util.Log
 import androidx.compose.animation.core.animate
 import androidx.compose.animation.core.tween
@@ -40,6 +41,22 @@ import androidx.compose.ui.unit.sp
 import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.hilt.navigation.compose.hiltViewModel
 import gregor.developer.trainingprogramcompose.R
+import gregor.developer.trainingprogramcompose.dialog.dialog_list.DescriptionArray.DescriptionAdsArray
+import gregor.developer.trainingprogramcompose.dialog.dialog_list.DescriptionArray.DescriptionBackWingArray
+import gregor.developer.trainingprogramcompose.dialog.dialog_list.DescriptionArray.DescriptionBicepsArray
+import gregor.developer.trainingprogramcompose.dialog.dialog_list.DescriptionArray.DescriptionCalfArray
+import gregor.developer.trainingprogramcompose.dialog.dialog_list.DescriptionArray.DescriptionCalisthenicsArray
+import gregor.developer.trainingprogramcompose.dialog.dialog_list.DescriptionArray.DescriptionCardioArray
+import gregor.developer.trainingprogramcompose.dialog.dialog_list.DescriptionArray.DescriptionChestArray
+import gregor.developer.trainingprogramcompose.dialog.dialog_list.DescriptionArray.DescriptionErectorSpinaeArray
+import gregor.developer.trainingprogramcompose.dialog.dialog_list.DescriptionArray.DescriptionForearmArray
+import gregor.developer.trainingprogramcompose.dialog.dialog_list.DescriptionArray.DescriptionFullBodyArray
+import gregor.developer.trainingprogramcompose.dialog.dialog_list.DescriptionArray.DescriptionHipArray
+import gregor.developer.trainingprogramcompose.dialog.dialog_list.DescriptionArray.DescriptionNeckArray
+import gregor.developer.trainingprogramcompose.dialog.dialog_list.DescriptionArray.DescriptionShouldersArray
+import gregor.developer.trainingprogramcompose.dialog.dialog_list.DescriptionArray.DescriptionTrapeziusArray
+import gregor.developer.trainingprogramcompose.dialog.dialog_list.DescriptionArray.DescriptionTricepsArray
+import gregor.developer.trainingprogramcompose.dialog.dialog_list.DescriptionArray.DescriptionYogaArray
 import gregor.developer.trainingprogramcompose.dialog.dialog_list.DescriptionDialog
 import gregor.developer.trainingprogramcompose.screen.ListUniv
 import gregor.developer.trainingprogramcompose.screen.food_screen.FoodEvent
@@ -58,53 +75,27 @@ fun SettingsScreen(
     viewModel: FoodScreenViewModel = hiltViewModel()
 ) {
     val context = LocalContext.current
+    val name = context.resources.getStringArray(R.array.yoga_workout)
+    val description =  DescriptionYogaArray(context)
 
+    Log.d("LogTestArray", "Array name size = ${name.size}")
+    Log.d("LogTestArray", "Array description size =${description.size}")
 
-    //val test = context.resources.getStringArray(R.array.asd).get(0).get(0)
-    val open = remember {
-        mutableStateOf(false)
-    }
-    ConstraintLayout(modifier = Modifier.fillMaxSize()) {
-        Button(onClick = {
-            open.value = !open.value
-            Log.d("LogOpen", open.value.toString())
-        }) {
-            Text(text = "open description")
+    for((index, value ) in name.withIndex() ){
+        var desc = ""
+        if(index <= description.size - 1){
+            desc = description.get(index).get(0)
         }
-        if(open.value){
-            DescriptionDialog( -1, -1){
-                open.value = !open.value
-                Log.d("LogOpen", open.value.toString())
-            }
+        if(name.get(index).toString().lowercase().equals(desc.lowercase())){
+
+        }else{
+           Log.d("LogTestArray", "Array name = ${name.get(index)}")
+           Log.d("LogTestArray", "Array description = ${desc}")
         }
     }
-    //DescriptionDialog()
-//    ListUniv(
-//        foodOrWorkout = true,
-//        search = viewModel.searchFood,
-//        chooseArray = {index ->
-//            chooseArrayWorkout(index, context)
-//        },
-//        uiEvent = {
-//
-//        },
-//        fabVisible = viewModel.fabVisible,
-//        clearList = {
-//            viewModel.onEvent(FoodEvent.ClearList)
-//        },
-//        saveListAndBack = {
-//            viewModel.onEvent(FoodEvent.SaveListAndBack)
-//        },
-//        checking = viewModel.checkingFood,
-//        saveAndBack = {
-//
-//        },
-//        addListFood = {
-//
-//        }
-//    )
-
 }
+
+
 
 //@RequiresApi(Build.VERSION_CODES.O)
 private fun createCalendarList(): List<CalendarInput> {

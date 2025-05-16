@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="descriptionTrapeziusOverheadShrug">
+        <item>Overhead Shrug</item>
+        <item>The Overhead Shrug is an advanced exercise targeting the upper traps and shoulders, improving shoulder stability and overhead strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a barbell or dumbbells overhead with arms fully extended, and your hands slightly wider than shoulder-width apart.</item>
+        <item>2. Keep your elbows locked and elevate your shoulders toward your ears, contracting your traps at the top.</item>
+        <item>3. Slowly lower your shoulders to return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a tight core and straight arms throughout the exercise.</item>
+        <item>2. Avoid bending your elbows or lowering the weights during the movement.</item>
+        <item>3. Perform the motion in a controlled manner for maximum trap activation.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusGittlesonShrug">
+        <item>Gittleson Shrug</item>
+        <item>The Gittleson Shrug is a targeted trap exercise designed to improve upper back strength and neck stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a pair of dumbbells at your sides with your palms facing inward.</item>
+        <item>2. Shrug your shoulders upward as high as possible, focusing on contracting your upper traps.</item>
+        <item>3. Slowly lower your shoulders back down to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rolling your shoulders during the movement to reduce strain on the shoulder joints.</item>
+        <item>2. Keep your head in a neutral position to prevent unnecessary neck tension.</item>
+        <item>3. Perform the movement in a controlled manner to maximize muscle engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapezius45DegreeInclineRow">
+        <item>45 Degree Incline Row</item>
+        <item>The 45 Degree Incline Row targets the upper and middle back muscles, improving posture and back strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie chest-down on an incline bench set at a 45-degree angle, holding dumbbells in both hands.</item>
+        <item>2. Let your arms hang straight down, palms facing inward.</item>
+        <item>3. Pull the dumbbells toward your torso by bending your elbows and squeezing your shoulder blades together.</item>
+        <item>4. Slowly lower the dumbbells back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest in contact with the bench throughout the movement.</item>
+        <item>2. Focus on squeezing your shoulder blades together at the top of the lift.</item>
+        <item>3. Avoid using momentum to lift the dumbbells, ensuring a slow and controlled motion.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusDumbbellShrug">
+        <item>Dumbbell Shrug</item>
+        <item>The Dumbbell Shrug is a simple and effective exercise to strengthen the upper traps and improve shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright holding a dumbbell in each hand at your sides, palms facing inward.</item>
+        <item>2. Shrug your shoulders upward as high as you can, squeezing at the top of the motion.</item>
+        <item>3. Slowly lower your shoulders back down to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rolling your shoulders, which can cause unnecessary strain on the joints.</item>
+        <item>2. Perform the movement with a full range of motion for optimal trap engagement.</item>
+        <item>3. Keep your head in a neutral position and your core engaged throughout the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusCableShrug">
+        <item>Cable Shrug</item>
+        <item>The Cable Shrug is a controlled trap exercise that provides constant tension for upper back development.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand facing a cable machine with a straight bar attachment set at the lowest setting.</item>
+        <item>2. Grasp the bar with both hands, keeping your arms extended and your palms facing your body.</item>
+        <item>3. Shrug your shoulders upward, focusing on contracting your upper traps at the top.</item>
+        <item>4. Slowly lower your shoulders back down to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using your arms to lift the bar; the movement should come solely from your shoulders.</item>
+        <item>2. Keep a slight bend in your knees to maintain stability.</item>
+        <item>3. Perform the movement with a steady and controlled pace for the best results.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusBarbellShrug">
+        <item>Barbell Shrug</item>
+        <item>The Barbell Shrug is a fundamental trap exercise that builds strength and mass in the upper traps and shoulders.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright holding a barbell with both hands in front of your thighs, palms facing your body.</item>
+        <item>2. Shrug your shoulders upward as high as you can, focusing on contracting your traps at the top.</item>
+        <item>3. Slowly lower your shoulders back down to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your arms straight and avoid rolling your shoulders during the movement.</item>
+        <item>2. Maintain a neutral head position and engage your core for stability.</item>
+        <item>3. Perform the exercise with a full range of motion for maximum trap activation.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusBehindTheBackBarbellShrug">
+        <item>Behind The Back Barbell Shrug</item>
+        <item>The Behind The Back Barbell Shrug targets the upper traps and provides a unique angle for trap development.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a barbell behind your body with an overhand grip, arms fully extended.</item>
+        <item>2. Shrug your shoulders upward as high as possible, contracting your traps at the top.</item>
+        <item>3. Slowly lower your shoulders to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid leaning forward during the movement.</item>
+        <item>2. Avoid rolling your shoulders to minimize stress on the joints.</item>
+        <item>3. Perform the movement in a controlled manner, focusing on trap activation.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusDumbbellInclineShrug">
+        <item>Dumbbell Incline Shrug</item>
+        <item>The Dumbbell Incline Shrug strengthens the upper traps and improves posture by engaging the traps at an incline angle.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down on an incline bench set at a 45-degree angle, holding a dumbbell in each hand.</item>
+        <item>2. Let your arms hang down naturally, palms facing inward.</item>
+        <item>3. Shrug your shoulders upward, squeezing your traps at the top.</item>
+        <item>4. Slowly lower your shoulders to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your chest in contact with the bench throughout the movement.</item>
+        <item>2. Avoid using momentum to lift the dumbbells, ensuring controlled movement.</item>
+        <item>3. Focus on squeezing your shoulder blades together at the top for optimal results.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusProneInclineShrug">
+        <item>Prone Incline Shrug</item>
+        <item>The Prone Incline Shrug isolates the upper traps, helping to strengthen and stabilize the upper back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down on an incline bench set at a 45-degree angle, with your arms hanging down.</item>
+        <item>2. Hold a pair of dumbbells or weights in each hand, palms facing your body.</item>
+        <item>3. Shrug your shoulders upward, focusing on contracting your traps at the top.</item>
+        <item>4. Lower your shoulders back down to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain contact with the bench throughout the exercise to avoid unnecessary movement.</item>
+        <item>2. Perform the motion slowly and deliberately to ensure proper muscle engagement.</item>
+        <item>3. Avoid overloading the weights; prioritize form over resistance.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusLeverShrug">
+        <item>Lever Shrug</item>
+        <item>The Lever Shrug is an effective trap exercise performed using a lever machine for controlled motion and consistent resistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright, gripping the handles of a lever machine with both hands.</item>
+        <item>2. Shrug your shoulders upward as high as possible, focusing on contracting your upper traps.</item>
+        <item>3. Slowly lower your shoulders back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your arms straight and avoid rolling your shoulders to reduce joint stress.</item>
+        <item>2. Maintain a steady pace throughout the movement for better trap activation.</item>
+        <item>3. Adjust the seat height or handle position to ensure a comfortable range of motion.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusRearDeltFlyMachine">
+        <item>Rear Delt Fly Machine</item>
+        <item>The Rear Delt Fly Machine is designed to isolate and strengthen the rear deltoids, enhancing upper back definition and posture.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the rear delt fly machine, facing the pads with your chest against the support.</item>
+        <item>2. Grip the handles with both hands, palms facing inward or downward, depending on the machine.</item>
+        <item>3. Push the handles outward and backward in a controlled motion, squeezing your shoulder blades together at the peak.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using momentum; keep the motion controlled for better muscle engagement.</item>
+        <item>2. Adjust the seat and handles for optimal comfort and range of motion.</item>
+        <item>3. Focus on squeezing your rear delts at the top of the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusLeverGriplessShrug">
+        <item>Lever Gripless Shrug</item>
+        <item>The Lever Gripless Shrug focuses on the traps without requiring grip strength, making it ideal for isolating the target muscles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand at the lever machine with your shoulders positioned under the pads.</item>
+        <item>2. Shrug your shoulders upward, focusing on contracting the traps at the top of the movement.</item>
+        <item>3. Slowly lower your shoulders back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your torso upright to maintain proper form.</item>
+        <item>2. Use a full range of motion to maximize trap activation.</item>
+        <item>3. Avoid using excessive weight that compromises your posture or control.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusCableRearDeltFly">
+        <item>Cable Rear Delt Fly</item>
+        <item>The Cable Rear Delt Fly isolates the rear deltoids and improves shoulder stability and upper back strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set the cable pulleys at shoulder height and attach single-handle grips.</item>
+        <item>2. Stand in the center with a handle in each hand, arms crossed in front of you.</item>
+        <item>3. Pull the handles outward and backward in a wide arc, squeezing your shoulder blades together at the peak.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep a slight bend in your elbows to avoid unnecessary strain.</item>
+        <item>2. Focus on using the rear delts and minimize momentum during the exercise.</item>
+        <item>3. Maintain an upright posture and avoid leaning forward or backward.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusBentOverLateralRaise">
+        <item>Bent Over Lateral Raise</item>
+        <item>The Bent Over Lateral Raise targets the rear delts and upper back muscles, improving shoulder balance and posture.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a dumbbell in each hand and bend forward at the hips, keeping your back straight.</item>
+        <item>2. Allow your arms to hang down naturally, palms facing each other.</item>
+        <item>3. Lift the dumbbells outward and upward until your arms are parallel to the ground.</item>
+        <item>4. Slowly lower the dumbbells back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid swinging the weights; use controlled motions to engage the muscles effectively.</item>
+        <item>2. Keep your back straight and your core engaged throughout the exercise.</item>
+        <item>3. Use lighter weights to maintain good form and prevent momentum.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusCableUprightRow">
+        <item>Cable Upright Row</item>
+        <item>The Cable Upright Row builds shoulder and upper trap strength while allowing for a controlled range of motion using a cable machine.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a straight or EZ bar to the low pulley of a cable machine.</item>
+        <item>2. Stand upright and grasp the bar with an overhand grip, hands shoulder-width apart.</item>
+        <item>3. Pull the bar upward towards your chin, keeping your elbows higher than your hands.</item>
+        <item>4. Slowly lower the bar back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep the bar close to your body throughout the movement.</item>
+        <item>2. Avoid using excessive weight that could strain your shoulders or wrists.</item>
+        <item>3. Maintain an upright posture and avoid leaning backward.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusFacePull">
+        <item>Face Pull</item>
+        <item>The Face Pull is an effective exercise for strengthening the rear delts, traps, and rotator cuff muscles using a cable machine.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a rope handle to the high pulley of a cable machine.</item>
+        <item>2. Stand upright and grasp the rope with both hands using a neutral grip.</item>
+        <item>3. Pull the rope towards your face, keeping your elbows high and flaring outward.</item>
+        <item>4. Squeeze your shoulder blades together at the end of the movement, then slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged and maintain an upright posture.</item>
+        <item>2. Use a controlled motion to avoid momentum.</item>
+        <item>3. Do not let your shoulders shrug; focus on rear delt activation.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusHalfKneelingHighCableRowRope">
+        <item>Half Kneeling High Cable Row Rope</item>
+        <item>This exercise targets the upper back, traps, and rear delts, improving posture and scapular stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a rope handle to the high pulley of a cable machine.</item>
+        <item>2. Assume a half-kneeling position, keeping your torso upright.</item>
+        <item>3. Pull the rope towards your chest while keeping your elbows high and out to the sides.</item>
+        <item>4. Squeeze your shoulder blades together at the peak, then return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to prevent excessive arching.</item>
+        <item>2. Focus on using your back muscles rather than your arms.</item>
+        <item>3. Use a controlled motion throughout the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusDumbbellRaise">
+        <item>Dumbbell Raise</item>
+        <item>The Dumbbell Raise strengthens the deltoid muscles and enhances shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright with a dumbbell in each hand, arms resting at your sides.</item>
+        <item>2. Lift the dumbbells to shoulder height, keeping your arms straight but not locked.</item>
+        <item>3. Pause briefly at the top, then slowly lower the dumbbells back down.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a slight bend in your elbows to reduce strain.</item>
+        <item>2. Avoid swinging the weights; use controlled movement.</item>
+        <item>3. Keep your torso still to prevent unnecessary momentum.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusDumbbellUprightRow">
+        <item>Dumbbell Upright Row</item>
+        <item>The Dumbbell Upright Row targets the shoulders and traps, helping to build upper body strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright with a dumbbell in each hand, palms facing your body.</item>
+        <item>2. Pull the dumbbells upward toward your chin, leading with your elbows.</item>
+        <item>3. Pause at the top, then slowly lower the weights back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep the dumbbells close to your body throughout the movement.</item>
+        <item>2. Avoid using excessive weight to prevent shoulder strain.</item>
+        <item>3. Maintain a straight posture and do not lean backward.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusBodyweightMilitaryPress">
+        <item>Bodyweight Military Press</item>
+        <item>This bodyweight exercise helps develop shoulder strength and stability without the need for weights.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Assume a pike position with your hands shoulder-width apart and your hips raised.</item>
+        <item>2. Lower your head toward the ground by bending your elbows.</item>
+        <item>3. Press back up to the starting position, fully extending your arms.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged for balance.</item>
+        <item>2. Ensure a slow and controlled descent to maximize effectiveness.</item>
+        <item>3. Adjust hand positioning to modify difficulty.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusKneelingHighPulleyRow">
+        <item>Kneeling High Pulley Row</item>
+        <item>The Kneeling High Pulley Row targets the upper back, rear delts, and traps, improving shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a straight bar or rope handle to the high pulley of a cable machine.</item>
+        <item>2. Kneel on the floor, keeping your torso upright.</item>
+        <item>3. Pull the handle toward your upper chest, squeezing your shoulder blades together.</item>
+        <item>4. Slowly return to the starting position with control.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core to maintain stability.</item>
+        <item>2. Focus on pulling with your back rather than your arms.</item>
+        <item>3. Avoid excessive momentum for better muscle activation.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusEzBarUprightRow">
+        <item>Ez Bar Upright Row</item>
+        <item>The EZ Bar Upright Row is an effective exercise for developing the shoulders and traps while reducing wrist strain.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold an EZ bar with an overhand grip, hands shoulder-width apart.</item>
+        <item>2. Pull the bar upward toward your chin, leading with your elbows.</item>
+        <item>3. Pause briefly at the top, then slowly lower the bar back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep the bar close to your body during the lift.</item>
+        <item>2. Avoid using excessive weight to prevent shoulder discomfort.</item>
+        <item>3. Maintain a controlled movement and avoid jerking motions.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusBandPullApart">
+        <item>Band Pull-Apart</item>
+        <item>The Band Pull-Apart strengthens the upper back, rear delts, and rotator cuff, improving posture and shoulder health.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a resistance band with both hands at shoulder height.</item>
+        <item>2. Stretch the band by pulling your hands apart until your arms are fully extended.</item>
+        <item>3. Squeeze your shoulder blades together, then slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your arms straight but not locked.</item>
+        <item>2. Use a controlled motion to avoid snapping the band.</item>
+        <item>3. Maintain a neutral spine and avoid arching your back.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusBentOverReverseCableFly">
+        <item>Bent Over Reverse Cable Fly</item>
+        <item>This exercise isolates the rear delts and upper back using cables for continuous tension.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set the cable machine handles at the lowest position.</item>
+        <item>2. Bend at the hips with a slight knee bend and grasp the handles.</item>
+        <item>3. Pull the handles outward and backward, squeezing your shoulder blades together.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep a slight bend in your elbows to avoid strain.</item>
+        <item>2. Maintain a stable posture and avoid using momentum.</item>
+        <item>3. Focus on slow and controlled movements for maximum activation.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusBentOverBarbellReverseRaise">
+        <item>Bent-Over Barbell Reverse Raise</item>
+        <item>The Bent-Over Barbell Reverse Raise targets the rear delts, traps, and upper back for improved posture and strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a barbell with a shoulder-width grip and bend at the hips.</item>
+        <item>2. Lift the barbell outward and upward in an arc-like motion.</item>
+        <item>3. Squeeze your shoulder blades together at the top.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep a slight bend in your elbows for joint safety.</item>
+        <item>2. Avoid swinging the weight; use controlled movements.</item>
+        <item>3. Engage your core to maintain balance and posture.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusBarbellRearDeltRaise">
+        <item>Barbell Rear Delt Raise</item>
+        <item>The Barbell Rear Delt Raise targets the rear delts and upper back, enhancing shoulder stability and posture.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a barbell with a shoulder-width grip and bend at the hips with a straight back.</item>
+        <item>2. Lift the barbell outward and slightly backward in a controlled motion.</item>
+        <item>3. Squeeze your shoulder blades at the top of the movement.</item>
+        <item>4. Slowly lower the barbell back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep a slight bend in your elbows to avoid joint strain.</item>
+        <item>2. Avoid using momentum; control the movement.</item>
+        <item>3. Engage your core to maintain stability.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusSmithMachineShrug">
+        <item>Smith Machine Shrug</item>
+        <item>The Smith Machine Shrug is a controlled exercise that strengthens the traps and upper back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set the Smith machine bar at thigh level and grip it slightly wider than shoulder-width.</item>
+        <item>2. Stand upright and shrug your shoulders as high as possible.</item>
+        <item>3. Pause at the top, then slowly lower your shoulders.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your arms straight throughout the movement.</item>
+        <item>2. Avoid rolling your shoulders to prevent strain.</item>
+        <item>3. Use a moderate weight to maintain proper form.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusInclineDumbbellReverseFly">
+        <item>Incline Dumbbell Reverse Fly</item>
+        <item>This exercise strengthens the rear delts, traps, and upper back while maintaining strict form.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down on an incline bench, holding a dumbbell in each hand.</item>
+        <item>2. Raise the dumbbells outward and backward in an arc motion.</item>
+        <item>3. Squeeze your shoulder blades together at the top.</item>
+        <item>4. Slowly lower the weights back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep a slight bend in your elbows.</item>
+        <item>2. Use light to moderate weight for proper muscle activation.</item>
+        <item>3. Avoid using momentum to lift the dumbbells.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusInclineDumbbellYRaise">
+        <item>Incline Dumbbell Y-Raise</item>
+        <item>The Incline Dumbbell Y-Raise enhances shoulder stability and rear delt strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down on an incline bench with dumbbells in each hand.</item>
+        <item>2. Raise your arms forward and outward, forming a "Y" shape.</item>
+        <item>3. Squeeze your shoulder blades at the top.</item>
+        <item>4. Lower the dumbbells slowly back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to avoid excessive movement.</item>
+        <item>2. Use a controlled motion to maximize muscle activation.</item>
+        <item>3. Maintain a slight bend in your elbows to prevent strain.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusDumbbellInclineTRaise">
+        <item>Dumbbell Incline T-Raise</item>
+        <item>The Dumbbell Incline T-Raise strengthens the rear delts, traps, and rotator cuffs.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down on an incline bench, holding dumbbells.</item>
+        <item>2. Lift the dumbbells outward until your arms form a "T" shape.</item>
+        <item>3. Squeeze your shoulder blades together at the top.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using excessive weight to maintain proper form.</item>
+        <item>2. Keep movements slow and controlled.</item>
+        <item>3. Focus on squeezing the shoulder blades throughout the lift.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusSwimming">
+        <item>Swimming</item>
+        <item>Swimming is a full-body exercise that enhances shoulder mobility, endurance, and strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Engage in freestyle, backstroke, or butterfly strokes to activate the shoulders and upper back.</item>
+        <item>2. Maintain a steady and controlled breathing pattern.</item>
+        <item>3. Focus on smooth, powerful strokes with proper technique.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to maintain body alignment.</item>
+        <item>2. Avoid excessive head movement to reduce neck strain.</item>
+        <item>3. Use a consistent kick to support forward motion.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusBentOverRearDeltFlyGymstick">
+        <item>Bent Over Rear Delt Fly | Gymstick</item>
+        <item>The Bent Over Rear Delt Fly using a Gymstick targets the rear delts, improving posture and upper back strength.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand on the Gymstick band with feet hip-width apart, gripping the stick with both hands.</item>
+        <item>2. Hinge forward at the hips while keeping a neutral spine.</item>
+        <item>3. Raise both arms outward until they align with your shoulders.</item>
+        <item>4. Lower the stick back to the starting position with control.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using momentum; focus on controlled movements.</item>
+        <item>2. Keep a slight bend in the elbows to prevent strain.</item>
+        <item>3. Engage your core to stabilize the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusScapularProtractionRetraction">
+        <item>Scapular Protraction and Retraction</item>
+        <item>This exercise helps improve shoulder blade control and enhances overall shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand or sit upright with arms extended in front.</item>
+        <item>2. Push your shoulders forward (protraction), then pull them back (retraction).</item>
+        <item>3. Maintain a slow and controlled motion throughout.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid shrugging your shoulders; focus on scapular movement.</item>
+        <item>2. Keep your spine neutral throughout the exercise.</item>
+        <item>3. Perform the movement with a light resistance band for added difficulty.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusCrossCableFacePull">
+        <item>Cross Cable Face Pull</item>
+        <item>The Cross Cable Face Pull strengthens the rear delts, traps, and upper back, promoting better posture and shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Set the cables at upper chest height and attach rope handles.</item>
+        <item>2. Stand with a slight knee bend and grip the ropes with both hands.</item>
+        <item>3. Pull the ropes toward your face while keeping elbows high.</item>
+        <item>4. Slowly return to the starting position while maintaining control.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using excessive weight to prevent strain on the shoulders.</item>
+        <item>2. Maintain a neutral spine and engage your core throughout.</item>
+        <item>3. Focus on squeezing the shoulder blades together at the peak of the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusElbowReversePushUp">
+        <item>Elbow Reverse Push-Up</item>
+        <item>The Elbow Reverse Push-Up is an advanced bodyweight exercise that targets the rear delts, triceps, and upper back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with your hands behind your back, fingers pointing forward.</item>
+        <item>2. Press through your palms to lift your upper body slightly.</item>
+        <item>3. Lower yourself slowly while keeping elbows tucked in.</item>
+        <item>4. Push back up using your rear delts and triceps.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements slow and controlled to engage the correct muscles.</item>
+        <item>2. Avoid shrugging your shoulders to prevent unnecessary strain.</item>
+        <item>3. Engage your core to maintain stability during the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusScapulaDips">
+        <item>Scapula Dips</item>
+        <item>Scapula Dips focus on strengthening the serratus anterior and improving shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Position yourself on parallel bars or dip bars with your arms fully extended.</item>
+        <item>2. Keep your elbows locked and lower your body by retracting your shoulder blades.</item>
+        <item>3. Push through your shoulders to return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid bending your elbows to ensure focus on scapular movement.</item>
+        <item>2. Perform slow and controlled reps to maximize activation.</item>
+        <item>3. Engage your core for better stability.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusPushUpPlus">
+        <item>Push-Up Plus</item>
+        <item>The Push-Up Plus is a variation of the standard push-up that emphasizes serratus anterior activation.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a standard push-up position with your hands shoulder-width apart.</item>
+        <item>2. Lower your body by bending your elbows until your chest nearly touches the floor.</item>
+        <item>3. Push back up and, at the top, actively protract your shoulder blades by pushing your upper back toward the ceiling.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on controlled scapular movement at the top of the push-up.</item>
+        <item>2. Avoid excessive arching in your lower back.</item>
+        <item>3. Keep your core engaged for proper alignment.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusSeatedBallerinaExercise">
+        <item>Seated Ballerina Exercise</item>
+        <item>The Seated Ballerina Exercise is a mobility drill designed to improve shoulder flexibility and upper body posture.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with legs crossed or in a comfortable seated position.</item>
+        <item>2. Raise one arm overhead while leaning to the opposite side.</item>
+        <item>3. Hold the stretch for a few seconds and return to the starting position.</item>
+        <item>4. Repeat on the other side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements smooth and controlled.</item>
+        <item>2. Avoid collapsing your torso—engage your core for stability.</item>
+        <item>3. Breathe deeply to enhance the stretch.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusSeatedScapularRetractionExercise">
+        <item>Seated Scapular Retraction Exercise</item>
+        <item>The Seated Scapular Retraction Exercise improves posture by strengthening the muscles responsible for scapular retraction.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit upright on a bench or chair with a straight back.</item>
+        <item>2. Hold a resistance band or light weights in both hands.</item>
+        <item>3. Squeeze your shoulder blades together while keeping your arms slightly bent.</item>
+        <item>4. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on retracting the scapula rather than pulling with the arms.</item>
+        <item>2. Maintain a neutral spine throughout the movement.</item>
+        <item>3. Use light resistance to ensure proper form.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusFoamRollerRhomboids">
+        <item>Foam Roller Rhomboids</item>
+        <item>Foam Rolling the rhomboids helps relieve tension and improve mobility in the upper back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with a foam roller positioned under your upper back.</item>
+        <item>2. Cross your arms over your chest to spread the shoulder blades.</item>
+        <item>3. Slowly roll up and down, targeting the muscles between your shoulder blades.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Apply moderate pressure and avoid rolling directly over the spine.</item>
+        <item>2. Use slow, controlled movements for better muscle release.</item>
+        <item>3. Pause on tight spots to enhance the release effect.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusFoamRollerUpperBack">
+        <item>Foam Roller Upper Back</item>
+        <item>Foam Rolling the upper back helps alleviate tension, improve mobility, and promote better posture.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor and position a foam roller under your upper back.</item>
+        <item>2. Cross your arms over your chest or support your head with your hands.</item>
+        <item>3. Lift your hips slightly off the ground and slowly roll up and down along your upper back.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid rolling directly over your lower back.</item>
+        <item>2. Move slowly and pause on tight areas for deeper release.</item>
+        <item>3. Keep your core engaged to maintain control.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusScapulaPullUp">
+        <item>Scapula Pull-Up</item>
+        <item>The Scapula Pull-Up is a bodyweight exercise that strengthens the scapular stabilizers, improving shoulder health.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hang from a pull-up bar with a shoulder-width grip.</item>
+        <item>2. Without bending your elbows, pull your shoulder blades down and together.</item>
+        <item>3. Hold the contraction for a second, then slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your arms straight throughout the movement.</item>
+        <item>2. Avoid using momentum—focus on controlled scapular movement.</item>
+        <item>3. Engage your core for better stability.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusSerratusWallSlideWithFoamRoller">
+        <item>Serratus Wall Slide With Foam Roller</item>
+        <item>This exercise strengthens the serratus anterior and improves shoulder mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand facing a wall with a foam roller held between your forearms and the wall.</item>
+        <item>2. Maintain light pressure on the roller as you slowly slide your arms upward.</item>
+        <item>3. Control the movement as you return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to avoid arching your lower back.</item>
+        <item>2. Ensure smooth, controlled movement to maximize activation.</item>
+        <item>3. Avoid shrugging your shoulders—focus on scapular movement.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusDipShrugs">
+        <item>Dip Shrugs (Serratus Shrugs)</item>
+        <item>Dip Shrugs target the serratus anterior and improve shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Position yourself on parallel bars in a dip position with arms fully extended.</item>
+        <item>2. Lower your body by allowing your shoulders to elevate.</item>
+        <item>3. Press through your shoulders to return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your arms straight throughout the movement.</item>
+        <item>2. Avoid excessive swinging—maintain a controlled motion.</item>
+        <item>3. Focus on engaging the serratus anterior.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusWideGripBarbellBentOverRowPlus">
+        <item>Wide Grip Barbell Bent Over Row Plus</item>
+        <item>This variation of the bent-over row adds a scapular protraction movement to target the upper back.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a barbell with a wide overhand grip and bend forward at the hips.</item>
+        <item>2. Row the barbell towards your chest while retracting your shoulder blades.</item>
+        <item>3. At the top of the row, slightly protract your scapula before lowering the bar.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a neutral spine and avoid rounding your back.</item>
+        <item>2. Use controlled movements to maximize muscle activation.</item>
+        <item>3. Engage your core to stabilize the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusWideGripAlternateBarbellBentOverRowPlus">
+        <item>Wide Grip Alternate Barbell Bent Over Row Plus</item>
+        <item>This exercise is a variation of the traditional bent-over row, adding an alternating movement to enhance muscle engagement.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a barbell with a wide overhand grip and bend forward at the hips.</item>
+        <item>2. Row one side of the barbell towards your chest while keeping the other arm extended.</item>
+        <item>3. Lower the bar slowly and repeat on the other side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a neutral spine and avoid rounding your back.</item>
+        <item>2. Focus on controlled, alternating movements for balanced activation.</item>
+        <item>3. Engage your core for added stability.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusOneArmDumbbellUprightRow">
+        <item>One-Arm Dumbbell Upright Row</item>
+        <item>This unilateral exercise targets the shoulders and traps, improving muscle balance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright while holding a dumbbell in one hand with an overhand grip.</item>
+        <item>2. Pull the dumbbell up towards your chin, keeping your elbow higher than your hand.</item>
+        <item>3. Slowly lower the dumbbell back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep the movement controlled to prevent momentum from taking over.</item>
+        <item>2. Maintain an upright posture throughout the exercise.</item>
+        <item>3. Avoid excessive weight to reduce strain on the wrist and shoulder.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusCableYRaise">
+        <item>Cable Y Raise</item>
+        <item>The Cable Y Raise is a shoulder exercise that targets the deltoids and traps while improving shoulder mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach two handles to the lower pulleys of a cable machine.</item>
+        <item>2. Stand between the cables and hold a handle in each hand.</item>
+        <item>3. Raise both arms upward and outward into a "Y" position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a slight bend in your elbows to avoid joint strain.</item>
+        <item>2. Use a controlled motion to prevent jerking movements.</item>
+        <item>3. Keep your core engaged for better posture and stability.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusBarbellUprightRow">
+        <item>Barbell Upright Row</item>
+        <item>The Barbell Upright Row strengthens the shoulders and upper traps, improving posture and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright, holding a barbell with an overhand grip, hands shoulder-width apart.</item>
+        <item>2. Pull the barbell towards your chin, keeping your elbows higher than your hands.</item>
+        <item>3. Lower the barbell slowly to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid excessive weight to prevent shoulder strain.</item>
+        <item>2. Keep the bar close to your body throughout the movement.</item>
+        <item>3. Maintain a controlled tempo to maximize effectiveness.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusResistanceBandBentOverRearDeltFly">
+        <item>Resistance Band Bent Over Rear Delt Fly</item>
+        <item>This exercise strengthens the rear delts and improves shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand on a resistance band with feet shoulder-width apart, holding the ends in each hand.</item>
+        <item>2. Hinge at the hips and slightly bend your knees, keeping your back straight.</item>
+        <item>3. Raise both arms out to the sides until they are parallel to the ground.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Maintain a slight bend in the elbows to avoid strain.</item>
+        <item>2. Control the movement—don’t let the band snap back quickly.</item>
+        <item>3. Engage your core and avoid rounding your back.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusResistanceBandPullApart">
+        <item>Resistance Band Pull Apart</item>
+        <item>The Resistance Band Pull Apart is a simple but effective exercise for strengthening the upper back and shoulders.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Hold a resistance band in front of you with both hands, arms extended.</item>
+        <item>2. Pull the band apart by moving your arms outward while keeping them straight.</item>
+        <item>3. Slowly return to the starting position with control.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your shoulders down and avoid shrugging.</item>
+        <item>2. Focus on squeezing your shoulder blades together.</item>
+        <item>3. Use a controlled movement to maintain constant tension on the band.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusSingleArmUprightRowGymstick">
+        <item>Single Arm Upright Row | Gymstick</item>
+        <item>This unilateral exercise targets the shoulders and traps while enhancing muscle symmetry.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright while holding a Gymstick with one hand.</item>
+        <item>2. Pull the Gymstick handle up towards your chin, keeping your elbow higher than your hand.</item>
+        <item>3. Slowly lower the handle back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid using excessive weight to prevent shoulder strain.</item>
+        <item>2. Maintain an upright posture throughout the movement.</item>
+        <item>3. Perform the exercise in a slow and controlled manner.</item>
+    </string-array>
+
+    <string-array name="descriptionTrapeziusFacePullWithResistanceBand">
+        <item>Face Pull With Resistance Band</item>
+        <item>The Face Pull With Resistance Band is a great exercise for strengthening the rear delts and improving shoulder health.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Attach a resistance band to a stable anchor point at head height.</item>
+        <item>2. Hold the band with both hands and step back to create tension.</item>
+        <item>3. Pull the band towards your face, keeping your elbows high and squeezing your shoulder blades together.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your wrists neutral and avoid excessive bending.</item>
+        <item>2. Focus on controlled movements to maximize effectiveness.</item>
+        <item>3. Engage your core to maintain a stable posture.</item>
+    </string-array>
+</resources>

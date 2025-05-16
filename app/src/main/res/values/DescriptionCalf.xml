@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="descriptionStandingCalfRaise">
+        <item>Standing Calf Raise</item>
+        <item>The Standing Calf Raise is a strength training exercise that targets the calf muscles, specifically the gastrocnemius. It helps improve lower leg strength and stability.</item>
+        <item>This exercise is performed by standing on a raised surface, such as a step or platform, and lifting the heels as high as possible before lowering them back down.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand on a raised surface with your heels hanging off the edge.</item>
+        <item>2. Hold onto a stable object for balance if needed.</item>
+        <item>3. Slowly raise your heels as high as possible, squeezing your calf muscles at the top.</item>
+        <item>4. Lower your heels back down below the level of the step to stretch the calves.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your knees straight but not locked throughout the movement.</item>
+        <item>2. Focus on controlled movements to maximize muscle engagement.</item>
+        <item>3. Avoid bouncing at the bottom of the movement to prevent injury.</item>
+        <item>4. Gradually increase the range of motion as your flexibility improves.</item>
+    </string-array>
+
+    <string-array name="descriptionCalfRaise">
+        <item>Calf Raise</item>
+        <item>The Calf Raise is a fundamental exercise for strengthening the calf muscles. It can be performed anywhere and requires no equipment.</item>
+        <item>This exercise primarily targets the gastrocnemius and soleus muscles, improving lower leg strength and endurance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright with your feet shoulder-width apart.</item>
+        <item>2. Slowly raise your heels off the ground, lifting your body onto your toes.</item>
+        <item>3. Hold the position for a moment, then lower your heels back to the ground.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to maintain balance.</item>
+        <item>2. Perform the exercise slowly to avoid momentum.</item>
+        <item>3. For added intensity, hold weights in your hands or perform the exercise on one leg.</item>
+        <item>4. Warm up your calves before starting to prevent strain.</item>
+    </string-array>
+
+    <string-array name="descriptionCalfRaiseResistanceBand">
+        <item>Calf Raise with Resistance Band</item>
+        <item>The Calf Raise with Resistance Band is a variation of the traditional calf raise that adds resistance to increase the intensity of the exercise.</item>
+        <item>This exercise targets the calf muscles while also engaging the stabilizing muscles of the lower leg and ankle.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Place a resistance band around the balls of your feet and hold the ends in your hands.</item>
+        <item>2. Stand upright with your feet shoulder-width apart.</item>
+        <item>3. Slowly raise your heels off the ground, stretching the resistance band.</item>
+        <item>4. Lower your heels back to the ground with control.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Choose a resistance band with appropriate tension for your fitness level.</item>
+        <item>2. Keep your movements slow and controlled to maximize muscle engagement.</item>
+        <item>3. Avoid leaning forward or backward during the exercise.</item>
+        <item>4. Perform the exercise on a non-slip surface for safety.</item>
+    </string-array>
+
+    <string-array name="descriptionBarbellSeatedCalfRaise">
+        <item>Barbell Seated Calf Raise</item>
+        <item>The Barbell Seated Calf Raise is a strength training exercise that targets the soleus muscle, located beneath the gastrocnemius.</item>
+        <item>This exercise is performed while seated, with a barbell placed on the thighs to add resistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a bench with your feet flat on the ground and a barbell resting on your thighs.</item>
+        <item>2. Place the balls of your feet on a raised surface, such as a block or step.</item>
+        <item>3. Slowly raise your heels as high as possible, lifting the barbell with your calves.</item>
+        <item>4. Lower your heels back down to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use a pad or towel to cushion the barbell on your thighs.</item>
+        <item>2. Keep your back straight and core engaged throughout the movement.</item>
+        <item>3. Focus on a full range of motion for maximum muscle activation.</item>
+        <item>4. Start with a lighter weight and gradually increase as you build strength.</item>
+    </string-array>
+
+    <string-array name="descriptionLegPressCalfRaise">
+        <item>Leg Press Calf Raise</item>
+        <item>The Leg Press Calf Raise is a machine-based exercise that targets the calf muscles while providing support for the lower back.</item>
+        <item>This exercise is performed on a leg press machine, allowing for controlled movement and added resistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the leg press machine and place the balls of your feet on the bottom edge of the platform.</item>
+        <item>2. Push the platform away with your legs until they are almost fully extended.</item>
+        <item>3. Slowly press the platform further by raising your heels and engaging your calves.</item>
+        <item>4. Lower your heels back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your knees slightly bent to avoid locking them during the movement.</item>
+        <item>2. Use a weight that allows for controlled, full-range movements.</item>
+        <item>3. Avoid bouncing or using momentum to lift the weight.</item>
+        <item>4. Focus on squeezing the calf muscles at the top of the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionHackSquatCalfRaise">
+        <item>Hack Squat Calf Raise</item>
+        <item>The Hack Squat Calf Raise is a machine-based exercise that targets the calf muscles while providing stability and support for the lower body.</item>
+        <item>This exercise is performed on a hack squat machine, allowing for controlled movement and added resistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Position yourself on the hack squat machine with your shoulders under the pads and your feet on the platform.</item>
+        <item>2. Place the balls of your feet on the edge of the platform, allowing your heels to hang off.</item>
+        <item>3. Slowly raise your heels as high as possible, squeezing your calf muscles at the top.</item>
+        <item>4. Lower your heels back down to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your knees slightly bent to avoid locking them during the movement.</item>
+        <item>2. Use a weight that allows for controlled, full-range movements.</item>
+        <item>3. Focus on squeezing the calf muscles at the top of the movement.</item>
+        <item>4. Avoid bouncing or using momentum to lift the weight.</item>
+    </string-array>
+
+    <string-array name="descriptionLeverSeatedCalfRaise">
+        <item>Lever Seated Calf Raise</item>
+        <item>The Lever Seated Calf Raise is a machine-based exercise that targets the soleus muscle, located beneath the gastrocnemius.</item>
+        <item>This exercise is performed while seated, with a lever machine providing resistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the lever machine with your feet on the footplate and your knees under the pads.</item>
+        <item>2. Place the balls of your feet on the edge of the footplate, allowing your heels to hang off.</item>
+        <item>3. Slowly raise your heels as high as possible, lifting the weight with your calves.</item>
+        <item>4. Lower your heels back down to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and core engaged throughout the movement.</item>
+        <item>2. Focus on a full range of motion for maximum muscle activation.</item>
+        <item>3. Start with a lighter weight and gradually increase as you build strength.</item>
+        <item>4. Avoid leaning forward or backward during the exercise.</item>
+    </string-array>
+
+    <string-array name="descriptionSingleLegCalfRaise">
+        <item>Single Leg Calf Raise</item>
+        <item>The Single Leg Calf Raise is a bodyweight exercise that targets the calf muscles while improving balance and stability.</item>
+        <item>This exercise is performed on one leg, increasing the intensity and focus on the calf muscles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand on one leg with the other leg bent at the knee or lifted off the ground.</item>
+        <item>2. Slowly raise your heel as high as possible, lifting your body onto your toes.</item>
+        <item>3. Hold the position for a moment, then lower your heel back to the ground.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Hold onto a stable object for balance if needed.</item>
+        <item>2. Keep your core engaged to maintain stability.</item>
+        <item>3. Perform the exercise slowly to avoid momentum.</item>
+        <item>4. Gradually increase the number of repetitions as you build strength.</item>
+    </string-array>
+
+    <string-array name="descriptionHackMachineOneLegCalfRaise">
+        <item>Hack Machine One-Leg Calf Raise</item>
+        <item>The Hack Machine One-Leg Calf Raise is a machine-based exercise that targets the calf muscles while providing support and stability.</item>
+        <item>This exercise is performed on a hack squat machine, allowing for controlled movement and added resistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Position yourself on the hack squat machine with one foot on the platform and the other foot lifted off.</item>
+        <item>2. Place the ball of your foot on the edge of the platform, allowing your heel to hang off.</item>
+        <item>3. Slowly raise your heel as high as possible, squeezing your calf muscle at the top.</item>
+        <item>4. Lower your heel back down to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your knee slightly bent to avoid locking it during the movement.</item>
+        <item>2. Use a weight that allows for controlled, full-range movements.</item>
+        <item>3. Focus on squeezing the calf muscle at the top of the movement.</item>
+        <item>4. Avoid bouncing or using momentum to lift the weight.</item>
+    </string-array>
+
+    <string-array name="descriptionDonkeyCalfRaise">
+        <item>Donkey Calf Raise</item>
+        <item>The Donkey Calf Raise is a bodyweight exercise that targets the calf muscles, specifically the gastrocnemius.</item>
+        <item>This exercise is performed by bending at the waist and lifting the heels while the upper body is supported.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Bend at the waist and place your hands on a stable surface, such as a bench or wall, for support.</item>
+        <item>2. Keep your legs straight and your feet shoulder-width apart.</item>
+        <item>3. Slowly raise your heels as high as possible, squeezing your calf muscles at the top.</item>
+        <item>4. Lower your heels back down to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and core engaged throughout the movement.</item>
+        <item>2. Focus on controlled movements to maximize muscle engagement.</item>
+        <item>3. Avoid bouncing at the bottom of the movement to prevent injury.</item>
+        <item>4. Gradually increase the range of motion as your flexibility improves.</item>
+    </string-array>
+
+    <string-array name="descriptionLeverDonkeyCalfRaise">
+        <item>Lever Donkey Calf Raise</item>
+        <item>The Lever Donkey Calf Raise is a machine-based exercise that targets the calf muscles, specifically the gastrocnemius, while providing support for the upper body.</item>
+        <item>This exercise is performed on a lever machine, allowing for controlled movement and added resistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Position yourself on the lever machine with your hips under the pads and your feet on the platform.</item>
+        <item>2. Place the balls of your feet on the edge of the platform, allowing your heels to hang off.</item>
+        <item>3. Slowly raise your heels as high as possible, squeezing your calf muscles at the top.</item>
+        <item>4. Lower your heels back down to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and core engaged throughout the movement.</item>
+        <item>2. Use a weight that allows for controlled, full-range movements.</item>
+        <item>3. Focus on squeezing the calf muscles at the top of the movement.</item>
+        <item>4. Avoid bouncing or using momentum to lift the weight.</item>
+    </string-array>
+
+    <string-array name="descriptionBenchPressMachineStandingCalfRaise">
+        <item>Bench Press Machine Standing Calf Raise</item>
+        <item>The Bench Press Machine Standing Calf Raise is a machine-based exercise that targets the calf muscles while utilizing a bench press machine for added resistance.</item>
+        <item>This exercise is performed by standing on the bench press machine and lifting the heels to engage the calves.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand on the bench press machine with your feet shoulder-width apart and your heels hanging off the edge.</item>
+        <item>2. Hold onto the machine for stability.</item>
+        <item>3. Slowly raise your heels as high as possible, squeezing your calf muscles at the top.</item>
+        <item>4. Lower your heels back down to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your knees slightly bent to avoid locking them during the movement.</item>
+        <item>2. Focus on controlled movements to maximize muscle engagement.</item>
+        <item>3. Avoid leaning forward or backward during the exercise.</item>
+        <item>4. Gradually increase the weight as you build strength.</item>
+    </string-array>
+
+    <string-array name="descriptionStandingCrossLegHamstringStretch">
+        <item>Standing Cross Leg Hamstring Stretch</item>
+        <item>The Standing Cross Leg Hamstring Stretch is a flexibility exercise that targets the hamstrings and calves while improving overall lower body mobility.</item>
+        <item>This stretch is performed by crossing one leg over the other and bending forward to stretch the hamstrings.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright with your feet together.</item>
+        <item>2. Cross one leg over the other, keeping the toes of both feet pointing forward.</item>
+        <item>3. Slowly bend forward at the hips, reaching toward your toes.</item>
+        <item>4. Hold the stretch for 20-30 seconds, then switch legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid rounding your spine.</item>
+        <item>2. Focus on breathing deeply to enhance the stretch.</item>
+        <item>3. Do not bounce during the stretch; hold it steadily.</item>
+        <item>4. Gradually increase the depth of the stretch as your flexibility improves.</item>
+    </string-array>
+
+    <string-array name="descriptionStandingBarbellCalfRaise">
+        <item>Standing Barbell Calf Raise</item>
+        <item>The Standing Barbell Calf Raise is a strength training exercise that targets the calf muscles, specifically the gastrocnemius, using a barbell for added resistance.</item>
+        <item>This exercise is performed by standing with a barbell on your shoulders and lifting your heels to engage the calves.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright with a barbell resting on your shoulders and your feet shoulder-width apart.</item>
+        <item>2. Place the balls of your feet on a raised surface, such as a block or step.</item>
+        <item>3. Slowly raise your heels as high as possible, lifting the barbell with your calves.</item>
+        <item>4. Lower your heels back down to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged and back straight throughout the movement.</item>
+        <item>2. Use a weight that allows for controlled, full-range movements.</item>
+        <item>3. Focus on squeezing the calf muscles at the top of the movement.</item>
+        <item>4. Avoid bouncing or using momentum to lift the weight.</item>
+    </string-array>
+
+    <string-array name="descriptionWeightedDonkeyCalfRaise">
+        <item>Weighted Donkey Calf Raise</item>
+        <item>The Weighted Donkey Calf Raise is a variation of the traditional Donkey Calf Raise that adds resistance to increase the intensity of the exercise.</item>
+        <item>This exercise targets the calf muscles, specifically the gastrocnemius, while providing support for the upper body.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Bend at the waist and place your hands on a stable surface, such as a bench or wall, for support.</item>
+        <item>2. Have a partner place weight on your lower back or use a weight belt.</item>
+        <item>3. Slowly raise your heels as high as possible, squeezing your calf muscles at the top.</item>
+        <item>4. Lower your heels back down to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and core engaged throughout the movement.</item>
+        <item>2. Use a weight that allows for controlled, full-range movements.</item>
+        <item>3. Focus on squeezing the calf muscles at the top of the movement.</item>
+        <item>4. Avoid bouncing or using momentum to lift the weight.</item>
+    </string-array>
+
+    <string-array name="descriptionSquatHoldCalfRaise">
+        <item>Squat Hold Calf Raise</item>
+        <item>The Squat Hold Calf Raise is a compound exercise that combines a squat position with calf raises to target the calves, quads, and glutes.</item>
+        <item>This exercise improves lower body strength, balance, and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a squat position with your feet shoulder-width apart and knees bent.</item>
+        <item>2. Hold the squat position while keeping your back straight and core engaged.</item>
+        <item>3. Slowly raise your heels off the ground, lifting your body onto your toes.</item>
+        <item>4. Lower your heels back down to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your knees aligned with your toes to avoid strain.</item>
+        <item>2. Focus on controlled movements to maximize muscle engagement.</item>
+        <item>3. Hold the squat position for the entire duration of the exercise.</item>
+        <item>4. Gradually increase the number of repetitions as you build strength.</item>
+    </string-array>
+
+    <string-array name="descriptionStandingHamstringStretch">
+        <item>Standing Hamstring Stretch</item>
+        <item>The Standing Hamstring Stretch is a flexibility exercise that targets the hamstrings and calves while improving overall lower body mobility.</item>
+        <item>This stretch is performed by standing upright and bending forward to stretch the hamstrings.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright with your feet together.</item>
+        <item>2. Slowly bend forward at the hips, reaching toward your toes.</item>
+        <item>3. Hold the stretch for 20-30 seconds, feeling the stretch in your hamstrings and calves.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid rounding your spine.</item>
+        <item>2. Focus on breathing deeply to enhance the stretch.</item>
+        <item>3. Do not bounce during the stretch; hold it steadily.</item>
+        <item>4. Gradually increase the depth of the stretch as your flexibility improves.</item>
+    </string-array>
+
+    <string-array name="descriptionWeightedSeatedCalfRaise">
+        <item>Weighted Seated Calf Raise</item>
+        <item>The Weighted Seated Calf Raise is a strength training exercise that targets the soleus muscle, located beneath the gastrocnemius, using added resistance.</item>
+        <item>This exercise is performed while seated, with weights placed on the thighs to increase intensity.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on a bench with your feet flat on the ground and weights resting on your thighs.</item>
+        <item>2. Place the balls of your feet on a raised surface, such as a block or step.</item>
+        <item>3. Slowly raise your heels as high as possible, lifting the weights with your calves.</item>
+        <item>4. Lower your heels back down to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use a pad or towel to cushion the weights on your thighs.</item>
+        <item>2. Keep your back straight and core engaged throughout the movement.</item>
+        <item>3. Focus on a full range of motion for maximum muscle activation.</item>
+        <item>4. Start with lighter weights and gradually increase as you build strength.</item>
+    </string-array>
+
+    <string-array name="descriptionFoamRollerCalves">
+        <item>Foam Roller Calves</item>
+        <item>The Foam Roller Calves exercise is a self-myofascial release technique that helps relieve tension and improve flexibility in the calf muscles.</item>
+        <item>This exercise is performed using a foam roller to massage and stretch the calves.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with your legs extended and a foam roller under your calves.</item>
+        <item>2. Place your hands on the floor for support and lift your hips off the ground.</item>
+        <item>3. Slowly roll your calves over the foam roller from the ankles to just below the knees.</item>
+        <item>4. Pause on any tight spots and apply gentle pressure for 20-30 seconds.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Control the pressure by adjusting the weight on your legs.</item>
+        <item>2. Breathe deeply and relax your muscles during the exercise.</item>
+        <item>3. Avoid rolling directly over joints or bones.</item>
+        <item>4. Perform the exercise regularly to improve flexibility and reduce soreness.</item>
+    </string-array>
+
+    <string-array name="descriptionBandFootExternalRotation">
+        <item>Band Foot External Rotation</item>
+        <item>The Band Foot External Rotation is a resistance band exercise that targets the muscles of the lower leg and foot, improving ankle stability and mobility.</item>
+        <item>This exercise is performed by rotating the foot against the resistance of a band.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with your legs extended and a resistance band looped around one foot.</item>
+        <item>2. Hold the ends of the band in your hands and create tension.</item>
+        <item>3. Slowly rotate your foot outward against the resistance of the band.</item>
+        <item>4. Return to the starting position and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements slow and controlled.</item>
+        <item>2. Focus on engaging the muscles of the lower leg and foot.</item>
+        <item>3. Use a band with appropriate resistance for your fitness level.</item>
+        <item>4. Perform the exercise on both feet for balanced development.</item>
+    </string-array>
+
+    <string-array name="descriptionToeExtensorStretch">
+        <item>Toe Extensor Stretch</item>
+        <item>The Toe Extensor Stretch is a flexibility exercise that targets the muscles on the top of the foot and the toes, improving foot mobility and reducing tension.</item>
+        <item>This stretch is performed by gently pulling the toes backward to stretch the extensor muscles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with one leg extended and the other bent.</item>
+        <item>2. Gently pull the toes of the extended leg backward using your hand.</item>
+        <item>3. Hold the stretch for 20-30 seconds, feeling the stretch on the top of the foot.</item>
+        <item>4. Switch to the other foot and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid pulling too hard to prevent discomfort or injury.</item>
+        <item>2. Keep your movements slow and controlled.</item>
+        <item>3. Breathe deeply and relax your foot during the stretch.</item>
+        <item>4. Perform the stretch regularly to improve foot flexibility.</item>
+    </string-array>
+
+    <string-array name="descriptionStandingDorsiflexion">
+        <item>Standing Dorsiflexion</item>
+        <item>The Standing Dorsiflexion is a mobility exercise that targets the ankle joint, improving range of motion and flexibility.</item>
+        <item>This exercise is performed by lifting the toes upward while keeping the heel on the ground.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright with your feet shoulder-width apart.</item>
+        <item>2. Slowly lift the toes of one foot upward while keeping the heel on the ground.</item>
+        <item>3. Hold the position for 2-3 seconds, then lower the toes back down.</item>
+        <item>4. Repeat on the other foot.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements slow and controlled.</item>
+        <item>2. Focus on engaging the muscles of the lower leg and ankle.</item>
+        <item>3. Perform the exercise on both feet for balanced development.</item>
+        <item>4. Gradually increase the range of motion as your flexibility improves.</item>
+    </string-array>
+
+    <string-array name="descriptionStandingWallCalfStretch">
+        <item>Standing Wall Calf Stretch</item>
+        <item>The Standing Wall Calf Stretch is a flexibility exercise that targets the calf muscles, specifically the gastrocnemius and soleus.</item>
+        <item>This stretch is performed by leaning against a wall to stretch the calves.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand facing a wall and place your hands on it for support.</item>
+        <item>2. Step one foot back, keeping the heel on the ground and the leg straight.</item>
+        <item>3. Lean forward into the wall, feeling the stretch in the calf of the back leg.</item>
+        <item>4. Hold the stretch for 20-30 seconds, then switch legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid arching your spine.</item>
+        <item>2. Focus on breathing deeply to enhance the stretch.</item>
+        <item>3. Do not bounce during the stretch; hold it steadily.</item>
+        <item>4. Gradually increase the depth of the stretch as your flexibility improves.</item>
+    </string-array>
+
+    <string-array name="descriptionStandingToeUpAchillesStretch">
+        <item>Standing Toe Up Achilles Stretch</item>
+        <item>The Standing Toe Up Achilles Stretch is a flexibility exercise that targets the Achilles tendon and calf muscles.</item>
+        <item>This stretch is performed by placing the toes on a raised surface and leaning forward to stretch the Achilles tendon.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with the toes of one foot on a raised surface, such as a step or block.</item>
+        <item>2. Keep the heel on the ground and the leg straight.</item>
+        <item>3. Lean forward slightly, feeling the stretch in the Achilles tendon and calf.</item>
+        <item>4. Hold the stretch for 20-30 seconds, then switch legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements slow and controlled.</item>
+        <item>2. Avoid leaning too far forward to prevent discomfort.</item>
+        <item>3. Focus on breathing deeply to enhance the stretch.</item>
+        <item>4. Perform the stretch regularly to improve flexibility.</item>
+    </string-array>
+
+    <string-array name="descriptionStandingToeFlexorStretch">
+        <item>Standing Toe Flexor Stretch</item>
+        <item>The Standing Toe Flexor Stretch is a flexibility exercise that targets the muscles on the bottom of the foot and the toes.</item>
+        <item>This stretch is performed by pulling the toes upward while standing.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright with one foot slightly behind the other.</item>
+        <item>2. Gently pull the toes of the back foot upward using your hand.</item>
+        <item>3. Hold the stretch for 20-30 seconds, feeling the stretch on the bottom of the foot.</item>
+        <item>4. Switch to the other foot and repeat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Avoid pulling too hard to prevent discomfort or injury.</item>
+        <item>2. Keep your movements slow and controlled.</item>
+        <item>3. Breathe deeply and relax your foot during the stretch.</item>
+        <item>4. Perform the stretch regularly to improve foot flexibility.</item>
+    </string-array>
+
+    <string-array name="descriptionStandingGastrocnemiusCalfStretch">
+        <item>Standing Gastrocnemius Calf Stretch</item>
+        <item>The Standing Gastrocnemius Calf Stretch is a flexibility exercise that targets the gastrocnemius muscle, the larger of the two calf muscles.</item>
+        <item>This stretch is performed by leaning against a wall with one leg extended back and the heel on the ground.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand facing a wall and place your hands on it for support.</item>
+        <item>2. Step one foot back, keeping the heel on the ground and the leg straight.</item>
+        <item>3. Lean forward into the wall, feeling the stretch in the calf of the back leg.</item>
+        <item>4. Hold the stretch for 20-30 seconds, then switch legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid arching your spine.</item>
+        <item>2. Focus on breathing deeply to enhance the stretch.</item>
+        <item>3. Do not bounce during the stretch; hold it steadily.</item>
+        <item>4. Gradually increase the depth of the stretch as your flexibility improves.</item>
+    </string-array>
+
+    <string-array name="descriptionSingleHeelDropCalfStretch">
+        <item>Single Heel Drop Calf Stretch</item>
+        <item>The Single Heel Drop Calf Stretch is a flexibility exercise that targets the calf muscles, specifically the gastrocnemius and soleus.</item>
+        <item>This stretch is performed by standing on a raised surface and lowering one heel below the level of the step.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand on a raised surface, such as a step or block, with one foot hanging off the edge.</item>
+        <item>2. Slowly lower the heel of the hanging foot below the level of the step, feeling the stretch in the calf.</item>
+        <item>3. Hold the stretch for 20-30 seconds, then switch legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements slow and controlled.</item>
+        <item>2. Hold onto a stable object for balance if needed.</item>
+        <item>3. Focus on breathing deeply to enhance the stretch.</item>
+        <item>4. Gradually increase the depth of the stretch as your flexibility improves.</item>
+    </string-array>
+
+    <string-array name="descriptionSeatedStraightLegCalfStretch">
+        <item>Seated Straight Leg Calf Stretch</item>
+        <item>The Seated Straight Leg Calf Stretch is a flexibility exercise that targets the calf muscles, specifically the gastrocnemius.</item>
+        <item>This stretch is performed by sitting on the floor with one leg extended and pulling the toes toward the body.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with one leg extended and the other bent.</item>
+        <item>2. Loop a towel or resistance band around the ball of the extended foot.</item>
+        <item>3. Gently pull the toes toward your body, feeling the stretch in the calf.</item>
+        <item>4. Hold the stretch for 20-30 seconds, then switch legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid rounding your spine.</item>
+        <item>2. Focus on breathing deeply to enhance the stretch.</item>
+        <item>3. Do not pull too hard to prevent discomfort or injury.</item>
+        <item>4. Perform the stretch regularly to improve flexibility.</item>
+    </string-array>
+
+    <string-array name="descriptionLungingStraightLegCalfStretch">
+        <item>Lunging Straight Leg Calf Stretch</item>
+        <item>The Lunging Straight Leg Calf Stretch is a flexibility exercise that targets the calf muscles, specifically the gastrocnemius.</item>
+        <item>This stretch is performed by lunging forward with one leg while keeping the back leg straight and the heel on the ground.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand in a lunge position with one foot forward and the other foot back.</item>
+        <item>2. Keep the back leg straight and the heel on the ground.</item>
+        <item>3. Lean forward into the lunge, feeling the stretch in the calf of the back leg.</item>
+        <item>4. Hold the stretch for 20-30 seconds, then switch legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements slow and controlled.</item>
+        <item>2. Focus on breathing deeply to enhance the stretch.</item>
+        <item>3. Do not bounce during the stretch; hold it steadily.</item>
+        <item>4. Gradually increase the depth of the stretch as your flexibility improves.</item>
+    </string-array>
+
+    <string-array name="descriptionPosteriorTibialisStretch">
+        <item>Posterior Tibialis Stretch</item>
+        <item>The Posterior Tibialis Stretch is a flexibility exercise that targets the posterior tibialis muscle, located on the inner side of the lower leg.</item>
+        <item>This stretch is performed by rotating the foot inward and pulling it toward the body.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with one leg extended and the other bent.</item>
+        <item>2. Rotate the foot of the extended leg inward and loop a towel or resistance band around it.</item>
+        <item>3. Gently pull the foot toward your body, feeling the stretch on the inner side of the lower leg.</item>
+        <item>4. Hold the stretch for 20-30 seconds, then switch legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid rounding your spine.</item>
+        <item>2. Focus on breathing deeply to enhance the stretch.</item>
+        <item>3. Do not pull too hard to prevent discomfort or injury.</item>
+        <item>4. Perform the stretch regularly to improve flexibility.</item>
+    </string-array>
+
+    <string-array name="descriptionFootAndAnklesStretches">
+        <item>Foot and Ankles Stretches</item>
+        <item>The Foot and Ankles Stretches are a series of flexibility exercises that target the muscles and tendons of the feet and ankles, improving mobility and reducing tension.</item>
+        <item>These stretches are performed by moving the feet and ankles through various ranges of motion.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with your legs extended.</item>
+        <item>2. Flex and point your toes, moving through the full range of motion.</item>
+        <item>3. Rotate your ankles in clockwise and counterclockwise directions.</item>
+        <item>4. Hold each position for 2-3 seconds, then switch directions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements slow and controlled.</item>
+        <item>2. Focus on breathing deeply to enhance the stretch.</item>
+        <item>3. Do not force the movement; work within your comfortable range of motion.</item>
+        <item>4. Perform the stretches regularly to improve flexibility.</item>
+    </string-array>
+
+    <string-array name="descriptionFootAndAnkleRotation">
+        <item>Foot and Ankle Rotation</item>
+        <item>The Foot and Ankle Rotation is a mobility exercise that targets the muscles and tendons of the feet and ankles, improving range of motion and flexibility.</item>
+        <item>This exercise is performed by rotating the feet and ankles in circular motions.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with your legs extended.</item>
+        <item>2. Rotate your ankles in clockwise and counterclockwise directions.</item>
+        <item>3. Perform 10-15 rotations in each direction, then switch feet.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements slow and controlled.</item>
+        <item>2. Focus on breathing deeply to enhance the stretch.</item>
+        <item>3. Do not force the movement; work within your comfortable range of motion.</item>
+        <item>4. Perform the exercise regularly to improve flexibility.</item>
+    </string-array>
+
+    <string-array name="descriptionCalvesStretchStaticPosition">
+        <item>Calves Stretch Static Position</item>
+        <item>The Calves Stretch Static Position is a flexibility exercise that targets the calf muscles, specifically the gastrocnemius and soleus.</item>
+        <item>This stretch is performed by holding a static position that stretches the calves.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand facing a wall and place your hands on it for support.</item>
+        <item>2. Step one foot back, keeping the heel on the ground and the leg straight.</item>
+        <item>3. Lean forward into the wall, feeling the stretch in the calf of the back leg.</item>
+        <item>4. Hold the stretch for 20-30 seconds, then switch legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid arching your spine.</item>
+        <item>2. Focus on breathing deeply to enhance the stretch.</item>
+        <item>3. Do not bounce during the stretch; hold it steadily.</item>
+        <item>4. Gradually increase the depth of the stretch as your flexibility improves.</item>
+    </string-array>
+
+    <string-array name="descriptionSingleLegCalvesStretch">
+        <item>Single Leg Calves Stretch</item>
+        <item>The Single Leg Calves Stretch is a flexibility exercise that targets the calf muscles, specifically the gastrocnemius and soleus.</item>
+        <item>This stretch is performed by standing on one leg and stretching the calf of the other leg.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand on one leg with the other leg extended back.</item>
+        <item>2. Place the heel of the extended leg on the ground and lean forward, feeling the stretch in the calf.</item>
+        <item>3. Hold the stretch for 20-30 seconds, then switch legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements slow and controlled.</item>
+        <item>2. Hold onto a stable object for balance if needed.</item>
+        <item>3. Focus on breathing deeply to enhance the stretch.</item>
+        <item>4. Gradually increase the depth of the stretch as your flexibility improves.</item>
+    </string-array>
+
+    <string-array name="descriptionCalfStretchWithRope">
+        <item>Calf Stretch With Rope</item>
+        <item>The Calf Stretch With Rope is a flexibility exercise that targets the calf muscles, specifically the gastrocnemius and soleus.</item>
+        <item>This stretch is performed by using a rope to pull the toes toward the body, stretching the calves.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with one leg extended and the other bent.</item>
+        <item>2. Loop a rope around the ball of the extended foot.</item>
+        <item>3. Gently pull the toes toward your body, feeling the stretch in the calf.</item>
+        <item>4. Hold the stretch for 20-30 seconds, then switch legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid rounding your spine.</item>
+        <item>2. Focus on breathing deeply to enhance the stretch.</item>
+        <item>3. Do not pull too hard to prevent discomfort or injury.</item>
+        <item>4. Perform the stretch regularly to improve flexibility.</item>
+    </string-array>
+
+    <string-array name="descriptionCrouchingHeelBackCalfStretch">
+        <item>Crouching Heel Back Calf Stretch</item>
+        <item>The Crouching Heel Back Calf Stretch is a flexibility exercise that targets the calf muscles, specifically the gastrocnemius and soleus.</item>
+        <item>This stretch is performed by crouching down and stretching one leg back while keeping the heel on the ground.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a crouching position with your feet flat on the ground.</item>
+        <item>2. Extend one leg back, keeping the heel on the ground and the toes pointing forward.</item>
+        <item>3. Lean forward slightly, feeling the stretch in the calf of the extended leg.</item>
+        <item>4. Hold the stretch for 20-30 seconds, then switch legs.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements slow and controlled.</item>
+        <item>2. Focus on breathing deeply to enhance the stretch.</item>
+        <item>3. Do not bounce during the stretch; hold it steadily.</item>
+        <item>4. Gradually increase the depth of the stretch as your flexibility improves.</item>
+    </string-array>
+
+    <string-array name="descriptionSeatedCalfPressOnLegPressMachine">
+        <item>Seated Calf Press on Leg Press Machine</item>
+        <item>The Seated Calf Press on Leg Press Machine is a strength training exercise that targets the calf muscles, specifically the gastrocnemius and soleus.</item>
+        <item>This exercise is performed on a leg press machine, allowing for controlled movement and added resistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the leg press machine and place your feet on the footplate.</item>
+        <item>2. Position the balls of your feet on the edge of the footplate, allowing your heels to hang off.</item>
+        <item>3. Slowly press the footplate away by raising your heels and engaging your calves.</item>
+        <item>4. Lower your heels back down to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your knees slightly bent to avoid locking them during the movement.</item>
+        <item>2. Use a weight that allows for controlled, full-range movements.</item>
+        <item>3. Focus on squeezing the calf muscles at the top of the movement.</item>
+        <item>4. Avoid bouncing or using momentum to lift the weight.</item>
+    </string-array>
+
+    <string-array name="descriptionSingleCalfRaiseOnLegPressMachine">
+        <item>Single Calf Raise on Leg Press Machine</item>
+        <item>The Single Calf Raise on Leg Press Machine is a strength training exercise that targets the calf muscles, specifically the gastrocnemius and soleus.</item>
+        <item>This exercise is performed on a leg press machine, allowing for controlled movement and added resistance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the leg press machine and place one foot on the footplate.</item>
+        <item>2. Position the ball of your foot on the edge of the footplate, allowing your heel to hang off.</item>
+        <item>3. Slowly press the footplate away by raising your heel and engaging your calf.</item>
+        <item>4. Lower your heel back down to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your knee slightly bent to avoid locking it during the movement.</item>
+        <item>2. Use a weight that allows for controlled, full-range movements.</item>
+        <item>3. Focus on squeezing the calf muscle at the top of the movement.</item>
+        <item>4. Avoid bouncing or using momentum to lift the weight.</item>
+    </string-array>
+
+    <string-array name="descriptionInnerThighSideStretch">
+        <item>Inner Thigh Side Stretch</item>
+        <item>The Inner Thigh Side Stretch is a flexibility exercise that targets the inner thigh muscles, improving mobility and reducing tension.</item>
+        <item>This stretch is performed by sitting on the floor and stretching the legs to the sides.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with your legs extended to the sides as far as comfortable.</item>
+        <item>2. Lean forward from the hips, reaching toward one foot.</item>
+        <item>3. Hold the stretch for 20-30 seconds, then switch to the other side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid rounding your spine.</item>
+        <item>2. Focus on breathing deeply to enhance the stretch.</item>
+        <item>3. Do not bounce during the stretch; hold it steadily.</item>
+        <item>4. Gradually increase the depth of the stretch as your flexibility improves.</item>
+    </string-array>
+
+    <string-array name="descriptionSingleLegDonkeyCalfRaise">
+        <item>Single Leg Donkey Calf Raise</item>
+        <item>The Single Leg Donkey Calf Raise is a strength training exercise that targets the calf muscles, specifically the gastrocnemius and soleus.</item>
+        <item>This exercise is performed by bending at the waist and lifting one heel while the upper body is supported.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Bend at the waist and place your hands on a stable surface, such as a bench or wall, for support.</item>
+        <item>2. Lift one leg off the ground and keep the other leg straight.</item>
+        <item>3. Slowly raise the heel of the straight leg as high as possible, squeezing your calf muscle at the top.</item>
+        <item>4. Lower your heel back down to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and core engaged throughout the movement.</item>
+        <item>2. Focus on controlled movements to maximize muscle engagement.</item>
+        <item>3. Avoid bouncing at the bottom of the movement to prevent injury.</item>
+        <item>4. Gradually increase the range of motion as your flexibility improves.</item>
+    </string-array>
+</resources>

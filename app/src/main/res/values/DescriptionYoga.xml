@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="descriptionYogaWarrior1Pose">
+        <item>Warrior 1 Pose</item>
+        <item>The Warrior 1 Pose (Virabhadrasana I) is a foundational yoga posture that strengthens the legs, opens the hips, and improves balance while stretching the chest and shoulders.</item>
+        <item>This pose engages the lower body while promoting flexibility in the upper body, making it a great full-body stretch.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a standing position (Tadasana) with your feet hip-width apart.</item>
+        <item>2. Step one foot back, keeping the toes slightly turned outward and the front knee bent at a 90-degree angle.</item>
+        <item>3. Extend both arms overhead, palms facing each other.</item>
+        <item>4. Keep your torso upright, engaging your core and pressing evenly through both feet.</item>
+        <item>5. Hold for a few breaths, then switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your front knee aligned over the ankle to prevent strain.</item>
+        <item>2. Engage your core to support balance and avoid arching your lower back.</item>
+        <item>3. Relax your shoulders and keep your gaze forward or slightly upward.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaWarrior2Pose">
+        <item>Warrior 2 Pose</item>
+        <item>The Warrior 2 Pose (Virabhadrasana II) strengthens the legs, improves flexibility in the hips, and enhances endurance.</item>
+        <item>This posture encourages body awareness and mental focus while promoting stability and alignment.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin in a standing position and step one foot back, turning it perpendicular to the front foot.</item>
+        <item>2. Bend the front knee at a 90-degree angle while keeping the back leg straight.</item>
+        <item>3. Extend both arms out parallel to the floor, palms facing down.</item>
+        <item>4. Keep your torso upright and gaze over the front hand.</item>
+        <item>5. Hold for a few breaths before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your front knee aligned with the ankle and avoid collapsing inward.</item>
+        <item>2. Press evenly through both feet to maintain stability.</item>
+        <item>3. Engage your core and lengthen the spine for proper alignment.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaWarrior3Pose">
+        <item>Warrior 3 Pose</item>
+        <item>The Warrior 3 Pose (Virabhadrasana III) is a balancing pose that strengthens the legs, core, and back while improving concentration and posture.</item>
+        <item>This pose challenges stability and coordination while providing a deep hamstring stretch.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin in a standing position with feet hip-width apart.</item>
+        <item>2. Shift your weight onto one leg while extending the opposite leg straight back.</item>
+        <item>3. Hinge forward at the hips, bringing your torso parallel to the floor.</item>
+        <item>4. Extend both arms forward or keep them at your sides for balance.</item>
+        <item>5. Hold for a few breaths, then switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core to support balance and prevent wobbling.</item>
+        <item>2. Keep the lifted leg in line with the torso and hips square.</item>
+        <item>3. Maintain a soft bend in the standing knee to avoid hyperextension.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaHumbleWarriorPose">
+        <item>Humble Warrior Pose</item>
+        <item>The Humble Warrior Pose (Baddha Virabhadrasana) is a deep forward-bending variation of Warrior 1 that opens the chest, shoulders, and hips.</item>
+        <item>This pose enhances flexibility in the legs and spine while promoting grounding and inner focus.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in Warrior 1 Pose with arms extended overhead.</item>
+        <item>2. Interlace your fingers behind your back and straighten your arms.</item>
+        <item>3. Hinge forward at the hips, bringing your torso inside the front leg.</item>
+        <item>4. Allow your head to relax downward while lifting your interlaced hands overhead.</item>
+        <item>5. Hold for a few breaths before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your front knee stable and aligned over the ankle.</item>
+        <item>2. Focus on deep breathing to enhance the stretch and maintain stability.</item>
+        <item>3. Relax your shoulders and avoid tensing the neck.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaReverseWarriorPose">
+        <item>Reverse Warrior Pose</item>
+        <item>The Reverse Warrior Pose (Viparita Virabhadrasana) is a graceful side stretch that strengthens the legs and opens the ribcage.</item>
+        <item>This pose promotes spinal flexibility while enhancing balance and stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin in Warrior 2 Pose with your front knee bent.</item>
+        <item>2. Lift your front arm overhead and arch slightly back.</item>
+        <item>3. Rest your back hand gently on your back thigh.</item>
+        <item>4. Keep your gaze upward or forward while maintaining a deep stretch.</item>
+        <item>5. Hold for a few breaths before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your front knee stable and aligned with the ankle.</item>
+        <item>2. Engage your core to support your lower back.</item>
+        <item>3. Avoid collapsing into the back leg; keep the weight evenly distributed.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaUstrasana">
+        <item>Ustrasana</item>
+        <item>Ustrasana, or Camel Pose, is a deep backbend that stretches the front body while strengthening the back and shoulders.</item>
+        <item>This pose improves spinal flexibility, opens the chest, and helps counteract poor posture from prolonged sitting.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Kneel on the floor with your knees hip-width apart.</item>
+        <item>2. Place your hands on your lower back for support.</item>
+        <item>3. Slowly lean back, reaching for your heels with your hands while keeping your hips forward.</item>
+        <item>4. Lift your chest and drop your head back gently, holding the pose for a few breaths.</item>
+        <item>5. To release, bring your hands back to your lower back and slowly return to an upright position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core to support your lower back.</item>
+        <item>2. Keep your thighs perpendicular to the floor to maintain proper alignment.</item>
+        <item>3. If reaching your heels is difficult, keep your hands on your lower back for support.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaUtthitaTrikonasana">
+        <item>Utthita Trikonasana (Extended Triangle Pose)</item>
+        <item>Utthita Trikonasana is a standing yoga pose that stretches the legs, hips, and spine while improving balance and stability.</item>
+        <item>This pose enhances flexibility in the hamstrings and strengthens the legs and core.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet wide apart, turning one foot outward at a 90-degree angle.</item>
+        <item>2. Extend your arms parallel to the floor.</item>
+        <item>3. Reach forward with your front hand and lower it to your shin, ankle, or the floor.</item>
+        <item>4. Extend your other arm toward the ceiling and turn your gaze upward.</item>
+        <item>5. Hold for a few breaths before switching sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your front knee slightly bent if you have tight hamstrings.</item>
+        <item>2. Engage your core to maintain stability.</item>
+        <item>3. Avoid collapsing into the lower side; instead, lift through the torso.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaTigerYogaPose">
+        <item>Tiger Yoga Pose</item>
+        <item>The Tiger Pose (Vyaghrasana) is a gentle backbend that strengthens the spine, core, and glutes while improving flexibility.</item>
+        <item>This pose also helps improve coordination and balance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a tabletop position on hands and knees.</item>
+        <item>2. Inhale and lift one leg backward, bending the knee.</item>
+        <item>3. If comfortable, reach back with the opposite hand to grasp the raised foot.</item>
+        <item>4. Hold the pose while keeping your balance and maintaining a steady breath.</item>
+        <item>5. Release and switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core for stability and control.</item>
+        <item>2. Keep your supporting arm strong and avoid collapsing into the shoulder.</item>
+        <item>3. If reaching the foot is difficult, practice lifting the leg first before attempting the full pose.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaBhekasanaFrogPose">
+        <item>Bhekasana (Frog Pose)</item>
+        <item>Bhekasana, or Frog Pose, is an intense quadriceps and hip flexor stretch that improves flexibility in the legs and opens the chest.</item>
+        <item>This pose enhances spinal mobility and is beneficial for improving posture.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down on the mat with your legs extended.</item>
+        <item>2. Bend your knees and bring your feet toward your hips.</item>
+        <item>3. Reach back with your hands to grasp your feet, pressing them down toward the floor.</item>
+        <item>4. Lift your chest slightly and hold the pose for a few breaths.</item>
+        <item>5. Release slowly and return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your thighs grounded while pressing the feet down.</item>
+        <item>2. Engage your glutes to support the lower back.</item>
+        <item>3. If reaching both feet is challenging, practice with one leg at a time.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaBalasana">
+        <item>Balasana (Child\'s Pose)</item>
+        <item>Balasana, or Child’s Pose, is a resting pose that stretches the back, hips, and shoulders while promoting relaxation.</item>
+        <item>This pose helps relieve stress and tension while gently stretching the spine.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a kneeling position with your big toes touching and knees apart.</item>
+        <item>2. Lower your torso forward, extending your arms in front or alongside your body.</item>
+        <item>3. Rest your forehead on the mat and relax your shoulders.</item>
+        <item>4. Hold the pose for several breaths, focusing on deep breathing.</item>
+        <item>5. To release, slowly return to a seated position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your arms extended for an active stretch or rest them alongside your body for relaxation.</item>
+        <item>2. If your forehead doesn’t reach the floor, place a block or cushion for support.</item>
+        <item>3. Breathe deeply to enhance relaxation and release tension.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaAnuvittasana">
+        <item>Anuvittasana | Standing Backbend Pose</item>
+        <item>Anuvittasana, or Standing Backbend Pose, is a gentle backbend that opens the chest and strengthens the back while improving posture.</item>
+        <item>This pose enhances spinal flexibility and energizes the body.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand tall with your feet hip-width apart.</item>
+        <item>2. Place your hands on your lower back for support.</item>
+        <item>3. Inhale and lift your chest while gently arching your back.</item>
+        <item>4. Keep your gaze upward and hold the pose for a few breaths.</item>
+        <item>5. To release, slowly return to an upright position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core to protect your lower back.</item>
+        <item>2. Keep your knees slightly bent if you feel tension in your lower back.</item>
+        <item>3. Avoid straining the neck; keep movements smooth and controlled.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaAnjaneyasana">
+        <item>Anjaneyasana | Low Lunge Pose</item>
+        <item>Anjaneyasana, or Low Lunge Pose, is a deep hip-opening stretch that improves flexibility in the legs and strengthens the lower body.</item>
+        <item>This pose enhances balance and stability while relieving tension in the hips.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a lunge position with one foot forward and the other leg extended back.</item>
+        <item>2. Lower your back knee to the ground and rest the top of your foot on the floor.</item>
+        <item>3. Inhale and lift your arms overhead, reaching toward the sky.</item>
+        <item>4. Hold the pose for a few breaths, deepening the stretch.</item>
+        <item>5. To release, bring your hands down and switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your front knee aligned with your ankle to avoid strain.</item>
+        <item>2. Engage your core and lift your chest for better balance.</item>
+        <item>3. Use a cushion under the back knee for added comfort.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaEkaPadaSetuBandhaSarvangasana">
+        <item>Eka Pada Setu Bandha Sarvangasana</item>
+        <item>Eka Pada Setu Bandha Sarvangasana, or One-Legged Bridge Pose, is a variation of the Bridge Pose that strengthens the glutes, core, and hamstrings.</item>
+        <item>This pose enhances spinal flexibility while improving balance and coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with your knees bent and feet flat on the floor.</item>
+        <item>2. Press into your feet and lift your hips off the ground.</item>
+        <item>3. Extend one leg toward the ceiling while keeping your hips level.</item>
+        <item>4. Hold the position for a few breaths, then switch legs.</item>
+        <item>5. Lower your hips back down to release.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to maintain balance.</item>
+        <item>2. Avoid arching your lower back excessively.</item>
+        <item>3. Focus on controlled movements to maximize muscle engagement.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaDandayamanaBharmanasana">
+        <item>Dandayamana Bharmanasana | Balancing Table Pose</item>
+        <item>Dandayamana Bharmanasana, or Balancing Table Pose, is a yoga posture that strengthens the core, back, and shoulders while improving coordination.</item>
+        <item>This pose enhances stability and focus.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a tabletop position on hands and knees.</item>
+        <item>2. Extend your right arm forward and your left leg straight back.</item>
+        <item>3. Keep your hips level and engage your core for balance.</item>
+        <item>4. Hold the position for a few breaths, then switch sides.</item>
+        <item>5. Return to the starting position and repeat as needed.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your gaze focused on the floor to maintain balance.</item>
+        <item>2. Engage your glutes and core to keep your body stable.</item>
+        <item>3. Move slowly and with control to prevent wobbling.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaChaturangaDandasana">
+        <item>Chaturanga Dandasana | Low Plank Pose</item>
+        <item>Chaturanga Dandasana, or Low Plank Pose, is a foundational yoga pose that builds upper body strength and core stability.</item>
+        <item>This pose strengthens the arms, shoulders, chest, and abdominals.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a high plank position with your shoulders over your wrists.</item>
+        <item>2. Lower your body halfway down, keeping your elbows close to your ribs.</item>
+        <item>3. Maintain a straight line from head to heels.</item>
+        <item>4. Hold for a few breaths, then push back up or transition to another pose.</item>
+        <item>5. To release, lower your body completely to the mat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core to prevent sagging in the lower back.</item>
+        <item>2. Keep your elbows at a 90-degree angle to avoid straining your shoulders.</item>
+        <item>3. If needed, modify by lowering your knees for extra support.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaBitilasana">
+        <item>Bitilasana | Cow Pose</item>
+        <item>Bitilasana, or Cow Pose, is a simple yoga posture that warms up the spine, enhances flexibility, and relieves lower back tension.</item>
+        <item>This pose is often performed in combination with Cat Pose in a dynamic flow.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start on all fours, with wrists aligned under shoulders and knees under hips.</item>
+        <item>2. Inhale and lift your head and chest, arching your back while tilting your tailbone upward.</item>
+        <item>3. Keep your shoulders relaxed and your breath steady.</item>
+        <item>4. Hold the position for a few seconds.</item>
+        <item>5. Exhale and transition into Cat Pose for a smooth movement.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep movements fluid and synchronized with your breath.</item>
+        <item>2. Avoid straining your neck by keeping it in a natural position.</item>
+        <item>3. Use a soft mat to support your knees for extra comfort.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaPadaHastasana">
+        <item>Pada Hastasana | Hands to Feet Pose</item>
+        <item>Pada Hastasana, or Hands to Feet Pose, is a deep forward bend that stretches the hamstrings, improves spinal flexibility, and boosts circulation.</item>
+        <item>This pose helps to relax the back muscles and reduce fatigue.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand upright with feet hip-width apart.</item>
+        <item>2. Exhale as you slowly bend forward, reaching your hands toward the floor.</item>
+        <item>3. Relax your neck and let your head hang naturally.</item>
+        <item>4. Hold the position for several breaths.</item>
+        <item>5. Inhale and slowly return to the standing position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Slightly bend your knees if you feel too much tension.</item>
+        <item>2. Do not pull yourself down forcefully to avoid injury.</item>
+        <item>3. Breathe deeply, allowing your muscles to relax with each exhale.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaTitliAsana">
+        <item>Titli Asana | Butterfly Pose</item>
+        <item>Titli Asana, or Butterfly Pose, increases hip flexibility and stretches the inner thighs.</item>
+        <item>This pose helps release tension in the pelvic area and promotes relaxation.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the mat, bring the soles of your feet together, and pull them close to your pelvis.</item>
+        <item>2. Keep your spine straight and let your knees drop to the sides.</item>
+        <item>3. Begin gently bouncing your knees up and down like butterfly wings.</item>
+        <item>4. Continue the motion for a few breaths at a comfortable pace.</item>
+        <item>5. To release, straighten your legs in front of you.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Do not force your knees down; allow them to lower naturally.</item>
+        <item>2. Keep your back straight and avoid slouching.</item>
+        <item>3. If your hips are tight, place cushions under your thighs for support.</item>
+    </string-array>
+
+    <string-array name="descriptionBaddhaKonasanaButterflyPose">
+        <item>Baddha Konasana | Butterfly Pose</item>
+        <item>A foundational seated yoga pose that opens the hips and stretches the inner thighs.</item>
+        <item>This pose improves flexibility in the groin and hip region while promoting relaxation.</item>
+        <item>To perform the pose:</item>
+        <item>1. Sit on the floor with legs extended straight</item>
+        <item>2. Bend knees and bring soles of feet together</item>
+        <item>3. Let knees fall outward, creating diamond shape with legs</item>
+        <item>4. Hold feet with hands and sit tall</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep spine long - avoid rounding back</item>
+        <item>2. Don\'t force knees down - let gravity work</item>
+        <item>3. Breathe deeply to enhance relaxation</item>
+        <item>4. Use props under knees if needed for support</item>
+    </string-array>
+
+    <string-array name="descriptionYogaMakarasana">
+        <item>Makarasana | Crocodile Pose</item>
+        <item>Makarasana, or Crocodile Pose, is a relaxing yoga posture that relieves tension in the lower back and enhances deep breathing.</item>
+        <item>This pose is ideal for cooling down after an intense workout.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your stomach with legs extended and toes pointing slightly outward.</item>
+        <item>2. Place your arms in front of you, stacking your hands, and rest your forehead on them.</item>
+        <item>3. Close your eyes, relax completely, and breathe slowly.</item>
+        <item>4. Stay in this position for a few minutes, focusing on your breath.</item>
+        <item>5. To exit, gently roll onto your back or sit up.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your breathing slow and natural to maximize relaxation.</item>
+        <item>2. Ensure your body remains still to maintain a meditative state.</item>
+        <item>3. Use a cushion under your chest if you need extra support.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaArdhaUttanasana">
+        <item>Ardha Uttanasana | Standing Half Forward Bend</item>
+        <item>Ardha Uttanasana, or Standing Half Forward Bend, is a yoga posture that strengthens the back, stretches the hamstrings, and improves posture.</item>
+        <item>This pose is commonly performed as part of Sun Salutations and is beneficial for spinal alignment.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with feet hip-width apart and inhale while extending your arms overhead.</item>
+        <item>2. Exhale and hinge at your hips, lowering your torso halfway down while keeping your back straight.</item>
+        <item>3. Place your hands on your shins, thighs, or the floor, keeping your spine elongated.</item>
+        <item>4. Engage your core and hold the position for a few breaths.</item>
+        <item>5. Inhale and slowly return to a standing position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back flat and avoid rounding your shoulders.</item>
+        <item>2. Slightly bend your knees if your hamstrings feel too tight.</item>
+        <item>3. Engage your core for stability and balance.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaArdhaKapotasana">
+        <item>Ardha Kapotasana | Half Pigeon Pose</item>
+        <item>Ardha Kapotasana, or Half Pigeon Pose, is a deep hip-opening posture that stretches the hip flexors and lower back.</item>
+        <item>This pose is excellent for improving flexibility and releasing tension in the hips.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin in a tabletop position with hands and knees on the mat.</item>
+        <item>2. Bring your right knee forward and place it behind your right wrist, extending your left leg back.</item>
+        <item>3. Keep your hips squared and slowly lower your upper body forward.</item>
+        <item>4. Rest your forehead on the mat and breathe deeply.</item>
+        <item>5. Hold the pose for 20–30 seconds, then switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your front foot flexed to protect your knee.</item>
+        <item>2. Place a yoga block under your hip for support if needed.</item>
+        <item>3. Breathe deeply to enhance relaxation and flexibility.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaAdvasana">
+        <item>Advasana | Reverse Corpse Pose</item>
+        <item>Advasana, or Reverse Corpse Pose, is a relaxation posture that calms the nervous system and releases tension from the body.</item>
+        <item>This pose is beneficial for deep relaxation and post-workout recovery.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face-down on the mat with legs extended and arms stretched forward.</item>
+        <item>2. Keep your forehead resting on the mat and relax your entire body.</item>
+        <item>3. Close your eyes and focus on deep, steady breathing.</item>
+        <item>4. Hold the position for a few minutes, allowing full relaxation.</item>
+        <item>5. To exit, gently roll onto your side before sitting up.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use a folded towel under your forehead for comfort.</item>
+        <item>2. Keep your breathing slow and steady to maximize relaxation.</item>
+        <item>3. Ensure your body remains completely still during the pose.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaAdhoMukhaVrksasana">
+        <item>Adho Mukha Vrksasana | Handstand Pose</item>
+        <item>Adho Mukha Vrksasana, or Handstand Pose, is an advanced inversion that strengthens the arms, shoulders, and core.</item>
+        <item>This pose improves balance, enhances focus, and builds upper-body endurance.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a downward-facing dog position with hands shoulder-width apart.</item>
+        <item>2. Shift your weight forward and walk your feet closer to your hands.</item>
+        <item>3. Kick one leg up, followed by the other, to balance in a handstand.</item>
+        <item>4. Engage your core and keep your legs straight and together.</item>
+        <item>5. Hold the position as long as possible, then lower back down with control.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Practice against a wall for support when learning the pose.</item>
+        <item>2. Keep your fingers spread wide for better balance.</item>
+        <item>3. Engage your core and glutes to maintain stability.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaAdhoMukhaSvanasana">
+        <item>Adho Mukha Svanasana | Downward Facing Dog</item>
+        <item>Adho Mukha Svanasana, or Downward Facing Dog, is a fundamental yoga pose that strengthens the upper body and stretches the hamstrings, calves, and spine.</item>
+        <item>This pose enhances blood circulation and improves posture.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Start in a tabletop position with hands and knees on the mat.</item>
+        <item>2. Tuck your toes under and lift your hips toward the ceiling.</item>
+        <item>3. Straighten your legs while pressing your heels toward the ground.</item>
+        <item>4. Keep your head relaxed and arms extended, forming an inverted "V" shape.</item>
+        <item>5. Hold the pose for a few breaths, then release.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your hands and feet firmly grounded for stability.</item>
+        <item>2. Maintain a slight bend in the knees if needed.</item>
+        <item>3. Engage your core and avoid collapsing into your shoulders.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaTadasana">
+        <item>Tadasana | Mountain Pose</item>
+        <item>Tadasana, or Mountain Pose, is a foundational standing yoga posture that promotes good posture, balance, and alignment.</item>
+        <item>This pose helps improve body awareness, strengthen the legs, and enhance stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with feet together or hip-width apart, arms relaxed at your sides.</item>
+        <item>2. Engage your thighs, lift your chest, and lengthen your spine.</item>
+        <item>3. Keep your shoulders relaxed and gaze forward.</item>
+        <item>4. Hold the position for several breaths, focusing on deep and steady breathing.</item>
+        <item>5. Release and return to a neutral standing posture.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Distribute your weight evenly across both feet.</item>
+        <item>2. Engage your core to support spinal alignment.</item>
+        <item>3. Keep your arms active but relaxed to avoid unnecessary tension.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaSuptaBaddhaKonasana">
+        <item>Supta Baddha Konasana | Reclining Bound Angle Pose</item>
+        <item>Supta Baddha Konasana, or Reclining Bound Angle Pose, is a restorative yoga posture that promotes relaxation, opens the hips, and enhances flexibility in the inner thighs.</item>
+        <item>This pose helps relieve stress, improve circulation, and gently stretch the groin and lower body.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the mat with your legs extended forward.</item>
+        <item>2. Bring the soles of your feet together, allowing your knees to fall open to the sides.</item>
+        <item>3. Slowly lower your upper body onto the mat, lying down with your arms relaxed at your sides.</item>
+        <item>4. Close your eyes, breathe deeply, and hold the position for 1 to 5 minutes.</item>
+        <item>5. To release, bring your knees together and sit up slowly.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use yoga blocks or pillows under your knees for extra support if needed.</item>
+        <item>2. Keep your breathing slow and steady to enhance relaxation.</item>
+        <item>3. Avoid forcing your knees to the ground; let gravity gently deepen the stretch.</item>
+        <item>4. Place a bolster or pillow under your back for additional support and a deeper chest opening.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaViparitaKarani">
+        <item>Viparita Karani | Legs Up the Wall Pose</item>
+        <item>Viparita Karani, or Legs Up the Wall Pose, is a restorative inversion that promotes relaxation, relieves leg fatigue, and improves circulation.</item>
+        <item>This pose is beneficial for reducing stress and swelling in the legs.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit next to a wall and lie back while swinging your legs up against the wall.</item>
+        <item>2. Adjust your hips close to the wall for a comfortable position.</item>
+        <item>3. Rest your arms at your sides with palms facing up.</item>
+        <item>4. Relax your body and breathe deeply, holding the pose for 5–10 minutes.</item>
+        <item>5. To release, bend your knees and roll to your side before sitting up.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Place a folded blanket under your lower back for extra support.</item>
+        <item>2. Maintain a relaxed neck and shoulders throughout the pose.</item>
+        <item>3. Focus on slow breathing to deepen relaxation and release tension.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaSuptaMatsyendrasana">
+        <item>Supta Matsyendrasana | Supine Spinal Twist</item>
+        <item>Supta Matsyendrasana, or Supine Spinal Twist, is a gentle twist that stretches the spine, massages the internal organs, and promotes relaxation.</item>
+        <item>This pose helps release tension in the back and improves spinal flexibility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with your legs extended.</item>
+        <item>2. Bend your right knee and bring it across your body to the left side.</item>
+        <item>3. Extend your right arm out to the side and turn your head to the right.</item>
+        <item>4. Keep both shoulders grounded and breathe deeply.</item>
+        <item>5. Hold the pose for 30 seconds to 1 minute, then switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your shoulders pressed against the mat for a deeper twist.</item>
+        <item>2. Use a cushion under your bent knee if needed for support.</item>
+        <item>3. Breathe deeply to enhance spinal release and relaxation.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaSamakonasana">
+        <item>Samakonasana | Straight Angle Pose</item>
+        <item>Samakonasana, or Straight Angle Pose, is an advanced flexibility pose that deeply stretches the hamstrings, inner thighs, and lower back.</item>
+        <item>This pose helps improve flexibility and strengthens the legs.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the floor with your legs extended straight to the sides.</item>
+        <item>2. Keep your toes pointing upward and your knees straight.</item>
+        <item>3. Slowly lean forward from your hips, keeping your back straight.</item>
+        <item>4. Rest your hands on the floor or reach forward as far as possible.</item>
+        <item>5. Hold the pose for 30 seconds to 1 minute, then release.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and avoid rounding your spine.</item>
+        <item>2. Move into the stretch gradually to prevent injury.</item>
+        <item>3. If necessary, use yoga blocks for support under your hands.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaShoulderstand">
+        <item>Shoulderstand | Salamba Sarvangasana</item>
+        <item>Salamba Sarvangasana, or Shoulderstand, is an advanced inversion pose that strengthens the shoulders, improves circulation, and enhances core stability.</item>
+        <item>This pose helps stimulate the thyroid gland, improve posture, and calm the nervous system.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with your arms at your sides.</item>
+        <item>2. Lift your legs towards the ceiling, using your hands to support your lower back.</item>
+        <item>3. Engage your core and straighten your legs while keeping your neck relaxed.</item>
+        <item>4. Hold the position for 30 seconds to 1 minute, breathing deeply.</item>
+        <item>5. Slowly lower your legs back to the mat with control.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows close to your body for better support.</item>
+        <item>2. Avoid putting excessive pressure on your neck.</item>
+        <item>3. Use a folded blanket under your shoulders for comfort.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaNaukaSanchalanasan">
+        <item>Nauka Sanchalanasan | Rowing the Boat Pose</item>
+        <item>Nauka Sanchalanasan, or Rowing the Boat Pose, is a dynamic yoga posture that strengthens the core, improves spinal flexibility, and enhances balance.</item>
+        <item>This pose mimics the movement of rowing a boat, engaging the abdominal muscles and improving coordination.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the mat with your legs extended forward.</item>
+        <item>2. Clasp your hands together as if holding an oar.</item>
+        <item>3. Lean back slightly and move your hands in a circular motion as if rowing a boat.</item>
+        <item>4. Keep your core engaged and maintain a steady breath.</item>
+        <item>5. Repeat for 10-15 rounds, then relax.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight to avoid strain.</item>
+        <item>2. Engage your core throughout the movement.</item>
+        <item>3. Perform the exercise slowly and with control.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaMalasana">
+        <item>Malasana | Squat Pose or Garland Pose</item>
+        <item>Malasana, or Squat Pose, is a deep hip-opening yoga posture that improves mobility, strengthens the lower body, and enhances digestion.</item>
+        <item>This pose is beneficial for increasing flexibility in the hips and ankles while promoting grounding and relaxation.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand with your feet slightly wider than hip-width apart.</item>
+        <item>2. Lower your hips into a deep squat, bringing your palms together in front of your chest.</item>
+        <item>3. Keep your back straight and chest lifted.</item>
+        <item>4. Hold the pose for 30 seconds to 1 minute, breathing deeply.</item>
+        <item>5. To release, press through your heels and stand back up.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Use a yoga block under your hips for support if needed.</item>
+        <item>2. Keep your feet flat on the ground and avoid lifting your heels.</item>
+        <item>3. Engage your core for balance and stability.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaFullLotusPose">
+        <item>Full Lotus Pose</item>
+        <item>Full Lotus Pose is a traditional seated meditation posture that enhances flexibility in the hips, knees, and ankles.</item>
+        <item>This pose promotes mindfulness, relaxation, and improved posture.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the mat with your legs extended forward.</item>
+        <item>2. Bend your right knee and place your foot on top of your left thigh.</item>
+        <item>3. Bend your left knee and place your foot on top of your right thigh.</item>
+        <item>4. Keep your spine straight and hands resting on your knees.</item>
+        <item>5. Hold the pose for 1-5 minutes, breathing deeply.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your back straight and shoulders relaxed.</item>
+        <item>2. Avoid forcing your knees down; let them rest naturally.</item>
+        <item>3. Use a cushion or blanket under your hips for comfort.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaHalasana">
+        <item>Halasana | Plow Pose</item>
+        <item>Halasana, or Plow Pose, is an advanced yoga posture that stretches the spine, shoulders, and hamstrings while calming the nervous system.</item>
+        <item>This pose helps improve flexibility, relieve stress, and stimulate the digestive organs.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with your arms at your sides.</item>
+        <item>2. Lift your legs over your head, reaching your toes towards the floor behind you.</item>
+        <item>3. Keep your hands on your lower back for support or extend them on the mat.</item>
+        <item>4. Hold the position for 30 seconds to 1 minute, breathing deeply.</item>
+        <item>5. Slowly roll your spine back down to the mat with control.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your neck relaxed and avoid excessive pressure on your spine.</item>
+        <item>2. Engage your core muscles for better control.</item>
+        <item>3. Use a folded blanket under your shoulders for support.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaLocustPose">
+        <item>Locust Pose</item>
+        <item>Locust Pose is a back-strengthening yoga posture that targets the lower back, glutes, and hamstrings while improving spinal flexibility.</item>
+        <item>This pose enhances posture, strengthens the core, and helps alleviate lower back pain.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie face down on the mat with your arms at your sides and palms facing down.</item>
+        <item>2. Inhale and lift your chest, arms, and legs off the ground simultaneously.</item>
+        <item>3. Engage your core and squeeze your glutes, keeping your gaze forward.</item>
+        <item>4. Hold the position for 20-30 seconds, breathing steadily.</item>
+        <item>5. Exhale and slowly lower back down to the mat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your legs straight and avoid bending the knees.</item>
+        <item>2. Engage your lower back and core for stability.</item>
+        <item>3. Do not overextend your neck; keep it in a neutral position.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaWheelPose">
+        <item>Wheel Pose | Chakrasana | Urdhva Dhanurasana</item>
+        <item>Wheel Pose, or Chakrasana, is an advanced backbend that strengthens the entire body, improves flexibility, and energizes the nervous system.</item>
+        <item>This pose opens the chest, shoulders, and hips, enhancing overall spinal mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with your knees bent and feet hip-width apart.</item>
+        <item>2. Place your hands beside your head, fingers pointing toward your shoulders.</item>
+        <item>3. Press into your hands and feet, lifting your hips and chest off the mat.</item>
+        <item>4. Straighten your arms and legs, arching your back and opening your heart.</item>
+        <item>5. Hold the pose for 15-30 seconds, breathing deeply.</item>
+        <item>6. Slowly lower yourself back down with control.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Warm up your back and shoulders before attempting this pose.</item>
+        <item>2. Engage your core and glutes for better stability.</item>
+        <item>3. If necessary, use a yoga block under your hands or feet for support.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaGarudasana">
+        <item>Garudasana | Eagle Pose</item>
+        <item>Garudasana, or Eagle Pose, is a balancing yoga posture that strengthens the legs, improves focus, and enhances flexibility in the shoulders and hips.</item>
+        <item>This pose promotes concentration, coordination, and deep muscle engagement.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Stand tall with your feet together and arms at your sides.</item>
+        <item>2. Bend your knees slightly and lift your right leg over your left thigh, wrapping it around your left calf.</item>
+        <item>3. Cross your right arm under your left arm, bringing your palms together.</item>
+        <item>4. Hold the position for 20-30 seconds, maintaining steady breaths.</item>
+        <item>5. Release and repeat on the opposite side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Focus on a fixed point to maintain balance.</item>
+        <item>2. Engage your core to stabilize your posture.</item>
+        <item>3. If you struggle with balance, use a wall for support or perform the pose with the lifted foot resting on the ground.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaCrabPose">
+        <item>Crab Pose</item>
+        <item>Crab Pose is a yoga posture that strengthens the arms, shoulders, and core while improving flexibility in the spine and hip flexors.</item>
+        <item>This pose enhances coordination and body awareness while promoting shoulder stability.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the mat with your feet flat and hands placed behind you, fingers pointing forward.</item>
+        <item>2. Press into your hands and feet to lift your hips off the ground.</item>
+        <item>3. Engage your core and keep your chest open.</item>
+        <item>4. Hold the position for 20-30 seconds while breathing steadily.</item>
+        <item>5. Slowly lower your hips back down to the mat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your wrists aligned under your shoulders for support.</item>
+        <item>2. Engage your glutes and core to maintain stability.</item>
+        <item>3. If you feel wrist discomfort, adjust your hand placement or use a yoga block for support.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaChildsPoseToCobra">
+        <item>Child’s Pose to Cobra Pose</item>
+        <item>This dynamic yoga sequence transitions between Child’s Pose and Cobra Pose, stretching the spine, opening the chest, and promoting relaxation.</item>
+        <item>The movement between these two poses helps improve flexibility and reduce tension in the back and shoulders.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin in Child’s Pose, sitting on your heels with your arms extended forward.</item>
+        <item>2. Inhale and shift forward into Cobra Pose, lifting your chest while keeping your legs and pelvis grounded.</item>
+        <item>3. Hold the Cobra Pose for a breath, then exhale and return to Child’s Pose.</item>
+        <item>4. Repeat the transition 5-10 times, moving with your breath.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your movements slow and controlled.</item>
+        <item>2. Engage your core when transitioning between poses.</item>
+        <item>3. If Cobra Pose feels too intense, modify by keeping your elbows bent and chest lower to the ground.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaCamelPose">
+        <item>Camel Pose</item>
+        <item>Camel Pose, or Ustrasana, is a deep backbend that stretches the front of the body while strengthening the back muscles.</item>
+        <item>This pose improves spinal flexibility, opens the chest, and enhances posture.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Kneel on the mat with your knees hip-width apart and hands resting on your lower back.</item>
+        <item>2. Slowly arch your back, reaching your hands towards your heels.</item>
+        <item>3. Keep your chest lifted and engage your core for support.</item>
+        <item>4. Hold the pose for 20-30 seconds, breathing deeply.</item>
+        <item>5. Slowly return to the starting position by engaging your core and lifting your torso upright.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your thighs perpendicular to the ground.</item>
+        <item>2. Avoid straining your lower back; focus on opening your chest.</item>
+        <item>3. If reaching your heels is difficult, place your hands on your lower back for support.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaBridgePose">
+        <item>Bridge Pose</item>
+        <item>Bridge Pose, or Setu Bandhasana, is a backbend that strengthens the spine, glutes, and hamstrings while opening the chest and shoulders.</item>
+        <item>This pose helps relieve lower back pain and promotes relaxation.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with your knees bent and feet hip-width apart.</item>
+        <item>2. Press into your feet and lift your hips towards the ceiling.</item>
+        <item>3. Keep your arms alongside your body or clasp your hands underneath your back.</item>
+        <item>4. Hold the position for 20-30 seconds while breathing deeply.</item>
+        <item>5. Slowly lower your hips back to the mat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your glutes and core for stability.</item>
+        <item>2. Avoid arching your lower back too much; focus on lifting through the hips.</item>
+        <item>3. If needed, place a yoga block under your sacrum for support.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaSaithalyasana">
+        <item>Saithalyasana | Animal Relaxation Pose</item>
+        <item>Saithalyasana, or Animal Relaxation Pose, is a seated forward bend that promotes deep relaxation and releases tension in the spine and hips.</item>
+        <item>This pose is often used for stress relief and calming the nervous system.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the mat with your legs folded under you in a comfortable position.</item>
+        <item>2. Slowly bend forward, extending your arms in front of you.</item>
+        <item>3. Rest your forehead on the mat and allow your body to relax completely.</item>
+        <item>4. Hold the position for 30-60 seconds, breathing deeply.</item>
+        <item>5. Slowly rise back up to a seated position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your hips grounded while reaching forward.</item>
+        <item>2. Focus on deep, slow breaths to enhance relaxation.</item>
+        <item>3. If needed, place a cushion under your forehead for extra comfort.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaUpavisthaKonasana">
+        <item>Upavistha Konasana | Seated Wide-Legged Forward Bend</item>
+        <item>Upavistha Konasana is a deep forward bend that stretches the inner thighs, hamstrings, and lower back.</item>
+        <item>This pose improves flexibility in the legs and promotes relaxation.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the mat with your legs extended wide apart.</item>
+        <item>2. Keep your spine straight and slowly lean forward, reaching your hands towards your feet.</item>
+        <item>3. Engage your core and avoid rounding your lower back.</item>
+        <item>4. Hold the position for 20-30 seconds while breathing deeply.</item>
+        <item>5. Slowly return to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your knees slightly bent if your hamstrings feel too tight.</item>
+        <item>2. Focus on lengthening your spine as you fold forward.</item>
+        <item>3. Use yoga blocks under your hands for support if needed.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaBhujangasana">
+        <item>Bhujangasana | Cobra Abdominal Stretch</item>
+        <item>Bhujangasana, or Cobra Pose, is a backbend that strengthens the spine and opens the chest, improving posture and flexibility.</item>
+        <item>This pose energizes the body and helps relieve back stiffness.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your stomach with your hands placed under your shoulders.</item>
+        <item>2. Inhale and lift your chest, straightening your arms while keeping your legs and pelvis grounded.</item>
+        <item>3. Engage your core and keep your shoulders relaxed.</item>
+        <item>4. Hold the pose for 20-30 seconds while breathing deeply.</item>
+        <item>5. Exhale and slowly lower back to the mat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your elbows slightly bent if you feel tension in your lower back.</item>
+        <item>2. Engage your glutes and core for better support.</item>
+        <item>3. Avoid overextending your neck; keep your gaze forward or slightly upward.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaFishPose">
+        <item>Fish Pose</item>
+        <item>Fish Pose, or Matsyasana, is a chest-opening yoga pose that stretches the throat, chest, and shoulders while strengthening the upper back.</item>
+        <item>This pose improves posture, relieves tension in the neck and shoulders, and enhances lung capacity.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with your legs extended and arms resting beside your body.</item>
+        <item>2. Place your hands under your glutes and press your forearms into the ground.</item>
+        <item>3. Inhale and lift your chest while tilting your head back so the crown of your head rests lightly on the mat.</item>
+        <item>4. Hold the position for 20-30 seconds, breathing deeply.</item>
+        <item>5. Exhale and slowly lower your chest and head back to the mat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core and press your forearms into the floor for support.</item>
+        <item>2. Avoid putting too much pressure on your head; the weight should be supported by your arms.</item>
+        <item>3. If needed, modify by placing a yoga block under your upper back for a gentler stretch.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaBowPose">
+        <item>Bow Pose</item>
+        <item>Bow Pose, or Dhanurasana, is a deep backbend that stretches the front of the body while strengthening the back muscles.</item>
+        <item>This pose improves spinal flexibility, stimulates digestion, and opens the chest and shoulders.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your stomach with your arms alongside your body and legs extended.</item>
+        <item>2. Bend your knees and reach back to grab your ankles.</item>
+        <item>3. Inhale and lift your chest and legs off the mat, pulling your feet upwards.</item>
+        <item>4. Hold the position for 20-30 seconds while breathing deeply.</item>
+        <item>5. Exhale and slowly lower back to the starting position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your thighs hip-width apart to maintain balance.</item>
+        <item>2. Engage your core and avoid straining your lower back.</item>
+        <item>3. If it\'s difficult to reach your ankles, use a yoga strap around your feet for assistance.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaCatCowPose">
+        <item>Cat-Cow Pose</item>
+        <item>Cat-Cow Pose, or Marjaryasana-Bitilasana, is a gentle yoga flow that enhances spinal flexibility and relieves tension in the back.</item>
+        <item>This pose improves posture, stretches the neck and shoulders, and promotes relaxation.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin on all fours with your wrists under your shoulders and knees under your hips.</item>
+        <item>2. Inhale, arch your back, lift your tailbone, and look up (Cow Pose).</item>
+        <item>3. Exhale, round your spine, tuck your chin to your chest, and draw your belly inward (Cat Pose).</item>
+        <item>4. Continue flowing between these two positions for 5-10 breaths.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Move slowly and with control, syncing movement with breath.</item>
+        <item>2. Keep your shoulders relaxed and avoid hunching them.</item>
+        <item>3. Modify by placing a cushion under your knees for extra comfort.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaAbdominalBracing">
+        <item>Abdominal Bracing</item>
+        <item>Abdominal Bracing is a core-strengthening exercise that improves stability, supports the lower back, and enhances posture.</item>
+        <item>This technique is used in many workouts to engage the deep core muscles.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with your knees bent and feet flat on the floor.</item>
+        <item>2. Tighten your core as if bracing for impact without holding your breath.</item>
+        <item>3. Hold the contraction for 10-20 seconds while maintaining steady breathing.</item>
+        <item>4. Release and repeat for several repetitions.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your spine in a neutral position without arching or flattening your lower back.</item>
+        <item>2. Engage your deep abdominal muscles without tensing your neck or shoulders.</item>
+        <item>3. Gradually increase the duration as your core strength improves.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaDoublePigeonPose">
+        <item>Double Pigeon Pose</item>
+        <item>Double Pigeon Pose, or Agnistambhasana, is a deep hip opener that stretches the glutes, outer thighs, and lower back.</item>
+        <item>This pose helps release tension in the hips and improves flexibility in the lower body.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Sit on the mat with your legs extended in front of you.</item>
+        <item>2. Bend one knee and stack your shin parallel to the front edge of the mat.</item>
+        <item>3. Place the other shin on top, aligning the knees and ankles.</item>
+        <item>4. Lean forward slightly to deepen the stretch, keeping your spine long.</item>
+        <item>5. Hold the position for 20-30 seconds, then switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your feet flexed to protect your knees.</item>
+        <item>2. If your top knee is elevated, place a cushion under it for support.</item>
+        <item>3. Move slowly and listen to your body to avoid overstretching.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaFrogPose">
+        <item>Frog Pose</item>
+        <item>Frog Pose, or Bhekasana, is a deep hip-opening yoga pose that stretches the inner thighs, groin, and hips while improving flexibility.</item>
+        <item>This pose enhances mobility in the hips, relieves tension in the lower back, and is beneficial for those with tight hip flexors.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin on all fours with your hands under your shoulders and knees under your hips.</item>
+        <item>2. Slowly widen your knees as far as comfortable, keeping your ankles in line with your knees.</item>
+        <item>3. Lower your forearms to the mat and press your hips back slightly.</item>
+        <item>4. Hold the position for 20-30 seconds while breathing deeply.</item>
+        <item>5. To release, bring your knees back together and return to a seated or kneeling position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your core engaged to support your lower back.</item>
+        <item>2. If the stretch is too intense, place a cushion under your knees for support.</item>
+        <item>3. Move slowly and avoid forcing your knees too wide to prevent strain.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaSupineSpinalTwist">
+        <item>Supine Spinal Twist</item>
+        <item>Supine Spinal Twist, or Supta Matsyendrasana, is a restorative yoga pose that stretches the spine, lower back, and obliques.</item>
+        <item>This pose helps release tension in the back, improves spinal mobility, and promotes relaxation.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back with your legs extended.</item>
+        <item>2. Bend one knee and bring it across your body toward the opposite side.</item>
+        <item>3. Extend your opposite arm and look in the opposite direction.</item>
+        <item>4. Hold the position for 20-30 seconds while breathing deeply.</item>
+        <item>5. Return to the center and repeat on the other side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep both shoulders grounded on the mat for a deeper stretch.</item>
+        <item>2. Modify by placing a pillow under your bent knee if needed.</item>
+        <item>3. Relax into the twist and avoid forcing the movement.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaParsvaBalasana">
+        <item>Parsva Balasana | Thread the Needle Pose</item>
+        <item>Parsva Balasana, or Thread the Needle Pose, is a gentle twisting yoga posture that stretches the shoulders, upper back, and neck while promoting spinal mobility and relaxation.</item>
+        <item>This pose helps relieve tension in the upper body, improves flexibility, and encourages deep breathing.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Begin in a tabletop position with your hands and knees on the mat.</item>
+        <item>2. Inhale and lift your right arm toward the ceiling, opening your chest.</item>
+        <item>3. Exhale and thread your right arm under your left arm, bringing your right shoulder and cheek to rest on the mat.</item>
+        <item>4. Keep your hips aligned and extend your left arm forward or rest it on your lower back.</item>
+        <item>5. Hold the position for 20-30 seconds, breathing deeply.</item>
+        <item>6. Inhale to lift your right arm back up and return to the starting position.</item>
+        <item>7. Repeat on the other side.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your hips square and avoid shifting them to one side.</item>
+        <item>2. Maintain a gentle stretch without forcing the twist.</item>
+        <item>3. Relax your neck and allow your upper body to sink into the stretch.</item>
+        <item>4. Use a yoga block under your shoulder if you need additional support.</item>
+    </string-array>
+
+
+    <string-array name="descriptionYogaHalfFrogPose">
+        <item>Half Frog Pose</item>
+        <item>Half Frog Pose, or Ardha Bhekasana, is a backbend and quad-stretching yoga pose that increases flexibility in the hip flexors and thighs.</item>
+        <item>This pose strengthens the spine, improves posture, and relieves tightness in the front body.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your stomach with your legs extended.</item>
+        <item>2. Bend one knee and reach back to grab your ankle with the same-side hand.</item>
+        <item>3. Press your foot toward your glute while lifting your chest.</item>
+        <item>4. Hold the position for 20-30 seconds while breathing deeply.</item>
+        <item>5. Release and switch sides.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your hips pressed into the mat to maintain stability.</item>
+        <item>2. Use a yoga strap around your foot if you have limited flexibility.</item>
+        <item>3. Avoid excessive arching in your lower back by engaging your core.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaHappyBabyPose">
+        <item>Happy Baby Pose</item>
+        <item>Happy Baby Pose, or Ananda Balasana, is a relaxing yoga pose that stretches the hips, inner thighs, and lower back.</item>
+        <item>This pose helps reduce stress, release lower back tension, and improve hip flexibility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your back and bring your knees toward your chest.</item>
+        <item>2. Grab the outer edges of your feet with your hands.</item>
+        <item>3. Open your knees wider than your torso and gently rock side to side.</item>
+        <item>4. Hold the position for 20-30 seconds while breathing deeply.</item>
+        <item>5. Release and return to a neutral position.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Keep your lower back pressed into the mat to prevent strain.</item>
+        <item>2. Modify by holding your shins if reaching your feet is difficult.</item>
+        <item>3. Relax your shoulders and let gravity help deepen the stretch.</item>
+    </string-array>
+
+    <string-array name="descriptionYogaDhanurasana">
+        <item>Dhanurasana | Rocking Bow Pose</item>
+        <item>Dhanurasana, or Rocking Bow Pose, is a powerful backbend that stretches the entire front body while strengthening the back muscles. It improves flexibility in the spine and opens the chest and shoulders.</item>
+        <item>This pose enhances posture, stimulates the digestive organs, and increases spinal mobility.</item>
+        <item>To perform the exercise:</item>
+        <item>1. Lie on your stomach with your arms resting by your sides.</item>
+        <item>2. Bend your knees and bring your heels toward your glutes.</item>
+        <item>3. Reach back and grasp your ankles with both hands.</item>
+        <item>4. Inhale and lift your chest, pulling your legs upward to form a bow shape.</item>
+        <item>5. Hold the position for 20-30 seconds while maintaining steady breathing.</item>
+        <item>6. For the rocking variation, gently rock forward and backward by shifting your weight.</item>
+        <item>7. Exhale and slowly release the pose, lowering your legs and chest to the mat.</item>
+        <item>Tips for proper execution:</item>
+        <item>1. Engage your core and legs to avoid excessive lower back compression.</item>
+        <item>2. Keep your neck relaxed and gaze slightly forward.</item>
+        <item>3. If reaching your ankles is difficult, use a yoga strap around your feet.</item>
+        <item>4. Perform the rocking motion smoothly and avoid abrupt movements.</item>
+    </string-array>
+
+</resources>
